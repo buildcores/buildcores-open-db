@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Optical Drive Schema",
+  "description": "Schema for optical drive components",
+  "required": [
+    "metadata"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "name",
+        "manufacturer"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "Optical drive manufacturer"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "specifications": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type of optical drive (e.g., DVD-RW, Blu-ray)",
+          "enum": [
+            "CD-ROM",
+            "CD-RW",
+            "DVD-ROM",
+            "DVD-RW",
+            "Blu-ray",
+            "Blu-ray-RW"
+          ]
+        },
+        "interface": {
+          "type": "string",
+          "description": "Interface type (e.g., SATA, USB)",
+          "enum": [
+            "SATA",
+            "USB",
+            "IDE"
+          ]
+        },
+        "formFactor": {
+          "type": "string",
+          "description": "Form factor of the drive",
+          "enum": [
+            "5.25\"",
+            "Slim",
+            "External"
+          ]
+        }
+      },
+      "required": [
+        "type",
+        "interface",
+        "formFactor"
+      ]
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "string",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "string",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

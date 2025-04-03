@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "UPS Schema",
+  "description": "Schema for UPS (Uninterruptible Power Supply) components",
+  "required": [
+    "metadata"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "name",
+        "manufacturer"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "UPS manufacturer"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "specifications": {
+      "type": "object",
+      "properties": {
+        "capacity": {
+          "type": "number",
+          "description": "Capacity in VA (Volt-Amperes)"
+        },
+        "wattage": {
+          "type": "number",
+          "description": "Output wattage"
+        },
+        "topology": {
+          "type": "string",
+          "description": "UPS topology type",
+          "enum": [
+            "Standby",
+            "Line-Interactive",
+            "Online/Double-Conversion"
+          ]
+        },
+        "inputVoltage": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": "number",
+              "description": "Minimum input voltage"
+            },
+            "max": {
+              "type": "number",
+              "description": "Maximum input voltage"
+            }
+          },
+          "required": [
+            "min",
+            "max"
+          ]
+        },
+        "outputVoltage": {
+          "type": "number",
+          "description": "Nominal output voltage"
+        },
+        "batteryRuntime": {
+          "type": "number",
+          "description": "Battery runtime at half load in minutes"
+        },
+        "ports": {
+          "type": "object",
+          "properties": {
+            "usb": {
+              "type": "boolean",
+              "description": "Has USB port"
+            },
+            "serial": {
+              "type": "boolean",
+              "description": "Has serial port"
+            },
+            "network": {
+              "type": "boolean",
+              "description": "Has network management port"
+            }
+          }
+        }
+      },
+      "required": [
+        "capacity",
+        "wattage",
+        "topology",
+        "outputVoltage",
+        "batteryRuntime"
+      ]
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "string",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "string",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

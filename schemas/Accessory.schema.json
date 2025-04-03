@@ -1,0 +1,173 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "Accessory Schema",
+    "description": "Schema for accessory components",
+    "required": [
+      "metadata"
+    ],
+    "properties": {
+      "opendb_id": {
+        "type": "string",
+        "description": "Unique identifier for the document (UUID v4)"
+      },
+      "metadata": {
+        "type": "object",
+        "required": [
+          "name",
+          "manufacturer"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Full product name"
+          },
+          "manufacturer": {
+            "type": "string",
+            "description": "Accessory manufacturer"
+          },
+          "part_numbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of manufacturer's part numbers/SKUs"
+          },
+          "series": {
+            "type": "string",
+            "description": "Product series name"
+          },
+          "variant": {
+            "type": "string",
+            "description": "Specific variant in the series"
+          },
+          "releaseYear": {
+            "type": "number",
+            "description": "Year of release"
+          },
+          "accessory_type": {
+            "type": "string",
+            "description": "Type of accessory (e.g., USB hub, docking station, adapter)"
+          }
+        }
+      },
+      "specifications": {
+        "type": "object",
+        "properties": {
+          "interface": {
+            "type": "string",
+            "description": "Connection interface (USB, Thunderbolt, etc.)"
+          },
+          "ports": {
+            "type": "object",
+            "properties": {
+              "usb_a": {
+                "type": "number",
+                "description": "Number of USB Type-A ports"
+              },
+              "usb_c": {
+                "type": "number",
+                "description": "Number of USB Type-C ports"
+              },
+              "hdmi": {
+                "type": "number",
+                "description": "Number of HDMI ports"
+              },
+              "displayport": {
+                "type": "number",
+                "description": "Number of DisplayPort ports"
+              },
+              "ethernet": {
+                "type": "number",
+                "description": "Number of Ethernet ports"
+              },
+              "audio": {
+                "type": "number",
+                "description": "Number of audio ports"
+              },
+              "other": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Other ports or connections"
+              }
+            }
+          },
+          "compatibility": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Compatibility with operating systems or devices"
+          },
+          "dimensions": {
+            "type": "object",
+            "properties": {
+              "length": {
+                "type": "number",
+                "description": "Length in mm"
+              },
+              "width": {
+                "type": "number",
+                "description": "Width in mm"
+              },
+              "height": {
+                "type": "number",
+                "description": "Height in mm"
+              }
+            }
+          },
+          "wireless": {
+            "type": "boolean",
+            "description": "Whether the accessory is wireless"
+          },
+          "power_delivery": {
+            "type": "boolean",
+            "description": "Whether the accessory supports power delivery"
+          },
+          "max_power_delivery": {
+            "type": "number",
+            "description": "Maximum power delivery in watts"
+          },
+          "features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Special features of the accessory"
+          }
+        }
+      },
+      "general_product_information": {
+        "type": "object",
+        "description": "General product information and retailer SKUs",
+        "properties": {
+          "amazon_sku": {
+            "type": "string",
+            "description": "Amazon product SKU"
+          },
+          "newegg_sku": {
+            "type": "string",
+            "description": "Newegg product SKU"
+          },
+          "bestbuy_sku": {
+            "type": "string",
+            "description": "Best Buy product SKU"
+          },
+          "walmart_sku": {
+            "type": "string",
+            "description": "Walmart product SKU"
+          },
+          "adorama_sku": {
+            "type": "string",
+            "description": "Adorama product SKU"
+          },
+          "manufacturer_url": {
+            "type": "string",
+            "description": "Official manufacturer product URL"
+          }
+        }
+      }
+    }
+  }
