@@ -48,10 +48,10 @@
     },
     "color": {
       "type": "array",
-      "description": "Color variants of the monitor",
       "items": {
-        "type": "object"
-      }
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
     },
     "viewing_angle": {
       "type": "string",
