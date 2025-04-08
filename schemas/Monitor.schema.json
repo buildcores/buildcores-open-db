@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Monitor Schema",
+  "description": "Schema for monitor components",
+  "required": [
+    "name",
+    "horizontalRes",
+    "verticalRes",
+    "manufacturer",
+    "panelType",
+    "refreshRate",
+    "screenSize"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the part"
+    },
+    "aspectRatio": {
+      "type": "string",
+      "description": "Aspect ratio of the monitor (e.g. 16:9, 21:9, etc)"
+    },
+    "horizontalRes": {
+      "type": "number",
+      "description": "Horizontal resolution of the monitor in pixels"
+    },
+    "verticalRes": {
+      "type": "number",
+      "description": "Vertical resolution of the monitor in pixels"
+    },
+    "manufacturer": {
+      "type": "string",
+      "description": "Name of the manufacturer"
+    },
+    "panelType": {
+      "type": "string",
+      "description": "Type of panel on the display (IPS, VA, TN, OLED, etc)"
+    },
+    "ports": {
+      "type": "string",
+      "description": "Ports on the monitor"
+    },
+    "refreshRate": {
+      "type": "number",
+      "description": "Refresh rate of the monitor (Hz)"
+    },
+    "screenSize": {
+      "type": "number",
+      "description": "Screen size of the monitor in inches"
+    },
+    "VRR": {
+      "type": "string",
+      "description": "Type of adaptive sync supported (empty if None). Could be FreeSync or G-Sync"
+    },
+    "brightness": {
+      "type": "number",
+      "description": "Brightness (nits)"
+    },
+    "gtg_response_time": {
+      "type": "number",
+      "description": "Response Time (G2G)"
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "PC Case Schema",
+  "description": "Schema for PC case components",
+  "required": [
+    "form_factor",
+    "side_panel",
+    "has_transparent_side_panel"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "form_factor": {
+      "type": "string",
+      "description": "The form factor of the case (e.g., ATX Mid Tower, Full Tower, Mini-ITX)"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "power_supply": {
+      "type": "string",
+      "description": "If included with the case, could detail the PSU model"
+    },
+    "power_supply_included": {
+      "type": "boolean",
+      "description": "Whether the case includes a power supply"
+    },
+    "side_panel": {
+      "type": "string",
+      "description": "The type of side panel (e.g., Tempered Glass, Acrylic, Solid)"
+    },
+    "has_transparent_side_panel": {
+      "type": "boolean",
+      "description": "Whether the case has a transparent side panel"
+    },
+    "front_panel_usb": {
+      "type": "string",
+      "description": "Description of front panel USB ports (e.g., 'USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A')"
+    },
+    "max_video_card_length": {
+      "type": "number",
+      "description": "The maximum supported video card length in mm"
+    },
+    "max_cpu_cooler_height": {
+      "type": "number",
+      "description": "The maximum supported CPU cooler height in mm"
+    },
+    "internal_3_5_bays": {
+      "type": "number",
+      "description": "The number of internal 3.5\" drive bays"
+    },
+    "internal_2_5_bays": {
+      "type": "number",
+      "description": "The number of internal 2.5\" drive bays"
+    },
+    "expansion_slots": {
+      "type": "number",
+      "description": "The number of expansion slots"
+    },
+    "dimensions": {
+      "type": "string",
+      "description": "The dimensions of the case in mm (e.g., '466 x 290 x 495')"
+    },
+    "volume": {
+      "type": "number",
+      "description": "The internal volume of the case in liters"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Weight in pounds"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "The manufacturer of the case (e.g., NZXT)"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs for the case"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

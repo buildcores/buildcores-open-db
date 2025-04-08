@@ -1,0 +1,216 @@
+name: Validate JSON Against Schemas
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install ajv-cli
+        run: |
+          npm install -g ajv-cli@5.0.0
+
+      - name: Get changed JSON files
+        id: changed-files
+        run: |
+          ADDED_FILES=$(git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^A.*\.json$' | grep -v "\.schema\.json$" | cut -f2 || true)
+          MODIFIED_FILES=$(git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^M.*\.json$' | grep -v "\.schema\.json$" | cut -f2 || true)
+          DELETED_FILES=$(git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^D.*\.json$' | grep -v "\.schema\.json$" | cut -f2 || true)
+          
+          echo "ADDED_FILES<<EOF" >> $GITHUB_ENV
+          echo "$ADDED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
+          echo "MODIFIED_FILES<<EOF" >> $GITHUB_ENV
+          echo "$MODIFIED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
+          echo "DELETED_FILES<<EOF" >> $GITHUB_ENV
+          echo "$DELETED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
+          CHANGED_FILES="$ADDED_FILES"$'\n'"$MODIFIED_FILES"
+          if [[ -z "$CHANGED_FILES" ]]; then
+            echo "No JSON files added or modified in this PR."
+            echo "CHANGED_FILES=" >> $GITHUB_ENV
+          else
+            echo "Changed JSON files:"
+            echo "$CHANGED_FILES"
+            echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
+            echo "$CHANGED_FILES" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+          fi
+
+      - name: Validate each JSON file against its schema
+        id: validation
+        if: env.CHANGED_FILES != ''
+        run: |
+          VALIDATION_RESULTS="validation_results.json"
+          echo '{"results": []}' > $VALIDATION_RESULTS
+          
+          EXIT_CODE=0
+          
+          add_result() {
+            local file="$1"
+            local status="$2"
+            local message="$3"
+            local change_type="$4"
+            
+            message="${message//\"/\\\"}"
+            
+            jq --arg file "$file" \
+               --arg status "$status" \
+               --arg message "$message" \
+               --arg change_type "$change_type" \
+              '.results += [{"file": $file, "status": $status, "message": $message, "change_type": $change_type}]' \
+              $VALIDATION_RESULTS > tmp.json && mv tmp.json $VALIDATION_RESULTS
+          }
+          
+          for file in $CHANGED_FILES; do
+            echo "Processing $file..."
+            
+            if echo "$ADDED_FILES" | grep -q "^$file$"; then
+              CHANGE_TYPE="added"
+            else
+              CHANGE_TYPE="modified"
+            fi
+            
+            PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
+            SCHEMA_FILE="schemas/${PART_CATEGORY}.schema.json"
+            
+            if [ -f "$SCHEMA_FILE" ]; then
+              echo "Validating against schema: $SCHEMA_FILE"
+              TEMP_LOG="validation_output.log"
+              
+              if ! ajv validate -s "$SCHEMA_FILE" -d "$file" --all-errors > "$TEMP_LOG" 2>&1; then
+                VALIDATION_OUTPUT=$(cat "$TEMP_LOG")
+                echo "::error file=$file::JSON validation failed against schema $SCHEMA_FILE"
+                add_result "$file" "failed" "Validation errors:\n$VALIDATION_OUTPUT" "$CHANGE_TYPE"
+                EXIT_CODE=1
+              else
+                VALIDATION_OUTPUT=$(cat "$TEMP_LOG")
+                echo "✅ Validation passed for $file"
+                add_result "$file" "passed" "File successfully validated against schema: $SCHEMA_FILE" "$CHANGE_TYPE"
+              fi
+              rm -f "$TEMP_LOG"
+            else
+              echo "::warning file=$file::No matching schema found at $SCHEMA_FILE"
+              add_result "$file" "warning" "No matching schema found at $SCHEMA_FILE" "$CHANGE_TYPE"
+            fi
+          done
+          
+          for file in $DELETED_FILES; do
+            echo "Processing deleted file: $file..."
+            add_result "$file" "info" "File marked for deletion" "deleted"
+          done
+          
+          echo "Storing validation results..."
+          RESULTS_JSON=$(cat $VALIDATION_RESULTS)
+          echo "VALIDATION_RESULTS=$(echo "$RESULTS_JSON" | base64 -w 0)" >> $GITHUB_OUTPUT
+          
+          echo "validation_failed=$EXIT_CODE" >> $GITHUB_OUTPUT
+          
+          echo "Validation step finished. Overall status code: $EXIT_CODE"
+
+      - name: Comment on PR with validation results
+        if: always()
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const childProcess = require('child_process');
+            const util = require('util');
+            const execAsync = util.promisify(childProcess.exec);
+            
+            const base64Results = '${{ steps.validation.outputs.VALIDATION_RESULTS }}' || '';
+            let validationResults = { results: [] };
+            
+            if (base64Results) {
+              try {
+                fs.writeFileSync('/tmp/results.base64', base64Results);
+                await execAsync('base64 -d /tmp/results.base64 > /tmp/results.json');
+                const jsonContent = fs.readFileSync('/tmp/results.json', 'utf8');
+                validationResults = JSON.parse(jsonContent);
+              } catch (error) {
+                console.error('Error processing validation results:', error);
+              }
+            }
+            
+            if (!validationResults.results || validationResults.results.length === 0) {
+              console.log('No validation results to report.');
+              return;
+            }
+            
+            let commentBody = '## JSON Validation Results\n\n';
+            
+            const passed = validationResults.results.filter(r => r.status === 'passed');
+            const failed = validationResults.results.filter(r => r.status === 'failed');
+            const warnings = validationResults.results.filter(r => r.status === 'warning');
+            const deletions = validationResults.results.filter(r => r.status === 'info' && r.change_type === 'deleted');
+            
+            commentBody += '### Summary\n';
+            commentBody += `- ✅ **${passed.length}** files passed validation\n`;
+            commentBody += `- ❌ **${failed.length}** files failed validation\n`;
+            commentBody += `- ⚠️ **${warnings.length}** files with warnings\n`;
+            commentBody += `- 🗑️ **${deletions.length}** files deleted\n\n`;
+            
+            if (failed.length > 0) {
+              commentBody += '### Failed Validations\n\n';
+              failed.forEach(result => {
+                commentBody += `#### ${result.file} (${result.change_type})\n`;
+                commentBody += '```\n' + result.message + '\n```\n\n';
+              });
+            }
+            
+            if (warnings.length > 0) {
+              commentBody += '### Warnings\n\n';
+              warnings.forEach(result => {
+                commentBody += `- **${result.file}** (${result.change_type}): ${result.message}\n`;
+              });
+              commentBody += '\n';
+            }
+            
+            if (passed.length > 0) {
+              commentBody += '### Passed Validations\n\n';
+              passed.forEach(result => {
+                commentBody += `- ✅ **${result.file}** (${result.change_type})\n`;
+              });
+              commentBody += '\n';
+            }
+            
+            if (deletions.length > 0) {
+              commentBody += '### Deleted Files\n\n';
+              deletions.forEach(result => {
+                commentBody += `- 🗑️ **${result.file}**\n`;
+              });
+            }
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: commentBody
+            });
+
+      - name: Fail job if validation errors occurred
+        if: steps.validation.outputs.validation_failed == '1'
+        run: |
+          echo "Validation failed for one or more files. Failing the job."
+          exit 1

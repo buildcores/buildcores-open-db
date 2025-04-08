@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Power Supply Schema",
+  "description": "Schema for power supply components",
+  "required": [
+    "wattage",
+    "form_factor",
+    "efficiency_rating",
+    "modular"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "wattage": {
+      "type": "number",
+      "description": "The total power output of the PSU in watts (e.g., 1000)"
+    },
+    "form_factor": {
+      "type": "string",
+      "description": "The physical size and shape of the PSU (e.g., ATX)"
+    },
+    "efficiency_rating": {
+      "type": "string",
+      "description": "The 80 PLUS efficiency certification level (e.g., 80 PLUS Gold)"
+    },
+    "modular": {
+      "type": "string",
+      "description": "The modularity of the PSU cables (e.g., Full, Semi-Modular, Non-Modular)"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "length": {
+      "type": "number",
+      "description": "The length of the PSU in mm (e.g., 140)"
+    },
+    "fanless": {
+      "type": "boolean",
+      "description": "Whether the PSU operates without a fan"
+    },
+    "connectors": {
+      "type": "object",
+      "properties": {
+        "atx_24_pin": {
+          "type": "number",
+          "description": "The number of ATX 24-pin (20+4) connectors (main motherboard power)"
+        },
+        "eps_8_pin": {
+          "type": "number",
+          "description": "The number of EPS12V 8-pin (4+4) connectors (CPU power)"
+        },
+        "pcie_12vhpwr": {
+          "type": "number",
+          "description": "The number of PCIe 5.0 12VHPWR (12+4) pin connectors (for high-end GPUs). Also referred to as 16-pin (12+4)"
+        },
+        "pcie_6_plus_2_pin": {
+          "type": "number",
+          "description": "The number of PCIe 6+2-pin connectors (commonly used for GPUs)"
+        },
+        "sata": {
+          "type": "number",
+          "description": "The number of SATA power connectors"
+        },
+        "molex_4_pin": {
+          "type": "number",
+          "description": "The number of Molex 4-pin peripheral connectors (for older devices)"
+        },
+        "floppy_4_pin": {
+          "type": "number",
+          "description": "The number of Floppy 4-pin connectors. Increasingly rare"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "PSU manufacturer"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

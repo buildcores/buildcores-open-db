@@ -1,0 +1,144 @@
+name: Detect JSON File Changes and Call API
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  detect-json-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get file changes
+        id: file-changes
+        run: |
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            ADDED_FILES=$(git diff --name-status HEAD~1 HEAD | grep '^A.*\.json$' | cut -f2 || true)
+            MODIFIED_FILES=$(git diff --name-status HEAD~1 HEAD | grep '^M.*\.json$' | cut -f2 || true)
+            DELETED_FILES=$(git diff --name-status HEAD~1 HEAD | grep '^D.*\.json$' | cut -f2 || true)
+          else
+            ADDED_FILES=$(git ls-files '*.json')
+            MODIFIED_FILES=""
+            DELETED_FILES=""
+          fi
+          
+          echo "ADDED_FILES<<EOF" >> $GITHUB_ENV
+          echo "$ADDED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
+          echo "MODIFIED_FILES<<EOF" >> $GITHUB_ENV
+          echo "$MODIFIED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+          
+          echo "DELETED_FILES<<EOF" >> $GITHUB_ENV
+          echo "$DELETED_FILES" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Process added and modified JSON files
+        env:
+          API_BASE_URL: "https://api.buildcores.com/api/open-db"
+          API_KEY: "${{ secrets.BUILDCORES_OPEN_DB_API_TOKEN }}"
+        run: |
+          ERROR_COUNT=0
+          
+          for file in $ADDED_FILES; do
+            if [ -f "$file" ]; then
+              echo "Processing new file: $file..."
+              
+              PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
+              PART_ID=$(jq -r '.opendb_id' "$file")
+              DATA=$(jq -c '.' "$file")
+              
+              if [ "$PART_ID" != "null" ]; then
+                echo "POST Request Data (create-part):"
+                echo "------------------"
+                echo "partCategory: $PART_CATEGORY"
+                echo "opendb_id: $PART_ID"
+                echo "data: $DATA"
+                echo "------------------"
+                
+                curl -X POST "$API_BASE_URL/create-part" \
+                  -H "Content-Type: application/json" \
+                  -H "Authorization: Bearer $API_KEY" \
+                  -d "{\"partCategory\": \"$PART_CATEGORY\", \"opendb_id\": \"$PART_ID\", \"data\": $DATA}"
+                  
+                echo "API create-part request sent for $file"
+              else
+                echo "ERROR: File $file is missing the required opendb_id field."
+                ERROR_COUNT=$((ERROR_COUNT+1))
+              fi
+            fi
+          done
+          
+          for file in $MODIFIED_FILES; do
+            if [ -f "$file" ]; then
+              echo "Processing updated file: $file..."
+              
+              PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
+              PART_ID=$(jq -r '.opendb_id' "$file")
+              DATA=$(jq -c '.' "$file")
+              
+              if [ "$PART_ID" != "null" ]; then
+                echo "POST Request Data (update-part):"
+                echo "------------------"
+                echo "partCategory: $PART_CATEGORY"
+                echo "opendb_id: $PART_ID"
+                echo "data: $DATA"
+                echo "------------------"
+                
+                curl -X POST "$API_BASE_URL/update-part" \
+                  -H "Content-Type: application/json" \
+                  -H "Authorization: Bearer $API_KEY" \
+                  -d "{\"partCategory\": \"$PART_CATEGORY\", \"opendb_id\": \"$PART_ID\", \"data\": $DATA}"
+                  
+                echo "API update-part request sent for $file"
+              else
+                echo "ERROR: File $file is missing the required opendb_id field."
+                ERROR_COUNT=$((ERROR_COUNT+1))
+              fi
+            fi
+          done
+          
+          for file in $DELETED_FILES; do
+            echo "Processing deleted file: $file..."
+            
+            PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
+            
+            git checkout HEAD~1 -- "$file" 2>/dev/null
+            if [ -f "$file" ]; then
+              PART_ID=$(jq -r '.opendb_id' "$file")
+              
+              if [ "$PART_ID" != "null" ]; then
+                echo "POST Request Data (delete-part):"
+                echo "------------------"
+                echo "partCategory: $PART_CATEGORY"
+                echo "opendb_id: $PART_ID" 
+                echo "------------------"
+                
+                curl -X POST "$API_BASE_URL/delete-part" \
+                  -H "Content-Type: application/json" \
+                  -H "Authorization: Bearer $API_KEY" \
+                  -d "{\"partCategory\": \"$PART_CATEGORY\", \"opendb_id\": \"$PART_ID\"}"
+                  
+                echo "API delete-part request sent for $file"
+                
+                rm "$file"
+              else
+                echo "ERROR: Deleted file $file was missing the required opendb_id field."
+                ERROR_COUNT=$((ERROR_COUNT+1))
+              fi
+            else
+              echo "ERROR: Could not retrieve deleted file $file from previous commit."
+              ERROR_COUNT=$((ERROR_COUNT+1))
+            fi
+          done
+
+          if [ $ERROR_COUNT -gt 0 ]; then
+            echo "ERROR: $ERROR_COUNT file(s) had issues during processing."
+            exit 1
+          fi

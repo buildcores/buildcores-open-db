@@ -1,0 +1,166 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "CPU Schema",
+  "description": "Schema for CPU components",
+  "required": [
+    "series",
+    "microarchitecture",
+    "socket",
+    "cores"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "series": {
+      "type": "string",
+      "description": "The CPU series (e.g., Intel Core i9, AMD Ryzen 9, Intel Core Ultra 5)"
+    },
+    "microarchitecture": {
+      "type": "string",
+      "description": "The microarchitecture of the CPU (e.g., Raptor Lake Refresh, Zen 4)"
+    },
+    "coreFamily": {
+      "type": "string",
+      "description": "The specific core family (e.g., Raptor Cove, Granite Ridge)"
+    },
+    "socket": {
+      "type": "string",
+      "description": "The type of socket the CPU uses (e.g., LGA 1851, AM5)"
+    },
+    "cores": {
+      "type": "object",
+      "required": [
+        "total",
+        "threads"
+      ],
+      "properties": {
+        "total": {
+          "type": "number",
+          "description": "The total number of physical cores in the CPU"
+        },
+        "performance": {
+          "type": "number",
+          "description": "The number of performance cores (hybrid CPUs only)"
+        },
+        "efficiency": {
+          "type": "number",
+          "description": "The number of efficiency cores (hybrid CPUs only)"
+        },
+        "threads": {
+          "type": "number",
+          "description": "The number of logical threads the CPU can handle"
+        }
+      }
+    },
+    "clocks": {
+      "type": "object",
+      "properties": {
+        "performance": {
+          "type": "object",
+          "properties": {
+            "base": {
+              "type": "number",
+              "description": "The base clock speed of the performance cores in GHz"
+            },
+            "boost": {
+              "type": "number",
+              "description": "The maximum boost clock speed of the performance cores in GHz"
+            }
+          }
+        },
+        "efficiency": {
+          "type": "object",
+          "properties": {
+            "base": {
+              "type": "number",
+              "description": "The base clock speed of the efficiency cores in GHz (if applicable)"
+            },
+            "boost": {
+              "type": "number",
+              "description": "The maximum boost clock speed of the efficiency cores in GHz (if applicable)"
+            }
+          }
+        }
+      }
+    },
+    "cache": {
+      "type": "object",
+      "properties": {
+        "l1": {
+          "type": "string",
+          "description": "Breakdown of L1 cache configuration"
+        },
+        "l2": {
+          "type": "number",
+          "description": "The total amount of L2 cache in MB"
+        },
+        "l3": {
+          "type": "number",
+          "description": "The total amount of L3 cache in MB"
+        }
+      }
+    },
+    "specifications": {
+      "type": "object",
+      "properties": {
+        "tdp": {
+          "type": "number",
+          "description": "The Thermal Design Power of the CPU in Watts"
+        },
+        "integratedGraphics": {
+          "type": "object",
+          "properties": {
+            "model": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "The model of integrated graphics, if present"
+            },
+            "baseClock": {
+              "type": "number",
+              "description": "Base clock of integrated graphics"
+            },
+            "boostClock": {
+              "type": "number",
+              "description": "Boost clock of integrated graphics"
+            }
+          }
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

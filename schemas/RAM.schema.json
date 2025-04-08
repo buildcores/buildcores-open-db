@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "RAM Schema",
+  "description": "Schema for RAM components",
+  "required": [
+    "speed",
+    "ram_type",
+    "modules",
+    "capacity"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "speed": {
+      "type": "number",
+      "description": "The speed of the RAM in MHz (e.g., 6000, 3200)"
+    },
+    "ram_type": {
+      "type": "string",
+      "description": "DDR generation (e.g., DDR4, DDR5)"
+    },
+    "form_factor": {
+      "type": "string",
+      "description": "The physical form factor of the RAM module (e.g., 288-pin DIMM, 260-pin SO-DIMM)"
+    },
+    "modules": {
+      "type": "object",
+      "required": [
+        "quantity",
+        "capacity_gb"
+      ],
+      "properties": {
+        "quantity": {
+          "type": "number",
+          "description": "Number of modules in the kit"
+        },
+        "capacity_gb": {
+          "type": "number",
+          "description": "Capacity per module in GB"
+        }
+      }
+    },
+    "capacity": {
+      "type": "number",
+      "description": "Total capacity of the RAM kit in GB"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "cas_latency": {
+      "type": "number",
+      "description": "The CAS latency of the RAM"
+    },
+    "timings": {
+      "type": "string",
+      "description": "The complete timing specification of the RAM (e.g., 30-36-36-76)"
+    },
+    "voltage": {
+      "type": "number",
+      "description": "The operating voltage of the RAM"
+    },
+    "ecc": {
+      "type": "string",
+      "description": "Whether the RAM supports Error-Correcting Code (e.g., Non-ECC, ECC)"
+    },
+    "registered": {
+      "type": "string",
+      "description": "Whether the RAM is registered or unbuffered (e.g., Unbuffered, Registered, Load Reduced)"
+    },
+    "heat_spreader": {
+      "type": "boolean",
+      "description": "Whether the RAM modules have a heat spreader"
+    },
+    "rgb": {
+      "type": "boolean",
+      "description": "Whether the RAM has RGB lighting"
+    },
+    "height": {
+      "type": "number",
+      "description": "The height of the RAM module in mm"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "RAM manufacturer"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series. This can be the RAM speed + timings"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

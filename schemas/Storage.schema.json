@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Storage Schema",
+  "description": "Schema for storage components",
+  "required": ["capacity", "type", "form_factor", "interface"],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "capacity": {
+      "type": "number",
+      "description": "The storage capacity of the drive in GB (e.g., 4000 GB)"
+    },
+    "type": {
+      "type": "string",
+      "description": "The type of storage drive"
+    },
+    "form_factor": {
+      "type": "string",
+      "description": "The physical size and shape of the drive (e.g., M.2-2280, 2.5\", 3.5\")"
+    },
+    "interface": {
+      "type": "string",
+      "description": "The interface used by the drive (e.g., M.2 PCIe 4.0 X4, SATA 6Gb/s)"
+    },
+    "nvme": {
+      "type": "boolean",
+      "description": "Whether the drive uses the NVMe protocol. Only applicable to SSDs"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "Storage drive manufacturer"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

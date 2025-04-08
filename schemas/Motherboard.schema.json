@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Motherboard Schema",
+  "description": "Schema for motherboard components",
+  "required": [
+    "socket",
+    "form_factor",
+    "chipset",
+    "memory"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "socket": {
+      "type": "string",
+      "description": "The CPU socket type supported by the motherboard. E.g. AM4, AM5, LGA 1700, LGA 2066, TR5, etc."
+    },
+    "form_factor": {
+      "type": "string",
+      "description": "The physical size and layout of the motherboard (e.g., ATX, Micro ATX, Mini-ITX)"
+    },
+    "chipset": {
+      "type": "string",
+      "description": "The chipset used by the motherboard (e.g., Intel Z790, AMD X670E)"
+    },
+    "memory": {
+      "type": "object",
+      "required": [
+        "max",
+        "ram_type",
+        "slots"
+      ],
+      "properties": {
+        "max": {
+          "type": "number",
+          "description": "The maximum amount of RAM the motherboard can support in GB"
+        },
+        "ram_type": {
+          "type": "string",
+          "description": "The type of RAM supported (e.g., DDR5, DDR4)"
+        },
+        "slots": {
+          "type": "number",
+          "description": "The number of RAM slots on the motherboard"
+        }
+      }
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "pcie_slots": {
+      "type": "array",
+      "description": "PCIe slots on the motherboard",
+      "items": {
+        "type": "object",
+        "required": [
+          "gen",
+          "quantity",
+          "lanes"
+        ],
+        "properties": {
+          "gen": {
+            "type": "string",
+            "description": "PCIe generation (e.g., 5.0, 4.0)"
+          },
+          "quantity": {
+            "type": "number",
+            "description": "Number of slots of this type and generation"
+          },
+          "lanes": {
+            "type": "number",
+            "description": "Number of lanes per slot. E.g. 16 lanes for x16 slot, 8 lanes for x8 slot, etc."
+          }
+        }
+      }
+    },
+    "m2_slots": {
+      "type": "array",
+      "description": "M.2 slots on the motherboard",
+      "items": {
+        "type": "object",
+        "required": [
+          "size",
+          "key",
+          "interface"
+        ],
+        "properties": {
+          "size": {
+            "type": "string",
+            "description": "M.2 form factor size (e.g., 2280, 22110)"
+          },
+          "key": {
+            "type": "string",
+            "description": "M.2 key type (e.g., M, E)"
+          },
+          "interface": {
+            "type": "string",
+            "description": "M.2 interface specification (e.g., PCIe 4.0 x4)"
+          }
+        }
+      }
+    },
+    "storage_devices": {
+      "type": "object",
+      "properties": {
+        "sata_6_gb_s": {
+          "type": "number",
+          "description": "Number of SATA 6 Gb/s ports"
+        },
+        "sata_3_gb_s": {
+          "type": "number",
+          "description": "Number of SATA 3 Gb/s ports"
+        },
+        "u2": {
+          "type": "number",
+          "description": "Number of U.2 ports"
+        }
+      }
+    },
+    "onboard_ethernet": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "speed",
+          "controller"
+        ],
+        "properties": {
+          "speed": {
+            "type": "string",
+            "description": "Network speed (e.g., 2.5 Gb/s, 1 Gb/s)"
+          },
+          "controller": {
+            "type": "string",
+            "description": "Network controller model"
+          }
+        }
+      }
+    },
+    "usb_headers": {
+      "type": "object",
+      "description": "Internal USB headers. Please only include front panel headers",
+      "properties": {
+        "usb_2_0": {
+          "type": "number",
+          "description": "Number of USB 2.0 headers"
+        },
+        "usb_3_2_gen_1": {
+          "type": "number",
+          "description": "Number of USB 3.2 Gen 1 headers (USB 5Gbps)"
+        },
+        "usb_3_2_gen_2": {
+          "type": "number",
+          "description": "Number of USB 3.2 Gen 2 headers (USB 10Gbps)"
+        },
+        "usb_3_2_gen_2x2": {
+          "type": "number",
+          "description": "Number of USB 3.2 Gen 2x2 headers (USB 20Gbps)"
+        },
+        "usb_4": {
+          "type": "number",
+          "description": "Number of USB 4 headers (USB 40Gbps)"
+        },
+        "usb_4_80g": {
+          "type": "number",
+          "description": "Number of USB 4 headers (USB 80Gbps)"
+        }
+      }
+    },
+    "ecc_support": {
+      "type": "boolean",
+      "description": "Whether the motherboard supports ECC memory"
+    },
+    "raid_support": {
+      "type": "boolean",
+      "description": "Whether the motherboard supports RAID configurations"
+    },
+    "back_connect_connectors": {
+      "type": "boolean",
+      "description": "Whether the motherboard uses back-connect connectors"
+    },
+    "bios_features": {
+      "type": "object",
+      "properties": {
+        "flashback": {
+          "type": "boolean",
+          "description": "Whether the board has BIOS flashback capability"
+        },
+        "clear_cmos": {
+          "type": "boolean",
+          "description": "Whether the board has a clear CMOS button"
+        }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "chipset": {
+          "type": "string",
+          "description": "Details on the audio chipset used"
+        },
+        "channels": {
+          "type": "string",
+          "description": "Number of audio channels supported"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

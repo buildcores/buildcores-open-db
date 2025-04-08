@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "GPU Schema",
+  "description": "Schema for GPU components",
+  "required": [
+    "chipset_manufacturer",
+    "chipset",
+    "memory",
+    "memory_type"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "chipset_manufacturer": {
+      "type": "string",
+      "description": "Manufacturer of the GPU chipset (e.g., NVIDIA, AMD, Intel)"
+    },
+    "chipset": {
+      "type": "string",
+      "description": "The specific GPU chipset (e.g., GeForce RTX 4090, Radeon RX 7900 XTX, ARC B580, etc)"
+    },
+    "memory": {
+      "type": "number",
+      "description": "The amount of video memory in GB"
+    },
+    "memory_type": {
+      "type": "string",
+      "description": "The type of video memory (e.g., GDDR6X, GDDR6)"
+    },
+    "core_base_clock": {
+      "type": "number",
+      "description": "The base clock speed of the GPU core in MHz"
+    },
+    "core_boost_clock": {
+      "type": "number",
+      "description": "The boost clock speed of the GPU core in MHz"
+    },
+    "effective_memory_clock": {
+      "type": "number",
+      "description": "Effective memory clock in MHz"
+    },
+    "memory_bus": {
+      "type": "number",
+      "description": "Memory bus width in bits"
+    },
+    "interface": {
+      "type": "string",
+      "description": "The interface used by the graphics card (e.g., PCIe 4.0 x16, PCIe 5.0 x16)"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "frame_sync": {
+      "type": "string",
+      "description": "The frame synchronization technology supported (e.g., G-Sync, FreeSync, None)"
+    },
+    "length": {
+      "type": "number",
+      "description": "The length of the graphics card in mm"
+    },
+    "tdp": {
+      "type": "number",
+      "description": "The Thermal Design Power of the graphics card in Watts"
+    },
+    "case_expansion_slot_width": {
+      "type": "number",
+      "description": "The number of case expansion slot widths the card occupies"
+    },
+    "total_slot_width": {
+      "type": "number",
+      "description": "The total slot width the card occupies, accounting for cooler size"
+    },
+    "cooling": {
+      "type": "string",
+      "description": "The type of cooling solution (e.g., 3 Fans, 2 Fans, Blower, Water Cooled)"
+    },
+    "power_connectors": {
+      "type": "object",
+      "properties": {
+        "pcie_6_pin": {
+          "type": "number",
+          "description": "Number of 6-pin PCIe connectors (75W each)"
+        },
+        "pcie_8_pin": {
+          "type": "number",
+          "description": "Number of 8-pin PCIe connectors (150W each). A 16-pin PCIe connector is 2x 8-pin PCIe connectors"
+        },
+        "pcie_12VHPWR": {
+          "type": "number",
+          "description": "Number of 12VHPWR PCIe connectors (12VHPWR/PCIe 5.0, 600W)"
+        },
+        "pcie_12V_2x6": {
+          "type": "number",
+          "description": "Number of 12V_2x6 PCIe connectors (12V-2x6/ATX 3.1, 600W)"
+        }
+      }
+    },
+    "video_outputs": {
+      "type": "object",
+      "properties": {
+        "hdmi_2_1": {
+          "type": "number",
+          "description": "Number of HDMI 2.1 ports"
+        },
+        "hdmi_2_0": {
+          "type": "number",
+          "description": "Number of HDMI 2.0 ports"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

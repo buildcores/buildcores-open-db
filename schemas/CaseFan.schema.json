@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Case Fan Schema",
+  "description": "Schema for case fan components",
+  "required": [
+    "size",
+    "quantity"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "size": {
+      "type": "number",
+      "description": "The fan size in mm (e.g., 120)"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "quantity": {
+      "type": "number",
+      "description": "Number of fans included in the package (e.g., 3). Important for multi-packs"
+    },
+    "min_airflow": {
+      "type": "number",
+      "description": "The minimum airflow of the fan in CFM. If it is a constant, just fill in min_airflow and ignore max_airflow"
+    },
+    "max_airflow": {
+      "type": "number",
+      "description": "The maximum airflow of the fan in CFM. If it is a constant, just fill in min_airflow and ignore max_airflow"
+    },
+    "min_noise_level": {
+      "type": "number",
+      "description": "The minimum noise level of the fan in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level"
+    },
+    "max_noise_level": {
+      "type": "number",
+      "description": "The maximum noise level of the fan in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level"
+    },
+    "pwm": {
+      "type": "boolean",
+      "description": "Whether the fan supports Pulse Width Modulation for speed control"
+    },
+    "led": {
+      "type": "string",
+      "description": "The type of LED lighting, if any (e.g., 'Addressable RGB', 'RGB', 'None')"
+    },
+    "connector": {
+      "type": "string",
+      "description": "The type of connector(s) the fan uses (e.g., '4-pin PWM + 3-pin 5V Addressable RGB')"
+    },
+    "controller": {
+      "type": "string",
+      "description": "If the fan includes a controller, specify the type (e.g., '5V Addressable RGB'). Otherwise, indicate 'None'"
+    },
+    "static_pressure": {
+      "type": "number",
+      "description": "The static pressure of the fan in mmH₂O"
+    },
+    "flow_direction": {
+      "type": "string",
+      "description": "The direction of the airflow (e.g., 'Standard', 'Reverse')"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "Fan manufacturer"
+        },
+        "part_number": {
+          "type": "string",
+          "description": "Manufacturer's part number"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}

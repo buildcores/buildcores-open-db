@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "CPU Cooler Schema",
+  "description": "Schema for CPU cooler components",
+  "required": [
+    "height",
+    "cpu_sockets",
+    "water_cooled"
+  ],
+  "properties": {
+    "opendb_id": {
+      "type": "string",
+      "description": "Unique identifier for the document (UUID v4)"
+    },
+    "min_fan_rpm": {
+      "type": "number",
+      "description": "Min value of the fan's rotational speed in RPM. If it is a constant, just fill in min_fan_rpm and ignore max_fan_rpm"
+    },
+    "max_fan_rpm": {
+      "type": "number",
+      "description": "Max value of the fan's rotational speed in RPM. If it is a constant, just fill in min_fan_rpm and ignore max_fan_rpm"
+    },
+    "min_noise_level": {
+      "type": "number",
+      "description": "The min noise level of the cooler in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level"
+    },
+    "max_noise_level": {
+      "type": "number",
+      "description": "The max noise level of the cooler in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "height": {
+      "type": "number",
+      "description": "The height of the CPU cooler in mm"
+    },
+    "cpu_sockets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "An array of CPU socket types supported by the cooler (e.g., AM4, AM5, LGA 1700, LGA 1200)"
+    },
+    "water_cooled": {
+      "type": "boolean",
+      "description": "Indicates if the cooler is water-cooled"
+    },
+    "radiator_size": {
+      "type": "number",
+      "description": "If water-cooled, specify the radiator size in mm (e.g. 360, 280, 240, etc)"
+    },
+    "fanless": {
+      "type": "boolean",
+      "description": "Whether the cooler can operate fanless"
+    },
+    "fan_size": {
+      "type": "number",
+      "description": "Size of the included fan(s) in mm (e.g. 140, 120)"
+    },
+    "fan_quantity": {
+      "type": "number",
+      "description": "Number of included fans"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "CPU Cooler manufacturer"
+        },
+        "part_numbers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": "number",
+          "description": "Year of release"
+        }
+      }
+    },
+    "general_product_information": {
+      "type": "object",
+      "description": "General product information and retailer SKUs",
+      "properties": {
+        "amazon_sku": {
+          "type": "string",
+          "description": "Amazon product SKU"
+        },
+        "newegg_sku": {
+          "type": "string",
+          "description": "Newegg product SKU"
+        },
+        "bestbuy_sku": {
+          "type": "number",
+          "description": "Best Buy product SKU"
+        },
+        "walmart_sku": {
+          "type": "number",
+          "description": "Walmart product SKU"
+        },
+        "adorama_sku": {
+          "type": "string",
+          "description": "Adorama product SKU"
+        },
+        "manufacturer_url": {
+          "type": "string",
+          "description": "Official manufacturer product URL"
+        }
+      }
+    }
+  }
+}
