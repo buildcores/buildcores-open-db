@@ -1,20 +1,25 @@
 ![BuildCores Logo](assets/opendb.png)
 
 # BuildCores OpenDB
-
+    
 A community-driven open database for PC components. This repository contains structured data about computer hardware components that can be used for compatibility checking, component research, and building PC builder / part picking apps.
 
+*For an easy way to browse and search all components in a user-friendly interface, you can visit:*
+https://buildcores.com/products
+
+*You can click on the 'Edit in OpenDB' button on each part to open the GitHub page for it*
 
 ![GPU image](assets/gpu.png)
 
-## Help Wanted
+## Help Wanted / Bounties
 
-We have a few near-term goals for this project to improve data quality and increase the utility of BuildCores (or any other project that relies on this data).
+We have a few near-term goals for this project to improve data quality and increase the utility of BuildCores (or any other project that relies on this data). 
 
-- We want to collect manufacturer product page urls for each product in our database 
+- We want to collect manufacturer product page urls for each product in our database.
 - We want to collect PDFs for each product in our database.
   - Good examples are motherboard and case manuals. We can extract useful information out of these.
 - We want to collect motherboard BIOS versioning data along with CPU support lists.
+- We want to expand our retailer coverage outside of the USA.
 - ... more to come. If you have any specific requests from this project, please open a GitHub issue. 
  
 
@@ -40,9 +45,6 @@ All component data is stored in the `/open-db/` directory, organized by componen
   /RAM/
     ...
 ```
-
-For an easy way to browse and search all components in a user-friendly interface, you can visit:
-https://buildcores.com/products
 
 Each product page on the BuildCores website has an "Edit on GitHub" button that allows you to directly contribute changes to the specific component, making it easy to update or fix information.
 
@@ -88,6 +90,9 @@ When changes are merged to the main branch, they are automatically synchronized 
 - All components must follow the schema for their category
 - Required fields vary by component type (check the schema)
 - When possible, include retailer SKUs and manufacturer information
+
+## Limitations
+We cannot provide price data or retailer-specific data due to restrictions.  
 
 ## License
 
