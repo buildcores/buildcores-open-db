@@ -4,66 +4,112 @@
   "title": "Monitor Schema",
   "description": "Schema for monitor components",
   "required": [
-    "name",
-    "horizontalRes",
-    "verticalRes",
-    "manufacturer",
-    "panelType",
-    "refreshRate",
-    "screenSize"
+    "screen_size",
+    "resolution",
+    "refresh_rate",
+    "panel_type",
+    "metadata"
   ],
   "properties": {
     "opendb_id": {
       "type": "string",
       "description": "Unique identifier for the document (UUID v4)"
     },
-    "name": {
-      "type": "string",
-      "description": "Name of the part"
-    },
-    "aspectRatio": {
-      "type": "string",
-      "description": "Aspect ratio of the monitor (e.g. 16:9, 21:9, etc)"
-    },
-    "horizontalRes": {
+    "screen_size": {
       "type": "number",
-      "description": "Horizontal resolution of the monitor in pixels"
+      "description": "Screen size in inches"
     },
-    "verticalRes": {
+    "resolution": {
+      "type": "object",
+      "description": "Resolution of the monitor",
+      "required": ["horizontalRes", "verticalRes"],
+      "properties": {
+        "horizontalRes": {
+          "type": "number",
+          "description": "Horizontal resolution in pixels"
+        },
+        "verticalRes": {
+          "type": "number",
+          "description": "Vertical resolution in pixels"
+        }
+      }
+    },
+    "refresh_rate": {
       "type": "number",
-      "description": "Vertical resolution of the monitor in pixels"
+      "description": "Maximum refresh rate in Hz"
     },
-    "manufacturer": {
+    "panel_type": {
       "type": "string",
-      "description": "Name of the manufacturer"
+      "description": "Type of panel (IPS, VA, TN, OLED, etc.)"
     },
-    "panelType": {
+    "response_time": {
+      "type": "number",
+      "description": "Gray-to-gray response time in milliseconds"
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+    },
+    "viewing_angle": {
       "type": "string",
-      "description": "Type of panel on the display (IPS, VA, TN, OLED, etc)"
+      "description": "Viewing angles (e.g., '178°/178°')"
     },
-    "ports": {
+    "aspect_ratio": {
       "type": "string",
-      "description": "Ports on the monitor"
+      "description": "Aspect ratio (e.g., '16:9', '21:9')"
     },
-    "refreshRate": {
-      "type": "number",
-      "description": "Refresh rate of the monitor (Hz)"
-    },
-    "screenSize": {
-      "type": "number",
-      "description": "Screen size of the monitor in inches"
-    },
-    "VRR": {
+    "connectors": {
       "type": "string",
-      "description": "Type of adaptive sync supported (empty if None). Could be FreeSync or G-Sync"
+      "description": "Available ports and connections"
     },
-    "brightness": {
-      "type": "number",
-      "description": "Brightness (nits)"
+    "max_brightness": {
+      "type": "string",
+      "description": "Maximum brightness in nits"
     },
-    "gtg_response_time": {
-      "type": "number",
-      "description": "Response Time (G2G)"
+    "hdr": {
+      "type": "string",
+      "description": "HDR support and certification"
+    },
+    "adaptive_sync": {
+      "type": "string",
+      "description": "Adaptive sync technology (G-Sync, FreeSync, etc.)"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Product metadata",
+      "required": ["name", "manufacturer"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Standardized product name"
+        },
+        "manufacturer": {
+          "type": "string",
+          "description": "Brand/manufacturer name"
+        },
+        "part_numbers": {
+          "type": "array",
+          "description": "Array of part numbers associated with this monitor",
+          "items": {
+            "type": "string"
+          }
+        },
+        "series": {
+          "type": "string",
+          "description": "Product series"
+        },
+        "variant": {
+          "type": "string",
+          "description": "Product variant"
+        },
+        "model": {
+          "type": "string",
+          "description": "Model number"
+        }
+      }
     },
     "general_product_information": {
       "type": "object",
