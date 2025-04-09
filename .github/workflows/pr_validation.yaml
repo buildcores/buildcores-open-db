@@ -128,86 +128,86 @@ jobs:
           
           echo "Validation step finished. Overall status code: $EXIT_CODE"
 
-      - name: Comment on PR with validation results
-        if: always()
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const childProcess = require('child_process');
-            const util = require('util');
-            const execAsync = util.promisify(childProcess.exec);
+      # - name: Comment on PR with validation results
+      #   if: always()
+      #   uses: actions/github-script@v6
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     script: |
+      #       const fs = require('fs');
+      #       const childProcess = require('child_process');
+      #       const util = require('util');
+      #       const execAsync = util.promisify(childProcess.exec);
             
-            const base64Results = '${{ steps.validation.outputs.VALIDATION_RESULTS }}' || '';
-            let validationResults = { results: [] };
+      #       const base64Results = '${{ steps.validation.outputs.VALIDATION_RESULTS }}' || '';
+      #       let validationResults = { results: [] };
             
-            if (base64Results) {
-              try {
-                fs.writeFileSync('/tmp/results.base64', base64Results);
-                await execAsync('base64 -d /tmp/results.base64 > /tmp/results.json');
-                const jsonContent = fs.readFileSync('/tmp/results.json', 'utf8');
-                validationResults = JSON.parse(jsonContent);
-              } catch (error) {
-                console.error('Error processing validation results:', error);
-              }
-            }
+      #       if (base64Results) {
+      #         try {
+      #           fs.writeFileSync('/tmp/results.base64', base64Results);
+      #           await execAsync('base64 -d /tmp/results.base64 > /tmp/results.json');
+      #           const jsonContent = fs.readFileSync('/tmp/results.json', 'utf8');
+      #           validationResults = JSON.parse(jsonContent);
+      #         } catch (error) {
+      #           console.error('Error processing validation results:', error);
+      #         }
+      #       }
             
-            if (!validationResults.results || validationResults.results.length === 0) {
-              console.log('No validation results to report.');
-              return;
-            }
+      #       if (!validationResults.results || validationResults.results.length === 0) {
+      #         console.log('No validation results to report.');
+      #         return;
+      #       }
             
-            let commentBody = '## JSON Validation Results\n\n';
+      #       let commentBody = '## JSON Validation Results\\n\\n';
             
-            const passed = validationResults.results.filter(r => r.status === 'passed');
-            const failed = validationResults.results.filter(r => r.status === 'failed');
-            const warnings = validationResults.results.filter(r => r.status === 'warning');
-            const deletions = validationResults.results.filter(r => r.status === 'info' && r.change_type === 'deleted');
+      #       const passed = validationResults.results.filter(r => r.status === 'passed');
+      #       const failed = validationResults.results.filter(r => r.status === 'failed');
+      #       const warnings = validationResults.results.filter(r => r.status === 'warning');
+      #       const deletions = validationResults.results.filter(r => r.status === 'info' && r.change_type === 'deleted');
             
-            commentBody += '### Summary\n';
-            commentBody += `- ✅ **${passed.length}** files passed validation\n`;
-            commentBody += `- ❌ **${failed.length}** files failed validation\n`;
-            commentBody += `- ⚠️ **${warnings.length}** files with warnings\n`;
-            commentBody += `- 🗑️ **${deletions.length}** files deleted\n\n`;
+      #       commentBody += '### Summary\\n';
+      #       commentBody += `- ✅ **${passed.length}** files passed validation\\n`;
+      #       commentBody += `- ❌ **${failed.length}** files failed validation\\n`;
+      #       commentBody += `- ⚠️ **${warnings.length}** files with warnings\\n`;
+      #       commentBody += `- 🗑️ **${deletions.length}** files deleted\\n\\n`;
             
-            if (failed.length > 0) {
-              commentBody += '### Failed Validations\n\n';
-              failed.forEach(result => {
-                commentBody += `#### ${result.file} (${result.change_type})\n`;
-                commentBody += '```\n' + result.message + '\n```\n\n';
-              });
-            }
+      #       if (failed.length > 0) {
+      #         commentBody += '### Failed Validations\\n\\n';
+      #         failed.forEach(result => {
+      #           commentBody += `#### ${result.file} (${result.change_type})\\n`;
+      #           commentBody += '```\\n' + result.message + '\\n```\\n\\n';
+      #         });
+      #       }
             
-            if (warnings.length > 0) {
-              commentBody += '### Warnings\n\n';
-              warnings.forEach(result => {
-                commentBody += `- **${result.file}** (${result.change_type}): ${result.message}\n`;
-              });
-              commentBody += '\n';
-            }
+      #       if (warnings.length > 0) {
+      #         commentBody += '### Warnings\\n\\n';
+      #         warnings.forEach(result => {
+      #           commentBody += `- **${result.file}** (${result.change_type}): ${result.message}\\n`;
+      #         });
+      #         commentBody += '\\n';
+      #       }
             
-            if (passed.length > 0) {
-              commentBody += '### Passed Validations\n\n';
-              passed.forEach(result => {
-                commentBody += `- ✅ **${result.file}** (${result.change_type})\n`;
-              });
-              commentBody += '\n';
-            }
+      #       if (passed.length > 0) {
+      #         commentBody += '### Passed Validations\\n\\n';
+      #         passed.forEach(result => {
+      #           commentBody += `- ✅ **${result.file}** (${result.change_type})\\n`;
+      #         });
+      #         commentBody += '\\n';
+      #       }
             
-            if (deletions.length > 0) {
-              commentBody += '### Deleted Files\n\n';
-              deletions.forEach(result => {
-                commentBody += `- 🗑️ **${result.file}**\n`;
-              });
-            }
+      #       if (deletions.length > 0) {
+      #         commentBody += '### Deleted Files\\n\\n';
+      #         deletions.forEach(result => {
+      #           commentBody += `- 🗑️ **${result.file}**\\n`;
+      #         });
+      #       }
             
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
+      #       await github.rest.issues.createComment({
+      #         owner: context.repo.owner,
+      #         repo: context.repo.repo,
+      #         issue_number: context.issue.number,
+      #         body: commentBody
+      #       });
 
       - name: Fail job if validation errors occurred
         if: steps.validation.outputs.validation_failed == '1'
