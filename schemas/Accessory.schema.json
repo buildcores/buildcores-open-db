@@ -37,15 +37,12 @@
           ],
           "description": "Product manufacturer"
         },
-        "part_numbers": {
+        "part_number": {
           "type": [
-            "array",
+            "string",
             "null"
           ],
-          "items": {
-            "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          "description": "Manufacturer part number"
         },
         "series": {
           "type": [
@@ -67,6 +64,160 @@
             "null"
           ],
           "description": "Year of release"
+        }
+      }
+    },
+    "specifications": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "interface": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Connection interface (USB, Thunderbolt, etc.)"
+        },
+        "ports": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "usb_a": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Number of USB Type-A ports"
+            },
+            "usb_c": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Number of USB Type-C ports"
+            },
+            "hdmi": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Number of HDMI ports"
+            },
+            "displayport": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Number of DisplayPort ports"
+            },
+            "ethernet": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Number of Ethernet ports"
+            },
+            "audio": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Number of audio ports"
+            },
+            "other": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "description": "Other ports or connections"
+            }
+          }
+        },
+        "compatibility": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": "Compatibility with operating systems or devices"
+        },
+        "dimensions": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "length": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Length in mm"
+            },
+            "width": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Width in mm"
+            },
+            "height": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Height in mm"
+            }
+          }
+        },
+        "wireless": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether the accessory is wireless"
+        },
+        "power_delivery": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Whether the accessory supports power delivery"
+        },
+        "max_power_delivery": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Maximum power delivery in watts"
+        },
+        "features": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": "Special features of the accessory"
         }
       }
     },

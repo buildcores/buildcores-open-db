@@ -271,15 +271,12 @@
           ],
           "description": "Product manufacturer"
         },
-        "part_numbers": {
+        "part_number": {
           "type": [
-            "array",
+            "string",
             "null"
           ],
-          "items": {
-            "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          "description": "Manufacturer part number"
         },
         "series": {
           "type": [
