@@ -2,9 +2,9 @@
   "opendb_id": "d36efd5f-94e3-490a-bd63-d6222a8c1b47",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": null
   },
   "metadata": {
     "name": "MSI SHADOW 3X OC GeForce RTX 5070 Ti 16GB GDDR7 Black",
@@ -13,17 +13,18 @@
       "G507T-16S3C                                                    GeForce RTX 5070 Ti 16G SHADOW 3X OC                                                    RTX 5070 Ti 16G SHADOW 3X OC"
     ],
     "series": "GeForce RTX 5070 Ti",
-    "variant": "MSI"
+    "variant": "SHADOW 3X OC 16GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
+  "core_base_clock": 2295,
   "core_boost_clock": 2497,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,15 +35,22 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c4ac865ad0c3553e8c67"
   },
   "core_count": 8960,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814137935"
+    "amazon_sku": "B0DZZ63JXD",
+    "newegg_sku": "N82E16814137935",
+    "bestbuy_sku": 6620605,
+    "walmart_sku": 15879124407,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-SHADOW-3X-OC/"
   }
 }

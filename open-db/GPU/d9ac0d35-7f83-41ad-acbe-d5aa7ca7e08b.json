@@ -2,8 +2,8 @@
   "opendb_id": "d9ac0d35-7f83-41ad-acbe-d5aa7ca7e08b",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
-    "pcie_12VHPWR": 1,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "metadata": {
@@ -13,17 +13,18 @@
       "GeForce RTX 5080 16G SHADOW 3X                                                    G5080-16S3"
     ],
     "series": "GeForce RTX 5080",
-    "variant": "MSI"
+    "variant": null,
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
+  "core_base_clock": 2295,
   "core_boost_clock": 2625,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1875,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,13 +35,18 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c843865ad0c3553ec5b2"
   },
   "core_count": 10752,
-  "general_product_information": {}
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "manufacturer_url": "https://us.msi.com/Graphics-Card/GeForce-RTX-5080-16G-SHADOW-3X/Specification"
+  }
 }

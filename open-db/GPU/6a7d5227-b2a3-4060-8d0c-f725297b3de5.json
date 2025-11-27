@@ -2,7 +2,7 @@
   "opendb_id": "6a7d5227-b2a3-4060-8d0c-f725297b3de5",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,17 +13,18 @@
       "RX-96XT-16D6-AOA"
     ],
     "series": "Radeon RX 9060 XT",
-    "variant": "Yeston"
+    "variant": "Game Ace 16GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "Radeon",
+  "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 16 GB",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2220,
+  "core_base_clock": 1900,
   "core_boost_clock": 3320,
-  "effective_memory_clock": 20000,
+  "effective_memory_clock": 2518,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "PINK",
     "BLACK"
@@ -33,17 +34,20 @@
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
-    "displayport_2_1": 0,
-    "displayport_2_1a": 0,
-    "displayport_1_4a": 2,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": null,
+    "displayport_2_1": null,
+    "displayport_2_1a": 2,
+    "displayport_1_4a": null,
     "dvi_d": 0,
     "vga": 0,
     "_id": "688ec9a43ebf909c29b8218e"
   },
   "core_count": 2048,
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "27N-0042-000J7"
+    "amazon_sku": "B0FM86T59X",
+    "newegg_sku": "27N-0042-000J7",
+    "manufacturer_url": "https://yestonstore.com/products/yeston-game-ace-radeon-rx-9060-xt-16gb-gddr6-128bit-video-cards-desktop-computer-pc-video-graphics-card"
   }
 }
