@@ -28,11 +28,18 @@
     "rgb_12v": 2
   },
   "front_panel_headers": {
-    "reset_button": true
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 2
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ]
   },
   "audio": {
     "chipset": "Realtek",
@@ -45,7 +52,7 @@
       "Z790 AORUS ELITE AX"
     ],
     "series": "Z790",
-    "variant": "",
+    "variant": "AORUS ELITE AX",
     "releaseYear": null
   },
   "socket": "LGA1700",
@@ -63,26 +70,20 @@
     },
     {
       "gen": "4.0",
-      "quantity": 1,
+      "quantity": 2,
       "lanes": 4,
       "_id": "68b7480d7fa4ea6ac7be58da"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "68b7480d7fa4ea6ac7be58db"
     }
   ],
   "m2_slots": [
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b8da865ad0c3553dcf2e"
     },
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b8da865ad0c3553dcf2f"
@@ -92,12 +93,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b8da865ad0c3553dcf30"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8da865ad0c3553dcf31"
     }
   ],
   "onboard_ethernet": [
@@ -107,8 +102,8 @@
       "_id": "67f9b8da865ad0c3553dcf36"
     }
   ],
-  "wireless_networking": "Intel® Wi-Fi 6E AX211   BLUETOOTH 5.3",
-  "ecc_support": false,
+  "wireless_networking": "Wi-Fi 6E AX211   BLUETOOTH 5.3",
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -124,7 +119,6 @@
     "4 x USB 2.0/1.1 ports",
     "1 x HDMI 2.0 port",
     "1 x DisplayPort",
-    "1 x RJ-45 port",
     "2 x SMA antenna connectors (2T2R)",
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
@@ -133,6 +127,7 @@
     "amazon_sku": "B0BH9DXY38",
     "newegg_sku": "N82E16813145417",
     "bestbuy_sku": 6582204,
-    "walmart_sku": 1347719484
+    "walmart_sku": 1347719484,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp#sp"
   }
 }
