@@ -2,7 +2,7 @@
   "opendb_id": "dc89a3da-e06e-4efc-b508-8c4c98308fd6",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,17 +13,18 @@
       "DP.Z4CWW.P01"
     ],
     "series": "Arc B570",
-    "variant": "Acer"
+    "variant": "Nitro OC 10GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "Arc",
+  "chipset_manufacturer": "Intel",
   "chipset": "Arc B570",
   "memory": 10,
   "memory_type": "GDDR6",
   "core_base_clock": 2500,
   "core_boost_clock": 2690,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2375,
   "memory_bus": 160,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x8",
   "color": [
     "BLACK",
     "GREY"
@@ -43,9 +44,12 @@
     "_id": "688ec9973ebf909c29b82146"
   },
   "core_count": 2304,
+  "frame_sync": "Adaptive Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTC5QFN6",
     "newegg_sku": "N82E16814553011",
-    "walmart_sku": 15151705058
+    "walmart_sku": 15151705058,
+    "manufacturer_url": "http://acer.com/in-en/desktops-and-all-in-ones/components/nitro-intel-arc-b570-oc-10gb"
   }
 }

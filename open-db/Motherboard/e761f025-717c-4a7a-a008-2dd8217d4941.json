@@ -30,11 +30,13 @@
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": [
-      "2 x 8 pin 12V"
+      "8-pin",
+      "8-pin"
     ]
   },
   "audio": {
-    "chipset": "Realtek Audio Chipset"
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock PHANTOM GAMING Z890 Riptide WiFi",
@@ -95,7 +97,7 @@
       "_id": "68c4a8b7cf16d17f801ee4b7"
     },
     {
-      "size": "2280",
+      "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": " PCIe Gen4x4",
       "_id": "68c4a8b7cf16d17f801ee4b8"
@@ -106,6 +108,7 @@
   "raid_support": true,
   "bios_features": {
     "flashback": true,
+    "clear_cmos": true,
     "_id": "68c4a8b7cf16d17f801ee4b9"
   },
   "back_panel_ports": [
@@ -123,6 +126,8 @@
   ],
   "general_product_information": {
     "amazon_sku": "B0DJPY6CZX",
-    "newegg_sku": " N82E16813162172"
+    "newegg_sku": " N82E16813162172",
+    "walmart_sku": 13535521147,
+    "manufacturer_url": "https://pg.asrock.com/mb/Intel/Z890%20Riptide%20WiFi/index.asp#Specification"
   }
 }

@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,31 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -31,7 +51,7 @@
       "PRO B840M-B                                                    7E76-002R"
     ],
     "series": "B840",
-    "variant": ""
+    "variant": "M-B"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -47,7 +67,7 @@
       "_id": "688ec9263ebf909c29b7d35c"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
       "_id": "688ec9263ebf909c29b7d35d"
@@ -55,28 +75,16 @@
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "688ec9263ebf909c29b7d35e"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "688ec9263ebf909c29b7d35f"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec9263ebf909c29b7d360"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec9263ebf909c29b7d361"
     }
   ],
   "onboard_ethernet": [
@@ -90,14 +98,23 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "688ec9263ebf909c29b7d363"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek RTL8125D)"
+    "1 x 2.5 Gb/s Ports (Realtek RTL8125D)",
+    "1 x Clear CMOS button",
+    "1 x HDMI 2.1 port",
+    "1 x VGA port",
+    "4 x USB 5Gbps Type-A ports",
+    "1 x Flash BIOS button",
+    "2 x USB 2.0 Type-A ports",
+    "3 x Audio jacks"
   ],
   "general_product_information": {
-    "amazon_sku": "B0F84CBWVC"
+    "amazon_sku": "B0F84CBWVC",
+    "newegg_sku": "N82E16813144718",
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B840M-B/Specification"
   }
 }
