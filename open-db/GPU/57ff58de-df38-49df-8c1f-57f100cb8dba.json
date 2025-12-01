@@ -2,7 +2,7 @@
   "opendb_id": "57ff58de-df38-49df-8c1f-57f100cb8dba",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,43 +10,48 @@
     "name": "MSI SHADOW 2X OC GeForce RTX 5060 8GB GDDR7 Black / Silver",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX 5060 8G SHADOW 2X OC                                                    G5060-8S2C                                                    GeForce RTX 5060 8G SHADOW 2X OC"
+      "RTX 5060 8G SHADOW 2X OC                  G5060-8S2C "
     ],
     "series": "GeForce RTX 5060",
-    "variant": "MSI"
+    "variant": "SHADOW 2X OC 8GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "memory": 8,
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
   "core_boost_clock": 2535,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK",
     "GREY"
   ],
   "length": 197,
-  "tdp": 155,
+  "tdp": 145,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd4181d3a20a8514d31f2"
   },
   "core_count": 3840,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F4LP8VH5",
     "newegg_sku": "N82E16814137976",
     "bestbuy_sku": 6632720,
-    "walmart_sku": 16545901458
+    "walmart_sku": 16545901458,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-SHADOW-2X-OC"
   }
 }

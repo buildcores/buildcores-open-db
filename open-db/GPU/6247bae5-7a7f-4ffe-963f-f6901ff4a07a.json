@@ -2,7 +2,7 @@
   "opendb_id": "6247bae5-7a7f-4ffe-963f-f6901ff4a07a",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,20 +10,21 @@
     "name": "MSI SHADOW 3X OC GeForce RTX 5070 12GB GDDR7 Black",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX-5070-12G-SHADOW-3X-OC                                                    GEFORCE RTX-5070-12G-SHADOW-3X-OC"
+      "RTX-5070-12G-SHADOW-3X-OC    G5070-12S3C"
     ],
     "series": "GeForce RTX 5070",
-    "variant": "MSI"
+    "variant": "SHADOW 3X OC 12GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
-  "core_base_clock": 2160,
+  "core_base_clock": 2325,
   "core_boost_clock": 2557,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,18 +35,22 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c701865ad0c3553eb198"
   },
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DYGKHNM3",
     "newegg_sku": "N82E16814137941",
     "bestbuy_sku": 6634563,
-    "walmart_sku": 15600752882
+    "walmart_sku": 15600752882,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-SHADOW-3X-OC"
   }
 }
