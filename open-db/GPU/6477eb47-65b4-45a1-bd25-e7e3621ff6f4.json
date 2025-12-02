@@ -1,10 +1,17 @@
 {
   "opendb_id": "6477eb47-65b4-45a1-bd25-e7e3621ff6f4",
+  "power_connectors": {
+    "pcie_8_pin": 1
+  },
   "metadata": {
     "name": "ZOTAC GAMING GeForce RTX 5060 Ti 16GB Twin Edge",
     "manufacturer": "Zotac",
     "series": "GeForce RTX 5060 Ti",
-    "part_numbers": []
+    "part_numbers": [
+      "ZT-B50620E-10M"
+    ],
+    "variant": "Twin Edge 16GB",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
@@ -12,10 +19,24 @@
     "BLACK"
   ],
   "video_outputs": {
-    "hdmi_2_1": null,
-    "displayport_2_1_b": null,
+    "hdmi_2_1": 1,
+    "displayport_2_1_b": 3,
     "_id": "692e4b0865634a32eb7f1da0"
   },
+  "core_count": 4608,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "interface": "PCIe 5.0 x8",
+  "core_base_clock": 2407,
+  "core_boost_clock": 2572,
+  "effective_memory_clock": 1750,
+  "memory_bus": 128,
+  "frame_sync": "G-Sync",
+  "length": 220.5,
+  "tdp": 180,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
   "general_product_information": {
     "amazon_sku": " B0F62JD7SC ",
     "newegg_sku": "N82E16814500610",
