@@ -2,7 +2,7 @@
   "opendb_id": "b2d7892c-fefb-485a-b665-f31fa664bcec",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,18 +13,18 @@
       "ZT-B50500G-10L"
     ],
     "series": "GeForce RTX 5050",
-    "variant": "Zotac",
+    "variant": "Solo",
     "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5050",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 2317,
-  "core_boost_clock": 2572,
-  "effective_memory_clock": 0,
+  "core_boost_clock": 2560,
+  "effective_memory_clock": 2500,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK",
     "GOLD"
@@ -45,6 +45,8 @@
     "_id": "688ec9b03ebf909c29b821fe"
   },
   "core_count": 2560,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0FG9KQ9D7",
     "newegg_sku": "N82E16814500625",
