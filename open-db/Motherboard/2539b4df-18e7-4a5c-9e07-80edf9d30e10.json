@@ -1,16 +1,122 @@
 {
   "opendb_id": "2539b4df-18e7-4a5c-9e07-80edf9d30e10",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 2
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
+  },
+  "audio": {
+    "channels": "7.1"
   },
   "metadata": {
     "name": "Gigabyte X870 AORUS STEALTH",
-    "part_numbers": []
+    "part_numbers": [
+      "X870 AORUS STEALTH"
+    ],
+    "manufacturer": "Gigabyte",
+    "variant": "AORUS STEALTH",
+    "series": "X870"
   },
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
+  "color": [
+    "WHITE"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "694162b7a7ad1c67db8b4ce2"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "694162b7a7ad1c67db8b4ce3"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "25110/22110/2580/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "694162b7a7ad1c67db8b4cde"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "694162b7a7ad1c67db8b4cdf"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "694162b7a7ad1c67db8b4ce0"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "694162b7a7ad1c67db8b4ce1"
+    }
+  ],
   "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "1 x HDMI port",
+    "2 x antenna connectors",
+    "2 x USB4 USB Type-C ports",
+    "1 x USB Type-C header, with USB 3.2 Gen 2",
+    "2 x USB 3.2 Gen 2 Type-A ports",
+    "4 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "1 x optical S/PDIF Out connector",
+    "2 x audio jacks"
+  ],
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X870",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "raid_support": true,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true,
+    "_id": "694162b7a7ad1c67db8b4cdd"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870-AORUS-STEALTH"
+  }
 }

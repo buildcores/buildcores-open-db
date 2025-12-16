@@ -17,11 +17,33 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
@@ -31,7 +53,7 @@
       "MEG Z890 UNIFY-X"
     ],
     "series": "Z890",
-    "variant": ""
+    "variant": "MEG UNIFY-X"
   },
   "socket": "LGA1851",
   "form_factor": "ATX",
@@ -41,90 +63,66 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b71a865ad0c3553d9dff"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "67f9b71a865ad0c3553d9e00"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "69414a66ee5815a170b04c28"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "67f9b71a865ad0c3553d9e00"
+      "_id": "69414a66ee5815a170b04c29"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b71a865ad0c3553d9e01"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b71a865ad0c3553d9e02"
     },
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b71a865ad0c3553d9e03"
     },
     {
-      "size": "2280",
+      "size": "22110/2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b71a865ad0c3553d9e04"
     },
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b71a865ad0c3553d9e05"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b71a865ad0c3553d9e06"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e07"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e08"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e09"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e0a"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e0b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e0c"
     }
   ],
   "onboard_ethernet": [
@@ -138,12 +136,28 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b71a865ad0c3553d9e0e"
   },
   "back_panel_ports": [
-    "1 x 5 Gb/s (Intel Killer E5000B)"
+    "1 x Flash BIOS button",
+    "1 x Clear CMOS button",
+    "2 x Thunderbolt 4 USB Type-C ports",
+    "2 x USB 10Gbps Type-C ports",
+    "8 x USB 10Gbps Type-A ports",
+    "1 x PS/2 Mouse port",
+    "1 x PS/2 Keyboard port",
+    "1 x 5Gbps LAN (RJ45) port",
+    "2 x Wi-Fi Antenna connectors",
+    "2 x Audio jacks (Line-out, Mic-in)",
+    "1 x Optical S/PDIF Out connector"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "general_product_information": {
+    "amazon_sku": "‎B0DM4C1MM2",
+    "newegg_sku": "9SIC1G3KPJ7607",
+    "walmart_sku": 14319200430,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-Z890-UNIFY-X/support#manual"
+  }
 }

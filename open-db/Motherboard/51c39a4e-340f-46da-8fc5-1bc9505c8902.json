@@ -1,16 +1,131 @@
 {
   "opendb_id": "51c39a4e-340f-46da-8fc5-1bc9505c8902",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 2
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 4,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 4,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
+  },
+  "audio": {
+    "channels": "7.1"
   },
   "metadata": {
     "name": "Gigabyte X870E AORUS MASTER X3D",
-    "part_numbers": []
+    "part_numbers": [
+      " X870E AORUS MASTER X3D"
+    ],
+    "manufacturer": "Gigabyte",
+    "series": "X870E"
   },
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
+  "color": [
+    "BLACK"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "69415b508140f0607c7800c8"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "69415b508140f0607c7800c9"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "69415b508140f0607c7800ca"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2580/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "69415b508140f0607c7800c4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "69415b508140f0607c7800c5"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4",
+      "_id": "69415b508140f0607c7800c6"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x2",
+      "_id": "69415b508140f0607c7800c7"
+    }
+  ],
   "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "1 x Q-Flash Plus button",
+    "1 x Clear CMOS button",
+    "1 x reset button",
+    "1 x power button",
+    "1 x HDMI port",
+    "2 x USB4 USB Type-C ports",
+    "1 x USB Type-C port, with USB 3.2 Gen 2 support",
+    "1 x USB Type-C port, with USB 3.2 Gen 2x2 support",
+    "7 x USB 3.2 Gen 2 Type-A ports (red)",
+    "2 x RJ-45 ports",
+    "2 x antenna connectors (2T2R)",
+    "2 x audio jacks",
+    "1 x optical S/PDIF Out connector"
+  ],
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X870E",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "raid_support": true,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true,
+    "_id": "69415b508140f0607c7800c3"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-AORUS-MASTER-X3D/sp"
+  }
 }
