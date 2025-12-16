@@ -1,5 +1,10 @@
 {
   "opendb_id": "3e591640-f5b2-4894-b278-b7bc8cf73f92",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "power_connectors": {
     "cpu_power": []
   },
@@ -7,10 +12,44 @@
     "name": "Gigabyte X870E AERO X3D WOOD",
     "part_numbers": []
   },
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
+  "color": [
+    "WHITE",
+    "GREY",
+    "GOLD",
+    "BROWN"
+  ],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "69407cf0ffe48d7c6b7b7277"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "69407cf0ffe48d7c6b7b7278"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "69407cf0ffe48d7c6b7b7279"
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2580/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4",
+      "_id": "69407cf0ffe48d7c6b7b7276"
+    }
+  ],
   "onboard_ethernet": [],
   "back_panel_ports": [],
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X870E",
   "general_product_information": {}
 }
