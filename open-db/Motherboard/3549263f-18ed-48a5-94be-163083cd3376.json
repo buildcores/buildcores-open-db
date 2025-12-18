@@ -1,60 +1,58 @@
 {
-  "opendb_id": "9b8ac6db-210f-469e-b818-ec0160b62c03",
+  "opendb_id": "3549263f-18ed-48a5-94be-163083cd3376",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 3,
-    "sata_3_gb_s": 0,
-    "u2": 0
+    "sata_6_gb_s": 4
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_3_2_gen_1": 2
   },
   "fan_headers": {
     "cpu_fan": 1,
+    "case_fan": 3,
     "pump": 1,
-    "cpu_opt": 1,
-    "case_fan": 3
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "argb_5v": 3
   },
   "front_panel_headers": {
     "power_button": true,
-    "power_led": true,
     "reset_button": true,
+    "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
+    "main_power": "24-pin",
     "cpu_power": [
       "8-pin",
       "4-pin"
-    ],
-    "main_power": "24-pin"
+    ]
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus B650 PRIME EM-A WIFI AM5 DDR5 Micro ATX",
+    "name": "ASUS PRIME B850M-A WIFI-CSM",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME B650EM-A WIFI"
+      "PRIME B850M-A WIFI-CSM"
     ],
-    "series": "B650",
-    "variant": "PRIME EM-A WIFI"
+    "series": "B850M",
+    "variant": "A WiFI-CSM"
   },
   "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B650",
+  "form_factor": "mATX",
+  "chipset": "AMD B850",
   "color": [
     "BLACK",
     "GREY"
@@ -64,13 +62,13 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "688ec90c3ebf909c29b7c24a"
+      "_id": "6942f78a65679050aa5eec78"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "6942e6261fbe869f65884837"
+      "_id": "6942f78a65679050aa5eec79"
     }
   ],
   "m2_slots": [
@@ -78,49 +76,43 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "688ec90c3ebf909c29b7c24b"
+      "_id": "6942f78a65679050aa5eec7a"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec90c3ebf909c29b7c24c"
+      "_id": "6942f78a65679050aa5eec7b"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec90c3ebf909c29b7c24d"
+      "_id": "6942f78a65679050aa5eec7c"
     }
   ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "688ec90c3ebf909c29b7c24e"
-    }
-  ],
+  "wireless_networking": "2x2 Wi-Fi 6E, Bluetooth v5.3",
   "ecc_support": true,
   "raid_support": true,
-  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "688ec90c3ebf909c29b7c24f"
+    "_id": "6942f78a65679050aa5eec7d"
   },
   "back_panel_ports": [
-    "1 x DisplayPort",
-    "1 x HDMI port",
-    "1 x Realtek 2.5Gb Ethernet port",
     "2 x USB 10Gbps ports (Type-A)",
     "2 x USB 5Gbps ports (Type-A)",
     "4 x USB 2.0 ports (Type-A)",
-    "1 x Wi-Fi Module",
+    "2 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module (Only on WIFI model)",
+    "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "wireless_networking": "Wifi 6 Bluetooth 5.4",
+  "onboard_ethernet": [],
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650em-a-wifi/helpdesk_manual?model2Name=PRIME-B650EM-A-WIFI"
+    "amazon_sku": "B0FBBW1YRW",
+    "newegg_sku": "N82E16813119761",
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/prime-b850m-a-wifi-csm/"
   }
 }

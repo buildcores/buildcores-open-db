@@ -17,8 +17,31 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1,
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -28,11 +51,10 @@
     "name": "Asus B860M-A PRIME WIFI-CSM DDR5 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME B860M-A WIFI-CSM                                                    90MB1JY0-M0AAYC",
-      "PRIME B860M-A WIFI-CSM"
+      "PRIME B860M-A WIFI-CSM                                                    90MB1JY0-M0AAYC"
     ],
     "series": "B860M-A",
-    "variant": ""
+    "variant": "PRIME WIFI CSM"
   },
   "socket": "LGA1851",
   "form_factor": "Micro ATX",
@@ -43,42 +65,36 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b92a865ad0c3553dd85c"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
+      "lanes": 4,
       "_id": "67f9b92a865ad0c3553dd85d"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "694303aa71344e10fc6a674f"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b92a865ad0c3553dd85e"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b92a865ad0c3553dd85f"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b92a865ad0c3553dd860"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b92a865ad0c3553dd861"
     }
   ],
   "onboard_ethernet": [
@@ -88,20 +104,30 @@
       "_id": "67f9b92a865ad0c3553dd862"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9b92a865ad0c3553dd863"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s (Realtek)"
+    "1 x USB 20Gbps port (USB Type-C with DP Alt mode)",
+    "1 x USB 10Gbps port (Type-A)",
+    "2 x USB 5Gbps ports (Type-A)",
+    "4 x USB 2.0 ports (Type-A)",
+    "2 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module (Only on WIFI model)",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks"
   ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0DQ66PD4L",
     "newegg_sku": "N82E16813119714",
-    "walmart_sku": 15085165901
+    "walmart_sku": 15085165901,
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/csm/prime-b860m-a-wifi-csm/"
   }
 }
