@@ -2,7 +2,7 @@
   "opendb_id": "375208cd-5585-427a-97b9-9cc3eaf5eb6a",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,22 +10,20 @@
     "name": "MSI VENTUS 2X OC GeForce RTX 3060 8GB GDDR6 Black",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX 3060 VENTUS 2X 8G OC                                                    GeForce RTX 3060 VENTUS 2X 8G OC                                                    912-V397-644                                                    V397-644R",
-      "GeForce RTX 3060 VENTUS 2X 8G OC",
-      "G3060V2X8C"
+      "RTX 3060 VENTUS 2X 8G OC                                                    GeForce RTX 3060 VENTUS 2X 8G OC                                                    912-V397-644                                                    V397-644R"
     ],
     "series": "GeForce RTX 3060 8GB",
-    "variant": "MSI"
+    "variant": " VENTUS 2X 8G OC"
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 8 GB",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 1320,
   "core_boost_clock": 1807,
-  "effective_memory_clock": 15000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
   "color": [
     "BLACK"
   ],
@@ -39,14 +37,18 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
+    "displayport_2_1_b": 0,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c79c865ad0c3553ebb47"
   },
   "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BL7Y69YP",
     "newegg_sku": "N82E16814137769",
-    "walmart_sku": 1932034741
+    "walmart_sku": 1932034741,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-8G-OC/Specification"
   }
 }
