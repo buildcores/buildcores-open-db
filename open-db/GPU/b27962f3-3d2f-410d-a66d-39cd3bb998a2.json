@@ -2,7 +2,7 @@
   "opendb_id": "b27962f3-3d2f-410d-a66d-39cd3bb998a2",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,22 +10,20 @@
     "name": "Asus PRIME OC GeForce RTX 5060 8GB GDDR7 Black",
     "manufacturer": "Asus",
     "part_numbers": [
-      "prime-rtx5060-o8g",
-      "PRIME-RTX5060-O8G",
-      "PRIME-RTX5060-O8G"
+      "prime-rtx5060-o8g"
     ],
     "series": "GeForce RTX 5060",
-    "variant": "Asus"
+    "variant": "PRIME OC 8GB"
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "memory": 8,
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
   "core_boost_clock": 2595,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK"
   ],
@@ -36,18 +34,22 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd42e1d3a20a8514d3a13"
   },
   "core_count": 3840,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F76KGH6B",
     "newegg_sku": "N82E16814126801",
     "bestbuy_sku": 6632191,
-    "walmart_sku": 16786952178
+    "walmart_sku": 16786952178,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5060-o8g/techspec/"
   }
 }
