@@ -2,7 +2,7 @@
   "opendb_id": "a05aac59-addd-41e6-9fa3-2bb67e8a395f",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,22 +10,21 @@
     "name": "Asus PRIME GeForce RTX 5060 Ti 16GB GDDR7 Black",
     "manufacturer": "Asus",
     "part_numbers": [
-      "prime-rtx5060ti-16g",
-      "PRIME-RTX5060TI-16G",
-      "PRIME-RTX5060TI-16G"
+      "prime-rtx5060ti-16g"
     ],
     "series": "GeForce RTX 5060 Ti",
-    "variant": "Asus"
+    "variant": "PRIME 16GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti 16 GB",
   "memory": 16,
   "memory_type": "GDDR7",
   "core_base_clock": 2410,
   "core_boost_clock": 2602,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK"
   ],
@@ -36,15 +35,19 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "680e7d4c53adf782a1c72c88"
   },
   "core_count": 4608,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814126791"
+    "newegg_sku": "N82E16814126791",
+    "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx5060ti-16g/techspec/"
   }
 }
