@@ -13,12 +13,35 @@
       "type": ["string", "null"],
       "description": "The form factor of the case (e.g., ATX Mid Tower, Full Tower, Mini-ITX)"
     },
+    "supported_motherboard_form_factors": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["Mini-ITX", "Micro ATX", "ATX", "EATX"]
+      },
+      "description": "Array of motherboard form factors this case can accommodate (e.g., ['ATX', 'Micro ATX', 'Mini-ITX'])"
+    },
     "color": {
       "type": ["array", "null"],
       "items": {
-        "type": ["string", "null"]
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "GREY",
+          "WHITE",
+          "BLUE",
+          "RED",
+          "GREEN",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD",
+          "RGB"
+        ]
       },
-      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array. If not specified, use an empty array. Standardized colors: BLACK, GREY, WHITE, BLUE, RED, GREEN, YELLOW, ORANGE, PURPLE, PINK, BROWN, GOLD, RGB."
     },
     "power_supply": {
       "type": ["string", "null"],
@@ -118,7 +141,7 @@
     },
     "volume": {
       "type": ["number", "null"],
-      "description": "The internal volume of the case in liters"
+      "description": "The internal volume of the case in liters. If not provided, try to calculate it from the dimensions."
     },
     "weight": {
       "type": ["number", "null"],
