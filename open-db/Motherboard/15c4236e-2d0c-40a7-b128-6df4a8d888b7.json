@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,34 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 3,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
   "metadata": {
@@ -31,7 +54,7 @@
       "Z890 AERO G"
     ],
     "series": "Z890",
-    "variant": ""
+    "variant": "AERO G"
   },
   "socket": "LGA1851",
   "form_factor": "ATX",
@@ -42,27 +65,39 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b9c7865ad0c3553de9ab"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "6949cd4253620b746c602a4d"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "6949cd4253620b746c602a4e"
     }
   ],
   "m2_slots": [
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b9c7865ad0c3553de9ac"
     },
     {
-      "size": "2280",
+      "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b9c7865ad0c3553de9ad"
     },
     {
-      "size": "2580-25110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b9c7865ad0c3553de9ae"
@@ -74,28 +109,10 @@
       "_id": "67f9b9c7865ad0c3553de9af"
     },
     {
-      "size": "2280-22110",
+      "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b9c7865ad0c3553de9b0"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b9c7865ad0c3553de9b1"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b9c7865ad0c3553de9b2"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b9c7865ad0c3553de9b3"
     }
   ],
   "onboard_ethernet": [
@@ -105,20 +122,30 @@
       "_id": "67f9b9c7865ad0c3553de9b4"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9b9c7865ad0c3553de9b5"
   },
   "back_panel_ports": [
-    "2 x 2.5 Gb/s Ports (Intel)"
+    "1 x HDMI port",
+    "2 x USB 2.0/1.1 ports",
+    "2 x USB 3.2 Gen 2 Type-A ports (Red)",
+    "1 x Intel Thunderbolt 4 connector (USB4 USB Type-C)",
+    "2 x RJ-45 ports (2.5GbE)",
+    "4 x USB 3.2 Gen 1 ports",
+    "2 x Antenna connectors (2T2R)",
+    "2 x Audio jacks",
+    "1 x Optical S/PDIF Out connector"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DJP9KLLD",
     "newegg_sku": "N82E16813145528",
-    "walmart_sku": 13567365314
+    "walmart_sku": 13567365314,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z890-AERO-G/sp"
   }
 }

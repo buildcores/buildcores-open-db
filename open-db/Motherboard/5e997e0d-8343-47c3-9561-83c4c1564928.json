@@ -15,13 +15,36 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 2,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -31,7 +54,7 @@
       "Z890 AERO D"
     ],
     "series": "Z890",
-    "variant": ""
+    "variant": "AERO D"
   },
   "socket": "LGA1851",
   "form_factor": "EATX",
@@ -41,60 +64,48 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b97b865ad0c3553de128"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "6949c308e8c4a92ae0cbd4c4"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "6949c308e8c4a92ae0cbd4c5"
     }
   ],
   "m2_slots": [
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b97b865ad0c3553de129"
     },
     {
-      "size": "2280",
+      "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b97b865ad0c3553de12a"
     },
     {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b97b865ad0c3553de12b"
-    },
-    {
-      "size": "2280",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b97b865ad0c3553de12c"
     },
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b97b865ad0c3553de12d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b97b865ad0c3553de12e"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b97b865ad0c3553de12f"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b97b865ad0c3553de130"
     }
   ],
   "onboard_ethernet": [
@@ -104,7 +115,7 @@
       "_id": "67f9b97b865ad0c3553de131"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -113,7 +124,16 @@
     "_id": "67f9b97b865ad0c3553de132"
   },
   "back_panel_ports": [
-    "2 x 10 Gb/s (Marvell AQtion AQC113C)"
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "2 x Thunderbolt 5 connectors (USB4 USB Type-C)",
+    "6 x USB 3.2 Gen 2 Type-A ports (Red)",
+    "2 x USB 3.2 Gen 1 ports",
+    "2 x RJ-45 ports (10GbE)",
+    "2 x Antenna connectors (2T2R)",
+    "2 x Audio jacks"
   ],
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z890-AERO-D/gallery"
+  }
 }
