@@ -27,6 +27,7 @@ We have a few near-term goals for this project to improve data quality and incre
 
 - `/open-db/` - Contains component data organized by category (CPU, GPU, RAM, etc.)
 - `/schemas/` - JSON schemas that define the structure and validation rules for each component type
+- `/docs/` - Documentation for contributors
 - `/.github/workflows/` - Workflows to validate schemas and sync with our internal API
 
 ## How to Use
@@ -59,6 +60,16 @@ Each component follows a standard JSON structure defined by its corresponding sc
 - TDP
 - Integrated graphics (if applicable)
 - Retailer SKUs
+
+### Product Variants
+
+Many products come in multiple variants (e.g., different colors, speeds, or editions). These are grouped together using the `metadata` fields:
+
+- `metadata.manufacturer` - The company that makes the product
+- `metadata.series` - The product line/series name  
+- `metadata.variant` - What distinguishes this specific variant
+
+For detailed guidance on adding variants, see [docs/VARIANTS.md](docs/VARIANTS.md).
 
 ## How to Contribute
 
