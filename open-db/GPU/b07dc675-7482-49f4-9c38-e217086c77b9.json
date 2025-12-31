@@ -4,7 +4,7 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "metadata": {
     "name": "Gigabyte WINDFORCE SFF GeForce RTX 5070 Ti 16 GB",
@@ -13,17 +13,18 @@
       "GV-N507TWF3-16GD"
     ],
     "series": "GeForce RTX 5070 Ti",
-    "variant": "Gigabyte"
+    "variant": "WINDFORCE SFF",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2452,
+  "core_base_clock": 2295,
   "core_boost_clock": 2452,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
   "length": 304,
   "tdp": 300,
@@ -33,14 +34,17 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67e89c7111815510c7c778fc"
   },
-  "color": [],
+  "color": [
+    "BLACK"
+  ],
   "core_count": 8960,
   "general_product_information": {}
 }
