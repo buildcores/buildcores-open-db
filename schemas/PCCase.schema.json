@@ -10,14 +10,36 @@
       "description": "Unique identifier for the document (UUID v4)"
     },
     "form_factor": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "ATX Full Tower",
+        "ATX Mid Tower",
+        "ATX Mini Tower",
+        "ATX Desktop",
+        "ATX Test Bench",
+        "EATX Full Tower",
+        "EATX Mid Tower",
+        "Micro ATX Mid Tower",
+        "Micro ATX Mini Tower",
+        "Micro ATX Desktop",
+        "Micro ATX Slim Tower",
+        "Mini ITX Tower",
+        "Mini ITX Desktop",
+        "Mini ITX Test Bench",
+        "HTPC",
+        "Open Frame",
+        null
+      ],
       "description": "The form factor of the case (e.g., ATX Mid Tower, Full Tower, Mini-ITX)"
     },
     "supported_motherboard_form_factors": {
       "type": ["array", "null"],
       "items": {
         "type": "string",
-        "enum": ["Mini-ITX", "Micro ATX", "ATX", "EATX"]
+        "enum": ["Mini-ITX", "Mini-DTX", "Micro ATX", "ATX", "EATX", "SSI EEB", "SSI CEB"]
       },
       "description": "Array of motherboard form factors this case can accommodate (e.g., ['ATX', 'Micro ATX', 'Mini-ITX'])"
     },
@@ -59,7 +81,22 @@
       "description": "The PSU form factors that the case can support (e.g., ['ATX', 'SFX', 'SFX-L'])"
     },
     "side_panel": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Tempered Glass",
+        "Acrylic",
+        "Mesh",
+        "Solid",
+        "None",
+        "Tinted Tempered Glass",
+        "Tinted Acrylic",
+        "Aluminum",
+        "Steel",
+        null
+      ],
       "description": "The type of side panel (e.g., Tempered Glass, Acrylic, Solid)"
     },
     "has_transparent_side_panel": {

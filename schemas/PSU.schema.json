@@ -29,12 +29,35 @@
         "string",
         "null"
       ],
+      "enum": [
+        "ATX",
+        "SFX",
+        "SFX-L",
+        "TFX",
+        "Flex ATX",
+        "Mini-ITX",
+        "ATX/EPS",
+        null
+      ],
       "description": "The physical size and shape of the PSU (e.g., ATX)"
     },
     "efficiency_rating": {
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "80+ Titanium",
+        "80+ Platinum",
+        "80+ Gold",
+        "80+ Silver",
+        "80+ Bronze",
+        "80+ Standard",
+        "80+ White",
+        "Cybenetics Platinum",
+        "80+",
+        "No",
+        null
       ],
       "description": "The 80 PLUS efficiency certification level (e.g., 80 PLUS Gold)"
     },
@@ -43,6 +66,16 @@
         "string",
         "null"
       ],
+      "enum": [
+        "Cybenetics Diamond",
+        "Cybenetics Titanium",
+        "Cybenetics Platinum",
+        "Cybenetics Gold",
+        "Cybenetics Silver",
+        "Cybenetics Bronze",
+        "Cybenetics Standard",
+        null
+      ],
       "description": "The Cybernetics efficiency rating of the PSU (e.g., Cybenetics Titanium, Cybenetics Platinum, Cybenetics Gold)"
     },
     "cybernetics_noise_rating": {
@@ -50,12 +83,28 @@
         "string",
         "null"
       ],
+      "enum": [
+        "Cybenetics A++",
+        "Cybenetics A+",
+        "Cybenetics A",
+        "Cybenetics A-",
+        "Cybenetics Standard++",
+        "Cybenetics Standard+",
+        "Cybenetics Standard",
+        null
+      ],
       "description": "The Cybernetics noise rating of the PSU (e.g., Cybernetics A++. Cybernetics A+, Cybernetics Standard, etc)"
     },
     "modular": {
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "Full",
+        "Semi-Modular",
+        "Non-Modular",
+        null
       ],
       "description": "The modularity of the PSU cables (e.g., Full, Semi-Modular, Non-Modular)"
     },

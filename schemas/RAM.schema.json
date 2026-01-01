@@ -29,12 +29,32 @@
         "string",
         "null"
       ],
+      "enum": [
+        "DDR5",
+        "DDR4",
+        "DDR3",
+        "DDR2",
+        "DDR1",
+        null
+      ],
       "description": "DDR generation (e.g., DDR4, DDR5)"
     },
     "form_factor": {
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "288-pin DIMM",
+        "262-pin SO-DIMM",
+        "260-pin SO-DIMM",
+        "240-pin DIMM",
+        "204-pin SO-DIMM",
+        "200-pin SO-DIMM",
+        "184-pin DIMM",
+        "UDIMM",
+        "DIMM",
+        null
       ],
       "description": "The physical form factor of the RAM module (e.g., 288-pin DIMM, 260-pin SO-DIMM)"
     },
@@ -110,12 +130,23 @@
         "string",
         "null"
       ],
+      "enum": [
+        "ECC",
+        "Non-ECC",
+        null
+      ],
       "description": "Whether the RAM supports Error-Correcting Code (e.g., Non-ECC, ECC)"
     },
     "registered": {
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "Unbuffered",
+        "Registered",
+        "Load Reduced",
+        null
       ],
       "description": "Whether the RAM is registered or unbuffered (e.g., Unbuffered, Registered, Load Reduced)"
     },

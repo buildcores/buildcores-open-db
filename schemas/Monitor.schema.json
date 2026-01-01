@@ -63,6 +63,23 @@
         "string",
         "null"
       ],
+      "enum": [
+        "IPS",
+        "VA",
+        "TN",
+        "OLED",
+        "QD-OLED",
+        "QD-VA",
+        "AHVA",
+        "PLS",
+        "PVA",
+        "WOLED",
+        "Mini LED",
+        "Mini LED IPS",
+        "Mini LED VA",
+        "Nano IPS",
+        null
+      ],
       "description": "Type of panel (IPS, VA, TN, OLED, etc.)"
     },
     "response_time": {
@@ -97,6 +114,24 @@
         "string",
         "null"
       ],
+      "enum": [
+        "16:9",
+        "21:9",
+        "16:10",
+        "5:4",
+        "32:9",
+        "12:5",
+        "4:3",
+        "64:27",
+        "3:2",
+        "256:135",
+        "16:5",
+        "8:9",
+        "1:1",
+        "11:6",
+        "683:240",
+        null
+      ],
       "description": "Aspect ratio (e.g., '16:9', '21:9')"
     },
     "connectors": {
@@ -124,6 +159,17 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "None",
+        "FreeSync",
+        "FreeSync Premium",
+        "FreeSync Premium Pro",
+        "G-Sync",
+        "G-Sync Compatible",
+        "G-Sync Ultimate",
+        "VESA Adaptive-Sync",
+        null
       ],
       "description": "Adaptive sync technology (G-Sync, FreeSync, etc.)"
     },
