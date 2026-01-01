@@ -2,9 +2,9 @@
   "opendb_id": "3113d465-ab67-4c76-8c1e-b6a062918289",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": null,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "metadata": {
     "name": "Gigabyte WINDFORCE OC SFF GeForce RTX 5070 12GB GDDR7 Black",
@@ -13,17 +13,18 @@
       "GV-N5070WF3OC-12GD"
     ],
     "series": "GeForce RTX 5070",
-    "variant": "Gigabyte"
+    "variant": "WINDFORCE OC SFF",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
-  "core_base_clock": 2160,
+  "core_base_clock": 2325,
   "core_boost_clock": 2542,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,18 +35,22 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c5f1865ad0c3553ea07c"
   },
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTGP2WMT",
     "newegg_sku": "N82E16814932777",
     "bestbuy_sku": 6621265,
-    "walmart_sku": 16342915185
+    "walmart_sku": 16342915185,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N5070WF3OC-12GD/sp"
   }
 }

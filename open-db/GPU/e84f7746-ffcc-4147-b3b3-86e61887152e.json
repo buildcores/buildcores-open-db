@@ -3,7 +3,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": null,
     "pcie_12V_2x6": 1
   },
   "metadata": {
@@ -13,16 +13,16 @@
       "ZT-B50900B-10P"
     ],
     "series": "GeForce RTX 5090",
-    "variant": "Zotac",
+    "variant": "AMP Extreme INFINITY",
     "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5090",
   "memory": 32,
   "memory_type": "GDDR7",
   "core_base_clock": 2010,
   "core_boost_clock": 2467,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 512,
   "interface": "PCIe x16",
   "color": [
@@ -35,18 +35,21 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c585865ad0c3553e99db"
   },
   "core_count": 21760,
   "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0F135FPK3",
-    "newegg_sku": " N82E16814500593",
-    "walmart_sku": 15480813497
+    "newegg_sku": "N82E16814500593",
+    "walmart_sku": 15480813497,
+    "manufacturer_url": "https://www.zotac.com/md/product/graphics_card/zotac-gaming-geforce-rtx-5090-amp-extreme-infinity-0#spec"
   }
 }

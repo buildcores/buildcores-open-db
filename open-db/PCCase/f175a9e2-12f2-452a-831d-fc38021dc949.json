@@ -4,12 +4,21 @@
     "name": "Antec C8 ATX Full Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
     "manufacturer": "Antec",
     "part_numbers": [
-      "C8                                                    0-761345-10019-9"
+      "C8                                                    0-761345-10019-9",
+      "C8",
+      "0-761345-10019-9"
     ],
     "series": "C8",
-    "variant": "C8 Black"
+    "variant": "C8 Black",
+    "releaseYear": 2023
   },
-  "form_factor": "ATX Full Tower",
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX"
+  ],
+  "form_factor": "EATX Full Tower",
   "color": [
     "BLACK"
   ],
@@ -22,7 +31,7 @@
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 4,
   "expansion_slots": 8,
-  "dimensions": "464 x 303 x 476",
+  "dimensions": "303 x 476 x 464",
   "volume": 66.922,
   "weight": 23.1,
   "supported_power_supply_form_factors": [],

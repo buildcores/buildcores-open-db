@@ -1,12 +1,12 @@
 {
   "opendb_id": "e01e917b-a79d-4b99-8313-33e226e5ae4b",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,31 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2,
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -28,10 +51,12 @@
     "name": "Gigabyte B650 AERO G AM5 WIFI DDR5 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": [
-      "B650 AERO G"
+      "B650 AERO G",
+      "B650",
+      "B650"
     ],
     "series": "B650",
-    "variant": ""
+    "variant": "AERO G"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -43,53 +68,41 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b977865ad0c3553de0ae"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
+      "lanes": 4,
       "_id": "67f9b977865ad0c3553de0af"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "6949df51865306a24cd749fe"
     }
   ],
   "m2_slots": [
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280 ",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b977865ad0c3553de0b0"
     },
     {
-      "size": "2280",
+      "size": "25110/22110/2580/2280 ",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b977865ad0c3553de0b1"
     },
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280 ",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b977865ad0c3553de0b2"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b977865ad0c3553de0b3"
-    },
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b977865ad0c3553de0b4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b977865ad0c3553de0b5"
     }
   ],
   "onboard_ethernet": [
@@ -103,16 +116,27 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9b977865ad0c3553de0b7"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Intel)"
+    "2 x SMA antenna connectors (2T2R)",
+    "2 x USB 2.0/1.1 ports",
+    "1 x DisplayPort ",
+    "1 x HDMI port",
+    "3 x USB 3.2 Gen 2 Type-A ports (red)",
+    "1 x USB Type-C port (DisplayPort) with USB 3.2 Gen 2 support",
+    "4 x USB 3.2 Gen 1 ports",
+    "1 x RJ-45 port",
+    "2 x Audio jacks",
+    "1 x Optical S/PDIF Out connector"
   ],
+  "wireless_networking": "Wi-Fi 6E Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B0BH79FMW3",
     "newegg_sku": "N82E16813145410",
-    "walmart_sku": 1118509715
+    "walmart_sku": 1118509715,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B650-AERO-G-rev-10/sp"
   }
 }

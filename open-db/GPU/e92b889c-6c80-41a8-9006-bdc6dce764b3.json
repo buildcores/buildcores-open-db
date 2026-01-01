@@ -10,20 +10,20 @@
     "name": "MSI GeForce RTX 3060 Ventus 2X 12G",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX3060Ventus2X12GOCGeForce RTX 3060 VENTUS 2X 12G OCV397-022R912-V397-039"
+      "GeForce RTX 3060 VENTUS 2X 12G"
     ],
     "series": "GeForce RTX 3060 12GB",
-    "variant": "MSI"
+    "variant": "VENTUS 2X 12G"
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 12 GB",
   "memory": 12,
   "memory_type": "GDDR6",
   "core_base_clock": 1320,
   "core_boost_clock": 1777,
-  "effective_memory_clock": 15000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
   "length": 235,
   "tdp": 170,
@@ -31,8 +31,8 @@
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": null,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
@@ -40,7 +40,14 @@
     "vga": 0,
     "_id": "67e0a449deff7733a74083c4"
   },
-  "color": [],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "core_count": 3584,
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B08WRVQ4KR",
+    "newegg_sku": "9SIB4VJKBN6993",
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-2X-12G/Specification"
+  }
 }

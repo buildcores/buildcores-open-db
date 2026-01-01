@@ -1,47 +1,70 @@
 {
   "opendb_id": "4976e61f-4ccb-48f8-9124-0f246f785397",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "usb_headers": {
-    "usb_2_0": 0,
-    "usb_3_2_gen_1": 1,
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": null,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "ROG Strix Hive II",
     "channels": "7.1"
   },
   "metadata": {
     "name": "Asus ROG STRIX Z890-I GAMING WIFI DDR5 Mini ITX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "ROG STRIX Z890-I GAMING WIFI                                                    90MB1IC0-M0EAY0                                                    90MB1IC0-M0EAY1"
+      "ROG STRIX Z890-I GAMING WIFI                                                    90MB1IC0-M0EAY0                                                    90MB1IC0-M0EAY1",
+      "ROG STRIX Z890-I GAMING WIFI",
+      "ROG STRIX Z890-I GAMING WIFI"
     ],
-    "series": "ROG",
-    "variant": ""
+    "series": "ROG STRIX",
+    "variant": "Z890-I GAMING WIFI"
   },
   "socket": "LGA1851",
   "form_factor": "Mini-ITX",
   "chipset": "Intel Z890",
   "color": [
-    "BLACK"
+    "BLACK",
+    "GREY"
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9b922865ad0c3553dd770"
@@ -49,28 +72,16 @@
   ],
   "m2_slots": [
     {
-      "size": "2230-2242",
+      "size": "2230/2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b922865ad0c3553dd771"
     },
     {
-      "size": "2280",
+      "size": "2230/2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b922865ad0c3553dd772"
-    },
-    {
-      "size": "2230-2242",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b922865ad0c3553dd773"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b922865ad0c3553dd774"
     }
   ],
   "onboard_ethernet": [
@@ -80,20 +91,30 @@
       "_id": "67f9b922865ad0c3553dd775"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b922865ad0c3553dd776"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Intel)"
+    "2 x Thunderbolt™ 4 (2 x USB Type-C)",
+    "1 x USB 20Gbps port (1 x USB Type-C)",
+    "3 x USB 10Gbps ports (3 x Type-A)",
+    "1 x USB 5Gbps port (1 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x HDMI™ port",
+    "1 x Wi-Fi module",
+    "1 x Intel 2.5Gb Ethernet port",
+    "1 x BIOS FlashBack button "
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DGWTXD4L",
     "newegg_sku": "N82E16813119694",
-    "walmart_sku": 14147356660
+    "walmart_sku": 14147356660,
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z890-i-gaming-wifi/spec/"
   }
 }

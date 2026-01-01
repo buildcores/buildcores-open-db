@@ -1,7 +1,7 @@
 {
   "opendb_id": "889f6d02-00f1-4db6-b885-156fb3c323dc",
   "memory": {
-    "max": 128,
+    "max": 192,
     "ram_type": "DDR4",
     "slots": 4
   },
@@ -17,21 +17,47 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": false
+  },
+  "other_headers": {
+    "temperature_sensor": 2,
+    "com_port": 1,
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
     "name": "Gigabyte Z690 AERO G DDR4 ATX LGA1700",
     "manufacturer": "Gigabyte",
     "part_numbers": [
-      "Z690 AERO G DDR4"
+      "Z690 AERO G DDR4",
+      "Z690"
     ],
     "series": "Z690",
-    "variant": ""
+    "variant": "AERO G DDR4"
   },
   "socket": "LGA1700",
   "form_factor": "ATX",
@@ -42,60 +68,42 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9ba84865ad0c3553dfe68"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 4,
+      "_id": "6949dbaa34deaf73573c9ade"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba84865ad0c3553dfe69"
     },
     {
-      "size": "2280",
+      "size": "2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba84865ad0c3553dfe6a"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba84865ad0c3553dfe6b"
     },
     {
-      "size": "2280",
+      "size": "2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba84865ad0c3553dfe6c"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba84865ad0c3553dfe6d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba84865ad0c3553dfe6e"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba84865ad0c3553dfe6f"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba84865ad0c3553dfe70"
     }
   ],
   "onboard_ethernet": [
@@ -105,16 +113,31 @@
       "_id": "67f9ba84865ad0c3553dfe71"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9ba84865ad0c3553dfe72"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s (Intel)"
+    "2 x USB 2.0/1.1 ports",
+    "2 x SMA antenna connectors (2T2R)",
+    "4 x USB 3.2 Gen 1 ports",
+    "1 x DisplayPort In port",
+    "1 x HDMI port",
+    "2 x USB 3.2 Gen 2 Type-A ports (red)",
+    "1 x USB Type-C port (USB 3.2 Gen 2x2)",
+    "1 x USB Type-C port (USB 3.2 Gen 1)",
+    "1 x RJ-45 port (2.5GbE)",
+    "1 x Optical S/PDIF Out connector",
+    "2 x Audio jacks"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wifi 6 Bluetooth 5.2",
+  "general_product_information": {
+    "amazon_sku": "B09L9DY4L1",
+    "newegg_sku": "9SIC3DRKN60051",
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-AERO-G-DDR4-rev-1x"
+  }
 }

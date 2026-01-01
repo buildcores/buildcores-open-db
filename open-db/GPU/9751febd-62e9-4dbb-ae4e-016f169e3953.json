@@ -2,7 +2,7 @@
   "opendb_id": "9751febd-62e9-4dbb-ae4e-016f169e3953",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
@@ -13,17 +13,18 @@
       "G507T-16S3                                                    GeForce RTX 5070 Ti 16G SHADOW 3X                                                    RTX 5070 Ti 16G SHADOW 3X"
     ],
     "series": "GeForce RTX 5070 Ti",
-    "variant": "MSI"
+    "variant": "SHADOW 3X 16GB",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
+  "core_base_clock": 2295,
   "core_boost_clock": 2467,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,13 +35,18 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c773865ad0c3553eb8be"
   },
   "core_count": 8960,
-  "general_product_information": {}
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-SHADOW-3X"
+  }
 }

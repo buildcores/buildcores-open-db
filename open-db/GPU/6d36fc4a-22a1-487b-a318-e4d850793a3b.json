@@ -2,7 +2,7 @@
   "opendb_id": "6d36fc4a-22a1-487b-a318-e4d850793a3b",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,7 +13,8 @@
       "RTX 5060 8G SHADOW 2X                                                    G5060-8S2"
     ],
     "series": "GeForce RTX 5060",
-    "variant": "MSI"
+    "variant": "SHADOW 2X 8GB",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "GeForce",
   "chipset": "GeForce RTX 5060",
@@ -21,26 +22,31 @@
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
   "core_boost_clock": 2512,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK"
   ],
   "length": 197,
-  "tdp": 155,
+  "tdp": 145,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd4321d3a20a8514d3a67"
   },
   "core_count": 3840,
-  "general_product_information": {}
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-SHADOW-2X/Gallery#lg=1&slide=4"
+  }
 }

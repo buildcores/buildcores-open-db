@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,31 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -31,7 +54,7 @@
       "B840 GAMING X WIFI6E                                            B840 GAMING X WF6E"
     ],
     "series": "B840",
-    "variant": ""
+    "variant": "GAMING X WIFI"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -42,47 +65,41 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 4,
+      "quantity": 1,
       "lanes": 16,
       "_id": "68cb89c99b67bc35527b4476"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "6949e31e97024832b66f92b6"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "6949e31e97024832b66f92b7"
     }
   ],
   "m2_slots": [
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "68cb89c99b67bc35527b4477"
     },
     {
-      "size": "2280",
+      "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "68cb89c99b67bc35527b4478"
     },
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 3.0 x4",
       "_id": "68cb89c99b67bc35527b4479"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "68cb89c99b67bc35527b447a"
-    },
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "68cb89c99b67bc35527b447b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "68cb89c99b67bc35527b447c"
     }
   ],
   "onboard_ethernet": [
@@ -96,12 +113,25 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "68cb89c99b67bc35527b447e"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "1 x Q-Flash Plus button",
+    "1 x Clear CMOS button",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x USB Type-C port (USB 3.2 Gen 2)",
+    "1 x USB 3.2 Gen 2 Type-A port (Red)",
+    "2 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port (2.5GbE)",
+    "2 x Antenna connectors (2T2R)",
+    "3 x Audio jacks"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
+  "general_product_information": {
+    "manufacturer_url": "https://www.barcodelookup.com/-Gigabyte-B840-GAMING-X-WIFI6E-DDR5-ATX-AM5/"
+  }
 }

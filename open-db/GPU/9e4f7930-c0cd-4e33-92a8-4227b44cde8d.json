@@ -2,7 +2,7 @@
   "opendb_id": "9e4f7930-c0cd-4e33-92a8-4227b44cde8d",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,17 +13,17 @@
       "DUAL-RTX5070-O12G"
     ],
     "series": "GeForce RTX 5070",
-    "variant": "Asus"
+    "variant": "Dual OC"
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
   "core_base_clock": 2160,
   "core_boost_clock": 2572,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK",
     "GREY"
@@ -34,14 +34,21 @@
   "cooling": "2 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
-    "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "hdmi_2_0": null,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd40a1d3a20a8514d2b24"
   },
   "core_count": 6144,
-  "general_product_information": {}
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "amazon_sku": "B0FG6164PS",
+    "newegg_sku": "9SIBP4YKGJ1777",
+    "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx5070-o12g/techspec/"
+  }
 }

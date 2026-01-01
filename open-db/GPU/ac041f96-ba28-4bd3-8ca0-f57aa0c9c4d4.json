@@ -2,28 +2,29 @@
   "opendb_id": "ac041f96-ba28-4bd3-8ca0-f57aa0c9c4d4",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "metadata": {
-    "name": "GALAX (1-click OC) GeForce RTX 5050 8GB GDDR6 Black / Translucent White",
+    "name": "GALAX (1-click OC) GeForce RTX 5050 8GB GDDR6 Black ",
     "manufacturer": "GALAX",
     "part_numbers": [
       "55NSL8MHDCHD"
     ],
     "series": "GeForce RTX 5050",
-    "variant": "GALAX"
+    "variant": "1-click OC Black",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5050",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 2317,
   "core_boost_clock": 2602,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2500,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK",
     "WHITE"
@@ -35,14 +36,17 @@
   "video_outputs": {
     "hdmi_2_1": 2,
     "hdmi_2_0": 0,
-    "displayport_2_1": 2,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 2,
     "dvi_d": 0,
     "vga": 0,
     "_id": "688ec9a93ebf909c29b821dc"
   },
   "core_count": 2560,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "manufacturer_url": "https://www.galax.com/en/graphics-card/50-series/geforce-rtx-5050-1coc.html"
   }

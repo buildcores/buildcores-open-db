@@ -1,12 +1,12 @@
 {
   "opendb_id": "aabedc2f-c98b-4f4f-82f4-f914e02c22b2",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,31 +17,54 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
     "name": "Asus ROG STRIX B850-I GAMING WIFI DDR5 Mini ITX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "ROG STRIX B850-I GAMING WIFI                                                    STRIX B850-I GAMING WIFI                                                    90MB1K30-M0EAY0                                                    90MB1K30-MVAAY0"
+      "ROG STRIX B850-I GAMING WIFI                                                    STRIX B850-I GAMING WIFI                                                    90MB1K30-M0EAY0                                                    90MB1K30-MVAAY0",
+      "ROG STRIX B850-I GAMING WIFI",
+      "‎5Z8N"
     ],
-    "series": "ROG",
-    "variant": ""
+    "series": null,
+    "variant": "I Gaming WiFi"
   },
   "socket": "AM5",
   "form_factor": "Mini-ITX",
   "chipset": "AMD B850",
   "color": [
-    "BLACK"
+    "BLACK",
+    "GREY"
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9bb6b865ad0c3553e172c"
@@ -49,28 +72,16 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9bb6b865ad0c3553e172d"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9bb6b865ad0c3553e172e"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb6b865ad0c3553e172f"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb6b865ad0c3553e1730"
     }
   ],
   "onboard_ethernet": [
@@ -80,20 +91,32 @@
       "_id": "67f9bb6b865ad0c3553e1731"
     }
   ],
-  "ecc_support": false,
-  "raid_support": false,
+  "ecc_support": true,
+  "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9bb6b865ad0c3553e1732"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Intel)"
+    "1 x 2.5 Gb/s Ports (Intel)",
+    "1 x USB 20Gbps port(s)",
+    "5 x USB 10Gbps port(s) (4 x Type-A + 1 x USB Type-C® with DP Alt mode)",
+    "2 x USB 2.0 port(s) (2 x Type-A)",
+    "1 x HDMI™ port",
+    "1 x Wi-Fi module",
+    "3 x Audio jacks",
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack button",
+    "1 x Clear CMOS button ",
+    "1 x FlexKey button"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DHCQ1MPZ",
     "newegg_sku": "N82E16813119704",
-    "walmart_sku": 14971670192
+    "walmart_sku": 14971670192,
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/spec/"
   }
 }

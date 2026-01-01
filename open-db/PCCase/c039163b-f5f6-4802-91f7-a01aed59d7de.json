@@ -1,15 +1,22 @@
 {
   "opendb_id": "c039163b-f5f6-4802-91f7-a01aed59d7de",
   "metadata": {
-    "name": "Lian Li LANCOOL 216 RGB ATX Mid Tower White Tempered Glass USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
+    "name": "Lian Li LANCOOL 216 RGB EATX Mid Tower White Tempered Glass USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
     "manufacturer": "Lian Li",
     "part_numbers": [
-      "LANCOOL 216RW                                                    G99.LAN216RW.00                                                    PC-LAN216RW"
+      "LANCOOL 216RW                                                    G99.LAN216RW.00                                                    PC-LAN216RW",
+      "G99.LAN216RW.00"
     ],
     "series": "LANCOOL",
-    "variant": ""
+    "variant": "216 White"
   },
-  "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": [
+    "EATX",
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX"
+  ],
+  "form_factor": "EATX Mid Tower",
   "color": [
     "WHITE"
   ],
@@ -20,7 +27,7 @@
   "max_video_card_length": 392,
   "max_cpu_cooler_height": 180.5,
   "internal_3_5_bays": 2,
-  "internal_2_5_bays": 4,
+  "internal_2_5_bays": 6,
   "expansion_slots": 7,
   "dimensions": "480.9 x 235 x 491.7",
   "volume": 55.568,
@@ -28,7 +35,7 @@
   "supported_power_supply_form_factors": [],
   "front_usb_ports": [
     "2 x USB 3.0 ",
-    "  1 x USB Type C"
+    "1 x USB Type C"
   ],
   "dimensions_mm": {
     "width": 235,
@@ -36,6 +43,8 @@
     "depth": 480.9,
     "_id": "68a5fd0ee4a78b673e1ae602"
   },
+  "power_supply_shroud": true,
+  "riser_expansion_slots": 7,
   "general_product_information": {
     "amazon_sku": "B0BN3TTBKM",
     "newegg_sku": "2AM-000Z-000A9"

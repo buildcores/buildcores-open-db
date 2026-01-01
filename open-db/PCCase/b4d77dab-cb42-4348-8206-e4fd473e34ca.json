@@ -4,12 +4,21 @@
     "name": "Lian Li O11 VISION COMPACT ATX Mid Tower Black with Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, and USB 3.2 Gen 1 Type-A",
     "manufacturer": "Lian Li",
     "part_numbers": [
-      "O11VPX                                                    O11 Vision Compact Black                                                    G99.O11VPX.00                                                    PC-O11VPX"
+      "O11VPX                                                    O11 Vision Compact Black                                                    G99.O11VPX.00                                                    PC-O11VPX",
+      "O11VPX",
+      "O11VPX Black"
     ],
     "series": "O11",
-    "variant": "Vision"
+    "variant": "Vision",
+    "releaseYear": 2024
   },
-  "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX"
+  ],
+  "form_factor": "EATX Mid Tower",
   "color": [
     "BLACK"
   ],
@@ -22,10 +31,12 @@
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 2,
   "expansion_slots": 7,
-  "dimensions": "447.5 x 287.5 x 446.4",
-  "volume": 57.432,
-  "weight": 26.4,
-  "supported_power_supply_form_factors": [],
+  "dimensions": "287 x 446.4 x 447.5",
+  "volume": 57.26,
+  "weight": 25.6,
+  "supported_power_supply_form_factors": [
+    "ATX"
+  ],
   "front_usb_ports": [
     "1x USB 3.2 Gen 2 Type-C   ",
     "2x USB 3.0 Type-A"

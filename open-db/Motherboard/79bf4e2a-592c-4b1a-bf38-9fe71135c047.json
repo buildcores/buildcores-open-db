@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,18 +17,41 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "rgb_12v": 1,
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_led": true,
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock B850 M-X WiFi AM5 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "B850M-X WiFi                                                    90-MXBRU-A0UAYZ                                                    90-MXBRU0-A0UAYZ                                                    90-MXBRU0-A0UAYAZ"
+      "B850M-X WiFi                                                    90-MXBRU-A0UAYZ                                                    90-MXBRU0-A0UAYZ                                                    90-MXBRU0-A0UAYAZ",
+      "B850M-X WiFi R2.0",
+      "B850M-X WIFI R2.0"
     ],
     "series": "B850",
     "variant": ""
@@ -37,8 +60,7 @@
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
   "color": [
-    "BLACK",
-    "WHITE"
+    "BLACK"
   ],
   "pcie_slots": [
     {
@@ -58,26 +80,14 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b723865ad0c3553d9eee"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b723865ad0c3553d9eef"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b723865ad0c3553d9ef0"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b723865ad0c3553d9ef1"
     }
   ],
   "onboard_ethernet": [
@@ -87,19 +97,29 @@
       "_id": "67f9b723865ad0c3553d9ef2"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b723865ad0c3553d9ef3"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"
+    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)",
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x BIOS Flashback Button",
+    " HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "wireless_networking": "Wi-Fi 6E Bluetooth 5.2",
   "general_product_information": {
-    "amazon_sku": "B0DS6M9G9K",
-    "newegg_sku": "N82E16813162200"
+    "amazon_sku": "B0F3NDZF19",
+    "newegg_sku": "N82E16813162225",
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/B850M-X%20WiFi/index.asp#Specification"
   }
 }

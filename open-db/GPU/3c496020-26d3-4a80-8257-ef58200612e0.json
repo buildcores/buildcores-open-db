@@ -4,7 +4,7 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "metadata": {
     "name": "Gigabyte WINDFORCE SFF GeForce RTX 5070 12GB GDDR7 Black",
@@ -13,17 +13,17 @@
       "GV-N5070WF3-12GD"
     ],
     "series": "GeForce RTX 5070",
-    "variant": "Gigabyte"
+    "variant": "WINDFORCE OC 12G"
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
-  "core_base_clock": 2160,
+  "core_base_clock": 2325,
   "core_boost_clock": 2512,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,15 +34,20 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c626865ad0c3553ea3dc"
   },
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814932782"
+    "amazon_sku": "B0F3ZW3MKW",
+    "newegg_sku": "N82E16814932782",
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N5070WF3-12GD/"
   }
 }

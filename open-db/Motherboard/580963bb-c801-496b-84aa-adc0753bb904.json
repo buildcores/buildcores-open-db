@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,21 +17,46 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 2,
+    "case_fan": 8
+  },
+  "rgb_headers": {
+    "rgb_12v": 1,
+    "argb_5v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4082",
     "channels": "7.1"
   },
   "metadata": {
     "name": "MSI X870E MEG GODLIKE AM5 DDR5 EATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "MEG X870E GODLIKE                                                    7E48-001R"
+      "MEG X870E GODLIKE                                                    7E48-001R",
+      "MEG X870E GODLIKE",
+      "X870EGODLIKE",
+      "X870EGODLIKE"
     ],
     "series": "X870E",
-    "variant": ""
+    "variant": "MEG GODLIKE"
   },
   "socket": "AM5",
   "form_factor": "EATX",
@@ -41,78 +66,54 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9ba89865ad0c3553dfe9b"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "67f9ba89865ad0c3553dfe9c"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "67f9ba89865ad0c3553dfe9c"
+      "_id": "692491836f830f5fe884ebc6"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9ba89865ad0c3553dfe9d"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9ba89865ad0c3553dfe9e"
     },
     {
-      "size": "2260-2280",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba89865ad0c3553dfe9f"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 4.0 x2",
       "_id": "67f9ba89865ad0c3553dfea0"
     },
     {
-      "size": "2280-22110",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba89865ad0c3553dfea1"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfea2"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfea3"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfea4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfea5"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfea6"
     }
   ],
   "onboard_ethernet": [
@@ -126,17 +127,29 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9ba89865ad0c3553dfea8"
   },
   "back_panel_ports": [
-    "1 x 10 Gb/s Ports (Marvell AQtion AQC113C)                                                    1 x 5 Gb/s Ports (Realtek 8126)"
+    "1 x 10 Gb/s Ports (Marvell AQtion AQC113C)                                                  ",
+    "  1 x 5 Gb/s Ports (Realtek 8126)",
+    "1 x Smart Button",
+    "1 x Clear CMOS Button",
+    "1 x Flash BIOS Button",
+    "7 x USB 10Gbps Type-A ports",
+    "1 x USB 10Gbps Type-C port",
+    "2 x USB4 (40Gbps) Type-C ports",
+    "2 x Wi-Fi Antenna connectors",
+    "1 x Optical S/PDIF Out port",
+    "2 x Audio jacks"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DM4HD873",
-    "newegg_sku": "N82E16813144678",
+    "newegg_sku": "N82E16813144678R",
     "bestbuy_sku": 6629643,
-    "walmart_sku": 14216057241
+    "walmart_sku": 14216057241,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-X870E-GODLIKE/Specification"
   }
 }

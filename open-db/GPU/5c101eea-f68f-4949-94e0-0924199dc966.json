@@ -3,28 +3,30 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 2,
-    "pcie_12VHPWR": 1,
+    "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "metadata": {
     "name": "Palit GameRock OC GeForce RTX 5090 32 GB",
     "manufacturer": "Palit",
     "part_numbers": [
-      "NE75090S19R5-GB2020G"
+      "NE75090S19R5-GB2020G",
+      "NE75090019R5-GB2020G",
+      "NE75090019R5-GB2020G"
     ],
     "series": "GeForce RTX 5090",
-    "variant": "Palit",
+    "variant": "GameRock OC",
     "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5090",
   "memory": 32,
   "memory_type": "GDDR7",
   "core_base_clock": 2017,
   "core_boost_clock": 2527,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 512,
-  "interface": "PCIe 5.0  x16",
+  "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
   "length": 332,
   "tdp": 575,
@@ -48,6 +50,7 @@
   ],
   "core_count": 21760,
   "general_product_information": {
-    "amazon_sku": "B0DVGWLZYN"
+    "amazon_sku": "B0DVGWLZYN",
+    "manufacturer_url": "https://www.palit.com/palit/vgapro.php?id=5335&lang=en&pn=NE75090S19R5-GB2020G&tab=ga"
   }
 }

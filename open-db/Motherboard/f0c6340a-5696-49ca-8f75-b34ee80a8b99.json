@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,21 +17,43 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "rgb_12v": 1,
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
     "name": "MSI X870 GAMING PLUS WIFI AM5 DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "X870 GAMING PLUS WIFI                                                    7E47-004R"
+      "X870 GAMING PLUS WIFI                                                    7E47-004R",
+      "X870 GAMING PLUS WIFI",
+      "X870 Gaming Plus WiFi",
+      "X870 Gaming Plus WiFi"
     ],
     "series": "X870",
-    "variant": ""
+    "variant": "Gaming Plus Wifi"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -42,54 +64,42 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 4,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
-      "_id": "67f9bb3d865ad0c3553e1225"
+      "_id": "6924440683f4e29935e6a16c"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "6924440683f4e29935e6a16d"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "6924440683f4e29935e6a16e"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9bb3d865ad0c3553e1226"
     },
     {
-      "size": "2280",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9bb3d865ad0c3553e1227"
     },
     {
-      "size": "2280-22110",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 4.0 x2",
       "_id": "67f9bb3d865ad0c3553e1228"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb3d865ad0c3553e1229"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb3d865ad0c3553e122a"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb3d865ad0c3553e122b"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb3d865ad0c3553e122c"
     }
   ],
   "onboard_ethernet": [
@@ -103,17 +113,26 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9bb3d865ad0c3553e122e"
   },
   "back_panel_ports": [
-    "1 x 5 Gb/s Ports (Realtek 8126VB)"
+    "1 x Realtek®  8126 5G LAN/s Ports (Realtek 8126VB) \"RJ45 Port\"",
+    "Clear CMOS Button",
+    "3 x USB 10Gbps (2 Type-A + 1 Type-C)",
+    "1 x USB 40Gbps (1 Type-C)",
+    "1 x USB 20Gbps (1 Type-C)",
+    "4 x USB 5Gbps (4 Type-A)",
+    "8 x USB 2.0",
+    "8-Channel (7.1) HD Audio with Audio Boost"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DPY4D638",
     "newegg_sku": "N82E16813144687",
     "bestbuy_sku": 6616914,
-    "walmart_sku": 14722113599
+    "walmart_sku": 14722113599,
+    "manufacturer_url": "https://www.msi.com/Motherboard/X870-GAMING-PLUS-WIFI/Specification"
   }
 }

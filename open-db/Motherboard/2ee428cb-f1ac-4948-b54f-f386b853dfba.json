@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,21 +17,41 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock B850 M-X AM5 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "B850M-X                                                    90-MXBR10-A0UAYZ                                                    90-MXBR1-A0UAYZ"
+      "B850M-X                                                    90-MXBR10-A0UAYZ                                                    90-MXBR1-A0UAYZ",
+      "90-MXBR10-A0UAYAZ",
+      "90-MXBR10-A0UAYAZ"
     ],
     "series": "B850",
-    "variant": ""
+    "variant": "M-X"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -62,22 +82,10 @@
       "_id": "67f9b90a865ad0c3553dd4cd"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b90a865ad0c3553dd4ce"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b90a865ad0c3553dd4cf"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b90a865ad0c3553dd4d0"
     }
   ],
   "onboard_ethernet": [
@@ -91,15 +99,24 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b90a865ad0c3553dd4d2"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"
+    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)",
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
   "general_product_information": {
     "amazon_sku": "B0DS6M5XV6",
-    "newegg_sku": "N82E16813162199"
+    "newegg_sku": "N82E16813162199",
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/B850M-X/"
   }
 }

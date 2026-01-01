@@ -2,7 +2,7 @@
   "opendb_id": "968c82fd-9081-49d7-91ab-48592a647bce",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,17 +13,18 @@
       "rog-astral-rtx5080-16g-white"
     ],
     "series": "GeForce RTX 5080",
-    "variant": "Asus"
+    "variant": "ROG Astral",
+    "releaseYear": 2025
   },
-  "chipset_manufacturer": "GeForce",
+  "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "memory": 16,
   "memory_type": "GDDR7",
   "core_base_clock": 2300,
   "core_boost_clock": 2670,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1875,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "WHITE"
   ],
@@ -34,14 +35,17 @@
   "video_outputs": {
     "hdmi_2_1": 2,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd42c1d3a20a8514d3a0b"
   },
   "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-astral/rog-astral-rtx5080-16g-white/"
   }

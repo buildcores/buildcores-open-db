@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,21 +17,44 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 3,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
   "metadata": {
     "name": "Asus B850 TUF GAMING M-PLUS WIFI7 DDR5 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "TUF GAMING B850M-PLUS WIFI7"
+      "TUF GAMING B850M-PLUS WIFI7",
+      "90MB1MU0-M0EAY0"
     ],
     "series": "B850",
-    "variant": ""
+    "variant": "PLUS WIFI7"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -41,7 +64,7 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "688ec90f3ebf909c29b7c46c"
@@ -57,11 +80,11 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "688ec90f3ebf909c29b7c46e"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "688ec90f3ebf909c29b7c46f"
@@ -71,12 +94,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "688ec90f3ebf909c29b7c470"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec90f3ebf909c29b7c471"
     }
   ],
   "onboard_ethernet": [
@@ -86,16 +103,30 @@
       "_id": "688ec90f3ebf909c29b7c472"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "688ec90f3ebf909c29b7c473"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "1 x USB 20Gbps port (1 x USB Type-C)",
+    "3 x USB 10Gbps ports (3 x Type-A)",
+    "4 x USB 5Gbps ports (4 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button",
+    "1 x Clear CMOS button"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "general_product_information": {
+    "amazon_sku": "‎B0FTNXMLRQ",
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850m-plus-wifi7/techspec/"
+  }
 }

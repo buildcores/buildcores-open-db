@@ -4,12 +4,20 @@
     "name": "Lian Li O11D XL-A ATX Full Tower Silver / Black Tempered Glass",
     "manufacturer": "Lian Li",
     "part_numbers": [
-      "O11D XL-A                                                    O11DXL-S                                                    PC-O11DXL-A"
+      "O11D XL-A                                                    O11DXL-S                                                    PC-O11DXL-A",
+      "O11D XL-A",
+      "O11D XL-A"
     ],
     "series": "O11D",
     "variant": ""
   },
-  "form_factor": "ATX Full Tower",
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX"
+  ],
+  "form_factor": "EATX Full Tower",
   "color": [
     "GREY",
     "BLACK"
@@ -19,15 +27,23 @@
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
   "max_video_card_length": 446,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 167,
   "internal_3_5_bays": 4,
   "internal_2_5_bays": 6,
   "expansion_slots": 8,
-  "dimensions": "471 x 285 x 513",
+  "dimensions": "285 x 517 x 490",
   "volume": 68.863,
-  "weight": null,
+  "weight": 60,
   "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
+  "front_usb_ports": [
+    "4x USB 3.0"
+  ],
+  "dimensions_mm": {
+    "width": 285,
+    "height": 517,
+    "depth": 490,
+    "_id": "6953ae9b214735a39adf0dad"
+  },
   "general_product_information": {
     "amazon_sku": "B07ZJZKXGM",
     "newegg_sku": "9SIAFSTA2K4587",

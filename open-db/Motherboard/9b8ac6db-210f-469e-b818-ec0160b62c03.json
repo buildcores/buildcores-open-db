@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 3,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,27 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -31,7 +50,7 @@
       "PRIME B650EM-A WIFI"
     ],
     "series": "B650",
-    "variant": ""
+    "variant": "PRIME EM-A WIFI"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -42,17 +61,23 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "688ec90c3ebf909c29b7c24a"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "6942e6261fbe869f65884837"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "688ec90c3ebf909c29b7c24b"
     },
     {
@@ -62,7 +87,7 @@
       "_id": "688ec90c3ebf909c29b7c24c"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "688ec90c3ebf909c29b7c24d"
@@ -75,16 +100,27 @@
       "_id": "688ec90c3ebf909c29b7c24e"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "688ec90c3ebf909c29b7c24f"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "2 x USB 10Gbps ports (Type-A)",
+    "2 x USB 5Gbps ports (Type-A)",
+    "4 x USB 2.0 ports (Type-A)",
+    "1 x Wi-Fi Module",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wifi 6 Bluetooth 5.4",
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650em-a-wifi/helpdesk_manual?model2Name=PRIME-B650EM-A-WIFI"
+  }
 }
