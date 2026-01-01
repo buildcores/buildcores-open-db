@@ -22,6 +22,12 @@
         "string",
         "null"
       ],
+      "enum": [
+        "NVIDIA",
+        "AMD",
+        "Intel",
+        null
+      ],
       "description": "Manufacturer of the GPU chipset (e.g., NVIDIA, AMD, Intel)"
     },
     "chipset": {
@@ -42,6 +48,25 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "GDDR7",
+        "GDDR6X",
+        "GDDR6",
+        "GDDR5X",
+        "GDDR5",
+        "GDDR4",
+        "GDDR3",
+        "GDDR2",
+        "HBM3",
+        "HBM2e",
+        "HBM2",
+        "HBM",
+        "DDR5",
+        "DDR4",
+        "DDR3",
+        "DDR2",
+        null
       ],
       "description": "The type of video memory (e.g., GDDR6X, GDDR6)"
     },
@@ -85,6 +110,25 @@
         "string",
         "null"
       ],
+      "enum": [
+        "PCIe 5.0 x16",
+        "PCIe 5.0 x8",
+        "PCIe 4.0 x16",
+        "PCIe 4.0 x8",
+        "PCIe 4.0 x4",
+        "PCIe 3.0 x16",
+        "PCIe 3.0 x8",
+        "PCIe 3.0 x4",
+        "PCIe 3.0 x1",
+        "PCIe 2.0 x16",
+        "PCIe 1.1 x16",
+        "PCIe x16",
+        "PCIe x8",
+        "PCIe x4",
+        "PCIe x2",
+        "PCIe x1",
+        null
+      ],
       "description": "The interface used by the graphics card (e.g., PCIe 4.0 x16, PCIe 5.0 x16)"
     },
     "color": {
@@ -104,6 +148,13 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "G-Sync",
+        "FreeSync",
+        "G-Sync Compatible",
+        "None",
+        null
       ],
       "description": "The frame synchronization technology supported (e.g., G-Sync, FreeSync, None)"
     },
@@ -139,6 +190,17 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "4 Fans",
+        "3 Fans",
+        "2 Fans",
+        "1 Fan",
+        "Blower",
+        "Water Cooled",
+        "Hybrid",
+        "Passive",
+        null
       ],
       "description": "The type of cooling solution (e.g., 3 Fans, 2 Fans, Blower, Water Cooled)"
     },

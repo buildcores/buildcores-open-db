@@ -28,6 +28,16 @@ Thank you for your interest in contributing to BuildCores OpenDB! This document 
 2. Make the necessary changes while maintaining schema compliance
 3. Do not change the `opendb_id` field as this is the unique identifier
 
+### Adding Product Variants
+
+When adding a variant of an existing product (e.g., a different color or speed tier):
+
+1. **Search for existing variants** in the category folder first
+2. **Copy the exact `manufacturer` and `series` values** from an existing sibling variant
+3. **Only change the `variant` field** and variant-specific attributes (like color or speed)
+
+For detailed guidance, see [docs/VARIANTS.md](docs/VARIANTS.md).
+
 ### Data Quality Guidelines
 
 - Use consistent naming conventions for similar components
@@ -35,6 +45,7 @@ Thank you for your interest in contributing to BuildCores OpenDB! This document 
 - Include retailer SKUs and links when available
 - Ensure all measurements use the correct units as specified in the schema
 - Fill in as many fields as possible, not just the required ones
+- When adding variants, match the exact spelling of existing `manufacturer` and `series` fields
 
 ## Validation
 

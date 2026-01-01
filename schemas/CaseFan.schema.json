@@ -84,6 +84,22 @@
         "string",
         "null"
       ],
+      "enum": [
+        "None",
+        "Addressable RGB",
+        "RGB",
+        "Blue",
+        "Red",
+        "White",
+        "Green",
+        "Multicolor",
+        "Orange",
+        "Purple",
+        "Pink",
+        "ARGB",
+        "Yellow",
+        null
+      ],
       "description": "The type of LED lighting, if any (e.g., 'Addressable RGB', 'RGB', 'None')"
     },
     "connector": {
@@ -111,6 +127,11 @@
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "Standard",
+        "Reverse",
+        null
       ],
       "description": "The direction of the airflow (e.g., 'Standard', 'Reverse')"
     },

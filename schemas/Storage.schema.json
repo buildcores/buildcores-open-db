@@ -29,6 +29,12 @@
         "string",
         "null"
       ],
+      "enum": [
+        "SSD",
+        "HDD",
+        "SSHD",
+        null
+      ],
       "description": "The type of storage drive (either HDD or SSD)"
     },
     "form_factor": {
@@ -36,12 +42,54 @@
         "string",
         "null"
       ],
+      "enum": [
+        "M.2-2280",
+        "M.2-22110",
+        "M.2-2260",
+        "M.2-2242",
+        "M.2-2230",
+        "2.5\"",
+        "3.5\"",
+        "mSATA",
+        "PCIe",
+        null
+      ],
       "description": "The physical size and shape of the drive (e.g., M.2-2280, 2.5\", 3.5\")"
     },
     "interface": {
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "M.2 PCIe 5.0 x4",
+        "M.2 PCIe 5.0 x2",
+        "M.2 PCIe 4.0 x4",
+        "M.2 PCIe 4.0 x8",
+        "M.2 PCIe 3.0 x16",
+        "M.2 PCIe 3.0 x8",
+        "M.2 PCIe 3.0 x4",
+        "M.2 PCIe 3.0 x2",
+        "M.2 PCIe 2.0 x4",
+        "M.2 PCIe x4",
+        "M.2 PCIe x2",
+        "M.2 PCIe x1",
+        "M.2 SATA",
+        "SATA 6.0 Gb/s",
+        "SATA 3.0 Gb/s",
+        "SATA 1.5 Gb/s",
+        "SAS 12.0 Gb/s",
+        "SAS 6.0 Gb/s",
+        "SAS 3.0 Gb/s",
+        "U.2",
+        "mSATA",
+        "PATA 100",
+        "PCIe x16",
+        "PCIe x8",
+        "PCIe x4",
+        "PCIe x2",
+        "PCIe x1",
+        null
       ],
       "description": "The interface used by the drive (e.g., M.2 PCIe 4.0 X4, SATA 6Gb/s)"
     },

@@ -22,12 +22,75 @@
         "string",
         "null"
       ],
+      "enum": [
+        "AM5",
+        "AM4",
+        "AM3+",
+        "AM3",
+        "AM2+",
+        "AM2",
+        "AM1",
+        "FM2+",
+        "FM2",
+        "FM1",
+        "sTR5",
+        "sTRX4",
+        "sTR4",
+        "TR4",
+        "LGA 1851",
+        "LGA 1700",
+        "LGA 1200",
+        "LGA 1151",
+        "LGA 1151v2",
+        "LGA 1150",
+        "LGA 1155",
+        "LGA 1156",
+        "LGA 2066",
+        "LGA 2011-3",
+        "LGA 2011-3 Narrow",
+        "LGA 2011",
+        "LGA 1366",
+        "LGA 1356",
+        "LGA 775",
+        "LGA 4677",
+        "LGA 4189",
+        "LGA 3647",
+        "LGA 1121",
+        "G34",
+        "SP5",
+        "SP3",
+        "2 x LGA 2011",
+        "2 x LGA 2011-3",
+        "2 x LGA 2011-3 Narrow",
+        "2 x LGA 1366",
+        "2 x G34",
+        "Integrated Atom",
+        "Integrated Xeon D",
+        "Integrated Pentium",
+        "Integrated AMD",
+        null
+      ],
       "description": "The CPU socket type supported by the motherboard. E.g. AM4, AM5, LGA 1700, LGA 2066, TR5, etc."
     },
     "form_factor": {
       "type": [
         "string",
         "null"
+      ],
+      "enum": [
+        "ATX",
+        "Micro ATX",
+        "Mini-ITX",
+        "EATX",
+        "Mini DTX",
+        "DTX",
+        "SSI EEB",
+        "SSI CEB",
+        "XL ATX",
+        "HPTX",
+        "Thin Mini-ITX",
+        "Flex ATX",
+        null
       ],
       "description": "The physical size and layout of the motherboard (e.g., ATX, Micro ATX, Mini-ITX)"
     },
@@ -60,6 +123,14 @@
           "type": [
             "string",
             "null"
+          ],
+          "enum": [
+            "DDR5",
+            "DDR4",
+            "DDR3",
+            "DDR2",
+            "DDR1",
+            null
           ],
           "description": "The type of RAM supported (e.g., DDR5, DDR4)"
         },
@@ -106,6 +177,14 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "5.0",
+              "4.0",
+              "3.0",
+              "2.0",
+              "1.1",
+              null
             ],
             "description": "PCIe generation (e.g., 5.0, 4.0)"
           },
@@ -154,6 +233,13 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "M",
+              "E",
+              "B",
+              "B+M",
+              null
             ],
             "description": "M.2 key type (e.g., M, E)"
           },
@@ -215,6 +301,14 @@
             "type": [
               "string",
               "null"
+            ],
+            "enum": [
+              "10 Gb/s",
+              "5 Gb/s",
+              "2.5 Gb/s",
+              "1 Gb/s",
+              "100 Mb/s",
+              null
             ],
             "description": "Network speed (e.g., 2.5 Gb/s, 1 Gb/s)"
           },
@@ -515,6 +609,13 @@
           "type": [
             "string",
             "null"
+          ],
+          "enum": [
+            "7.1",
+            "5.1",
+            "2.1",
+            "2.0",
+            null
           ],
           "description": "Number of audio channels supported"
         }
