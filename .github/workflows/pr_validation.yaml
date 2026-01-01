@@ -29,217 +29,107 @@ jobs:
       - name: Get changed JSON files
         id: changed-files
         run: |
-          ADDED_FILES=$(git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^A.*\.json$' | grep -v "\.schema\.json$" | cut -f2 || true)
-          MODIFIED_FILES=$(git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^M.*\.json$' | grep -v "\.schema\.json$" | cut -f2 || true)
-          DELETED_FILES=$(git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^D.*\.json$' | grep -v "\.schema\.json$" | cut -f2 || true)
+          # Write file lists to temporary files instead of environment variables
+          # This avoids "Argument list too long" errors with large PRs
+          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^A.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/added_files.txt || true
+          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^M.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/modified_files.txt || true
+          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^D.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/deleted_files.txt || true
           
-          echo "ADDED_FILES<<EOF" >> $GITHUB_ENV
-          echo "$ADDED_FILES" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          # Combine added and modified files
+          cat /tmp/added_files.txt /tmp/modified_files.txt > /tmp/changed_files.txt
           
-          echo "MODIFIED_FILES<<EOF" >> $GITHUB_ENV
-          echo "$MODIFIED_FILES" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          TOTAL_CHANGED=$(wc -l < /tmp/changed_files.txt | tr -d ' ')
+          echo "Total changed JSON files: $TOTAL_CHANGED"
           
-          echo "DELETED_FILES<<EOF" >> $GITHUB_ENV
-          echo "$DELETED_FILES" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-          
-          CHANGED_FILES="$ADDED_FILES"$'\n'"$MODIFIED_FILES"
-          if [[ -z "$CHANGED_FILES" ]]; then
+          if [ "$TOTAL_CHANGED" -eq "0" ]; then
             echo "No JSON files added or modified in this PR."
-            echo "CHANGED_FILES=" >> $GITHUB_ENV
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            echo "Changed JSON files:"
-            echo "$CHANGED_FILES"
-            echo "CHANGED_FILES<<EOF" >> $GITHUB_ENV
-            echo "$CHANGED_FILES" >> $GITHUB_ENV
-            echo "EOF" >> $GITHUB_ENV
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "total_files=$TOTAL_CHANGED" >> $GITHUB_OUTPUT
           fi
 
-      - name: Validate each JSON file against its schema and check filename-ID match
+      - name: Validate JSON files against schemas
         id: validation
-        if: env.CHANGED_FILES != ''
+        if: steps.changed-files.outputs.has_changes == 'true'
         run: |
-          VALIDATION_RESULTS="validation_results.json"
-          echo '{"results": []}' > $VALIDATION_RESULTS
-          
           EXIT_CODE=0
+          PASSED=0
+          FAILED=0
+          WARNINGS=0
           
-          add_result() {
-            local file="$1"
-            local status="$2"
-            local message="$3"
-            local change_type="$4"
-            
-            message="${message//\"/\\\"}"
-            
-            jq --arg file "$file" \
-               --arg status "$status" \
-               --arg message "$message" \
-               --arg change_type "$change_type" \
-              '.results += [{"file": $file, "status": $status, "message": $message, "change_type": $change_type}]' \
-              $VALIDATION_RESULTS > tmp.json && mv tmp.json $VALIDATION_RESULTS
-          }
+          # Create a file to store failed validations
+          > /tmp/failed_files.txt
           
-          # Process each file individually
+          # Process files in batches to avoid memory issues
           while IFS= read -r file; do
             # Skip empty lines
             [ -z "$file" ] && continue
+            [ ! -f "$file" ] && continue
             
-            echo "=========================================="
-            echo "Processing file: $file"
-            
-            if echo "$ADDED_FILES" | grep -q "^$file$"; then
+            # Determine change type
+            if grep -q "^${file}$" /tmp/added_files.txt 2>/dev/null; then
               CHANGE_TYPE="added"
             else
               CHANGE_TYPE="modified"
             fi
             
-            # --- Check if filename matches opendb_id
+            # Check if filename matches opendb_id
             FILENAME=$(basename "$file" .json)
-            echo "Extracted filename: '$FILENAME'"
+            OPENDB_ID=$(jq -r '.opendb_id | select(. != null)' "$file" 2>/dev/null || echo "")
             
-            # Extract the opendb_id field with better error handling
-            if ! OPENDB_ID=$(jq -r '.opendb_id | select(. != null)' "$file" 2>/dev/null); then
-              echo "::error file=$file::Failed to parse JSON file"
-              add_result "$file" "failed" "Failed to parse JSON file" "$CHANGE_TYPE"
+            if [ -z "$OPENDB_ID" ]; then
+              WARNINGS=$((WARNINGS + 1))
+            elif [ "$FILENAME" != "$OPENDB_ID" ]; then
+              echo "❌ $file: Filename ($FILENAME) does not match opendb_id ($OPENDB_ID)"
+              echo "$file: Filename mismatch" >> /tmp/failed_files.txt
+              FAILED=$((FAILED + 1))
               EXIT_CODE=1
               continue
             fi
             
-            echo "Extracted opendb_id: '$OPENDB_ID'"
-            
-            if [ -z "$OPENDB_ID" ]; then
-              echo "::warning file=$file::No opendb_id field found in JSON"
-              add_result "$file" "warning" "No opendb_id field found in JSON" "$CHANGE_TYPE"
-            elif [ "$FILENAME" != "$OPENDB_ID" ]; then
-              echo "❌ File name mismatch with JSON opendb_id!"
-              echo "::error file=$file::Filename ($FILENAME) does not match opendb_id ($OPENDB_ID)"
-              add_result "$file" "failed" "Filename ($FILENAME) does not match opendb_id ($OPENDB_ID)" "$CHANGE_TYPE"
-              EXIT_CODE=1
-            else
-              echo "✅ Filename matches opendb_id for $file"
-              add_result "$file" "passed" "Filename matches opendb_id" "$CHANGE_TYPE"
-            fi
-            
-            # --- Schema Validation 
+            # Schema Validation
             PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
             SCHEMA_FILE="schemas/${PART_CATEGORY}.schema.json"
             
             if [ -f "$SCHEMA_FILE" ]; then
-              echo "Validating against schema: $SCHEMA_FILE"
-              TEMP_LOG="validation_output.log"
-              
-              if ! ajv validate -s "$SCHEMA_FILE" -d "$file" --all-errors > "$TEMP_LOG" 2>&1; then
-                VALIDATION_OUTPUT=$(cat "$TEMP_LOG")
-                echo "::error file=$file::JSON validation failed against schema $SCHEMA_FILE"
-                add_result "$file" "failed" "Validation errors:\n$VALIDATION_OUTPUT" "$CHANGE_TYPE"
+              if ! ajv validate -s "$SCHEMA_FILE" -d "$file" --all-errors > /tmp/validation.log 2>&1; then
+                echo "❌ $file: Schema validation failed"
+                echo "$file: $(head -1 /tmp/validation.log)" >> /tmp/failed_files.txt
+                FAILED=$((FAILED + 1))
                 EXIT_CODE=1
               else
-                VALIDATION_OUTPUT=$(cat "$TEMP_LOG")
-                echo "✅ Validation passed for $file"
-                add_result "$file" "passed" "File successfully validated against schema: $SCHEMA_FILE" "$CHANGE_TYPE"
+                PASSED=$((PASSED + 1))
               fi
-              rm -f "$TEMP_LOG"
             else
-              echo "::warning file=$file::No matching schema found at $SCHEMA_FILE"
-              add_result "$file" "warning" "No matching schema found at $SCHEMA_FILE" "$CHANGE_TYPE"
+              WARNINGS=$((WARNINGS + 1))
             fi
-          done <<< "$CHANGED_FILES"
+            
+            # Print progress every 100 files
+            TOTAL=$((PASSED + FAILED + WARNINGS))
+            if [ $((TOTAL % 100)) -eq 0 ]; then
+              echo "Progress: $TOTAL files processed..."
+            fi
+          done < /tmp/changed_files.txt
           
-          for file in $DELETED_FILES; do
-            echo "Processing deleted file: $file..."
-            add_result "$file" "info" "File marked for deletion" "deleted"
-          done
+          echo ""
+          echo "========================================"
+          echo "Validation Summary:"
+          echo "  ✅ Passed: $PASSED"
+          echo "  ❌ Failed: $FAILED"
+          echo "  ⚠️ Warnings: $WARNINGS"
+          echo "========================================"
           
-          echo "Storing validation results..."
-          RESULTS_JSON=$(cat $VALIDATION_RESULTS)
-          echo "VALIDATION_RESULTS=$(echo "$RESULTS_JSON" | base64 -w 0)" >> $GITHUB_OUTPUT
+          if [ "$FAILED" -gt 0 ]; then
+            echo ""
+            echo "Failed files:"
+            cat /tmp/failed_files.txt
+          fi
           
           echo "validation_failed=$EXIT_CODE" >> $GITHUB_OUTPUT
-          echo "Validation step finished. Overall status code: $EXIT_CODE"
-
-      # - name: Comment on PR with validation results
-      #   if: always()
-      #   uses: actions/github-script@v6
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     script: |
-      #       const fs = require('fs');
-      #       const childProcess = require('child_process');
-      #       const util = require('util');
-      #       const execAsync = util.promisify(childProcess.exec);
-            
-      #       const base64Results = '${{ steps.validation.outputs.VALIDATION_RESULTS }}' || '';
-      #       let validationResults = { results: [] };
-            
-      #       if (base64Results) {
-      #         try {
-      #           fs.writeFileSync('/tmp/results.base64', base64Results);
-      #           await execAsync('base64 -d /tmp/results.base64 > /tmp/results.json');
-      #           const jsonContent = fs.readFileSync('/tmp/results.json', 'utf8');
-      #           validationResults = JSON.parse(jsonContent);
-      #         } catch (error) {
-      #           console.error('Error processing validation results:', error);
-      #         }
-      #       }
-            
-      #       if (!validationResults.results || validationResults.results.length === 0) {
-      #         console.log('No validation results to report.');
-      #         return;
-      #       }
-            
-      #       let commentBody = '## JSON Validation Results\\n\\n';
-            
-      #       const passed = validationResults.results.filter(r => r.status === 'passed');
-      #       const failed = validationResults.results.filter(r => r.status === 'failed');
-      #       const warnings = validationResults.results.filter(r => r.status === 'warning');
-      #       const deletions = validationResults.results.filter(r => r.status === 'info' && r.change_type === 'deleted');
-            
-      #       commentBody += '### Summary\\n';
-      #       commentBody += `- ✅ **${passed.length}** files passed validation\\n`;
-      #       commentBody += `- ❌ **${failed.length}** files failed validation\\n`;
-      #       commentBody += `- ⚠️ **${warnings.length}** files with warnings\\n`;
-      #       commentBody += `- 🗑️ **${deletions.length}** files deleted\\n\\n`;
-            
-      #       if (failed.length > 0) {
-      #         commentBody += '### Failed Validations\\n\\n';
-      #         failed.forEach(result => {
-      #           commentBody += `#### ${result.file} (${result.change_type})\\n`;
-      #           commentBody += '```\\n' + result.message + '\\n```\\n\\n';
-      #         });
-      #       }
-            
-      #       if (warnings.length > 0) {
-      #         commentBody += '### Warnings\\n\\n';
-      #         warnings.forEach(result => {
-      #           commentBody += `- **${result.file}** (${result.change_type}): ${result.message}\\n`;
-      #         });
-      #         commentBody += '\\n';
-      #       }
-            
-      #       if (passed.length > 0) {
-      #         commentBody += '### Passed Validations\\n\\n';
-      #         passed.forEach(result => {
-      #           commentBody += `- ✅ **${result.file}** (${result.change_type})\\n`;
-      #         });
-      #         commentBody += '\\n';
-      #       }
-            
-      #       if (deletions.length > 0) {
-      #         commentBody += '### Deleted Files\\n\\n';
-      #         deletions.forEach(result => {
-      #           commentBody += `- 🗑️ **${result.file}**\\n`;
-      #         });
-      #       }
-            
-      #       await github.rest.issues.createComment({
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         issue_number: context.issue.number,
-      #         body: commentBody
-      #       });
+          echo "passed=$PASSED" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "warnings=$WARNINGS" >> $GITHUB_OUTPUT
 
       - name: Fail job if validation errors occurred
         if: steps.validation.outputs.validation_failed == '1'
