@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,24 +17,44 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1,
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
     "name": "MSI B860 PRO M-A WIFI DDR5 Micro ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "PRO B860M-A WIFI                                                    601-7E42-01S                                                    7E42-002R",
-      "PRO B860M-A WIFI",
-      "B860M-A",
-      "B860M-A"
+      "PRO B860M-A WIFI                                                    601-7E42-01S                                                    7E42-002R"
     ],
     "series": "B860",
-    "variant": ""
+    "variant": "M-A WiFi"
   },
   "socket": "LGA 1851",
   "form_factor": "Micro ATX",
@@ -45,41 +65,41 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 4,
       "lanes": 16,
       "_id": "67f9b6f7865ad0c3553d9a26"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "6959ab00f2f3f99adcd44bbb"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "6959ab00f2f3f99adcd44bbc"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b6f7865ad0c3553d9a27"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b6f7865ad0c3553d9a28"
     },
     {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f7865ad0c3553d9a29"
-    },
-    {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f7865ad0c3553d9a2a"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 4.0 x2",
       "_id": "67f9b6f7865ad0c3553d9a2b"
     }
   ],
@@ -95,15 +115,28 @@
   "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
+    "clear_cmos": true,
     "_id": "67f9b6f7865ad0c3553d9a2d"
   },
   "back_panel_ports": [
-    "1 x 5 Gb/s Ports (Realtek 8126)"
+    "1 x DisplayPort 1.4",
+    "1 x HDMI port 2.1",
+    "1 x Thunderbolt 4 USB-C port (Supports DisplayPort)",
+    "1 x USB 10Gbps Type-A port ",
+    "1 x USB 5Gbps Type-C port",
+    "2 x USB 5Gbps Type-A ports",
+    "2 x USB 2.0 Type-A ports",
+    "1 x 5Gbps LAN (RJ45) port",
+    "2 x Wi-Fi antenna connectors",
+    "3 x Audio jacks",
+    "1 x Clear CMOS Button",
+    "1 x PS/2 port"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DQB38722",
     "newegg_sku": "N82E16813144695",
-    "walmart_sku": 15005021784
+    "walmart_sku": 15005021784,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B860M-A-WIFI/Specification"
   }
 }
