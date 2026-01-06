@@ -1,27 +1,49 @@
 {
   "opendb_id": "211f259d-b61c-4add-949c-2345f17717a0",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "usb_headers": {
-    "usb_2_0": 1,
+    "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": false,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": " Realtek ALC1220P",
     "channels": "7.1"
   },
   "metadata": {
@@ -29,21 +51,21 @@
     "manufacturer": "ASUS",
     "part_numbers": [
       "TUF GAMING B850M-PLUS WIFI                                                    90MB1IY0-M0AAY0                                                    90MB1IY0-M0EAY0",
-      "TUF GAMING B850M-PLUS WIFI",
       "90MB1IY0-M0EAY0"
     ],
     "series": "B850",
-    "variant": ""
+    "variant": "TUF GAMING M PLUS WiFi"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
   "color": [
-    "BLACK"
+    "BLACK",
+    "RGB"
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9b98e865ad0c3553de339"
@@ -59,11 +81,11 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b98e865ad0c3553de33b"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b98e865ad0c3553de33c"
@@ -73,12 +95,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b98e865ad0c3553de33d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b98e865ad0c3553de33e"
     }
   ],
   "onboard_ethernet": [
@@ -88,7 +104,7 @@
       "_id": "67f9b98e865ad0c3553de33f"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -97,11 +113,22 @@
     "_id": "67f9b98e865ad0c3553de340"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "1 x USB 20Gbps port (USB Type-C)",
+    "3 x USB 10Gbps ports (Type-A)",
+    "4 x USB 5Gbps ports (Type-A)",
+    "4 x USB 2.0 ports (Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x BIOS FlashBack button"
   ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0DPLQQ7VJ",
     "newegg_sku": "N82E16813119706",
-    "walmart_sku": 14954800777
+    "walmart_sku": 14954800777,
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850m-plus-wifi/"
   }
 }
