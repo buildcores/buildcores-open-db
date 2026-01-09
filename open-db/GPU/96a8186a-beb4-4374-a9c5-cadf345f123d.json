@@ -3,7 +3,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "metadata": {
@@ -13,20 +13,21 @@
       "ZT-B50800J-10P"
     ],
     "series": "GeForce RTX 5080",
-    "variant": "Zotac"
+    "variant": "SOLID OC"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
-  "core_boost_clock": 2625,
-  "effective_memory_clock": 0,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2640,
+  "effective_memory_clock": 1875,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK",
-    "GOLD"
+    "GOLD",
+    "BROWN"
   ],
   "length": 330,
   "tdp": 360,
@@ -36,16 +37,20 @@
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": 3,
+    "displayport_2_1a": null,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "67f9c670865ad0c3553ea88b"
   },
   "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0DTZ48TCY",
     "newegg_sku": "N82E16814500594",
-    "walmart_sku": 15178111785
+    "walmart_sku": 15178111785,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5080-solid-oc#spec"
   }
 }
