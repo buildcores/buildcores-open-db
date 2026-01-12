@@ -2,9 +2,9 @@
   "opendb_id": "495f002e-3107-4877-95e3-ce6644d46430",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": null,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "metadata": {
     "name": "Zotac GAMING ARCTICSTORM AIO GeForce RTX 5090 32GB GDDR7 Black",
@@ -13,17 +13,18 @@
       "ZT-B50900K-30P"
     ],
     "series": "GeForce RTX 5090",
-    "variant": "Zotac"
+    "variant": "ARCTICSTORM AIO",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5090",
   "memory": 32,
   "memory_type": "GDDR7",
-  "core_base_clock": 2010,
+  "core_base_clock": 2017,
   "core_boost_clock": 2437,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1750,
+  "memory_bus": 512,
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -34,14 +35,19 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "68cb8a429b67bc35527ba379"
   },
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "core_count": 21760,
   "general_product_information": {
-    "newegg_sku": "N82E16814500630"
+    "newegg_sku": "N82E16814500630",
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5090-arcticstorm-aio"
   }
 }
