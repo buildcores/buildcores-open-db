@@ -4,7 +4,7 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "metadata": {
     "name": "Zotac SOLID SFF OC GeForce RTX 5070 Ti 16GB GDDR7 Black / Gold",
@@ -13,17 +13,18 @@
       "ZT-B50710J3-10P"
     ],
     "series": "GeForce RTX 5070 Ti",
-    "variant": "Zotac"
+    "variant": "SOLID SFF OC",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
+  "core_base_clock": 2295,
   "core_boost_clock": 2482,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK",
     "GOLD"
@@ -35,17 +36,22 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "680e7d5453adf782a1c72cfb"
   },
   "core_count": 8960,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F4359C6F",
     "newegg_sku": "N82E16814500607",
-    "walmart_sku": 15797017279
+    "bestbuy_sku": 11524764,
+    "walmart_sku": 15797017279,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc#spec"
   }
 }
