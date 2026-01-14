@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,13 +15,38 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_opt": 0,
+    "case_fan": 6,
+    "pump": 1,
+    "cpu_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "com_port": 0,
+    "thunderbolt": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin, 8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
@@ -29,12 +54,12 @@
     "manufacturer": "MSI",
     "part_numbers": [
       "MAG X870E TOMAHAWK WIFI                                                    7E59-004R",
-      "MAG X870E TOMAHAWK WIFI",
       "MSI MAG X870E Tomahawk WiFi",
-      "MSI MAG X870E Tomahawk WiFi"
+      "7E59-004R"
     ],
-    "series": "X870E",
-    "variant": ""
+    "series": "MAG",
+    "variant": "X870E TOMAHAWK WIFI",
+    "releaseYear": 2024
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -45,23 +70,35 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9ba57865ad0c3553df972"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "6967d5cfe67590272c19aceb"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "6967d5cfe67590272c19acec"
     }
   ],
   "m2_slots": [
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9ba57865ad0c3553df973"
     },
     {
-      "size": "2280",
+      "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9ba57865ad0c3553df974"
     },
     {
@@ -71,39 +108,15 @@
       "_id": "67f9ba57865ad0c3553df975"
     },
     {
-      "size": "2280",
+      "size": "2260-2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba57865ad0c3553df976"
     },
     {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba57865ad0c3553df977"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba57865ad0c3553df978"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba57865ad0c3553df979"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba57865ad0c3553df97a"
-    },
-    {
-      "size": "2280",
+      "size": "2230",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
+      "interface": "Wi-Fi Module",
       "_id": "67f9ba57865ad0c3553df97b"
     }
   ],
@@ -118,13 +131,25 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9ba57865ad0c3553df97d"
   },
   "back_panel_ports": [
-    "1 x 5 Gb/s Ports (Realtek 8126)"
+    "1 x Clear CMOS Button",
+    "1 x Flash BIOS Button",
+    "1 x HDMI",
+    "2 x USB4 (40Gbps) Type-C",
+    "1 x USB 10Gbps Type-C",
+    "2 x USB 10Gbps Type-A",
+    "3 x USB 5Gbps Type-A",
+    "4 x USB 2.0",
+    "1 x 5G LAN (Realtek 8126)",
+    "2 x Wi-Fi / Bluetooth Antenna Connectors",
+    "2 x Audio Jacks",
+    "1 x Optical S/PDIF Out"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DT55ZJM7",
     "newegg_sku": "N82E16813144699",
