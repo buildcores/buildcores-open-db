@@ -29,12 +29,15 @@
   },
   "front_panel_headers": {
     "power_button": true,
-    "reset_button": true
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
   },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": [
-      "8-pin"
+      "8-pin",
+      "4-pin"
     ]
   },
   "audio": {
@@ -45,13 +48,10 @@
     "name": "Gigabyte B850 AORUS ELITE WIFI7 ICE DDR5 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": [
-      "B850 AORUS ELITE WIFI7 ICE                                                    B850 A ELITE WF7 ICE",
-      "B850 A ELITE WF7 ICE",
-      "B850 AORUS ELITE WIFI7 ICE",
-      "B850 AORUS ELITE WIFI7 ICE"
+      "B850 AORUS ELITE WIFI7 ICE                                                    B850 A ELITE WF7 ICE"
     ],
     "series": "B850",
-    "variant": ""
+    "variant": "AORUS ELITE WIFI7 ICE"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -62,7 +62,7 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9b909865ad0c3553dd495"
@@ -78,7 +78,7 @@
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b909865ad0c3553dd496"
     },
     {
@@ -101,13 +101,13 @@
       "_id": "67f9b909865ad0c3553dd49c"
     }
   ],
-  "wireless_networking": "Realtek® Wi-Fi 7                             BLUETOOTH 5.4",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b909865ad0c3553dd49d"
   },
   "back_panel_ports": [
@@ -127,6 +127,7 @@
     "amazon_sku": "B0DQLKRXKW",
     "newegg_sku": "N82E16813145544",
     "bestbuy_sku": 6619029,
-    "walmart_sku": 14931417408
+    "walmart_sku": 14931417408,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B850-AORUS-ELITE-WIFI7-ICE-rev-1x/sp"
   }
 }
