@@ -223,6 +223,14 @@
             "null"
           ],
           "description": "Year of release"
+        },
+        "last_manually_spec_verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
         }
       }
     },
