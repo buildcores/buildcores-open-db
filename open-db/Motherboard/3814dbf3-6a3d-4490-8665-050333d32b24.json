@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 3
+  },
+  "front_panel_headers": {
+    "hdd_led": true,
+    "power_led": true,
+    "reset_button": true,
+    "power_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -31,7 +48,7 @@
       "B550M AORUS ELITE AX"
     ],
     "series": "B550M",
-    "variant": ""
+    "variant": "AORUS ELITE"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -43,41 +60,35 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b951865ad0c3553ddc9a"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "67f9b951865ad0c3553ddc9b"
+    },
+    {
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "67f9b951865ad0c3553ddc9b"
+      "_id": "696bfb283df571172f298b3c"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b951865ad0c3553ddc9c"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 3.0 x2",
       "_id": "67f9b951865ad0c3553ddc9d"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b951865ad0c3553ddc9e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b951865ad0c3553ddc9f"
     }
   ],
   "onboard_ethernet": [
@@ -87,20 +98,28 @@
       "_id": "67f9b951865ad0c3553ddca0"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9b951865ad0c3553ddca1"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Realtek)"
+    "1 x PS/2 keyboard/mouse port",
+    "1 x DVI-D port",
+    "1 x HDMI port",
+    "2 x SMA antenna connectors (2T2R)",
+    "4 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "3 x audio jacks"
   ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
-    "amazon_sku": "B0BZQ1TNW8",
     "newegg_sku": "N82E16813145454",
-    "walmart_sku": 5158599213
+    "walmart_sku": 5158599213,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B550M-AORUS-ELITE-AX-rev-13/sp"
   }
 }

@@ -1,28 +1,28 @@
 {
   "opendb_id": "d8de482f-6675-4351-a63e-1e6deff19aad",
   "power_connectors": {
-    "pcie_8_pin": 2
+    "pcie_8_pin": null,
+    "pcie_12V_2x6": 1
   },
   "metadata": {
     "name": "MSI INSPIRE 3X GeForce RTX 5080 16GB GDDR7 Gold / Black",
     "manufacturer": "MSI",
     "part_numbers": [
-      "G5080-16I3",
-      "RTX 5080 16G INSPRIE 3X OC",
-      "G5080-16I3C"
+      "G5080-16I3"
     ],
     "series": "GeForce RTX 5080",
-    "variant": "INSPIRE 3X"
+    "variant": "INSPIRE 3X",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "core_count": 10752,
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2296,
-  "core_boost_clock": 2617,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2625,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "GOLD",
     "BLACK"
@@ -33,14 +33,15 @@
   "cooling": "3 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1_b": 3,
     "_id": "68b27e8456354604f318bbd7"
   },
   "frame_sync": "G-Sync",
+  "effective_memory_clock": 1875,
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B0DSX9Y24P",
-    "newegg_sku": "N82E16814137911",
-    "bestbuy_sku": 6615235
+    "bestbuy_sku": 6615235,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-16G-INSPIRE-3X/Specification"
   }
 }
