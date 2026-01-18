@@ -1,17 +1,18 @@
 {
   "opendb_id": "b94d4ef4-94e3-4e1f-aa94-18ee9d51fafe",
   "power_connectors": {
-    "pcie_8_pin": 2
+    "pcie_8_pin": null,
+    "pcie_12V_2x6": 1
   },
   "metadata": {
-    "name": "MSI GeForce RTX™ 5080 16G EXPERT OC",
+    "name": "MSI GeForce RTX 5080 16G EXPERT OC",
     "manufacturer": "MSI",
     "part_numbers": [
-      "G5080-16EC",
-      "RTX 5080 16G EXPERT OC"
+      "G5080-16EC"
     ],
     "series": "GeForce RTX 5080",
-    "variant": "EXPERT OC"
+    "variant": "EXPERT OC",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
@@ -28,7 +29,7 @@
   "length": 319,
   "tdp": 360,
   "total_slot_width": 3,
-  "cooling": "Blower",
+  "cooling": "2 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
     "displayport_2_1": null,
@@ -37,6 +38,8 @@
   },
   "core_base_clock": 2295,
   "frame_sync": "G-Sync",
+  "effective_memory_clock": 1875,
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0FLSWN28H",
     "newegg_sku": "N82E16814137989",
