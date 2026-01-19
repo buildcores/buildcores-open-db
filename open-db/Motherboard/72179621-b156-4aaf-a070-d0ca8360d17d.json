@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,33 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1,
+    "thunderbolt": 0
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -29,11 +51,10 @@
     "manufacturer": "MSI",
     "part_numbers": [
       "B840 GAMING PLUS WIFI                                                    7E57-002R",
-      "B840 GAMING PLUS WIFI",
       "B840GPW"
     ],
     "series": "B840",
-    "variant": ""
+    "variant": "GAMING PLUS WIFI "
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -45,35 +66,35 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 5,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b96d865ad0c3553ddf98"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 3,
+      "lanes": 1,
+      "_id": "696e46d27ac1f10b93462516"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "696e46d27ac1f10b93462517"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b96d865ad0c3553ddf99"
     },
     {
-      "size": "2280",
+      "size": "22110/2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b96d865ad0c3553ddf9a"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddf9b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddf9c"
     }
   ],
   "onboard_ethernet": [
@@ -87,16 +108,27 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b96d865ad0c3553ddf9e"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"
+    "1 x Clear CMOS Button",
+    "1 x Flash BIOS Button",
+    "1 x HDMI 2.1 port",
+    "1 x USB 10Gbps Type-A port",
+    "1 x USB 10Gbps Type-C port",
+    "2 x USB 5Gbps Type-A ports",
+    "4 x USB 2.0 Type-A ports",
+    "1 x 2.5G LAN (RJ45) port",
+    "2 x Wi-Fi Antenna connectors",
+    "3 x Audio jacks (Line-in, Line-out, Mic-in)"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DQB3RC4H",
     "newegg_sku": "N82E16813144690",
-    "walmart_sku": 14946062638
+    "walmart_sku": 14946062638,
+    "manufacturer_url": "https://www.msi.com/Motherboard/B840-GAMING-PLUS-WIFI/"
   }
 }

@@ -13,12 +13,33 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_led": true,
+    "power_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek ALC4080",
@@ -27,7 +48,6 @@
   "metadata": {
     "name": "MSI X570S MEG UNIFY-X MAX AMD AM4 ATX Motherboard",
     "manufacturer": "MSI",
-    "part_number": "MEG X570S UNIFY",
     "series": "MEG",
     "variant": "X570S UNIFY-X MAX",
     "releaseYear": 2021,
@@ -48,40 +68,34 @@
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67bd3826d77b2ff1059de1f3"
     },
     {
-      "size": "22110",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67bd3826d77b2ff1059de1f4"
     },
     {
-      "size": "2280",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67bd3826d77b2ff1059de1f5"
     },
     {
-      "size": "2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67bd3826d77b2ff1059de1f6"
     },
     {
-      "size": "2280",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67bd3826d77b2ff1059de1f7"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67bd3826d77b2ff1059de1f8"
     }
   ],
   "onboard_ethernet": [
@@ -95,27 +109,27 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67bd3826d77b2ff1059de1fa"
   },
   "back_panel_ports": [
-    "1 x 10/100/1000/2500 RJ-45 LAN",
-    "1 x 3.5 mm Microphone",
-    "1 x 3.5 mm Line-In",
-    "1 x 3.5 mm Rear Speaker",
-    "1 x 3.5 mm Subwoofer",
-    "1 x 3.5 mm Line-Out",
-    "6 x USB 2.0 (Type-A)",
-    "4 x USB 3.2 (Gen 1 Type-A)",
-    "1 x USB 3.2 (Gen 2x2 Type-C)",
-    "3 x USB 3.2 (Gen 2 Type-A)",
-    "1 x Optical"
+    "1 x Clear CMOS Button",
+    "1 x Flash BIOS Button",
+    "1 x USB 3.2 Gen 2x2 20Gbps Type-C port",
+    "3 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "4 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "4 x USB 2.0 ports",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF Out connector"
   ],
-  "color": [],
+  "color": [
+    "BLACK"
+  ],
   "general_product_information": {
     "amazon_sku": "B09GLBW5LL",
     "newegg_sku": "N82E16813144492",
-    "walmart_sku": 355664381
+    "walmart_sku": 355664381,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-X570S-UNIFY-X-MAX/Specification#"
   }
 }

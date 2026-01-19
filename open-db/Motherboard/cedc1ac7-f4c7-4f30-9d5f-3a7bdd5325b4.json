@@ -17,11 +17,33 @@
     "usb_3_2_gen_2x2": 2,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 8,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4082 Codec + ESS 9218Q2C Combo DAC/HPA",
     "channels": "7.1"
   },
   "metadata": {
@@ -32,7 +54,7 @@
       "7D26-001R"
     ],
     "series": "Z690",
-    "variant": ""
+    "variant": "MEG GODLIKE"
   },
   "socket": "LGA 1700",
   "form_factor": "EATX",
@@ -43,90 +65,54 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b96d865ad0c3553ddfa5"
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "696e4cfaf9ad5252b8516151"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "696e4cfaf9ad5252b8516152"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/ 2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b96d865ad0c3553ddfa6"
     },
     {
-      "size": "2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b96d865ad0c3553ddfa7"
     },
     {
-      "size": "2260-2280",
+      "size": " 2260/ 2280/ 22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b96d865ad0c3553ddfa8"
     },
     {
-      "size": "2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b96d865ad0c3553ddfa9"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b96d865ad0c3553ddfaa"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfab"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfac"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfad"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfae"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfaf"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfb0"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfb1"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b96d865ad0c3553ddfb2"
     }
   ],
   "onboard_ethernet": [
@@ -137,19 +123,31 @@
     }
   ],
   "ecc_support": false,
-  "raid_support": false,
+  "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b96d865ad0c3553ddfb4"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s (Intel I225-V)                                                    1 x 10 Gb/s (Aquantia AQC113CS)"
+    "1 x Clear CMOS Button",
+    "1 x Flash BIOS Button",
+    "1 x 2.5Gbps LAN (Intel I225-V)",
+    "1 x 10Gbps LAN (Aquantia AQC113CS)",
+    "2 x Thunderbolt 4 USB Type-C ports",
+    "2 x Mini DisplayPort Input (for Thunderbolt pass-through)",
+    "8 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "2 x Wi-Fi Antenna connectors",
+    "5 x OFC Audio jacks",
+    "1 x Optical S/PDIF Out connector",
+    "1 x M-VISION Dashboard Port (Special USB port)"
   ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B09HK527F9",
-    "newegg_sku": "9SIBWH3KC93654",
-    "walmart_sku": 715142315
+    "newegg_sku": "9SIC3DRKN72871",
+    "walmart_sku": 715142315,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-Z690-GODLIKE/Specification"
   }
 }
