@@ -1,12 +1,12 @@
 {
   "opendb_id": "120f0a13-e633-4a3e-a8a2-98e9c98d708c",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,24 +17,37 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock B650 M-H/M.2+ DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "B650M-H",
       "M.2+                                                    90-MXBMS0-A0UAYZ",
       "B650M-HM2",
       "90-MXBMS0-A0UAYZ"
     ],
     "series": "B650",
-    "variant": ""
+    "variant": "M-H/M.2+ DDR5 Micro ATX"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -61,7 +74,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9bb46865ad0c3553e1327"
     },
     {
@@ -69,18 +82,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9bb46865ad0c3553e1328"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb46865ad0c3553e1329"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb46865ad0c3553e132a"
     }
   ],
   "onboard_ethernet": [
@@ -90,18 +91,28 @@
       "_id": "67f9bb46865ad0c3553e132b"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9bb46865ad0c3553e132c"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Realtek RTL8111H)"
+    "1 x HDMI 2.1 Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "1 x RJ-45 LAN Port (Gigabit)",
+    "1 x BIOS Flashback Button",
+    "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)",
+    "2 x Antenna Mounting Points"
   ],
   "general_product_information": {
-    "amazon_sku": "B0CJTB2QV2"
+    "amazon_sku": "B0CJTB2QV2",
+    "newegg_sku": "N82E16813162229",
+    "walmart_sku": 17474807335,
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/B650M-HM.2+/index.asp#Specification"
   }
 }

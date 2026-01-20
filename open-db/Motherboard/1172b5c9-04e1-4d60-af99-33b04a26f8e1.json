@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": " Realtek ALC1220P",
     "channels": "7.1"
   },
   "metadata": {
@@ -31,7 +50,7 @@
       "MEG B550 UNIFY                                                    7D13-002R                                                    B550UNIFY"
     ],
     "series": "B550",
-    "variant": ""
+    "variant": "MEG UNIFY"
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -43,20 +62,26 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b889865ad0c3553dc641"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1,
       "_id": "67f9b889865ad0c3553dc642"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "696e8303f2df1237216fa182"
     }
   ],
   "m2_slots": [
     {
-      "size": "2280-22110",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b889865ad0c3553dc643"
@@ -68,28 +93,16 @@
       "_id": "67f9b889865ad0c3553dc644"
     },
     {
-      "size": "2280",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b889865ad0c3553dc645"
     },
     {
-      "size": "2280-22110",
+      "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b889865ad0c3553dc646"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b889865ad0c3553dc647"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b889865ad0c3553dc648"
     }
   ],
   "onboard_ethernet": [
@@ -99,16 +112,30 @@
       "_id": "67f9b889865ad0c3553dc649"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "67f9b889865ad0c3553dc64a"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s (Realtek RTL8125B)"
+    "1 x Clear CMOS Button",
+    "1 x Flash BIOS Button",
+    "1 x PS/2 keyboard/mouse combo port",
+    "4 x USB 2.0 Type-A ports",
+    "1 x HDMI 2.1 port",
+    "3 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "1 x USB 3.2 Gen 2 10Gbps Type-C port",
+    "1 x 2.5 Gbps LAN (RJ45) port",
+    "2 x Wi-Fi Antenna connectors",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF Out connector"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wifi 6 Bluetooth 5.1",
+  "general_product_information": {
+    "newegg_sku": "9SIC3DRKN75900",
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-B550-UNIFY/Specification"
+  }
 }

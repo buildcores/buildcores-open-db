@@ -17,8 +17,30 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek ALC4082 Codec + ESS SABRE9018Q2C Combo DAC/HPA",
@@ -27,13 +49,11 @@
   "metadata": {
     "name": "MSI X570S MEG ACE MAX AMD AM4 ATX Motherboard",
     "manufacturer": "MSI",
-    "part_number": "MEG X570S ACE M",
     "series": "MEG",
     "variant": "X570S ACE MAX",
     "releaseYear": 2024,
     "part_numbers": [
-      "7D50-001R",
-      "7D50-001"
+      "7D50-001R"
     ]
   },
   "socket": "AM4",
@@ -41,45 +61,51 @@
   "chipset": "AMD X570",
   "pcie_slots": [
     {
-      "gen": null,
-      "quantity": 3,
+      "gen": "4.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67bbab81656a333a9fdf6f78"
     },
     {
-      "gen": "3.0",
+      "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
+      "lanes": 8,
       "_id": "67bbab81656a333a9fdf6f79"
     },
     {
-      "gen": null,
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 8,
+      "_id": "67bbab81656a333a9fdf6f7a"
+    },
+    {
+      "gen": "4.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "67bbab81656a333a9fdf6f7a"
+      "_id": "696e86008515d72a15a2d61c"
     }
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "PCIe 4.0",
       "_id": "67bbab81656a333a9fdf6f7b"
     },
     {
-      "size": "2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "SATA 6Gbps",
       "_id": "67bbab81656a333a9fdf6f7c"
     },
     {
-      "size": "2280",
+      "size": "2280/ 22110",
       "key": "M",
       "interface": "SATA 6Gbps",
       "_id": "67bbab81656a333a9fdf6f7d"
     },
     {
-      "size": "2280",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "SATA 6Gbps",
       "_id": "67bbab81656a333a9fdf6f7e"
@@ -103,18 +129,21 @@
   "back_panel_ports": [
     "1 x Clear CMOS Button",
     "1 x Flash BIOS Button",
-    "1 x LAN (RJ45)",
+    "1 x 2.5 Gbps LAN (RJ45) port",
     "2 x Antenna Bracket",
     "1 x USB 3.2 Gen 2x2 Type-C",
-    "3 x USB 3.2 Gen 2",
-    "4 x USB 3.2 Gen 1",
-    "4 x USB 2.0/1.1",
+    "4 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "3 x USB 3.2 Gen 2 10Gbps Type-A ports",
     "1 x Optical S/PDIF Out",
     "5 x Audio Jacks"
   ],
-  "color": [],
+  "color": [
+    "BLACK"
+  ],
+  "wireless_networking": "Wifi 6 Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B09BYY2NDV",
-    "newegg_sku": "9SIAJEPKBM3224"
+    "newegg_sku": "9SIAJEPKBM3224",
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-X570S-ACE-MAX/Specification"
   }
 }
