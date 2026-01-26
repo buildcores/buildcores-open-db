@@ -2,7 +2,7 @@
   "opendb_id": "00abd169-5b63-46e9-b72c-7900318a82fe",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,21 +10,20 @@
     "name": "Gigabyte GAMING OC Radeon RX 9060 XT 16GB GDDR6 Black",
     "manufacturer": "Gigabyte",
     "part_numbers": [
-      "GV-R9060XTGAMING OC-16GD",
-      "GV-R9070XTGAMING-16GD"
+      "GV-R9060XTGAMING OC-16GD"
     ],
     "series": "Radeon RX 9060 XT",
-    "variant": "Gigabyte"
+    "variant": "Gaming OC 16GB"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 16 GB",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2220,
-  "core_boost_clock": 2220,
-  "effective_memory_clock": 0,
+  "core_base_clock": 1700,
+  "core_boost_clock": 3320,
+  "effective_memory_clock": 2518,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": [
     "BLACK"
   ],
@@ -38,15 +37,19 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 0,
     "dvi_d": 0,
     "vga": 0,
     "_id": "685215c60c9749f19a4efaae"
   },
   "core_count": 2048,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F91KM1CK",
     "newegg_sku": "N82E16814932806",
     "bestbuy_sku": 6633162,
-    "walmart_sku": 17295607331
+    "walmart_sku": 17295607331,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-R9060XTGAMING-OC-16GD/sp"
   }
 }
