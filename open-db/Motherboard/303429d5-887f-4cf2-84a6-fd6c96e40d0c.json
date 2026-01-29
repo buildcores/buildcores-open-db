@@ -1,12 +1,12 @@
 {
   "opendb_id": "303429d5-887f-4cf2-84a6-fd6c96e40d0c",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -32,13 +51,14 @@
       "PRO A620M-E"
     ],
     "series": "A620",
-    "variant": ""
+    "variant": "PRO M-E"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD A620",
   "color": [
-    "BLACK"
+    "BLACK",
+    "GREY"
   ],
   "pcie_slots": [
     {
@@ -48,7 +68,7 @@
       "_id": "67f99e82865ad0c3553c422c"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
       "_id": "67f99e82865ad0c3553c422d"
@@ -60,12 +80,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f99e82865ad0c3553c422e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f99e82865ad0c3553c422f"
     }
   ],
   "onboard_ethernet": [
@@ -84,11 +98,19 @@
     "_id": "67f99e82865ad0c3553c4231"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Realtek RTL8111H)"
+    "1 x HDMI 2.1 port",
+    "1 x VGA port",
+    "1 x Keyboard port",
+    "1 x Mouse port",
+    "4 x USB 3.2 Gen 1 5Gbps Type-A ports (2 from CPU, 2 from Chipset)",
+    "2 x USB 2.0 Type-A ports",
+    "1 x 1Gbps LAN (RJ45) port",
+    "3 x Audio jacks"
   ],
   "general_product_information": {
     "amazon_sku": "B0C15SRJNM",
     "newegg_sku": "N82E16813144598",
-    "walmart_sku": 1513009085
+    "walmart_sku": 1513009085,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-A620M-E/Specification"
   }
 }

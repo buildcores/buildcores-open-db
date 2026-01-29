@@ -17,8 +17,26 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -29,7 +47,6 @@
     "manufacturer": "MSI",
     "part_numbers": [
       "PRO B650-P WIFI",
-      "B650-P WIFI",
       "B650PWIFI",
       "7D78-001R"
     ],
@@ -40,30 +57,39 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B650",
-  "color": [],
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 4,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67709018393a7e8e313e48cf"
     },
     {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "67709018393a7e8e313e48d0"
+    },
+    {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 4,
-      "_id": "67709018393a7e8e313e48d0"
+      "lanes": 1,
+      "_id": "697b815d4702ea8eadc01e55"
     }
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67709018393a7e8e313e48d1"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "E",
       "interface": "PCIe 4.0 x4",
       "_id": "67709018393a7e8e313e48d2"
@@ -85,22 +111,23 @@
     "_id": "67709018393a7e8e313e48d4"
   },
   "back_panel_ports": [
-    "DisplayPort",
-    "2.5G LAN",
-    "USB 3.2 Gen 2 10Gbps (Type-A)",
-    "USB 3.2 Gen 1 5Gbps (Type-A)",
-    "Wi-Fi/Bluetooth",
-    "Audio connectors",
-    "Flash BIOS Button",
-    "HDMI™",
-    "USB 3.2 Gen 2 10Gbps (Type-A)",
-    "USB 3.2 Gen 2x2 20Gbps (Type-C)"
+    "1 x Flash BIOS Button",
+    "1 x DisplayPort",
+    "1 x HDMI 2.1 port",
+    "1 x 2.5 Gbps LAN (RJ45) port",
+    "3 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "3 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "4 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "2 x Wi-Fi Antenna connectors",
+    "6 x Audio jacks"
   ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0BHBT5BD3",
     "newegg_sku": "N82E16813144560",
     "bestbuy_sku": 6528250,
     "walmart_sku": 2965328112,
-    "ibuypower_sku": "29645"
+    "ibuypower_sku": "29645",
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B650-P-WIFI/Specification"
   }
 }
