@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,21 +17,43 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus B650 PRIME B650M-A WIFI II-CSM AM5 DDR5 Micro ATX",
+    "name": "Asus B650 PRIME B650M-A WIFI II AM5 DDR5 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME B650M-A WIFI II-CSM"
+      "PRIME B650M-A WIFI II "
     ],
     "series": "B650",
-    "variant": ""
+    "variant": "PRIME B650M-A WIFI II "
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -43,35 +65,29 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 3,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9ba0e865ad0c3553df13a"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "697ba5f20b8374629075124a"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9ba0e865ad0c3553df13b"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9ba0e865ad0c3553df13c"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba0e865ad0c3553df13d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba0e865ad0c3553df13e"
     }
   ],
   "onboard_ethernet": [
@@ -81,16 +97,31 @@
       "_id": "67f9ba0e865ad0c3553df13f"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9ba0e865ad0c3553df140"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "2 x USB 3.2 Gen 2 ports (Type-A)",
+    "2 x USB 3.2 Gen 1 ports (Type-A)",
+    "4 x USB 2.0 ports (Type-A)",
+    "1 x DisplayPort 1.4",
+    "1 x VGA port",
+    "1 x HDMI port 2.1",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button",
+    "1 x PS/2 Keyboard/Mouse combo port"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wi-Fi 6 Bluetooth 5.2",
+  "general_product_information": {
+    "amazon_sku": "B0BSVDKRKN",
+    "newegg_sku": "N82E16813119631",
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-wifi-ii/"
+  }
 }
