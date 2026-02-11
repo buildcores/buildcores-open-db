@@ -2,7 +2,7 @@
   "opendb_id": "0e756588-13cd-48fa-b17e-446e267d030f",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,11 +10,10 @@
     "name": "MSI GeForce RTX 5060 GAMING TRIO OC 8GB GDDR7 White",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX 5060 8G GAMING TRIO OC WHITE                                                    G5060-8GTCW",
-      "RTX 5060 8G GAMING TRIO OC WHITE"
+      "G5060-8GTCW"
     ],
     "series": "GeForce RTX 5060",
-    "variant": "MSI"
+    "variant": " 8G GAMING TRIO OC WHITE"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
@@ -22,28 +21,32 @@
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
   "core_boost_clock": 2640,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "WHITE"
   ],
   "length": 300,
   "tdp": 145,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "3 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd4331d3a20a8514d3a82"
   },
   "core_count": 3840,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814137969"
+    "newegg_sku": "N82E16814137969",
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-GAMING-TRIO-OC-WHITE/"
   }
 }

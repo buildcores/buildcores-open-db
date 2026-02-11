@@ -2,7 +2,7 @@
   "opendb_id": "322598be-5709-474c-b650-b31786613cff",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,13 +10,10 @@
     "name": "MSI GAMING TRIO OC GeForce RTX 5060 8GB GDDR7 Black",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX 5060 8G GAMING TRIO OC                                                    G5060-8GTC",
-      "GeForce RTX 5060 8G GAMING TRIO OC",
-      "G5060-8GTC",
-      "RTX 5060 8G GAMING TRIO OC"
+      "G5060-8GTC"
     ],
     "series": "GeForce RTX 5060",
-    "variant": "MSI"
+    "variant": "GAMING TRIO OC"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
@@ -24,9 +21,9 @@
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
   "core_boost_clock": 2640,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "BLACK"
   ],
@@ -37,16 +34,20 @@
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": null,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd40b1d3a20a8514d2b90"
   },
   "core_count": 3840,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B09728V47N",
-    "newegg_sku": "N82E16814137970"
+    "newegg_sku": "N82E16814137970",
+    "manufacturer_url": "https://us.msi.com/Graphics-Card/GeForce-RTX-5060-8G-GAMING-TRIO-OC"
   }
 }

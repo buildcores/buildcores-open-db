@@ -2,7 +2,7 @@
   "opendb_id": "812c42dd-3c9b-45b3-bb58-90c126d4ed91",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,38 +10,43 @@
     "name": "MSI GAMING TRIO OC GeForce RTX 5060 Ti 8GB GDDR7 White",
     "manufacturer": "MSI",
     "part_numbers": [
-      "G506T-8GTCW",
-      "RTX 5060 Ti 8G GAMING TRIO OC WHITE"
+      "G506T-8GTCW"
     ],
     "series": "GeForce RTX 5060 Ti",
-    "variant": "MSI"
+    "variant": " 8G GAMING TRIO OC WHITE"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "memory": 8,
   "memory_type": "GDDR7",
-  "core_base_clock": 2410,
+  "core_base_clock": 2407,
   "core_boost_clock": 2662,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": [
     "WHITE"
   ],
   "length": 300,
   "tdp": 180,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "3 Fans",
   "video_outputs": {
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
     "_id": "684cd40a1d3a20a8514d2b4f"
   },
   "core_count": 4608,
-  "general_product_information": {}
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "general_product_information": {
+    "walmart_sku": 16629014313,
+    "manufacturer_url": "https://us.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-GAMING-TRIO-OC-WHITE/"
+  }
 }
