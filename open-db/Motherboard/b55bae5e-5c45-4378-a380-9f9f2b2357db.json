@@ -1,12 +1,12 @@
 {
   "opendb_id": "b55bae5e-5c45-4378-a380-9f9f2b2357db",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -31,7 +48,7 @@
       "B650M D3HP"
     ],
     "series": "B650M",
-    "variant": ""
+    "variant": "D3HP"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -47,7 +64,7 @@
       "_id": "67f99e96865ad0c3553c4418"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
       "_id": "67f99e96865ad0c3553c4419"
@@ -55,22 +72,16 @@
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2580",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f99e96865ad0c3553c441a"
     },
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f99e96865ad0c3553c441b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f99e96865ad0c3553c441c"
     }
   ],
   "onboard_ethernet": [
@@ -84,16 +95,25 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f99e96865ad0c3553c441e"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "1 x PS/2 keyboard/mouse port",
+    "1 x USB Type-C port (USB 3.2 Gen 1",
+    "3 x USB 3.2 Gen 1 ports",
+    "2 x USB 2.0/1.1 ports",
+    "1 x HDMI port",
+    "2 x DisplayPorts",
+    "1 x RJ-45 port (2.5GbE)",
+    "3 x Audio jacks",
+    "2 x SMA antenna connectors (WIFI/AX models only)"
   ],
   "general_product_information": {
     "amazon_sku": "B0CH92B3S2",
     "newegg_sku": "N82E16813145473",
-    "walmart_sku": 5077197543
+    "walmart_sku": 5077197543,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B650M-D3HP-rev-1x/"
   }
 }

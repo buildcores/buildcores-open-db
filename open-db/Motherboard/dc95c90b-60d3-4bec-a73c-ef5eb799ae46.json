@@ -1,12 +1,12 @@
 {
   "opendb_id": "dc95c90b-60d3-4bec-a73c-ef5eb799ae46",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,67 +17,83 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI B760 PRO B760M-A WIFI DDR5 Micro ATX",
+    "name": "MSI PRO B760M-A WIFI DDR5 Micro ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "PRO B760M-A WIFI                                                    7D99-007R                                                    911-7D99-007",
-      "B760MAWIFI"
+      "PRO B760M-A WIFI                                                    7D99-007R                                                    911-7D99-007"
     ],
     "series": "B760",
-    "variant": ""
+    "variant": "PRO M-A WiFi"
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
   "color": [
-    "BLACK"
+    "BLACK",
+    "GREY"
   ],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b8c4865ad0c3553dcc81"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
+      "lanes": 4,
       "_id": "67f9b8c4865ad0c3553dcc82"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "698ee34825b30c3297e862fb"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b8c4865ad0c3553dcc83"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b8c4865ad0c3553dcc84"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8c4865ad0c3553dcc85"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8c4865ad0c3553dcc86"
     }
   ],
   "onboard_ethernet": [
@@ -96,11 +112,21 @@
     "_id": "67f9b8c4865ad0c3553dcc88"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"
+    "1 x PS/2 Mouse/Keyboard combo port",
+    "2 x USB 2.0 Type-A ports",
+    "2 x DisplayPort",
+    "2 x HDMI 2.1 ports",
+    "2 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "1 x 2.5 Gbps LAN (RJ45) port",
+    "2 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "2 x Wi-Fi Antenna connectors",
+    "3 x Audio jacks"
   ],
+  "wireless_networking": " Wi-Fi 6E, Bluetooth v5.3",
   "general_product_information": {
     "amazon_sku": "B0C15VWF1H",
     "newegg_sku": "N82E16813144599",
-    "walmart_sku": 2977418853
+    "walmart_sku": 2977418853,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B760M-A-WIFI/"
   }
 }
