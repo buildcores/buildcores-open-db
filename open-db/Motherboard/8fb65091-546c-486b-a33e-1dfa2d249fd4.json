@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,34 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": null,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -29,12 +52,11 @@
     "manufacturer": "ASRock",
     "part_numbers": [
       "B850M Pro-A WiFi                                                    90-MXBR9-A0UAYZ                                                    90-MXBR90-A0UAYZ",
-      "B850M Pro-A WiFi",
-      "B850M PRO-A WIFI",
       "90-MXBR90-A0UAYAZ"
     ],
     "series": "B850M",
-    "variant": ""
+    "variant": "B850M Pro-A WiFi",
+    "last_manually_spec_verified_at": "2026-02-15T13:54:59.481Z"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -44,7 +66,7 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9b7c5865ad0c3553dafff"
@@ -60,7 +82,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b7c5865ad0c3553db001"
     },
     {
@@ -74,12 +96,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b7c5865ad0c3553db003"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7c5865ad0c3553db004"
     }
   ],
   "onboard_ethernet": [
@@ -98,10 +114,22 @@
     "_id": "67f9b7c5865ad0c3553db006"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"
+    "2 x Antenna Mounting Points",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen2 Type-A Port (10 Gb/s)",
+    "1 x USB 3.2 Gen2 Type-C Port (10 Gb/s)",
+    "2 x USB 3.2 Gen1 Ports",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port (Dragon 2.5G LAN)",
+    "1 x BIOS Flashback Button",
+    "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)"
   ],
+  "wireless_networking": "Wi-Fi 6E Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B0DS6KDMF5",
-    "newegg_sku": "N82E16813162198R"
+    "newegg_sku": "N82E16813162198R",
+    "walmart_sku": 15159411495,
+    "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Pro-A%20WiFi/index.asp#Specification"
   }
 }

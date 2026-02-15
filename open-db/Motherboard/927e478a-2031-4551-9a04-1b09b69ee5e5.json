@@ -6,8 +6,8 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
-    "sata_3_gb_s": 0,
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": null,
     "u2": 0
   },
   "usb_headers": {
@@ -17,29 +17,51 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock A620 Pro RS DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "A620M Pro RS                                                    90-MXBLN0-A0UAYZ",
-      "A620M PRO RS"
+      "A620M Pro RS                                                    90-MXBLN0-A0UAYZ"
     ],
     "series": "A620",
-    "variant": ""
+    "variant": "Pro RS Micro ATX",
+    "last_manually_spec_verified_at": "2026-02-15T14:13:23.704Z"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD A620",
   "color": [
     "GREY",
-    "BLACK"
+    "BLACK",
+    "WHITE"
   ],
   "pcie_slots": [
     {
@@ -51,46 +73,22 @@
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f91f12eb7c00c41ad73833"
     },
     {
-      "size": "2280",
+      "size": "2260/2280 ",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f91f12eb7c00c41ad73834"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 3.0 x2",
       "_id": "67f91f12eb7c00c41ad73835"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f91f12eb7c00c41ad73836"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f91f12eb7c00c41ad73837"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f91f12eb7c00c41ad73838"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f91f12eb7c00c41ad73839"
     }
   ],
   "onboard_ethernet": [
@@ -100,7 +98,7 @@
       "_id": "67f91f12eb7c00c41ad7383a"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -109,9 +107,19 @@
     "_id": "67f91f12eb7c00c41ad7383b"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Realtek RTL8111H)"
+    "1 x HDMI 2.1 Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port (Gigabit)",
+    "1 x BIOS Flashback Button",
+    "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)",
+    "2 x Antenna Ports (WiFi model) or Mounting Points (Non-WiFi model)"
   ],
   "general_product_information": {
-    "amazon_sku": "B0C39YS8DD"
+    "amazon_sku": "B0C39YS8DD",
+    "newegg_sku": "9SIA8N2KBU6512",
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/A620M%20Pro%20RS/index.asp#Specification"
   }
 }

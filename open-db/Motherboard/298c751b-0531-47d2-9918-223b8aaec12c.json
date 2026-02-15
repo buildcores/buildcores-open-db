@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,29 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 0,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,7 +53,8 @@
       "TUF GAMING A620M-PLUS WIFI"
     ],
     "series": "A620",
-    "variant": ""
+    "variant": "TUF GAMING M-PLUS WIFI",
+    "last_manually_spec_verified_at": "2026-02-15T13:33:31.002Z"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -49,7 +71,7 @@
       "_id": "67f99e82865ad0c3553c4222"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1,
       "_id": "67f99e82865ad0c3553c4223"
@@ -57,28 +79,16 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f99e82865ad0c3553c4224"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280 ",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f99e82865ad0c3553c4225"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f99e82865ad0c3553c4226"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f99e82865ad0c3553c4227"
     }
   ],
   "onboard_ethernet": [
@@ -88,20 +98,30 @@
       "_id": "67f99e82865ad0c3553c4228"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f99e82865ad0c3553c4229"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)"
+    "1 x PS/2 Keyboard/Mouse combo port",
+    "2 x USB 3.2 Gen 1 (5G) ports (Type-A)",
+    "4 x USB 2.0 ports (Type-A)",
+    "2 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
   ],
+  "wireless_networking": "Wifi 6 Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0C3ZPLNTH",
     "newegg_sku": "N82E16813119647",
-    "walmart_sku": 3783765254
+    "walmart_sku": 3783765254,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-a620m-plus-wifi/techspec/"
   }
 }
