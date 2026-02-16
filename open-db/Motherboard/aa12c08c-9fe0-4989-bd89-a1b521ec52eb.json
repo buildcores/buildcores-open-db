@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,22 +17,42 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "rgb_12v": 2,
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus A520 TUF GAMING A520M-PLUS II DDR4 Micro ATX",
+    "name": "Asus TUF GAMING A520M-PLUS II DDR4 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
       "TUF GAMING A520M-PLUS II                                                    90MB17G0-M0EAY0",
       "90MB17G0-M0EAY0"
     ],
     "series": "A520",
-    "variant": ""
+    "variant": "TUF GAMING M-PLUS II"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -42,13 +62,13 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9b956865ad0c3553ddd39"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1,
       "_id": "67f9b956865ad0c3553ddd3a"
@@ -56,16 +76,10 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 3.0 x4",
       "_id": "67f9b956865ad0c3553ddd3b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b956865ad0c3553ddd3c"
     }
   ],
   "onboard_ethernet": [
@@ -75,18 +89,26 @@
       "_id": "67f9b956865ad0c3553ddd3d"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "67f9b956865ad0c3553ddd3e"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Realtek)"
+    "1 x PS/2 Keyboard/Mouse combo port",
+    "1 x DisplayPort 1.2",
+    "1 x HDMI port",
+    "1 x D-Sub (VGA) port",
+    "4 x USB 3.2 Gen 1 ports (Type-A)",
+    "2 x USB 2.0 ports (Type-A)",
+    "1 x Realtek 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
   ],
   "general_product_information": {
-    "amazon_sku": "B08CKGW1D4"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-a520m-plus-ii/techspec/"
   }
 }
