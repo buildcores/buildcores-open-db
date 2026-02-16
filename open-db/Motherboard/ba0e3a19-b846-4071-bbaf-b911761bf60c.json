@@ -17,8 +17,32 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1,
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -28,12 +52,10 @@
     "name": "Asus Z790 PRIME Z790M-PLUS D4 LGA1700 DDR4 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME Z790M-PLUS D4                                                    90MB1D20-M0AAY0                                                    90MB1D20-M0EAY0",
-      "PRIME Z790M-PLUS D4",
-      "PRIMEZ790M-PLUSD4"
+      "PRIME Z790M-PLUS D4                                                    90MB1D20-M0AAY0                                                    90MB1D20-M0EAY0"
     ],
     "series": "Z790",
-    "variant": ""
+    "variant": "PRIME M PLUS DDR4"
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
@@ -44,60 +66,42 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "67f9b7f5865ad0c3553db5a0"
     },
     {
       "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4,
+      "_id": "67f9b7f5865ad0c3553db5a1"
+    },
+    {
+      "gen": "4.0",
       "quantity": 2,
       "lanes": 1,
-      "_id": "67f9b7f5865ad0c3553db5a1"
+      "_id": "69933ca8f70448996be85831"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b7f5865ad0c3553db5a2"
     },
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b7f5865ad0c3553db5a3"
     },
     {
-      "size": "2260-2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b7f5865ad0c3553db5a4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a5"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a6"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a7"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a8"
     }
   ],
   "onboard_ethernet": [
@@ -107,7 +111,7 @@
       "_id": "67f9b7f5865ad0c3553db5a9"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -116,11 +120,19 @@
     "_id": "67f9b7f5865ad0c3553db5aa"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s (Intel)"
+    "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C)",
+    "1 x USB 3.2 Gen 2 port (1 x Type-A)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Intel Ethernet port",
+    "3 x Audio jacks"
   ],
   "general_product_information": {
     "amazon_sku": "B0BHXSR2C5",
     "newegg_sku": "N82E16813119610",
-    "walmart_sku": 1378136345
+    "walmart_sku": 1378136345,
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-z790m-plus-d4/techspec/"
   }
 }
