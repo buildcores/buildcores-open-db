@@ -2,7 +2,7 @@
   "opendb_id": "7ab840c3-8c52-4ced-a65c-7b0922ca479e",
   "cores": {
     "total": 8,
-    "performance": 8,
+    "performance": 0,
     "threads": 16
   },
   "clocks": {
@@ -13,17 +13,19 @@
   },
   "cache": {
     "l2": 8,
-    "l3": 96
+    "l3": 96,
+    "l1": "80 KB (per core)"
   },
   "specifications": {
     "integratedGraphics": {
       "model": "AMD Radeon"
     },
     "memory": {
-      "maxSupport": 192,
+      "maxSupport": 256,
       "types": [
         "DDR5"
-      ]
+      ],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
