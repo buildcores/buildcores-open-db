@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,7 +49,8 @@
       "90-MXBT50-A0UAYAZ"
     ],
     "series": "A620",
-    "variant": ""
+    "variant": "AI WiFi",
+    "last_manually_spec_verified_at": "2026-02-19T19:38:32.748Z"
   },
   "socket": "AM5",
   "form_factor": "Mini-ITX",
@@ -58,14 +76,8 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 3.0 x4",
       "_id": "688ec90e3ebf909c29b7c3cd"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec90e3ebf909c29b7c3ce"
     }
   ],
   "onboard_ethernet": [
@@ -79,15 +91,25 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false,
     "_id": "688ec90e3ebf909c29b7c3d0"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"
+    "2 x Antenna Ports",
+    "1 x HDMI 2.1 Port",
+    "1 x USB 3.2 Gen2 Type-C Port (10 Gb/s)",
+    "2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)",
+    "1 x USB 3.2 Gen1 Port",
+    "2 x USB 2.0 Ports",
+    "2 x RJ-45 LAN Ports (1 x 2.5G Dragon LAN, 1 x 1G Realtek LAN)",
+    "1 x BIOS Flashback Button",
+    "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)"
   ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B0FJHMGM7N",
-    "newegg_sku": "N82E16813162227"
+    "newegg_sku": "N82E16813162227",
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/A620AI%20WiFi/index.asp#Specification"
   }
 }

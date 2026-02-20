@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,7 +50,8 @@
       "A520M-ITX/AC"
     ],
     "series": "A520",
-    "variant": ""
+    "variant": "M-ITX/ac",
+    "last_manually_spec_verified_at": "2026-02-19T19:24:39.705Z"
   },
   "socket": "AM4",
   "form_factor": "Mini-ITX",
@@ -44,7 +62,7 @@
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67f9bb76865ad0c3553e185e"
@@ -56,12 +74,6 @@
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9bb76865ad0c3553e185f"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb76865ad0c3553e1860"
     }
   ],
   "onboard_ethernet": [
@@ -71,7 +83,7 @@
       "_id": "67f9bb76865ad0c3553e1861"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -80,9 +92,20 @@
     "_id": "67f9bb76865ad0c3553e1862"
   },
   "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Realtek RTL8111H)"
+    "2 x Antenna Ports",
+    "1 x PS/2 Mouse/Keyboard Port",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "2 x USB 2.0 Ports",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "1 x RJ-45 LAN Port",
+    "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)"
   ],
+  "wireless_networking": "WiFi 5  Bluetooth 4.2",
   "general_product_information": {
-    "amazon_sku": "B08G1WLVR2"
+    "amazon_sku": "B08G1WLVR2",
+    "newegg_sku": "9SIC3U3KR34589",
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/A520M-ITXac/index.asp#Specification"
   }
 }
