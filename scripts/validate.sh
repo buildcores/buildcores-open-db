@@ -9,6 +9,7 @@
 # Requirements:
 #   - jq (for JSON parsing)
 #   - ajv-cli (for JSON schema validation): npm install -g ajv-cli@5.0.0
+#   - ajv-formats (for JSON Schema formats like date-time): npm install -g ajv-formats
 #
 
 set -e
@@ -178,7 +179,7 @@ validate_file() {
     fi
     
     local validation_output
-    if ! validation_output=$(ajv validate -s "$schema_file" -d "$file" --all-errors 2>&1); then
+    if ! validation_output=$(ajv validate -s "$schema_file" -d "$file" -c ajv-formats --all-errors 2>&1); then
         echo -e "${RED}✗ $rel_path: Schema validation failed${NC}"
         echo "  $validation_output" | head -5
         return 1
