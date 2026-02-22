@@ -47,8 +47,8 @@ OVERALL_EXIT=0
 
 while [ "$START_INDEX" -lt "$TOTAL_FILES" ]; do
     END_INDEX=$((START_INDEX + BATCH_SIZE))
-    if [ "$END_INDEX" -gt "$TOTAL_FILES" ]; then
-        END_INDEX="$TOTAL_FILES"
+    if (( END_INDEX > TOTAL_FILES )); then
+        END_INDEX=$TOTAL_FILES
     fi
 
     BATCH_NUMBER=$((BATCH_NUMBER + 1))
