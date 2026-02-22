@@ -177,51 +177,51 @@
         "object",
         "null"
       ],
-      "required": [
-        "name"
-      ],
       "properties": {
         "name": {
-          "type": "string",
-          "description": "Full product name"
-        },
-        "manufacturer": {
+          "description": "Full product name",
           "type": [
             "string",
             "null"
-          ],
-          "description": "Product manufacturer"
+          ]
+        },
+        "manufacturer": {
+          "description": "Storage manufacturer",
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": [
             "array",
             "null"
           ],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
+          "description": "Product series name",
           "type": [
             "string",
             "null"
-          ],
-          "description": "Product series name"
+          ]
         },
         "variant": {
+          "description": "Specific variant in the series",
           "type": [
             "string",
             "null"
-          ],
-          "description": "Specific variant in the series"
+          ]
         },
         "releaseYear": {
+          "description": "Year of release",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Year of release"
+          ]
         },
         "last_manually_spec_verified_at": {
           "type": [
@@ -231,7 +231,10 @@
           "format": "date-time",
           "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
         }
-      }
+      },
+      "required": [
+        "name"
+      ]
     }
   }
 }
