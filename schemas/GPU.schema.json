@@ -18,6 +18,7 @@
       "description": "Unique identifier for the document (UUID v4)"
     },
     "chipset_manufacturer": {
+      "description": "Manufacturer of the GPU chipset (e.g., NVIDIA, AMD, Intel)",
       "type": [
         "string",
         "null"
@@ -27,24 +28,31 @@
         "AMD",
         "Intel",
         null
-      ],
-      "description": "Manufacturer of the GPU chipset (e.g., NVIDIA, AMD, Intel)"
+      ]
     },
     "chipset": {
+      "description": "The specific GPU chipset (e.g., GeForce RTX 4090, Radeon RX 7900 XTX, ARC B580)",
       "type": [
         "string",
         "null"
-      ],
-      "description": "The specific GPU chipset (e.g., GeForce RTX 4090, Radeon RX 7900 XTX, ARC B580, etc)"
+      ]
     },
-    "memory": {
+    "core_count": {
+      "description": "Number of cores/shaders in the GPU",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The amount of video memory in GB"
+      ]
+    },
+    "memory": {
+      "description": "The amount of video memory in GB",
+      "type": [
+        "number",
+        "null"
+      ]
     },
     "memory_type": {
+      "description": "The type of video memory (e.g., GDDR6X, GDDR6)",
       "type": [
         "string",
         "null"
@@ -67,45 +75,38 @@
         "DDR3",
         "DDR2",
         null
-      ],
-      "description": "The type of video memory (e.g., GDDR6X, GDDR6)"
+      ]
     },
     "core_base_clock": {
+      "description": "The base clock speed of the GPU core in MHz",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The base clock speed of the GPU core in MHz"
+      ]
     },
     "core_boost_clock": {
+      "description": "The boost clock speed of the GPU core in MHz",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The boost clock speed of the GPU core in MHz"
-    },
-    "core_count": {
-      "type": [
-        "number",
-        "null"
-      ],
-      "description": "Number of cores/shaders in the GPU"
+      ]
     },
     "effective_memory_clock": {
+      "description": "Effective memory clock in MHz",
       "type": [
         "number",
         "null"
-      ],
-      "description": "Effective memory clock in MHz"
+      ]
     },
     "memory_bus": {
+      "description": "Memory bus width in bits",
       "type": [
         "number",
         "null"
-      ],
-      "description": "Memory bus width in bits"
+      ]
     },
     "interface": {
+      "description": "The interface used by the graphics card (e.g., PCIe 4.0 x16, PCIe 5.0 x16)",
       "type": [
         "string",
         "null"
@@ -128,23 +129,35 @@
         "PCIe x2",
         "PCIe x1",
         null
-      ],
-      "description": "The interface used by the graphics card (e.g., PCIe 4.0 x16, PCIe 5.0 x16)"
+      ]
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes shroud and backplate colors",
       "type": [
         "array",
         "null"
       ],
       "items": {
-        "type": [
-          "string",
-          "null"
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
         ]
-      },
-      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+      }
     },
     "frame_sync": {
+      "description": "The frame synchronization technology supported (e.g., G-Sync, FreeSync, None)",
       "type": [
         "string",
         "null"
@@ -155,38 +168,38 @@
         "G-Sync Compatible",
         "None",
         null
-      ],
-      "description": "The frame synchronization technology supported (e.g., G-Sync, FreeSync, None)"
+      ]
     },
     "length": {
+      "description": "The length of the graphics card in mm",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The length of the graphics card in mm"
+      ]
     },
     "tdp": {
+      "description": "The Thermal Design Power of the graphics card in Watts",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The Thermal Design Power of the graphics card in Watts"
+      ]
     },
     "case_expansion_slot_width": {
+      "description": "The number of case expansion slot widths the card occupies",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The number of case expansion slot widths the card occupies"
+      ]
     },
     "total_slot_width": {
+      "description": "The total slot width the card occupies, accounting for cooler size",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The total slot width the card occupies, accounting for cooler size"
+      ]
     },
     "cooling": {
+      "description": "The type of cooling solution (e.g., 3 Fans, 2 Fans, Blower, Water Cooled)",
       "type": [
         "string",
         "null"
@@ -201,8 +214,7 @@
         "Hybrid",
         "Passive",
         null
-      ],
-      "description": "The type of cooling solution (e.g., 3 Fans, 2 Fans, Blower, Water Cooled)"
+      ]
     },
     "power_connectors": {
       "type": [
@@ -211,32 +223,32 @@
       ],
       "properties": {
         "pcie_6_pin": {
+          "description": "Number of 6-pin PCIe connectors (75W each)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of 6-pin PCIe connectors (75W each)"
+          ]
         },
         "pcie_8_pin": {
+          "description": "Number of 8-pin PCIe connectors (150W each). A 16-pin PCIe connector is 2x 8-pin PCIe connectors.",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of 8-pin PCIe connectors (150W each). A 16-pin PCIe connector is 2x 8-pin PCIe connectors"
+          ]
         },
         "pcie_12VHPWR": {
+          "description": "Number of 12VHPWR PCIe connectors (12VHPWR/PCIe 5.0, 600W)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of 12VHPWR PCIe connectors (12VHPWR/PCIe 5.0, 600W)"
+          ]
         },
         "pcie_12V_2x6": {
+          "description": "Number of 12V_2x6 PCIe connectors (12V-2x6/ATX 3.1, 600W)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of 12V_2x6 PCIe connectors (12V-2x6/ATX 3.1, 600W)"
+          ]
         }
       }
     },
@@ -247,67 +259,67 @@
       ],
       "properties": {
         "hdmi_2_2": {
+          "description": "Number of HDMI 2.2 ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of HDMI 2.2 ports"
+          ]
         },
         "hdmi_2_1": {
+          "description": "Number of HDMI 2.1 ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of HDMI 2.1 ports"
+          ]
         },
         "hdmi_2_0": {
+          "description": "Number of HDMI 2.0 ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of HDMI 2.0 ports"
+          ]
         },
         "displayport_2_1": {
+          "description": "Number of DisplayPort 2.1 ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of DisplayPort 2.1 ports"
+          ]
         },
         "displayport_2_1a": {
+          "description": "Number of DisplayPort 2.1a ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of DisplayPort 2.1a ports"
+          ]
         },
         "displayport_1_4a": {
+          "description": "Number of DisplayPort 1.4a ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of DisplayPort 1.4a ports"
+          ]
         },
         "displayport_2_1_b": {
+          "description": "Number of DisplayPort 2.1b ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of DisplayPort 2.1b ports"
+          ]
         },
         "dvi_d": {
+          "description": "Number of DVI-D ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of DVI-D ports"
+          ]
         },
         "vga": {
+          "description": "Number of VGA ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of VGA ports"
+          ]
         }
       }
     },

@@ -5,7 +5,7 @@
     "null"
   ],
   "title": "Motherboard Schema",
-  "description": "Schema for motherboard components",
+  "description": "Schema for Motherboard components",
   "required": [
     "metadata"
   ],
@@ -18,6 +18,7 @@
       "description": "Unique identifier for the document (UUID v4)"
     },
     "socket": {
+      "description": "The CPU socket type supported by the motherboard. E.g. AM4, AM5, LGA 1700, LGA 2066, TR5, etc.",
       "type": [
         "string",
         "null"
@@ -69,10 +70,10 @@
         "Integrated Pentium",
         "Integrated AMD",
         null
-      ],
-      "description": "The CPU socket type supported by the motherboard. E.g. AM4, AM5, LGA 1700, LGA 2066, TR5, etc."
+      ]
     },
     "form_factor": {
+      "description": "The physical size and layout of the motherboard (e.g., ATX, Micro ATX, Mini-ITX)",
       "type": [
         "string",
         "null"
@@ -91,35 +92,30 @@
         "Thin Mini-ITX",
         "Flex ATX",
         null
-      ],
-      "description": "The physical size and layout of the motherboard (e.g., ATX, Micro ATX, Mini-ITX)"
+      ]
     },
     "chipset": {
+      "description": "The chipset used by the motherboard (e.g., Intel Z790, AMD X670E)",
       "type": [
         "string",
         "null"
-      ],
-      "description": "The chipset used by the motherboard (e.g., Intel Z790, AMD X670E)"
+      ]
     },
     "memory": {
       "type": [
         "object",
         "null"
       ],
-      "required": [
-        "max",
-        "ram_type",
-        "slots"
-      ],
       "properties": {
         "max": {
+          "description": "The maximum amount of RAM the motherboard can support in GB",
           "type": [
             "number",
             "null"
-          ],
-          "description": "The maximum amount of RAM the motherboard can support in GB"
+          ]
         },
         "ram_type": {
+          "description": "The type of RAM supported (e.g., DDR5, DDR4)",
           "type": [
             "string",
             "null"
@@ -131,49 +127,53 @@
             "DDR2",
             "DDR1",
             null
-          ],
-          "description": "The type of RAM supported (e.g., DDR5, DDR4)"
+          ]
         },
         "slots": {
+          "description": "The number of RAM slots on the motherboard",
           "type": [
             "number",
             "null"
-          ],
-          "description": "The number of RAM slots on the motherboard"
+          ]
         }
       }
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heatsink colors",
       "type": [
         "array",
         "null"
       ],
       "items": {
-        "type": [
-          "string",
-          "null"
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
         ]
-      },
-      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+      }
     },
     "pcie_slots": {
+      "description": "PCIe slots on the motherboard. E.g. a motherboard with 4 PCIe x16 slots, 2 PCIe x8 slots, and 1 PCIe x4 slot would be represented as an array with 3 objects. Be careful on this section and use all available info to make your decision including obvious pcie slots on the motherboard images if provided.",
       "type": [
         "array",
         "null"
       ],
-      "description": "PCIe slots on the motherboard",
       "items": {
-        "type": [
-          "object",
-          "null"
-        ],
-        "required": [
-          "gen",
-          "quantity",
-          "lanes"
-        ],
+        "type": "object",
         "properties": {
           "gen": {
+            "description": "PCIe generation (e.g., 5.0, 4.0)",
             "type": [
               "string",
               "null"
@@ -185,51 +185,43 @@
               "2.0",
               "1.1",
               null
-            ],
-            "description": "PCIe generation (e.g., 5.0, 4.0)"
+            ]
           },
           "quantity": {
+            "description": "Number of slots of this type and generation",
             "type": [
               "number",
               "null"
-            ],
-            "description": "Number of slots of this type and generation"
+            ]
           },
           "lanes": {
+            "description": "Number of lanes per slot. E.g. 16 lanes for x16 slot, 8 lanes for x8 slot, etc.",
             "type": [
               "number",
               "null"
-            ],
-            "description": "Number of lanes per slot. E.g. 16 lanes for x16 slot, 8 lanes for x8 slot, etc."
+            ]
           }
         }
       }
     },
     "m2_slots": {
+      "description": "M.2 slots on the motherboard. For every slot that is supported, add an object to the array. E.g. for a motherboard with 4 M.2 slots, add 4 objects to the array.",
       "type": [
         "array",
         "null"
       ],
-      "description": "M.2 slots on the motherboard",
       "items": {
-        "type": [
-          "object",
-          "null"
-        ],
-        "required": [
-          "size",
-          "key",
-          "interface"
-        ],
+        "type": "object",
         "properties": {
           "size": {
+            "description": "M.2 form factor size (e.g., 2280, 22110)",
             "type": [
               "string",
               "null"
-            ],
-            "description": "M.2 form factor size (e.g., 2280, 22110)"
+            ]
           },
           "key": {
+            "description": "M.2 key type (e.g., M, E)",
             "type": [
               "string",
               "null"
@@ -240,15 +232,14 @@
               "B",
               "B+M",
               null
-            ],
-            "description": "M.2 key type (e.g., M, E)"
+            ]
           },
           "interface": {
+            "description": "M.2 interface specification (e.g., PCIe 4.0 x4)",
             "type": [
               "string",
               "null"
-            ],
-            "description": "M.2 interface specification (e.g., PCIe 4.0 x4)"
+            ]
           }
         }
       }
@@ -260,25 +251,25 @@
       ],
       "properties": {
         "sata_6_gb_s": {
+          "description": "Number of SATA 6 Gb/s ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of SATA 6 Gb/s ports"
+          ]
         },
         "sata_3_gb_s": {
+          "description": "Number of SATA 3 Gb/s ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of SATA 3 Gb/s ports"
+          ]
         },
         "u2": {
+          "description": "Number of U.2 ports",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of U.2 ports"
+          ]
         }
       }
     },
@@ -288,16 +279,10 @@
         "null"
       ],
       "items": {
-        "type": [
-          "object",
-          "null"
-        ],
-        "required": [
-          "speed",
-          "controller"
-        ],
+        "type": "object",
         "properties": {
           "speed": {
+            "description": "Network speed (e.g., 2.5 Gb/s, 1 Gb/s)",
             "type": [
               "string",
               "null"
@@ -309,286 +294,270 @@
               "1 Gb/s",
               "100 Mb/s",
               null
-            ],
-            "description": "Network speed (e.g., 2.5 Gb/s, 1 Gb/s)"
+            ]
           },
           "controller": {
+            "description": "Network controller model",
             "type": [
               "string",
               "null"
-            ],
-            "description": "Network controller model"
+            ]
           }
         }
       }
     },
     "wireless_networking": {
+      "description": "Supported wifi standards. E.g. Wifi 6E, Wifi 7, etc",
       "type": [
         "string",
         "null"
-      ],
-      "description": "Supported wifi standards. E.g. Wifi 6E, Wifi 7, etc"
+      ]
     },
     "usb_headers": {
+      "description": "Internal USB headers. Please only include front panel headers. Do not include headers on the back of the motherboard.",
       "type": [
         "object",
         "null"
       ],
-      "description": "Internal USB headers. Please only include front panel headers",
       "properties": {
         "usb_2_0": {
+          "description": "Number of USB 2.0 headers",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of USB 2.0 headers"
+          ]
         },
         "usb_3_2_gen_1": {
+          "description": "Number of USB 3.2 Gen 1 headers. This is also known as USB 5Gbps.",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of USB 3.2 Gen 1 headers (USB 5Gbps)"
+          ]
         },
         "usb_3_2_gen_2": {
+          "description": "Number of USB 3.2 Gen 2 headers. This is also known as USB 10Gbps.",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of USB 3.2 Gen 2 headers (USB 10Gbps)"
+          ]
         },
         "usb_3_2_gen_2x2": {
+          "description": "Number of USB 3.2 Gen 2x2 headers. This is also known as USB 20Gbps.",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of USB 3.2 Gen 2x2 headers (USB 20Gbps)"
+          ]
         },
         "usb_4": {
+          "description": "Number of USB 4 headers. This is also known as USB 40Gbps.",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of USB 4 headers (USB 40Gbps)"
+          ]
         },
         "usb_4_80g": {
+          "description": "Number of USB 4 headers. This is also known as USB 80Gbps.",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of USB 4 headers (USB 80Gbps)"
+          ]
         }
       }
     },
     "fan_headers": {
+      "description": "Fan and cooling headers on the motherboard",
       "type": [
         "object",
         "null"
       ],
-      "description": "Fan and cooling headers on the motherboard",
       "properties": {
         "cpu_fan": {
+          "description": "Number of CPU fan headers (typically 4-pin PWM)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of CPU fan headers (typically 4-pin PWM)"
+          ]
         },
         "case_fan": {
+          "description": "Number of case/chassis fan headers (typically 4-pin PWM)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of case/chassis fan headers (typically 4-pin PWM)"
+          ]
         },
         "pump": {
+          "description": "Number of dedicated pump headers for AIO coolers",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of dedicated pump headers for AIO coolers"
+          ]
         },
         "cpu_opt": {
+          "description": "Number of CPU optional fan headers",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of CPU optional fan headers"
+          ]
         }
       }
     },
     "rgb_headers": {
+      "description": "RGB and lighting headers on the motherboard",
       "type": [
         "object",
         "null"
       ],
-      "description": "RGB and lighting headers on the motherboard",
       "properties": {
         "argb_5v": {
+          "description": "Number of addressable RGB headers (5V, 3-pin)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of addressable RGB headers (5V, 3-pin)"
+          ]
         },
         "rgb_12v": {
+          "description": "Number of standard RGB headers (12V, 4-pin)",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of standard RGB headers (12V, 4-pin)"
+          ]
         }
       }
     },
     "front_panel_headers": {
+      "description": "Front panel connector headers",
       "type": [
         "object",
         "null"
       ],
-      "description": "Front panel connector headers",
       "properties": {
         "power_button": {
+          "description": "Whether the motherboard has a power button header",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the motherboard has a power button header"
+          ]
         },
         "reset_button": {
+          "description": "Whether the motherboard has a reset button header",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the motherboard has a reset button header"
+          ]
         },
         "power_led": {
+          "description": "Whether the motherboard has a power LED header",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the motherboard has a power LED header"
+          ]
         },
         "hdd_led": {
+          "description": "Whether the motherboard has an HDD activity LED header",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the motherboard has an HDD activity LED header"
+          ]
         }
       }
     },
     "other_headers": {
+      "description": "Other miscellaneous headers",
       "type": [
         "object",
         "null"
       ],
-      "description": "Other miscellaneous headers",
       "properties": {
         "temperature_sensor": {
+          "description": "Number of temperature sensor headers",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of temperature sensor headers"
+          ]
         },
         "thunderbolt": {
+          "description": "Number of Thunderbolt headers",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of Thunderbolt headers"
+          ]
         },
         "com_port": {
+          "description": "Number of COM port headers",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Number of COM port headers"
+          ]
         }
       }
     },
     "power_connectors": {
+      "description": "Power connector specifications",
       "type": [
         "object",
         "null"
       ],
-      "description": "Power connector specifications",
       "properties": {
         "main_power": {
+          "description": "Main power connector specification (e.g., '24-pin')",
           "type": [
             "string",
             "null"
-          ],
-          "description": "Main power connector specification (e.g., '24-pin')"
+          ]
         },
         "cpu_power": {
+          "description": "CPU power connector specifications (e.g., ['8-pin', '8-pin'] for dual 8-pin)",
           "type": [
             "array",
             "null"
           ],
           "items": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "description": "CPU power connector specifications (e.g., ['8-pin', '8-pin'] for dual 8-pin)"
+            "type": "string"
+          }
         }
       }
     },
-    "back_panel_ports": {
-      "type": [
-        "array",
-        "null"
-      ],
-      "items": {
-        "type": [
-          "string",
-          "null"
-        ]
-      },
-      "description": "This is a list of ports on the back of the motherboard"
-    },
     "ecc_support": {
+      "description": "Whether the motherboard supports ECC memory",
       "type": [
         "boolean",
         "null"
-      ],
-      "description": "Whether the motherboard supports ECC memory"
+      ]
     },
     "raid_support": {
+      "description": "Whether the motherboard supports RAID configurations",
       "type": [
         "boolean",
         "null"
-      ],
-      "description": "Whether the motherboard supports RAID configurations"
+      ]
     },
     "back_connect_connectors": {
+      "description": "Whether the motherboard uses back-connect connectors",
       "type": [
         "boolean",
         "null"
-      ],
-      "description": "Whether the motherboard uses back-connect connectors"
+      ]
     },
     "bios_features": {
+      "description": "BIOS features",
       "type": [
         "object",
         "null"
       ],
       "properties": {
         "flashback": {
+          "description": "Whether the board has BIOS flashback capability",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the board has BIOS flashback capability"
+          ]
         },
         "clear_cmos": {
+          "description": "Whether the board has a clear CMOS button",
           "type": [
             "boolean",
             "null"
-          ],
-          "description": "Whether the board has a clear CMOS button"
+          ]
         }
       }
     },
@@ -599,13 +568,14 @@
       ],
       "properties": {
         "chipset": {
+          "description": "Details on the audio chipset used",
           "type": [
             "string",
             "null"
-          ],
-          "description": "Details on the audio chipset used"
+          ]
         },
         "channels": {
+          "description": "Number of audio channels supported",
           "type": [
             "string",
             "null"
@@ -616,9 +586,18 @@
             "2.1",
             "2.0",
             null
-          ],
-          "description": "Number of audio channels supported"
+          ]
         }
+      }
+    },
+    "back_panel_ports": {
+      "description": "This is a list of ports on the back of the motherboard.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
       }
     },
     "general_product_information": {

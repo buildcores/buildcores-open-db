@@ -5,7 +5,7 @@
     "null"
   ],
   "title": "Case Fan Schema",
-  "description": "Schema for case fan components",
+  "description": "Schema for Case Fan components",
   "required": [
     "metadata"
   ],
@@ -18,68 +18,81 @@
       "description": "Unique identifier for the document (UUID v4)"
     },
     "size": {
+      "description": "The fan size in mm (e.g., 120)",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The fan size in mm (e.g., 120)"
+      ]
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array.",
       "type": [
         "array",
         "null"
       ],
       "items": {
-        "type": [
-          "string",
-          "null"
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
         ]
-      },
-      "description": "The color of this product (e.g., ['Black', 'Red']). Each color of the product should be included in the array."
+      }
     },
     "quantity": {
+      "description": "Number of fans included in the package (e.g., 3). Important for multi-packs",
       "type": [
         "number",
         "null"
-      ],
-      "description": "Number of fans included in the package (e.g., 3). Important for multi-packs"
+      ]
     },
     "min_airflow": {
+      "description": "The minimum airflow of the fan in CFM. If it is a constant, just fill in min_airflow and ignore max_airflow",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The minimum airflow of the fan in CFM. If it is a constant, just fill in min_airflow and ignore max_airflow"
+      ]
     },
     "max_airflow": {
+      "description": "The maximum airflow of the fan in CFM. If it is a constant, just fill in min_airflow and ignore max_airflow",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The maximum airflow of the fan in CFM. If it is a constant, just fill in min_airflow and ignore max_airflow"
+      ]
     },
     "min_noise_level": {
+      "description": "The minimum noise level of the fan in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The minimum noise level of the fan in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level"
+      ]
     },
     "max_noise_level": {
+      "description": "The maximum noise level of the fan in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The maximum noise level of the fan in dB. If it is a constant, just fill in min_noise_level and ignore max_noise_level"
+      ]
     },
     "pwm": {
+      "description": "Whether the fan supports Pulse Width Modulation for speed control",
       "type": [
         "boolean",
         "null"
-      ],
-      "description": "Whether the fan supports Pulse Width Modulation for speed control"
+      ]
     },
     "led": {
+      "description": "The type of LED lighting, if any (e.g., 'Addressable RGB', 'RGB', 'None')",
       "type": [
         "string",
         "null"
@@ -99,31 +112,31 @@
         "ARGB",
         "Yellow",
         null
-      ],
-      "description": "The type of LED lighting, if any (e.g., 'Addressable RGB', 'RGB', 'None')"
+      ]
     },
     "connector": {
+      "description": "The type of connector(s) the fan uses (e.g., '4-pin PWM + 3-pin 5V Addressable RGB')",
       "type": [
         "string",
         "null"
-      ],
-      "description": "The type of connector(s) the fan uses (e.g., '4-pin PWM + 3-pin 5V Addressable RGB')"
+      ]
     },
     "controller": {
+      "description": "If the fan includes a controller, specify the type (e.g., '5V Addressable RGB'). Otherwise, indicate 'None'",
       "type": [
         "string",
         "null"
-      ],
-      "description": "If the fan includes a controller, specify the type (e.g., '5V Addressable RGB'). Otherwise, indicate 'None'"
+      ]
     },
     "static_pressure": {
+      "description": "The static pressure of the fan in mmH₂O",
       "type": [
         "number",
         "null"
-      ],
-      "description": "The static pressure of the fan in mmH₂O"
+      ]
     },
     "flow_direction": {
+      "description": "The direction of the airflow (e.g., 'Standard', 'Reverse')",
       "type": [
         "string",
         "null"
@@ -132,69 +145,14 @@
         "Standard",
         "Reverse",
         null
-      ],
-      "description": "The direction of the airflow (e.g., 'Standard', 'Reverse')"
+      ]
     },
-    "metadata": {
+    "isOEM": {
+      "description": "Whether this fan is OEM-only (bundled with cases, not sold separately)",
       "type": [
-        "object",
+        "boolean",
         "null"
-      ],
-      "required": [
-        "name"
-      ],
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Full product name"
-        },
-        "manufacturer": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Product manufacturer"
-        },
-        "part_numbers": {
-          "type": [
-            "array",
-            "null"
-          ],
-          "items": {
-            "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
-        },
-        "series": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Product series name"
-        },
-        "variant": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Specific variant in the series"
-        },
-        "releaseYear": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Year of release"
-        },
-        "last_manually_spec_verified_at": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time",
-          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
-        }
-      }
+      ]
     },
     "general_product_information": {
       "type": [
@@ -258,6 +216,67 @@
             "null"
           ],
           "description": "Official manufacturer product URL"
+        }
+      }
+    },
+    "metadata": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full product name"
+        },
+        "manufacturer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Product manufacturer"
+        },
+        "part_numbers": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
+        },
+        "series": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Product series name"
+        },
+        "variant": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Specific variant in the series"
+        },
+        "releaseYear": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Year of release"
+        },
+        "last_manually_spec_verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
         }
       }
     }
