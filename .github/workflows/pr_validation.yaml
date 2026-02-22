@@ -22,9 +22,9 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install ajv-cli
+      - name: Install ajv-cli and ajv-formats
         run: |
-          npm install -g ajv-cli@5.0.0
+          npm install -g ajv-cli@5.0.0 ajv-formats
 
       - name: Get changed JSON files
         id: changed-files
@@ -93,7 +93,7 @@ jobs:
             SCHEMA_FILE="schemas/${PART_CATEGORY}.schema.json"
             
             if [ -f "$SCHEMA_FILE" ]; then
-              if ! ajv validate -s "$SCHEMA_FILE" -d "$file" --all-errors > /tmp/validation.log 2>&1; then
+              if ! ajv validate -s "$SCHEMA_FILE" -d "$file" -c ajv-formats --all-errors > /tmp/validation.log 2>&1; then
                 echo "❌ $file: Schema validation failed"
                 echo "$file: $(head -1 /tmp/validation.log)" >> /tmp/failed_files.txt
                 FAILED=$((FAILED + 1))
