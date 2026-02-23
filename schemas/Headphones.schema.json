@@ -5,7 +5,7 @@
     "null"
   ],
   "title": "Headphones Schema",
-  "description": "Schema for headphones components",
+  "description": "Schema for Headphones components",
   "required": [
     "metadata"
   ],
@@ -17,65 +17,233 @@
       ],
       "description": "Unique identifier for the document (UUID v4)"
     },
-    "metadata": {
+    "driver_size": {
+      "description": "Driver size in millimeters",
       "type": [
-        "object",
+        "number",
+        "null"
+      ]
+    },
+    "frequency_response_low": {
+      "description": "Low-end frequency response in Hz",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "frequency_response_high": {
+      "description": "High-end frequency response in kHz",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "headphone_type": {
+      "description": "Acoustic design type",
+      "type": [
+        "string",
         "null"
       ],
-      "required": [
-        "name"
+      "enum": [
+        "Open-Back",
+        "Closed-Back",
+        "Semi-Open",
+        null
+      ]
+    },
+    "ear_cup_type": {
+      "description": "Ear cup fit type",
+      "type": [
+        "string",
+        "null"
       ],
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Full product name"
-        },
-        "manufacturer": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Product manufacturer"
-        },
-        "part_numbers": {
-          "type": [
-            "array",
-            "null"
-          ],
-          "items": {
-            "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
-        },
-        "series": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Product series name"
-        },
-        "variant": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Specific variant in the series"
-        },
-        "releaseYear": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Year of release"
-        },
-        "last_manually_spec_verified_at": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time",
-          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
-        }
+      "enum": [
+        "Over-Ear",
+        "On-Ear",
+        "In-Ear",
+        "Earbuds",
+        null
+      ]
+    },
+    "weight": {
+      "description": "Headphone weight in grams",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "frame_material": {
+      "description": "Primary frame/chassis material",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Plastic",
+        "Aluminum",
+        "Steel",
+        "Carbon Fiber",
+        "Mixed",
+        null
+      ]
+    },
+    "ear_pad_material": {
+      "description": "Ear pad materials",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Leather",
+          "Leatherette",
+          "Velour",
+          "Fabric",
+          "Memory Foam",
+          "Silicone"
+        ]
+      }
+    },
+    "connection_types": {
+      "description": "Supported connection types",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Wired 3.5mm",
+          "Wired 6.35mm",
+          "Wired 2.5mm Balanced",
+          "Wired 4.4mm Balanced",
+          "USB-C",
+          "USB-A",
+          "Bluetooth",
+          "Wireless 2.4GHz",
+          "Wireless RF"
+        ]
+      }
+    },
+    "battery_life": {
+      "description": "Battery life in hours",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "bluetooth_version": {
+      "description": "Bluetooth version (e.g., 5.3)",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "charging_port": {
+      "description": "Charging interface type",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "USB-C",
+        "Micro-USB",
+        "Lightning",
+        "Wireless Qi",
+        null
+      ]
+    },
+    "wireless_range": {
+      "description": "Wireless range in feet/meters",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "latency": {
+      "description": "Wireless latency in milliseconds",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "has_microphone": {
+      "description": "Whether the headphones include a microphone",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "microphone_type": {
+      "description": "Microphone implementation type",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Built-In",
+        "Detachable Boom",
+        "Inline",
+        "None",
+        null
+      ]
+    },
+    "noise_cancellation_mic": {
+      "description": "Whether ENC/noise-cancelling microphone is supported",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "features": {
+      "description": "Additional active product features",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "ANC",
+          "Ambient Mode",
+          "Spatial Audio",
+          "Dolby Atmos",
+          "Multi-Device Pairing",
+          "App Support",
+          "EQ Customization",
+          "Foldable"
+        ]
+      }
+    },
+    "use_cases": {
+      "description": "Primary intended usage categories",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Gaming",
+          "Audiophile",
+          "Casual"
+        ]
+      }
+    },
+    "platforms": {
+      "description": "Platform compatibility buckets",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "PC",
+          "Console",
+          "Mobile"
+        ]
       }
     },
     "general_product_information": {
@@ -142,6 +310,70 @@
           "description": "Official manufacturer product URL"
         }
       }
+    },
+    "metadata": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "name": {
+          "description": "Full product name",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "manufacturer": {
+          "description": "Headphones manufacturer",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "series": {
+          "description": "Product series name",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "variant": {
+          "description": "Specific variant in the series",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "releaseYear": {
+          "description": "Year of release",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "last_manually_spec_verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
+        }
+      },
+      "required": [
+        "name"
+      ]
     }
   }
 }
