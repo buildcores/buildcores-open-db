@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,29 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin "
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -31,7 +49,8 @@
       "MPG B860I EDGE TI WIFI"
     ],
     "series": "B860I",
-    "variant": ""
+    "variant": "EDGE TI WIFI",
+    "last_manually_spec_verified_at": "2026-02-25T16:14:04.883Z"
   },
   "socket": "LGA 1851",
   "form_factor": "Mini-ITX",
@@ -51,7 +70,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "688ec9163ebf909c29b7c979"
     },
     {
@@ -72,12 +91,27 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "688ec9163ebf909c29b7c97c"
   },
   "back_panel_ports": [
-    "1 x 5 Gb/s Ports (Intel Killer E5000B)"
+    "1 x Clear CMOS button",
+    "1 x Flash BIOS button",
+    "1 x HDMI 2.1 port",
+    "1 x Thunderbolt 4 USB-C port",
+    "4 x USB 5Gbps Type-A ports",
+    "1 x USB 10Gbps Type-A port",
+    "1 x USB 10Gbps Type-C port",
+    "1 x 5Gbps LAN (RJ45) jack",
+    "2 x Wi-Fi Antenna connectors",
+    "2 x Audio jacks (Line-out, Mic-in)",
+    "1 x Optical S/PDIF Out connector"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "general_product_information": {
+    "bestbuy_sku": 11401252,
+    "walmart_sku": 17338961330,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-B860I-EDGE-TI-WIFI/Specification"
+  }
 }

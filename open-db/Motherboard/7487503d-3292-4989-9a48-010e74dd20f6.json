@@ -1,5 +1,5 @@
 {
-  "opendb_id": "279633c5-1d6d-4d58-ad65-7570bbcc90e2",
+  "opendb_id": "7487503d-3292-4989-9a48-010e74dd20f6",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
@@ -9,13 +9,13 @@
     "sata_6_gb_s": 4
   },
   "usb_headers": {
-    "usb_2_0": 2,
+    "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 1
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 4,
+    "case_fan": 6,
     "pump": 1
   },
   "rgb_headers": {
@@ -27,9 +27,6 @@
     "reset_button": true,
     "power_led": true,
     "hdd_led": true
-  },
-  "other_headers": {
-    "com_port": 1
   },
   "power_connectors": {
     "main_power": "24-pin",
@@ -43,19 +40,18 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI MAG B850 GAMING PLUS MAX WIFI",
+    "name": "MSI MAG X870E GAMING PLUS MAX WIFI",
     "manufacturer": "MSI",
     "part_numbers": [
-      "MSI MAG B850 GAMING PLUS MAX WIFI",
-      "MAG B850 GAMING PLUS MAX WIFI"
+      "MAG X870E GAMING PLUS MAX WIFI"
     ],
-    "series": "B850",
-    "variant": "GAMING PLUS MAX WiFi",
-    "last_manually_spec_verified_at": "2026-02-25T06:03:26.539Z"
+    "series": "X870E",
+    "variant": "MAG X870E GAMING PLUS MAX WIFI",
+    "last_manually_spec_verified_at": "2026-02-25T13:59:38.236Z"
   },
   "socket": "AM5",
   "form_factor": "ATX",
-  "chipset": "AMD B850",
+  "chipset": "X870E",
   "color": [
     "GREY",
     "WHITE"
@@ -65,65 +61,66 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "6959c0a9a7c9576610bb7afb"
+      "_id": "699eff80f3921b0097fbbd54"
     },
     {
       "gen": "3.0",
       "quantity": 2,
       "lanes": 1,
-      "_id": "6959c0a9a7c9576610bb7afc"
+      "_id": "699eff80f3921b0097fbbd55"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "6959c0a9a7c9576610bb7afd"
+      "_id": "699eff80f3921b0097fbbd56"
     }
   ],
   "m2_slots": [
     {
-      "size": "2280/2260 ",
+      "size": "2280/2260",
       "key": "M",
-      "interface": " PCIe 5.0 x4",
-      "_id": "6959c0a9a7c9576610bb7afe"
+      "interface": "PCIe 5.0 x4",
+      "_id": "699eff80f3921b0097fbbd57"
     },
     {
-      "size": "2280/2260 ",
+      "size": "2280/2260",
       "key": "M",
-      "interface": " PCIe 4.0 x2",
-      "_id": "6959c0a9a7c9576610bb7aff"
+      "interface": "PCIe 4.0 x4",
+      "_id": "699eff80f3921b0097fbbd58"
     },
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": " PCIe 4.0 x4",
-      "_id": "6959c0a9a7c9576610bb7b00"
+      "interface": "PCIe 4.0 x4",
+      "_id": "699eff80f3921b0097fbbd59"
     }
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "raid_support": true,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true,
-    "_id": "6959c0a9a7c9576610bb7b01"
+    "_id": "699eff80f3921b0097fbbd5a"
   },
   "back_panel_ports": [
-    "1 x Clear CMOS Button",
-    "1 x Flash BIOS Button",
-    "1 x DisplayPort",
-    "1 x USB 10Gbps Type-A port",
-    "1 x USB 10Gbps Type-C port",
+    "1 x Clear CMOS button",
+    "1 x Flash BIOS button",
+    "1 x HDMI 2.1 port",
+    "1 x USB 40Gbps Type-C port",
+    "2 x USB 10Gbps Type-A ports",
     "1 x USB 5Gbps Type-A port",
+    "1 x USB 5Gbps Type-A port",
+    "1 x USB 20Gbps Type-C port",
     "4 x USB 2.0 Type-A ports",
-    "1 x 5Gbps LAN (RJ45) port",
+    "1 x 5Gbps LAN (RJ45) jack",
     "2 x Wi-Fi Antenna connectors",
-    "1 x Optical S/PDIF Out connector",
-    "2 x Audio jacks (Line-out, Mic-in)"
+    "3 x Audio jacks (Line-in, Line-out, Mic-in)"
   ],
   "onboard_ethernet": [],
   "general_product_information": {
-    "amazon_sku": "‎B0GKQNFLY4",
-    "newegg_sku": "N82E16813144741",
-    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B850-GAMING-PLUS-MAX-WIFI/Gallery#lg=1&slide=4"
+    "amazon_sku": "B0GKQMNGWP",
+    "newegg_sku": " N82E16813144740",
+    "walmart_sku": 19606917647,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X870E-GAMING-PLUS-MAX-WIFI/"
   }
 }
