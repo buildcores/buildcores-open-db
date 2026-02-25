@@ -2,7 +2,7 @@
   "opendb_id": "c618042b-cc90-433d-8b79-ee7c529bf17d",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,11 +10,12 @@
     "name": "AMD Radeon RX 6900 XT 16GB GDDR6 Black / Silver",
     "manufacturer": "AMD",
     "part_numbers": [
-      "100-438373",
       "RX 6900 XT"
     ],
     "series": "Radeon RX 6900 XT",
-    "variant": "AMD"
+    "variant": "Navi 21 XTX",
+    "releaseYear": 2020,
+    "last_manually_spec_verified_at": "2026-02-24T21:53:49.522Z"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6900 XT",
@@ -22,9 +23,9 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1825,
   "core_boost_clock": 2250,
-  "effective_memory_clock": 16000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": [
     "BLACK",
     "GREY"
@@ -34,8 +35,8 @@
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
@@ -44,7 +45,10 @@
     "_id": "67f9c663865ad0c3553ea79c"
   },
   "core_count": 5120,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B08R6M3JPS"
+    "newegg_sku": " 9SIBTK0KP53754",
+    "manufacturer_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6900-xt.html"
   }
 }
