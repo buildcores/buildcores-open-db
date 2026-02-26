@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,74 +17,88 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI Z890 PRO S WIFI WHITE DDR5 ATX",
+    "name": "MSI Z890 PRO S WIFI DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "PRO Z890-S WIFI WHITE",
-      "Z890-S WIFI",
+      "PRO Z890-S WIFI",
       "Z890SWIFI"
     ],
     "series": "Z890",
-    "variant": ""
+    "variant": "PRO S-WiFi",
+    "last_manually_spec_verified_at": "2026-02-25T22:08:39.851Z"
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel Z890",
   "color": [
-    "WHITE"
+    "BLACK",
+    "GREY"
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 4,
       "lanes": 16,
       "_id": "67f9b7e8865ad0c3553db41b"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "699f72e946fa30f7bd9d6aa5"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 4,
+      "_id": "699f72e946fa30f7bd9d6aa6"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "67f9b7e8865ad0c3553db41c"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b7e8865ad0c3553db41d"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67f9b7e8865ad0c3553db41e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7e8865ad0c3553db41f"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7e8865ad0c3553db420"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7e8865ad0c3553db421"
     }
   ],
   "onboard_ethernet": [
@@ -103,11 +117,20 @@
     "_id": "67f9b7e8865ad0c3553db423"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek 8125D)"
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Thunderbolt 4 USB-C port",
+    "1 x USB 20Gbps Type-C port",
+    "6 x USB 5Gbps Type-A ports",
+    "1 x 2.5G LAN (RJ45) port",
+    "2 x Wi-Fi antenna connectors",
+    "3 x Audio jacks"
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DJPWFRFF",
     "newegg_sku": "N82E16813144675",
-    "walmart_sku": 13565257913
+    "walmart_sku": 13565257913,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI"
   }
 }
