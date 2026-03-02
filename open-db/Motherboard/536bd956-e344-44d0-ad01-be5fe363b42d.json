@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,8 +17,30 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
+    "main_power": "24-pin"
   },
   "audio": {
     "chipset": "Realtek",
@@ -28,49 +50,54 @@
     "name": "MSI B850 PRO M-A WIFI PZ AM5 DDR5 Micro ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "PRO B850M-A WIFI PZ"
+      "PRO B850M-A WIFI PZ",
+      "B850 Gaming Plus WiFi PZ",
+      "B850 GAMING PLUS WIFI PZ"
     ],
     "series": "B850",
-    "variant": ""
+    "variant": "PRO A WIFI PZ",
+    "releaseYear": 2025,
+    "last_manually_spec_verified_at": "2026-02-25T20:02:28.899Z"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
   "color": [
-    "GREY"
+    "GREY",
+    "WHITE"
   ],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 4,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "68cb89e49b67bc35527b5115"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1,
+      "_id": "699f53ce1377d4983a5f6bdf"
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "699f53ce1377d4983a5f6be0"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "68cb89e49b67bc35527b5116"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "68cb89e49b67bc35527b5117"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "68cb89e49b67bc35527b5118"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "68cb89e49b67bc35527b5119"
     }
   ],
   "onboard_ethernet": [
@@ -82,14 +109,30 @@
   ],
   "ecc_support": false,
   "raid_support": true,
-  "back_connect_connectors": false,
+  "back_connect_connectors": true,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
+    "flashback": true,
+    "clear_cmos": true,
     "_id": "68cb89e49b67bc35527b511b"
   },
   "back_panel_ports": [
-    "1 x 5 Gb/s Ports (Realtek 8126)"
+    "1 x Clear CMOS button",
+    "1 x Flash BIOS button",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "3 x USB 10Gbps Type-A ports",
+    "2 x USB 10Gbps Type-C ports",
+    "3 x USB 5Gbps Type-A ports",
+    "1 x 5Gbps LAN (RJ45) jack",
+    "2 x Wi-Fi Antenna connectors",
+    "3 x Audio jacks (Line-in, Line-out, Mic-in)"
   ],
-  "general_product_information": {}
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "general_product_information": {
+    "amazon_sku": "B0FDJ97NWN",
+    "newegg_sku": "N82E16813144721R",
+    "bestbuy_sku": 11422460,
+    "walmart_sku": 17993823285,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B850M-A-WIFI-PZ/"
+  }
 }
