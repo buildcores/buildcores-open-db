@@ -24,8 +24,21 @@
         "null"
       ]
     },
-    "type": {
+    "storage_type": {
       "description": "The type of storage drive (either HDD or SSD)",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "SSD",
+        "HDD",
+        "SSHD",
+        null
+      ]
+    },
+    "type": {
+      "description": "Legacy storage type field kept for migration compatibility",
       "type": [
         "string",
         "null"
