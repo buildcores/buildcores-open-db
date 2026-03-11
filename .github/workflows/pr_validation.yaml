@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
 
       - name: Install ajv-cli and ajv-formats
         run: |
@@ -34,13 +34,13 @@ jobs:
           git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^A.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/added_files.txt || true
           git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^M.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/modified_files.txt || true
           git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^D.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/deleted_files.txt || true
-          
+
           # Combine added and modified files
           cat /tmp/added_files.txt /tmp/modified_files.txt > /tmp/changed_files.txt
-          
+
           TOTAL_CHANGED=$(wc -l < /tmp/changed_files.txt | tr -d ' ')
           echo "Total changed JSON files: $TOTAL_CHANGED"
-          
+
           if [ "$TOTAL_CHANGED" -eq "0" ]; then
             echo "No JSON files added or modified in this PR."
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -57,10 +57,10 @@ jobs:
           PASSED=0
           FAILED=0
           WARNINGS=0
-          
+
           # Create a file to store failed validations
           > /tmp/failed_files.txt
-          
+
           # Process files in batches to avoid memory issues
           while IFS= read -r file; do
             # Skip empty lines
@@ -111,7 +111,7 @@ jobs:
               echo "Progress: $TOTAL files processed..."
             fi
           done < /tmp/changed_files.txt
-          
+
           echo ""
           echo "========================================"
           echo "Validation Summary:"
@@ -119,13 +119,13 @@ jobs:
           echo "  ❌ Failed: $FAILED"
           echo "  ⚠️ Warnings: $WARNINGS"
           echo "========================================"
-          
+
           if [ "$FAILED" -gt 0 ]; then
             echo ""
             echo "Failed files:"
             cat /tmp/failed_files.txt
           fi
-          
+
           echo "validation_failed=$EXIT_CODE" >> $GITHUB_OUTPUT
           echo "passed=$PASSED" >> $GITHUB_OUTPUT
           echo "failed=$FAILED" >> $GITHUB_OUTPUT

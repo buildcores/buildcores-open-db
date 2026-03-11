@@ -28,11 +28,11 @@ jobs:
             > /tmp/modified_files.txt
             > /tmp/deleted_files.txt
           fi
-          
+
           ADDED_COUNT=$(wc -l < /tmp/added_files.txt | tr -d ' ')
           MODIFIED_COUNT=$(wc -l < /tmp/modified_files.txt | tr -d ' ')
           DELETED_COUNT=$(wc -l < /tmp/deleted_files.txt | tr -d ' ')
-          
+
           echo "Files to process: $ADDED_COUNT added, $MODIFIED_COUNT modified, $DELETED_COUNT deleted"
 
       - name: Process added and modified JSON files
@@ -42,7 +42,7 @@ jobs:
         run: |
           ERROR_COUNT=0
           PROCESSED=0
-          
+
           # Process added files
           while IFS= read -r file; do
             [ -z "$file" ] && continue
@@ -71,7 +71,7 @@ jobs:
               ERROR_COUNT=$((ERROR_COUNT+1))
             fi
           done < /tmp/added_files.txt
-          
+
           # Process modified files
           while IFS= read -r file; do
             [ -z "$file" ] && continue
@@ -99,7 +99,7 @@ jobs:
               ERROR_COUNT=$((ERROR_COUNT+1))
             fi
           done < /tmp/modified_files.txt
-          
+
           # Process deleted files
           while IFS= read -r file; do
             [ -z "$file" ] && continue
@@ -129,7 +129,7 @@ jobs:
               ERROR_COUNT=$((ERROR_COUNT+1))
             fi
           done < /tmp/deleted_files.txt
-          
+
           echo ""
           echo "========================================"
           echo "Processing complete: $PROCESSED files processed"
