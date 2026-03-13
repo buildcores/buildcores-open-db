@@ -5,9 +5,14 @@ on:
     branches:
       - main
 
+concurrency:
+  group: opendb-import-main
+  cancel-in-progress: false
+
 jobs:
   detect-json-changes:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -17,128 +22,379 @@ jobs:
       - name: Get file changes
         id: file-changes
         run: |
+          set -euo pipefail
+
           # Write file lists to temporary files instead of environment variables
           # This avoids "Argument list too long" errors with large commits
+          : > /tmp/added_files.txt
+          : > /tmp/modified_files.txt
+          : > /tmp/deleted_files.txt
+          : > /tmp/renamed_files.tsv
+
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --name-status HEAD~1 HEAD | grep '^A.*\.json$' | cut -f2 > /tmp/added_files.txt || true
-            git diff --name-status HEAD~1 HEAD | grep '^M.*\.json$' | cut -f2 > /tmp/modified_files.txt || true
-            git diff --name-status HEAD~1 HEAD | grep '^D.*\.json$' | cut -f2 > /tmp/deleted_files.txt || true
+            git diff --name-status HEAD~1 HEAD > /tmp/open_db_changes.txt || true
+
+            awk '$1 == "A" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/open_db_changes.txt > /tmp/added_files.txt
+            awk '$1 == "M" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/open_db_changes.txt > /tmp/modified_files.txt
+            awk '$1 == "D" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/open_db_changes.txt > /tmp/deleted_files.txt
+            awk '$1 ~ /^R[0-9]+$/ && ($2 ~ /^open-db\/.*\.json$/ || $3 ~ /^open-db\/.*\.json$/) { print $2 "\t" $3 }' /tmp/open_db_changes.txt > /tmp/renamed_files.tsv
           else
-            git ls-files '*.json' > /tmp/added_files.txt
-            > /tmp/modified_files.txt
-            > /tmp/deleted_files.txt
+            git ls-files 'open-db/**/*.json' 'open-db/*.json' > /tmp/added_files.txt
           fi
 
           ADDED_COUNT=$(wc -l < /tmp/added_files.txt | tr -d ' ')
           MODIFIED_COUNT=$(wc -l < /tmp/modified_files.txt | tr -d ' ')
           DELETED_COUNT=$(wc -l < /tmp/deleted_files.txt | tr -d ' ')
+          RENAMED_COUNT=$(wc -l < /tmp/renamed_files.tsv | tr -d ' ')
 
-          echo "Files to process: $ADDED_COUNT added, $MODIFIED_COUNT modified, $DELETED_COUNT deleted"
+          echo "Files to process: $ADDED_COUNT added, $MODIFIED_COUNT modified, $DELETED_COUNT deleted, $RENAMED_COUNT renamed"
 
-      - name: Process added and modified JSON files
+      - name: Process OpenDB API sync
+        id: api-sync
         env:
           API_BASE_URL: "https://api.buildcores.com/api/open-db"
           API_KEY: "${{ secrets.BUILDCORES_OPEN_DB_API_TOKEN }}"
+          WORKERS: "4"
+          CHUNK_SIZE: "100"
         run: |
-          ERROR_COUNT=0
-          PROCESSED=0
+          set -uo pipefail
 
-          # Process added files
+          WORKDIR="$(mktemp -d)"
+          QUEUE_FILE="$WORKDIR/queue.tsv"
+          CHUNKS_DIR="$WORKDIR/chunks"
+          RESULTS_DIR="$WORKDIR/results"
+          FAILURE_MANIFEST="$RUNNER_TEMP/open-db-sync-failures.tsv"
+          SUMMARY_FILE="$RUNNER_TEMP/open-db-sync-summary.txt"
+
+          trap 'rm -rf "$WORKDIR"' EXIT
+
+          mkdir -p "$CHUNKS_DIR" "$RESULTS_DIR"
+          : > "$QUEUE_FILE"
+          : > "$FAILURE_MANIFEST"
+          : > "$SUMMARY_FILE"
+
+          if [ -z "${API_KEY:-}" ]; then
+            echo "BUILDCORES_OPEN_DB_API_TOKEN is not configured." >&2
+            exit 1
+          fi
+
+          enqueue_rename_operations() {
+            while IFS=$'\t' read -r old_file new_file; do
+              [ -z "$old_file" ] && continue
+
+              local old_part_id=""
+              local new_part_id=""
+
+              if [ -n "$old_file" ] && git show "HEAD~1:$old_file" >/dev/null 2>&1; then
+                old_part_id="$(git show "HEAD~1:$old_file" 2>/dev/null | jq -r '.opendb_id // empty' 2>/dev/null || true)"
+              fi
+
+              if [ -n "$new_file" ] && [ -f "$new_file" ]; then
+                new_part_id="$(jq -r '.opendb_id // empty' "$new_file" 2>/dev/null || true)"
+              fi
+
+              if [ -n "$old_part_id" ] && [ -n "$new_part_id" ] && [ "$old_part_id" = "$new_part_id" ]; then
+                printf 'update\t%s\n' "$new_file" >> "$QUEUE_FILE"
+              else
+                [ -n "$new_file" ] && [ -f "$new_file" ] && printf 'create\t%s\n' "$new_file" >> "$QUEUE_FILE"
+                [ -n "$old_file" ] && printf 'delete\t%s\n' "$old_file" >> "$QUEUE_FILE"
+              fi
+            done < /tmp/renamed_files.tsv
+          }
+
           while IFS= read -r file; do
             [ -z "$file" ] && continue
-            [ ! -f "$file" ] && continue
-            
-            echo "Processing new file: $file..."
-            
-            PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
-            PART_ID=$(jq -r '.opendb_id' "$file")
-            DATA=$(jq -c '.' "$file")
-            
-            if [ "$PART_ID" != "null" ] && [ -n "$PART_ID" ]; then
-              curl -s -X POST "$API_BASE_URL/create-part" \
-                -H "Content-Type: application/json" \
-                -H "Authorization: Bearer $API_KEY" \
-                -d "{\"partCategory\": \"$PART_CATEGORY\", \"opendb_id\": \"$PART_ID\", \"data\": $DATA}" > /dev/null
-                
-              PROCESSED=$((PROCESSED + 1))
-              
-              # Print progress every 100 files
-              if [ $((PROCESSED % 100)) -eq 0 ]; then
-                echo "Progress: $PROCESSED files processed..."
-              fi
-            else
-              echo "ERROR: File $file is missing the required opendb_id field."
-              ERROR_COUNT=$((ERROR_COUNT+1))
-            fi
+            printf 'create\t%s\n' "$file" >> "$QUEUE_FILE"
           done < /tmp/added_files.txt
 
-          # Process modified files
           while IFS= read -r file; do
             [ -z "$file" ] && continue
-            [ ! -f "$file" ] && continue
-            
-            echo "Processing updated file: $file..."
-            
-            PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
-            PART_ID=$(jq -r '.opendb_id' "$file")
-            DATA=$(jq -c '.' "$file")
-            
-            if [ "$PART_ID" != "null" ] && [ -n "$PART_ID" ]; then
-              curl -s -X POST "$API_BASE_URL/update-part" \
-                -H "Content-Type: application/json" \
-                -H "Authorization: Bearer $API_KEY" \
-                -d "{\"partCategory\": \"$PART_CATEGORY\", \"opendb_id\": \"$PART_ID\", \"data\": $DATA}" > /dev/null
-                
-              PROCESSED=$((PROCESSED + 1))
-              
-              if [ $((PROCESSED % 100)) -eq 0 ]; then
-                echo "Progress: $PROCESSED files processed..."
-              fi
-            else
-              echo "ERROR: File $file is missing the required opendb_id field."
-              ERROR_COUNT=$((ERROR_COUNT+1))
-            fi
+            printf 'update\t%s\n' "$file" >> "$QUEUE_FILE"
           done < /tmp/modified_files.txt
 
-          # Process deleted files
           while IFS= read -r file; do
             [ -z "$file" ] && continue
-            
-            echo "Processing deleted file: $file..."
-            
-            PART_CATEGORY=$(echo "$file" | cut -d'/' -f2)
-            
-            git checkout HEAD~1 -- "$file" 2>/dev/null
-            if [ -f "$file" ]; then
-              PART_ID=$(jq -r '.opendb_id' "$file")
-              
-              if [ "$PART_ID" != "null" ] && [ -n "$PART_ID" ]; then
-                curl -s -X POST "$API_BASE_URL/delete-part" \
-                  -H "Content-Type: application/json" \
-                  -H "Authorization: Bearer $API_KEY" \
-                  -d "{\"partCategory\": \"$PART_CATEGORY\", \"opendb_id\": \"$PART_ID\"}" > /dev/null
-                  
-                echo "API delete-part request sent for $file"
-                rm "$file"
-              else
-                echo "ERROR: Deleted file $file was missing the required opendb_id field."
-                ERROR_COUNT=$((ERROR_COUNT+1))
-              fi
-            else
-              echo "ERROR: Could not retrieve deleted file $file from previous commit."
-              ERROR_COUNT=$((ERROR_COUNT+1))
-            fi
+            printf 'delete\t%s\n' "$file" >> "$QUEUE_FILE"
           done < /tmp/deleted_files.txt
+
+          enqueue_rename_operations
+
+          TOTAL_OPS=$(wc -l < "$QUEUE_FILE" | tr -d ' ')
+          echo "OpenDB sync queue: $TOTAL_OPS operations"
+
+          if [ "$TOTAL_OPS" -eq 0 ]; then
+            echo "No OpenDB API sync operations needed."
+            echo "failure_manifest=$FAILURE_MANIFEST" >> "$GITHUB_OUTPUT"
+            {
+              echo "total_ops=0"
+              echo "success_count=0"
+              echo "fail_count=0"
+              echo "workers=$WORKERS"
+              echo "chunk_size=$CHUNK_SIZE"
+            } >> "$SUMMARY_FILE"
+            exit 0
+          fi
+
+          split -d -l "$CHUNK_SIZE" "$QUEUE_FILE" "$CHUNKS_DIR/chunk_"
+
+          cat > "$WORKDIR/process_chunk.sh" <<'EOF'
+          #!/usr/bin/env bash
+          set -uo pipefail
+
+          chunk_file="$1"
+          result_file="$RESULTS_DIR/$(basename "$chunk_file").tsv"
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+          : > "$result_file"
+
+          summarize_body() {
+            local body_file="$1"
+            if [ ! -s "$body_file" ]; then
+              printf ''
+              return
+            fi
+
+            python3 - "$body_file" <<'PY'
+          import json
+          import sys
+
+          path = sys.argv[1]
+          with open(path, "r", encoding="utf-8") as handle:
+              data = handle.read().strip()
+
+          if not data:
+              print("")
+          else:
+              try:
+                  print(json.dumps(json.loads(data), separators=(",", ":")))
+              except Exception:
+                  print(" ".join(data.split())[:500])
+          PY
+          }
+
+          record_result() {
+            local status="$1"
+            local op="$2"
+            local file="$3"
+            local http_code="$4"
+            local attempts="$5"
+            local detail="$6"
+            printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$status" "$op" "$file" "$http_code" "$attempts" "$detail" >> "$result_file"
+          }
+
+          send_request() {
+            local endpoint="$1"
+            local payload="$2"
+            local op="$3"
+            local file="$4"
+
+            local attempt=1
+            local max_attempts=3
+            local backoff=2
+
+            while true; do
+              local body_file="$tmp_dir/response_${RANDOM}_${attempt}.txt"
+              local http_code
+              http_code=$(curl -sS -o "$body_file" -w "%{http_code}" -X POST "$API_BASE_URL/$endpoint" \
+                -H "Content-Type: application/json" \
+                -H "Authorization: Bearer $API_KEY" \
+                -d "$payload")
+              local curl_exit=$?
+              local body_summary
+              body_summary="$(summarize_body "$body_file")"
+              rm -f "$body_file"
+
+              if [ "$curl_exit" -eq 0 ] && [ "$http_code" = "200" ]; then
+                record_result "PASS" "$op" "$file" "$http_code" "$attempt" "ok"
+                return
+              fi
+
+              local retryable=0
+              if [ "$curl_exit" -ne 0 ]; then
+                retryable=1
+              fi
+
+              case "$http_code" in
+                429|500|502|503|504)
+                  retryable=1
+                  ;;
+              esac
+
+              # The API returns a generic 400 body for server-side create/delete errors,
+              # so only explicit 200 responses are treated as proven success.
+              if [ "$retryable" -eq 1 ] && [ "$attempt" -lt "$max_attempts" ]; then
+                sleep "$backoff"
+                attempt=$((attempt + 1))
+                backoff=$((backoff * 2))
+                continue
+              fi
+
+              local detail="curl_exit=$curl_exit"
+              if [ -n "$body_summary" ]; then
+                detail="$detail body=$body_summary"
+              fi
+
+              record_result "FAIL" "$op" "$file" "$http_code" "$attempt" "$detail"
+              return
+            done
+          }
+
+          process_create_or_update() {
+            local op="$1"
+            local file="$2"
+
+            if [ ! -f "$file" ]; then
+              record_result "FAIL" "$op" "$file" "missing_file" "0" "File not found in workspace"
+              return
+            fi
+
+            local part_category
+            part_category="$(echo "$file" | cut -d'/' -f2)"
+
+            local part_id
+            part_id="$(jq -r '.opendb_id // empty' "$file" 2>/dev/null || true)"
+            if [ -z "$part_id" ]; then
+              record_result "FAIL" "$op" "$file" "invalid_json" "0" "Missing opendb_id"
+              return
+            fi
+
+            local payload
+            if [ "$op" = "create" ]; then
+              payload="$(jq -cn --arg partCategory "$part_category" --slurpfile data "$file" '{partCategory:$partCategory, data:$data[0]}')"
+              send_request "create-part" "$payload" "$op" "$file"
+            else
+              payload="$(jq -cn --arg partCategory "$part_category" --arg opendb_id "$part_id" --slurpfile data "$file" '{partCategory:$partCategory, opendb_id:$opendb_id, data:$data[0]}')"
+              send_request "update-part" "$payload" "$op" "$file"
+            fi
+          }
+
+          process_delete() {
+            local file="$1"
+            local part_category
+            part_category="$(echo "$file" | cut -d'/' -f2)"
+
+            local previous_json
+            previous_json="$(git show "HEAD~1:$file" 2>/dev/null || true)"
+            if [ -z "$previous_json" ]; then
+              record_result "FAIL" "delete" "$file" "missing_previous" "0" "Could not read previous file contents"
+              return
+            fi
+
+            local part_id
+            part_id="$(printf '%s' "$previous_json" | jq -r '.opendb_id // empty' 2>/dev/null || true)"
+            if [ -z "$part_id" ]; then
+              record_result "FAIL" "delete" "$file" "invalid_json" "0" "Deleted file missing opendb_id"
+              return
+            fi
+
+            local payload
+            payload="$(jq -cn --arg partCategory "$part_category" --arg opendb_id "$part_id" '{partCategory:$partCategory, opendb_id:$opendb_id}')"
+            send_request "delete-part" "$payload" "delete" "$file"
+          }
+
+          while IFS=$'\t' read -r op file; do
+            [ -z "$op" ] && continue
+
+            case "$op" in
+              create|update)
+                process_create_or_update "$op" "$file"
+                ;;
+              delete)
+                process_delete "$file"
+                ;;
+              *)
+                record_result "FAIL" "$op" "$file" "invalid_op" "0" "Unknown operation"
+                ;;
+            esac
+          done < "$chunk_file"
+          EOF
+
+          chmod +x "$WORKDIR/process_chunk.sh"
+
+          export API_BASE_URL API_KEY RESULTS_DIR
+
+          printf '%s\0' "$CHUNKS_DIR"/chunk_* | xargs -0 -n 1 -P "$WORKERS" "$WORKDIR/process_chunk.sh"
+
+          cat "$RESULTS_DIR"/chunk_* > "$WORKDIR/all_results.tsv"
+          awk -F'\t' '$1=="FAIL"{print}' "$WORKDIR/all_results.tsv" > "$FAILURE_MANIFEST"
+
+          SUCCESS_COUNT=$(awk -F'\t' '$1=="PASS"{count++} END{print count+0}' "$WORKDIR/all_results.tsv")
+          FAIL_COUNT=$(awk -F'\t' '$1=="FAIL"{count++} END{print count+0}' "$WORKDIR/all_results.tsv")
+          CREATE_FAIL_COUNT=$(awk -F'\t' '$1=="FAIL" && $2=="create"{count++} END{print count+0}' "$WORKDIR/all_results.tsv")
+          UPDATE_FAIL_COUNT=$(awk -F'\t' '$1=="FAIL" && $2=="update"{count++} END{print count+0}' "$WORKDIR/all_results.tsv")
+          DELETE_FAIL_COUNT=$(awk -F'\t' '$1=="FAIL" && $2=="delete"{count++} END{print count+0}' "$WORKDIR/all_results.tsv")
+
+          {
+            echo "total_ops=$TOTAL_OPS"
+            echo "success_count=$SUCCESS_COUNT"
+            echo "fail_count=$FAIL_COUNT"
+            echo "create_fail_count=$CREATE_FAIL_COUNT"
+            echo "update_fail_count=$UPDATE_FAIL_COUNT"
+            echo "delete_fail_count=$DELETE_FAIL_COUNT"
+            echo "workers=$WORKERS"
+            echo "chunk_size=$CHUNK_SIZE"
+          } >> "$SUMMARY_FILE"
 
           echo ""
           echo "========================================"
-          echo "Processing complete: $PROCESSED files processed"
-          if [ $ERROR_COUNT -gt 0 ]; then
-            echo "Errors: $ERROR_COUNT"
-          fi
+          echo "OpenDB sync summary:"
+          echo "  Queue size: $TOTAL_OPS"
+          echo "  Succeeded:  $SUCCESS_COUNT"
+          echo "  Failed:     $FAIL_COUNT"
+          echo "  Workers:    $WORKERS"
+          echo "  Chunk size: $CHUNK_SIZE"
           echo "========================================"
 
-          if [ $ERROR_COUNT -gt 0 ]; then
-            echo "ERROR: $ERROR_COUNT file(s) had issues during processing."
+          if [ "$FAIL_COUNT" -gt 0 ]; then
+            echo ""
+            echo "Failed operations:"
+            awk -F'\t' '$1=="FAIL"{printf "  - %s %s (http=%s, attempts=%s): %s\n", $2, $3, $4, $5, $6}' "$WORKDIR/all_results.tsv"
+            echo "failure_manifest=$FAILURE_MANIFEST" >> "$GITHUB_OUTPUT"
+            echo "ERROR: One or more API writes failed. This workflow continues through all requests, then fails at the end so the full failure list is visible."
+            echo "NOTE: The scheduled seed job pushes DB -> OpenDB repo. It does not automatically repair missed repo -> DB imports."
             exit 1
           fi
+
+          echo "failure_manifest=$FAILURE_MANIFEST" >> "$GITHUB_OUTPUT"
+
+      - name: Publish sync summary
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          FAILURE_MANIFEST="$RUNNER_TEMP/open-db-sync-failures.tsv"
+          SUMMARY_FILE="$RUNNER_TEMP/open-db-sync-summary.txt"
+
+          echo "## OpenDB Sync Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -f "$SUMMARY_FILE" ]; then
+            while IFS= read -r line; do
+              key="${line%%=*}"
+              value="${line#*=}"
+              echo "- $key: $value" >> "$GITHUB_STEP_SUMMARY"
+            done < "$SUMMARY_FILE"
+          else
+            echo "- summary: missing" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -s "$FAILURE_MANIFEST" ]; then
+            echo "### Failed Operations" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "| status | operation | file | http_code | attempts | detail |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| --- | --- | --- | --- | --- | --- |" >> "$GITHUB_STEP_SUMMARY"
+            awk -F'\t' '{for (i = 1; i <= 6; i++) gsub(/\|/, "\\|", $i); printf("| %s | %s | %s | %s | %s | %s |\n", $1, $2, $3, $4, $5, $6)}' "$FAILURE_MANIFEST" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No failed operations recorded." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload sync failure manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: open-db-sync-failures
+          path: ${{ steps.api-sync.outputs.failure_manifest }}
+          if-no-files-found: ignore

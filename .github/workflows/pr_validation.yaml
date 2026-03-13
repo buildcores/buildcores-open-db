@@ -29,17 +29,30 @@ jobs:
       - name: Get changed JSON files
         id: changed-files
         run: |
+          set -euo pipefail
+
           # Write file lists to temporary files instead of environment variables
           # This avoids "Argument list too long" errors with large PRs
-          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^A.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/added_files.txt || true
-          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^M.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/modified_files.txt || true
-          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^D.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/deleted_files.txt || true
+          : > /tmp/added_files.txt
+          : > /tmp/modified_files.txt
+          : > /tmp/deleted_files.txt
+          : > /tmp/renamed_files.tsv
+
+          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} > /tmp/pr_changes.txt || true
+
+          awk '$1 == "A" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/added_files.txt
+          awk '$1 == "M" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/modified_files.txt
+          awk '$1 == "D" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/deleted_files.txt
+          awk '$1 ~ /^R[0-9]+$/ && $3 ~ /\.json$/ && $3 !~ /\.schema\.json$/ { print $2 "\t" $3 }' /tmp/pr_changes.txt > /tmp/renamed_files.tsv
 
           # Combine added and modified files
           cat /tmp/added_files.txt /tmp/modified_files.txt > /tmp/changed_files.txt
+          awk -F '\t' '{ print $2 }' /tmp/renamed_files.tsv >> /tmp/changed_files.txt
 
           TOTAL_CHANGED=$(wc -l < /tmp/changed_files.txt | tr -d ' ')
+          RENAMED_COUNT=$(wc -l < /tmp/renamed_files.tsv | tr -d ' ')
           echo "Total changed JSON files: $TOTAL_CHANGED"
+          echo "Renamed JSON files: $RENAMED_COUNT"
 
           if [ "$TOTAL_CHANGED" -eq "0" ]; then
             echo "No JSON files added or modified in this PR."
