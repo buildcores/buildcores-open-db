@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
 
       - name: Install ajv-cli and ajv-formats
         run: |
@@ -29,18 +29,31 @@ jobs:
       - name: Get changed JSON files
         id: changed-files
         run: |
+          set -euo pipefail
+
           # Write file lists to temporary files instead of environment variables
           # This avoids "Argument list too long" errors with large PRs
-          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^A.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/added_files.txt || true
-          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^M.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/modified_files.txt || true
-          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} | grep '^D.*\.json$' | grep -v "\.schema\.json$" | cut -f2 > /tmp/deleted_files.txt || true
-          
+          : > /tmp/added_files.txt
+          : > /tmp/modified_files.txt
+          : > /tmp/deleted_files.txt
+          : > /tmp/renamed_files.tsv
+
+          git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} > /tmp/pr_changes.txt || true
+
+          awk '$1 == "A" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/added_files.txt
+          awk '$1 == "M" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/modified_files.txt
+          awk '$1 == "D" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/deleted_files.txt
+          awk '$1 ~ /^R[0-9]+$/ && $3 ~ /\.json$/ && $3 !~ /\.schema\.json$/ { print $2 "\t" $3 }' /tmp/pr_changes.txt > /tmp/renamed_files.tsv
+
           # Combine added and modified files
           cat /tmp/added_files.txt /tmp/modified_files.txt > /tmp/changed_files.txt
-          
+          awk -F '\t' '{ print $2 }' /tmp/renamed_files.tsv >> /tmp/changed_files.txt
+
           TOTAL_CHANGED=$(wc -l < /tmp/changed_files.txt | tr -d ' ')
+          RENAMED_COUNT=$(wc -l < /tmp/renamed_files.tsv | tr -d ' ')
           echo "Total changed JSON files: $TOTAL_CHANGED"
-          
+          echo "Renamed JSON files: $RENAMED_COUNT"
+
           if [ "$TOTAL_CHANGED" -eq "0" ]; then
             echo "No JSON files added or modified in this PR."
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -57,10 +70,10 @@ jobs:
           PASSED=0
           FAILED=0
           WARNINGS=0
-          
+
           # Create a file to store failed validations
           > /tmp/failed_files.txt
-          
+
           # Process files in batches to avoid memory issues
           while IFS= read -r file; do
             # Skip empty lines
@@ -111,7 +124,7 @@ jobs:
               echo "Progress: $TOTAL files processed..."
             fi
           done < /tmp/changed_files.txt
-          
+
           echo ""
           echo "========================================"
           echo "Validation Summary:"
@@ -119,13 +132,13 @@ jobs:
           echo "  ❌ Failed: $FAILED"
           echo "  ⚠️ Warnings: $WARNINGS"
           echo "========================================"
-          
+
           if [ "$FAILED" -gt 0 ]; then
             echo ""
             echo "Failed files:"
             cat /tmp/failed_files.txt
           fi
-          
+
           echo "validation_failed=$EXIT_CODE" >> $GITHUB_OUTPUT
           echo "passed=$PASSED" >> $GITHUB_OUTPUT
           echo "failed=$FAILED" >> $GITHUB_OUTPUT
