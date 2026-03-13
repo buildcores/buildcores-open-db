@@ -22,23 +22,32 @@ jobs:
       - name: Get file changes
         id: file-changes
         run: |
+          set -euo pipefail
+
           # Write file lists to temporary files instead of environment variables
           # This avoids "Argument list too long" errors with large commits
+          : > /tmp/added_files.txt
+          : > /tmp/modified_files.txt
+          : > /tmp/deleted_files.txt
+          : > /tmp/renamed_files.tsv
+
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --name-status HEAD~1 HEAD | grep '^A.*open-db/.*\.json$' | cut -f2 > /tmp/added_files.txt || true
-            git diff --name-status HEAD~1 HEAD | grep '^M.*open-db/.*\.json$' | cut -f2 > /tmp/modified_files.txt || true
-            git diff --name-status HEAD~1 HEAD | grep '^D.*open-db/.*\.json$' | cut -f2 > /tmp/deleted_files.txt || true
+            git diff --name-status HEAD~1 HEAD > /tmp/open_db_changes.txt || true
+
+            awk '$1 == "A" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/open_db_changes.txt > /tmp/added_files.txt
+            awk '$1 == "M" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/open_db_changes.txt > /tmp/modified_files.txt
+            awk '$1 == "D" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/open_db_changes.txt > /tmp/deleted_files.txt
+            awk '$1 ~ /^R[0-9]+$/ && ($2 ~ /^open-db\/.*\.json$/ || $3 ~ /^open-db\/.*\.json$/) { print $2 "\t" $3 }' /tmp/open_db_changes.txt > /tmp/renamed_files.tsv
           else
             git ls-files 'open-db/**/*.json' 'open-db/*.json' > /tmp/added_files.txt
-            > /tmp/modified_files.txt
-            > /tmp/deleted_files.txt
           fi
 
           ADDED_COUNT=$(wc -l < /tmp/added_files.txt | tr -d ' ')
           MODIFIED_COUNT=$(wc -l < /tmp/modified_files.txt | tr -d ' ')
           DELETED_COUNT=$(wc -l < /tmp/deleted_files.txt | tr -d ' ')
+          RENAMED_COUNT=$(wc -l < /tmp/renamed_files.tsv | tr -d ' ')
 
-          echo "Files to process: $ADDED_COUNT added, $MODIFIED_COUNT modified, $DELETED_COUNT deleted"
+          echo "Files to process: $ADDED_COUNT added, $MODIFIED_COUNT modified, $DELETED_COUNT deleted, $RENAMED_COUNT renamed"
 
       - name: Process OpenDB API sync
         id: api-sync
@@ -69,6 +78,30 @@ jobs:
             exit 1
           fi
 
+          enqueue_rename_operations() {
+            while IFS=$'\t' read -r old_file new_file; do
+              [ -z "$old_file" ] && continue
+
+              local old_part_id=""
+              local new_part_id=""
+
+              if [ -n "$old_file" ] && git show "HEAD~1:$old_file" >/dev/null 2>&1; then
+                old_part_id="$(git show "HEAD~1:$old_file" 2>/dev/null | jq -r '.opendb_id // empty' 2>/dev/null || true)"
+              fi
+
+              if [ -n "$new_file" ] && [ -f "$new_file" ]; then
+                new_part_id="$(jq -r '.opendb_id // empty' "$new_file" 2>/dev/null || true)"
+              fi
+
+              if [ -n "$old_part_id" ] && [ -n "$new_part_id" ] && [ "$old_part_id" = "$new_part_id" ]; then
+                printf 'update\t%s\n' "$new_file" >> "$QUEUE_FILE"
+              else
+                [ -n "$new_file" ] && [ -f "$new_file" ] && printf 'create\t%s\n' "$new_file" >> "$QUEUE_FILE"
+                [ -n "$old_file" ] && printf 'delete\t%s\n' "$old_file" >> "$QUEUE_FILE"
+              fi
+            done < /tmp/renamed_files.tsv
+          }
+
           while IFS= read -r file; do
             [ -z "$file" ] && continue
             printf 'create\t%s\n' "$file" >> "$QUEUE_FILE"
@@ -83,6 +116,8 @@ jobs:
             [ -z "$file" ] && continue
             printf 'delete\t%s\n' "$file" >> "$QUEUE_FILE"
           done < /tmp/deleted_files.txt
+
+          enqueue_rename_operations
 
           TOTAL_OPS=$(wc -l < "$QUEUE_FILE" | tr -d ' ')
           echo "OpenDB sync queue: $TOTAL_OPS operations"
