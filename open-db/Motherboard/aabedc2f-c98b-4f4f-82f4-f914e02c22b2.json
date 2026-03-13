@@ -35,15 +35,12 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9bb6b865ad0c3553e1732"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4080",
@@ -53,8 +50,10 @@
     "name": "Asus ROG STRIX B850-I GAMING WIFI DDR5 Mini ITX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "ROG STRIX B850-I GAMING WIFI                                                    STRIX B850-I GAMING WIFI                                                    90MB1K30-M0EAY0                                                    90MB1K30-MVAAY0",
       "ROG STRIX B850-I GAMING WIFI",
+      "STRIX B850-I GAMING WIFI",
+      "90MB1K30-M0EAY0",
+      "90MB1K30-MVAAY0",
       "‎5Z8N"
     ],
     "series": null,
@@ -64,37 +63,30 @@
   "socket": "AM5",
   "form_factor": "Mini-ITX",
   "chipset": "AMD B850",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9bb6b865ad0c3553e172c"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9bb6b865ad0c3553e172d"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb6b865ad0c3553e172e"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "67f9bb6b865ad0c3553e1731"
+      "controller": "Intel"
     }
   ],
   "ecc_support": true,

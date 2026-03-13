@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9bae4865ad0c3553e08e5"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,71 +31,57 @@
   "metadata": {
     "name": "Asus X99 PRO LGA2011-3 DDR4 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "X99-PRO                                                    90MB0KQ0-M0EAY0"
-    ],
+    "part_numbers": ["X99-PRO", "90MB0KQ0-M0EAY0"],
     "series": "X99",
     "variant": ""
   },
   "socket": "LGA 2011-3",
   "form_factor": "ATX",
   "chipset": "Intel X99",
-  "color": [
-    "BLACK",
-    "WHITE"
-  ],
+  "color": ["BLACK", "WHITE"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 4,
-      "lanes": 16,
-      "_id": "67f9bae4865ad0c3553e08de"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "67f9bae4865ad0c3553e08df"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2230-2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae4865ad0c3553e08e0"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae4865ad0c3553e08e1"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2230-2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae4865ad0c3553e08e2"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae4865ad0c3553e08e3"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel I218-V",
-      "_id": "67f9bae4865ad0c3553e08e4"
+      "controller": "Intel I218-V"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 1 Gb/s (Intel I218-V)"
-  ],
+  "back_panel_ports": ["1 x 1 Gb/s (Intel I218-V)"],
   "general_product_information": {}
 }

@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b81a865ad0c3553db9ba"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,67 +31,53 @@
   "metadata": {
     "name": "ASRock Z790M PG LIGHTNING/D4 DDR4 Micro ATX",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "Z790M PG LIGHTNING",
-      "D4                                                    90-MXBJW0-A0UAYZ",
-      "Z790M PG LIGHTNING/D4"
-    ],
+    "part_numbers": ["Z790M PG LIGHTNING", "D4", "90-MXBJW0-A0UAYZ", "Z790M PG LIGHTNING/D4"],
     "series": "Z790M",
     "variant": ""
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "67f9b81a865ad0c3553db9b4"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "67f9b81a865ad0c3553db9b5"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b81a865ad0c3553db9b6"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b81a865ad0c3553db9b7"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b81a865ad0c3553db9b8"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel I219-V",
-      "_id": "67f9b81a865ad0c3553db9b9"
+      "controller": "Intel I219-V"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Intel I219-V)"
-  ],
+  "back_panel_ports": ["1 x 1 Gb/s Ports (Intel I219-V)"],
   "general_product_information": {
     "amazon_sku": "B0BJF2ZVFF",
     "newegg_sku": "N82E16813162093"

@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9ba7f865ad0c3553dfded"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,68 +31,53 @@
   "metadata": {
     "name": "MSI B760 PRO P II DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "PRO B760-P II                                                    7E29-002R                                                    911-7E29-002",
-      "7E29-002R",
-      "911-7E29-002"
-    ],
+    "part_numbers": ["PRO B760-P II", "7E29-002R", "911-7E29-002"],
     "series": "B760",
     "variant": ""
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel B760",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 5,
-      "lanes": 16,
-      "_id": "67f9ba7f865ad0c3553dfde7"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba7f865ad0c3553dfde8"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba7f865ad0c3553dfde9"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba7f865ad0c3553dfdea"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba7f865ad0c3553dfdeb"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125B",
-      "_id": "67f9ba7f865ad0c3553dfdec"
+      "controller": "Realtek RTL8125B"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek RTL8125B)"
-  ],
+  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125B)"],
   "general_product_information": {
     "amazon_sku": "B0CZ1881BP"
   }

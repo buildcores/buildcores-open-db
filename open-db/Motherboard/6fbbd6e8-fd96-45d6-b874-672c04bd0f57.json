@@ -31,9 +31,7 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "4-pin"
-    ],
+    "cpu_power": ["4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -47,10 +45,7 @@
   "metadata": {
     "name": "ASRock B450 HDV R4.0 AM4 DDR4 Micro ATX",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "B450M-HDV R4.0                                                    90-MXB9N0-A0UAYZ",
-      "B450M-HDV R4.0"
-    ],
+    "part_numbers": ["B450M-HDV R4.0", "90-MXB9N0-A0UAYZ"],
     "series": "B450",
     "variant": "M-HDV R4.0",
     "releaseYear": 2020,
@@ -59,37 +54,30 @@
   "socket": "AM4",
   "form_factor": "Micro ATX",
   "chipset": "AMD B450",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b8cd865ad0c3553dcdb9"
+      "lanes": 16
     },
     {
       "gen": "2.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "67f9b8cd865ad0c3553dcdba"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8cd865ad0c3553dcdbb"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "67f9b8cd865ad0c3553dcdbd"
+      "controller": "Unknown"
     }
   ],
   "ecc_support": true,

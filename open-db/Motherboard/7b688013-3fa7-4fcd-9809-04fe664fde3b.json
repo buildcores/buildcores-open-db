@@ -34,15 +34,11 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ]
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9b82d865ad0c3553dbba4"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4082",
@@ -52,8 +48,9 @@
     "name": "Asus X870E ROG CROSSHAIR HERO WIFI DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "ROG CROSSHAIR X870E HERO                                                    90MB1IE0-M0AAY0                                                    90MB1IE0-M0EAY0",
       "ROG CROSSHAIR X870E HERO",
+      "90MB1IE0-M0AAY0",
+      "90MB1IE0-M0EAY0",
       "ASUS Vivobook 16 Laptop"
     ],
     "series": "X870E",
@@ -63,54 +60,45 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "67f9b82d865ad0c3553dbb99"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280 ",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b82d865ad0c3553dbb9a"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b82d865ad0c3553dbb9b"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b82d865ad0c3553dbb9c"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280 ",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b82d865ad0c3553dbb9d"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b82d865ad0c3553dbb9e"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "67f9b82d865ad0c3553dbba3"
+      "controller": "Intel"
     }
   ],
   "wireless_networking": "Wi-Fi 7                                              Bluetooth 5.4",

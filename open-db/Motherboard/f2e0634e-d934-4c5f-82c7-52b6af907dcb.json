@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67bbaf57656a333a9fdf72ef"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4080",
@@ -32,13 +31,10 @@
   "metadata": {
     "name": "MPG Z590 GAMING PLUS",
     "manufacturer": "MSI",
-    "part_number": "MPG Z590 GAMING PLUS",
     "series": "MPG",
     "variant": "GAMING PLUS",
     "releaseYear": 2021,
-    "part_numbers": [
-      "MPG Z590 GAMING FORCE"
-    ]
+    "part_numbers": ["MPG Z590 GAMING FORCE", "MPG Z590 GAMING PLUS"]
   },
   "socket": "LGA 1200",
   "form_factor": "ATX",
@@ -47,47 +43,40 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67bbaf57656a333a9fdf72e8"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "67bbaf57656a333a9fdf72e9"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "67bbaf57656a333a9fdf72ea"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67bbaf57656a333a9fdf72eb"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "67bbaf57656a333a9fdf72ec"
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "67bbaf57656a333a9fdf72ed"
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel I225-V",
-      "_id": "67bbaf57656a333a9fdf72ee"
+      "controller": "Intel I225-V"
     }
   ],
   "ecc_support": false,

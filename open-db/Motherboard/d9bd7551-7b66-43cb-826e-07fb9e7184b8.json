@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b6ab865ad0c3553d91cd"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,58 +31,47 @@
   "metadata": {
     "name": "Biostar B550 MHP AM4 DDR4 Micro ATX",
     "manufacturer": "Biostar",
-    "part_numbers": [
-      "B550MHP"
-    ],
+    "part_numbers": ["B550MHP"],
     "series": "B550",
     "variant": ""
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
   "chipset": "AMD B550",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b6ab865ad0c3553d91c8"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "67f9b6ab865ad0c3553d91c9"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6ab865ad0c3553d91ca"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6ab865ad0c3553d91cb"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H",
-      "_id": "67f9b6ab865ad0c3553d91cc"
+      "controller": "Realtek RTL8111H"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 1 Gb/s (Realtek RTL8111H)"
-  ],
+  "back_panel_ports": ["1 x 1 Gb/s (Realtek RTL8111H)"],
   "general_product_information": {}
 }

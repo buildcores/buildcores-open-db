@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67bba722656a333a9fdf6b55"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC1200",
@@ -32,14 +31,10 @@
   "metadata": {
     "name": "ASRock X570M Pro4 Micro ATX AM4 Motherboard",
     "manufacturer": "ASRock",
-    "part_number": "X570M Pro4",
     "series": null,
     "variant": null,
     "releaseYear": 2019,
-    "part_numbers": [
-      "B450",
-      "B450 AORUS M"
-    ]
+    "part_numbers": ["B450", "B450 AORUS M", "X570M Pro4"]
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -48,41 +43,35 @@
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "67bba722656a333a9fdf6b4f"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "67bba722656a333a9fdf6b50"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe Gen4x4",
-      "_id": "67bba722656a333a9fdf6b51"
+      "interface": "PCIe Gen4x4"
     },
     {
       "size": "2230/2242/2260/2280",
       "key": "M",
-      "interface": "PCIe Gen4x4, SATA3",
-      "_id": "67bba722656a333a9fdf6b52"
+      "interface": "PCIe Gen4x4, SATA3"
     },
     {
       "size": "2230",
       "key": "E",
-      "interface": "PCIe",
-      "_id": "67bba722656a333a9fdf6b53"
+      "interface": "PCIe"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel I211AT",
-      "_id": "67bba722656a333a9fdf6b54"
+      "controller": "Intel I211AT"
     }
   ],
   "ecc_support": false,

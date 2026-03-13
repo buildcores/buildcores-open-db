@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b733865ad0c3553da0b8"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,7 +32,9 @@
     "name": "ASRock Z690 Phantom Gaming 4 DDR4 ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "Z690 Phantom Gaming 4                                                    90-MXBH70-A0UAYZ                                                    Z690 PG4",
+      "Z690 Phantom Gaming 4",
+      "90-MXBH70-A0UAYZ",
+      "Z690 PG4",
       "Z690 PHANTOM GAMING 4"
     ],
     "series": "Z690",
@@ -42,81 +43,66 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z690",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "67f9b733865ad0c3553da0ae"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 1,
-      "_id": "67f9b733865ad0c3553da0af"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b0"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b1"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b2"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b3"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b4"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b5"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b733865ad0c3553da0b6"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel I219-V",
-      "_id": "67f9b733865ad0c3553da0b7"
+      "controller": "Intel I219-V"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 1 Gb/s (Intel I219-V)"
-  ],
+  "back_panel_ports": ["1 x 1 Gb/s (Intel I219-V)"],
   "general_product_information": {
     "amazon_sku": "B09JM75LV6"
   }

@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b6f1865ad0c3553d9980"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,9 +32,12 @@
     "name": "MSI X670E GAMING PLUS WIFI DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "X670E GAMING PLUS WIFI                                                    7E16-003R                                                    911-7E16-003                                                    X670EGAMPLUSWIFI                                                    7E16-001R                                                    911-7E16-002",
       "X670E GAMING PLUS WIFI",
-      "X670EGAMPLUSWIFI"
+      "7E16-003R",
+      "911-7E16-003",
+      "X670EGAMPLUSWIFI",
+      "7E16-001R",
+      "911-7E16-002"
     ],
     "series": "X670E",
     "variant": ""
@@ -43,93 +45,76 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X670E",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 16,
-      "_id": "67f9b6f1865ad0c3553d9974"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "67f9b6f1865ad0c3553d9975"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d9976"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d9977"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d9978"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d9979"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d997a"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d997b"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d997c"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d997d"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f1865ad0c3553d997e"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125BG",
-      "_id": "67f9b6f1865ad0c3553d997f"
+      "controller": "Realtek RTL8125BG"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"
-  ],
+  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
   "general_product_information": {
     "amazon_sku": "B0CRF81BBC",
     "newegg_sku": "N82E16813144647",

@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b8b0865ad0c3553dca7d"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,8 +32,9 @@
     "name": "ASRock B850 B850M Pro RS AM5 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "B850M Pro RS                                                    90-MXBR6-A0UAYZ                                                    90-MXBR60-A0UAYZ",
       "B850M Pro RS",
+      "90-MXBR6-A0UAYZ",
+      "90-MXBR60-A0UAYZ",
       "B850M PRO RS",
       "90-MXBR60-A0UAYAZ"
     ],
@@ -44,63 +44,51 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b8b0865ad0c3553dca76"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "67f9b8b0865ad0c3553dca77"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8b0865ad0c3553dca78"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8b0865ad0c3553dca79"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8b0865ad0c3553dca7a"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8b0865ad0c3553dca7b"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG",
-      "_id": "67f9b8b0865ad0c3553dca7c"
+      "controller": "Realtek Dragon RTL8125BG"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"
-  ],
+  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
   "general_product_information": {
     "amazon_sku": "B0DS6KRZQ9",
     "newegg_sku": "N82E16813162195"

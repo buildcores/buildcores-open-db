@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67bba568656a333a9fdf69bc"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -32,14 +31,10 @@
   "metadata": {
     "name": "MSI Z590 PRO WIFI LGA 1200 ATX Motherboard",
     "manufacturer": "MSI",
-    "part_number": "Z590 PRO WIFI",
     "series": "PRO",
     "variant": "WIFI",
     "releaseYear": 2021,
-    "part_numbers": [
-      "Z590PWIFI",
-      "Z590 PRO WIFI"
-    ]
+    "part_numbers": ["Z590PWIFI", "Z590 PRO WIFI"]
   },
   "socket": "LGA 1200",
   "form_factor": "ATX",
@@ -48,47 +43,40 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67bba568656a333a9fdf69b5"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67bba568656a333a9fdf69b6"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "67bba568656a333a9fdf69b7"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242, 2260, 2280, 22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67bba568656a333a9fdf69b8"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242, 2260, 2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4, SATA III",
-      "_id": "67bba568656a333a9fdf69b9"
+      "interface": "PCIe 3.0 x4, SATA III"
     },
     {
       "size": "2242, 2260, 2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4, SATA III",
-      "_id": "67bba568656a333a9fdf69ba"
+      "interface": "PCIe 3.0 x4, SATA III"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel I225-V",
-      "_id": "67bba568656a333a9fdf69bb"
+      "controller": "Intel I225-V"
     }
   ],
   "ecc_support": false,

@@ -36,16 +36,12 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "688ec9283ebf909c29b7d51c"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC1220P",
@@ -66,55 +62,45 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": [
-    "BLACK",
-    "BLUE"
-  ],
+  "color": ["BLACK", "BLUE"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "688ec9283ebf909c29b7d514"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "692a219c29514cb0b16354eb"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": " 2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "688ec9283ebf909c29b7d515"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280/22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "688ec9283ebf909c29b7d516"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": " 2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec9283ebf909c29b7d517"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec9283ebf909c29b7d518"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek",
-      "_id": "688ec9283ebf909c29b7d51b"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,

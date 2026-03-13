@@ -37,16 +37,12 @@
     "thunderbolt": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b7c5865ad0c3553db006"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -56,9 +52,10 @@
     "name": "ASRock B850M Pro-A WiFi AM5 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
-      "B850M Pro-A WiFi                                                    90-MXBR9-A0UAYZ                                                    90-MXBR90-A0UAYZ",
-      "90-MXBR90-A0UAYAZ",
       "B850M Pro-A WiFi",
+      "90-MXBR9-A0UAYZ",
+      "90-MXBR90-A0UAYZ",
+      "90-MXBR90-A0UAYAZ",
       "B850M PRO-A WIFI"
     ],
     "series": "B850M",
@@ -68,48 +65,40 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b7c5865ad0c3553dafff"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "67f9b7c5865ad0c3553db000"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b7c5865ad0c3553db001"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7c5865ad0c3553db002"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7c5865ad0c3553db003"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG",
-      "_id": "67f9b7c5865ad0c3553db005"
+      "controller": "Realtek Dragon RTL8125BG"
     }
   ],
   "ecc_support": false,

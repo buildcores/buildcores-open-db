@@ -37,15 +37,11 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ]
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "688ec9323ebf909c29b7dbe9"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": " Realtek ALC1220P",
@@ -54,9 +50,7 @@
   "metadata": {
     "name": "Asus X870E-H ROG STRIX GAMING WIFI7 DDR5 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "ROG STRIX X870E-H GAMING WIFI7"
-    ],
+    "part_numbers": ["ROG STRIX X870E-H GAMING WIFI7"],
     "series": "X870E-H",
     "variant": "GAMING WIFI",
     "last_manually_spec_verified_at": "2025-11-28T18:02:36.164Z"
@@ -64,54 +58,45 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "688ec9323ebf909c29b7dbe1"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "68d5547cacc647b9bbb38a91"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "688ec9323ebf909c29b7dbe2"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280/22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "688ec9323ebf909c29b7dbe3"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec9323ebf909c29b7dbe4"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "688ec9323ebf909c29b7dbe5"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek",
-      "_id": "688ec9323ebf909c29b7dbe8"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": true,

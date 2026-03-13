@@ -33,15 +33,12 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "67f9b7d7865ad0c3553db1fa"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC4080",
@@ -50,9 +47,7 @@
   "metadata": {
     "name": "Gigabyte B850I AORUS PRO AM5 DDR5 Mini ITX",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "B850I AORUS PRO"
-    ],
+    "part_numbers": ["B850I AORUS PRO"],
     "series": "B850I",
     "variant": "AORUS PRO",
     "last_manually_spec_verified_at": "2026-02-19T20:00:30.437Z"
@@ -60,37 +55,30 @@
   "socket": "AM5",
   "form_factor": "Mini-ITX",
   "chipset": "AMD B850",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b7d7865ad0c3553db1f6"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b7d7865ad0c3553db1f7"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7d7865ad0c3553db1f8"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "67f9b7d7865ad0c3553db1f9"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,

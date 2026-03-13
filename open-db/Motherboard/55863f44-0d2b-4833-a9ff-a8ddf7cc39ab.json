@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9bae2865ad0c3553e0894"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,65 +31,52 @@
   "metadata": {
     "name": "ASRock H410 H410M-HDV/M.2 LGA1200 DDR4 Micro ATX",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "H410M-HDV",
-      "M.2                                                    90-MXBD70-A0UAYZ"
-    ],
+    "part_numbers": ["H410M-HDV", "M.2", "90-MXBD70-A0UAYZ"],
     "series": "H410",
     "variant": ""
   },
   "socket": "LGA 1200",
   "form_factor": "Micro ATX",
   "chipset": "Intel H410",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9bae2865ad0c3553e088e"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "67f9bae2865ad0c3553e088f"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae2865ad0c3553e0890"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae2865ad0c3553e0891"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9bae2865ad0c3553e0892"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel I219-V",
-      "_id": "67f9bae2865ad0c3553e0893"
+      "controller": "Intel I219-V"
     }
   ],
   "ecc_support": false,
   "raid_support": false,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 1 Gb/s (Intel I219-V)"
-  ],
+  "back_panel_ports": ["1 x 1 Gb/s (Intel I219-V)"],
   "general_product_information": {}
 }

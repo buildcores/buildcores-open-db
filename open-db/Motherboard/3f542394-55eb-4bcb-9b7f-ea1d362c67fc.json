@@ -38,15 +38,11 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ]
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9b8da865ad0c3553dcf37"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -55,9 +51,7 @@
   "metadata": {
     "name": "Gigabyte Z790 AORUS ELITE AX DDR5 ATX LGA1700",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "Z790 AORUS ELITE AX"
-    ],
+    "part_numbers": ["Z790 AORUS ELITE AX"],
     "series": "Z790",
     "variant": "AORUS ELITE AX",
     "releaseYear": null,
@@ -66,54 +60,45 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b8da865ad0c3553dcf2d"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 4,
-      "_id": "68b7480d7fa4ea6ac7be58da"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8da865ad0c3553dcf2e"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8da865ad0c3553dcf2f"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b8da865ad0c3553dcf30"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "6968234911b787f8d152d908"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "67f9b8da865ad0c3553dcf36"
+      "controller": "Realtek"
     }
   ],
   "wireless_networking": "Wifi 6E Bluetooth 5.3",

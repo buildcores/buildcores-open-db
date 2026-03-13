@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67bba8a8656a333a9fdf6cbf"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC1220-VB",
@@ -32,13 +31,10 @@
   "metadata": {
     "name": "GIGABYTE B550 AORUS PRO AC (AM4 AMD/B550/ATX/Dual M.2/SATA 6Gb/s/USB 3.2 Gen 2/Intel Dual Band 802.11AC WiFi/2.5 GbE LAN/PCIe 4.0/RGB Fusion 2.0/DDR4/Gaming Motherboard)",
     "manufacturer": "Gigabyte",
-    "part_number": "B550 AORUS MASTER",
     "series": "B550 AORUS",
     "variant": "PRO AC",
     "releaseYear": 2020,
-    "part_numbers": [
-      "B550 AORUS PRO"
-    ]
+    "part_numbers": ["B550 AORUS PRO", "B550 AORUS MASTER"]
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -47,47 +43,40 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67bba8a8656a333a9fdf6cb8"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 4,
-      "_id": "67bba8a8656a333a9fdf6cb9"
+      "lanes": 4
     },
     {
       "gen": null,
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67bba8a8656a333a9fdf6cba"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4/x2 and SATA",
-      "_id": "67bba8a8656a333a9fdf6cbb"
+      "interface": "PCIe 4.0 x4/x2 and SATA"
     },
     {
       "size": "2242/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4/x2",
-      "_id": "67bba8a8656a333a9fdf6cbc"
+      "interface": "PCIe 4.0 x4/x2"
     },
     {
       "size": null,
       "key": null,
-      "interface": "PCIe 3.0 x4/x2",
-      "_id": "67bba8a8656a333a9fdf6cbd"
+      "interface": "PCIe 3.0 x4/x2"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "67bba8a8656a333a9fdf6cbe"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,

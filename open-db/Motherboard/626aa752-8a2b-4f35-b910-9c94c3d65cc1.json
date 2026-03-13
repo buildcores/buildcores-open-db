@@ -18,15 +18,11 @@
     "usb_4": 0
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ]
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9c98e865ad0c3553de340"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -35,57 +31,47 @@
   "metadata": {
     "name": "Asus B850M MAX GAMING WIFI AM5 DDR5 Micro ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "B850M MAX GAMING WIFI"
-    ],
+    "part_numbers": ["B850M MAX GAMING WIFI"],
     "series": "B850",
     "variant": ""
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9c98e865ad0c3553de338"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 16,
-      "_id": "67f9c98e865ad0c3553de339"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9c98e865ad0c3553de33b"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9c98e865ad0c3553de33c"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x2",
-      "_id": "67f9c98e865ad0c3553de33d"
+      "interface": "PCIe 4.0 x2"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek",
-      "_id": "67f9c98e865ad0c3553de33f"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,

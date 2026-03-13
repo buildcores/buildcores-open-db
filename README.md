@@ -1,27 +1,27 @@
 ![BuildCores Logo](assets/opendb.png)
 
 # BuildCores OpenDB
+
     
 A community-driven open database for PC components. This repository contains structured data about computer hardware components that can be used for compatibility checking, component research, and building PC builder / part picking apps.
 
-*For an easy way to browse and search all components in a user-friendly interface, you can visit:*
+_For an easy way to browse and search all components in a user-friendly interface, you can visit:_
 https://buildcores.com/products
 
-*You can click on the 'Edit in OpenDB' button on each part to open the GitHub page for it*
+_You can click on the 'Edit in OpenDB' button on each part to open the GitHub page for it_
 
 ![GPU image](assets/gpu.png)
 
 ## Help Wanted / Bounties
 
-We have a few near-term goals for this project to improve data quality and increase the utility of BuildCores (or any other project that relies on this data). 
+We have a few near-term goals for this project to improve data quality and increase the utility of BuildCores (or any other project that relies on this data).
 
 - We want to collect manufacturer product page urls for each product in our database.
 - We want to collect PDFs for each product in our database.
   - Good examples are motherboard and case manuals. We can extract useful information out of these.
 - We want to collect motherboard BIOS versioning data along with CPU support lists.
 - We want to expand our retailer coverage outside of the USA.
-- ... more to come. If you have any specific requests from this project, please open a GitHub issue. 
- 
+- ... more to come. If you have any specific requests from this project, please open a GitHub issue.
 
 ## Repository Structure
 
@@ -66,7 +66,7 @@ Each component follows a standard JSON structure defined by its corresponding sc
 Many products come in multiple variants (e.g., different colors, speeds, or editions). These are grouped together using the `metadata` fields:
 
 - `metadata.manufacturer` - The company that makes the product
-- `metadata.series` - The product line/series name  
+- `metadata.series` - The product line/series name
 - `metadata.variant` - What distinguishes this specific variant
 
 For detailed guidance on adding variants, see [docs/VARIANTS.md](docs/VARIANTS.md).
@@ -85,6 +85,7 @@ For detailed guidance on adding variants, see [docs/VARIANTS.md](docs/VARIANTS.m
 ### PR Validation
 
 When you submit a pull request, GitHub Actions will automatically:
+
 1. Validate your JSON files against the appropriate schemas
 2. Post validation results as a comment on your PR
 3. Block merging if validation fails
@@ -92,6 +93,7 @@ When you submit a pull request, GitHub Actions will automatically:
 ### After Merge
 
 When changes are merged to the main branch, they are automatically synchronized with the BuildCores API:
+
 - New components are created in the database
 - Modified components are updated
 - Deleted components are removed
@@ -103,7 +105,8 @@ When changes are merged to the main branch, they are automatically synchronized 
 - When possible, include retailer SKUs and manufacturer information
 
 ## Limitations
-We cannot provide price data or retailer-specific data due to restrictions.  
+
+We cannot provide price data or retailer-specific data due to restrictions.
 
 ## License
 

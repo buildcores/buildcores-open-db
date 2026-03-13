@@ -4,7 +4,6 @@ Thank you for your interest in contributing to BuildCores OpenDB! This document 
 
 ## Getting Started
 
-
 ### Types of Contributions
 
 - Adding new PC components

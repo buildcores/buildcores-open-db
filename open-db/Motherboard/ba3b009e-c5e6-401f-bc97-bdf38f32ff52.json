@@ -38,16 +38,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "67f9b87c865ad0c3553dc499"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -57,7 +53,9 @@
     "name": "Asus PRIME Z790-P WIFI DDR4 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME Z790-P WIFI DDR4                                                    90MB1DB0-M0EAY0                                                    90MB1DB0-M0AAY0",
+      "PRIME Z790-P WIFI DDR4",
+      "90MB1DB0-M0EAY0",
+      "90MB1DB0-M0AAY0",
       "90MB1CV0-M0EAY0"
     ],
     "series": "Z790",
@@ -67,55 +65,45 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b87c865ad0c3553dc490"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 4,
-      "_id": "67f9b87c865ad0c3553dc491"
+      "lanes": 4
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "699334e2286771fff59b28fa"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b87c865ad0c3553dc492"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b87c865ad0c3553dc493"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280/22110 ",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b87c865ad0c3553dc494"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "67f9b87c865ad0c3553dc498"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": true,

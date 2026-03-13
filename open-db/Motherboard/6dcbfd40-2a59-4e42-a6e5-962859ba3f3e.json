@@ -36,16 +36,12 @@
     "temperature_sensor": 2
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9b71a865ad0c3553d9e0e"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4080",
@@ -54,9 +50,7 @@
   "metadata": {
     "name": "MSI Z890 MEG UNIFY-X WIFI DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "MEG Z890 UNIFY-X"
-    ],
+    "part_numbers": ["MEG Z890 UNIFY-X"],
     "series": "Z890",
     "variant": "MEG UNIFY-X",
     "last_manually_spec_verified_at": "2025-12-16T12:04:37.970Z"
@@ -64,78 +58,65 @@
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel Z890",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b71a865ad0c3553d9dff"
+      "lanes": 16
     },
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 8,
-      "_id": "67f9b71a865ad0c3553d9e00"
+      "lanes": 8
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "69414a66ee5815a170b04c28"
+      "lanes": 4
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69414a66ee5815a170b04c29"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e01"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e02"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e03"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "22110/2280/2260",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e04"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e05"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b71a865ad0c3553d9e06"
+      "interface": "PCIe 5.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Intel Killer E5000B",
-      "_id": "67f9b71a865ad0c3553d9e0d"
+      "controller": "Intel Killer E5000B"
     }
   ],
   "ecc_support": false,

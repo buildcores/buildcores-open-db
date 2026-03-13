@@ -38,16 +38,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b7f5865ad0c3553db5aa"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -57,8 +53,9 @@
     "name": "Asus PRIME Z790M-PLUS D4 LGA1700 DDR4 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME Z790M-PLUS D4                                                    90MB1D20-M0AAY0                                                    90MB1D20-M0EAY0",
       "PRIME Z790M-PLUS D4",
+      "90MB1D20-M0AAY0",
+      "90MB1D20-M0EAY0",
       "PRIMEZ790M-PLUSD4"
     ],
     "series": "Z790",
@@ -68,55 +65,45 @@
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b7f5865ad0c3553db5a0"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "67f9b7f5865ad0c3553db5a1"
+      "lanes": 4
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69933ca8f70448996be85831"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a2"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a3"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7f5865ad0c3553db5a4"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel",
-      "_id": "67f9b7f5865ad0c3553db5a9"
+      "controller": "Intel"
     }
   ],
   "ecc_support": true,

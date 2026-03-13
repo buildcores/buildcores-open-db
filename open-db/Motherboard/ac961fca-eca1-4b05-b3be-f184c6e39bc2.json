@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": null,
-    "clear_cmos": null,
-    "_id": "67bbcb56ef2bd88cd9ec8b24"
+    "clear_cmos": null
   },
   "audio": {
     "chipset": "Realtek ALC1220 CodecRealtek ALC4050H Codec",
@@ -32,14 +31,10 @@
   "metadata": {
     "name": "MSI TRX40 PRO 10G",
     "manufacturer": "MSI",
-    "part_number": "TRX40 PRO 10G",
     "series": "PRO",
     "variant": null,
     "releaseYear": 2019,
-    "part_numbers": [
-      "TRX40P10G",
-      "TRX40 PRO 10G"
-    ]
+    "part_numbers": ["TRX40P10G", "TRX40 PRO 10G"]
   },
   "socket": "sTRX4",
   "form_factor": "ATX",
@@ -48,40 +43,34 @@
     {
       "gen": "4.0",
       "quantity": 4,
-      "lanes": 16,
-      "_id": "67bbcb56ef2bd88cd9ec8b1e"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "67bbcb56ef2bd88cd9ec8b1f"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4 and SATA 6Gb/s",
-      "_id": "67bbcb56ef2bd88cd9ec8b20"
+      "interface": "PCIe 4.0 x4 and SATA 6Gb/s"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4 and SATA 6Gb/s",
-      "_id": "67bbcb56ef2bd88cd9ec8b21"
+      "interface": "PCIe 4.0 x4 and SATA 6Gb/s"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel i211AT",
-      "_id": "67bbcb56ef2bd88cd9ec8b22"
+      "controller": "Intel i211AT"
     },
     {
       "speed": "10 Gb/s",
-      "controller": null,
-      "_id": "67bbcb56ef2bd88cd9ec8b23"
+      "controller": null
     }
   ],
   "ecc_support": false,

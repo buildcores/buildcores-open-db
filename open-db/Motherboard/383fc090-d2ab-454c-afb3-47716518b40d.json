@@ -31,14 +31,11 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": [
-      "8-pin"
-    ]
+    "cpu_power": ["8-pin"]
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "699f3feb59fb94730ccae260"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -47,10 +44,7 @@
   "metadata": {
     "name": "MSI PRO A620AM-B EVO",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "MSI PRO A620AM-B EVO",
-      "PRO A620AM-B EVO"
-    ],
+    "part_numbers": ["MSI PRO A620AM-B EVO", "PRO A620AM-B EVO"],
     "series": "A620",
     "variant": "PRO A620AM-B EVO",
     "releaseYear": 2025,
@@ -59,30 +53,24 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD A620",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "699f3feb59fb94730ccae25d"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "699f3feb59fb94730ccae25e"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "699f3feb59fb94730ccae25f"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "raid_support": true,

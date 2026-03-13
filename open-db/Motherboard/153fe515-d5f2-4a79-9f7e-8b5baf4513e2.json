@@ -38,15 +38,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "67f9b92a865ad0c3553dd863"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -55,10 +52,7 @@
   "metadata": {
     "name": "Asus PRIME B860M-A WIFI-CSM DDR5 Micro ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "PRIME B860M-A WIFI-CSM                                                    90MB1JY0-M0AAYC",
-      "PRIME B860M-A WIFI-CSM"
-    ],
+    "part_numbers": ["PRIME B860M-A WIFI-CSM", "90MB1JY0-M0AAYC"],
     "series": "B860M-A",
     "variant": "PRIME WIFI CSM",
     "last_manually_spec_verified_at": "2026-02-16T06:52:03.306Z"
@@ -66,49 +60,40 @@
   "socket": "LGA 1851",
   "form_factor": "Micro ATX",
   "chipset": "Intel B860",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67f9b92a865ad0c3553dd85c"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "67f9b92a865ad0c3553dd85d"
+      "lanes": 4
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "694303aa71344e10fc6a674f"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "67f9b92a865ad0c3553dd85e"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67f9b92a865ad0c3553dd85f"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "67f9b92a865ad0c3553dd862"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": true,

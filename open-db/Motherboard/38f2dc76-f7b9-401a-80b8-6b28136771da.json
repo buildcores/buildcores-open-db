@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": true,
-    "_id": "67bd266369cf807c9c204eb4"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC887-VD2",
@@ -32,13 +31,10 @@
   "metadata": {
     "name": "ASUS TUF X470-Plus Gaming",
     "manufacturer": "ASUS",
-    "part_number": "X470-Plus Gaming",
     "series": "TUF",
     "variant": null,
     "releaseYear": 2018,
-    "part_numbers": [
-      "TUF X470-Plus Gaming"
-    ]
+    "part_numbers": ["TUF X470-Plus Gaming", "X470-Plus Gaming"]
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -47,47 +43,40 @@
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "67bd266369cf807c9c204ead"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 8,
-      "_id": "67bd266369cf807c9c204eae"
+      "lanes": 8
     },
     {
       "gen": "2.0",
       "quantity": 3,
-      "lanes": 1,
-      "_id": "67bd266369cf807c9c204eaf"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIE 3.0 x4",
-      "_id": "67bd266369cf807c9c204eb0"
+      "interface": "PCIE 3.0 x4"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "SATA",
-      "_id": "67bd266369cf807c9c204eb1"
+      "interface": "SATA"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "SATA & PCIE 3.0 x2",
-      "_id": "67bd266369cf807c9c204eb2"
+      "interface": "SATA & PCIE 3.0 x2"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H",
-      "_id": "67bd266369cf807c9c204eb3"
+      "controller": "Realtek RTL8111H"
     }
   ],
   "ecc_support": false,

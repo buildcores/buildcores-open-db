@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "677191abd414deb1430b430e"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "ROG SupremeFX ALC4082 CODEC ESS® ES9218 QUAD DAC",
@@ -32,13 +31,10 @@
   "metadata": {
     "name": "Asus ROG CROSSHAIR X670E EXTREME EATX AM5",
     "manufacturer": "ASUS",
-    "part_number": "90MB1B10-M0AAY0",
     "series": "ROG CROSSHAIR X670E",
     "variant": "EXTREME",
     "releaseYear": 2022,
-    "part_numbers": [
-      "ROG CROSSHAIR X670E EXTREME"
-    ]
+    "part_numbers": ["ROG CROSSHAIR X670E EXTREME", "90MB1B10-M0AAY0"]
   },
   "socket": "AM5",
   "form_factor": "EATX",
@@ -47,58 +43,49 @@
     {
       "gen": "5.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "677191abd414deb1430b4305"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "677191abd414deb1430b4306"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "677191abd414deb1430b4307"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "677191abd414deb1430b4308"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "677191abd414deb1430b4309"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "677191abd414deb1430b430a"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "677191abd414deb1430b430b"
+      "interface": "PCIe 5.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel 2.5Gb Ethernet",
-      "_id": "677191abd414deb1430b430c"
+      "controller": "Intel 2.5Gb Ethernet"
     },
     {
       "speed": "10 Gb/s",
-      "controller": "Marvell AQtion 10Gb Ethernet",
-      "_id": "677191abd414deb1430b430d"
+      "controller": "Marvell AQtion 10Gb Ethernet"
     }
   ],
   "ecc_support": true,
