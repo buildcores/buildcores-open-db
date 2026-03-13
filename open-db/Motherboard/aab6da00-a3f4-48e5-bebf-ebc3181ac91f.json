@@ -17,8 +17,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [
+      "4-pin"
+    ],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -29,26 +46,31 @@
     "manufacturer": "MSI",
     "part_numbers": [
       "A520M-A PRO                                                    7C96-001R                                                    911-7C96-001",
-      "A520M-A PRO",
+      "911-7C96-001",
       "7C96-001R",
-      "911-7C96-001"
+      "A520M-A PRO"
     ],
-    "series": "A520M-A",
-    "variant": ""
+    "series": "A520",
+    "variant": "M-A PRO",
+    "releaseYear": 2020,
+    "last_manually_spec_verified_at": "2026-03-05T21:07:19.413Z"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
   "chipset": "AMD A520",
-  "color": [],
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 16,
       "_id": "67e0a431deff7733a73fe147"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
       "_id": "67e0a431deff7733a73fe148"
@@ -56,16 +78,10 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/ 2260/ 2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "67e0a431deff7733a73fe149"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "67e0a431deff7733a73fe14a"
     }
   ],
   "onboard_ethernet": [
@@ -75,20 +91,24 @@
       "_id": "67e0a431deff7733a73fe14b"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "bios_features": {
-    "flashback": false,
-    "clear_cmos": false,
-    "_id": "67e0a431deff7733a73fe14c"
-  },
   "back_panel_ports": [
-    "1 x 1 Gb/s (Realtek RTL8111H)"
+    "1 x 1 Gb/s (Realtek RTL8111H)",
+    "1 x HDMI port",
+    "1 x DVI-D port",
+    "1 x PS/2 mouse port",
+    "1 x PS/2 keyboard port",
+    "4 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "2 x USB 2.0 Type-A ports",
+    "1 x LAN (RJ45) port",
+    "3 x audio jacks"
   ],
   "general_product_information": {
     "amazon_sku": "B08HHMCCXV",
     "newegg_sku": "N82E16813144364",
-    "walmart_sku": 604609503
+    "walmart_sku": 604609503,
+    "manufacturer_url": "https://www.walmart.com/ip/MSI-A520M-A-PRO-Desktop-Motherboard-AMD-Chipset-Socket-AM4-Micro-ATX-64-GB-DDR4-SDRAM-Maximum-RAM-DIMM-UDIMM-2-x-Memory-Slots-Gigabit-Ethernet-HDMI-4/604609503?classType=REGULAR&from=/search"
   }
 }

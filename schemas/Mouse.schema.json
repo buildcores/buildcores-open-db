@@ -5,7 +5,7 @@
     "null"
   ],
   "title": "Mouse Schema",
-  "description": "Schema for mouse components",
+  "description": "Schema for Mouse components",
   "required": [
     "metadata"
   ],
@@ -17,66 +17,175 @@
       ],
       "description": "Unique identifier for the document (UUID v4)"
     },
-    "metadata": {
+    "weight": {
+      "description": "Weight of the mouse in grams",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "dimensions": {
+      "description": "Mouse dimensions",
       "type": [
         "object",
         "null"
       ],
-      "required": [
-        "name"
-      ],
       "properties": {
-        "name": {
-          "type": "string",
-          "description": "Full product name"
-        },
-        "manufacturer": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Product manufacturer"
-        },
-        "part_numbers": {
-          "type": [
-            "array",
-            "null"
-          ],
-          "items": {
-            "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
-        },
-        "series": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Product series name"
-        },
-        "variant": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "description": "Specific variant in the series"
-        },
-        "releaseYear": {
+        "length": {
+          "description": "Length in millimeters",
           "type": [
             "number",
             "null"
-          ],
-          "description": "Year of release"
+          ]
         },
-        "last_manually_spec_verified_at": {
+        "width": {
+          "description": "Width in millimeters",
           "type": [
-            "string",
+            "number",
             "null"
-          ],
-          "format": "date-time",
-          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
+          ]
+        },
+        "height": {
+          "description": "Height in millimeters",
+          "type": [
+            "number",
+            "null"
+          ]
         }
       }
+    },
+    "size": {
+      "description": "Physical size category (Small, Medium, Large)",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Small",
+        "Medium",
+        "Large",
+        null
+      ]
+    },
+    "shape": {
+      "description": "Mouse shape type (Ergonomic or Ambidextrous)",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Ergonomic",
+        "Ambidextrous",
+        null
+      ]
+    },
+    "connectivity": {
+      "description": "Connection types supported by this mouse (can have multiple, e.g., Wired + Wireless)",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Wired",
+          "Wired USB-A",
+          "Wired USB-C",
+          "Wireless 2.4GHz",
+          "Bluetooth"
+        ]
+      }
+    },
+    "sensor": {
+      "description": "Sensor model (e.g., 'PixArt PAW3395', 'Razer Focus Pro 30K')",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "max_dpi": {
+      "description": "Maximum DPI/CPI setting",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "polling_rate": {
+      "description": "Polling rate in Hz (e.g., 1000, 2000, 4000, 8000)",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "buttons": {
+      "description": "Number of programmable buttons",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "switches": {
+      "description": "Switch type (e.g., 'Optical', 'Mechanical', 'Kailh GM 8.0')",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "onboard_memory": {
+      "description": "Whether the mouse has onboard memory for storing profiles",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "rgb": {
+      "description": "Whether the mouse has RGB lighting",
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "battery_life": {
+      "description": "Battery life in hours (for wireless mice)",
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "battery_type": {
+      "description": "Type of battery (Rechargeable, AA, AAA)",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Rechargeable",
+        "AA",
+        "AAA",
+        null
+      ]
+    },
+    "grip_types": {
+      "description": "Supported grip styles (Palm, Claw, Fingertip)",
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "enum": [
+          "Palm",
+          "Claw",
+          "Fingertip"
+        ]
+      }
+    },
+    "silent_clicks": {
+      "description": "Whether the mouse has silent/quiet clicks (useful for office environments)",
+      "type": [
+        "boolean",
+        "null"
+      ]
     },
     "general_product_information": {
       "type": [
@@ -142,6 +251,70 @@
           "description": "Official manufacturer product URL"
         }
       }
+    },
+    "metadata": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "name": {
+          "description": "Full product name",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "manufacturer": {
+          "description": "Mouse manufacturer",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "series": {
+          "description": "Product series name",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "variant": {
+          "description": "Specific variant in the series",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "releaseYear": {
+          "description": "Year of release",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "last_manually_spec_verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
+        }
+      },
+      "required": [
+        "name"
+      ]
     }
   }
 }
