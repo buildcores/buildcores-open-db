@@ -35,7 +35,10 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": ["8-pin", "4-pin"]
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ]
   },
   "bios_features": {
     "flashback": true,
@@ -48,7 +51,10 @@
   "metadata": {
     "name": "Gigabyte B850 AORUS ELITE WIFI7 ICE DDR5 ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B850 AORUS ELITE WIFI7 ICE", "B850 A ELITE WF7 ICE"],
+    "part_numbers": [
+      "B850 AORUS ELITE WIFI7 ICE",
+      "B850 A ELITE WF7 ICE"
+    ],
     "series": "B850",
     "variant": "AORUS ELITE WIFI7 ICE",
     "last_manually_spec_verified_at": "2026-01-14T23:40:03.802Z"
@@ -56,40 +62,49 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B850",
-  "color": ["WHITE", "GREY"],
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab9b3f8fd0c825ddf3ea"
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ab9b3f8fd0c825ddf3eb"
     }
   ],
   "m2_slots": [
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ab9b3f8fd0c825ddf3ec"
     },
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab9b3f8fd0c825ddf3ed"
     },
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab9b3f8fd0c825ddf3ee"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3ab9b3f8fd0c825ddf3ef"
     }
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",

@@ -34,7 +34,10 @@
     "series": "PRIME",
     "variant": "B660M-A",
     "releaseYear": 2022,
-    "part_numbers": ["PRIME B660M-A D4", "PRIMEB660M-AD4"]
+    "part_numbers": [
+      "PRIME B660M-A D4",
+      "PRIMEB660M-AD4"
+    ]
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
@@ -43,30 +46,35 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac094fd4af70a349ed8d"
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac094fd4af70a349ed8e"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe4.0x4"
+      "interface": "PCIe4.0x4",
+      "_id": "69b3ac094fd4af70a349ed8f"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe4.0x4"
+      "interface": "PCIe4.0x4",
+      "_id": "69b3ac094fd4af70a349ed90"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel"
+      "controller": "Intel",
+      "_id": "69b3ac094fd4af70a349ed91"
     }
   ],
   "ecc_support": false,

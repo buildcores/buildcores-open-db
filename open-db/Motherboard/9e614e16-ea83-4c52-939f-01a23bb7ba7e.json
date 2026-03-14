@@ -34,7 +34,11 @@
     "series": "PRIME",
     "variant": "H510M-E",
     "releaseYear": 2023,
-    "part_numbers": ["H510M-E", "PRIME H510M-E", "PRIMEH510M-E"]
+    "part_numbers": [
+      "H510M-E",
+      "PRIME H510M-E",
+      "PRIMEH510M-E"
+    ]
   },
   "socket": "LGA 1200",
   "form_factor": "Micro ATX",
@@ -43,35 +47,41 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac2afe073ff824ef9c28"
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac2afe073ff824ef9c29"
     }
   ],
   "m2_slots": [
     {
       "size": "2242",
       "key": "M",
-      "interface": "PCIe3.0x4"
+      "interface": "PCIe3.0x4",
+      "_id": "69b3ac2afe073ff824ef9c2a"
     },
     {
       "size": "2260",
       "key": "M",
-      "interface": "PCIe3.0x4"
+      "interface": "PCIe3.0x4",
+      "_id": "69b3ac2afe073ff824ef9c2b"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe3.0x4"
+      "interface": "PCIe3.0x4",
+      "_id": "69b3ac2afe073ff824ef9c2c"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "IntelI219-V"
+      "controller": "IntelI219-V",
+      "_id": "69b3ac2afe073ff824ef9c2d"
     }
   ],
   "ecc_support": false,

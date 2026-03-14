@@ -25,7 +25,10 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", ""],
+    "cpu_power": [
+      "8-pin",
+      ""
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -37,7 +40,10 @@
   },
   "metadata": {
     "name": "MSI MPG X870I EDGE TI EVO WIFI",
-    "part_numbers": ["MPG X870I EDGE TI EVO WIFI"],
+    "part_numbers": [
+      "MPG X870I EDGE TI EVO WIFI",
+      "MPG X870I Edge TI EVO"
+    ],
     "manufacturer": "MSI",
     "series": "X870",
     "variant": "EDGE TI EVO WIFI",
@@ -47,29 +53,36 @@
   "socket": "AM5",
   "form_factor": "Mini-ITX",
   "chipset": "AMD X870",
-  "color": ["WHITE", "GREY"],
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac26c0db8dfe4bc75800"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac26c0db8dfe4bc75801"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac26c0db8dfe4bc75802"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac26c0db8dfe4bc75803"
     }
   ],
   "onboard_ethernet": [],

@@ -34,7 +34,10 @@
     "series": null,
     "variant": null,
     "releaseYear": 2017,
-    "part_numbers": ["AB350 PRO4", "AB350 Pro4"]
+    "part_numbers": [
+      "AB350 PRO4",
+      "AB350 Pro4"
+    ]
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -43,30 +46,35 @@
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab84744e69396d55ce8a"
     },
     {
       "gen": "2.0",
       "quantity": 4,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ab84744e69396d55ce8b"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe Gen3 x4"
+      "interface": "PCIe Gen3 x4",
+      "_id": "69b3ab84744e69396d55ce8c"
     },
     {
       "size": "2230/2242/2260/2280/22110",
       "key": "M",
-      "interface": "SATA3 6.0 Gb/s"
+      "interface": "SATA3 6.0 Gb/s",
+      "_id": "69b3ab84744e69396d55ce8d"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111GR"
+      "controller": "Realtek RTL8111GR",
+      "_id": "69b3ab84744e69396d55ce8e"
     }
   ],
   "ecc_support": false,

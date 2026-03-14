@@ -42,51 +42,62 @@
   "socket": "AM4",
   "form_factor": "ATX",
   "chipset": "AMD B550",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac964fd4af70a34a2a5c"
     },
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac964fd4af70a34a2a5d"
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac964fd4af70a34a2a5e"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac964fd4af70a34a2a5f"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac964fd4af70a34a2a60"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac964fd4af70a34a2a61"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel I225-V"
+      "controller": "Intel I225-V",
+      "_id": "69b3ac964fd4af70a34a2a62"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel I225-V)"],
+  "back_panel_ports": [
+    "1 x 2.5 Gb/s Ports (Intel I225-V)"
+  ],
   "general_product_information": {
     "amazon_sku": "B088VSTS9H",
     "newegg_sku": "9SIBTK0KAU9694",

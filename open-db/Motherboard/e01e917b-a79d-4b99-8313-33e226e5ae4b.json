@@ -37,7 +37,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -51,7 +54,10 @@
   "metadata": {
     "name": "Gigabyte B650 AERO G AM5 WIFI DDR5 ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B650 AERO G", "B650"],
+    "part_numbers": [
+      "B650 AERO G",
+      "B650"
+    ],
     "series": "B650",
     "variant": "AERO G",
     "last_manually_spec_verified_at": "2025-12-23T00:17:08.469Z"
@@ -59,45 +65,55 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B650",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac9f75ef0cf5df01abcc"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ac9f75ef0cf5df01abcd"
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac9f75ef0cf5df01abce"
     }
   ],
   "m2_slots": [
     {
       "size": "25110/22110/2580/2280 ",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac9f75ef0cf5df01abcf"
     },
     {
       "size": "25110/22110/2580/2280 ",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac9f75ef0cf5df01abd0"
     },
     {
       "size": "25110/22110/2580/2280 ",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac9f75ef0cf5df01abd1"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel"
+      "controller": "Intel",
+      "_id": "69b3ac9f75ef0cf5df01abd2"
     }
   ],
   "ecc_support": false,

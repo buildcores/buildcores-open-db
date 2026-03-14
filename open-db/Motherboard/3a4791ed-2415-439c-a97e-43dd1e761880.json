@@ -36,7 +36,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +53,12 @@
   "metadata": {
     "name": "MSI PRO B760M-A WIFI DDR4 Micro ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["PRO B760M-A WIFI DDR4", "7D99-001R", "PROB760MAWID4", "911-7D99-001"],
+    "part_numbers": [
+      "PRO B760M-A WIFI DDR4",
+      "7D99-001R",
+      "PROB760MAWID4",
+      "911-7D99-001"
+    ],
     "series": "B760",
     "variant": "",
     "last_manually_spec_verified_at": "2026-02-15T10:53:53.461Z"
@@ -58,40 +66,48 @@
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3aba3fe073ff824ef654f"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3aba3fe073ff824ef6550"
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3aba3fe073ff824ef6551"
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3aba3fe073ff824ef6552"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3aba3fe073ff824ef6553"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125B"
+      "controller": "Realtek RTL8125B",
+      "_id": "69b3aba3fe073ff824ef6554"
     }
   ],
   "ecc_support": false,

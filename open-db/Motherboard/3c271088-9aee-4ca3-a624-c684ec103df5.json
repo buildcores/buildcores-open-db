@@ -31,47 +31,58 @@
   "metadata": {
     "name": "Gigabyte B760M K V2 LGA1700 DDR4 Micro ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B760M K V2 DDR4"],
+    "part_numbers": [
+      "B760M K V2 DDR4"
+    ],
     "series": "B760M",
     "variant": ""
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abaab27c54a042cfe2bd"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3abaab27c54a042cfe2be"
     }
   ],
   "m2_slots": [
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abaab27c54a042cfe2bf"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abaab27c54a042cfe2c0"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3abaab27c54a042cfe2c1"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s (Realtek)"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s (Realtek)"
+  ],
   "general_product_information": {}
 }

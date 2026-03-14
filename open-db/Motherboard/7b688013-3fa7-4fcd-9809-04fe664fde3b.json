@@ -34,7 +34,10 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": ["8-pin", "8-pin"]
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ]
   },
   "bios_features": {
     "flashback": true,
@@ -60,45 +63,54 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abfa843b62bf624ce36a"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280 ",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abfa843b62bf624ce36b"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abfa843b62bf624ce36c"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abfa843b62bf624ce36d"
     },
     {
       "size": "2242/2260/2280 ",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abfa843b62bf624ce36e"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abfa843b62bf624ce36f"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel"
+      "controller": "Intel",
+      "_id": "69b3abfa843b62bf624ce370"
     }
   ],
   "wireless_networking": "Wi-Fi 7                                              Bluetooth 5.4",

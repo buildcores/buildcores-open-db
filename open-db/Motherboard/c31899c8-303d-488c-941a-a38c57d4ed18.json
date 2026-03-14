@@ -40,7 +40,9 @@
     "thunderbolt": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin, 8-pin"],
+    "cpu_power": [
+      "8-pin, 8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -54,7 +56,11 @@
   "metadata": {
     "name": "MSI X870E MAG TOMAHAWK WIFI AM5 DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["MAG X870E TOMAHAWK WIFI", "7E59-004R", "MSI MAG X870E Tomahawk WiFi"],
+    "part_numbers": [
+      "MAG X870E TOMAHAWK WIFI",
+      "7E59-004R",
+      "MSI MAG X870E Tomahawk WiFi"
+    ],
     "series": "MAG",
     "variant": "X870E TOMAHAWK WIFI",
     "releaseYear": 2024
@@ -62,55 +68,67 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": ["BLACK", "GREEN"],
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac4b3f8fd0c825de4583"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ac4b3f8fd0c825de4584"
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac4b3f8fd0c825de4585"
     }
   ],
   "m2_slots": [
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac4b3f8fd0c825de4586"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac4b3f8fd0c825de4587"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac4b3f8fd0c825de4588"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac4b3f8fd0c825de4589"
     },
     {
       "size": "2230",
       "key": "E",
-      "interface": "Wi-Fi Module"
+      "interface": "Wi-Fi Module",
+      "_id": "69b3ac4b3f8fd0c825de458a"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek 8126"
+      "controller": "Realtek 8126",
+      "_id": "69b3ac4b3f8fd0c825de458b"
     }
   ],
   "ecc_support": false,

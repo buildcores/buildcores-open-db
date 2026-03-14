@@ -36,7 +36,10 @@
     "thunderbolt": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +53,10 @@
   "metadata": {
     "name": "MSI B860 MAG B860M MORTAR WIFI DDR5 Micro ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["MAG B860M MORTAR WIFI", "MAG B860M"],
+    "part_numbers": [
+      "MAG B860M MORTAR WIFI",
+      "MAG B860M"
+    ],
     "series": "B860",
     "variant": "B860M MORTAR WIFI",
     "releaseYear": 2025,
@@ -59,45 +65,55 @@
   "socket": "LGA 1851",
   "form_factor": "Micro ATX",
   "chipset": "Intel B860",
-  "color": ["BLACK", "GREEN"],
+  "color": [
+    "BLACK",
+    "GREEN"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac3db3d0c7b56c560d06"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ac3db3d0c7b56c560d07"
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac3db3d0c7b56c560d08"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac3db3d0c7b56c560d09"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac3db3d0c7b56c560d0a"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac3db3d0c7b56c560d0b"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Intel Killer E5000"
+      "controller": "Intel Killer E5000",
+      "_id": "69b3ac3db3d0c7b56c560d0c"
     }
   ],
   "ecc_support": false,

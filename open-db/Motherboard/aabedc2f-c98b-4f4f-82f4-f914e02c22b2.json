@@ -35,7 +35,9 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": [
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -63,30 +65,37 @@
   "socket": "AM5",
   "form_factor": "Mini-ITX",
   "chipset": "AMD B850",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac443f8fd0c825de41b1"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac443f8fd0c825de41b2"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac443f8fd0c825de41b3"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel"
+      "controller": "Intel",
+      "_id": "69b3ac443f8fd0c825de41b4"
     }
   ],
   "ecc_support": true,

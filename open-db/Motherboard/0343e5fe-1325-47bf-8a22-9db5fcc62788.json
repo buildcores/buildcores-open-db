@@ -36,7 +36,9 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": [
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +52,9 @@
   "metadata": {
     "name": "Gigabyte B760 DS3H AX DDR5 ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B760 DS3H AX"],
+    "part_numbers": [
+      "B760 DS3H AX"
+    ],
     "series": "B760",
     "variant": "DS3H AX DDR5 ATX",
     "releaseYear": 2025,
@@ -59,40 +63,49 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel B760",
-  "color": ["GREY", "BLACK"],
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab61cf841c9bc5aa0be5"
     },
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab61cf841c9bc5aa0be6"
     },
     {
       "gen": "3.0",
       "quantity": 4,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ab61cf841c9bc5aa0be7"
     }
   ],
   "m2_slots": [
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab61cf841c9bc5aa0be8"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab61cf841c9bc5aa0be9"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3ab61cf841c9bc5aa0bea"
     }
   ],
   "ecc_support": true,

@@ -31,47 +31,59 @@
   "metadata": {
     "name": "MSI B360 A PRO LGA1151 DDR4 ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["B360-A PRO", "7B22-012R"],
+    "part_numbers": [
+      "B360-A PRO",
+      "7B22-012R"
+    ],
     "series": "B360",
     "variant": ""
   },
   "socket": "LGA 1151",
   "form_factor": "ATX",
   "chipset": "Intel B360",
-  "color": ["BROWN"],
+  "color": [
+    "BROWN"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac64ce32fbd08883740c"
     },
     {
       "gen": "4.0",
       "quantity": 4,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac64ce32fbd08883740d"
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac64ce32fbd08883740e"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac64ce32fbd08883740f"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown"
+      "controller": "Unknown",
+      "_id": "69b3ac64ce32fbd088837410"
     }
   ],
   "ecc_support": false,
   "raid_support": false,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s"
+  ],
   "general_product_information": {}
 }

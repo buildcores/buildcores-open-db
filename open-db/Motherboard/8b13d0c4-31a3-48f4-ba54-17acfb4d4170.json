@@ -31,47 +31,59 @@
   "metadata": {
     "name": "MSI H270M BAZOOKA DDR4 Micro ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["H270M BAZOOKA"],
+    "part_numbers": [
+      "H270M BAZOOKA"
+    ],
     "series": "H270M",
     "variant": ""
   },
   "socket": "LGA 1151",
   "form_factor": "Micro ATX",
   "chipset": "Intel H270",
-  "color": ["BLACK", "WHITE"],
+  "color": [
+    "BLACK",
+    "WHITE"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac02843b62bf624ce5ac"
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac02843b62bf624ce5ad"
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac02843b62bf624ce5ae"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac02843b62bf624ce5af"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown"
+      "controller": "Unknown",
+      "_id": "69b3ac02843b62bf624ce5b0"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s"
+  ],
   "general_product_information": {}
 }

@@ -31,7 +31,11 @@
   "metadata": {
     "name": "Supermicro C9X299-PG300F ATX LGA2066",
     "manufacturer": "Supermicro",
-    "part_numbers": ["MBD-C9X299-PG300F", "MBD-C9X299-PG300-O", "MBD-C9X299-PG300F-O"],
+    "part_numbers": [
+      "MBD-C9X299-PG300F",
+      "MBD-C9X299-PG300-O",
+      "MBD-C9X299-PG300F-O"
+    ],
     "series": "C9X299-PG300F",
     "variant": ""
   },
@@ -42,31 +46,37 @@
     {
       "gen": "4.0",
       "quantity": 4,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac8dcf841c9bc5aaa237"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac8dcf841c9bc5aaa238"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac8dcf841c9bc5aaa239"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown"
+      "controller": "Unknown",
+      "_id": "69b3ac8dcf841c9bc5aaa23a"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s                                                    1 x 10 Gb/s"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s                                                    1 x 10 Gb/s"
+  ],
   "color": [],
   "general_product_information": {
     "amazon_sku": "B07CBM59NZ"

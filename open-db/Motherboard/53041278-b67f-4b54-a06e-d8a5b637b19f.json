@@ -31,7 +31,10 @@
   "metadata": {
     "name": "B550M AORUS ELITE",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B550M AORUS ELITE", "GAB55MAEL"],
+    "part_numbers": [
+      "B550M AORUS ELITE",
+      "GAB55MAEL"
+    ],
     "series": "AORUS ELITE",
     "variant": "rev. 1.3",
     "releaseYear": 2020
@@ -44,31 +47,38 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abb781594acde48fa8ae"
     }
   ],
   "m2_slots": [
     {
       "size": "22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4 and SATA Mode"
+      "interface": "PCIe 4.0 x4 and SATA Mode",
+      "_id": "69b3abb781594acde48fa8af"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "NVMe PCIe 3.0 x2 and SATA Mode"
+      "interface": "NVMe PCIe 3.0 x2 and SATA Mode",
+      "_id": "69b3abb781594acde48fa8b0"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": null,
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3abb781594acde48fa8b1"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["HDMI", "DVI"],
+  "back_panel_ports": [
+    "HDMI",
+    "DVI"
+  ],
   "general_product_information": {
     "amazon_sku": "B08BN8VD23"
   }

@@ -37,7 +37,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -51,7 +54,10 @@
   "metadata": {
     "name": "Asus Z490 PRIME-P LGA1200 DDR4 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME Z490-P", "90MB12V0-M0EAY0"],
+    "part_numbers": [
+      "PRIME Z490-P",
+      "90MB12V0-M0EAY0"
+    ],
     "series": "Z490",
     "variant": "Prime-P",
     "releaseYear": 2020,
@@ -60,35 +66,43 @@
   "socket": "LGA 1200",
   "form_factor": "ATX",
   "chipset": "Intel Z490",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab7975ef0cf5df012429"
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ab7975ef0cf5df01242a"
     }
   ],
   "m2_slots": [
     {
       "size": "2242,2260,2280,22110",
       "key": "M",
-      "interface": "PCIe 3.0 x4"
+      "interface": "PCIe 3.0 x4",
+      "_id": "69b3ab7975ef0cf5df01242b"
     },
     {
       "size": "2242,2260,2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4"
+      "interface": "PCIe 3.0 x4",
+      "_id": "69b3ab7975ef0cf5df01242c"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H"
+      "controller": "Realtek RTL8111H",
+      "_id": "69b3ab7975ef0cf5df01242d"
     }
   ],
   "ecc_support": false,

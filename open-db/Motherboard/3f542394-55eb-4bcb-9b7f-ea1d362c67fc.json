@@ -38,7 +38,10 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": ["8-pin", "8-pin"]
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ]
   },
   "bios_features": {
     "flashback": true,
@@ -51,7 +54,9 @@
   "metadata": {
     "name": "Gigabyte Z790 AORUS ELITE AX DDR5 ATX LGA1700",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["Z790 AORUS ELITE AX"],
+    "part_numbers": [
+      "Z790 AORUS ELITE AX"
+    ],
     "series": "Z790",
     "variant": "AORUS ELITE AX",
     "releaseYear": null,
@@ -60,45 +65,54 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab9e843b62bf624cc27a"
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ab9e843b62bf624cc27b"
     }
   ],
   "m2_slots": [
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab9e843b62bf624cc27c"
     },
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab9e843b62bf624cc27d"
     },
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab9e843b62bf624cc27e"
     },
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab9e843b62bf624cc27f"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3ab9e843b62bf624cc280"
     }
   ],
   "wireless_networking": "Wifi 6E Bluetooth 5.3",

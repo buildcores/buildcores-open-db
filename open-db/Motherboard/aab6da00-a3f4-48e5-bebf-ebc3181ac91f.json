@@ -28,7 +28,9 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": ["4-pin"],
+    "cpu_power": [
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -42,7 +44,11 @@
   "metadata": {
     "name": "MSI A520M-A PRO Micro ATX AM4",
     "manufacturer": "MSI",
-    "part_numbers": ["A520M-A PRO", "7C96-001R", "911-7C96-001"],
+    "part_numbers": [
+      "A520M-A PRO",
+      "7C96-001R",
+      "911-7C96-001"
+    ],
     "series": "A520",
     "variant": "M-A PRO",
     "releaseYear": 2020,
@@ -51,30 +57,37 @@
   "socket": "AM4",
   "form_factor": "Micro ATX",
   "chipset": "AMD A520",
-  "color": ["GREY", "BLACK"],
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac4475ef0cf5df017c17"
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac4475ef0cf5df017c18"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/ 2260/ 2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac4475ef0cf5df017c19"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H"
+      "controller": "Realtek RTL8111H",
+      "_id": "69b3ac4475ef0cf5df017c1a"
     }
   ],
   "ecc_support": true,

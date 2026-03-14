@@ -36,7 +36,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +53,10 @@
   "metadata": {
     "name": "MSI B860 PRO B860-P WIFI LGA1851 DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["PRO B860-P WIFI", "7E41-001R"],
+    "part_numbers": [
+      "PRO B860-P WIFI",
+      "7E41-001R"
+    ],
     "series": "B860",
     "variant": "P-WiFi",
     "releaseYear": 2025,
@@ -59,45 +65,55 @@
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel B860",
-  "color": ["GREY", "BLACK"],
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ab813f8fd0c825ddeccc"
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ab813f8fd0c825ddeccd"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ab813f8fd0c825ddecce"
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260 ",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ab813f8fd0c825ddeccf"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ab813f8fd0c825ddecd0"
     },
     {
       "size": "2280/2260 ",
       "key": "M",
-      "interface": "PCIe 4.0 x2"
+      "interface": "PCIe 4.0 x2",
+      "_id": "69b3ab813f8fd0c825ddecd1"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek 8126"
+      "controller": "Realtek 8126",
+      "_id": "69b3ab813f8fd0c825ddecd2"
     }
   ],
   "ecc_support": true,

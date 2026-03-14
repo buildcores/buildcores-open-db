@@ -32,7 +32,9 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": [
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -46,7 +48,12 @@
   "metadata": {
     "name": "ASRock A520 A520M-ITX/ac AM4 DDR4 Mini ITX",
     "manufacturer": "ASRock",
-    "part_numbers": ["A520M-ITX", "ac", "90-MXBDG0-A0UAYZ", "A520M-ITX/AC"],
+    "part_numbers": [
+      "A520M-ITX",
+      "ac",
+      "90-MXBDG0-A0UAYZ",
+      "A520M-ITX/AC"
+    ],
     "series": "A520",
     "variant": "M-ITX/ac",
     "last_manually_spec_verified_at": "2026-02-19T19:24:39.705Z"
@@ -54,25 +61,31 @@
   "socket": "AM4",
   "form_factor": "Mini-ITX",
   "chipset": "AMD A520",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abc981594acde48fae63"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abc981594acde48fae64"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H"
+      "controller": "Realtek RTL8111H",
+      "_id": "69b3abc981594acde48fae65"
     }
   ],
   "ecc_support": true,

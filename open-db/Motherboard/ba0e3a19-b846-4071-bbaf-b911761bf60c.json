@@ -38,7 +38,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -65,45 +68,55 @@
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel Z790",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac42fe073ff824efac55"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3ac42fe073ff824efac56"
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac42fe073ff824efac57"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac42fe073ff824efac58"
     },
     {
       "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac42fe073ff824efac59"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac42fe073ff824efac5a"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel"
+      "controller": "Intel",
+      "_id": "69b3ac42fe073ff824efac5b"
     }
   ],
   "ecc_support": true,

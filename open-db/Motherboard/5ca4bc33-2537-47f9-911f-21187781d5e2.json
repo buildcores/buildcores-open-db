@@ -37,7 +37,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -51,7 +54,11 @@
   "metadata": {
     "name": "MSI B860 PRO P DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["PRO B860-P", "7E41-002R", "911-7E41-13S"],
+    "part_numbers": [
+      "PRO B860-P",
+      "7E41-002R",
+      "911-7E41-13S"
+    ],
     "series": "B860",
     "variant": "P",
     "releaseYear": 2025,
@@ -60,45 +67,55 @@
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel B860",
-  "color": ["GREY", "BLACK"],
+  "color": [
+    "GREY",
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abc63722c3e205bd0f22"
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3abc63722c3e205bd0f23"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3abc63722c3e205bd0f24"
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260 ",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abc63722c3e205bd0f25"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abc63722c3e205bd0f26"
     },
     {
       "size": "2280/2260 ",
       "key": "M",
-      "interface": "PCIe 4.0 x2"
+      "interface": "PCIe 4.0 x2",
+      "_id": "69b3abc63722c3e205bd0f27"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek 8126"
+      "controller": "Realtek 8126",
+      "_id": "69b3abc63722c3e205bd0f28"
     }
   ],
   "ecc_support": true,

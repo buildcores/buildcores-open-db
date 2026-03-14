@@ -31,42 +31,54 @@
   "metadata": {
     "name": "MSI H410I PRO WIFI DDR4 Mini ITX",
     "manufacturer": "MSI",
-    "part_numbers": ["H410I PRO WIFI", "7C86-004R"],
+    "part_numbers": [
+      "H410I PRO WIFI",
+      "7C86-004R"
+    ],
     "series": "H410I",
     "variant": ""
   },
   "socket": "LGA 1200",
   "form_factor": "Mini-ITX",
   "chipset": "Intel H410",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac7db3d0c7b56c562a61"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac7db3d0c7b56c562a62"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac7db3d0c7b56c562a63"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Intel I219-V"
+      "controller": "Intel I219-V",
+      "_id": "69b3ac7db3d0c7b56c562a64"
     }
   ],
   "ecc_support": false,
   "raid_support": false,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Intel I219-V)"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s Ports (Intel I219-V)"
+  ],
   "general_product_information": {}
 }

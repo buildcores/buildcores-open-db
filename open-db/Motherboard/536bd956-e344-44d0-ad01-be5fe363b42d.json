@@ -36,7 +36,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": [
+      "8-pin",
+      "4-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +53,11 @@
   "metadata": {
     "name": "MSI B850 PRO M-A WIFI PZ AM5 DDR5 Micro ATX",
     "manufacturer": "MSI",
-    "part_numbers": ["PRO B850M-A WIFI PZ", "B850 Gaming Plus WiFi PZ", "B850 GAMING PLUS WIFI PZ"],
+    "part_numbers": [
+      "PRO B850M-A WIFI PZ",
+      "B850 Gaming Plus WiFi PZ",
+      "B850 GAMING PLUS WIFI PZ"
+    ],
     "series": "B850",
     "variant": "PRO A WIFI PZ",
     "releaseYear": 2025,
@@ -59,40 +66,49 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": ["GREY", "WHITE"],
+  "color": [
+    "GREY",
+    "WHITE"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abb881594acde48fa936"
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3abb881594acde48fa937"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3abb881594acde48fa938"
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abb881594acde48fa939"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abb881594acde48fa93a"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek 8126"
+      "controller": "Realtek 8126",
+      "_id": "69b3abb881594acde48fa93b"
     }
   ],
   "ecc_support": false,

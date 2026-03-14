@@ -34,7 +34,10 @@
     "series": "PRO",
     "variant": "B365M PRO-VDH",
     "releaseYear": 2019,
-    "part_numbers": ["B365MPROVDH", "B365M PRO-VDH"]
+    "part_numbers": [
+      "B365MPROVDH",
+      "B365M PRO-VDH"
+    ]
   },
   "socket": "LGA 1151",
   "form_factor": "Micro ATX",
@@ -43,25 +46,29 @@
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac553722c3e205bd4bc3"
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac553722c3e205bd4bc4"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/ 2260 /2280/ 22110",
       "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
+      "_id": "69b3ac553722c3e205bd4bc5"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H"
+      "controller": "Realtek RTL8111H",
+      "_id": "69b3ac553722c3e205bd4bc6"
     }
   ],
   "ecc_support": false,

@@ -39,7 +39,9 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": [
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -53,7 +55,11 @@
   "metadata": {
     "name": "Gigabyte B650 EAGLE AX AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B650 EAGLE AX", "B650 EAGLE AX 1.0", "B650-EAGLE-AX"],
+    "part_numbers": [
+      "B650 EAGLE AX",
+      "B650 EAGLE AX 1.0",
+      "B650-EAGLE-AX"
+    ],
     "series": "B650",
     "variant": "B650 EAGLE AX",
     "releaseYear": 2022,
@@ -67,30 +73,35 @@
     {
       "gen": "4.0",
       "quantity": 4,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac5fcf841c9bc5aa8080"
     }
   ],
   "m2_slots": [
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac5fcf841c9bc5aa8081"
     },
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x2"
+      "interface": "PCIe 4.0 x2",
+      "_id": "69b3ac5fcf841c9bc5aa8082"
     },
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac5fcf841c9bc5aa8083"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3ac5fcf841c9bc5aa8084"
     }
   ],
   "ecc_support": false,

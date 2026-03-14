@@ -36,7 +36,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +53,11 @@
   "metadata": {
     "name": "Asus TUF GAMING B850M-PLUS WIFI7 W DDR5 Micro ATX",
     "manufacturer": "ASUS",
-    "part_numbers": ["TUF GAMING B850M-PLUS WIFI7 W", "90MB1MD0-M0EAY0", "ZHANGJIN"],
+    "part_numbers": [
+      "TUF GAMING B850M-PLUS WIFI7 W",
+      "90MB1MD0-M0EAY0",
+      "ZHANGJIN"
+    ],
     "series": "TUF",
     "variant": "WIFI7 W",
     "releaseYear": 2025,
@@ -59,40 +66,49 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": ["WHITE", "GREY"],
+  "color": [
+    "WHITE",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac99843b62bf624d282e"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac99843b62bf624d282f"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3ac99843b62bf624d2830"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac99843b62bf624d2831"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac99843b62bf624d2832"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3ac99843b62bf624d2833"
     }
   ],
   "ecc_support": true,

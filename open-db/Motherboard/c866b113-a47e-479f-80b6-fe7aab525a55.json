@@ -31,57 +31,72 @@
   "metadata": {
     "name": "Biostar AMD B550 B550GTA DDR4 ATX",
     "manufacturer": "Biostar",
-    "part_numbers": ["B550GTA Ver. 5.0", "B550GTA", "RACING B550GTA"],
+    "part_numbers": [
+      "B550GTA Ver. 5.0",
+      "B550GTA",
+      "RACING B550GTA"
+    ],
     "series": "AMD",
     "variant": ""
   },
   "socket": "AM4",
   "form_factor": "ATX",
   "chipset": "AMD B550",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac6f3f8fd0c825de554c"
     },
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac6f3f8fd0c825de554d"
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac6f3f8fd0c825de554e"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac6f3f8fd0c825de554f"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac6f3f8fd0c825de5550"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac6f3f8fd0c825de5551"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8125"
+      "controller": "Realtek RTL8125",
+      "_id": "69b3ac6f3f8fd0c825de5552"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s (Realtek RTL8125)"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s (Realtek RTL8125)"
+  ],
   "general_product_information": {}
 }

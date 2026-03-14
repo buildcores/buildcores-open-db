@@ -43,71 +43,87 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X670E",
-  "color": ["BLACK", "GREY"],
+  "color": [
+    "BLACK",
+    "GREY"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac11c0db8dfe4bc751ad"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac11c0db8dfe4bc751ae"
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751af"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b0"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b1"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b2"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b3"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b4"
     },
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b5"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac11c0db8dfe4bc751b6"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel"
+      "controller": "Intel",
+      "_id": "69b3ac11c0db8dfe4bc751b7"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel)"],
+  "back_panel_ports": [
+    "1 x 2.5 Gb/s Ports (Intel)"
+  ],
   "general_product_information": {
     "amazon_sku": "B0BDTK4SLH",
     "newegg_sku": "N82E16813119584",

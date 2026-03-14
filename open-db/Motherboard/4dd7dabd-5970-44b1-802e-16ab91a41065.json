@@ -32,7 +32,10 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
+    "cpu_power": [
+      "8-pin",
+      "8-pin"
+    ],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -52,39 +55,48 @@
   },
   "socket": "AM5",
   "chipset": "AMD X870",
-  "color": ["WHITE", "RED"],
+  "color": [
+    "WHITE",
+    "RED"
+  ],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3abb536a2b96d5d83bab0"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4
+      "lanes": 4,
+      "_id": "69b3abb536a2b96d5d83bab1"
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3abb536a2b96d5d83bab2"
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abb536a2b96d5d83bab3"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 5.0 x4"
+      "interface": "PCIe 5.0 x4",
+      "_id": "69b3abb536a2b96d5d83bab4"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3abb536a2b96d5d83bab5"
     }
   ],
   "onboard_ethernet": [],

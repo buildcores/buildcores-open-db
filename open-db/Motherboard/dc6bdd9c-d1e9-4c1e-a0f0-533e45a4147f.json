@@ -31,42 +31,53 @@
   "metadata": {
     "name": "Asus H170 I-PRO DDR4 Mini ITX",
     "manufacturer": "ASUS",
-    "part_numbers": ["H170I-PRO"],
+    "part_numbers": [
+      "H170I-PRO"
+    ],
     "series": "H170",
     "variant": ""
   },
   "socket": "LGA 1151",
   "form_factor": "Mini-ITX",
   "chipset": "Intel H170",
-  "color": ["BLACK", "GOLD"],
+  "color": [
+    "BLACK",
+    "GOLD"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac84cf841c9bc5aa9bf3"
     }
   ],
   "m2_slots": [
     {
       "size": "2242-2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac84cf841c9bc5aa9bf4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac84cf841c9bc5aa9bf5"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown"
+      "controller": "Unknown",
+      "_id": "69b3ac84cf841c9bc5aa9bf6"
     }
   ],
   "ecc_support": false,
   "raid_support": false,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
+  "back_panel_ports": [
+    "1 x 1 Gb/s"
+  ],
   "general_product_information": {}
 }

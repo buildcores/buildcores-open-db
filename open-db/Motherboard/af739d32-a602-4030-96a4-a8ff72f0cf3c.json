@@ -31,47 +31,58 @@
   "metadata": {
     "name": "Gigabyte B760 B760M DS3H GEN5 DDR4 Micro ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B760M DS3H DDR4 GEN5"],
+    "part_numbers": [
+      "B760M DS3H DDR4 GEN5"
+    ],
     "series": "B760",
     "variant": ""
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
-  "color": ["BLACK"],
+  "color": [
+    "BLACK"
+  ],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 16,
+      "_id": "69b3ac3981594acde48fdde7"
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1
+      "lanes": 1,
+      "_id": "69b3ac3981594acde48fdde8"
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac3981594acde48fdde9"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4",
+      "_id": "69b3ac3981594acde48fddea"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek",
+      "_id": "69b3ac3981594acde48fddeb"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x 2.5 Gb/s Ports (Realtek)"
+  ],
   "general_product_information": {}
 }
