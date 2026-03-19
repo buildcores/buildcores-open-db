@@ -1,25 +1,30 @@
 {
   "opendb_id": "eaf157ee-aeaf-4b36-8e80-bf0d9bf53950",
   "metadata": {
-    "name": "Lian Li UNI FAN TL 120mm White Addressable RGB 3-Pack",
+    "name": "Lian Li UNI FAN TL 120mm White  RGB 3-Pack",
     "manufacturer": "Lian Li",
-    "part_numbers": [],
-    "series": "UNI",
-    "variant": "120mm White"
+    "part_numbers": ["12TL3W"],
+    "series": "UNI TL",
+    "variant": "120mm White Pack of 3",
+    "releaseYear": 2023,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2026-03-19T09:20:03.140Z"
   },
   "size": 120,
-  "color": ["WHITE"],
+  "color": ["WHITE", "RGB"],
   "quantity": 3,
   "min_airflow": 90.1,
   "max_airflow": null,
   "min_noise_level": 33,
   "max_noise_level": null,
-  "pwm": false,
+  "pwm": true,
   "led": "Addressable RGB",
   "connector": "Proprietary",
   "controller": "USB",
   "static_pressure": 3.97,
   "flow_direction": "Standard",
   "isOEM": false,
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/uni-fan-tl/"
+  }
 }
