@@ -6,22 +6,39 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
-    "u2": 0
+    "u2": 0,
+    "sata_6_gb_s": 4
   },
   "usb_headers": {
-    "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_2_0": 2
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -31,9 +48,12 @@
   "metadata": {
     "name": "Asus B760 PRIME B760M-F D4 LGA1700 DDR4 Micro ATX",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B760M-F D4"],
+    "part_numbers": ["PRIME B760M-F D4", "PRIME B760M-K D4", "90MB1DS0-M1EAY0"],
     "series": "B760",
-    "variant": ""
+    "variant": "M-F D4",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-16T19:38:50.137Z"
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
@@ -55,28 +75,16 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac5ab3d0c7b56c561bd2"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac5ab3d0c7b56c561bd3"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac5ab3d0c7b56c561bd4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac5ab3d0c7b56c561bd5"
     }
   ],
   "onboard_ethernet": [
@@ -89,6 +97,15 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "4 x USB 5Gbps ports (4 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x HDMI port",
+    "3 x Audio jacks"
+  ],
+  "general_product_information": {
+    "amazon_sku": "B0BR8SGYXP",
+    "newegg_sku": "9SIBTK0KR91756",
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-f-d4/techspec/"
+  }
 }

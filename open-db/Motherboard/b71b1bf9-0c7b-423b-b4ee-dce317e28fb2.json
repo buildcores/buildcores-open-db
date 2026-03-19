@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,23 +17,42 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
+    "channels": "7.1",
+    "chipset": "Realtek ALC897"
   },
   "metadata": {
     "name": "MSI B550M PRO-VDH WIFI (CEC) DDR4 Micro ATX",
     "manufacturer": "MSI",
     "part_numbers": ["B550M PRO-VDH WIFI (CEC)"],
     "series": "B550M",
-    "variant": ""
+    "variant": "PRO-VDH WIFI (CEC)",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-17T03:55:05.453Z"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -45,38 +64,26 @@
       "quantity": 4,
       "lanes": 16,
       "_id": "69b3ac5536a2b96d5d840772"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 3,
+      "lanes": 1,
+      "_id": "69b8d060ce32fbd088a1eeb2"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac5536a2b96d5d840773"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac5536a2b96d5d840774"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac5536a2b96d5d840775"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac5536a2b96d5d840776"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac5536a2b96d5d840777"
     }
   ],
   "onboard_ethernet": [
@@ -86,9 +93,24 @@
       "_id": "69b3ac5536a2b96d5d840778"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek RTL8111HN)"],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "1 x Flash BIOS Button",
+    "1 x PS/2 keyboard/mouse combo port",
+    "1 x VGA port",
+    "1 x Display port",
+    "1 x HDMI port",
+    "2 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "2 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "2 x USB 2.0 Type-A ports",
+    "1 x LAN (RJ45) port",
+    "2 x Wi-Fi Antenna connectors",
+    "3 x Audio jacks"
+  ],
+  "wireless_networking": "Wi-Fi 6E Bluetooth 5.2",
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/B550M-PRO-VDH-WIFI-CEC/Specification"
+  }
 }

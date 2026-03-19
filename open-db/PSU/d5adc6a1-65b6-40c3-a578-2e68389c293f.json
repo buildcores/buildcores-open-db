@@ -2,20 +2,22 @@
   "opendb_id": "d5adc6a1-65b6-40c3-a578-2e68389c293f",
   "connectors": {
     "atx_24_pin": 1,
-    "eps_8_pin": 0,
+    "eps_8_pin": 1,
     "pcie_12vhpwr": 0,
     "pcie_6_plus_2_pin": 2,
     "sata": 4,
     "molex_4_pin": 4,
-    "floppy_4_pin": 0
+    "floppy_4_pin": 1
   },
   "metadata": {
     "name": "Thermaltake Smart 430W 80+ Certified ATX",
     "manufacturer": "Thermaltake",
     "series": "Smart",
-    "variant": "White",
     "releaseYear": 2018,
-    "part_numbers": ["PS-SPD-0430NPCWUS-W"]
+    "part_numbers": ["PS-SPD-0430NPCW**-W"],
+    "variant": "430W ",
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-18T19:46:45.215Z"
   },
   "wattage": 430,
   "form_factor": "ATX",
@@ -23,10 +25,11 @@
   "modular": "Non-Modular",
   "length": 140,
   "fanless": false,
-  "color": [],
+  "color": ["BLACK"],
   "general_product_information": {
     "amazon_sku": "B07BFJ91TY",
     "newegg_sku": "N82E16817153368",
-    "walmart_sku": 352946682
+    "walmart_sku": 352946682,
+    "manufacturer_url": "https://www.thermaltake.com/smart-430w.html"
   }
 }

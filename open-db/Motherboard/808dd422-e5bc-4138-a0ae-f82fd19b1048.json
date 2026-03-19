@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,32 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "cpu_opt": 1,
+    "pump": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1,
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -31,9 +52,11 @@
   "metadata": {
     "name": "Asus B550 PRIME-PLUS DDR4 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B550-PLUS", "90MB14U0-M0EAY0", "90MB14U0-M0AAY0"],
+    "part_numbers": ["PRIME B550-PLUS"],
     "series": "B550",
-    "variant": ""
+    "variant": " PRIME-PLUS DDR4 ATX",
+    "releaseYear": 2020,
+    "last_manually_spec_verified_at": "2026-03-16T10:00:56.786Z"
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -42,41 +65,35 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16,
       "_id": "69b3ac1a7d50ea70304928b9"
     },
     {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 1,
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4,
       "_id": "69b3ac1a7d50ea70304928ba"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "69b7d4ddce32fbd0883c1169"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac1a7d50ea70304928bb"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac1a7d50ea70304928bc"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1a7d50ea70304928bd"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1a7d50ea70304928be"
     }
   ],
   "onboard_ethernet": [
@@ -89,11 +106,21 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek RTL8111H)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Realtek 8111H Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port"
+  ],
   "general_product_information": {
     "amazon_sku": "B089CT5GDM",
     "newegg_sku": "N82E16813119323",
     "bestbuy_sku": 6447947,
-    "walmart_sku": 626127369
+    "walmart_sku": 626127369,
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-b550-plus/"
   }
 }
