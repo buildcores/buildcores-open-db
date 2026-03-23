@@ -3,31 +3,41 @@
   "cores": {
     "total": 8,
     "performance": 8,
-    "threads": 16
+    "threads": 16,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.5,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "512 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true
   },
   "metadata": {
@@ -35,7 +45,8 @@
     "manufacturer": "AMD",
     "part_numbers": ["100-100000591WOF", "RYZEN 7 7700X"],
     "series": "AMD Ryzen 7",
-    "releaseYear": 2022
+    "releaseYear": 2022,
+    "variant": "7700X"
   },
   "series": "AMD Ryzen 7",
   "microarchitecture": "Zen 4",

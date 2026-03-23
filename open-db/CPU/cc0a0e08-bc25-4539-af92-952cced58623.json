@@ -3,38 +3,50 @@
   "cores": {
     "total": 6,
     "performance": 6,
-    "threads": 12
+    "threads": 12,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "480 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true
   },
   "metadata": {
     "name": "AMD Ryzen 5 9600X 3.9 GHz 6-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001405WOF", "AMD Ryzen™ 5 9600X"],
-    "series": "AMD Ryzen 5"
+    "series": "AMD Ryzen 5",
+    "variant": "9600X",
+    "releaseYear": 2024
   },
   "series": "AMD Ryzen 5",
   "microarchitecture": "Zen 5",
