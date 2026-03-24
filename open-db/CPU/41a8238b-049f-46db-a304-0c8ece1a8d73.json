@@ -2,12 +2,14 @@
   "opendb_id": "41a8238b-049f-46db-a304-0c8ece1a8d73",
   "cores": {
     "total": 12,
-    "threads": 20
+    "threads": 20,
+    "performance": 8,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
       "base": 3.6,
-      "boost": 5
+      "boost": 4.9
     },
     "efficiency": {
       "base": 2.7,
@@ -16,32 +18,40 @@
   },
   "cache": {
     "l2": 12,
-    "l3": 25
+    "l3": 25,
+    "l1": "80KB per core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD 770",
+      "baseClock": 300,
+      "boostClock": 1500,
+      "shaderCount": 32
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 190
   },
   "metadata": {
     "name": "Intel Core i7 12700K 3.6 GHz 12-Core LGA1700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512700K"],
-    "series": "Intel Core i7"
+    "series": "Intel Core i7 12700K",
+    "variant": "12700K",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 12700K",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Golden Cove / Gracemont",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09FXNVDBJ",
