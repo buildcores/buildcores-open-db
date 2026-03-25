@@ -21,7 +21,19 @@
     "size": {
       "description": "The physical layout size of the keyboard",
       "type": ["string", "null"],
-      "enum": ["Full Size", "96%", "TKL (80%)", "75%", "70%", "65%", "60%", "40%", "Numpad", "Other", null]
+      "enum": [
+        "Full Size",
+        "96%",
+        "TKL (80%)",
+        "75%",
+        "70%",
+        "65%",
+        "60%",
+        "40%",
+        "Numpad",
+        "Other",
+        null
+      ]
     },
     "size_other": {
       "description": "Custom size if not in the standard enum",

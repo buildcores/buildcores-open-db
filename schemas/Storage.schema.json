@@ -21,7 +21,18 @@
     "form_factor": {
       "description": "The physical size and shape of the drive (e.g., M.2-2280, 2.5\", 3.5\")",
       "type": ["string", "null"],
-      "enum": ["M.2-2280", "M.2-22110", "M.2-2260", "M.2-2242", "M.2-2230", "2.5\"", "3.5\"", "mSATA", "PCIe", null]
+      "enum": [
+        "M.2-2280",
+        "M.2-22110",
+        "M.2-2260",
+        "M.2-2242",
+        "M.2-2230",
+        "2.5\"",
+        "3.5\"",
+        "mSATA",
+        "PCIe",
+        null
+      ]
     },
     "interface": {
       "description": "The interface used by the drive (e.g., M.2 PCIe 4.0 X4, SATA 6Gb/s)",

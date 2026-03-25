@@ -134,7 +134,17 @@
     "cooling": {
       "description": "The type of cooling solution (e.g., 3 Fans, 2 Fans, Blower, Water Cooled)",
       "type": ["string", "null"],
-      "enum": ["4 Fans", "3 Fans", "2 Fans", "1 Fan", "Blower", "Water Cooled", "Hybrid", "Passive", null]
+      "enum": [
+        "4 Fans",
+        "3 Fans",
+        "2 Fans",
+        "1 Fan",
+        "Blower",
+        "Water Cooled",
+        "Hybrid",
+        "Passive",
+        null
+      ]
     },
     "power_connectors": {
       "type": ["object", "null"],
