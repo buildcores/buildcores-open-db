@@ -22,6 +22,14 @@
       "description": "Number of cores/shaders in the GPU",
       "type": ["number", "null"]
     },
+    "core_base_clock": {
+      "description": "The base clock speed of the GPU core in MHz",
+      "type": ["number", "null"]
+    },
+    "core_boost_clock": {
+      "description": "The boost clock speed of the GPU core in MHz",
+      "type": ["number", "null"]
+    },
     "memory": {
       "description": "The amount of video memory in GB",
       "type": ["number", "null"]
@@ -49,20 +57,16 @@
         null
       ]
     },
-    "core_base_clock": {
-      "description": "The base clock speed of the GPU core in MHz",
-      "type": ["number", "null"]
-    },
-    "core_boost_clock": {
-      "description": "The boost clock speed of the GPU core in MHz",
-      "type": ["number", "null"]
-    },
     "effective_memory_clock": {
       "description": "Effective memory clock in MHz",
       "type": ["number", "null"]
     },
     "memory_bus": {
       "description": "Memory bus width in bits",
+      "type": ["number", "null"]
+    },
+    "tdp": {
+      "description": "The Thermal Design Power of the graphics card in Watts",
       "type": ["number", "null"]
     },
     "interface": {
@@ -88,8 +92,12 @@
         null
       ]
     },
+    "frame_sync": {
+      "description": "The frame synchronization technology supported (e.g., G-Sync, FreeSync, None)",
+      "type": ["string", "null"],
+      "enum": ["G-Sync", "FreeSync", "G-Sync Compatible", "None", null]
+    },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes shroud and backplate colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -108,19 +116,11 @@
           "BROWN",
           "GOLD"
         ]
-      }
-    },
-    "frame_sync": {
-      "description": "The frame synchronization technology supported (e.g., G-Sync, FreeSync, None)",
-      "type": ["string", "null"],
-      "enum": ["G-Sync", "FreeSync", "G-Sync Compatible", "None", null]
+      },
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes shroud and backplate colors"
     },
     "length": {
       "description": "The length of the graphics card in mm",
-      "type": ["number", "null"]
-    },
-    "tdp": {
-      "description": "The Thermal Design Power of the graphics card in Watts",
       "type": ["number", "null"]
     },
     "case_expansion_slot_width": {
@@ -134,17 +134,7 @@
     "cooling": {
       "description": "The type of cooling solution (e.g., 3 Fans, 2 Fans, Blower, Water Cooled)",
       "type": ["string", "null"],
-      "enum": [
-        "4 Fans",
-        "3 Fans",
-        "2 Fans",
-        "1 Fan",
-        "Blower",
-        "Water Cooled",
-        "Hybrid",
-        "Passive",
-        null
-      ]
+      "enum": ["4 Fans", "3 Fans", "2 Fans", "1 Fan", "Blower", "Water Cooled", "Hybrid", "Passive", null]
     },
     "power_connectors": {
       "type": ["object", "null"],
@@ -178,6 +168,14 @@
           "description": "Number of HDMI 2.1 ports",
           "type": ["number", "null"]
         },
+        "hdmi_2_1a": {
+          "description": "Number of HDMI 2.1a ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_1b": {
+          "description": "Number of HDMI 2.1b ports",
+          "type": ["number", "null"]
+        },
         "hdmi_2_0": {
           "description": "Number of HDMI 2.0 ports",
           "type": ["number", "null"]
@@ -196,6 +194,10 @@
         },
         "displayport_2_1_b": {
           "description": "Number of DisplayPort 2.1b ports",
+          "type": ["number", "null"]
+        },
+        "usb_c": {
+          "description": "Number of USB-C (VirtualLink / USB-C Alt Mode) video outputs",
           "type": ["number", "null"]
         },
         "dvi_d": {
@@ -250,35 +252,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "description": "Full product name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Full product name"
         },
         "manufacturer": {
-          "description": "GPU manufacturer",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "GPU manufacturer"
         },
         "part_numbers": {
-          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          }
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
         },
         "series": {
-          "description": "Product series name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Product series name"
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Specific variant in the series"
         },
         "releaseYear": {
-          "description": "Year of release",
-          "type": ["number", "null"]
+          "type": ["number", "null"],
+          "description": "Year of release"
         },
         "manufacturer_color": {
-          "description": "Manufacturer's official color name for this product variant.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Manufacturer's official color name for this product variant."
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

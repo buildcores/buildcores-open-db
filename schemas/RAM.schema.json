@@ -60,7 +60,6 @@
       "type": ["number", "null"]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heat spreader colors. Looks for hints of this in the product name.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -79,7 +78,8 @@
           "BROWN",
           "GOLD"
         ]
-      }
+      },
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heat spreader colors. Looks for hints of this in the product name."
     },
     "cas_latency": {
       "description": "The CAS latency of the RAM. Looks for hints of this in the product name.",
@@ -157,35 +157,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "description": "Full product name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Full product name"
         },
         "manufacturer": {
-          "description": "RAM manufacturer",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "RAM manufacturer"
         },
         "part_numbers": {
-          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          }
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
         },
         "series": {
-          "description": "Product series name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Product series name"
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Specific variant in the series"
         },
         "releaseYear": {
-          "description": "Year of release",
-          "type": ["number", "null"]
+          "type": ["number", "null"],
+          "description": "Year of release"
         },
         "manufacturer_color": {
-          "description": "Manufacturer's official color name for this product variant.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Manufacturer's official color name for this product variant."
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

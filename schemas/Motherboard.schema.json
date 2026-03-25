@@ -103,7 +103,6 @@
       }
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heatsink colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -122,7 +121,8 @@
           "BROWN",
           "GOLD"
         ]
-      }
+      },
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heatsink colors"
     },
     "pcie_slots": {
       "description": "PCIe slots on the motherboard. E.g. a motherboard with 4 PCIe x16 slots, 2 PCIe x8 slots, and 1 PCIe x4 slot would be represented as an array with 3 objects. Be careful on this section and use all available info to make your decision including obvious pcie slots on the motherboard images if provided.",
@@ -418,35 +418,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "description": "Full product name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Full product name"
         },
         "manufacturer": {
-          "description": "Motherboard manufacturer",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Motherboard manufacturer"
         },
         "part_numbers": {
-          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          }
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
         },
         "series": {
-          "description": "Product series name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Product series name"
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Specific variant in the series"
         },
         "releaseYear": {
-          "description": "Year of release",
-          "type": ["number", "null"]
+          "type": ["number", "null"],
+          "description": "Year of release"
         },
         "manufacturer_color": {
-          "description": "Manufacturer's official color name for this product variant.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Manufacturer's official color name for this product variant."
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],
