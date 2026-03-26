@@ -2,9 +2,9 @@
   "opendb_id": "bd3e1d44-97d6-4679-8e43-829730a90f18",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
     "hdmi_2_1": 2,
@@ -13,30 +13,38 @@
     "displayport_2_1a": 1,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "displayport_2_1_b": 0,
+    "hdmi_2_1b": 2,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Sapphire Radeon RX 9060 XT PULSE 16GB GDDR6 Black",
     "manufacturer": "Sapphire",
     "part_numbers": ["11350-03-20G"],
-    "series": "Radeon RX 9060 XT",
-    "variant": "Sapphire"
+    "series": "PULSE",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 9060 XT 16 GB",
+  "chipset": "Radeon RX 9060 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2220,
+  "core_base_clock": 3290,
   "core_boost_clock": 3290,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 128,
   "interface": "PCIe x16",
   "color": ["BLACK"],
   "length": 240,
   "tdp": 170,
-  "total_slot_width": 3,
   "cooling": "2 Fans",
   "core_count": 2048,
+  "frame_sync": "FreeSync",
+  "total_slot_width": 2,
+  "case_expansion_slot_width": 2.3,
   "general_product_information": {
     "amazon_sku": "B0F9LN5VZ6",
     "newegg_sku": "N82E16814202457",
