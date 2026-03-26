@@ -2,9 +2,9 @@
   "opendb_id": "e296090e-6d2f-4676-a476-d44cf091ec63",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 1,
-    "pcie_8_pin": 1
+    "pcie_8_pin": 0,
+    "pcie_12V_2x6": 0,
+    "pcie_12VHPWR": 1
   },
   "video_outputs": {
     "hdmi_2_1": 2,
@@ -13,7 +13,12 @@
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "usb_c": 0,
+    "displayport_2_1_b": 0,
+    "hdmi_2_1b": 2,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0
   },
   "metadata": {
     "name": "Sapphire NITRO+ Radeon RX 9070 XT 16GB GDDR6 Black",
@@ -36,11 +41,11 @@
   "color": ["BROWN", "BLACK", "RGB"],
   "length": 331,
   "tdp": 330,
-  "total_slot_width": 0,
   "cooling": "3 Fans",
   "core_count": 4096,
   "frame_sync": "FreeSync",
   "case_expansion_slot_width": 3.2,
+  "total_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0DTHP39JF",
     "newegg_sku": "N82E16814202448",
