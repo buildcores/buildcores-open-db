@@ -10,7 +10,7 @@
       "description": "Unique identifier for the document (UUID v4)"
     },
     "series": {
-      "description": "The product family the CPU belongs to (e.g., Ryzen 7, Core i9, Intel Core Ultra 5)",
+      "description": "The normalized CPU family bucket the product belongs to (e.g., Ryzen 7 9000, Core i7 14000, Core Ultra 5 200)",
       "type": ["string", "null"]
     },
     "microarchitecture": {
@@ -262,31 +262,31 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "description": "Full product name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Full product name"
         },
         "manufacturer": {
-          "description": "CPU manufacturer",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "CPU manufacturer"
         },
         "part_numbers": {
-          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          }
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
         },
         "series": {
-          "description": "Product series name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Product series name"
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Specific variant in the series"
         },
         "releaseYear": {
-          "description": "Year of release",
-          "type": ["number", "null"]
+          "type": ["number", "null"],
+          "description": "Year of release"
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],
