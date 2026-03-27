@@ -17,11 +17,33 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "cpu_opt": 1,
+    "pump": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1,
+    "temperature_sensor": 1,
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -31,15 +53,12 @@
   "metadata": {
     "name": "Asus B550 TUF GAMING B550-PLUS WIFI II DDR4 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "TUF GAMING B550-PLUS WIFI II",
-      "90MB19U0-MVAAY0",
-      "90MB19U0-M0EAY0",
-      "TUFGAMINGB550-PLUSWIFIII",
-      "90MB14S0-M0EAY0"
-    ],
+    "part_numbers": ["TUF GAMING B550-PLUS WIFI II", "90MB19U0-M0EAY0"],
     "series": "B550",
-    "variant": ""
+    "variant": "TUF GAMING-PLUS WiFi II",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-27T07:13:43.132Z"
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -48,41 +67,35 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16,
       "_id": "69b3abda3f8fd0c825de0eaf"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16,
+      "_id": "69b3abda3f8fd0c825de0eb0"
+    },
+    {
+      "gen": "3.0",
       "quantity": 3,
       "lanes": 1,
-      "_id": "69b3abda3f8fd0c825de0eb0"
+      "_id": "69c62e2c8dc84d3c337a3581"
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3abda3f8fd0c825de0eb1"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 3.0 x4",
       "_id": "69b3abda3f8fd0c825de0eb2"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abda3f8fd0c825de0eb3"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abda3f8fd0c825de0eb4"
     }
   ],
   "onboard_ethernet": [
@@ -92,14 +105,27 @@
       "_id": "69b3abda3f8fd0c825de0eb5"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x ASUS Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack button"
+  ],
+  "wireless_networking": "Wifi 6 Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B09K4QMPL9",
     "newegg_sku": "N82E16813119518",
-    "bestbuy_sku": 6486298,
-    "walmart_sku": 142651756
+    "bestbuy_sku": 11013030,
+    "walmart_sku": 142651756,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wifi-ii/techspec/"
   }
 }
