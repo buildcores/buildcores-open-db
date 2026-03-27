@@ -2,12 +2,14 @@
   "opendb_id": "28155df9-8c91-4150-8786-96b8c54c309c",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
       "base": 3.4,
-      "boost": 5.4
+      "boost": 5.3
     },
     "efficiency": {
       "base": 2.5,
@@ -16,32 +18,40 @@
   },
   "cache": {
     "l2": 24,
-    "l3": 30
+    "l3": 30,
+    "l1": "80KB per P-core, 96KB per E-core cluster"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1600,
+      "shaderCount": 32
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 253
   },
   "metadata": {
     "name": "Intel Core i7 13700K 3.4 GHz 16-Core LGA1700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513700K", "i7-13700K", "Intel Core i7-13700K"],
-    "series": "Intel Core i7"
+    "series": "Intel Core i7 13700K",
+    "variant": "13700K",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 13700K",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BCF57FL5",

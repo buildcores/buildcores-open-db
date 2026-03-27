@@ -2,12 +2,14 @@
   "opendb_id": "4d8d9d6b-723c-40ee-b1e9-e6665c58ae75",
   "cores": {
     "total": 20,
-    "threads": 20
+    "threads": 20,
+    "performance": 8,
+    "efficiency": 12
   },
   "clocks": {
     "performance": {
       "base": 3.9,
-      "boost": 5.5
+      "boost": 5.4
     },
     "efficiency": {
       "base": 3.3,
@@ -16,32 +18,40 @@
   },
   "cache": {
     "l2": 36,
-    "l3": 30
+    "l3": 30,
+    "l1": "192 KB per core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel Xe Graphics"
+      "model": "Intel Graphics",
+      "baseClock": 300,
+      "boostClock": 2000,
+      "shaderCount": 4
     },
     "memory": {
       "maxSupport": 256,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "3 nm",
-    "simultaneousMultithreading": false
+    "lithography": "TSMC N3B",
+    "simultaneousMultithreading": false,
+    "ppt": 250
   },
   "metadata": {
     "name": "Intel Core Ultra 7 265K 3.9 GHz 20-Core LGA1851",
     "manufacturer": "Intel",
     "part_numbers": ["BX80768265K", "Intel® Core™ Ultra 7"],
-    "series": "Intel Core Ultra 7"
+    "series": "Intel Core Ultra 7 265K",
+    "variant": "265K",
+    "releaseYear": 2022
   },
-  "series": "Intel Core Ultra 7",
+  "series": "Core Ultra 7 265K",
   "microarchitecture": "Arrow Lake",
-  "coreFamily": "Arrow Lake",
+  "coreFamily": "Lion Cove / Skymont",
   "socket": "LGA 1851",
   "general_product_information": {
     "amazon_sku": "B0DFK2MH2D",

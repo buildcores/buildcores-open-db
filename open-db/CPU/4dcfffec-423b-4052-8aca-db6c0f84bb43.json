@@ -2,41 +2,54 @@
   "opendb_id": "4dcfffec-423b-4052-8aca-db6c0f84bb43",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": null,
+    "threads": 16,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.2,
       "boost": 5
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 96
+    "l3": 96,
+    "l1": "512 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 162
   },
   "metadata": {
     "name": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000910WOF", "AMD Ryzen 7 7800X3D"],
-    "series": "AMD Ryzen 7"
+    "series": "AMD Ryzen 7 7800X3D",
+    "variant": "7800X3D",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 7800X3D",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

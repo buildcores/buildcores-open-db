@@ -2,7 +2,9 @@
   "opendb_id": "5b3f1331-be66-43b0-b094-ac032d946b0c",
   "cores": {
     "total": 6,
-    "threads": 12
+    "threads": 12,
+    "performance": 2,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
@@ -10,38 +12,44 @@
       "boost": 5
     },
     "efficiency": {
-      "base": 3.2,
+      "base": 3.3,
       "boost": 3.7
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 16
+    "l3": 16,
+    "l1": "384 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon 740M"
+      "model": "AMD Radeon 740M",
+      "baseClock": 100,
+      "boostClock": 2800,
+      "shaderCount": 256
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
-    "tdp": 65,
-    "eccSupport": false,
-    "includesCooler": true,
+    "eccSupport": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
+    "lithography": "TSMC 4nm FinFET",
     "simultaneousMultithreading": true
   },
   "metadata": {
     "name": "AMD Ryzen 5 8500G 4.1 GHz 6-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000931BOX", "AMD Ryzen™ 5 8500G", "Ryzen 5 8500G"],
-    "series": "AMD Ryzen 5"
+    "series": "AMD Ryzen 5 8500G",
+    "variant": "8500G",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 5",
-  "microarchitecture": "Zen 4",
-  "coreFamily": "Phoenix 2",
+  "series": "Ryzen 5 8500G",
+  "microarchitecture": "2x Zen 4 , 4x Zen 4c",
+  "coreFamily": "Phoenix",
   "socket": "AM5",
   "general_product_information": {
     "amazon_sku": "B0CQ4JV8D5",

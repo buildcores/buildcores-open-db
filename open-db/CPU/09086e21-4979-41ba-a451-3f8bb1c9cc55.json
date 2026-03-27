@@ -2,41 +2,54 @@
   "opendb_id": "09086e21-4979-41ba-a451-3f8bb1c9cc55",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "threads": 16,
+    "performance": null,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 5.5
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "640 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
     "name": "AMD Ryzen 7 9700X 3.8 GHz 8-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001404WOF", "9700X", "AMD Ryzen™ 7 9700X"],
-    "series": "AMD Ryzen 7"
+    "series": "AMD Ryzen 7 9700X",
+    "variant": "9700X",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 9700X",
   "microarchitecture": "Zen 5",
   "coreFamily": "Granite Ridge",
   "socket": "AM5",

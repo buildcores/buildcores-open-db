@@ -2,47 +2,60 @@
   "opendb_id": "cc0a0e08-bc25-4539-af92-952cced58623",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": null,
+    "threads": 12,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "480 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
     "name": "AMD Ryzen 5 9600X 3.9 GHz 6-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001405WOF", "AMD Ryzen™ 5 9600X"],
-    "series": "AMD Ryzen 5"
+    "series": "AMD Ryzen 5 9600X",
+    "variant": "9600X",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 9600X",
   "microarchitecture": "Zen 5",
   "coreFamily": "Granite Ridge",
   "socket": "AM5",
   "general_product_information": {
     "amazon_sku": "B0D6NN6TM7",
-    "newegg_sku": "N82E16819113844R",
+    "newegg_sku": "N82E16819113844",
     "bestbuy_sku": 6589140,
     "walmart_sku": 8880762821
   }

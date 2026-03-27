@@ -26,7 +26,6 @@
       "type": ["number", "null"]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes heatsink or radiator assembly colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -45,7 +44,8 @@
           "BROWN",
           "GOLD"
         ]
-      }
+      },
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes heatsink or radiator assembly colors"
     },
     "height": {
       "description": "The height of the CPU cooler in mm",
@@ -111,8 +111,8 @@
       "type": ["boolean", "null"]
     },
     "radiator_size": {
-      "description": "Radiator size in mm (e.g. 360, 280, 240).",
-      "type": ["number", "null"]
+      "type": ["number", "null"],
+      "description": "Radiator size in mm (e.g. 360, 280, 240)."
     },
     "fanless": {
       "description": "Whether the cooler can operate fanless",
@@ -168,35 +168,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "description": "Full product name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Full product name"
         },
         "manufacturer": {
-          "description": "CPU Cooler manufacturer",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "CPU Cooler manufacturer"
         },
         "part_numbers": {
-          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          }
+          },
+          "description": "Array of manufacturer's part numbers/SKUs"
         },
         "series": {
-          "description": "Product series name",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Product series name"
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Specific variant in the series"
         },
         "releaseYear": {
-          "description": "Year of release",
-          "type": ["number", "null"]
+          "type": ["number", "null"],
+          "description": "Year of release"
         },
         "manufacturer_color": {
-          "description": "Manufacturer's official color name for this product variant.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "description": "Manufacturer's official color name for this product variant."
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

@@ -2,43 +2,53 @@
   "opendb_id": "19fbd8f2-a226-4b83-9e5d-683db638d337",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "threads": 12,
+    "efficiency": null,
+    "performance": null
   },
   "clocks": {
     "performance": {
       "base": 2.5,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 18
+    "l2": 7.5,
+    "l3": 18,
+    "l1": "80KB per core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": null
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 117
   },
   "metadata": {
     "name": "Intel Core i5 12400F 2.5 GHz 6-Core LGA1700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512400F", "i5-12400F", "BX8071512400"],
-    "series": "Intel Core i5"
+    "series": "Intel Core i5 12400F",
+    "variant": "12400F",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 12400F",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Golden Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09NPJRDGD",

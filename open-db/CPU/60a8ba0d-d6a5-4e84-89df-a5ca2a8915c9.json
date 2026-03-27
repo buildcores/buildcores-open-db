@@ -2,42 +2,53 @@
   "opendb_id": "60a8ba0d-d6a5-4e84-89df-a5ca2a8915c9",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": null,
+    "threads": 16,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.5,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "512 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true
   },
   "metadata": {
     "name": "AMD Ryzen 7 7700X 4.5 GHz 8-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000591WOF", "RYZEN 7 7700X"],
-    "series": "AMD Ryzen 7",
-    "releaseYear": 2022
+    "series": "AMD Ryzen 7 7700X",
+    "releaseYear": 2022,
+    "variant": "7700X"
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 7700X",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

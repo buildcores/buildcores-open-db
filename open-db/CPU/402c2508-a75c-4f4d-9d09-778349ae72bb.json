@@ -2,12 +2,14 @@
   "opendb_id": "402c2508-a75c-4f4d-9d09-778349ae72bb",
   "cores": {
     "total": 20,
-    "threads": 28
+    "threads": 28,
+    "performance": 8,
+    "efficiency": 12
   },
   "clocks": {
     "performance": {
       "base": 3.4,
-      "boost": 5.6
+      "boost": 5.5
     },
     "efficiency": {
       "base": 2.5,
@@ -16,32 +18,37 @@
   },
   "cache": {
     "l2": 28,
-    "l3": 33
+    "l3": 33,
+    "l1": "80KB per P-core, 96KB per E-core cluster"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": null
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 253
   },
   "metadata": {
     "name": "Intel Core i7 14700KF 3.4 GHz 20-Core LGA1700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514700KF"],
-    "series": "Intel Core i7"
+    "series": "Intel Core i7 14700KF",
+    "variant": "14700KF",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 14700KF",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CGJC178L",

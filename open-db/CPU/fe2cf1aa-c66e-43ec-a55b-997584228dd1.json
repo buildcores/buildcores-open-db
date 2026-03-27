@@ -2,41 +2,54 @@
   "opendb_id": "fe2cf1aa-c66e-43ec-a55b-997584228dd1",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": null,
+    "threads": 12,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.7,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "384 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
     "name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000593WOF", "RYZEN 5 7600X"],
-    "series": "AMD Ryzen 5"
+    "series": "AMD Ryzen 5 7600X",
+    "variant": "7600X",
+    "releaseYear": 2022
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 7600X",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

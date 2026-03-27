@@ -2,7 +2,9 @@
   "opendb_id": "0240f7db-68e5-4aac-9438-41d2f12ec15a",
   "cores": {
     "total": 10,
-    "threads": 16
+    "threads": 16,
+    "performance": 6,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
@@ -15,33 +17,38 @@
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 9.5,
+    "l3": 20,
+    "l1": "80KB per P-core, 96KB per E-core cluster"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": null
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 148
   },
   "metadata": {
     "name": "Intel Core i5 14400F 2.5 GHz 10-Core LGA1700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514400F", "14400F"],
-    "series": "Intel Core i5"
+    "series": "Intel Core i5 14400F",
+    "variant": "14400F",
+    "releaseYear": 2024
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 14400F",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ1Y7KHV",

@@ -2,41 +2,50 @@
   "opendb_id": "ea28e46f-dc70-4547-9701-eca335890462",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": null,
+    "threads": 12,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "384 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": null
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": true,
-    "packaging": "Boxed",
-    "lithography": "5 nm",
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true
   },
   "metadata": {
     "name": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000597BOX"],
-    "series": "AMD Ryzen 5"
+    "series": "AMD Ryzen 5 7500F",
+    "variant": "7500F",
+    "releaseYear": 2020
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 7500F",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

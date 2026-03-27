@@ -9,7 +9,7 @@
   "clocks": {
     "performance": {
       "base": 3.2,
-      "boost": 6
+      "boost": 5.6
     },
     "efficiency": {
       "base": 2.4,
@@ -18,11 +18,15 @@
   },
   "cache": {
     "l2": 32,
-    "l3": 36
+    "l3": 36,
+    "l1": "80KB per P-core, 96KB per E-core cluster"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1650,
+      "shaderCount": 32
     },
     "memory": {
       "maxSupport": 192,
@@ -33,18 +37,21 @@
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 253
   },
   "metadata": {
     "name": "Intel Core i9 14900K 3.2 GHz 24-Core LGA1700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514900K"],
-    "series": "Intel Core i9"
+    "series": "Intel Core i9 14900K",
+    "variant": "14900K",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 14900K",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CGJDKLB8",

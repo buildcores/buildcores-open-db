@@ -2,41 +2,54 @@
   "opendb_id": "ee2ac384-a2d9-4324-88af-d4765e604bcf",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": null,
+    "threads": 32,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.3,
       "boost": 5.7
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 64
+    "l3": 64,
+    "l1": "1280 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 170,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 230
   },
   "metadata": {
     "name": "AMD Ryzen 9 9950X 4.3 GHz 16-Core AM5",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001277WOF", "AMD Ryzen™ 9 9950X"],
-    "series": "AMD Ryzen 9"
+    "series": "AMD Ryzen 9 9950X",
+    "variant": "9950X",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 9950X",
   "microarchitecture": "Zen 5",
   "coreFamily": "Granite Ridge",
   "socket": "AM5",
