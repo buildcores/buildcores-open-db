@@ -2,25 +2,32 @@
   "opendb_id": "90fe5d95-f561-4582-a447-90417f6227d9",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 2
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "usb_c": 0,
+    "displayport_2_1_b": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0
   },
   "metadata": {
     "name": "ASRock Steel Legend OC Arc B580 12GB GDDR6 White / Gray",
     "manufacturer": "ASRock",
     "part_numbers": ["B580 SL 12GO", "90-GA5CZZ-00UANF"],
-    "series": "Arc B580",
-    "variant": "ASRock"
+    "series": "Steel Legend ",
+    "variant": "OC ",
+    "releaseYear": 2024,
+    "manufacturer_color": "White"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc B580",
@@ -28,15 +35,17 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2670,
   "core_boost_clock": 2800,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2375,
   "memory_bus": 192,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x8",
   "color": ["WHITE", "GREY"],
   "length": 298,
   "tdp": 190,
-  "total_slot_width": 3,
+  "total_slot_width": 2.6,
   "cooling": "3 Fans",
   "core_count": 2560,
+  "frame_sync": "None",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DNV4NRK5",
     "newegg_sku": "N82E16814930132",
