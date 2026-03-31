@@ -2,25 +2,32 @@
   "opendb_id": "c9368088-ee09-48c8-aea3-21d1b2cede1f",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 3
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Asus PRIME OC Radeon RX 9070 XT 16GB GDDR6 Black",
     "manufacturer": "Asus",
     "part_numbers": ["prime-rx9070xt-o16g", "90YV0L71-M0NA00", "PRIME-RX9070XT-O16G"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "Asus"
+    "series": "PRIME ",
+    "variant": "OC",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
@@ -28,15 +35,17 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2460,
   "core_boost_clock": 3030,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK"],
   "length": 312,
   "tdp": 304,
-  "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 4096,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.5,
   "general_product_information": {
     "amazon_sku": "B0DRRMZDH6",
     "newegg_sku": "N82E16814126746",

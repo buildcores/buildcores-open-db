@@ -2,44 +2,51 @@
   "opendb_id": "a837f3b1-54b1-41ee-af0d-61318f7a5a47",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "displayport_2_1": 0,
+    "displayport_2_1_b": 3
   },
   "metadata": {
     "name": "Gigabyte WINDFORCE GeForce RTX 5060 Ti 16GB GDDR7 Black",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N506TWF2-16GD"],
     "series": "GeForce RTX 5060 Ti",
-    "variant": "Gigabyte"
+    "variant": "WINDFORCE 16GB",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-31T16:30:59.657Z"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti 16 GB",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2410,
+  "core_base_clock": 2407,
   "core_boost_clock": 2572,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x8",
+  "interface": "PCIe 5.0 x8",
   "color": ["BLACK"],
   "length": 208,
   "tdp": 180,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 4608,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F5BB8P3Q",
     "newegg_sku": "N82E16814932791",
-    "bestbuy_sku": 6629370
+    "bestbuy_sku": 6629370,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N506TWF2-16GD/sp"
   }
 }

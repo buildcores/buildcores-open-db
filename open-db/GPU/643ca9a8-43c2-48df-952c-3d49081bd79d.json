@@ -2,25 +2,31 @@
   "opendb_id": "643ca9a8-43c2-48df-952c-3d49081bd79d",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 2
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "ASRock Steel Legend Radeon RX 9070 XT 16GB GDDR6 White / Gray",
     "manufacturer": "ASRock",
     "part_numbers": ["RX9070XT SL 16G", "90-GA5DZZ-00UANF"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "ASRock"
+    "series": "Steel Legend",
+    "manufacturer_color": "White / Gray",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
@@ -28,15 +34,17 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2400,
   "core_boost_clock": 2970,
-  "effective_memory_clock": 0,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["WHITE", "GREY"],
   "length": 298,
   "tdp": 304,
-  "total_slot_width": 3,
+  "total_slot_width": 2.9,
   "cooling": "3 Fans",
   "core_count": 4096,
+  "effective_memory_clock": 2518,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTT7CPWV",
     "newegg_sku": "N82E16814930136",
