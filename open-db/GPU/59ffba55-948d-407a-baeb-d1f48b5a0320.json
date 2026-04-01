@@ -2,45 +2,55 @@
   "opendb_id": "59ffba55-948d-407a-baeb-d1f48b5a0320",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "displayport_2_1": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Gigabyte EAGLE OC ICE GeForce RTX 5060 8GB GDDR7 White",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N5060EAGLEOC ICE-8GD"],
-    "series": "GeForce RTX 5060",
-    "variant": "Gigabyte"
+    "variant": "OC ICE",
+    "series": "EAGLE ",
+    "manufacturer_color": "White",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "memory": 8,
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
-  "core_boost_clock": 2280,
+  "core_boost_clock": 2550,
   "effective_memory_clock": 28000,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
   "color": ["WHITE"],
   "length": 208,
   "tdp": 145,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 3840,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F8LXRZ1Y",
     "newegg_sku": "N82E16814932802",
     "bestbuy_sku": 6632710,
-    "walmart_sku": 16920219494
+    "walmart_sku": 16920219494,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N5060EAGLEOC-ICE-8GD/sp"
   }
 }

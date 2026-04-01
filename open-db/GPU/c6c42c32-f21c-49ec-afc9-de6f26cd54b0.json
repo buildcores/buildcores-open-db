@@ -2,43 +2,53 @@
   "opendb_id": "c6c42c32-f21c-49ec-afc9-de6f26cd54b0",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "PowerColor Radeon RX 9060 XT Hellhound OC 16GB GDDR6 Black",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX9060XT 16G-L", "OC", "RX9060XT 16G-L/OC"],
-    "series": "Radeon RX 9060 XT",
-    "variant": "PowerColor"
+    "series": "Hellhound",
+    "variant": "OC",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 16 GB",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2220,
+  "core_base_clock": 2740,
   "core_boost_clock": 3310,
   "effective_memory_clock": 0,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK"],
   "length": 310,
   "tdp": 160,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 2048,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F9QK63KR",
-    "newegg_sku": "N82E16814131879"
+    "newegg_sku": "N82E16814131879",
+    "manufacturer_url": "https://www.powercolor.com/product-detail249.htm"
   }
 }
