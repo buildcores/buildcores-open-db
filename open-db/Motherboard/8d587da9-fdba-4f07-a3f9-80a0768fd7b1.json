@@ -1,12 +1,12 @@
 {
   "opendb_id": "8d587da9-fdba-4f07-a3f9-80a0768fd7b1",
   "memory": {
-    "max": 128,
+    "max": 256,
     "ram_type": "DDR4",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,26 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "hdd_led": true,
+    "power_button": true,
+    "power_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -31,9 +46,12 @@
   "metadata": {
     "name": "Gigabyte B760M GAMING PLUS WIFI DDR4 Micro ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["B760M G P WIFI DDR4", "B760M GAMING PLUS WIFI DDR4"],
+    "part_numbers": ["B760M G P WIFI DDR4"],
     "series": "B760M",
-    "variant": ""
+    "variant": "GAMING PLUS WIFI DDR4",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-04-01T21:41:48.329Z"
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
@@ -47,7 +65,7 @@
       "_id": "69b3ac103722c3e205bd28df"
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1,
       "_id": "69b3ac103722c3e205bd28e0"
@@ -74,13 +92,24 @@
       "_id": "69b3ac103722c3e205bd28e3"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "2 x USB 2.0/1.1 ports",
+    "1 x PS/2 keyboard/mouse port",
+    "2 x SMA antenna connectors",
+    "1 x D-Sub port",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "3 x USB 3.2 Gen 1 ports",
+    "1 x RJ-45 port",
+    "3 x audio jacks"
+  ],
+  "wireless_networking": "Wifi 6 Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0D54QJ9CJ",
     "newegg_sku": "N82E16813145505",
-    "walmart_sku": 5852981805
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B760M-GAMING-PLUS-WIFI-DDR4-rev-10/support"
   }
 }
