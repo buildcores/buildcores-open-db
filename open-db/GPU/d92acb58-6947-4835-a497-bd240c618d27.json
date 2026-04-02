@@ -4,43 +4,53 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Gigabyte AERO OC GeForce RTX 5070 12GB GDDR7 Black",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N5070AERO-OC-12GD", "GV-N5070AERO OC-12GD"],
-    "series": "GeForce RTX 5070",
-    "variant": "Gigabyte"
+    "series": "AERO ",
+    "variant": "OC ",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
-  "core_base_clock": 2160,
+  "core_base_clock": 2325,
   "core_boost_clock": 2625,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "WHITE", "GREY"],
   "length": 324,
   "tdp": 250,
-  "total_slot_width": 3,
+  "total_slot_width": 2.8,
   "cooling": "3 Fans",
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTR54HZZ",
     "newegg_sku": "N82E16814932773",
     "bestbuy_sku": 6621260,
-    "walmart_sku": 15995622841
+    "walmart_sku": 15995622841,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N5070AERO-OC-12GD"
   }
 }
