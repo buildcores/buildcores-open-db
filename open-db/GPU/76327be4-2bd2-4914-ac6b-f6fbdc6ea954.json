@@ -2,7 +2,7 @@
   "opendb_id": "76327be4-2bd2-4914-ac6b-f6fbdc6ea954",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,20 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Intel Limited Edition Arc B580 12 GB",
     "manufacturer": "Intel",
     "part_numbers": ["31P06HB0BA", "INT-31P06HB0BA"],
-    "series": "Arc B580",
-    "variant": "Intel"
+    "series": "Limited Edition",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc B580",
@@ -28,21 +34,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2670,
   "core_boost_clock": 2670,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2375,
   "memory_bus": 192,
-  "interface": "PCIe x16",
-  "frame_sync": null,
+  "interface": "PCIe 4.0 x8",
+  "frame_sync": "FreeSync",
   "length": 272,
   "tdp": 190,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK"],
   "core_count": 2560,
   "general_product_information": {
     "amazon_sku": "B0DPM9923G",
     "newegg_sku": "N82E16814883006",
     "bestbuy_sku": 6613053,
-    "walmart_sku": 14844319838
+    "walmart_sku": 14844319838,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html"
   }
 }

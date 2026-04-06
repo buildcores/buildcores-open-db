@@ -1,7 +1,7 @@
 {
   "opendb_id": "1f2855af-e330-497e-a88e-5172c23754b9",
   "power_connectors": {
-    "pcie_6_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
@@ -12,8 +12,13 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "MSI GeForce RTX 3050 VENTUS 2X XS OC 8GB GDDR6 Black Gray",
@@ -25,28 +30,33 @@
       "912-V809-4287",
       "G3050V2XXS8C"
     ],
-    "series": "GeForce RTX 3050 8GB",
-    "variant": "MSI"
+    "series": "VENTUS 2X ",
+    "variant": "OC",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black Gray"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3050 8 GB",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 1550,
+  "core_base_clock": 1552,
   "core_boost_clock": 1807,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
   "color": ["BLACK", "GREY"],
   "length": 205,
   "tdp": 115,
-  "total_slot_width": 3,
+  "total_slot_width": 2.3,
   "cooling": "2 Fans",
-  "core_count": 0,
+  "core_count": 2560,
+  "effective_memory_clock": 1750,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CBL4YJT5",
     "newegg_sku": "N82E16814137810",
     "bestbuy_sku": 6560971,
-    "walmart_sku": 2608327569
+    "walmart_sku": 2608327569,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-VENTUS-2X-XS-8G-OC/Specification"
   }
 }
