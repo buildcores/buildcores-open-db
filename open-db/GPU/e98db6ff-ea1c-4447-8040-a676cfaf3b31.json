@@ -2,7 +2,7 @@
   "opendb_id": "e98db6ff-ea1c-4447-8040-a676cfaf3b31",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,34 +13,44 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte Radeon RX 7700 XT GAMING OC 12GB GDDR6 Black",
+    "name": "Gigabyte Radeon RX 7700 XT GAMING OC 12GB GDDR6 ",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-R77XTGAMING OC-12GD"],
-    "series": "Radeon RX 7700 XT",
-    "variant": "Gigabyte"
+    "series": "GAMING",
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7700 XT",
   "memory": 12,
   "memory_type": "GDDR6",
-  "core_base_clock": 1700,
+  "core_base_clock": 1784,
   "core_boost_clock": 2599,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 18000,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 302,
   "tdp": 245,
-  "total_slot_width": 3,
+  "total_slot_width": 2.8,
   "cooling": "3 Fans",
   "core_count": 3456,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CGC5P7H3",
     "newegg_sku": "N82E16814932654",
     "bestbuy_sku": 6559399,
-    "walmart_sku": 5020444357
+    "walmart_sku": 5020444357,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-R77XTGAMING-OC-12GD"
   }
 }
