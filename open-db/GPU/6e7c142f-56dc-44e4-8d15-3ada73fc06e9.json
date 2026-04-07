@@ -2,7 +2,7 @@
   "opendb_id": "6e7c142f-56dc-44e4-8d15-3ada73fc06e9",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,34 +13,44 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Gigabyte GAMING OC Radeon RX 7800 XT 16GB GDDR6 Black",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-R78XTGAMING OC-16GD"],
-    "series": "Radeon RX 7800 XT",
-    "variant": "Gigabyte"
+    "series": "GAMING",
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7800 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1295,
+  "core_base_clock": 1624,
   "core_boost_clock": 2565,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2438,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 302,
   "tdp": 263,
-  "total_slot_width": 3,
+  "total_slot_width": 2.8,
   "cooling": "3 Fans",
   "core_count": 3840,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CGHQ32S2",
     "newegg_sku": "N82E16814932657",
     "bestbuy_sku": 6559282,
-    "walmart_sku": 5020728552
+    "walmart_sku": 5020728552,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-R78XTGAMING-OC-16GD"
   }
 }

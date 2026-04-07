@@ -3,17 +3,22 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 2,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 2,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Asus ROG STRIX GAMING OC GeForce RTX 4090 24GB GDDR6X Black",
@@ -24,8 +29,10 @@
       "90YV0ID0-M0AA00",
       "ROG-STRIX-RTX4090-O24G-GA"
     ],
-    "series": "GeForce RTX 4090",
-    "variant": "Asus"
+    "series": " ROG STRIX GAMING",
+    "variant": "OC Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4090",
@@ -33,19 +40,22 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 2235,
   "core_boost_clock": 2640,
-  "effective_memory_clock": 21000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1313,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 358,
   "tdp": 450,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
   "core_count": 16384,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BGT61797",
     "newegg_sku": "N82E16814126593",
     "bestbuy_sku": 6524435,
-    "walmart_sku": 1285356889
+    "walmart_sku": 1285356889,
+    "manufacturer_url": "https://rog.asus.com/ph/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4090-o24g-gaming-model/"
   }
 }

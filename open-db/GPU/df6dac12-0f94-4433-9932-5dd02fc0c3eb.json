@@ -2,25 +2,32 @@
   "opendb_id": "df6dac12-0f94-4433-9932-5dd02fc0c3eb",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "PowerColor Hellhound Spectral Radeon RX 9070 XT 16GB GDDR6 White",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX9070XT 16G-L", "OC", "WHITE", "RX9070XT 16G-L/OC/WHITE"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "PowerColor"
+    "series": "Hellhound ",
+    "variant": "Spectral White OC",
+    "manufacturer_color": "Glacier White",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
@@ -28,18 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2400,
   "core_boost_clock": 3010,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["WHITE"],
   "length": 327,
   "tdp": 304,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 4096,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CVVJV5LV",
     "newegg_sku": "N82E16814131883",
-    "walmart_sku": 17527511569
+    "walmart_sku": 17527511569,
+    "manufacturer_url": "https://www.powercolor.com/product-detail232.htm"
   }
 }
