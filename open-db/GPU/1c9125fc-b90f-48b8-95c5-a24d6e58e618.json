@@ -1,7 +1,7 @@
 {
   "opendb_id": "1c9125fc-b90f-48b8-95c5-a24d6e58e618",
   "power_connectors": {
-    "pcie_6_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
@@ -12,15 +12,22 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Radeon RX 580 Phantom Gaming D 8GB GDDR5 Black / Silver",
+    "name": "ASRock Radeon RX 580 OC Phantom Gaming D 8GB GDDR5 ",
     "manufacturer": "ASRock",
     "part_numbers": ["PG D RADEON RX580 8G OC", "PHANTOM D RX580 8G OC", "90-GA0M00-00UANF"],
-    "series": "Radeon RX 580",
-    "variant": "ASRock"
+    "series": "Phantom Gaming D",
+    "variant": "OC ",
+    "releaseYear": 2018,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 580",
@@ -29,14 +36,18 @@
   "core_base_clock": 1257,
   "core_boost_clock": 1370,
   "effective_memory_clock": 8000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
   "color": ["BLACK", "GREY"],
   "length": 236,
   "tdp": 185,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 2304,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B07HKB634Y"
+    "amazon_sku": "B07HKB634Y",
+    "manufacturer_url": "https://pg.asrock.com/Graphics-Card/AMD/Phantom%20Gaming%20D%20Radeon%20RX580%208G%20OC/"
   }
 }

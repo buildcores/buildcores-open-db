@@ -7,20 +7,27 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "ASRock Phantom Gaming D OC Radeon RX 6500 XT 4GB GDDR6 Black",
     "manufacturer": "ASRock",
     "part_numbers": ["RX6500XT PGD 4GO90-GA3DZZ-00UANF", "RX6500XT PGD 4GO", "90-GA3DZZ-00UANF"],
-    "series": "Radeon RX 6500 XT",
-    "variant": "ASRock"
+    "series": "Phantom Gaming D",
+    "variant": "OC ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6500 XT",
@@ -29,16 +36,19 @@
   "core_base_clock": 2365,
   "core_boost_clock": 2820,
   "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "memory_bus": 64,
+  "interface": "PCIe 4.0 x4",
   "color": ["BLACK"],
   "length": 240,
   "tdp": 107,
-  "total_slot_width": 2,
+  "total_slot_width": 2.1,
   "cooling": "2 Fans",
   "core_count": 1024,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B09RHQNT5K",
-    "newegg_sku": "N82E16814930067"
+    "newegg_sku": "N82E16814930067",
+    "manufacturer_url": "https://pg.asrock.com/Graphics-Card/AMD/Radeon%20RX%206500%20XT%20Phantom%20Gaming%20D%204GB%20OC/index.asp"
   }
 }
