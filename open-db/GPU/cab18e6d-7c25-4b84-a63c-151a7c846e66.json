@@ -2,7 +2,7 @@
   "opendb_id": "cab18e6d-7c25-4b84-a63c-151a7c846e66",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,21 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Speedster QICK 319 Core Radeon RX 7800 XT 16GB GDDR6 Black",
+    "name": "XFX Speedster QICK 319 Core Edition Radeon RX 7800 XT 16GB GDDR6 Black",
     "manufacturer": "XFX",
     "part_numbers": ["RX-78TQICKF9"],
-    "series": "Radeon RX 7800 XT",
-    "variant": "XFX"
+    "series": "Speedster QICK 319",
+    "variant": "Core Edition",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7800 XT",
@@ -28,20 +35,23 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1295,
   "core_boost_clock": 2430,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 19500,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 335,
   "tdp": 263,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 3840,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CGM92TW8",
     "newegg_sku": "N82E16814150883",
     "bestbuy_sku": 6559747,
     "walmart_sku": 7843621438,
-    "ibuypower_sku": "31653"
+    "ibuypower_sku": "31653",
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-qick-319-radeon-tm-rx-7800-xt-core-edition"
   }
 }
