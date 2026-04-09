@@ -2,7 +2,7 @@
   "opendb_id": "9d8059a4-9758-428f-b573-ffdb4b526f94",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,10 +13,15 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI VENTUS XS OC GeForce GTX 1660 SUPER 6GB GDDR6 Black / Silver",
+    "name": "MSI GeForce GTX 1660 SUPER VENTUS XS OC 6GB GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
       "GTX 1660 SUPER VENTUS XS OC",
@@ -24,8 +29,10 @@
       "GeForce GTX 1660 SUPER VENTUS XS OC",
       "V375-279R"
     ],
-    "series": "GeForce GTX 1660 SUPER",
-    "variant": "MSI"
+    "series": "VENTUS XS",
+    "variant": "OC ",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 SUPER",
@@ -34,16 +41,20 @@
   "core_base_clock": 1530,
   "core_boost_clock": 1815,
   "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
   "color": ["BLACK", "GREY"],
   "length": 204,
   "tdp": 125,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1408,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07ZHDZ1K6",
     "bestbuy_sku": 6518174,
-    "walmart_sku": 782890935
+    "walmart_sku": 782890935,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1660-SUPER-VENTUS-XS-OC/Specification"
   }
 }
