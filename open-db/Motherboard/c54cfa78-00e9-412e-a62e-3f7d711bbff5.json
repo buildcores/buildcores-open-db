@@ -1,12 +1,12 @@
 {
   "opendb_id": "c54cfa78-00e9-412e-a62e-3f7d711bbff5",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 7,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,29 +17,41 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
     "name": "MSI MAG Z790 TOMAHAWK WIFI DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "MAG Z790 TOMAHAWK WIFI",
-      "7D91-009R",
-      "911-7D91-010",
-      "MAG Z790 TOMAHAWK",
-      "Z790TOMWI"
-    ],
-    "series": "MAG",
-    "variant": ""
+    "part_numbers": ["MAG Z790 TOMAHAWK WIFI", "7D91-009R"],
+    "variant": "MAG TOMAHAWK WIFI",
+    "series": "Z790",
+    "releaseYear": 2022,
+    "last_manually_spec_verified_at": "2026-04-09T21:41:25.757Z"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -47,72 +59,48 @@
   "color": ["BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16,
       "_id": "69b3ac55c0db8dfe4bc77036"
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
+      "lanes": 4,
       "_id": "69b3ac55c0db8dfe4bc77037"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "69d81c5c59f8536dfe0736c4"
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "22110/2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac55c0db8dfe4bc77038"
     },
     {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac55c0db8dfe4bc77039"
     },
     {
-      "size": "2260-2280",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac55c0db8dfe4bc7703a"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3ac55c0db8dfe4bc7703b"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac55c0db8dfe4bc7703c"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac55c0db8dfe4bc7703d"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac55c0db8dfe4bc7703e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac55c0db8dfe4bc7703f"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac55c0db8dfe4bc77040"
     }
   ],
   "onboard_ethernet": [
@@ -125,11 +113,24 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel)"],
+  "back_panel_ports": [
+    "1 x DisplayPort 1.4",
+    "1 x HDMI 2.1 port",
+    "1 x Clear CMOS button",
+    "1 x Flash BIOS button",
+    "4 x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "4 x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "1 x USB 3.2 Gen 2 10Gbps Type-C port",
+    "1 x USB 3.2 Gen 2x2 20Gbps Type-C port",
+    "1 x 2.5Gbps LAN (RJ45) port",
+    "2 x Wi-Fi antenna connectors",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF Out connector"
+  ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0BL8K1YH1",
     "newegg_sku": "N82E16813144567",
-    "bestbuy_sku": 6539242,
     "walmart_sku": 2664800510
   }
 }
