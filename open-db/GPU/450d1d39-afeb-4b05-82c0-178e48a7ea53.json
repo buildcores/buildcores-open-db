@@ -2,7 +2,7 @@
   "opendb_id": "450d1d39-afeb-4b05-82c0-178e48a7ea53",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 1,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,21 +12,28 @@
     "displayport_2_1": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "EVGA GeForce RTX 3060 Ti FTW3 ULTRA GAMING, 08G-P5-3667-KL, 8GB GDDR6, iCX3 Cooling, ARGB LED, Metal Backplate, LHR",
+    "name": "EVGA GeForce RTX 3060 Ti FTW3 ULTRA GAMING 8GB GDDR6",
     "manufacturer": "EVGA",
-    "series": "RTX 3060 Ti FTW3",
+    "series": "FTW3",
     "variant": "ULTRA GAMING",
     "releaseYear": 2021,
-    "part_numbers": ["ASUS", "08G-P5-3667-KL"]
+    "part_numbers": ["ASUS", "08G-P5-3667-KL"],
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 Ti",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 1800,
+  "core_base_clock": 1410,
   "core_boost_clock": 1800,
   "effective_memory_clock": 14000,
   "memory_bus": 256,
@@ -35,14 +42,15 @@
   "length": 285,
   "tdp": 200,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 2,
+  "total_slot_width": 2.2,
   "cooling": "3 Fans",
-  "color": [],
+  "color": ["BLACK", "GREY"],
   "core_count": 4864,
   "general_product_information": {
     "amazon_sku": "B083Z5P6TX",
     "newegg_sku": "N82E16814487537",
     "bestbuy_sku": 6452573,
-    "walmart_sku": 494110462
+    "walmart_sku": 494110462,
+    "manufacturer_url": "https://www.evga.com/products/specs/gpu.aspx?pn=a90a6301-d51f-4e0a-98f0-e618b7888fc1"
   }
 }

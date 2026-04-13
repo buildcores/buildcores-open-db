@@ -4,7 +4,7 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
     "hdmi_2_1": 0,
@@ -13,34 +13,44 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte AORUS MASTER GeForce RTX 5070 12GB GDDR7 Black",
+    "name": "Gigabyte AORUS GeForce RTX 5070 MASTER 12G GDDR7",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N5070AORUS-M-12GD", "GV-N5070AORUS M-12GD"],
-    "series": "GeForce RTX 5070",
-    "variant": "Gigabyte"
+    "series": "AORUS ",
+    "variant": "MASTER ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
-  "core_base_clock": 2160,
+  "core_base_clock": 2325,
   "core_boost_clock": 2715,
   "effective_memory_clock": 28000,
   "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "RGB"],
   "length": 317,
   "tdp": 250,
-  "total_slot_width": 4,
+  "total_slot_width": 3.2,
   "cooling": "3 Fans",
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0DTR3WM7Y",
     "newegg_sku": "N82E16814932772",
     "bestbuy_sku": 6621259,
-    "walmart_sku": 16367110832
+    "walmart_sku": 16367110832,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N5070AORUS-M-12GD"
   }
 }
