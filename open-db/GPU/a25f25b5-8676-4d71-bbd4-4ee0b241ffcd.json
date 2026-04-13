@@ -2,42 +2,52 @@
   "opendb_id": "a25f25b5-8676-4d71-bbd4-4ee0b241ffcd",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Hellhound OC Radeon RX 9060 XT 8GB GDDR6 Black",
+    "name": "PowerColor Hellhound OC Radeon RX 9060 XT 8GB GDDR6",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX9060XT 8G-L", "OC", "RX9060XT 8G-L/OC"],
-    "series": "Radeon RX 9060 XT",
-    "variant": "PowerColor"
+    "series": "Hellhound",
+    "variant": "OC ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 8 GB",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 2220,
+  "core_base_clock": 1700,
   "core_boost_clock": 3310,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 20000,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK"],
   "length": 310,
-  "tdp": 160,
+  "tdp": 150,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 2048,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B0F9QBK9C9"
+    "amazon_sku": "B0F9QBK9C9",
+    "manufacturer_url": "https://www.powercolor.com/product-detail251.htm"
   }
 }

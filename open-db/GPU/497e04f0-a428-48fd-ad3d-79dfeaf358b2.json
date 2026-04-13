@@ -3,7 +3,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -13,33 +13,42 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA GeForce RTX 4080 Founders Edition 16GB GDDR6X Black / Silver",
+    "name": "NVIDIA GeForce RTX 4080 Founders Edition 16GB GDDR6X",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G136-2560-000", "9001G13625600CA"],
-    "series": "GeForce RTX 4080",
-    "variant": "NVIDIA"
+    "series": "Founders Edition",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2024
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080",
   "memory": 16,
   "memory_type": "GDDR6X",
-  "core_base_clock": 2210,
-  "core_boost_clock": 2510,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "core_base_clock": 2295,
+  "core_boost_clock": 2550,
+  "effective_memory_clock": 23000,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "GREEN"],
   "length": 304,
   "tdp": 320,
   "total_slot_width": 3,
   "cooling": "2 Fans",
   "core_count": 9728,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0BMZ9TGH1",
     "bestbuy_sku": 6521431,
-    "walmart_sku": 2578155429
+    "walmart_sku": 2578155429,
+    "manufacturer_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/"
   }
 }
