@@ -2,7 +2,7 @@
   "opendb_id": "af52846a-3e56-4d87-aebd-717cca7bf670",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,21 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "XFX Speedster SWFT 210 Core Radeon RX 7800 XT 16GB GDDR6 Black",
     "manufacturer": "XFX",
     "part_numbers": ["RX-78TSWFTFP"],
-    "series": "Radeon RX 7800 XT",
-    "variant": "XFX"
+    "series": "Speedster SWFT 210",
+    "variant": "Core",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7800 XT",
@@ -29,17 +36,20 @@
   "core_base_clock": 1295,
   "core_boost_clock": 2430,
   "effective_memory_clock": 19500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 283,
   "tdp": 263,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "core_count": 3840,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0D9QKFT9T",
     "newegg_sku": "N82E16814150895",
-    "walmart_sku": 10521213554
+    "walmart_sku": 10521213554,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-swft-210-radeon-tm-rx-7800-xt-core-edition"
   }
 }

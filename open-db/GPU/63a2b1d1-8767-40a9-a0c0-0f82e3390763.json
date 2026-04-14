@@ -1,18 +1,33 @@
 {
   "opendb_id": "63a2b1d1-8767-40a9-a0c0-0f82e3390763",
   "power_connectors": {
-    "pcie_8_pin": 2
+    "pcie_8_pin": 2,
+    "pcie_6_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "displayport_2_1_b": 3
+    "hdmi_2_1": 0,
+    "displayport_2_1_b": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1a": 3,
+    "displayport_1_4a": 0,
+    "displayport_2_1": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": " PowerColor Hellhound AMD Radeon RX 9070 XT 16GB GDDR6 Reva Edition",
+    "name": "PowerColor Hellhound AMD Radeon RX 9070 XT 16GB GDDR6 Reva Edition",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX9070XT 16G-L/OC/REVA"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "Hellbound REVA EDITION",
+    "series": "Hellhound",
+    "variant": "Reva Edition",
+    "manufacturer_color": "White",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2025-12-23T02:28:25.916Z"
   },
   "chipset_manufacturer": "AMD",
@@ -22,15 +37,15 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1660,
   "core_boost_clock": 3010,
-  "effective_memory_clock": 2518,
+  "effective_memory_clock": 20000,
   "memory_bus": 256,
   "interface": "PCIe 5.0 x16",
-  "color": ["BLACK", "WHITE"],
+  "color": ["BLACK", "WHITE", "BLUE"],
   "frame_sync": "FreeSync",
   "length": 346,
-  "tdp": 315,
+  "tdp": 304,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "general_product_information": {
     "amazon_sku": "B0FW46JDWZ",
