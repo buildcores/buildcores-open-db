@@ -3,25 +3,31 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 1,
-    "pcie_12V_2x6": 0
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": null,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "displayport_2_1_b": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GAMING TRIO OC GeForce RTX 5060 Ti 16GB GDDR7 White",
+    "name": "MSI GeForce RTX 5060 Ti 16G GAMING TRIO OC WHITE GDDR7",
     "manufacturer": "MSI",
     "part_numbers": ["G506T-16GTCW", "RTX 5060 Ti 16G GAMING TRIO OC WHITE", "V535-025R"],
-    "series": "GeForce RTX 5060 Ti",
-    "variant": "16G GAMING TRIO OC WHITE",
+    "series": "GAMING TRIO",
+    "variant": "OC WHITE",
+    "manufacturer_color": "White",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2026-02-21T08:58:20.006Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -29,14 +35,14 @@
   "memory": 16,
   "memory_type": "GDDR7",
   "core_base_clock": 2407,
-  "core_boost_clock": 2572,
+  "core_boost_clock": 2647,
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "interface": "PCIe 5.0 x8",
-  "color": ["WHITE"],
+  "color": ["WHITE", "RGB"],
   "length": 300,
   "tdp": 180,
-  "total_slot_width": 2,
+  "total_slot_width": 2.2,
   "cooling": "3 Fans",
   "core_count": 4608,
   "frame_sync": "G-Sync",
@@ -45,6 +51,6 @@
     "amazon_sku": "B0F38FFXDP",
     "newegg_sku": "N82E16814137953",
     "walmart_sku": 16568923883,
-    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-16G-GAMING-TRIO-OC-WHITE"
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-16G-GAMING-TRIO-OC-WHITE/Specification"
   }
 }
