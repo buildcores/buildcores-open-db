@@ -1,26 +1,33 @@
 {
   "opendb_id": "be5a2119-3146-46d2-899e-f9a7876c083e",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_1": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte GeForce RTX 3070 GAMING OC 8GB GDDR6 Black Silver",
+    "name": "Gigabyte GeForce RTX 3070 GAMING OC 8G GDDR6",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N3070GAMING OC8GD", "GV-N3070GAMING OC-8GD"],
-    "series": "GeForce RTX 3070",
-    "variant": "Gigabyte"
+    "series": "GAMING",
+    "variant": "OC ",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3070",
@@ -28,17 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1815,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 286,
   "tdp": 220,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "3 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08KY266MG",
-    "walmart_sku": 566963676
+    "walmart_sku": 566963676,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N3070GAMING-OC-8GD-rev-10/sp"
   }
 }
