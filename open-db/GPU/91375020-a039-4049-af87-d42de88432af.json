@@ -2,7 +2,7 @@
   "opendb_id": "91375020-a039-4049-af87-d42de88432af",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,19 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "AMD Radeon RX 7800 XT 16GB GDDR6 Black",
+    "name": "AMD Radeon RX 7800 XT 16GB GDDR6",
     "manufacturer": "AMD",
     "part_numbers": ["100-300000082", "11330-02-20G", "489 51062 9434 9"],
-    "series": "Radeon RX 7800 XT",
-    "variant": "AMD"
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7800 XT",
@@ -28,16 +33,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1295,
   "core_boost_clock": 2430,
-  "effective_memory_clock": 19500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2438,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 267,
   "tdp": 263,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "core_count": 3840,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B0CGM19NMS"
+    "amazon_sku": "B0CGM19NMS",
+    "manufacturer_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7800-xt.html#product-specs"
   }
 }
