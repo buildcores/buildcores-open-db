@@ -4,19 +4,24 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GAMING OC GeForce RTX 5060 Ti 8GB GDDR7 Black",
+    "name": "MSI GAMING OC GeForce RTX 5060 Ti 8GB GDDR7 ",
     "manufacturer": "MSI",
     "part_numbers": [
       "GeForce RTX 5060 Ti 8G GAMING OC",
@@ -24,28 +29,33 @@
       "G506T-8GC",
       "GeForce RTX 5060 TI 8G GAMING OC"
     ],
-    "series": "GeForce RTX 5060 Ti",
-    "variant": "MSI"
+    "series": "GAMING",
+    "variant": "OC ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "memory": 8,
   "memory_type": "GDDR7",
-  "core_base_clock": 2410,
-  "core_boost_clock": 2410,
-  "effective_memory_clock": 2662,
+  "core_base_clock": 2407,
+  "core_boost_clock": 2647,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "interface": "PCIe 5.0 x8",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 247,
   "tdp": 180,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "2 Fans",
   "core_count": 4608,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F4M8PX1V",
     "newegg_sku": "N82E16814137963",
     "bestbuy_sku": 6633165,
-    "walmart_sku": 16573519883
+    "walmart_sku": 16573519883,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-GAMING-OC/Specification"
   }
 }
