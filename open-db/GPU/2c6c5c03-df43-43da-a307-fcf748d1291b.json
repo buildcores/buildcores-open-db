@@ -12,15 +12,21 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
-    "dvi_d": 0,
-    "vga": 1
+    "dvi_d": 1,
+    "vga": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus GT730-SL-2GD5-BRK GeForce GT 730 2 GB",
+    "name": "Asus GeForce GT 730 2 GB GDDR5",
     "manufacturer": "Asus",
     "part_numbers": ["GT730-SL-2GD5-BRK", "90YV06N2-M0NA00"],
-    "series": "GeForce GT 730",
-    "variant": "Asus"
+    "series": "BRK",
+    "releaseYear": 2014,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GT 730",
@@ -28,20 +34,20 @@
   "memory_type": "GDDR5",
   "core_base_clock": 902,
   "core_boost_clock": 902,
-  "effective_memory_clock": 5010,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "frame_sync": null,
-  "length": 165,
-  "tdp": 49,
+  "effective_memory_clock": 1253,
+  "memory_bus": 64,
+  "frame_sync": "None",
+  "length": 150,
+  "tdp": 38,
   "case_expansion_slot_width": 1,
-  "total_slot_width": 2,
+  "total_slot_width": 1,
   "cooling": "Passive",
-  "color": [],
-  "core_count": 0,
+  "color": ["BLACK", "GREY"],
+  "core_count": 384,
   "general_product_information": {
     "amazon_sku": "B01A9GJ55K",
     "newegg_sku": "N82E16814126537",
-    "walmart_sku": 502221702
+    "walmart_sku": 502221702,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/graphics-cards/asus/gt730-sl-2gd5-brk/"
   }
 }

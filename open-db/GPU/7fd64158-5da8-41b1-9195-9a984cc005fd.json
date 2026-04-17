@@ -2,7 +2,7 @@
   "opendb_id": "7fd64158-5da8-41b1-9195-9a984cc005fd",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,21 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "ASRock Steel Legend OC Radeon RX 7600 8GB GDDR6 White",
     "manufacturer": "ASRock",
     "part_numbers": ["RX7600 SL 8GO", "90-GA4DZZ-00UANF"],
-    "series": "Radeon RX 7600",
-    "variant": "ASRock"
+    "series": "Steel Legend",
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "White"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7600",
@@ -28,17 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1720,
   "core_boost_clock": 2725,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE"],
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["WHITE", "RGB"],
   "length": 303,
   "tdp": 165,
-  "total_slot_width": 3,
+  "total_slot_width": 2.25,
   "cooling": "3 Fans",
   "core_count": 2048,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C6HTVV52",
-    "newegg_sku": "N82E16814930092"
+    "newegg_sku": "N82E16814930092",
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207600%20Steel%20Legend%208GB%20OC/"
   }
 }
