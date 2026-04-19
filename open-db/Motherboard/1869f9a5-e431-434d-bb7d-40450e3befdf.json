@@ -28,7 +28,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -41,15 +41,22 @@
     "variant": "A520M K V2",
     "manufacturer_color": "Black",
     "part_numbers": ["A520M K V2"],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "last_manually_spec_verified_at": "2026-04-19T09:29:04.025Z"
   },
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1,
+      "lanes": 16,
       "_id": "69e46d2de020b45ee645ff39"
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1,
+      "_id": "69e4700ed3fcc3b77d53ca78"
     }
   ],
   "m2_slots": [
@@ -84,7 +91,6 @@
   "back_connect_connectors": true,
   "general_product_information": {
     "amazon_sku": "B0BXFBN121",
-    "newegg_sku": "9SIA4REKE96159",
-    "manufacturer_url": "https://www.gigabyte.com/Motherboard/A520M-K-V2-rev-11"
+    "newegg_sku": "9SIA4REKE96159"
   }
 }
