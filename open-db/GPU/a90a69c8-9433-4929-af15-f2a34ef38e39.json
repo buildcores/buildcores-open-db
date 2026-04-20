@@ -1,8 +1,8 @@
 {
   "opendb_id": "a90a69c8-9433-4929-af15-f2a34ef38e39",
   "power_connectors": {
-    "pcie_6_pin": 1,
-    "pcie_8_pin": 1,
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -11,34 +11,43 @@
     "hdmi_2_0": 1,
     "displayport_2_1": 0,
     "displayport_1_4a": 3,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA GeForce GTX 1080 Ti",
+    "name": "EVGA GeForce GTX 1080 Ti FTW3 GAMING 11GB GDDR5X",
     "manufacturer": "NVIDIA",
-    "part_numbers": ["11G-P4-6696-KR-cr"],
-    "series": "GTX 10",
-    "variant": "Founders Edition",
-    "releaseYear": 2017
+    "part_numbers": ["11G-P4-6696-KR", "11G-P4-6696-KR-cr"],
+    "series": "FTW3",
+    "releaseYear": 2017,
+    "variant": "GAMING ",
+    "manufacturer_color": "Gunmetal Gray"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1080 Ti",
   "memory": 11,
   "memory_type": "GDDR5X",
   "core_base_clock": 1481,
-  "core_boost_clock": 1582,
-  "effective_memory_clock": 11000,
+  "core_boost_clock": 1683,
+  "effective_memory_clock": 1376,
   "memory_bus": 352,
   "interface": "PCIe 3.0 x16",
-  "frame_sync": null,
-  "length": 267,
+  "frame_sync": "G-Sync",
+  "length": 299.72,
   "tdp": 250,
-  "case_expansion_slot_width": 0,
-  "total_slot_width": 0,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["GREY", "BLACK"],
+  "core_count": 3584,
   "general_product_information": {
-    "amazon_sku": "B07QGGCR85"
+    "amazon_sku": "B07QGGCR85",
+    "manufacturer_url": "https://www.evga.com/products/specs/gpu.aspx?pn=1190fbf7-7f11-465d-b303-cab0e50fbdc6"
   }
 }

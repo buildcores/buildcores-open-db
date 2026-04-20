@@ -2,44 +2,54 @@
   "opendb_id": "c77bab65-1e05-4d15-b37c-442fcfae8ee3",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 2,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 2,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 2,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sapphire NITRO+ Radeon RX 7900 XTX 24GB GDDR6 Silver / Black",
+    "name": "Sapphire NITRO+ AMD Radeon RX 7900 XTX Vapor-X 24GB GDDR6",
     "manufacturer": "Sapphire",
     "part_numbers": ["11322-01-20G", "11322-01-40G"],
-    "series": "Radeon RX 7900 XTX",
-    "variant": "Sapphire"
+    "series": "NITRO+",
+    "variant": "Vapor-X",
+    "manufacturer_color": "Gray",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 XTX",
   "memory": 24,
   "memory_type": "GDDR6",
-  "core_base_clock": 2300,
+  "core_base_clock": 2119,
   "core_boost_clock": 2680,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["GREY", "BLACK"],
+  "effective_memory_clock": 2500,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["GREY", "BLACK", "RGB"],
   "length": 320,
   "tdp": 420,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
   "core_count": 6144,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0BR6JWP1Q",
     "newegg_sku": "N82E16814202428",
-    "walmart_sku": 2691164786
+    "walmart_sku": 2691164786,
+    "manufacturer_url": "https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-7900-xtx-vaporx-24g-gddr6#Specification"
   }
 }

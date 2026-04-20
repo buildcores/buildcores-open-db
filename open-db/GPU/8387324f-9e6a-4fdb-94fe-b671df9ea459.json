@@ -2,7 +2,7 @@
   "opendb_id": "8387324f-9e6a-4fdb-94fe-b671df9ea459",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,21 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Speedster QICK 308 Radeon RX 7600 8GB GDDR6 Black",
+    "name": "XFX SPEEDSTER QICK 308 AMD Radeon™ RX 7600 Black Edition 8GB GDDR6",
     "manufacturer": "XFX",
     "part_numbers": ["RX-76PQICKBY"],
-    "series": "Radeon RX 7600",
-    "variant": "XFX"
+    "series": "Speedster QICK 308",
+    "variant": "Black Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7600",
@@ -28,18 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1875,
   "core_boost_clock": 2755,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 272,
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK", "GREY"],
+  "length": 274,
   "tdp": 165,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 2048,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C59PD6LD",
     "bestbuy_sku": 6545509,
-    "walmart_sku": 2057809101
+    "walmart_sku": 2057809101,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-7600-black-edition"
   }
 }
