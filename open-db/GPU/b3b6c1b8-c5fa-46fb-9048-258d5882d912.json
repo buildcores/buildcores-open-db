@@ -2,7 +2,7 @@
   "opendb_id": "b3b6c1b8-c5fa-46fb-9048-258d5882d912",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,33 +13,43 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Challenger OC Radeon RX 7700 XT 12GB GDDR6 Black",
+    "name": "ASRock AMD Radeon RX 7700 XT Challenger 12GB OC GDDR6",
     "manufacturer": "ASRock",
     "part_numbers": ["RX7700XT CL 12GO", "90-GA4QZZ-00UANF"],
-    "series": "Radeon RX 7700 XT",
-    "variant": "ASRock"
+    "series": "Challenger",
+    "variant": "OC",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7700 XT",
   "memory": 12,
   "memory_type": "GDDR6",
-  "core_base_clock": 1700,
+  "core_base_clock": 1603,
   "core_boost_clock": 2584,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 266,
+  "effective_memory_clock": 2250,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
+  "length": 267,
   "tdp": 245,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "2 Fans",
   "core_count": 3456,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CHK2345D",
     "newegg_sku": "N82E16814930109",
-    "walmart_sku": 5020444356
+    "walmart_sku": 5020444356,
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207700%20XT%20Challenger%2012GB%20OC/#Specification"
   }
 }
