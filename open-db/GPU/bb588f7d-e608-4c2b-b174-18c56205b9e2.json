@@ -2,7 +2,7 @@
   "opendb_id": "bb588f7d-e608-4c2b-b174-18c56205b9e2",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,11 +12,16 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI ARMOR OC Radeon RX 580 8GB GDDR5 Black / White",
+    "name": "MSI ARMOR OC Radeon RX 580 8GB GDDR5 ",
     "manufacturer": "MSI",
     "part_numbers": [
       "RX 580 ARMOR 8G OC",
@@ -24,8 +29,10 @@
       "V341-064R",
       "Radeon RX 580 ARMOR 8G OC"
     ],
-    "series": "Radeon RX 580",
-    "variant": "MSI"
+    "series": "ARMOR",
+    "variant": "OC ",
+    "manufacturer_color": "Black / White",
+    "releaseYear": 2017
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 580",
@@ -33,17 +40,21 @@
   "memory_type": "GDDR5",
   "core_base_clock": 1257,
   "core_boost_clock": 1366,
-  "effective_memory_clock": 8000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
   "color": ["BLACK", "WHITE"],
   "length": 269,
   "tdp": 185,
-  "total_slot_width": 2,
+  "total_slot_width": 1.9,
   "cooling": "2 Fans",
+  "core_count": 2304,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B06XZQMMHJ",
     "newegg_sku": "9SIA4RRF007102",
-    "walmart_sku": 877976454
+    "walmart_sku": 877976454,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/Radeon-RX-580-ARMOR-8G-OC/Specification"
   }
 }
