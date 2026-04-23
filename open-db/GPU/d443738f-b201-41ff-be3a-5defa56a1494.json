@@ -2,7 +2,7 @@
   "opendb_id": "d443738f-b201-41ff-be3a-5defa56a1494",
   "power_connectors": {
     "pcie_6_pin": 2,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,36 +12,44 @@
     "displayport_2_1": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 3060 Ti Ventus 2X OC",
+    "name": "MSI GeForce RTX™ 3060 Ti VENTUS 2X OC GDDR6",
     "manufacturer": "MSI",
-    "series": "Ventus",
+    "series": "VENTUS 2X",
     "variant": "OC",
     "releaseYear": 2020,
-    "part_numbers": ["RTX 3060 Ti VENTUS 2X OC", "RTX 3060 Ti VENTUS 2X 8G OCV1 LHR"]
+    "part_numbers": ["RTX 3060 Ti VENTUS 2X OC", "RTX 3060 Ti VENTUS 2X 8G OCV1 LHR"],
+    "manufacturer_color": "Silver / Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 Ti",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 1695,
+  "core_base_clock": 1410,
   "core_boost_clock": 1695,
-  "effective_memory_clock": 14,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
   "interface": "PCIe 4.0 x16",
-  "frame_sync": null,
-  "length": 235,
+  "frame_sync": "G-Sync",
+  "length": 232,
   "tdp": 200,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 2,
+  "total_slot_width": 2.6,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK", "GREY"],
   "core_count": 4864,
   "general_product_information": {
     "amazon_sku": "B08P2DQ28S",
     "newegg_sku": "N82E16814137612",
-    "walmart_sku": 285926318
+    "walmart_sku": 285926318,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-Ti-ventus-2X-OC/Specification"
   }
 }
