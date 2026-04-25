@@ -2,7 +2,7 @@
   "opendb_id": "2742003b-291e-46e1-8984-7220ce384fa2",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,31 +13,42 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI VENTUS GP OC GeForce RTX 2060 SUPER 8GB GDDR6 Silver / Black",
+    "name": "MSI GeForce RTX 2060 SUPER™ VENTUS GP OC 8GB GDDR6",
     "manufacturer": "MSI",
     "part_numbers": ["RTX 2060 SUPER VENTUS GP OC", "G206SVPC", "RTX 2060 Super Ventus GP OC"],
-    "series": "GeForce RTX 2060 SUPER",
-    "variant": "MSI"
+    "series": "VENTUS GP",
+    "releaseYear": 2019,
+    "manufacturer_color": "Silver / Black",
+    "variant": "OC"
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 2060 SUPER",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 1470,
   "core_boost_clock": 1665,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
   "color": ["GREY", "BLACK"],
   "length": 232,
-  "tdp": 175,
-  "total_slot_width": 2,
+  "tdp": 184,
+  "total_slot_width": 2.1,
   "cooling": "2 Fans",
+  "chipset": "GeForce RTX 2060 SUPER",
+  "core_count": 2176,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07YXQ19NC",
-    "walmart_sku": 214912465
+    "walmart_sku": 214912465,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-SUPER-VENTUS-GP-OC/Specification"
   }
 }
