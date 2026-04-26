@@ -2,25 +2,30 @@
   "opendb_id": "5cd402a8-532a-4ba8-b724-dd76733a68aa",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 4,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "AMD Radeon PRO W7900 48GB GDDR6 Black",
+    "name": "AMD Radeon™ PRO W7900 Professional Graphics 48GB GDDR6",
     "manufacturer": "AMD",
     "part_numbers": ["100-300000074"],
-    "series": "Radeon PRO W7900",
-    "variant": "AMD"
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon PRO W7900",
@@ -28,18 +33,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1855,
   "core_boost_clock": 2495,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 2250,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 280,
   "tdp": 295,
   "total_slot_width": 3,
   "cooling": "1 Fan",
-  "core_count": 0,
+  "core_count": 6144,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0C5DK4R3G",
     "newegg_sku": "N82E16814105114",
-    "walmart_sku": 3022908998
+    "walmart_sku": 3022908998,
+    "manufacturer_url": "https://www.amd.com/content/dam/amd/en/documents/products/graphics/workstation/radeon-pro-w7900-datasheet.pdf"
   }
 }

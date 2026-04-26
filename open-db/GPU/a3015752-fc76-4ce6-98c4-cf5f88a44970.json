@@ -1,19 +1,32 @@
 {
   "opendb_id": "a3015752-fc76-4ce6-98c4-cf5f88a44970",
   "power_connectors": {
-    "pcie_8_pin": 2
+    "pcie_8_pin": 0,
+    "pcie_12V_2x6": 1,
+    "pcie_6_pin": 0,
+    "pcie_12VHPWR": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "displayport_2_1_b": 3
+    "hdmi_2_1": 0,
+    "displayport_2_1_b": 3,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1": 0,
+    "displayport_1_4a": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 5080 16GB VENTUS 3X PLUS",
+    "name": "MSI GeForce RTX 5080 VENTUS 3X PLUS 16GB GDDR7",
     "manufacturer": "MSI",
     "part_numbers": ["G5080-16V3P"],
-    "series": "GeForce RTX 5080",
-    "variant": "Ventus 3X Plus",
+    "series": "VENTUS 3X PLUS",
     "releaseYear": 2025,
+    "manufacturer_color": "Silver",
     "last_manually_spec_verified_at": "2025-10-27T23:06:43.277Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -22,8 +35,8 @@
   "memory": 16,
   "memory_type": "GDDR7",
   "core_base_clock": 2295,
-  "core_boost_clock": 2625,
-  "effective_memory_clock": 30000,
+  "core_boost_clock": 2617,
+  "effective_memory_clock": 1875,
   "memory_bus": 256,
   "color": ["GREY", "BLACK"],
   "frame_sync": "G-Sync",
@@ -31,7 +44,7 @@
   "tdp": 360,
   "cooling": "3 Fans",
   "interface": "PCIe 5.0 x16",
-  "total_slot_width": 3,
+  "total_slot_width": 2.45,
   "case_expansion_slot_width": 2,
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-16G-VENTUS-3X-PLUS/"
