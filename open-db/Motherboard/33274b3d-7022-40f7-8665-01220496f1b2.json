@@ -47,16 +47,15 @@
   "metadata": {
     "name": "ASUS ROG STRIX B850-F GAMING WIFI7 NEO",
     "manufacturer": "ASUS",
-    "variant": "ROG STRIX B850-F GAMING WIFI7",
+    "variant": "ROG STRIX B850-F GAMING WIFI7 NEO",
     "manufacturer_color": "Black",
     "part_numbers": [
       "rog-strix-b850-f-gaming-wifi7-neo",
-      "ROG Strix B850-F GAMING WIFI7 NEO",
-      "ROG STRIX B850-F GAMING WIFI"
+      "ROG STRIX B850-F GAMING WIFI7 NEO"
     ],
     "series": "B850",
     "releaseYear": 2026,
-    "last_manually_spec_verified_at": "2026-04-19T12:07:17.786Z"
+    "last_manually_spec_verified_at": "2026-04-27T14:45:31.000Z"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -85,7 +84,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 5.0 x4",
       "_id": "69e4c407798a17d6d8ab1c40"
     },
     {
@@ -103,7 +102,7 @@
   ],
   "onboard_ethernet": [
     {
-      "speed": "10 Gb/s",
+      "speed": "5 Gb/s",
       "controller": "Realtek",
       "_id": "69e4c407798a17d6d8ab1c3e"
     }
@@ -111,6 +110,7 @@
   "back_panel_ports": [
     "4 x USB 10Gbps ports (2 x Type-A + 2 x USB Type-C)",
     "6 x USB 5Gbps ports (5 x Type-A + 1 x USB Type-C)",
+    "2 x USB 2.0 ports (2 x Type-A)",
     "1 x HDMI port",
     "1 x Wi-Fi module",
     "1 x Realtek 5Gb Ethernet port",
@@ -123,11 +123,9 @@
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "ecc_support": true,
   "raid_support": true,
-  "back_connect_connectors": true,
+  "back_connect_connectors": false,
   "general_product_information": {
-    "amazon_sku": "B0DPLQWLBD",
     "newegg_sku": "N82E16813119775",
-    "bestbuy_sku": 6612911,
-    "walmart_sku": 19949955472
+    "manufacturer_url": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b850-f-gaming-wifi7-neo/spec/"
   }
 }

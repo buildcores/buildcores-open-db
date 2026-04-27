@@ -28,11 +28,11 @@
   "metadata": {
     "name": "SAPPHIRE PURE X870A WIFI 7",
     "manufacturer": "Sapphire",
-    "part_numbers": ["PURE X870A WIFI 7"],
+    "part_numbers": ["PURE X870A WIFI 7", "52122-02-40G"],
     "series": "X870",
     "variant": "A WiFi 7",
     "releaseYear": 2025,
-    "last_manually_spec_verified_at": "2026-01-04T02:03:01.353Z"
+    "last_manually_spec_verified_at": "2026-04-27T14:43:35.000Z"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -60,40 +60,45 @@
   ],
   "m2_slots": [
     {
-      "size": "",
+      "size": null,
       "key": "M",
-      "interface": "PCIe 5.0",
+      "interface": "PCIe 5.0 x4",
       "_id": "69b3acad36a2b96d5d842da0"
     },
     {
-      "size": "",
+      "size": null,
       "key": "M",
-      "interface": "PCIe 4.0",
+      "interface": "PCIe 4.0 x4",
       "_id": "69b3acad36a2b96d5d842da1"
     },
     {
-      "size": "",
+      "size": null,
       "key": "M",
-      "interface": "PCIe 4.0",
+      "interface": "PCIe 4.0 x4",
       "_id": "69b3acad36a2b96d5d842da2"
     }
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "raid_support": false,
   "back_panel_ports": [
     "1 × DisplayPort",
-    "1 × HDMI ",
+    "1 × HDMI",
     "1 × RJ45 LAN",
-    "2 × Wi Fi Antenna",
+    "2 × Wi-Fi Antenna",
     "One-click Flash BIOS Button",
     "2× USB 2.0",
     "4× USB 3.2 Gen1 Type-A",
     "1× USB 3.2 Gen2 Type-A",
-    " 6× Audio Jacks",
+    "6× Audio Jacks",
     "1x USB 4.0 40G (DisplayPort Alt mode & 15W PD) Type-C"
   ],
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek RTL8126"
+    }
+  ],
   "general_product_information": {
     "manufacturer_url": "https://www.sapphiretech.com/en/consumer/mb_pure_x870a-wifi7#Specification"
-  }
+  },
+  "raid_support": true
 }
