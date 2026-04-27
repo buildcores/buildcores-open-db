@@ -9,8 +9,8 @@
     "sata_6_gb_s": 6
   },
   "usb_headers": {
-    "usb_3_2_gen_1": 4,
-    "usb_2_0": 4,
+    "usb_3_2_gen_1": 2,
+    "usb_2_0": 2,
     "usb_3_2_gen_2": 1
   },
   "fan_headers": {
@@ -45,10 +45,10 @@
     "manufacturer": "MSI",
     "manufacturer_color": "Black",
     "part_numbers": ["PRO-Z790-P-II"],
-    "series": "Z790",
-    "variant": "PRO Z790-P II",
+    "series": "PRO",
+    "variant": "Z790-P II",
     "releaseYear": 2024,
-    "last_manually_spec_verified_at": "2026-04-19T08:01:23.431Z"
+    "last_manually_spec_verified_at": "2026-04-27T14:43:51Z"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -82,7 +82,7 @@
       "_id": "69e48b85d3fcc3b77d5c9b39"
     },
     {
-      "size": "2280/2260/2242 ",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69e48b85d3fcc3b77d5c9b3a"
@@ -90,13 +90,13 @@
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 4.0 x4 / SATA",
       "_id": "69e48b85d3fcc3b77d5c9b3b"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
+      "interface": "PCIe 4.0 x4 / SATA",
       "_id": "69e48b85d3fcc3b77d5c9b3c"
     }
   ],
@@ -123,6 +123,7 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
-    "newegg_sku": "9SIC3S7KUE0409"
+    "newegg_sku": "9SIC3DRKN75613",
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z790-P-II/Specification"
   }
 }
