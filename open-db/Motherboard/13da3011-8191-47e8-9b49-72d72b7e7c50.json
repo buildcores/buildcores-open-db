@@ -29,11 +29,10 @@
     "reset_button": true
   },
   "other_headers": {
-    "temperature_sensor": 1,
     "thunderbolt": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -48,32 +47,29 @@
     "name": "ASUS ROG STRIX B850-A GAMING WIFI7 NEO",
     "manufacturer": "ASUS",
     "part_numbers": ["rog-strix-b850-a-gaming-wifi7-neo"],
-    "series": "B850",
-    "variant": "ROG STRIX A GAMING WiFi 7 NEO",
+    "series": "ROG STRIX",
+    "variant": "B850-A GAMING WIFI7 NEO",
     "releaseYear": 2026,
     "manufacturer_color": "White",
-    "last_manually_spec_verified_at": "2026-03-27T06:37:49.912Z"
+    "last_manually_spec_verified_at": "2026-04-27T14:45:31.000Z"
   },
   "color": ["WHITE", "GREY", "RGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69c6247640411eb050b46632"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69c6247640411eb050b46633"
+      "lanes": 4
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "1 x Realtek 5GB Ethernet",
-      "_id": "69c6247640411eb050b46631"
+      "controller": "Realtek"
     }
   ],
   "back_panel_ports": [
@@ -81,10 +77,10 @@
     "6 x USB 5Gbps ports (6 x Type-A)",
     "2 x USB 2.0 ports (2 x Type-A)",
     "1 x HDMI port",
+    "1 x Realtek 5Gb Ethernet",
     "1 x Wi-Fi module",
-    "1 x Realtek 5Gb Ethernet port",
-    "2 x Audio jacks",
     "1 x Optical S/PDIF out port",
+    "2 x Audio jacks",
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
@@ -93,16 +89,24 @@
   "chipset": "AMD B850",
   "m2_slots": [
     {
-      "size": "2242/2260/2280",
+      "size": "2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "69c6247640411eb050b4662f"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69c6247640411eb050b46630"
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
@@ -110,6 +114,6 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi7-neo/spec/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi7-neo/"
   }
 }

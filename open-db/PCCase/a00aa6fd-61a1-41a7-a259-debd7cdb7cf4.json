@@ -10,7 +10,9 @@
     "manufacturer": "Lian Li",
     "part_numbers": ["A3W-WD", "A3-MATX-WD WHITE", "A3-mATX-WD White"],
     "series": "A3-mATX",
-    "variant": "White Wood Mesh Side Panel"
+    "variant": "White Wood Mesh Side Panel",
+    "releaseYear": 2024,
+    "manufacturer_color": "White"
   },
   "form_factor": "Micro ATX Mini Tower",
   "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX"],
@@ -24,8 +26,15 @@
   "dimensions": "443 x 194 x 321.5",
   "volume": 26.298,
   "weight": 11,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
+  "supported_power_supply_form_factors": ["ATX", "SFX", "SFX-L"],
+  "front_usb_ports": ["2 x USB 3.0 Type-A", "1 x USB 3.1 Type-C"],
+  "power_supply": "None",
+  "has_transparent_side_panel": true,
+  "max_psu_length": 220,
+  "power_supply_shroud": false,
+  "riser_expansion_slots": 3,
+  "supports_rear_connecting_motherboard": false,
+  "power_supply_included": false,
   "general_product_information": {
     "amazon_sku": "B0DKSWRH91",
     "newegg_sku": "2AM-000Z-000E3R",

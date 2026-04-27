@@ -2,21 +2,26 @@
   "opendb_id": "cb1d6b9e-c59b-42d0-88e0-4d8a8535df84",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GAMING X SLIM GeForce RTX 4060 Ti 16GB GDDR6 White",
+    "name": "MSI GeForce RTX 4060 Ti GAMING X SLIM WHITE 16G GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
       "RTX 4060 Ti GAMING X SLIM WHITE 16G",
@@ -24,27 +29,32 @@
       "V517-001R",
       "G406TGXSW16"
     ],
-    "series": "GeForce RTX 4060 Ti",
-    "variant": "MSI"
+    "series": "GAMING ",
+    "variant": "X SLIM WHITE",
+    "manufacturer_color": "White",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
   "memory": 16,
   "memory_type": "GDDR6",
   "core_base_clock": 2310,
-  "core_boost_clock": 2685,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE"],
+  "core_boost_clock": 2670,
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["WHITE", "RGB"],
   "length": 307,
   "tdp": 165,
-  "total_slot_width": 3,
+  "total_slot_width": 2.3,
   "cooling": "3 Fans",
   "core_count": 4352,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CCFYQMLC",
     "newegg_sku": "N82E16814137820",
-    "walmart_sku": 5019656918
+    "walmart_sku": 5019656918,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Ti-GAMING-X-SLIM-WHITE-16G/Specification"
   }
 }

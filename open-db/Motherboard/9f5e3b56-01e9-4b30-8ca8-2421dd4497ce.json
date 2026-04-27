@@ -19,38 +19,41 @@
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 2
+    "case_fan": 2,
+    "pump": 0
   },
   "rgb_headers": {
     "argb_5v": 1,
     "rgb_12v": 1
   },
   "front_panel_headers": {
-    "hdd_led": true,
-    "reset_button": true,
     "power_button": true,
-    "power_led": true
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "bios_features": {
     "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek Audio CODEC",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte A520M S2H AM4 DDR4 Micro ATX",
+    "name": "Gigabyte A520M S2H (rev. 1.x)",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["A520M S2H", "GA-A520M-S2H", "GAA52MS2H-00-G"],
+    "part_numbers": ["A520M S2H", "GA-A520M-S2H"],
+    "series": "Ultra Durable",
     "variant": "A520M S2H",
-    "manufacturer_color": "Black",
-    "series": "A520",
-    "releaseYear": 2023
+    "manufacturer_color": "Black"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -72,7 +75,7 @@
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4"
+      "interface": "SATA / PCIe 3.0 x4/x2"
     }
   ],
   "onboard_ethernet": [
@@ -98,6 +101,7 @@
   "general_product_information": {
     "amazon_sku": "B08F7HPJ4F",
     "newegg_sku": "N82E16813145240",
-    "walmart_sku": 593846537
+    "walmart_sku": 593846537,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/A520M-S2H-rev-1x/sp"
   }
 }
