@@ -21,20 +21,22 @@
     },
     "memory": {
       "types": ["DDR5"],
-      "channels": 8
+      "channels": 8,
+      "maxSupport": 2048
     },
     "tdp": 350,
     "eccSupport": true,
     "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
     "includesCooler": false,
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "packaging": "Boxed"
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 9995WX",
     "manufacturer": "AMD",
     "part_numbers": ["AMD Ryzen Threadripper PRO 9995WX", "100-100001361WOF"],
     "variant": "Pro 9995WX",
-    "releaseYear": null,
+    "releaseYear": 2025,
     "series": "Ryzen Threadripper PRO 9000 WX-Series"
   },
   "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
@@ -44,7 +46,6 @@
   "general_product_information": {
     "amazon_sku": "B0FJ6K5H5V",
     "newegg_sku": "9SIA24GKKW9115",
-    "walmart_sku": 17360970537,
-    "manufacturer_url": "https://www.amd.com/en/products/processors/workstations/ryzen-threadripper/9000-wx-series/amd-ryzen-threadripper-pro-9995wx.html"
+    "walmart_sku": 17360970537
   }
 }

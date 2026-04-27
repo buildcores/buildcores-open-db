@@ -7,40 +7,49 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "hdmi_2_0": 0,
-    "displayport_2_1": 3,
-    "displayport_1_4a": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 1,
+    "displayport_2_1": 0,
+    "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 1
   },
   "metadata": {
-    "name": "MSI GeForce RTX 2080 TI VENTUS 11G OC GeForce RTX 2080 Ti 11 GB Video Card",
+    "name": "MSI GeForce RTX 2080 Ti VENTUS 11G OC GDDR6",
     "manufacturer": "MSI",
     "part_numbers": ["GeForce RTX 2080 TI VENTUS 11G OC", "RTX 2080 TI VENTUS 11G OC"],
-    "series": "RTX 2080 Ti",
-    "variant": "VentUs 11G OC",
-    "releaseYear": 2018
+    "series": "VENTUS ",
+    "variant": "OC ",
+    "releaseYear": 2018,
+    "manufacturer_color": "Silver"
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 2080 Ti",
   "memory": 11,
   "memory_type": "GDDR6",
   "core_base_clock": 1350,
   "core_boost_clock": 1635,
-  "effective_memory_clock": 14000,
-  "memory_bus": 256,
-  "interface": "PCIe 4.0 x16",
+  "effective_memory_clock": 1750,
+  "memory_bus": 352,
+  "interface": "PCIe 3.0 x16",
   "frame_sync": "G-Sync",
   "length": 268,
-  "tdp": 250,
+  "tdp": 260,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK", "WHITE"],
+  "chipset": "GeForce RTX 2080 Ti",
+  "core_count": 4352,
   "general_product_information": {
     "amazon_sku": "B07HWW7NCW",
     "newegg_sku": "9SIAZRPHEB2922",
-    "walmart_sku": 532994704
+    "walmart_sku": 532994704,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2080-Ti-VENTUS-11G-OC/Specification"
   }
 }

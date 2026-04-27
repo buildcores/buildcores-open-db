@@ -7,21 +7,27 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI RTX 4060 Ti VENTUS 2X BLACK OC",
+    "name": "MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8G OC GDDR6",
     "manufacturer": "MSI",
     "part_numbers": ["V515-017R"],
-    "series": "Ventus",
-    "variant": "2X BLACK OC",
-    "releaseYear": 2023
+    "series": "VENTUS 2X",
+    "variant": "OC BLACK ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
@@ -29,19 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2310,
   "core_boost_clock": 2565,
-  "effective_memory_clock": 18000,
+  "effective_memory_clock": 2250,
   "memory_bus": 128,
   "interface": "PCIe 4.0 x8",
-  "frame_sync": null,
+  "frame_sync": "G-Sync",
   "length": 199,
   "tdp": 160,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 2,
+  "total_slot_width": 2.1,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK"],
   "core_count": 4352,
   "general_product_information": {
     "amazon_sku": "B0C4F7KX1B",
-    "walmart_sku": 3041698758
+    "walmart_sku": 3041698758,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Ti-VENTUS-2X-BLACK-8G-OC/Specification"
   }
 }

@@ -2,7 +2,7 @@
   "opendb_id": "58624cae-bcbc-4828-b8f7-941f518bc329",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,32 +12,43 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus TUF GAMING OC GeForce GTX 1660 SUPER 6GB GDDR6 Black",
+    "name": "ASUS TUF Gaming GeForce GTX 1660 SUPER OC Edition 6GB GDDR6",
     "manufacturer": "Asus",
     "part_numbers": ["TUF-GTX1660S-O6G-GAMING", "90YV0DT2-M0NA00", "90YV0DT2-M0AA00"],
-    "series": "GeForce GTX 1660 SUPER",
-    "variant": "Asus"
+    "series": "TUF Gaming",
+    "variant": "OC Edition",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 SUPER",
   "memory": 6,
   "memory_type": "GDDR6",
   "core_base_clock": 1530,
-  "core_boost_clock": 1845,
-  "effective_memory_clock": 14002,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "core_boost_clock": 1815,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 206,
   "tdp": 125,
-  "total_slot_width": 2,
+  "total_slot_width": 2.3,
   "cooling": "2 Fans",
+  "core_count": 1408,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B081SPGMBD",
-    "walmart_sku": 923393086
+    "walmart_sku": 923393086,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/graphics-cards/tuf-gaming/tuf-gtx1660s-o6g-gaming/techspec/"
   }
 }

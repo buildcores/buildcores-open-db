@@ -2,25 +2,31 @@
   "opendb_id": "3ef453b4-652b-4753-a130-2f390ac0bc22",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING Twin Edge GeForce RTX 4060 Ti 8GB GDDR6 Black",
+    "name": "ZOTAC GAMING GeForce RTX 4060 Ti 8GB GDDR6 Twin Edge",
     "manufacturer": "Zotac",
     "part_numbers": ["ZT-D40610E-10M"],
-    "series": "GeForce RTX 4060 Ti",
-    "variant": "Zotac"
+    "series": "Twin Edge",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
@@ -28,17 +34,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2310,
   "core_boost_clock": 2535,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 226,
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK", "GREY"],
+  "length": 225.5,
   "tdp": 160,
-  "total_slot_width": 3,
+  "total_slot_width": 2.2,
   "cooling": "2 Fans",
   "core_count": 4352,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C5S7NJ3M",
-    "walmart_sku": 2497234217
+    "walmart_sku": 2497234217,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-4060-ti-8gb-twin-edge#spec"
   }
 }
