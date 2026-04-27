@@ -14,6 +14,11 @@
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": null
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
@@ -60,19 +65,19 @@
   ],
   "m2_slots": [
     {
-      "size": null,
+      "size": "2280/2242",
       "key": "M",
       "interface": "PCIe 5.0 x4",
       "_id": "69b3acad36a2b96d5d842da0"
     },
     {
-      "size": null,
+      "size": "2280/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3acad36a2b96d5d842da1"
     },
     {
-      "size": null,
+      "size": "2280/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4",
       "_id": "69b3acad36a2b96d5d842da2"
