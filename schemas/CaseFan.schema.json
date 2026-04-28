@@ -33,10 +33,10 @@
           "GOLD"
         ]
       },
-      "description": "The color(s) of this product. Each color of the product should be included in the array."
+      "description": "The color(s) of this product. Each color of the product should be included in the array. The color of the fan frame and blades."
     },
     "quantity": {
-      "description": "Number of fans included in the package (e.g., 3). Important for multi-packs",
+      "description": "Number of separately mountable fan units included in the package. Use the total number of fans only for multi-packs of separate fans.",
       "type": ["number", "null"]
     },
     "min_airflow": {
@@ -147,7 +147,7 @@
         },
         "manufacturer": {
           "type": ["string", "null"],
-          "description": "Case Fan manufacturer"
+          "description": "The company that produced the case fans."
         },
         "part_numbers": {
           "type": ["array", "null"],
