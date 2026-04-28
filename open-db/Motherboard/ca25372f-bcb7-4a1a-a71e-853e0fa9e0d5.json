@@ -18,9 +18,9 @@
     "usb_4": 0
   },
   "fan_headers": {
+    "case_fan": 3,
     "cpu_fan": 1,
     "cpu_opt": 1,
-    "case_fan": 3,
     "pump": 1
   },
   "rgb_headers": {
@@ -28,12 +28,12 @@
     "rgb_12v": 2
   },
   "other_headers": {
-    "thunderbolt": 2,
-    "com_port": 1
+    "com_port": 1,
+    "thunderbolt": 2
   },
   "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin", "4-pin"]
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -94,7 +94,6 @@
       "controller": "Realtek 2.5GbE LAN chip"
     }
   ],
-  "wireless_networking": "Wi-Fi 6 / Wi-Fi 6E",
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
@@ -110,9 +109,11 @@
     "1 x RJ-45 port",
     "3 x audio jacks"
   ],
+  "wireless_networking": "Wi-Fi 6 / Wi-Fi 6E",
   "general_product_information": {
     "amazon_sku": "B09JZGTYXJ",
     "newegg_sku": "N82E16813145348",
+    "walmart_sku": 861805437,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-UD-AX-DDR4-rev-1x/sp"
   }
 }

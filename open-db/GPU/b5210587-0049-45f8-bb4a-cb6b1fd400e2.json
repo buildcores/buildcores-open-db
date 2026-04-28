@@ -1,8 +1,8 @@
 {
   "opendb_id": "b5210587-0049-45f8-bb4a-cb6b1fd400e2",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,32 +12,43 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GeForce GTX 1080 GAMING X 8GB GDDR5X Black / Red",
+    "name": "MSI GeForce GTX 1080 GAMING X 8G GDDR5X",
     "manufacturer": "MSI",
     "part_numbers": ["GTX 1080 GAMING X 8G", "GeForce GTX 1080 GAMING X 8G", "V336-001R"],
-    "series": "GeForce GTX 1080",
-    "variant": "MSI"
+    "series": "GAMING",
+    "variant": "X ",
+    "releaseYear": 2016,
+    "manufacturer_color": "Black / Red"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1080",
   "memory": 8,
   "memory_type": "GDDR5X",
-  "core_base_clock": 1607,
-  "core_boost_clock": 1847,
-  "effective_memory_clock": 10108,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "RED"],
+  "core_base_clock": 1683,
+  "core_boost_clock": 1822,
+  "effective_memory_clock": 1251,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "RED", "RGB"],
   "length": 279,
   "tdp": 180,
-  "total_slot_width": 2,
+  "total_slot_width": 2.1,
   "cooling": "2 Fans",
+  "core_count": 2560,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B01GLYD7MG",
-    "walmart_sku": 52890676
+    "walmart_sku": 52890676,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1080-GAMING-X-8G/Specification"
   }
 }

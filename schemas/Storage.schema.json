@@ -118,31 +118,31 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "Storage manufacturer"
+          "description": "Storage manufacturer",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name The manufacturer's marketed product line / family for the drive. Manufacturer, `capacity`, `form_factor`, `interface`, `storage_type` (SSD vs HDD), and `nvme` are all stored separately and MUST NOT be repeated in the series. Capacity is NEVER part of the series. Examples: 'Samsung 990 Pro 2TB M.2-2280' → series='990 Pro'. 'WD_BLACK SN850X 2TB' → series='WD_BLACK SN850X' (the color tier is part of WD's marketed family name and IS part of the series for WD). 'Crucial MX500 1TB 2.5\" SATA' → series='MX500'. The series stays consistent across capacity tiers of the same product line.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series Most drives should have an empty variant — capacity, form factor, interface, NVMe, and storage type are all stored in their own fields. The most common non-empty case is a heatsink-bundled SKU vs the bare-drive SKU of the same series + capacity. Examples: 'Samsung 990 Pro 2TB' (bare) → variant=''. 'Samsung 990 Pro 2TB with Heatsink' → variant='Heatsink'. 'Seagate FireCuda 530 1TB Heatsink (PS5)' → variant='Heatsink'. The variant must be unique within a (manufacturer, series, capacity, form_factor, interface) group; if every drive collapses to the same value, leave it empty.",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

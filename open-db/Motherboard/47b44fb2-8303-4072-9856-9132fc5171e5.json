@@ -18,9 +18,9 @@
     "usb_4": 0
   },
   "fan_headers": {
+    "case_fan": 3,
     "cpu_fan": 1,
     "cpu_opt": 1,
-    "case_fan": 3,
     "pump": 1
   },
   "rgb_headers": {
@@ -31,8 +31,8 @@
     "thunderbolt": 2
   },
   "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin", "4-pin"]
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -46,8 +46,8 @@
     "name": "Gigabyte Z690 AORUS ELITE DDR4 (rev. 1.x)",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690 AORUS ELITE DDR4", "Z690AORUSELITEDDR4"],
-    "series": "Z690",
-    "variant": ""
+    "variant": "",
+    "series": "Z690"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
