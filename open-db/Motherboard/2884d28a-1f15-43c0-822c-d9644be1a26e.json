@@ -14,19 +14,19 @@
     "usb_3_2_gen_2x2": 2
   },
   "fan_headers": {
+    "case_fan": 5,
     "cpu_fan": 1,
     "cpu_opt": 1,
-    "case_fan": 5,
     "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 2
   },
   "front_panel_headers": {
+    "hdd_led": true,
     "power_button": true,
-    "reset_button": true,
     "power_led": true,
-    "hdd_led": true
+    "reset_button": true
   },
   "other_headers": {
     "temperature_sensor": 1
@@ -36,12 +36,12 @@
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": true,
+    "flashback": true
   },
   "audio": {
-    "chipset": "Realtek ALC4082",
-    "channels": "7.1"
+    "channels": "7.1",
+    "chipset": "Realtek ALC4082"
   },
   "metadata": {
     "name": "ASUS ROG CROSSHAIR X870E GLACIAL",
@@ -52,7 +52,6 @@
     "part_numbers": ["ROG CROSSHAIR X870E GLACIAL"],
     "last_manually_spec_verified_at": "2026-04-27T14:45:31.000Z"
   },
-  "socket": "AM5",
   "chipset": "AMD X870E",
   "color": ["WHITE", "RGB"],
   "pcie_slots": [
@@ -120,10 +119,11 @@
     "1 x Clear CMOS button"
   ],
   "form_factor": "EATX",
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "back_connect_connectors": false,
   "ecc_support": true,
   "raid_support": true,
-  "back_connect_connectors": false,
+  "socket": "AM5",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "newegg_sku": "N82E16813119769",
     "manufacturer_url": "https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-x870e-glacial/spec/"

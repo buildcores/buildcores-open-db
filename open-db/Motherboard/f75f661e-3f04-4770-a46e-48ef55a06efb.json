@@ -18,8 +18,8 @@
     "usb_4": 0
   },
   "fan_headers": {
-    "cpu_fan": 1,
     "case_fan": 2,
+    "cpu_fan": 1,
     "pump": 1
   },
   "rgb_headers": {
@@ -27,14 +27,14 @@
     "rgb_12v": 1
   },
   "front_panel_headers": {
+    "hdd_led": true,
     "power_button": true,
-    "reset_button": true,
     "power_led": true,
-    "hdd_led": true
+    "reset_button": true
   },
   "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin"]
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -52,8 +52,8 @@
       "Z690I AORUS ULTRA LITE DDR4 (rev. 1.0)",
       "Z690IAULTRALITED4"
     ],
-    "series": "Z690I",
-    "variant": ""
+    "variant": "",
+    "series": "Z690I"
   },
   "socket": "LGA 1700",
   "form_factor": "Mini-ITX",
@@ -84,7 +84,6 @@
       "controller": "Intel 2.5GbE LAN chip"
     }
   ],
-  "wireless_networking": "Wi-Fi 6",
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
@@ -100,8 +99,10 @@
     "1 x RJ-45 port",
     "2 x audio jacks"
   ],
+  "wireless_networking": "Wi-Fi 6",
   "general_product_information": {
     "amazon_sku": "B0B29JCSGN",
+    "newegg_sku": "9SIBWH3KAX5331",
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690I-AORUS-ULTRA-LITE-DDR4-rev-10/sp"
   }
 }

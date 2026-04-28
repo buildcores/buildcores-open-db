@@ -27,17 +27,17 @@
     "rgb_12v": 1
   },
   "front_panel_headers": {
-    "power_button": true,
+    "hdd_led": true,
     "reset_button": true,
-    "power_led": true,
-    "hdd_led": true
+    "power_button": true,
+    "power_led": true
   },
   "other_headers": {
     "com_port": 1
   },
   "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin"]
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -51,9 +51,9 @@
     "name": "Gigabyte A520M S2H (rev. 1.x)",
     "manufacturer": "Gigabyte",
     "part_numbers": ["A520M S2H", "GA-A520M-S2H"],
-    "series": "Ultra Durable",
     "variant": "A520M S2H",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "series": "Ultra Durable"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",

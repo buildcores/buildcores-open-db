@@ -28,16 +28,16 @@
   },
   "front_panel_headers": {
     "power_button": true,
-    "reset_button": true,
     "power_led": true,
-    "hdd_led": true
+    "hdd_led": true,
+    "reset_button": true
   },
   "other_headers": {
     "com_port": 1
   },
   "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin"]
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -52,8 +52,8 @@
     "manufacturer": "Gigabyte",
     "part_numbers": ["A520M H", "GA-A520M-H"],
     "variant": "A520M H",
-    "series": "Ultra Durable",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "series": "Ultra Durable"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",

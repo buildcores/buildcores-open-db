@@ -44,11 +44,11 @@
     "name": "MSI PRO Z790-A WIFI II",
     "manufacturer": "MSI",
     "part_numbers": ["PRO Z790-A WIFI II", "MSI PRO Z790-A WiFi II"],
-    "series": "PRO",
     "variant": "Z790-A WIFI II",
     "releaseYear": 2023,
     "manufacturer_color": "Silver",
-    "last_manually_spec_verified_at": "2026-04-27T14:43:51Z"
+    "series": "PRO",
+    "last_manually_spec_verified_at": "2026-04-27T14:43:51.000Z"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -58,46 +58,39 @@
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac3c81594acde48fde52"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac3c81594acde48fde53"
+      "lanes": 1
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac3c81594acde48fde54"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "22110/2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac3c81594acde48fde55"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac3c81594acde48fde56"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4 / SATA",
-      "_id": "69b3ac3c81594acde48fde57"
+      "interface": "PCIe 4.0 x4 / SATA"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4 / SATA",
-      "_id": "69b3ac3c81594acde48fde58"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "wireless_networking": "Wi-Fi 6E Bluetooth 5.3",
@@ -121,6 +114,8 @@
       "controller": "Intel 2.5Gbps LAN"
     }
   ],
+  "ecc_support": false,
+  "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0G3TWBHYC",
     "newegg_sku": "N82E16813144734",
