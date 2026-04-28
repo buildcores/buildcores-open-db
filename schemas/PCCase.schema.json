@@ -54,6 +54,7 @@
       }
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes exterior and interior colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -72,8 +73,7 @@
           "BROWN",
           "GOLD"
         ]
-      },
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes exterior and interior colors"
+      }
     },
     "power_supply": {
       "description": "If included with the case, could detail the PSU model.",
@@ -111,8 +111,8 @@
       "type": ["boolean", "null"]
     },
     "front_panel_usb": {
-      "type": ["string", "null"],
-      "description": "Legacy front panel USB descriptor (deprecated)."
+      "description": "Legacy front panel USB descriptor (deprecated).\n\nDeprecated field. Populate front_usb_ports instead.",
+      "type": ["string", "null"]
     },
     "front_usb_ports": {
       "description": "Array of front panel USB port types",
@@ -170,22 +170,22 @@
       "type": ["string", "null"]
     },
     "dimensions_mm": {
+      "description": "Structured dimensions in mm",
       "type": ["object", "null"],
       "properties": {
         "depth": {
-          "type": ["number", "null"],
-          "description": "Part length (depth) in mm"
+          "description": "Part length (depth) in mm",
+          "type": ["number", "null"]
         },
         "width": {
-          "type": ["number", "null"],
-          "description": "Part width in mm"
+          "description": "Part width in mm",
+          "type": ["number", "null"]
         },
         "height": {
-          "type": ["number", "null"],
-          "description": "Part height in mm"
+          "description": "Part height in mm",
+          "type": ["number", "null"]
         }
-      },
-      "description": "Structured dimensions in mm"
+      }
     },
     "volume": {
       "description": "The internal volume of the case in liters",
@@ -237,35 +237,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "Case manufacturer"
+          "description": "Case manufacturer",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name\n\nThe series is the manufacturer's product line / model name that groups related cases. Manufacturer (e.g., Fractal Design, HYTE, NZXT, Lian Li, Corsair) and form_factor (e.g., ATX Mid Tower, ATX Full Tower, Micro ATX Mid Tower) are stored separately and used as the default grouping, so do NOT repeat any of them in the series. The same series CAN span multiple form factors (e.g., 'North' has an ATX Mid Tower and 'North XL' is its own ATX Full Tower variant — those are two separate series). Examples: 'Fractal Design North ATX Mid Tower' → series='North'. 'Fractal Design North XL ATX Full Tower' → series='North XL'. 'HYTE Y70 ATX Mid Tower Snow White' → series='Y70'. 'NZXT H3 Flow Micro ATX Mid Tower Black' → series='H3 Flow'. 'Lian Li O11 Dynamic EVO RGB' → series='O11 Dynamic EVO'. 'Lian Li Lancool 207' → series='Lancool 207'. The series is what a buyer would say to identify the model regardless of color or finish.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series\n\nMost cases should have an empty variant — color/finish belongs in `manufacturer_color`, not here. Only set a variant when a sub-model needs to be distinguished from the base model within the same (manufacturer, series, form_factor) group. Common reasons: limited / collab editions that change more than just paint (special accessories, glass, hardware bundle), refreshed revisions, or named sub-models the manufacturer markets separately. Examples: standard 'Fractal Design North ATX Mid Tower Black' → variant='' (empty). 'Fractal Design North Momentum Edition ATX Mid Tower' → variant='Momentum Edition'. 'Fractal Design North XL RC ATX Full Tower' → variant='RC'. 'HYTE Y70 ATX Mid Tower Snow White' → variant='' (Snow White is a colorway, not a sub-model). 'NZXT H3 Flow Micro ATX Mid Tower White' → variant='' (color only). The variant must be unique within a (manufacturer, series, form_factor) group — if two cases would collapse to the same variant string AND the same manufacturer_color, you are missing a differentiator.",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "manufacturer_color": {
-          "type": ["string", "null"],
-          "description": "Manufacturer's official color name for this product variant."
+          "description": "Manufacturer's official color name for this product variant.\n\nUse the manufacturer's official marketed color / colorway name verbatim — most case manufacturers brand their colorways and that name is what should go here. Common HYTE colorways: 'Snow White', 'Pitch Black', 'Panda', 'Taro Milk', 'Black Cherry', 'Blueberry Milk', 'Strawberry Milk', 'Matcha Milk', 'Silver Wolf'. Common Fractal Design colorways: 'Black', 'Chalk White', 'Charcoal Black'. Common NZXT colorways: 'Black', 'White', 'Matte Black', 'Matte White'. Named special-edition / collab colorways belong here when the manufacturer brands them as a distinct colorway and the rest of the hardware is unchanged: 'Persona 3 Reload Edition', 'Hoshimachi Suisei Edition', 'Metaphor: ReFantazio Edition', 'Hatsune Miku Edition'. If the manufacturer does not give a fancy name, fall back to a simple human-readable color from the product images ('Black', 'White', 'White / Silver', 'Charcoal Black'). Do NOT put hardware sub-model differentiators like 'Momentum Edition', 'RC', or 'Flow' in manufacturer_color — those are either the variant or part of the series.",
+          "type": ["string", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

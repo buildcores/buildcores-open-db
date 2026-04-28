@@ -26,6 +26,7 @@
       "type": ["number", "null"]
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes heatsink or radiator assembly colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -44,8 +45,7 @@
           "BROWN",
           "GOLD"
         ]
-      },
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes heatsink or radiator assembly colors"
+      }
     },
     "height": {
       "description": "The height of the CPU cooler in mm",
@@ -111,8 +111,8 @@
       "type": ["boolean", "null"]
     },
     "radiator_size": {
-      "type": ["number", "null"],
-      "description": "Radiator size in mm (e.g. 360, 280, 240)."
+      "description": "Radiator size in mm (e.g. 360, 280, 240).\n\nPopulate this for water-cooled models.",
+      "type": ["number", "null"]
     },
     "fanless": {
       "description": "Whether the cooler can operate fanless",
@@ -168,35 +168,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "CPU Cooler manufacturer"
+          "description": "CPU Cooler manufacturer",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name\n\nThe series is the manufacturer's marketed product line / family for the cooler. Manufacturer (e.g., NZXT, Corsair, Arctic, Noctua, be quiet!, Thermalright, DeepCool) and water_cooled (true=Liquid, false=Air) are stored separately and form the default grouping, so do NOT repeat them in the series. Radiator size (`radiator_size`: 240, 280, 360, 420), fan size (`fan_size`: 120, 140), color (`manufacturer_color`), and fan count are all separate fields and MUST NOT be in the series. Liquid examples: 'NZXT Kraken Plus 360mm Black (2025)' → series='Kraken Plus'. 'NZXT Kraken Elite 280mm RGB White' → series='Kraken Elite'. 'Corsair iCUE H150i Elite Capellix XT' → series='iCUE Elite Capellix XT' (use the family name; the H150i / H100i SKU prefix encodes the radiator size, which already lives in `radiator_size`). 'Arctic Liquid Freezer III Pro 360 Black' → series='Liquid Freezer III Pro'. Air examples: 'Noctua NH-D15 chromax.black' → series='NH-D15'. 'Noctua NH-D15 G2' → series='NH-D15 G2' (G2 is the next-gen product line, not a variant of NH-D15). 'Noctua NH-U12A' → series='NH-U12A'. 'be quiet! Dark Rock Pro 5' → series='Dark Rock Pro 5'. 'Thermalright Peerless Assassin 120 SE' → series='Peerless Assassin 120 SE' (the 120 here is part of the marketed family name, not a fan_size selector — but if a manufacturer ships the same family in 120 and 140 spreads, drop the size from the series and rely on `fan_size`). The series is what stays consistent across radiator-size / color SKUs of the same product line.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series\n\nMost coolers should have an empty variant. Radiator size lives in `radiator_size`, fan size in `fan_size`, fan count in `fan_quantity`, color in `manufacturer_color`. Only fill `variant` when the manufacturer ships a genuinely distinct sub-model under the same series name that needs its own selector (different cold-plate, different included display module, regional / OEM-only spin, named anodized finish kit, etc.). Liquid examples: 'NZXT Kraken Plus 240mm Black' / 'NZXT Kraken Plus 280mm Black' / 'NZXT Kraken Plus 360mm Black' → variant='' for all three (only `radiator_size` differs — do NOT put '240mm Black' / '280mm Black' / '360mm Black' in variant). 'NZXT Kraken Elite 360 RGB White' → variant='' (RGB / White live in their own fields; the LCD is part of the Elite series itself). 'Corsair iCUE H150i Elite Capellix XT' (only one SKU per radiator size) → variant=''. Air examples: 'Noctua NH-D15 chromax.black' → variant='chromax.black' (chromax.black is a manufacturer-marketed sub-model with different fans + accessory color kit, not just a paint job). 'Noctua NH-D15' (standard brown/beige) → variant=''. 'be quiet! Dark Rock Pro 5' → variant=''. 'Thermalright Peerless Assassin 120 SE WHITE ARGB' → variant='ARGB' only if ARGB is a distinct SKU not captured by another field; otherwise leave variant='' and put 'White' in manufacturer_color. The variant must be unique within a (manufacturer, series, water_cooled, manufacturer_color, radiator_size, fan_size) group; if every cooler in a group ends up with the same value, leave it empty.",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "manufacturer_color": {
-          "type": ["string", "null"],
-          "description": "Manufacturer's official color name for this product variant."
+          "description": "Manufacturer's official color name for this product variant.\n\nUse the manufacturer's marketed colorway / finish name verbatim. Common cooler colorways: 'Black', 'White', 'Black / White', 'Silver', 'Brown / Beige' (Noctua's classic look), 'chromax.black' (Noctua's blacked-out accessories — but this is also commonly the variant for Noctua air coolers, see variant rules), 'Matte Black'. For multi-tone coolers (e.g., a black radiator with a white pump head), separate tones with ' / ' (e.g., 'Black / White'). Branded special / collab colorways DO belong here when the manufacturer markets them as a distinct colorway and the rest of the SKU is identical: 'Hatsune Miku Edition', 'Halo Edition'. Most stock coolers are 'Black'. Do NOT put radiator size ('240mm', '360mm'), fan size ('120mm', '140mm'), 'RGB', or family / model words like 'Kraken', 'Elite', 'Pro' in manufacturer_color — those belong in the series, dedicated fields, or variant. Color is purely the visual finish of the cooler / radiator / pump head.",
+          "type": ["string", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

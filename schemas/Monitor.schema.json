@@ -57,6 +57,7 @@
       "type": ["number", "null"]
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -75,8 +76,7 @@
           "BROWN",
           "GOLD"
         ]
-      },
-      "description": "The color(s) of this product. Each color of the product should be included in the array."
+      }
     },
     "viewing_angle": {
       "description": "Viewing angles (e.g., '178°/178°')",
@@ -173,35 +173,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "The company that manufactured the display."
+          "description": "The company that manufactured the display.",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "manufacturer_color": {
-          "type": ["string", "null"],
-          "description": "Manufacturer's official color name for this product variant."
+          "description": "Manufacturer's official color name for this product variant.",
+          "type": ["string", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

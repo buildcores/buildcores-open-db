@@ -51,31 +51,31 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "Accessory manufacturer"
+          "description": "Accessory manufacturer",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],
