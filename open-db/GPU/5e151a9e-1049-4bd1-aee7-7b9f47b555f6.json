@@ -2,7 +2,7 @@
   "opendb_id": "5e151a9e-1049-4bd1-aee7-7b9f47b555f6",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -11,16 +11,21 @@
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
-    "displayport_1_4a": 3,
+    "displayport_1_4a": 2,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 1
   },
   "metadata": {
-    "name": "AMD Radeon RX 6950 XT Radeon RX 6950 XT 16GB GDDR6 Black",
+    "name": "AMD Radeon RX 6950 XT 16GB GDDR6",
     "manufacturer": "AMD",
     "part_numbers": ["100-438416"],
-    "series": "Radeon RX 6950 XT",
-    "variant": "AMD"
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6950 XT",
@@ -28,16 +33,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1890,
   "core_boost_clock": 2310,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 2250,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 267,
-  "tdp": 350,
+  "tdp": 335,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 5120,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B0BKPT56HK"
+    "amazon_sku": "B0BKPT56HK",
+    "manufacturer_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6950-xt.html"
   }
 }
