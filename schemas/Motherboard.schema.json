@@ -103,6 +103,7 @@
       }
     },
     "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heatsink colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -121,8 +122,7 @@
           "BROWN",
           "GOLD"
         ]
-      },
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heatsink colors"
+      }
     },
     "pcie_slots": {
       "description": "PCIe slots on the motherboard. E.g. a motherboard with 4 PCIe x16 slots, 2 PCIe x8 slots, and 1 PCIe x4 slot would be represented as an array with 3 objects. Be careful on this section and use all available info to make your decision including obvious pcie slots on the motherboard images if provided.",
@@ -418,35 +418,35 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "Motherboard manufacturer"
+          "description": "Motherboard manufacturer",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name The manufacturer's sub-brand or product line that groups related boards. Manufacturer, chipset, and memory type are stored separately and used as the default variant grouping, so do NOT repeat any of them in the series. Examples: 'Asus ROG CROSSHAIR X870E HERO WIFI DDR5 ATX' → series='ROG CROSSHAIR'. 'Gigabyte X870E AORUS MASTER' → series='AORUS'. 'MSI MEG X870E GODLIKE' → series='MEG'. The series stays consistent across multiple chipset generations of the same product line.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series The full board model identifier inside the series. It MUST include the chipset SKU as the manufacturer prints it (e.g., `X870E`, `X870E-E`, `X870E-PLUS`, `B650M-A`) plus any model descriptor that distinguishes it from siblings (`HERO`, `APEX`, `EXTREME`, `MASTER`, `Creator`, etc.). Include `WIFI` / `WIFI7` / `BT` tokens ONLY when they appear in the manufacturer's printed model name on the box; the full WiFi standard still goes in `wireless_networking`. Do NOT include the manufacturer, the broad series, the form factor, or memory type — those are stored separately. Examples: 'Asus ROG CROSSHAIR X870E HERO WIFI DDR5 ATX' → variant='X870E HERO WIFI'. 'Asus X870E-PLUS TUF GAMING WIFI7' → variant='X870E-PLUS WIFI7'. 'ASUS ROG CROSSHAIR X870E GLACIAL' → variant='X870E GLACIAL'. The variant must be unique within a (manufacturer, chipset, memory type) group — if two boards collapse to the same variant string, you are missing a model descriptor.",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "manufacturer_color": {
-          "type": ["string", "null"],
-          "description": "Manufacturer's official color name for this product variant."
+          "description": "Manufacturer's official color name for this product variant. The manufacturer's marketed colorway name when one exists; otherwise derive a simple human-readable color from the product images (do not infer color from words in the title). Common values: 'Black' (most stock boards), 'White', 'White / Silver'. Branded special editions belong here when the manufacturer markets them as a distinct colorway (e.g., 'HATSUNE MIKU EDITION'). Examples: standard ROG STRIX X870E-E in black → 'Black'. White ROG CROSSHAIR X870E GLACIAL → 'White' (GLACIAL is the model variant, not the colorway). Hatsune Miku ROG STRIX X870E-H Gaming → 'HATSUNE MIKU EDITION'. Do NOT put model descriptors like `HERO`, `APEX`, `EXTREME`, `GLACIAL`, `Creator` in manufacturer_color — those belong in the variant.",
+          "type": ["string", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],
