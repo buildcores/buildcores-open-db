@@ -2,7 +2,7 @@
   "opendb_id": "b1110c46-8d75-4566-9367-6f8e9bfac989",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,15 +12,21 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_2": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 1
   },
   "metadata": {
-    "name": "NVIDIA GeForce RTX 2060 SUPER Founders Edition 8GB GDDR6 Silver",
+    "name": "NVIDIA GeForce RTX 2060 SUPER Founders Edition 8GB GDDR6",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G160-2565-000"],
-    "series": "GeForce RTX 2060 SUPER",
-    "variant": "NVIDIA"
+    "series": "Founders Edition",
+    "manufacturer_color": "Silver",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2060 SUPER",
@@ -28,16 +34,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1470,
   "core_boost_clock": 1650,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["GREY"],
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["GREY", "BLACK"],
   "length": 229,
   "tdp": 175,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 2176,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07V2V59LF",
-    "walmart_sku": 618451503
+    "walmart_sku": 618451503,
+    "manufacturer_url": "https://www.nvidia.com/en-gb/geforce/graphics-cards/compare/?section=compare-20"
   }
 }
