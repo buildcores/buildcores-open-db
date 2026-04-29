@@ -2,43 +2,53 @@
   "opendb_id": "2eaa7b0b-5737-4073-a245-8224c479d348",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_1": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus ROG STRIX WHITE OC GeForce RTX 3090 24GB GDDR6X White / Black",
+    "name": "ASUS ROG Strix GeForce RTX 3090 24GB GDDR6X OC White ",
     "manufacturer": "Asus",
     "part_numbers": ["ROG-STRIX-RTX3090-O24G-WHITE", "90YV0F96-M0NM00"],
-    "series": "GeForce RTX 3090",
-    "variant": "Asus"
+    "series": "ROG STRIX",
+    "variant": "OC ",
+    "manufacturer_color": "White",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3090",
   "memory": 24,
   "memory_type": "GDDR6X",
   "core_base_clock": 1395,
-  "core_boost_clock": 1890,
-  "effective_memory_clock": 19500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE", "BLACK"],
-  "length": 318,
+  "core_boost_clock": 1860,
+  "effective_memory_clock": 1219,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["WHITE", "RGB"],
+  "length": 319,
   "tdp": 350,
-  "total_slot_width": 3,
+  "total_slot_width": 2.9,
   "cooling": "3 Fans",
   "core_count": 10496,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08R133PYZ",
-    "walmart_sku": 963898156
+    "walmart_sku": 963898156,
+    "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3090-o24g-white-model/spec/"
   }
 }
