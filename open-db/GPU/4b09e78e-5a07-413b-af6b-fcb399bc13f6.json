@@ -2,42 +2,53 @@
   "opendb_id": "4b09e78e-5a07-413b-af6b-fcb399bc13f6",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
+    "hdmi_2_1b": 0
   },
   "metadata": {
-    "name": "Asus GeForce RTX 2060 STRIX GAMING OC 6GB GDDR6 Black",
+    "name": "ASUS ROG Strix GeForce RTX 2060 EVO V2 OC Edition 6GB GDDR6",
     "manufacturer": "Asus",
     "part_numbers": ["ROG-STRIX-RTX2060-O6G-GAMING", "90YV0CI0-M0NA00", "ROGSTRIXRTX2060O6GGAM"],
-    "series": "GeForce RTX 2060",
-    "variant": "Asus"
+    "series": "ROG Strix",
+    "variant": "OC Edition EVO V2",
+    "manufacturer_color": "Black",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 2060",
   "memory": 6,
   "memory_type": "GDDR6",
   "core_base_clock": 1365,
-  "core_boost_clock": 1860,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "core_boost_clock": 1830,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 300,
   "tdp": 160,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
+  "chipset": "GeForce RTX 2060",
+  "core_count": 1920,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07MLTTDXS",
-    "walmart_sku": 160898702
+    "walmart_sku": 160898702,
+    "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx2060-o6g-evo-v2-gaming-model/spec/"
   }
 }

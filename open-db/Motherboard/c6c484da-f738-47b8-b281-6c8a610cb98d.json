@@ -1,10 +1,47 @@
 {
   "opendb_id": "c6c484da-f738-47b8-b281-6c8a610cb98d",
   "memory": {
+    "max": 128,
+    "slots": 4,
     "ram_type": "DDR4"
   },
+  "storage_devices": {
+    "sata_6_gb_s": 6
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "hdd_led": true,
+    "reset_button": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 2,
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "Gigabyte Z690 UD DDR4 V2",
@@ -12,15 +49,68 @@
     "series": "Ultra Durable",
     "variant": "Z690 DDR4 V2",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["Z690-UD-DDR4-V2-rev-10"],
+    "releaseYear": 2021
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
+  "color": ["BLACK", "GREY"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 3,
+      "lanes": 1
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek 2.5GbE LAN chip"
+    }
+  ],
+  "back_panel_ports": [
+    "1 x PS/2 keyboard/mouse port",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x USB Type-C port, with USB 3.2 Gen 2x2 support",
+    "1 x USB 3.2 Gen 2 Type-A port (red)",
+    "4 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "3 x audio jacks"
+  ],
   "chipset": "Intel Z690",
-  "general_product_information": {}
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "amazon_sku": "B0F6YB6M7T"
+  }
 }
