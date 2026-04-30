@@ -2,12 +2,14 @@
   "opendb_id": "e2cf2532-8c57-4ec2-96fb-4aaa846c8ca6",
   "cores": {
     "total": 24,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 16
   },
   "clocks": {
     "performance": {
       "base": 3.7,
-      "boost": 5.7
+      "boost": 5.5
     },
     "efficiency": {
       "base": 3.2,
@@ -16,37 +18,40 @@
   },
   "cache": {
     "l2": 40,
-    "l3": 36
+    "l3": 36,
+    "l1": "192 KB per core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel Xe Graphics"
+      "model": "Intel Graphics",
+      "baseClock": 300,
+      "boostClock": 2000,
+      "shaderCount": 4
     },
     "memory": {
       "maxSupport": 256,
-      "types": [
-        "DDR5"
-      ]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "3 nm",
-    "simultaneousMultithreading": false
+    "lithography": "TSMC N3B",
+    "simultaneousMultithreading": false,
+    "ppt": 250
   },
   "metadata": {
     "name": "Intel Core Ultra 9 285K 3.7 GHz 24-Core LGA1851",
     "manufacturer": "Intel",
-    "part_numbers": [
-      "BX80768285K",
-      "Intel® Core™ Ultra 9"
-    ],
-    "series": "Intel Core Ultra 9"
+    "part_numbers": ["BX80768285K", "Intel® Core™ Ultra 9"],
+    "series": "Intel Core Ultra 9 200",
+    "variant": "285K",
+    "releaseYear": 2024
   },
-  "series": "Intel Core Ultra 9",
+  "series": "Core Ultra 9 200",
   "microarchitecture": "Arrow Lake",
-  "coreFamily": "Arrow Lake",
+  "coreFamily": "Lion Cove / Skymont",
   "socket": "LGA 1851",
   "general_product_information": {
     "amazon_sku": "B0DFKC99VL",

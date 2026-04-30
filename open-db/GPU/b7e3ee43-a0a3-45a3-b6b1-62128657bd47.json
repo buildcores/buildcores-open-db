@@ -2,51 +2,55 @@
   "opendb_id": "b7e3ee43-a0a3-45a3-b6b1-62128657bd47",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c42b865ad0c3553e84a6"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus GeForce RTX 4060 Ti DUAL OC 8GB GDDR6 Black",
+    "name": "ASUS Dual GeForce RTX 4060 Ti OC Edition 8GB GDDR6",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "DUAL-RTX4060TI-O8G                                                    90YV0J40-M0NA00",
-      "DUAL-RTX4060TI-O8G"
-    ],
-    "series": "GeForce RTX 4060 Ti",
-    "variant": "Asus"
+    "part_numbers": ["DUAL-RTX4060TI-O8G", "90YV0J40-M0NA00"],
+    "series": "Dual ",
+    "variant": "OC Edition",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 2310,
-  "core_boost_clock": 2595,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 227,
-  "tdp": 165,
-  "total_slot_width": 3,
+  "core_boost_clock": 2565,
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK", "GREY"],
+  "length": 227.2,
+  "tdp": 160,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "core_count": 4352,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C42GBMNZ",
     "bestbuy_sku": 6545279,
     "walmart_sku": 1480332282,
-    "ibuypower_sku": "31601"
+    "ibuypower_sku": "31601",
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/graphics-cards/dual/dual-rtx4060ti-o8g/techspec/"
   }
 }

@@ -2,7 +2,7 @@
   "opendb_id": "24f63be3-aad0-4b5d-bcdc-0fe73e9c78d7",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,37 +14,41 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67e89c7511815510c7c78d9d"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Phantom Gaming OC Arc A770 16 GB",
+    "name": "ASRock Intel Arc A770 Phantom Gaming 16GB OC GDDR6",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "A770 PG 16GO                                                    90-GA4KZZ-00UANF",
-      "A770 PG 16GO"
-    ],
-    "series": "Arc A770",
-    "variant": "ASRock"
+    "part_numbers": ["A770 PG 16GO", "90-GA4KZZ-00UANF"],
+    "series": "Phantom Gaming",
+    "variant": "OC ",
+    "releaseYear": 2022,
+    "manufacturer_color": "Phantom Black"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc A770",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2100,
-  "core_boost_clock": 2100,
-  "effective_memory_clock": 17500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "frame_sync": null,
+  "core_base_clock": 2200,
+  "core_boost_clock": 2400,
+  "effective_memory_clock": 2187,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "length": 305,
   "tdp": 225,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.8,
   "cooling": "3 Fans",
-  "color": [],
+  "color": ["GREY", "BLACK", "RGB"],
   "core_count": 4096,
+  "frame_sync": "FreeSync",
   "general_product_information": {
     "amazon_sku": "B0CDM3QK7Q",
-    "newegg_sku": "N82E16814930102"
+    "newegg_sku": "N82E16814930102",
+    "manufacturer_url": "https://pg.asrock.com/Graphics-Card/Intel/Intel%20Arc%20A770%20Phantom%20Gaming%2016GB%20OC/#Specification"
   }
 }

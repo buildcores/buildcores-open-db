@@ -1,51 +1,55 @@
 {
   "opendb_id": "7246045d-6de1-4d24-b82f-fba508a00287",
   "power_connectors": {
-    "pcie_6_pin": null,
+    "pcie_6_pin": 0,
     "pcie_8_pin": 1,
-    "pcie_12VHPWR": null,
-    "pcie_12V_2x6": null
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "hdmi_2_0": null,
-    "displayport_2_1": 3,
-    "displayport_1_4a": null,
-    "dvi_d": null,
-    "vga": null,
-    "_id": "6771a3bdd414deb1430b4ae6"
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_1_4a": 3,
+    "dvi_d": 0,
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX™ 4060 Ti VENTUS 2X BLACK 8G OC",
+    "name": "MSI GeForce RTX™ 4060 Ti VENTUS 2X BLACK 8G OC GDDR6",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "RTX 4060 Ti VENTUS 2X BLACK 8G OC",
-      "G406TV2XB8C"
-    ],
+    "part_numbers": ["RTX 4060 Ti VENTUS 2X BLACK 8G OC", "G406TV2XB8C"],
     "series": "VENTUS 2X",
-    "variant": "BLACK 8G OC",
-    "releaseYear": 2023
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 2565,
+  "core_base_clock": 2310,
   "core_boost_clock": 2580,
-  "effective_memory_clock": 18,
+  "effective_memory_clock": 2250,
   "memory_bus": 128,
-  "interface": "PCIe 4.0 x16",
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
   "length": 199,
   "tdp": 160,
-  "case_expansion_slot_width": null,
-  "total_slot_width": 120,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK", "GREY"],
   "core_count": 4352,
   "general_product_information": {
     "amazon_sku": "B0C5B4XNWR",
     "newegg_sku": "N82E16814137799",
-    "walmart_sku": 3041698758
+    "walmart_sku": 3041698758,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-Ti-VENTUS-2X-BLACK-8G-OC/Specification"
   }
 }

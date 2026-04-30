@@ -2,29 +2,37 @@
   "opendb_id": "f81afc82-f0c7-4298-b8ac-60ee415f0944",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c57a865ad0c3553e990b"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
+    "hdmi_2_1b": 0
   },
   "metadata": {
-    "name": "MSI GAMING X GeForce GTX 1660 Ti 6GB GDDR6 Black",
+    "name": "MSI GeForce GTX 1660 Ti GAMING X 6G GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
-      "GTX 1660 Ti GAMING X 6G                                                    GEFORCE GTX 1660 Ti GAMING X 6G                                                    V375-040R",
+      "GTX 1660 Ti GAMING X 6G",
+      "GEFORCE GTX 1660 Ti GAMING X 6G",
+      "V375-040R",
       "GeForce GTX 1660 Ti GAMING X 6G"
     ],
-    "series": "GeForce GTX 1660 Ti",
-    "variant": "MSI"
+    "series": "GAMING",
+    "variant": "X ",
+    "releaseYear": 2019,
+    "manufacturer_color": "Gunmetal Grey"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 Ti",
@@ -32,19 +40,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1875,
-  "effective_memory_clock": 12000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1500,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 247,
-  "tdp": 120,
-  "total_slot_width": 2,
+  "tdp": 130,
+  "total_slot_width": 2.3,
   "cooling": "2 Fans",
+  "core_count": 1536,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07N825Y1L",
     "newegg_sku": "9SIB9VHH4D8041",
-    "walmart_sku": 370490519
+    "walmart_sku": 370490519,
+    "manufacturer_url": "https://us.msi.com/Graphics-Card/GeForce-GTX-1660-Ti-GAMING-X-6G/Specification"
   }
 }

@@ -2,29 +2,39 @@
   "opendb_id": "990f3ec0-a641-4e77-8184-6abd5a246249",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7f9865ad0c3553ec139"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 3060 12GB Ventus 3X 12G OC Black 12GB GDDR6",
+    "name": "MSI GeForce RTX 3060 12GB Ventus 3X OC Black GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX3060Ventus3X12GOC                                                    GeForce RTX 3060 VENTUS 3X 12G OC                                                    V397-031R                                                    G3060V3X12C                                                    912-V397-038",
+      "RTX3060Ventus3X12GOC",
+      "GeForce RTX 3060 VENTUS 3X 12G OC",
+      "V397-031R",
+      "G3060V3X12C",
+      "912-V397-038",
       "RTX 3060 Ventus 3X 12G OC"
     ],
-    "series": "GeForce RTX 3060 12GB",
-    "variant": "MSI"
+    "series": "Ventus 3X",
+    "variant": "OC",
+    "manufacturer_color": "Black ",
+    "releaseYear": 2021
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 12 GB",
@@ -32,21 +42,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1320,
   "core_boost_clock": 1807,
-  "effective_memory_clock": 15000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 316,
   "tdp": 170,
-  "total_slot_width": 2,
+  "total_slot_width": 2.1,
   "cooling": "3 Fans",
   "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08WTFG5BX",
     "newegg_sku": "N82E16814137631R",
     "bestbuy_sku": 6452940,
-    "walmart_sku": 743803207
+    "walmart_sku": 743803207,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-VENTUS-3X-12G-OC/Specification"
   }
 }

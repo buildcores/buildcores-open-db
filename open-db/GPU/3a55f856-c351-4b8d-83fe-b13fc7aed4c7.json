@@ -2,50 +2,58 @@
   "opendb_id": "3a55f856-c351-4b8d-83fe-b13fc7aed4c7",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c66e865ad0c3553ea85c"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus ROG STRIX OC GeForce RTX 4060 8GB GDDR6 Black",
+    "name": "Asus ROG Strix OC Edition GeForce RTX 4060 8GB GDDR6",
     "manufacturer": "Asus",
     "part_numbers": [
-      "rog-strix-rtx4060-o8g-gaming                                                    90YV0JB0-M0NA00",
+      "rog-strix-rtx4060-o8g-gaming",
+      "90YV0JB0-M0NA00",
       "ROG-STRIX-RTX4060-O8G-GAMING"
     ],
-    "series": "GeForce RTX 4060",
-    "variant": "Asus"
+    "series": "ROG STRIX",
+    "variant": "OC Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 1830,
-  "core_boost_clock": 2700,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 311,
+  "core_boost_clock": 2670,
+  "effective_memory_clock": 2125,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK", "GREY", "RED", "RGB"],
+  "length": 311.4,
   "tdp": 115,
-  "total_slot_width": 4,
+  "total_slot_width": 3.1,
   "cooling": "3 Fans",
   "core_count": 3072,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C7FNSHMQ",
     "bestbuy_sku": 6549644,
-    "walmart_sku": 2731927642
+    "walmart_sku": 2731927642,
+    "manufacturer_url": "https://rog.asus.com/ph/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4060-o8g-gaming/spec/"
   }
 }

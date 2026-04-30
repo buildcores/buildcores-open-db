@@ -2,9 +2,9 @@
   "opendb_id": "c67c78f8-6880-419a-b246-af2320d6ea60",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
     "hdmi_2_1": 1,
@@ -14,18 +14,20 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c589865ad0c3553e9a0c"
+    "hdmi_2_2": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0
   },
   "metadata": {
-    "name": "Asus Dual V2 OC Edition GeForce RTX 3060 12GB GDDR6 Black",
+    "name": "Asus Dual V2 OC Edition GeForce RTX 3060 12GB GDDR6 ",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "DUAL-RTX3060-O12G-V2                                                    90YV0GB2-M0NA10",
-      "90YV0GB2-M0NA10"
-    ],
-    "series": "GeForce RTX 3060 12GB",
-    "variant": "Asus",
+    "part_numbers": ["DUAL-RTX3060-O12G-V2", "90YV0GB2-M0NA10"],
+    "series": "Dual ",
+    "variant": "V2 OC Edition",
     "releaseYear": 2021,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-10-14T18:11:28.076Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -34,12 +36,10 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1320,
   "core_boost_clock": 1867,
-  "effective_memory_clock": 15000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "RGB"],
   "length": 200,
   "tdp": 170,
   "total_slot_width": 2,
@@ -50,8 +50,7 @@
   "general_product_information": {
     "amazon_sku": "B096658ZWP",
     "newegg_sku": "N82E16814126524",
-    "bestbuy_sku": 6557544,
-    "walmart_sku": 339298741,
+    "walmart_sku": 339298740,
     "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3060-o12g-v2/"
   }
 }

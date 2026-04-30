@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b70d865ad0c3553d9ca0"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,31 +31,26 @@
   "metadata": {
     "name": "Supermicro Intel C236 MBD-X11SSM-F-O LGA1151 DDR4 Micro ATX",
     "manufacturer": "Supermicro",
-    "part_numbers": [
-      "MBD-X11SSM-F-O                                                    X11SSM-F-O",
-      "MBD-X11SSM-F-O"
-    ],
+    "part_numbers": ["MBD-X11SSM-F-O", "X11SSM-F-O"],
     "series": "Intel",
     "variant": ""
   },
   "socket": "LGA 1151",
   "form_factor": "Micro ATX",
   "chipset": "Intel C236",
-  "color": [
-    "GREEN"
-  ],
+  "color": ["GREEN"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b70d865ad0c3553d9c9d"
+      "_id": "69b3abb275ef0cf5df0142e5"
     },
     {
       "gen": "4.0",
       "quantity": 3,
       "lanes": 8,
-      "_id": "67f9b70d865ad0c3553d9c9e"
+      "_id": "69b3abb275ef0cf5df0142e6"
     }
   ],
   "m2_slots": [],
@@ -64,16 +58,16 @@
     {
       "speed": "1 Gb/s",
       "controller": "Unknown",
-      "_id": "67f9b70d865ad0c3553d9c9f"
+      "_id": "69b3abb275ef0cf5df0142e7"
     }
   ],
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "2 x 1 Gb/s Ports"
-  ],
+  "back_panel_ports": ["2 x 1 Gb/s Ports"],
   "general_product_information": {
-    "newegg_sku": "N82E16813183013"
+    "amazon_sku": "B086QHVFWQ",
+    "newegg_sku": "N82E16813183013",
+    "walmart_sku": 146591178
   }
 }

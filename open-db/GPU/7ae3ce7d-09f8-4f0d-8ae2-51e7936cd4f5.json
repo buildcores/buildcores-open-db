@@ -2,51 +2,55 @@
   "opendb_id": "7ae3ce7d-09f8-4f0d-8ae2-51e7936cd4f5",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "684cd41c1d3a20a8514d3416"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus TUF GAMING OC GeForce RTX 5060 8GB GDDR7 Black",
+    "name": "ASUS TUF Gaming GeForce RTX™ 5060 8GB GDDR7 OC Edition",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "tuf-rtx5060-o8g-gaming",
-      "TUF-RTX5060-O8G-GAMING"
-    ],
-    "series": "GeForce RTX 5060",
-    "variant": "Asus"
+    "part_numbers": ["tuf-rtx5060-o8g-gaming", "TUF-RTX5060-O8G-GAMING"],
+    "series": "TUF Gaming",
+    "variant": "OC Edition",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "memory": 8,
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
-  "core_boost_clock": 2677,
-  "effective_memory_clock": 28000,
+  "core_boost_clock": 2640,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x8",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 302,
   "tdp": 145,
-  "total_slot_width": 4,
+  "total_slot_width": 3.1,
   "cooling": "3 Fans",
   "core_count": 3840,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F77GW9RK",
     "newegg_sku": "N82E16814126800",
     "bestbuy_sku": 6632184,
-    "walmart_sku": 16796113267
+    "walmart_sku": 16796113267,
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060-o8g-gaming/techspec/"
   }
 }

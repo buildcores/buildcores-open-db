@@ -2,7 +2,7 @@
   "opendb_id": "7efebc98-f6f0-4ed5-9f4d-597c2402a8e3",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,17 +14,20 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c739865ad0c3553eb514"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sparkle TITAN OC Arc B580 12GB GDDR6 Blue / White",
+    "name": "Sparkle Intel Arc B580 TITAN OC 12GB GDDR6",
     "manufacturer": "Sparkle",
-    "part_numbers": [
-      "SB580T-12GOC                                                    1A1-S00421500G",
-      "SB580T-12GOC"
-    ],
-    "series": "Arc B580",
-    "variant": "Sparkle"
+    "part_numbers": ["SB580T-12GOC", "1A1-S00421500G"],
+    "series": "TITAN",
+    "variant": "OC ",
+    "releaseYear": 2024,
+    "manufacturer_color": "Blue"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc B580",
@@ -32,20 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2670,
   "core_boost_clock": 2740,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2375,
   "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": [
-    "BLUE",
-    "WHITE"
-  ],
-  "length": 317,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLUE", "WHITE"],
+  "length": 315,
   "tdp": 200,
-  "total_slot_width": 3,
+  "total_slot_width": 2.2,
   "cooling": "3 Fans",
   "core_count": 2560,
+  "frame_sync": "G-Sync Compatible",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DNMH4KQM",
-    "newegg_sku": "N82E16814993013"
+    "newegg_sku": "N82E16814993013",
+    "manufacturer_url": "https://www.sparkle.com.tw/en/products/view/6893fe373180"
   }
 }

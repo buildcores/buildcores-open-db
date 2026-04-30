@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "677369f7b75bf4b1f99ee49f"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Aspeed AST2400 BMC",
@@ -32,14 +31,10 @@
   "metadata": {
     "name": "Supermicro MBD-X10SRL-F-O ATX LGA2011-3 Narrow Motherboard",
     "manufacturer": "Supermicro",
-    "part_number": "MBD-X10SRL-F-O",
     "series": "X10",
     "variant": "SRL",
     "releaseYear": 2014,
-    "part_numbers": [
-      "MBD-X10SRL-F-0",
-      "MBD-X10SRL-F"
-    ]
+    "part_numbers": ["MBD-X10SRL-F-0", "MBD-X10SRL-F", "MBD-X10SRL-F-O"]
   },
   "socket": "LGA 2011-3",
   "form_factor": "ATX",
@@ -49,25 +44,25 @@
       "gen": "3.0",
       "quantity": 2,
       "lanes": 8,
-      "_id": "677369f7b75bf4b1f99ee49a"
+      "_id": "69b3ab7fc0db8dfe4bc70dd4"
     },
     {
       "gen": "3.0",
       "quantity": 2,
       "lanes": 8,
-      "_id": "677369f7b75bf4b1f99ee49b"
+      "_id": "69b3ab7fc0db8dfe4bc70dd5"
     },
     {
       "gen": "3.0",
       "quantity": 2,
       "lanes": 4,
-      "_id": "677369f7b75bf4b1f99ee49c"
+      "_id": "69b3ab7fc0db8dfe4bc70dd6"
     },
     {
       "gen": "2.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "677369f7b75bf4b1f99ee49d"
+      "_id": "69b3ab7fc0db8dfe4bc70dd7"
     }
   ],
   "m2_slots": [],
@@ -75,18 +70,13 @@
     {
       "speed": "1 Gb/s",
       "controller": "Intel I210",
-      "_id": "677369f7b75bf4b1f99ee49e"
+      "_id": "69b3ab7fc0db8dfe4bc70dd8"
     }
   ],
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1x VGA",
-    "2x COM",
-    "4x USB 3.0",
-    "2x USB 2.0"
-  ],
+  "back_panel_ports": ["1x VGA", "2x COM", "4x USB 3.0", "2x USB 2.0"],
   "color": [],
   "general_product_information": {
     "amazon_sku": "B00NTAQ4YY"

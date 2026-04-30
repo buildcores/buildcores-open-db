@@ -2,7 +2,7 @@
   "opendb_id": "3fe2a866-c43a-4be1-881c-b1ecc30888cf",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,17 +14,20 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c54c865ad0c3553e9647"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sparkle Arc B570 GUARDIAN OC 10GB GDDR6 Blue / White",
+    "name": "SPARKLE Intel Arc B570 GUARDIAN OC 10GB GDDR6",
     "manufacturer": "Sparkle",
-    "part_numbers": [
-      "SB570G-10GOC                                                    1A1-S00421600G",
-      "SB570G-10GOC"
-    ],
-    "series": "Arc B570",
-    "variant": "Sparkle"
+    "part_numbers": ["SB570G-10GOC", "1A1-S00421600G"],
+    "series": "GUARDIAN",
+    "variant": "OC ",
+    "releaseYear": 2025,
+    "manufacturer_color": "Blue"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc B570",
@@ -32,20 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2500,
   "core_boost_clock": 2660,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2375,
   "memory_bus": 160,
-  "interface": "PCIe x16",
-  "color": [
-    "BLUE",
-    "WHITE"
-  ],
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLUE", "WHITE", "RGB"],
   "length": 242,
   "tdp": 170,
-  "total_slot_width": 3,
+  "total_slot_width": 2.2,
   "cooling": "2 Fans",
   "core_count": 2304,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DR337DJG",
-    "newegg_sku": "N82E16814993014"
+    "newegg_sku": "N82E16814993014R",
+    "walmart_sku": 15076417954,
+    "manufacturer_url": "https://www.sparkle.com.tw/files/20241203220702169.pdf"
   }
 }

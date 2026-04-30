@@ -14,36 +14,39 @@
     "displayport_1_4a": 1,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7c2865ad0c3553ebdbc"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "AMD Radeon Pro WX 2100 2GB GDDR5 Blue",
+    "name": "AMD Radeon Pro WX 2100 2GB GDDR5",
     "manufacturer": "AMD",
-    "part_numbers": [
-      "100-506001",
-      "3600823"
-    ],
-    "series": "Radeon Pro WX 2100",
-    "variant": "AMD"
+    "part_numbers": ["100-506001", "3600823"],
+    "series": "Radeon Pro",
+    "manufacturer_color": "Radeon Blue",
+    "releaseYear": 2017
   },
   "chipset_manufacturer": "AMD",
-  "chipset": "Radeon PRO WX 2100",
   "memory": 2,
   "memory_type": "GDDR5",
   "core_base_clock": 925,
   "core_boost_clock": 1219,
-  "effective_memory_clock": 7000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLUE"
-  ],
-  "length": 145,
+  "effective_memory_clock": 1500,
+  "memory_bus": 64,
+  "interface": "PCIe 3.0 x8",
+  "color": ["BLUE"],
+  "length": 168,
   "tdp": 35,
   "total_slot_width": 1,
   "cooling": "1 Fan",
-  "core_count": 0,
+  "core_count": 512,
+  "chipset": "Radeon PRO WX 2100",
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 1,
   "general_product_information": {
-    "amazon_sku": "B073CK9MLR"
+    "amazon_sku": "B073CK9MLR",
+    "manufacturer_url": "https://www.amd.com/content/dam/amd/en/documents/partner-hub/radeon-pro/amd-radeon-pro-w6000-series-sales-guide.pdf"
   }
 }

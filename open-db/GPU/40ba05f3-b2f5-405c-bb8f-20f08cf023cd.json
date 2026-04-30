@@ -2,51 +2,54 @@
   "opendb_id": "40ba05f3-b2f5-405c-bb8f-20f08cf023cd",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c5fd865ad0c3553ea155"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Steel Legend OC Radeon RX 9070 16GB GDDR6 White / Gray",
+    "name": "ASRock Steel Legend OC Radeon RX 9070 16GB GDDR6",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "RX9070 SL 16GO                                                    90-GA5EZZ-00UANF",
-      "RX9070 SL 16GO",
-      "90-GA5EZZ-00UANF"
-    ],
-    "series": "Radeon RX 9070",
-    "variant": "ASRock"
+    "part_numbers": ["RX9070 SL 16GO", "90-GA5EZZ-00UANF"],
+    "series": "Steel Legend",
+    "variant": "OC ",
+    "releaseYear": 2025,
+    "manufacturer_color": "White / Gray"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2210,
+  "core_base_clock": 1440,
   "core_boost_clock": 2700,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "WHITE",
-    "GREY"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["WHITE", "GREY", "RGB"],
   "length": 298,
   "tdp": 220,
-  "total_slot_width": 3,
+  "total_slot_width": 2.9,
   "cooling": "3 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTTGMFK3",
-    "newegg_sku": "N82E16814930137"
+    "newegg_sku": "N82E16814930137",
+    "walmart_sku": 15605564142,
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20Steel%20Legend%2016GB%20OC/"
   }
 }

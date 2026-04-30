@@ -3,7 +3,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -14,35 +14,37 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c57b865ad0c3553e9920"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "NVIDIA Founders Edition GeForce RTX 4070 12GB GDDR6X Black / Silver",
     "manufacturer": "NVIDIA",
-    "part_numbers": [
-      "900-1G141-2544-000"
-    ],
-    "series": "GeForce RTX 4070",
-    "variant": "NVIDIA"
+    "part_numbers": ["900-1G141-2544-000"],
+    "series": "Founders Edition",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070",
   "memory": 12,
   "memory_type": "GDDR6X",
   "core_base_clock": 1920,
-  "core_boost_clock": 2480,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "core_boost_clock": 2475,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 244,
   "tdp": 200,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C3SPXZJ8",
     "newegg_sku": "1FT-0004-00858",

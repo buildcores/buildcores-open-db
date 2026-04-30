@@ -2,7 +2,7 @@
   "opendb_id": "a01cd62d-86e3-42d0-bd28-5b1f6abb486c",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,16 +14,19 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c477865ad0c3553e8980"
+    "hdmi_2_1b": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sapphire Radeon RX 9070 PULSE 16GB GDDR6 Black",
+    "name": "Sapphire PULSE AMD Radeon RX 9070 16GB GDDR6",
     "manufacturer": "Sapphire",
-    "part_numbers": [
-      "11349-03-20G"
-    ],
-    "series": "Radeon RX 9070",
-    "variant": "Sapphire"
+    "part_numbers": ["11349-03-20G"],
+    "series": "PULSE",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
@@ -31,20 +34,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2070,
   "core_boost_clock": 2520,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "RED"],
   "length": 280,
   "tdp": 220,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTHN37BP",
     "newegg_sku": "N82E16814202453",
-    "walmart_sku": 15873024976
+    "walmart_sku": 15873024976,
+    "manufacturer_url": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-16g-gddr6"
   }
 }

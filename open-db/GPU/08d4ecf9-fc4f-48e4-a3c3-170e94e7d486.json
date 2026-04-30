@@ -2,30 +2,31 @@
   "opendb_id": "08d4ecf9-fc4f-48e4-a3c3-170e94e7d486",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c5fa865ad0c3553ea0e6"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA Founders Edition GeForce RTX 3070 Ti 8GB GDDR6X Black",
+    "name": "NVIDIA Founders Edition GeForce RTX 3070 Ti 8GB GDDR6X",
     "manufacturer": "NVIDIA",
-    "part_numbers": [
-      "900-1G143-2515-000",
-      "PG143A",
-      "900-1G143-2515-0000"
-    ],
-    "series": "GeForce RTX 3070 Ti",
-    "variant": "NVIDIA"
+    "part_numbers": ["900-1G143-2515-000", "PG143A", "900-1G143-2515-0000"],
+    "series": "Founders Edition",
+    "releaseYear": 2021,
+    "manufacturer_color": "Titanium and Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3070 Ti",
@@ -33,20 +34,21 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 1575,
   "core_boost_clock": 1770,
-  "effective_memory_clock": 19000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1188,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 267,
   "tdp": 290,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B097PZT7J3",
     "bestbuy_sku": 6465789,
-    "walmart_sku": 965512800
+    "walmart_sku": 965512800,
+    "manufacturer_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070-3070ti/"
   }
 }

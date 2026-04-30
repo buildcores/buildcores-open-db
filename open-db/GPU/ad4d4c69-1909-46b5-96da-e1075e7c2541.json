@@ -2,7 +2,7 @@
   "opendb_id": "ad4d4c69-1909-46b5-96da-e1075e7c2541",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,17 +14,20 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c828865ad0c3553ec435"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING Twin Fan GeForce GTX 1660 SUPER 6GB GDDR6 Black",
+    "name": "ZOTAC GAMING GeForce GTX 1660 SUPER Twin Fan 6GB GDDR6",
     "manufacturer": "Zotac",
-    "part_numbers": [
-      "ZT-T16620F-10L",
-      "Geforce GTX 1660 SUPER TWIN FAN"
-    ],
-    "series": "GeForce GTX 1660 SUPER",
-    "variant": "Zotac"
+    "part_numbers": ["ZT-T16620F-10L", "Geforce GTX 1660 SUPER TWIN FAN"],
+    "series": "GAMING ",
+    "variant": "Twin Fan",
+    "manufacturer_color": "Black",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 SUPER",
@@ -32,18 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1530,
   "core_boost_clock": 1785,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 173,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK"],
+  "length": 173.4,
   "tdp": 125,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1408,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07Z8PWC6R",
-    "walmart_sku": 864284715
+    "walmart_sku": 864284715,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-gtx-1660-super-twin-fan#spec"
   }
 }

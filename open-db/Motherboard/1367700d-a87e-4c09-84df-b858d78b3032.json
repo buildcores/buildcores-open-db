@@ -1,0 +1,95 @@
+{
+  "opendb_id": "1367700d-a87e-4c09-84df-b858d78b3032",
+  "memory": {
+    "ram_type": "DDR4",
+    "max": 64,
+    "slots": 2
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "power_connectors": {
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "ASRock H370M-HDV/M.2",
+    "manufacturer": "ASRock",
+    "variant": "H370M-HDV/M.2",
+    "manufacturer_color": "Black",
+    "part_numbers": ["H370M-HDV/M.2"]
+  },
+  "socket": "LGA 1151",
+  "form_factor": "Micro ATX",
+  "color": ["BLACK"],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "SATA / PCIe 3.0 x4"
+    }
+  ],
+  "back_panel_ports": [
+    "1 x PS/2 Mouse/Keyboard Port",
+    "1 x D-Sub Port",
+    "1 x DVI-D Port",
+    "1 x HDMI Port",
+    "4 x USB 2.0 Ports",
+    "2 x USB 3.2 Gen1 Ports",
+    "1 x RJ-45 LAN Port",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "chipset": "Intel H370",
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek 8111H"
+    }
+  ],
+  "raid_support": true,
+  "ecc_support": false,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/MB/Intel/H370M-HDVM.2/index.us.asp"
+  }
+}

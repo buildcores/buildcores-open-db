@@ -2,7 +2,7 @@
   "opendb_id": "cd7dbe4e-0a5f-4633-9b3e-3f330b18e9ff",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,16 +14,19 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c4fd865ad0c3553e9156"
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte OC GeForce GTX 1660 SUPER 6GB GDDR6 Black / Silver",
+    "name": "Gigabyte GeForce GTX 1660 SUPER OC 6G GDDR6",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N166SOC-6GD"
-    ],
-    "series": "GeForce GTX 1660 SUPER",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N166SOC-6GD"],
+    "variant": "OC ",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 SUPER",
@@ -31,21 +34,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1530,
   "core_boost_clock": 1830,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
-  "length": 226,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
+  "length": 225.65,
   "tdp": 125,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1408,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07YYZGM51",
     "newegg_sku": "N82E16814932224R",
     "bestbuy_sku": 6409171,
-    "walmart_sku": 889466302
+    "walmart_sku": 889466302,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N166SOC-6GD/sp"
   }
 }

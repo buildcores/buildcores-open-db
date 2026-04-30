@@ -2,7 +2,7 @@
   "opendb_id": "b961a4d1-6ded-4072-a5b1-c6e1823dcf5e",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,16 +14,20 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c49f865ad0c3553e8bbf"
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING Twin Fan GeForce GTX 1660 6GB GDDR5 Black",
+    "name": "ZOTAC GAMING GeForce GTX 1660 Twin Fan 6GB GDDR5",
     "manufacturer": "Zotac",
-    "part_numbers": [
-      "ZT-T16600K-10M"
-    ],
-    "series": "GeForce GTX 1660",
-    "variant": "Zotac"
+    "part_numbers": ["ZT-T16600K-10M"],
+    "series": "GAMING",
+    "variant": "Twin Fan",
+    "manufacturer_color": "Black",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660",
@@ -31,18 +35,20 @@
   "memory_type": "GDDR5",
   "core_base_clock": 1530,
   "core_boost_clock": 1785,
-  "effective_memory_clock": 8000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 216,
+  "effective_memory_clock": 2001,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK"],
+  "length": 215.9,
   "tdp": 120,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1408,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07XV7FNR2",
-    "walmart_sku": 872628540
+    "walmart_sku": 872628540,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-gtx-1660-twin-fan#spec"
   }
 }

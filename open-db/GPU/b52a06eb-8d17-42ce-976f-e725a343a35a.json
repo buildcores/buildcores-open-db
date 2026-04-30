@@ -7,7 +7,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -15,19 +15,19 @@
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "684cd4301d3a20a8514d3a3a"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI VENTUS 2X OC GeForce RTX 5060 8GB GDDR7 White",
+    "name": "MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "G5060-8V2CW",
-      "V537-003R",
-      "RTX 5060 8G VENTUS 2X OC WHITE"
-    ],
-    "series": "GeForce RTX 5060",
-    "variant": "VENTUS 2X OC",
+    "part_numbers": ["G5060-8V2CW", "V537-003R", "RTX 5060 8G VENTUS 2X OC WHITE"],
+    "series": "VENTUS 2X",
+    "variant": "OC WHITE",
     "releaseYear": 2025,
+    "manufacturer_color": "White",
     "last_manually_spec_verified_at": "2026-02-20T19:49:03.869Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -35,16 +35,14 @@
   "memory": 8,
   "memory_type": "GDDR7",
   "core_base_clock": 2280,
-  "core_boost_clock": 2535,
+  "core_boost_clock": 2527,
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "interface": "PCIe 5.0 x8",
-  "color": [
-    "WHITE"
-  ],
+  "color": ["WHITE"],
   "length": 197,
   "tdp": 145,
-  "total_slot_width": 2,
+  "total_slot_width": 2.05,
   "cooling": "2 Fans",
   "core_count": 3840,
   "frame_sync": "G-Sync",
@@ -52,6 +50,8 @@
   "general_product_information": {
     "amazon_sku": "B0972D2R41",
     "newegg_sku": "N82E16814137974",
+    "bestbuy_sku": 6632715,
+    "walmart_sku": 17026556703,
     "manufacturer_url": "https://us.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X-OC-WHITE/"
   }
 }

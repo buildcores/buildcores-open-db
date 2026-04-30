@@ -1,8 +1,8 @@
 {
   "opendb_id": "a32bebb6-fffe-451b-9944-fa3d90340742",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,35 +14,41 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7e6865ad0c3553ebfff"
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte WINDFORCE OC 3X GeForce RTX 2070 SUPER 8GB GDDR6 Black",
+    "name": "GIGABYTE GeForce RTX 2070 SUPER WINDFORCE OC 3X 8G GDDR6",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N207SWF3OC-8GD"
-    ],
-    "series": "GeForce RTX 2070 SUPER",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N207SWF3OC-8GD"],
+    "series": "WINDFORCE",
+    "variant": "OC 3X",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 2070 SUPER",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 1605,
   "core_boost_clock": 1785,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 280,
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
+  "length": 286,
   "tdp": 215,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
+  "chipset": "GeForce RTX 2070 SUPER",
+  "core_count": 2560,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07WN6RVHH",
-    "walmart_sku": 135615628
+    "walmart_sku": 135615628,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N207SWF3OC-8GD-rev-10-11/sp"
   }
 }

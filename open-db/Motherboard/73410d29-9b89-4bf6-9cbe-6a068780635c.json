@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "688ec9163ebf909c29b7c9ec"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,8 +32,10 @@
     "name": "Asus B660M Pro D4-CSM DDR4 Micro ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "Pro B660M-C D4-CSM                                                    90MB19B0-MVAAYC                                                    90MB19B0-M0EAYC                                                    90MB19B0-M1EAYC",
       "Pro B660M-C D4-CSM",
+      "90MB19B0-MVAAYC",
+      "90MB19B0-M0EAYC",
+      "90MB19B0-M1EAYC",
       "PROB660M-CD4-CSM"
     ],
     "series": "B660M",
@@ -43,22 +44,19 @@
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B660",
-  "color": [
-    "GREEN",
-    "BLACK"
-  ],
+  "color": ["GREEN", "BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "688ec9163ebf909c29b7c9e4"
+      "_id": "69b3abf3c0db8dfe4bc743e5"
     },
     {
       "gen": "4.0",
       "quantity": 2,
       "lanes": 1,
-      "_id": "688ec9163ebf909c29b7c9e5"
+      "_id": "69b3abf3c0db8dfe4bc743e6"
     }
   ],
   "m2_slots": [
@@ -66,46 +64,44 @@
       "size": "2242-2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec9163ebf909c29b7c9e6"
+      "_id": "69b3abf3c0db8dfe4bc743e7"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec9163ebf909c29b7c9e7"
+      "_id": "69b3abf3c0db8dfe4bc743e8"
     },
     {
       "size": "2242-2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec9163ebf909c29b7c9e8"
+      "_id": "69b3abf3c0db8dfe4bc743e9"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec9163ebf909c29b7c9e9"
+      "_id": "69b3abf3c0db8dfe4bc743ea"
     },
     {
       "size": "2280",
       "key": "E",
       "interface": "PCIe 4.0 x4",
-      "_id": "688ec9163ebf909c29b7c9ea"
+      "_id": "69b3abf3c0db8dfe4bc743eb"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Intel",
-      "_id": "688ec9163ebf909c29b7c9eb"
+      "_id": "69b3abf3c0db8dfe4bc743ec"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 1 Gb/s Ports (Intel)"
-  ],
+  "back_panel_ports": ["1 x 1 Gb/s Ports (Intel)"],
   "general_product_information": {
     "amazon_sku": "B09Q3JCMGT",
     "walmart_sku": 767594037

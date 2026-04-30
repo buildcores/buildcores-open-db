@@ -35,15 +35,12 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9b922865ad0c3553dd776"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "ROG Strix Hive II",
@@ -52,10 +49,7 @@
   "metadata": {
     "name": "Asus ROG STRIX Z890-I GAMING WIFI DDR5 Mini ITX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "ROG STRIX Z890-I GAMING WIFI                                                    90MB1IC0-M0EAY0                                                    90MB1IC0-M0EAY1",
-      "ROG STRIX Z890-I GAMING WIFI"
-    ],
+    "part_numbers": ["ROG STRIX Z890-I GAMING WIFI", "90MB1IC0-M0EAY0", "90MB1IC0-M0EAY1"],
     "series": "ROG STRIX",
     "variant": "Z890-I GAMING WIFI",
     "last_manually_spec_verified_at": "2025-11-28T18:30:37.992Z"
@@ -63,16 +57,13 @@
   "socket": "LGA 1851",
   "form_factor": "Mini-ITX",
   "chipset": "Intel Z890",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b922865ad0c3553dd770"
+      "_id": "69b3abb0c0db8dfe4bc71d71"
     }
   ],
   "m2_slots": [
@@ -80,20 +71,20 @@
       "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b922865ad0c3553dd771"
+      "_id": "69b3abb0c0db8dfe4bc71d72"
     },
     {
       "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b922865ad0c3553dd772"
+      "_id": "69b3abb0c0db8dfe4bc71d73"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel",
-      "_id": "67f9b922865ad0c3553dd775"
+      "_id": "69b3abb0c0db8dfe4bc71d74"
     }
   ],
   "ecc_support": true,

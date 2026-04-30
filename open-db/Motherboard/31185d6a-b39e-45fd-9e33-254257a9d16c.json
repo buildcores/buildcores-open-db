@@ -38,15 +38,11 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ]
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9bb65865ad0c3553e1684"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -55,11 +51,7 @@
   "metadata": {
     "name": "Asus ROG STRIX X870-A GAMING WIFI DDR5 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "ROG STRIX X870-A GAMING WIFI                                                    90MB1IF0-M0AAY0                                                    90MB1IF0-M0EAY0",
-      "ROG STRIX X870-A GAMING WIFI",
-      "90MB1IF0-M0EAY0"
-    ],
+    "part_numbers": ["ROG STRIX X870-A GAMING WIFI", "90MB1IF0-M0AAY0", "90MB1IF0-M0EAY0"],
     "series": "X870",
     "variant": "X870-A GAMING WIFI",
     "last_manually_spec_verified_at": "2025-10-14T17:34:12.747Z"
@@ -67,21 +59,19 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870",
-  "color": [
-    "WHITE"
-  ],
+  "color": ["WHITE"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9bb65865ad0c3553e167c"
+      "_id": "69b3ab9cb27c54a042cfda07"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "68ee4eef064a1c97814baf20"
+      "_id": "69b3ab9cb27c54a042cfda08"
     }
   ],
   "m2_slots": [
@@ -89,38 +79,38 @@
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x 4",
-      "_id": "67f9bb65865ad0c3553e167d"
+      "_id": "69b3ab9cb27c54a042cfda09"
     },
     {
       "size": "2280/22110",
       "key": "M",
       "interface": "PCIe 5.0 x 4",
-      "_id": "67f9bb65865ad0c3553e167e"
+      "_id": "69b3ab9cb27c54a042cfda0a"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb65865ad0c3553e167f"
+      "_id": "69b3ab9cb27c54a042cfda0b"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb65865ad0c3553e1680"
+      "_id": "69b3ab9cb27c54a042cfda0c"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb65865ad0c3553e1681"
+      "_id": "69b3ab9cb27c54a042cfda0d"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel",
-      "_id": "67f9bb65865ad0c3553e1683"
+      "_id": "69b3ab9cb27c54a042cfda0e"
     }
   ],
   "ecc_support": true,

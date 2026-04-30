@@ -38,16 +38,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9ba65865ad0c3553dfaed"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -57,9 +53,10 @@
     "name": "Asus PRIME Z790-P WIFI LGA1700 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "PRIME Z790-P WIFI                                                    90MB1CJ0-M0EAY0                                                    90MB1CJ0-M0AAY0                                                    90MB1CJ0-M1EAY0",
-      "90MB1CJ0-M1EAY0",
       "PRIME Z790-P WIFI",
+      "90MB1CJ0-M0EAY0",
+      "90MB1CJ0-M0AAY0",
+      "90MB1CJ0-M1EAY0",
       "PRIMEZ790-PWIFI"
     ],
     "series": "Z790",
@@ -69,28 +66,25 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9ba65865ad0c3553dfae4"
+      "_id": "69b3aca581594acde490177c"
     },
     {
       "gen": "4.0",
       "quantity": 3,
       "lanes": 4,
-      "_id": "67f9ba65865ad0c3553dfae5"
+      "_id": "69b3aca581594acde490177d"
     },
     {
       "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "6992f290f70448996bd7a12e"
+      "_id": "69b3aca581594acde490177e"
     }
   ],
   "m2_slots": [
@@ -98,26 +92,26 @@
       "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba65865ad0c3553dfae6"
+      "_id": "69b3aca581594acde490177f"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba65865ad0c3553dfae7"
+      "_id": "69b3aca581594acde4901780"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba65865ad0c3553dfae8"
+      "_id": "69b3aca581594acde4901781"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek",
-      "_id": "67f9ba65865ad0c3553dfaec"
+      "_id": "69b3aca581594acde4901782"
     }
   ],
   "ecc_support": true,

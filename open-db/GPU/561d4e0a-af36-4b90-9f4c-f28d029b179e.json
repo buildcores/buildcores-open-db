@@ -2,28 +2,32 @@
   "opendb_id": "561d4e0a-af36-4b90-9f4c-f28d029b179e",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c631865ad0c3553ea491"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING Twin Edge OC GeForce RTX 3070 8GB GDDR6 Black",
+    "name": "ZOTAC GAMING GeForce RTX 3070 Twin Edge OC 8GB GDDR6",
     "manufacturer": "Zotac",
-    "part_numbers": [
-      "ZT-A30700H-10P"
-    ],
+    "part_numbers": ["ZT-A30700H-10P"],
     "series": "GeForce RTX 3070",
-    "variant": "Zotac"
+    "variant": "Twin Edge OC",
+    "manufacturer_color": "Black",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3070",
@@ -31,19 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1755,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 232,
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK"],
+  "length": 231.9,
   "tdp": 220,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08LF1CWT2",
-    "newegg_sku": "N82E16814500505R"
+    "newegg_sku": "N82E16814500505R",
+    "walmart_sku": 278961640,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-3070-twin-edge-oc#spec"
   }
 }

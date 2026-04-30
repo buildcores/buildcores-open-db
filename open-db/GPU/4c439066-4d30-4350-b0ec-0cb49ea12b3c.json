@@ -7,7 +7,7 @@
     "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -15,17 +15,18 @@
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c59d865ad0c3553e9b3c"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GeForce RTX 5070 Ti GAMING SOLID CORE 16GB GDDR7 Black / Copper",
+    "name": "Zotac GeForce RTX 5070 Ti GAMING SOLID CORE 16GB GDDR7",
     "manufacturer": "Zotac",
-    "part_numbers": [
-      "ZT-B50710D2-10P",
-      "ZT-B50710J2-10P"
-    ],
-    "series": "GeForce RTX 5070 Ti",
-    "variant": "SOLID CORE",
+    "part_numbers": ["ZT-B50710D2-10P", "ZT-B50710J2-10P"],
+    "series": "SOLID CORE",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-01-14T18:10:21.306Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -37,13 +38,10 @@
   "effective_memory_clock": 1750,
   "memory_bus": 256,
   "interface": "PCIe 5.0 x16",
-  "color": [
-    "BLACK",
-    "GOLD"
-  ],
-  "length": 304,
+  "color": ["BLACK", "GOLD", "RGB"],
+  "length": 303.5,
   "tdp": 300,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 8960,
   "frame_sync": "G-Sync",
@@ -51,6 +49,7 @@
   "general_product_information": {
     "amazon_sku": "B0F1DLR6H6",
     "bestbuy_sku": 11065160,
+    "walmart_sku": 16438010601,
     "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-5070-ti-solid-core#spec"
   }
 }

@@ -33,16 +33,12 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "67f9b79e865ad0c3553dac1f"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -51,10 +47,7 @@
   "metadata": {
     "name": "Gigabyte B650 AORUS ELITE AX ICE DDR5 ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "B650 AORUS ELITE AX ICE                                                    B650 A ELITE AX ICE",
-      "B650 AORUS ELITE AX ICE"
-    ],
+    "part_numbers": ["B650 AORUS ELITE AX ICE", "B650 A ELITE AX ICE"],
     "series": "B650",
     "variant": "B650 AORUS ELITE AX ICE",
     "last_manually_spec_verified_at": "2025-10-14T17:33:17.417Z"
@@ -62,21 +55,19 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B650",
-  "color": [
-    "GREY"
-  ],
+  "color": ["GREY"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b79e865ad0c3553dac17"
+      "_id": "69b3ab8dce32fbd088830956"
     },
     {
       "gen": "3.0",
       "quantity": 2,
       "lanes": 1,
-      "_id": "68ee6cf6db175b957920a39b"
+      "_id": "69b3ab8dce32fbd088830957"
     }
   ],
   "m2_slots": [
@@ -84,26 +75,26 @@
       "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b79e865ad0c3553dac18"
+      "_id": "69b3ab8dce32fbd088830958"
     },
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b79e865ad0c3553dac19"
+      "_id": "69b3ab8dce32fbd088830959"
     },
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b79e865ad0c3553dac1a"
+      "_id": "69b3ab8dce32fbd08883095a"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek",
-      "_id": "67f9b79e865ad0c3553dac1e"
+      "_id": "69b3ab8dce32fbd08883095b"
     }
   ],
   "ecc_support": false,

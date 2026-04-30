@@ -1,8 +1,8 @@
 {
   "opendb_id": "4031c6e0-7794-454b-94eb-6b1184c0fd6d",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,35 +14,39 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7ea865ad0c3553ec069"
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "EVGA Founders Edition GeForce GTX 1080 Ti 11GB GDDR5X Black / Silver",
+    "name": "EVGA GeForce GTX 1080 Ti FOUNDERS EDITION 11GB GDDR5X",
     "manufacturer": "EVGA",
-    "part_numbers": [
-      "11G-P4-6390-KR"
-    ],
-    "series": "GeForce GTX 1080 Ti",
-    "variant": "EVGA"
+    "part_numbers": ["11G-P4-6390-KR"],
+    "series": "Founders Edition",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2017
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce GTX 1080 Ti",
   "memory": 11,
   "memory_type": "GDDR5X",
   "core_base_clock": 1480,
   "core_boost_clock": 1582,
-  "effective_memory_clock": 11000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
-  "length": 267,
+  "effective_memory_clock": 1376,
+  "memory_bus": 352,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
+  "length": 269.2,
   "tdp": 250,
   "total_slot_width": 2,
   "cooling": "1 Fan",
+  "chipset": "GeForce GTX 1080 Ti",
+  "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B06XH2P8DD"
+    "amazon_sku": "B06XH2P8DD",
+    "manufacturer_url": "https://www.evga.com/products/specs/gpu.aspx?pn=db4dc143-6a38-40eb-b79b-617a43ba51ee"
   }
 }

@@ -33,18 +33,12 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin",
-      "4-pin",
-      "8-pin "
-    ],
+    "cpu_power": ["8-pin", "8-pin", "4-pin", "8-pin "],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9bb16865ad0c3553e0e10"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4080 Codec",
@@ -55,7 +49,9 @@
     "manufacturer": "MSI",
     "part_numbers": [
       "MAG B850 TOMAHAWK MAX WIFI",
-      "B850TMAHAWKWIFIMAX"
+      "B850TMAHAWKWIFIMAX",
+      "911-7E62-02S",
+      "MAG B850 Tomahawk MAX WiFi"
     ],
     "series": "B850",
     "variant": "MAG TOMAHAWK MAX WIFI",
@@ -64,28 +60,25 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B850",
-  "color": [
-    "BLACK",
-    "GREEN"
-  ],
+  "color": ["BLACK", "GREEN"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9bb16865ad0c3553e0e05"
+      "_id": "69b3abd236a2b96d5d83c836"
     },
     {
       "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "690162a1bf881ee57e37e5b0"
+      "_id": "69b3abd236a2b96d5d83c837"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "690162a1bf881ee57e37e5b1"
+      "_id": "69b3abd236a2b96d5d83c838"
     }
   ],
   "m2_slots": [
@@ -93,32 +86,32 @@
       "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9bb16865ad0c3553e0e06"
+      "_id": "69b3abd236a2b96d5d83c839"
     },
     {
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9bb16865ad0c3553e0e07"
+      "_id": "69b3abd236a2b96d5d83c83a"
     },
     {
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x2",
-      "_id": "67f9bb16865ad0c3553e0e08"
+      "_id": "69b3abd236a2b96d5d83c83b"
     },
     {
       "size": "2280/2260 ",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb16865ad0c3553e0e09"
+      "_id": "69b3abd236a2b96d5d83c83c"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek 8126VB",
-      "_id": "67f9bb16865ad0c3553e0e0f"
+      "_id": "69b3abd236a2b96d5d83c83d"
     }
   ],
   "ecc_support": false,

@@ -2,50 +2,54 @@
   "opendb_id": "92f8d2b0-ccba-462f-8484-ed9b65d3fc13",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "680e7d6153adf782a1c72d49"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte GeForce RTX 5060 Ti EAGLE OC PCIe x8 16GB GDDR7 White / Silver",
+    "name": "GIGABYTE GeForce RTX 5060 Ti EAGLE OC ICE 16G GDDR7",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N506TEAGLEOC ICE-16GD"
-    ],
-    "series": "GeForce RTX 5060 Ti",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N506TEAGLEOC ICE-16GD"],
+    "series": "EAGLE",
+    "variant": "OC ICE",
+    "manufacturer_color": "Icy White",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti 16 GB",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2410,
+  "core_base_clock": 2407,
   "core_boost_clock": 2617,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
-  "interface": "PCIe x8",
-  "color": [
-    "WHITE",
-    "GREY"
-  ],
+  "interface": "PCIe 5.0 x8",
+  "color": ["WHITE", "GREY"],
   "length": 215,
   "tdp": 180,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 4608,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F5B74L9N",
     "newegg_sku": "N82E16814932788R",
-    "bestbuy_sku": 6629368
+    "bestbuy_sku": 6629368,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N506TEAGLEOC-ICE-16GD/sp"
   }
 }

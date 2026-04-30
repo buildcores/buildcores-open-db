@@ -37,16 +37,12 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "68cb89db9b67bc35527b4b45"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC4082",
@@ -55,10 +51,7 @@
   "metadata": {
     "name": "ASRock X870 LiveMixer WiFi AM5 DDR5 ATX",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "X870 LiveMixer WiFi",
-      "X870 Livemixer WiFi"
-    ],
+    "part_numbers": ["X870 LiveMixer WiFi", "X870 Livemixer WiFi"],
     "series": "X870",
     "variant": "LiveMixer WiFi",
     "last_manually_spec_verified_at": "2026-01-04T00:32:37.275Z"
@@ -66,22 +59,19 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "68cb89db9b67bc35527b4b3e"
+      "_id": "69b3ac343f8fd0c825de3877"
     },
     {
       "gen": "3.0",
       "quantity": 2,
       "lanes": 4,
-      "_id": "6959b49feb1f020737965d07"
+      "_id": "69b3ac343f8fd0c825de3878"
     }
   ],
   "m2_slots": [
@@ -89,32 +79,32 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "68cb89db9b67bc35527b4b3f"
+      "_id": "69b3ac343f8fd0c825de3879"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "68cb89db9b67bc35527b4b40"
+      "_id": "69b3ac343f8fd0c825de387a"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "68cb89db9b67bc35527b4b41"
+      "_id": "69b3ac343f8fd0c825de387b"
     },
     {
       "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "68cb89db9b67bc35527b4b42"
+      "_id": "69b3ac343f8fd0c825de387c"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek RTL8126",
-      "_id": "68cb89db9b67bc35527b4b44"
+      "_id": "69b3ac343f8fd0c825de387d"
     }
   ],
   "ecc_support": true,

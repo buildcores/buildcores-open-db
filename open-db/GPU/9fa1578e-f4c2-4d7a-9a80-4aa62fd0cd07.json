@@ -3,49 +3,54 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c769865ad0c3553eb814"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PNY ARGB EPIC-X RGB OC GeForce RTX 5080 16GB GDDR7 Black",
+    "name": "PNY GeForce RTX 5080 16GB ARGB EPIC-X RGB Overclocked Triple Fan GDDR7",
     "manufacturer": "PNY",
-    "part_numbers": [
-      "VCG508016TFXXPB1-O"
-    ],
-    "series": "GeForce RTX 5080",
-    "variant": "PNY"
+    "part_numbers": ["VCG508016TFXXPB1-O"],
+    "series": "EPIC-X RGB",
+    "variant": "ARGB Overclocked Triple Fan",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
-  "core_boost_clock": 2780,
-  "effective_memory_clock": 0,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2775,
+  "effective_memory_clock": 30000,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK"],
   "length": 329,
   "tdp": 360,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0DTJDR3V9",
     "newegg_sku": "N82E16814133898",
     "bestbuy_sku": 6617114,
-    "walmart_sku": 15077808167
+    "walmart_sku": 15077808167,
+    "manufacturer_url": "https://www.pny.com/geforce-rtx-5080-models"
   }
 }

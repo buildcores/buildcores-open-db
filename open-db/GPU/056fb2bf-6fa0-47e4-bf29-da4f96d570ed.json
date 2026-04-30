@@ -2,50 +2,54 @@
   "opendb_id": "056fb2bf-6fa0-47e4-bf29-da4f96d570ed",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c793865ad0c3553eba9e"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus DUAL OC Radeon RX 7700 XT 12GB GDDR6 Black",
+    "name": "ASUS Dual Radeon RX 7700 XT OC Edition 12GB GDDR6",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "90YV0JZ0-M0AA00                                                    DUAL-RX7700XT-O12G                                                    90YV0JZ0-M0NA00",
-      "DUAL-RX7700XT-O12G"
-    ],
-    "series": "Radeon RX 7700 XT",
-    "variant": "Asus"
+    "part_numbers": ["90YV0JZ0-M0AA00", "DUAL-RX7700XT-O12G", "90YV0JZ0-M0NA00"],
+    "series": "Dual ",
+    "variant": "OC Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7700 XT",
   "memory": 12,
   "memory_type": "GDDR6",
-  "core_base_clock": 1700,
-  "core_boost_clock": 2599,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 280,
+  "core_base_clock": 1603,
+  "core_boost_clock": 2584,
+  "effective_memory_clock": 2250,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK"],
+  "length": 279.9,
   "tdp": 245,
-  "total_slot_width": 3,
+  "total_slot_width": 2.47,
   "cooling": "2 Fans",
   "core_count": 3456,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CQRWMYQF",
     "newegg_sku": "N82E16814126691",
-    "walmart_sku": 5285700196
+    "walmart_sku": 5285700196,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rx7700xt-o12g/techspec/"
   }
 }

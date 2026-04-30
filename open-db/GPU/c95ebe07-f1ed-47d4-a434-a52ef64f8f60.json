@@ -1,30 +1,39 @@
 {
   "opendb_id": "c95ebe07-f1ed-47d4-a434-a52ef64f8f60",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c814865ad0c3553ec2d3"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI Gaming X12G GeForce RTX 3060 12GB GDDR6 Black / Silver",
+    "name": "MSI GeForce RTX 3060 GAMING X 12G GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
-      "RTX 3060 Gaming X12G                                                    GeForce RTX 3060 Gaming X12G                                                    V397-019R                                                    G3060GX12",
+      "RTX 3060 Gaming X12G",
+      "GeForce RTX 3060 Gaming X12G",
+      "V397-019R",
+      "G3060GX12",
       "GeForce RTX 3060 GAMING X 12G"
     ],
-    "series": "GeForce RTX 3060 12GB",
-    "variant": "MSI"
+    "series": "GAMING",
+    "variant": "X ",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 12 GB",
@@ -32,22 +41,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1320,
   "core_boost_clock": 1837,
-  "effective_memory_clock": 15000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 276,
   "tdp": 170,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "2 Fans",
   "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08WPJ5P4R",
     "newegg_sku": "N82E16814137630",
     "bestbuy_sku": 6476229,
-    "walmart_sku": 274501474
+    "walmart_sku": 274501474,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-X-12G/Specification"
   }
 }

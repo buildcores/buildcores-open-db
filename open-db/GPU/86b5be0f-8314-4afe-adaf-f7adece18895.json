@@ -1,7 +1,7 @@
 {
   "opendb_id": "86b5be0f-8314-4afe-adaf-f7adece18895",
   "power_connectors": {
-    "pcie_6_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
@@ -12,18 +12,22 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0,
-    "_id": "67f9c5bd865ad0c3553e9d37"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte WINDFORCE OC GeForce GTX 1650 SUPER 4GB GDDR6 Black / Silver",
+    "name": "Gigabyte GeForce® GTX 1650 SUPER™ WINDFORCE OC 4G GDDR6",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N165SWF2OC-4GD"
-    ],
-    "series": "GeForce GTX 1650 SUPER",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N165SWF2OC-4GD"],
+    "series": "WINDFORCE",
+    "variant": "OC ",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1650 SUPER",
@@ -31,19 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1530,
   "core_boost_clock": 1755,
-  "effective_memory_clock": 12000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "effective_memory_clock": 1500,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 225,
   "tdp": 100,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1280,
+  "memory_bus": 128,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B081R359ZM",
-    "walmart_sku": 380423294
+    "walmart_sku": 380423294,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N165SWF2OC-4GD"
   }
 }

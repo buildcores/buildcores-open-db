@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9bb49865ad0c3553e1374"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,9 +32,10 @@
     "name": "MSI B860 GAMING PLUS WIFI LGA1851 DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "B860 GAMING PLUS WIFI                                                    7E41-003R",
       "B860 GAMING PLUS WIFI",
-      "B860GPLUSWIFI"
+      "7E41-003R",
+      "B860GPLUSWIFI",
+      "B860 Gaming Plus WiFi"
     ],
     "series": "B860",
     "variant": ""
@@ -43,16 +43,13 @@
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel B860",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 4,
       "lanes": 16,
-      "_id": "67f9bb49865ad0c3553e136c"
+      "_id": "69b3aba53f8fd0c825ddf615"
     }
   ],
   "m2_slots": [
@@ -60,52 +57,50 @@
       "size": "2260-2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb49865ad0c3553e136d"
+      "_id": "69b3aba53f8fd0c825ddf616"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb49865ad0c3553e136e"
+      "_id": "69b3aba53f8fd0c825ddf617"
     },
     {
       "size": "2242-2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb49865ad0c3553e136f"
+      "_id": "69b3aba53f8fd0c825ddf618"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb49865ad0c3553e1370"
+      "_id": "69b3aba53f8fd0c825ddf619"
     },
     {
       "size": "2260-2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb49865ad0c3553e1371"
+      "_id": "69b3aba53f8fd0c825ddf61a"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9bb49865ad0c3553e1372"
+      "_id": "69b3aba53f8fd0c825ddf61b"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Intel Killer E5000",
-      "_id": "67f9bb49865ad0c3553e1373"
+      "_id": "69b3aba53f8fd0c825ddf61c"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 5 Gb/s (Intel Killer E5000)"
-  ],
+  "back_panel_ports": ["1 x 5 Gb/s (Intel Killer E5000)"],
   "general_product_information": {
     "amazon_sku": "B0DQB8VZ2R",
     "newegg_sku": "N82E16813144693",

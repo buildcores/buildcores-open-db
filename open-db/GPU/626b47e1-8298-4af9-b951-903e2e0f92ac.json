@@ -2,28 +2,31 @@
   "opendb_id": "626b47e1-8298-4af9-b951-903e2e0f92ac",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c6d3865ad0c3553eaea0"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING GeForce GTX 1660 Ti 6GB GDDR6 Black",
+    "name": "ZOTAC GAMING GeForce GTX 1660 Ti 6GB GDDR6",
     "manufacturer": "Zotac",
-    "part_numbers": [
-      "ZT-T16610F-10L"
-    ],
-    "series": "GeForce GTX 1660 Ti",
-    "variant": "Zotac"
+    "part_numbers": ["ZT-T16610F-10L"],
+    "series": "GAMING",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 Ti",
@@ -31,17 +34,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1770,
-  "effective_memory_clock": 12000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 173,
+  "effective_memory_clock": 1500,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK"],
+  "length": 173.4,
   "tdp": 120,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1536,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B07NMWQXLR"
+    "amazon_sku": "B07NMWQXLR",
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-gtx-1660-ti-6gb-gddr6#spec"
   }
 }

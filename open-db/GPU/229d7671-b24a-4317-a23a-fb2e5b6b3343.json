@@ -2,29 +2,32 @@
   "opendb_id": "229d7671-b24a-4317-a23a-fb2e5b6b3343",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c42a865ad0c3553e845d"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "ASRock Challenger OC Arc B570 10GB GDDR6 Black",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "B570 CL 10GO                                                    90-GA5KZZ-00UANF",
-      "B570 CL 10GO"
-    ],
-    "series": "Arc B570",
-    "variant": "ASRock"
+    "part_numbers": ["B570 CL 10GO", "90-GA5KZZ-00UANF", "VGB570CL10GO"],
+    "variant": "OC",
+    "manufacturer_color": "Black",
+    "series": "Challenger ",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc B570",
@@ -33,18 +36,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2500,
   "core_boost_clock": 2600,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2375,
   "memory_bus": 160,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK"],
   "length": 249,
   "tdp": 150,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "frame_sync": "None",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DQYM2MHX",
-    "newegg_sku": "N82E16814930134"
+    "newegg_sku": "N82E16814930134",
+    "bestbuy_sku": 6616025,
+    "walmart_sku": 15060359530,
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/Intel/Intel%20Arc%20B570%20Challenger%2010GB%20OC/"
   }
 }

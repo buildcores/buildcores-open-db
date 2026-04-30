@@ -2,52 +2,53 @@
   "opendb_id": "bac99f12-f908-49e3-b073-865523ade790",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c49a865ad0c3553e8b50"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Red Devil OC Radeon RX 9070 16GB GDDR6 Black Red",
+    "name": "PowerColor Red Devil AMD Radeon RX 9070 16GB GDDR6 OC",
     "manufacturer": "PowerColor",
-    "part_numbers": [
-      "RX9070 16G-E",
-      "OC                                                    RX9070 16GB-E",
-      "OC",
-      "RX9070 16G-E/OC"
-    ],
-    "series": "Radeon RX 9070",
-    "variant": "PowerColor"
+    "part_numbers": ["RX9070 16G-E", "OC", "RX9070 16GB-E", "RX9070 16G-E/OC"],
+    "series": "Red Devil",
+    "variant": "OC",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2170,
+  "core_base_clock": 1440,
   "core_boost_clock": 2700,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "RED"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "RED", "GREY", "RGB"],
   "length": 340,
   "tdp": 220,
-  "total_slot_width": 4,
+  "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DQF3G9R9",
-    "newegg_sku": "N82E16814131872"
+    "newegg_sku": "N82E16814131872",
+    "manufacturer_url": "https://www.powercolor.com/product-detail213.htm"
   }
 }

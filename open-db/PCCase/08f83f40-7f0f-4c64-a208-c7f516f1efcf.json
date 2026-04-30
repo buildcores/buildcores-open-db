@@ -1,42 +1,46 @@
 {
   "opendb_id": "08f83f40-7f0f-4c64-a208-c7f516f1efcf",
-  "metadata": {
-    "name": "Montech SKY TWO GX ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-    "manufacturer": "MONTECH",
-    "part_numbers": [
-      "SKYTWOGXB                                                    SKY TWO GX (B)",
-      "Sky Two GX (B)",
-      "SKYTWOGXB",
-      "SKY TWO GX (B)"
-    ],
-    "series": "SKY",
-    "variant": ""
+  "dimensions_mm": {
+    "depth": 430,
+    "width": 215,
+    "height": 490
   },
-  "supported_motherboard_form_factors": [
-    "ATX",
-    "Micro ATX",
-    "Mini-ITX"
-  ],
-  "form_factor": "ATX Mid Tower",
-  "color": [
-    "BLACK"
-  ],
+  "metadata": {
+    "name": "Montech SKY TWO GX E-ATX Mid Tower Black with Tempered Glass Side Panel",
+    "manufacturer": "MONTECH",
+    "part_numbers": ["Sky Two GX (B)", "SKY TWO GX (B)", "SKYTWOGXB"],
+    "series": "SKY TWO GX",
+    "variant": "Black",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-04-09T02:42:52.437Z"
+  },
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
+  "form_factor": "EATX Mid Tower",
+  "color": ["BLACK", "RGB"],
   "power_supply": "None",
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
   "max_video_card_length": 400,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 168,
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 6,
   "expansion_slots": 7,
   "dimensions": "460 x 215 x 500",
   "volume": 49.45,
-  "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
+  "weight": 17.4385,
+  "supported_power_supply_form_factors": ["ATX"],
+  "front_usb_ports": ["1 x Type-C", "2 x USB 3.0"],
+  "power_supply_included": false,
+  "max_psu_length": 210,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": true,
+  "supports_rear_connecting_motherboard": false,
   "general_product_information": {
     "amazon_sku": "B0CYTHMXQ1",
-    "newegg_sku": "N82E16811970009"
+    "newegg_sku": "N82E16811970009",
+    "walmart_sku": 5715209263
   }
 }

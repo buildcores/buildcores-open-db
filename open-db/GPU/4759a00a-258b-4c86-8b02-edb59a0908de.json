@@ -1,8 +1,8 @@
 {
   "opendb_id": "4759a00a-258b-4c86-8b02-edb59a0908de",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,38 +14,41 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67e89c7211815510c7c77ebf"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Intel Limited Edition Arc A750 8 GB",
+    "name": "Intel Arc A750 Limited Edition 8GB GDDR6",
     "manufacturer": "Intel",
-    "part_numbers": [
-      "99AM3D                                                    21P02J00BA",
-      "21P02J00BA"
-    ],
-    "series": "Arc A750",
-    "variant": "Intel"
+    "part_numbers": ["99AM3D", "21P02J00BA"],
+    "series": "Limited Edition",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc A750",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 2050,
-  "core_boost_clock": 2050,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "frame_sync": null,
+  "core_boost_clock": 2400,
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync Compatible",
   "length": 250,
   "tdp": 225,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK", "GREY"],
   "core_count": 3584,
   "general_product_information": {
-    "amazon_sku": "B0BJJPCPY2",
+    "amazon_sku": "B0BM4QGB5K",
     "newegg_sku": "N82E16814883002",
-    "walmart_sku": 2484204031
+    "walmart_sku": 2484204031,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/227954/intel-arc-a750-graphics/specifications.html"
   }
 }

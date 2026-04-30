@@ -7,7 +7,6 @@
     "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -15,18 +14,19 @@
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67fc731cac920b9ef94ea623"
+    "hdmi_2_1b": 1,
+    "hdmi_2_1": 0,
+    "usb_c": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0
   },
   "metadata": {
     "name": "Asus PRIME GeForce RTX 5080 16 GB",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "PRIME-RTX5080-16G",
-      "TUF-RTX5080-16G-GAMING"
-    ],
-    "series": "GeForce RTX 5080",
-    "variant": "PRIME",
+    "part_numbers": ["PRIME-RTX5080-16G", "TUF-RTX5080-16G-GAMING"],
+    "series": "PRIME ",
     "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-10-14T17:57:01.026Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -39,18 +39,16 @@
   "effective_memory_clock": 1875,
   "memory_bus": 256,
   "interface": "PCIe 5.0 x16",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "frame_sync": "G-Sync",
   "length": 306,
   "tdp": 360,
   "case_expansion_slot_width": 2,
-  "total_slot_width": null,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "general_product_information": {
     "amazon_sku": "B0DTPG3B1N",
-    "newegg_sku": "N82E16814126776R",
+    "newegg_sku": "N82E16814126776",
     "bestbuy_sku": 6615831,
     "walmart_sku": 15422359223,
     "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/"

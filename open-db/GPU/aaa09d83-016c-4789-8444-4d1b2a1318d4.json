@@ -2,48 +2,53 @@
   "opendb_id": "aaa09d83-016c-4789-8444-4d1b2a1318d4",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67e89c7211815510c7c77f15"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Challenger D OC Radeon RX 6600 XT 8 GB",
+    "name": "ASRock AMD Radeon RX 6600 XT Challenger D 8GB OC GDDR6",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "RX6600XT CLD 8GO                                                    90-GA2TZZ-00UANF",
-      "90-GA2TZZ-00UANF"
-    ],
-    "series": "Radeon RX 6600 XT",
-    "variant": "ASRock"
+    "part_numbers": ["RX6600XT CLD 8GO", "90-GA2TZZ-00UANF"],
+    "series": "Challenger D",
+    "variant": "OC ",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6600 XT",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 1968,
-  "core_boost_clock": 1968,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "core_base_clock": 2000,
+  "core_boost_clock": 2593,
+  "effective_memory_clock": 2000,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "FreeSync",
   "length": 269,
   "tdp": 160,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 2,
+  "total_slot_width": 2.05,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK", "GREY"],
+  "core_count": 2048,
   "general_product_information": {
     "amazon_sku": "B09BXDT96R",
-    "newegg_sku": "N82E16814930063"
+    "newegg_sku": "N82E16814930063",
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20XT%20Challenger%20D%208GB%20OC/#Specification"
   }
 }

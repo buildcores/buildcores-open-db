@@ -2,46 +2,54 @@
   "opendb_id": "4fb54223-132b-42ac-b668-4be50bb6df71",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": null,
+    "threads": 32,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.2,
       "boost": 5.7
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 128
+    "l3": 128,
+    "l1": "1024 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": [
-        "DDR5"
-      ]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 162
   },
   "metadata": {
     "name": "AMD Ryzen 9 7950X3D 4.2 GHz 16-Core AM5",
     "manufacturer": "AMD",
-    "part_numbers": [
-      "100-100000908WOF",
-      "AMD Ryzen 9 7950X3D"
-    ],
-    "series": "AMD Ryzen 9"
+    "part_numbers": ["100-100000908WOF", "AMD Ryzen 9 7950X3D"],
+    "series": "AMD Ryzen 9 7000",
+    "variant": "7950X3D",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

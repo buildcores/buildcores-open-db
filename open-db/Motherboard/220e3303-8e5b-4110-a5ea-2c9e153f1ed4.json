@@ -38,16 +38,12 @@
     "thunderbolt": 2
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "67f9b6aa865ad0c3553d91c3"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -56,10 +52,7 @@
   "metadata": {
     "name": "Gigabyte Z790 AERO G DDR5 ATX",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "Z790 AERO G",
-      "Z790"
-    ],
+    "part_numbers": ["Z790 AERO G", "Z790"],
     "series": "Z790",
     "variant": "AERO G",
     "last_manually_spec_verified_at": "2025-12-22T23:18:53.752Z"
@@ -67,28 +60,25 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK",
-    "WHITE"
-  ],
+  "color": ["BLACK", "WHITE"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b6aa865ad0c3553d91b9"
+      "_id": "69b3ab78cf841c9bc5aa12fd"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "6949d0d7811619da07caaa5f"
+      "_id": "69b3ab78cf841c9bc5aa12fe"
     },
     {
       "gen": "3.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "6949d0d7811619da07caaa60"
+      "_id": "69b3ab78cf841c9bc5aa12ff"
     }
   ],
   "m2_slots": [
@@ -96,38 +86,38 @@
       "size": "25110/2580",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b6aa865ad0c3553d91ba"
+      "_id": "69b3ab78cf841c9bc5aa1300"
     },
     {
       "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6aa865ad0c3553d91bb"
+      "_id": "69b3ab78cf841c9bc5aa1301"
     },
     {
       "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6aa865ad0c3553d91bc"
+      "_id": "69b3ab78cf841c9bc5aa1302"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6aa865ad0c3553d91bd"
+      "_id": "69b3ab78cf841c9bc5aa1303"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6aa865ad0c3553d91be"
+      "_id": "69b3ab78cf841c9bc5aa1304"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel",
-      "_id": "67f9b6aa865ad0c3553d91c2"
+      "_id": "69b3ab78cf841c9bc5aa1305"
     }
   ],
   "ecc_support": true,

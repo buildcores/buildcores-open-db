@@ -2,46 +2,54 @@
   "opendb_id": "b6f5b046-0856-4ef3-9689-5d75ddc92608",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": null,
+    "threads": 24,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 4.4,
       "boost": 5.6
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 64
+    "l3": 64,
+    "l1": "960 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 192,
-      "types": [
-        "DDR5"
-      ]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 162
   },
   "metadata": {
     "name": "AMD Ryzen 9 9900X 4.4 GHz 12-Core AM5",
     "manufacturer": "AMD",
-    "part_numbers": [
-      "100-100000662WOF",
-      "AMD Ryzen™ 9 9900X"
-    ],
-    "series": "AMD Ryzen 9"
+    "part_numbers": ["100-100000662WOF", "AMD Ryzen™ 9 9900X"],
+    "series": "AMD Ryzen 9 9000",
+    "variant": "9900X",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 9000",
   "microarchitecture": "Zen 5",
   "coreFamily": "Granite Ridge",
   "socket": "AM5",

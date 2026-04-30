@@ -2,28 +2,31 @@
   "opendb_id": "f8b20616-6e2f-49bd-81bc-574a37fe3c66",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c81a865ad0c3553ec31b"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA GeForce RTX 3060 Ti Founders Edition 8GB GDDR6 Black / Silver",
+    "name": "NVIDIA GeForce RTX 3060 Ti Founders Edition 8GB GDDR6",
     "manufacturer": "NVIDIA",
-    "part_numbers": [
-      "900-1G142-2520-000"
-    ],
-    "series": "GeForce RTX 3060 Ti",
-    "variant": "NVIDIA"
+    "part_numbers": ["900-1G142-2520-000"],
+    "series": "Founders Edition",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 Ti",
@@ -31,21 +34,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1410,
   "core_boost_clock": 1670,
-  "effective_memory_clock": 14000,
+  "effective_memory_clock": 1750,
   "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 242,
   "tdp": 200,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 4864,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08PW559LL",
     "bestbuy_sku": 6439402,
-    "walmart_sku": 509508891
+    "walmart_sku": 509508891,
+    "manufacturer_url": "https://www.nvidia.com/en-ph/geforce/graphics-cards/30-series/rtx-3060-3060ti/"
   }
 }

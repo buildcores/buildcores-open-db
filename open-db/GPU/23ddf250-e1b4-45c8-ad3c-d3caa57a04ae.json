@@ -11,19 +11,22 @@
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
-    "displayport_1_4a": 0,
+    "displayport_1_4a": 4,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c650865ad0c3553ea675"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PNY Quadro P620 Black 2GB GDDR5",
+    "name": "NVIDIA Quadro P620 2GB GDDR5",
     "manufacturer": "PNY",
-    "part_numbers": [
-      "VCQP620-PB"
-    ],
-    "series": "Quadro P620",
-    "variant": "PNY"
+    "part_numbers": ["VCQP620-PB"],
+    "series": "Quadro",
+    "manufacturer_color": "Black",
+    "releaseYear": 2018
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "Quadro P620",
@@ -31,19 +34,20 @@
   "memory_type": "GDDR5",
   "core_base_clock": 1266,
   "core_boost_clock": 1354,
-  "effective_memory_clock": 5012,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1252,
+  "memory_bus": 128,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK"],
   "length": 145,
   "tdp": 40,
   "total_slot_width": 1,
   "cooling": "1 Fan",
-  "core_count": 0,
+  "core_count": 512,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 1,
   "general_product_information": {
     "amazon_sku": "B07BDMMGGS",
-    "walmart_sku": 610636577
+    "walmart_sku": 610636577,
+    "manufacturer_url": "https://www.pny.com/nvidia-quadro-p620"
   }
 }

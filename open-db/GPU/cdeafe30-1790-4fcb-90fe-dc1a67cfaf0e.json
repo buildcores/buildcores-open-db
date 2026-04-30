@@ -1,25 +1,35 @@
 {
   "opendb_id": "cdeafe30-1790-4fcb-90fe-dc1a67cfaf0e",
   "power_connectors": {
-    "pcie_8_pin": 1
+    "pcie_8_pin": 1,
+    "pcie_6_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "displayport_2_1": 4,
-    "_id": "696dd97ebcfbac6185188ba8"
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 1,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0,
+    "displayport_2_1_b": 0
   },
   "metadata": {
     "name": "Sparkle Intel Arc Pro B60 Blower 24GB GDDR6",
     "manufacturer": "Sparkle",
-    "series": "Arc Pro B60",
-    "variant": "Blower",
+    "series": "Arc Pro",
+    "variant": "Blower Edition",
     "releaseYear": 2025,
-    "part_numbers": [
-      "1A1-S00442200G",
-      "SBP60W-24G"
-    ]
+    "part_numbers": ["1A1-S00442200G", "SBP60W-24G"],
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "Intel",
-  "chipset": "Arc Pro B60",
   "core_count": 2560,
   "memory": 24,
   "memory_type": "GDDR6",
@@ -28,15 +38,17 @@
   "effective_memory_clock": 2375,
   "memory_bus": 192,
   "interface": "PCIe 5.0 x8",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "length": 289,
   "tdp": 200,
   "case_expansion_slot_width": 2,
   "cooling": "Blower",
+  "chipset": "Arc Pro B60",
+  "frame_sync": "FreeSync",
+  "total_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0G34L3FYN",
-    "newegg_sku": "N82E16814993016R"
+    "newegg_sku": "N82E16814993016R",
+    "manufacturer_url": "https://www.sparkle-embedded.com.tw/en/SB60B-24G"
   }
 }

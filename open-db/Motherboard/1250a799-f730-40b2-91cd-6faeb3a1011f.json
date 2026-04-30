@@ -33,16 +33,12 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9b7e8865ad0c3553db423"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -51,11 +47,7 @@
   "metadata": {
     "name": "MSI Z890 PRO S WIFI DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "PRO Z890-S WIFI",
-      "Z890SWIFI",
-      "Z890-S WIFI"
-    ],
+    "part_numbers": ["PRO Z890-S WIFI", "Z890SWIFI", "Z890-S WIFI", "911-7E54-02S"],
     "series": "Z890",
     "variant": "PRO S-WiFi",
     "last_manually_spec_verified_at": "2026-02-25T22:08:39.851Z"
@@ -63,28 +55,25 @@
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel Z890",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 4,
       "lanes": 16,
-      "_id": "67f9b7e8865ad0c3553db41b"
+      "_id": "69b3ab6ace32fbd08882fb6d"
     },
     {
       "gen": "3.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "699f72e946fa30f7bd9d6aa5"
+      "_id": "69b3ab6ace32fbd08882fb6e"
     },
     {
       "gen": "4.0",
       "quantity": 2,
       "lanes": 4,
-      "_id": "699f72e946fa30f7bd9d6aa6"
+      "_id": "69b3ab6ace32fbd08882fb6f"
     }
   ],
   "m2_slots": [
@@ -92,26 +81,26 @@
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b7e8865ad0c3553db41c"
+      "_id": "69b3ab6ace32fbd08882fb70"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7e8865ad0c3553db41d"
+      "_id": "69b3ab6ace32fbd08882fb71"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b7e8865ad0c3553db41e"
+      "_id": "69b3ab6ace32fbd08882fb72"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek 8125D",
-      "_id": "67f9b7e8865ad0c3553db422"
+      "_id": "69b3ab6ace32fbd08882fb73"
     }
   ],
   "ecc_support": false,

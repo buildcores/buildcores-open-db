@@ -2,50 +2,54 @@
   "opendb_id": "f69171e0-ee1b-4a2f-b100-475599a4c82a",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c63a865ad0c3553ea522"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Hellhound OC Radeon RX 9070 16GB GDDR6 Black",
+    "name": "PowerColor Hellhound OC Radeon RX 9070 16GB GDDR6",
     "manufacturer": "PowerColor",
-    "part_numbers": [
-      "RX9070 16G-L",
-      "OC",
-      "RX9070 16G-L/OC"
-    ],
-    "series": "Radeon RX 9070",
-    "variant": "PowerColor"
+    "part_numbers": ["RX9070 16G-L", "OC", "RX9070 16G-L/OC"],
+    "series": "Hellhound",
+    "variant": "OC ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2070,
+  "core_base_clock": 2120,
   "core_boost_clock": 2590,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "BLUE", "GREY"],
   "length": 327,
   "tdp": 220,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CWCTSC1M",
-    "newegg_sku": "N82E16814131873R"
+    "newegg_sku": "N82E16814131873R",
+    "walmart_sku": 16711511916,
+    "manufacturer_url": "https://www.powercolor.com/product-detail214.htm"
   }
 }

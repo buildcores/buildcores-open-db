@@ -2,28 +2,31 @@
   "opendb_id": "f06c4ffa-50e9-450e-86df-61d9e541f079",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7d0865ad0c3553ebe86"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING SOLO GeForce RTX 4060 8GB GDDR6 Black",
+    "name": "ZOTAC GAMING GeForce RTX 4060 8GB SOLO GDDR6",
     "manufacturer": "Zotac",
-    "part_numbers": [
-      "ZT-D40600G-10L"
-    ],
-    "series": "GeForce RTX 4060",
-    "variant": "Zotac"
+    "part_numbers": ["ZT-D40600G-10L"],
+    "series": "SOLO ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060",
@@ -31,20 +34,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1830,
   "core_boost_clock": 2460,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 2125,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK"],
   "length": 163,
   "tdp": 115,
   "total_slot_width": 2,
   "cooling": "1 Fan",
   "core_count": 3072,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C86JLW2R",
     "newegg_sku": "N82E16814500558",
-    "walmart_sku": 2062575933
+    "walmart_sku": 2062575933,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-4060-8gb-solo"
   }
 }

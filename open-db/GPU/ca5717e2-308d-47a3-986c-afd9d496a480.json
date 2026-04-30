@@ -2,7 +2,7 @@
   "opendb_id": "ca5717e2-308d-47a3-986c-afd9d496a480",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,16 +14,20 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c722865ad0c3553eb3a2"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Mercury OC Magnetic Air RGB Radeon RX 9070 XT 16GB GDDR6 Black",
+    "name": "XFX Mercury AMD Radeon RX 9070XT OC Magnetic Air Edition with RGB 16GB GDDR6",
     "manufacturer": "XFX",
-    "part_numbers": [
-      "RX-97TMARGB9"
-    ],
-    "series": "Radeon RX 9070 XT",
-    "variant": "XFX"
+    "part_numbers": ["RX-97TMARGB9"],
+    "series": "Mercury",
+    "variant": "OC Magnetic Air RGB",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
@@ -32,18 +36,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1870,
   "core_boost_clock": 3100,
-  "effective_memory_clock": 20000,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "RGB"],
   "length": 360,
-  "tdp": 304,
-  "total_slot_width": 4,
+  "tdp": 360,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DXVYQN67",
-    "bestbuy_sku": 6620452
+    "bestbuy_sku": 6620452,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-mercury-amd-radeon-rx-9070xt-oc-magnetic-air-edition-with-rgb"
   }
 }

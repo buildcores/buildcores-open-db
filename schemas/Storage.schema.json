@@ -1,61 +1,26 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": [
-    "object",
-    "null"
-  ],
+  "type": ["object", "null"],
   "title": "Storage Schema",
   "description": "Schema for Storage components",
-  "required": [
-    "metadata"
-  ],
+  "required": ["metadata"],
   "properties": {
     "opendb_id": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
     "capacity": {
       "description": "The storage capacity of the drive in GB (e.g., 4000 GB)",
-      "type": [
-        "number",
-        "null"
-      ]
+      "type": ["number", "null"]
     },
     "storage_type": {
       "description": "The type of storage drive (either HDD or SSD)",
-      "type": [
-        "string",
-        "null"
-      ],
-      "enum": [
-        "SSD",
-        "HDD",
-        "SSHD",
-        null
-      ]
-    },
-    "type": {
-      "description": "Legacy storage type field kept for migration compatibility",
-      "type": [
-        "string",
-        "null"
-      ],
-      "enum": [
-        "SSD",
-        "HDD",
-        "SSHD",
-        null
-      ]
+      "type": ["string", "null"],
+      "enum": ["SSD", "HDD", "SSHD", null]
     },
     "form_factor": {
       "description": "The physical size and shape of the drive (e.g., M.2-2280, 2.5\", 3.5\")",
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "enum": [
         "M.2-2280",
         "M.2-22110",
@@ -71,10 +36,7 @@
     },
     "interface": {
       "description": "The interface used by the drive (e.g., M.2 PCIe 4.0 X4, SATA 6Gb/s)",
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "enum": [
         "M.2 PCIe 5.0 x4",
         "M.2 PCIe 5.0 x2",
@@ -108,146 +70,87 @@
     },
     "cache": {
       "description": "The cache size of the drive in MB.",
-      "type": [
-        "number",
-        "null"
-      ]
+      "type": ["number", "null"]
     },
     "nvme": {
       "description": "Whether the drive uses the NVMe protocol. Only applicable to SSDs",
-      "type": [
-        "boolean",
-        "null"
-      ]
+      "type": ["boolean", "null"]
     },
     "general_product_information": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "description": "General product information and retailer SKUs",
       "properties": {
         "amazon_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Amazon product SKU"
         },
         "newegg_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Newegg product SKU"
         },
         "bestbuy_sku": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "Best Buy product SKU"
         },
         "walmart_sku": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "Walmart product SKU"
         },
         "adorama_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Adorama product SKU"
         },
         "ibuypower_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "iBuyPower product SKU"
         },
         "hyte_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "HYTE product SKU"
         },
         "manufacturer_url": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Official manufacturer product URL"
         }
       }
     },
     "metadata": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "properties": {
         "name": {
           "description": "Full product name",
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "manufacturer": {
           "description": "Storage manufacturer",
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "part_numbers": {
           "description": "Array of manufacturer's part numbers/SKUs",
-          "type": [
-            "array",
-            "null"
-          ],
+          "type": ["array", "null"],
           "items": {
             "type": "string"
           }
         },
         "series": {
-          "description": "Product series name",
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "Product series name The manufacturer's marketed product line / family for the drive. Manufacturer, `capacity`, `form_factor`, `interface`, `storage_type` (SSD vs HDD), and `nvme` are all stored separately and MUST NOT be repeated in the series. Capacity is NEVER part of the series. Examples: 'Samsung 990 Pro 2TB M.2-2280' → series='990 Pro'. 'WD_BLACK SN850X 2TB' → series='WD_BLACK SN850X' (the color tier is part of WD's marketed family name and IS part of the series for WD). 'Crucial MX500 1TB 2.5\" SATA' → series='MX500'. The series stays consistent across capacity tiers of the same product line.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "Specific variant in the series Most drives should have an empty variant — capacity, form factor, interface, NVMe, and storage type are all stored in their own fields. The most common non-empty case is a heatsink-bundled SKU vs the bare-drive SKU of the same series + capacity. Examples: 'Samsung 990 Pro 2TB' (bare) → variant=''. 'Samsung 990 Pro 2TB with Heatsink' → variant='Heatsink'. 'Seagate FireCuda 530 1TB Heatsink (PS5)' → variant='Heatsink'. The variant must be unique within a (manufacturer, series, capacity, form_factor, interface) group; if every drive collapses to the same value, leave it empty.",
+          "type": ["string", "null"]
         },
         "releaseYear": {
           "description": "Year of release",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "last_manually_spec_verified_at": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "format": "date-time",
           "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
         }
       },
-      "required": [
-        "name"
-      ]
+      "required": ["name"]
     }
   }
 }

@@ -36,15 +36,12 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9b958865ad0c3553ddd68"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -54,8 +51,9 @@
     "name": "ASUS B760-I ROG STRIX GAMING WIFI DDR5 Mini ITX",
     "manufacturer": "ASUS",
     "part_numbers": [
-      "ROG STRIX B760-I GAMING WIFI                                                    90MB1D90-M0AAY0                                                    90MB1D90-M0EAY0                                                    90MB1D90-M1EAY0",
       "ROG STRIX B760-I GAMING WIFI",
+      "90MB1D90-M0AAY0",
+      "90MB1D90-M0EAY0",
       "90MB1D90-M1EAY0"
     ],
     "series": "ROG STRIX",
@@ -65,16 +63,13 @@
   "socket": "LGA 1700",
   "form_factor": "Mini-ITX",
   "chipset": "Intel B760",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b958865ad0c3553ddd62"
+      "_id": "69b3ac21b27c54a042d0153e"
     }
   ],
   "m2_slots": [
@@ -82,20 +77,20 @@
       "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b958865ad0c3553ddd63"
+      "_id": "69b3ac21b27c54a042d0153f"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b958865ad0c3553ddd64"
+      "_id": "69b3ac21b27c54a042d01540"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel",
-      "_id": "67f9b958865ad0c3553ddd67"
+      "_id": "69b3ac21b27c54a042d01541"
     }
   ],
   "ecc_support": false,

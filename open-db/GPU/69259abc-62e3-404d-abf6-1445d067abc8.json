@@ -1,30 +1,32 @@
 {
   "opendb_id": "69259abc-62e3-404d-abf6-1445d067abc8",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c6cb865ad0c3553eae3c"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Radeon RX 6700 XT Fighter 12GB GDDR6 Black",
+    "name": "PowerColor Fighter AMD Radeon RX 6700 XT 12GB GDDR6",
     "manufacturer": "PowerColor",
-    "part_numbers": [
-      "AXRX 6700XT 12GBD6-3DH                                                    6700XT 12GBD6-3DH",
-      "AXRX 6700XT 12GBD6-3DH"
-    ],
-    "series": "Radeon RX 6700 XT",
-    "variant": "PowerColor"
+    "part_numbers": ["AXRX 6700XT 12GBD6-3DH", "6700XT 12GBD6-3DH"],
+    "series": "Fighter",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6700 XT",
@@ -32,18 +34,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2321,
   "core_boost_clock": 2581,
-  "effective_memory_clock": 16000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 2000,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK"],
   "length": 228,
   "tdp": 230,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 2560,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B08Y91QVG8"
+    "amazon_sku": "B08Y91QVG8",
+    "manufacturer_url": "https://www.powercolor.com/product-detail69.htm"
   }
 }

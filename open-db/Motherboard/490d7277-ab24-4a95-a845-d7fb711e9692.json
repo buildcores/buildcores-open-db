@@ -22,8 +22,7 @@
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false,
-    "_id": "67f9badd865ad0c3553e0802"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -32,31 +31,27 @@
   "metadata": {
     "name": "MSI Z790 MPOWER LGA1700 DDR5 Micro ATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "Z790MPOWER                                                    911-7E01-043"
-    ],
-    "series": "Z790",
-    "variant": ""
+    "part_numbers": ["Z790MPOWER", "911-7E01-043"],
+    "series": "MPOWER",
+    "variant": "Z790",
+    "manufacturer_color": "White"
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel Z790",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 2,
       "lanes": 16,
-      "_id": "67f9badd865ad0c3553e07fb"
+      "_id": "69b3abafb3d0c7b56c55d264"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "67f9badd865ad0c3553e07fc"
+      "_id": "69b3abafb3d0c7b56c55d265"
     }
   ],
   "m2_slots": [
@@ -64,39 +59,37 @@
       "size": "2242-2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9badd865ad0c3553e07fd"
+      "_id": "69b3abafb3d0c7b56c55d266"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9badd865ad0c3553e07fe"
+      "_id": "69b3abafb3d0c7b56c55d267"
     },
     {
       "size": "2242-2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9badd865ad0c3553e07ff"
+      "_id": "69b3abafb3d0c7b56c55d268"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9badd865ad0c3553e0800"
+      "_id": "69b3abafb3d0c7b56c55d269"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek",
-      "_id": "67f9badd865ad0c3553e0801"
+      "_id": "69b3abafb3d0c7b56c55d26a"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x 2.5 Gb/s (Realtek)"
-  ],
+  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
   "general_product_information": {}
 }

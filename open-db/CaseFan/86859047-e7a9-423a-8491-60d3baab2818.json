@@ -1,18 +1,27 @@
 {
   "opendb_id": "86859047-e7a9-423a-8491-60d3baab2818",
   "metadata": {
-    "name": "darkFlash DM8 LINE Black 120mm Black",
+    "name": "darkFlash DM8 LINE 120mm Black",
     "manufacturer": "darkFlash",
     "series": "DM8 LINE",
     "variant": "Standard 120mm Black",
-    "part_numbers": []
+    "part_numbers": ["DM8 LINE"],
+    "releaseYear": 2024,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-20T16:44:26.775Z"
   },
   "size": 120,
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK", "RGB"],
   "quantity": 1,
   "flow_direction": "Standard",
   "isOEM": false,
-  "general_product_information": {}
+  "min_airflow": 58,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "static_pressure": 1.8,
+  "min_noise_level": 33.6,
+  "general_product_information": {
+    "manufacturer_url": "https://www.darkflash.com/product/dm8line"
+  }
 }

@@ -4,50 +4,52 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": 3,
+    "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "688ec9a53ebf909c29b821a1"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus PRIME GeForce RTX 5080 16GB GDDR7 Black / White",
+    "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "PRIME-RTX5080-16G                                                    90YV0LX1-M0NA00",
-      "PRIME-RTX5080-O16G"
-    ],
-    "series": "GeForce RTX 5080",
-    "variant": "Asus"
+    "part_numbers": ["PRIME-RTX5080-16G", "90YV0LX1-M0NA00", "PRIME-RTX5080-O16G"],
+    "series": "PRIME ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "memory": 16,
   "memory_type": "GDDR7",
-  "core_base_clock": 2300,
-  "core_boost_clock": 2300,
-  "effective_memory_clock": 0,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2617,
+  "effective_memory_clock": 1875,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "WHITE"
-  ],
-  "length": 306,
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "WHITE"],
+  "length": 304,
   "tdp": 360,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DTPG3B1N",
-    "newegg_sku": "N82E16814126744",
+    "newegg_sku": "N82E16814126776",
     "bestbuy_sku": 6613335,
-    "walmart_sku": 15142403451
+    "walmart_sku": 15142403451,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/graphics-cards/prime/prime-rtx5080-16g/techspec/"
   }
 }

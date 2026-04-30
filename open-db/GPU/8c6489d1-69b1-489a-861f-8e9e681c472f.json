@@ -1,27 +1,35 @@
 {
   "opendb_id": "8c6489d1-69b1-489a-861f-8e9e681c472f",
   "power_connectors": {
-    "pcie_8_pin": 1
+    "pcie_8_pin": 1,
+    "pcie_6_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "displayport_2_1a": 2,
-    "_id": "691d0602846f3099acda5e19"
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_1a": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1": 0,
+    "displayport_1_4a": 0,
+    "usb_c": 0,
+    "displayport_2_1_b": 0,
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
     "name": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Black",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "DUAL-RX9060XT-16G"
-    ],
-    "series": "Radeon RX 9060 XT",
-    "variant": "16GB Dual Fan",
+    "part_numbers": ["DUAL-RX9060XT-16G"],
+    "series": "Dual ",
     "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-11-18T23:49:14.842Z"
   },
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 16 GB",
   "core_count": 2048,
@@ -35,7 +43,7 @@
   "length": 202,
   "tdp": 160,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "memory_type": "GDDR6",
   "general_product_information": {

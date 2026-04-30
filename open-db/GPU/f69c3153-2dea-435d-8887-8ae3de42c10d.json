@@ -2,49 +2,53 @@
   "opendb_id": "f69c3153-2dea-435d-8887-8ae3de42c10d",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 0,
+    "hdmi_2_0": 2,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0,
-    "_id": "67f9c769865ad0c3553eb81f"
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus TUF Gaming EVO OC GeForce GTX 1660 Ti 6GB GDDR6 Black / Gray",
+    "name": "ASUS TUF Gaming GeForce® GTX 1660 Ti EVO OC Edition 6GB GDDR6",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "TUF-GTX1660TI-O6G-EVO-GAMING                                                    90YV0CT7-M0NA00",
-      "TUF-GTX1660TI-O6G-EVO-GAMING"
-    ],
-    "series": "GeForce GTX 1660 Ti",
-    "variant": "Asus"
+    "part_numbers": ["TUF-GTX1660TI-O6G-EVO-GAMING", "90YV0CT7-M0NA00"],
+    "series": "TUF Gaming",
+    "variant": "EVO OC Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 Ti",
   "memory": 6,
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
-  "core_boost_clock": 1845,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "core_boost_clock": 1815,
+  "effective_memory_clock": 1500,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 206,
   "tdp": 120,
-  "total_slot_width": 3,
+  "total_slot_width": 2.3,
   "cooling": "2 Fans",
+  "core_count": 1536,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B09HL87KQM",
-    "walmart_sku": 849850159
+    "walmart_sku": 849850159,
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/graphics-cards/tuf-gaming/tuf-gtx1660ti-o6g-evo-gaming/techspec/"
   }
 }

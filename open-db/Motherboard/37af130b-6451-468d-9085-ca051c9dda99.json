@@ -37,16 +37,12 @@
     "thunderbolt": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": true,
-    "_id": "67f9b6f7865ad0c3553d9a2d"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -56,9 +52,11 @@
     "name": "MSI B860 PRO M-A WIFI DDR5 Micro ATX",
     "manufacturer": "MSI",
     "part_numbers": [
-      "PRO B860M-A WIFI                                                    601-7E42-01S                                                    7E42-002R",
       "PRO B860M-A WIFI",
-      "B860M-A"
+      "601-7E42-01S",
+      "7E42-002R",
+      "B860M-A",
+      "PRO B860M-A WiFi"
     ],
     "series": "B860",
     "variant": "M-A WiFi",
@@ -67,28 +65,25 @@
   "socket": "LGA 1851",
   "form_factor": "Micro ATX",
   "chipset": "Intel B860",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 4,
       "lanes": 16,
-      "_id": "67f9b6f7865ad0c3553d9a26"
+      "_id": "69b3ab974fd4af70a349c43c"
     },
     {
       "gen": "4.0",
       "quantity": 2,
       "lanes": 1,
-      "_id": "6959ab00f2f3f99adcd44bbb"
+      "_id": "69b3ab974fd4af70a349c43d"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "6959ab00f2f3f99adcd44bbc"
+      "_id": "69b3ab974fd4af70a349c43e"
     }
   ],
   "m2_slots": [
@@ -96,26 +91,26 @@
       "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b6f7865ad0c3553d9a27"
+      "_id": "69b3ab974fd4af70a349c43f"
     },
     {
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b6f7865ad0c3553d9a28"
+      "_id": "69b3ab974fd4af70a349c440"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x2",
-      "_id": "67f9b6f7865ad0c3553d9a2b"
+      "_id": "69b3ab974fd4af70a349c441"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek 8126",
-      "_id": "67f9b6f7865ad0c3553d9a2c"
+      "_id": "69b3ab974fd4af70a349c442"
     }
   ],
   "ecc_support": false,

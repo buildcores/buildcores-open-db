@@ -3,28 +3,35 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 2,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c638865ad0c3553ea516"
+    "hdmi_2_1a": 2,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus ROG STRIX GAMING OC GeForce RTX 4090 24GB GDDR6X White",
+    "name": "Asus ROG Strix GeForce RTX 4090 24GB GDDR6X White OC Edition",
     "manufacturer": "Asus",
     "part_numbers": [
-      "rog-strix-rtx4090-o24g-white                                                    90YV0ID2-M0NA00",
+      "rog-strix-rtx4090-o24g-white",
+      "90YV0ID2-M0NA00",
       "ROG-STRIX-RTX4090-O24G-WHITE"
     ],
-    "series": "GeForce RTX 4090",
-    "variant": "Asus"
+    "series": "ROG Strix",
+    "variant": "OC White Edition",
+    "releaseYear": 2022,
+    "manufacturer_color": "White"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4090",
@@ -32,19 +39,20 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 2235,
   "core_boost_clock": 2640,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "WHITE"
-  ],
-  "length": 358,
+  "effective_memory_clock": 1313,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["WHITE", "RGB"],
+  "length": 357.6,
   "tdp": 450,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
   "core_count": 16384,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BSVMLVTD",
-    "walmart_sku": 2458264761
+    "walmart_sku": 2458264761,
+    "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4090-o24g-white-model/spec/"
   }
 }

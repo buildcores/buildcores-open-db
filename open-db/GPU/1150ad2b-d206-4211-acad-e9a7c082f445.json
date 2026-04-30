@@ -2,13 +2,13 @@
   "opendb_id": "1150ad2b-d206-4211-acad-e9a7c082f445",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 2,
+    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
     "hdmi_2_2": 0,
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -16,16 +16,18 @@
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67e89c7911815510c7c7a5f0"
+    "hdmi_2_1b": 1,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte EAGLE OC SFF GeForce RTX 5070 Ti 16 GB",
+    "name": "Gigabyte GeForce RTX 5070 Ti EAGLE OC SFF 16G GDDR7",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N507TEAGLE OC-16GD"
-    ],
-    "series": "GeForce RTX 5070 Ti",
-    "variant": "EAGLE OC SFF 16G",
+    "part_numbers": ["GV-N507TEAGLE OC-16GD"],
+    "series": "EAGLE",
+    "variant": "OC SFF",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-12-09T07:55:52.848Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -41,11 +43,9 @@
   "length": 304,
   "tdp": 300,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK", "GREY", "BLUE", "RGB"],
   "core_count": 8960,
   "general_product_information": {
     "amazon_sku": "B0DTR7GWG6",

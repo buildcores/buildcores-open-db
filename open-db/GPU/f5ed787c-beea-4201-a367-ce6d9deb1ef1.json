@@ -1,35 +1,43 @@
 {
   "opendb_id": "f5ed787c-beea-4201-a367-ce6d9deb1ef1",
   "power_connectors": {
-    "pcie_8_pin": 1
+    "pcie_8_pin": 1,
+    "pcie_6_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "displayport_2_1_b": 3,
-    "_id": "6925d24f3ef5093d825f45cf"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1a": 0,
+    "usb_c": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1": 0,
+    "vga": 0,
+    "dvi_d": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 5060 Ti 8G SHADOW 2X OC PLUS",
+    "name": "MSI GeForce RTX 5060 Ti 8G SHADOW 2X OC PLUS GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "G506T-8S2CP",
-      "RTX 5060 Ti 8G SHADOW 2X OC PLUS"
-    ],
-    "series": "GeForce RTX 5060 Ti",
-    "variant": "SHADOW 2X OC PLUS 8GB",
+    "part_numbers": ["G506T-8S2CP", "RTX 5060 Ti 8G SHADOW 2X OC PLUS"],
+    "series": "SHADOW 2X",
+    "variant": "OC PLUS",
     "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-11-28T20:38:16.708Z"
   },
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "core_count": 4608,
   "memory": 8,
   "memory_type": "GDDR7",
   "core_base_clock": 2407,
-  "core_boost_clock": 2572,
+  "core_boost_clock": 2602,
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "interface": "PCIe 5.0 x8",
@@ -43,6 +51,7 @@
     "amazon_sku": "B0F4LYLZ1N",
     "newegg_sku": "N82E16814137978",
     "bestbuy_sku": 6665010,
+    "walmart_sku": 16610662035,
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-8G-SHADOW-2X-OC-PLUS/Specification"
   }
 }

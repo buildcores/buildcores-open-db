@@ -2,7 +2,7 @@
   "opendb_id": "5a149f8f-56ce-4bc9-9a12-8a62a2f3a411",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -10,20 +10,24 @@
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 3,
-    "displayport_2_1a": 0,
+    "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7e1865ad0c3553ebf9e"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "XFX Mercury OC RGB Radeon RX 9070 XT 16GB GDDR6 Black",
     "manufacturer": "XFX",
-    "part_numbers": [
-      "RX-97TRGBBB9"
-    ],
-    "series": "Radeon RX 9070 XT",
-    "variant": "XFX"
+    "part_numbers": ["RX-97TRGBBB9"],
+    "series": "Mercury",
+    "variant": "OC Gaming Edition",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
@@ -32,19 +36,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1870,
   "core_boost_clock": 3100,
-  "effective_memory_clock": 20000,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK"],
   "length": 360,
   "tdp": 304,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DXW1R1YT",
     "newegg_sku": "N82E16814150899",
-    "walmart_sku": 16319466785
+    "walmart_sku": 16319466785,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-mercury-amd-radeon-rx-9070xt-oc-gaming-edition-with-rgb"
   }
 }

@@ -1,49 +1,29 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": [
-    "object",
-    "null"
-  ],
+  "type": ["object", "null"],
   "title": "CPU Schema",
   "description": "Schema for CPU components",
-  "required": [
-    "metadata"
-  ],
+  "required": ["metadata"],
   "properties": {
     "opendb_id": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
     "series": {
-      "description": "The product family the CPU belongs to (e.g., Ryzen 7, Core i9, Intel Core Ultra 5)",
-      "type": [
-        "string",
-        "null"
-      ]
+      "description": "The normalized CPU family bucket the product belongs to (e.g., Ryzen 7 9000, Core i7 14000, Core Ultra 5 200)",
+      "type": ["string", "null"]
     },
     "microarchitecture": {
       "description": "The underlying design and organization of the processor's core logic (e.g., Raptor Lake Refresh, Zen 4)",
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": ["string", "null"]
     },
     "coreFamily": {
       "description": "The specific core family (e.g., Raptor Cove, Granite Ridge)",
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": ["string", "null"]
     },
     "socket": {
       "description": "The physical connector on the motherboard that the CPU plugs into (e.g., LGA 1851, AM5, LGA 1700)",
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": ["string", "null"],
       "enum": [
         "AM5",
         "AM4",
@@ -94,393 +74,227 @@
       ]
     },
     "cores": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "properties": {
         "total": {
           "description": "The number of independent processing units (physical cores) within the CPU",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "performance": {
           "description": "The number of performance cores (hybrid CPUs only)",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "efficiency": {
           "description": "The number of efficiency cores (hybrid CPUs only)",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "threads": {
           "description": "The number of logical threads the CPU can handle",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         }
       }
     },
     "clocks": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "properties": {
         "performance": {
-          "type": [
-            "object",
-            "null"
-          ],
+          "type": ["object", "null"],
           "properties": {
             "base": {
               "description": "The base clock speed of the performance cores in GHz",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             },
             "boost": {
               "description": "The maximum boost clock speed of the performance cores in GHz",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             }
           }
         },
         "efficiency": {
-          "type": [
-            "object",
-            "null"
-          ],
+          "type": ["object", "null"],
           "properties": {
             "base": {
               "description": "The base clock speed of the efficiency cores in GHz (if applicable)",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             },
             "boost": {
               "description": "The maximum boost clock speed of the efficiency cores in GHz (if applicable)",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             }
           }
         }
       }
     },
     "cache": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "properties": {
         "l1": {
           "description": "Breakdown of L1 cache configuration",
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "l2": {
           "description": "The total amount of L2 cache in MB",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "l3": {
           "description": "The total amount of L3 cache in MB",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         }
       }
     },
     "specifications": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "properties": {
         "tdp": {
           "description": "Thermal Design Power: the maximum heat the CPU generates that the cooling system must dissipate, in Watts",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "ppt": {
           "description": "The Package Power Tracking limit of the CPU in Watts (maximum sustained power consumption)",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "integratedGraphics": {
-          "type": [
-            "object",
-            "null"
-          ],
+          "type": ["object", "null"],
           "properties": {
             "model": {
               "description": "The built-in graphics processor included on the CPU die (e.g., Intel UHD 770, AMD Radeon Graphics)",
-              "type": [
-                "string",
-                "null"
-              ]
+              "type": ["string", "null"]
             },
             "baseClock": {
               "description": "Base clock of integrated graphics",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             },
             "boostClock": {
               "description": "Boost clock of integrated graphics",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             },
             "shaderCount": {
               "description": "Number of shaders in the integrated graphics",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             }
           },
-          "required": [
-            "model"
-          ]
+          "required": ["model"]
         },
         "eccSupport": {
           "description": "Whether the CPU supports Error-Correcting Code memory",
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": ["boolean", "null"]
         },
         "includesCooler": {
           "description": "Whether a cooling solution is bundled with the processor in the box",
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": ["boolean", "null"]
         },
         "packaging": {
           "description": "The type of packaging the CPU comes in (e.g., Boxed, OEM/Tray)",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "Boxed",
-            "OEM/Tray",
-            null
-          ]
+          "type": ["string", "null"],
+          "enum": ["Boxed", "OEM/Tray", null]
         },
         "lithography": {
           "description": "The manufacturing process technology used. Can be multiple process technologies if chiplet design",
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "simultaneousMultithreading": {
           "description": "Whether the CPU supports simultaneous multithreading (SMT), also known as hyperthreading",
-          "type": [
-            "boolean",
-            "null"
-          ]
+          "type": ["boolean", "null"]
         },
         "memory": {
-          "type": [
-            "object",
-            "null"
-          ],
+          "type": ["object", "null"],
           "properties": {
             "maxSupport": {
               "description": "Max supported memory in GB",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             },
             "types": {
               "description": "The type of RAM supported by the CPU's memory controller (e.g., DDR4, DDR5)",
-              "type": [
-                "array",
-                "null"
-              ],
+              "type": ["array", "null"],
               "items": {
                 "type": "string",
-                "enum": [
-                  "DDR5",
-                  "DDR4",
-                  "DDR3",
-                  "DDR2",
-                  "DDR1"
-                ]
+                "enum": ["DDR5", "DDR4", "DDR3", "DDR2", "DDR1"]
               }
             },
             "channels": {
               "description": "Max supported memory channels",
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": ["number", "null"]
             }
           },
-          "required": [
-            "types"
-          ]
+          "required": ["types"]
         }
       }
     },
     "general_product_information": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "description": "General product information and retailer SKUs",
       "properties": {
         "amazon_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Amazon product SKU"
         },
         "newegg_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Newegg product SKU"
         },
         "bestbuy_sku": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "Best Buy product SKU"
         },
         "walmart_sku": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "Walmart product SKU"
         },
         "adorama_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Adorama product SKU"
         },
         "ibuypower_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "iBuyPower product SKU"
         },
         "hyte_sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "HYTE product SKU"
         },
         "manufacturer_url": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Official manufacturer product URL"
         }
       }
     },
     "metadata": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "properties": {
         "name": {
-          "description": "Full product name",
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "Full product name Prefer manufacturer + product family + processor number/suffix. Exclude generic category words like 'processor' or 'CPU' unless they are part of the marketed family name. Exclude cache, frequency, and other trailing spec text. Example: Intel Core Ultra 5 250K Plus, AMD Ryzen 7 9800X3D",
+          "type": ["string", "null"]
         },
         "manufacturer": {
           "description": "CPU manufacturer",
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": ["string", "null"]
         },
         "part_numbers": {
           "description": "Array of manufacturer's part numbers/SKUs",
-          "type": [
-            "array",
-            "null"
-          ],
+          "type": ["array", "null"],
           "items": {
             "type": "string"
           }
         },
         "series": {
-          "description": "Product series name",
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "Product series name Use the exact reference name first; if there is no reliable reference name, use the exact source product name. Return the normalized family bucket that groups nearby SKUs together — not the full SKU and not the bare tier alone. Include the family number when the naming scheme uses one. Do NOT include the manufacturer name (Intel/AMD) in Series — that belongs in `manufacturer`. Full SKU identifiers belong in `variant`. Reject broad marketing labels like 'Intel Core Ultra Processors (Series 2)' unless they exactly match the canonical family bucket. Examples: 'Intel Core Ultra 5 250K Plus' → series='Core Ultra 5 200'. 'Intel Core i7-14700K' → series='Core i7 14000'. 'AMD Ryzen 7 9800X3D' → series='Ryzen 7 9000'. Wrong outputs for the same examples would be: 'Intel Core Ultra 5 200', 'Core Ultra 5', '250K Plus', or 'Series 2'.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "description": "Specific variant in the series",
-          "type": [
-            "string",
-            "null"
-          ]
+          "description": "Specific variant in the series Use the exact model number and suffix that identify the specific SKU inside the series family bucket. Examples: 'Intel Core Ultra 5 250K Plus' → variant='250K Plus' (with series='Core Ultra 5 200'). 'Intel Core i9-14900KS' → variant='14900KS'. 'AMD Ryzen 7 9800X3D' → variant='9800X3D' (with series='Ryzen 7 9000').",
+          "type": ["string", "null"]
         },
         "releaseYear": {
           "description": "Year of release",
-          "type": [
-            "number",
-            "null"
-          ]
+          "type": ["number", "null"]
         },
         "last_manually_spec_verified_at": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "format": "date-time",
           "description": "ISO 8601 timestamp of when the part specs were last manually verified by a human"
         }
       },
-      "required": [
-        "name"
-      ]
+      "required": ["name"]
     }
   }
 }

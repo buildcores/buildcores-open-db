@@ -3,27 +3,31 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c702865ad0c3553eb1b7"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte AERO OC GeForce RTX 4080 16GB GDDR6X White",
+    "name": "Gigabyte GeForce RTX 4080 16GB AERO OC GDDR6X",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N4080AERO OC-16GD"
-    ],
-    "series": "GeForce RTX 4080",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N4080AERO OC-16GD"],
+    "series": "AERO",
+    "variant": "OC",
+    "manufacturer_color": "White",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080",
@@ -31,19 +35,20 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 2205,
   "core_boost_clock": 2535,
-  "effective_memory_clock": 22400,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "WHITE"
-  ],
+  "effective_memory_clock": 1400,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["WHITE", "RGB"],
   "length": 342,
   "tdp": 320,
-  "total_slot_width": 4,
+  "total_slot_width": 3.75,
   "cooling": "3 Fans",
   "core_count": 9728,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BNWJ6WTQ",
-    "walmart_sku": 2750675724
+    "walmart_sku": 2750675724,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N4080AERO-OC-16GD/sp"
   }
 }

@@ -4,26 +4,30 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "684cd4301d3a20a8514d3a29"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PNY EPIC-X RGB Triple Fan Plus OC GeForce RTX 5070 Ti 16GB GDDR7 Black",
+    "name": "PNY GeForce RTX 5070 Ti 16GB EPIC-X RGB Overclocked Triple Fan Plus GDDR7",
     "manufacturer": "PNY",
-    "part_numbers": [
-      "VCG5071T16TFXXPB1-O"
-    ],
-    "series": "GeForce RTX 5070 Ti",
-    "variant": "PNY"
+    "part_numbers": ["VCG5071T16TFXXPB1-O"],
+    "series": "EPIC-X RGB",
+    "variant": "Overclocked Triple Fan Plus",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
@@ -31,19 +35,20 @@
   "memory_type": "GDDR7",
   "core_base_clock": 2295,
   "core_boost_clock": 2640,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 328,
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "RGB"],
+  "length": 329,
   "tdp": 300,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 8960,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
   "general_product_information": {
     "amazon_sku": "B0F67FBX4Z",
-    "newegg_sku": "N82E16814985009"
+    "newegg_sku": "N82E16814985009",
+    "manufacturer_url": "https://www.pny.com/geforce-rtx-5070-ti-triple-fan-plus-models"
   }
 }

@@ -2,7 +2,7 @@
   "opendb_id": "62f248ea-1fa8-4e12-9f06-985388960db8",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,16 +14,20 @@
     "displayport_1_4a": 2,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7c4865ad0c3553ebdea"
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Gigabyte WINDFORCE OC Rev 2.0 GeForce RTX 3060 12GB GDDR6 Black",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N3060WF2OC-12GD REV2.0"
-    ],
-    "series": "GeForce RTX 3060 12GB",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N3060WF2OC-12GD REV2.0"],
+    "series": "WINDFORCE",
+    "variant": "OC Rev 2.0",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 12 GB",
@@ -31,20 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1320,
   "core_boost_clock": 1792,
-  "effective_memory_clock": 15000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK"],
   "length": 198,
   "tdp": 170,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CLF23DXB",
     "newegg_sku": "N82E16814932658",
-    "walmart_sku": 5073349109
+    "walmart_sku": 5073349109,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N3060WF2OC-12GD-rev-20"
   }
 }

@@ -36,16 +36,12 @@
     "temperature_sensor": 2
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9ba89865ad0c3553dfea8"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4082",
@@ -54,11 +50,7 @@
   "metadata": {
     "name": "MSI MEG X870E GODLIKE AM5 DDR5 EATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "MEG X870E GODLIKE                                                    7E48-001R",
-      "MEG X870E GODLIKE",
-      "X870EGODLIKE"
-    ],
+    "part_numbers": ["MEG X870E GODLIKE", "7E48-001R", "X870EGODLIKE", "Meg X870E GODLIKE"],
     "series": "X870E",
     "variant": "MEG GODLIKE",
     "last_manually_spec_verified_at": "2026-02-16T06:59:49.254Z"
@@ -66,27 +58,25 @@
   "socket": "AM5",
   "form_factor": "EATX",
   "chipset": "AMD X870E",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9ba89865ad0c3553dfe9b"
+      "_id": "69b3abccce32fbd0888323d6"
     },
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 8,
-      "_id": "67f9ba89865ad0c3553dfe9c"
+      "_id": "69b3abccce32fbd0888323d7"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "692491836f830f5fe884ebc6"
+      "_id": "69b3abccce32fbd0888323d8"
     }
   ],
   "m2_slots": [
@@ -94,38 +84,38 @@
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9ba89865ad0c3553dfe9d"
+      "_id": "69b3abccce32fbd0888323d9"
     },
     {
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9ba89865ad0c3553dfe9e"
+      "_id": "69b3abccce32fbd0888323da"
     },
     {
       "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfe9f"
+      "_id": "69b3abccce32fbd0888323db"
     },
     {
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x2",
-      "_id": "67f9ba89865ad0c3553dfea0"
+      "_id": "69b3abccce32fbd0888323dc"
     },
     {
       "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9ba89865ad0c3553dfea1"
+      "_id": "69b3abccce32fbd0888323dd"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
       "controller": "Marvell AQtion AQC113C",
-      "_id": "67f9ba89865ad0c3553dfea7"
+      "_id": "69b3abccce32fbd0888323de"
     }
   ],
   "ecc_support": false,

@@ -4,48 +4,53 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c76c865ad0c3553eb854"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "displayport_2_1": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "PNY GeForce RTX 5090 EPIC-X RGB OC 32GB GDDR7 Black",
     "manufacturer": "PNY",
-    "part_numbers": [
-      "VCG509032TFXXPB1-O"
-    ],
-    "series": "GeForce RTX 5090",
-    "variant": "PNY"
+    "part_numbers": ["VCG509032TFXXPB1-O"],
+    "series": "EPIC-X RGB",
+    "variant": "OC",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5090",
   "memory": 32,
   "memory_type": "GDDR7",
-  "core_base_clock": 2010,
+  "core_base_clock": 2017,
   "core_boost_clock": 2625,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 512,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK"],
   "length": 329,
   "tdp": 600,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
   "core_count": 21760,
+  "case_expansion_slot_width": 3,
+  "frame_sync": "G-Sync",
   "general_product_information": {
     "amazon_sku": "B0DTJFSSZG",
     "newegg_sku": "1FT-000P-00661",
     "bestbuy_sku": 6617115,
-    "walmart_sku": 15072274444
+    "walmart_sku": 15072274444,
+    "manufacturer_url": "https://www.pny.com/geforce-rtx-5090-models"
   }
 }

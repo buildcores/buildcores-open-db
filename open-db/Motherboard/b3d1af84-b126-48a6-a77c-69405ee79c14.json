@@ -39,16 +39,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin",
-      "4-pin"
-    ],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f9b72d865ad0c3553da018"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -57,10 +53,7 @@
   "metadata": {
     "name": "Asus X670E PRIME-PRO WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "PRIME X670E-PRO WIFI                                                    90MB1BL0-M0AAY0                                                    90MB1BL0-M0EAY0",
-      "PRIME X670E-PRO WIFI"
-    ],
+    "part_numbers": ["PRIME X670E-PRO WIFI", "90MB1BL0-M0AAY0", "90MB1BL0-M0EAY0"],
     "series": "X670E",
     "variant": "E-PRO WIFI     ",
     "releaseYear": 2022,
@@ -69,28 +62,25 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X670E",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b72d865ad0c3553da00d"
+      "_id": "69b3ac487d50ea703049425f"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b72d865ad0c3553da00e"
+      "_id": "69b3ac487d50ea7030494260"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "68f40ce41f5fd30cf4599a38"
+      "_id": "69b3ac487d50ea7030494261"
     }
   ],
   "m2_slots": [
@@ -98,26 +88,26 @@
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b72d865ad0c3553da00f"
+      "_id": "69b3ac487d50ea7030494262"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b72d865ad0c3553da010"
+      "_id": "69b3ac487d50ea7030494263"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b72d865ad0c3553da011"
+      "_id": "69b3ac487d50ea7030494264"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek",
-      "_id": "67f9b72d865ad0c3553da017"
+      "_id": "69b3ac487d50ea7030494265"
     }
   ],
   "ecc_support": true,

@@ -2,7 +2,7 @@
   "opendb_id": "89ac4be6-e1c5-4f53-8d6f-2b4b66c5d339",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,37 +14,41 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7ff865ad0c3553ec1a2"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "XFX Speedster SWFT 210 Radeon RX 7600 XT 16GB GDDR6 Black",
     "manufacturer": "XFX",
-    "part_numbers": [
-      "RX-76TSWFTFP"
-    ],
-    "series": "Radeon RX 7600 XT",
-    "variant": "XFX"
+    "part_numbers": ["RX-76TSWFTFP"],
+    "series": "Speedster SWFT 210",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7600 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1720,
+  "core_base_clock": 1980,
   "core_boost_clock": 2755,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 2250,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK"],
   "length": 272,
   "tdp": 190,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 2048,
+  "memory_bus": 128,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CRZBXYVQ",
     "newegg_sku": "N82E16814150889",
-    "walmart_sku": 5362954905
+    "walmart_sku": 5362954905,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-swft-210-amd-radeon-tm-rx-7600-xt"
   }
 }

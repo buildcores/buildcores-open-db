@@ -4,45 +4,48 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c844865ad0c3553ec5be"
+    "hdmi_2_1b": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0,
+    "displayport_2_1": 0
   },
   "metadata": {
-    "name": "Gigabyte GeForce RTX 5070 EAGLE OC SFF 12GB GDDR7 White",
+    "name": "Gigabyte GeForce RTX 5070 EAGLE OC SFF 12GB GDDR7 ",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N5070EAGLEOC-ICE-12GD",
-      "GV-N5070EAGLEOC ICE-12GD"
-    ],
-    "series": "GeForce RTX 5070",
-    "variant": "Gigabyte"
+    "part_numbers": ["GV-N5070EAGLEOC-ICE-12GD", "GV-N5070EAGLEOC ICE-12GD"],
+    "variant": "OC SFF",
+    "series": "EAGLE ",
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "memory": 12,
   "memory_type": "GDDR7",
-  "core_base_clock": 2160,
+  "core_base_clock": 2325,
   "core_boost_clock": 2587,
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": [
-    "WHITE"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["WHITE", "GREY", "BLACK"],
   "length": 290,
   "tdp": 250,
-  "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 6144,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.5,
   "general_product_information": {
     "amazon_sku": "B0DTQTJQGZ",
     "newegg_sku": "N82E16814932775",

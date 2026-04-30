@@ -2,7 +2,7 @@
   "opendb_id": "c82e6b20-1e91-4bc7-a082-7c0646fcffb0",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,37 +14,42 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c5a2865ad0c3553e9b8c"
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 1
   },
   "metadata": {
-    "name": "XFX Speedster QICK 319 Radeon RX 7700 XT 12GB GDDR6 Black",
+    "name": "XFX Speedster QICK 319 Radeon RX 7700 XT 12GB GDDR6 Black Edition",
     "manufacturer": "XFX",
-    "part_numbers": [
-      "RX-77TQICKB9"
-    ],
-    "series": "Radeon RX 7700 XT",
-    "variant": "XFX"
+    "part_numbers": ["RX-77TQICKB9"],
+    "series": "Speedster QICK 319",
+    "variant": "Black Edition",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7700 XT",
   "memory": 12,
   "memory_type": "GDDR6",
-  "core_base_clock": 1700,
+  "core_base_clock": 1785,
   "core_boost_clock": 2599,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 2250,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK"],
   "length": 335,
   "tdp": 245,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 3456,
+  "memory_bus": 192,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CGMBYMY6",
     "bestbuy_sku": 6559746,
-    "walmart_sku": 5020425106
+    "walmart_sku": 5020425106,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-qick-319-radeon-tm-rx-7700-xt-black-edition"
   }
 }

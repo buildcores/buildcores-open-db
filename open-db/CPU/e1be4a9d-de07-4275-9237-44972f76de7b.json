@@ -8,52 +8,48 @@
   },
   "clocks": {
     "performance": {
-      "base": 0,
-      "boost": 5.1
+      "boost": 5.1,
+      "base": 3.2
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 1,
-    "l3": 256
+    "l3": 256,
+    "l1": "4096 KB",
+    "l2": 64
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None"
     },
     "memory": {
-      "maxSupport": 1000,
-      "types": [
-        "DDR5"
-      ],
+      "maxSupport": 1024,
+      "types": ["DDR5"],
       "channels": 4
     },
     "tdp": 350,
     "eccSupport": true,
     "includesCooler": false,
-    "packaging": null,
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "packaging": "Boxed",
+    "simultaneousMultithreading": true,
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET"
   },
   "metadata": {
-    "name": "Ryzen Threadripper 7980X",
+    "name": "AMD Ryzen Threadripper 7980X",
     "manufacturer": "AMD",
-    "part_numbers": [
-      "AMD Ryzen™ Threadripper™ 7980X",
-      "100-100001350WOF"
-    ],
-    "series": "Ryzen Threadripper",
-    "variant": null,
+    "part_numbers": ["100-100001350WOF"],
+    "series": "Ryzen Threadripper 7000 Series",
+    "variant": "7980X",
     "releaseYear": 2023,
     "last_manually_spec_verified_at": "2025-07-28T23:24:06.287Z"
   },
-  "series": "Ryzen Threadripper",
+  "series": "Ryzen Threadripper 7000 Series",
   "microarchitecture": "Zen 4",
   "coreFamily": "Storm Peak",
   "socket": "sTR5",
   "general_product_information": {
     "amazon_sku": "B0CK2R6DVS",
     "newegg_sku": "N82E16819113808",
+    "bestbuy_sku": 12153249,
     "walmart_sku": 5182595267
   }
 }

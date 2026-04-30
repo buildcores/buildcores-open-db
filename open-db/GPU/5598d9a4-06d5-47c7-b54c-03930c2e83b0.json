@@ -2,7 +2,7 @@
   "opendb_id": "5598d9a4-06d5-47c7-b54c-03930c2e83b0",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,38 +14,41 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c61a865ad0c3553ea328"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sapphire PULSE Black / Red Radeon RX 7900 XTX 24GB GDDR6 Black / Red",
+    "name": "Sapphire PULSE Radeon RX 7900 XTX 24GB GDDR6",
     "manufacturer": "Sapphire",
-    "part_numbers": [
-      "11322-02-20G"
-    ],
-    "series": "Radeon RX 7900 XTX",
-    "variant": "Sapphire"
+    "part_numbers": ["11322-02-20G"],
+    "series": "PULSE",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 XTX",
   "memory": 24,
   "memory_type": "GDDR6",
-  "core_base_clock": 2300,
+  "core_base_clock": 1980,
   "core_boost_clock": 2525,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK",
-    "RED"
-  ],
+  "effective_memory_clock": 2500,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "RED"],
   "length": 313,
   "tdp": 370,
-  "total_slot_width": 3,
+  "total_slot_width": 2.7,
   "cooling": "3 Fans",
   "core_count": 6144,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BR6HZZ6Z",
     "newegg_sku": "N82E16814202429",
-    "walmart_sku": 1935533496
+    "walmart_sku": 1935533496,
+    "manufacturer_url": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-7900-xtx-24g-gddr6"
   }
 }

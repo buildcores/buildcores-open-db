@@ -2,50 +2,52 @@
   "opendb_id": "e8cf76ec-16df-4a89-9722-4888e7baa432",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c56e865ad0c3553e986f"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sparkle ELF Arc A380 6GB GDDR6 Blue / Black",
+    "name": "SPARKLE Intel Arc A380 ELF, 6GB GDDR6",
     "manufacturer": "Sparkle",
-    "part_numbers": [
-      "SA380E-6G                                                    1A1-S00394100G",
-      "SA380E-6G"
-    ],
-    "series": "Arc A380",
-    "variant": "Sparkle"
+    "part_numbers": ["SA380E-6G", "1A1-S00394100G"],
+    "series": "ELF",
+    "releaseYear": 2022,
+    "manufacturer_color": "Blue"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc A380",
   "memory": 6,
   "memory_type": "GDDR6",
   "core_base_clock": 2000,
-  "core_boost_clock": 2000,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLUE",
-    "BLACK"
-  ],
-  "length": 153,
+  "core_boost_clock": 2050,
+  "effective_memory_clock": 1937,
+  "memory_bus": 96,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLUE", "BLACK"],
+  "length": 152.6,
   "tdp": 75,
   "total_slot_width": 2,
   "cooling": "1 Fan",
   "core_count": 1024,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C74RQV9K",
-    "newegg_sku": "N82E16814993003"
+    "newegg_sku": "N82E16814993003",
+    "manufacturer_url": "https://www.sparkle.com.tw/files/20240202124124576.pdf"
   }
 }

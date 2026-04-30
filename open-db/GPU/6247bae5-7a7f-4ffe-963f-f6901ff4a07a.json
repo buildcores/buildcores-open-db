@@ -2,12 +2,12 @@
   "opendb_id": "6247bae5-7a7f-4ffe-963f-f6901ff4a07a",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 2,
+    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -15,19 +15,19 @@
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c701865ad0c3553eb198"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI SHADOW 3X OC GeForce RTX 5070 12GB GDDR7 Black",
+    "name": "MSI GeForce RTX 5070 12G SHADOW 3X OC 12GB GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "RTX-5070-12G-SHADOW-3X-OC    G5070-12S3C",
-      "RTX 5070 12G SHADOW 3X OC",
-      "G5070-12S3C"
-    ],
-    "series": "GeForce RTX 5070",
-    "variant": "SHADOW 3X OC 12GB",
+    "part_numbers": ["RTX-5070-12G-SHADOW-3X-OC", "G5070-12S3C", "RTX 5070 12G SHADOW 3X OC"],
+    "series": "SHADOW 3X",
+    "variant": "OC ",
     "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-11-28T20:25:11.876Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -36,15 +36,13 @@
   "memory_type": "GDDR7",
   "core_base_clock": 2325,
   "core_boost_clock": 2557,
-  "effective_memory_clock": 1750,
+  "effective_memory_clock": 28000,
   "memory_bus": 192,
   "interface": "PCIe 5.0 x16",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "length": 303,
   "tdp": 250,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 6144,
   "frame_sync": "G-Sync",

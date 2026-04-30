@@ -2,29 +2,31 @@
   "opendb_id": "899afb31-5a58-4afd-89f6-acbe29204347",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c75f865ad0c3553eb782"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA Founders Edition GeForce RTX 3070 8GB GDDR6 Black",
+    "name": "NVIDIA Founders Edition GeForce RTX 3070 8GB GDDR6",
     "manufacturer": "NVIDIA",
-    "part_numbers": [
-      "9001G1422510000",
-      "rtx 3070"
-    ],
-    "series": "GeForce RTX 3070",
-    "variant": "NVIDIA"
+    "part_numbers": ["9001G1422510000", "rtx 3070"],
+    "series": "Founders Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3070",
@@ -32,19 +34,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1730,
-  "effective_memory_clock": 16000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 242,
   "tdp": 220,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08MYCN952",
-    "walmart_sku": 107901889
+    "walmart_sku": 107901889,
+    "manufacturer_url": "https://www.nvidia.com/en-ph/geforce/graphics-cards/30-series/rtx-3070-3070ti/"
   }
 }

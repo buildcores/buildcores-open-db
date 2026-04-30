@@ -7,7 +7,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -15,17 +15,18 @@
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "680e7d4353adf782a1c72b28"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Asus PRIME GeForce RTX 5060 Ti 8GB GDDR7 Black",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "PRIME-RTX5060TI-8G",
-      "90YV0MP1-M0AA00"
-    ],
-    "series": "GeForce RTX 5060 Ti",
-    "variant": "PRIME 8GB",
+    "part_numbers": ["PRIME-RTX5060TI-8G", "90YV0MP1-M0AA00"],
+    "series": "PRIME ",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-12-19T11:35:54.902Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -37,12 +38,10 @@
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "interface": "PCIe 5.0 x8",
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK", "GREY"],
   "length": 304,
   "tdp": 180,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 4608,
   "frame_sync": "G-Sync",
@@ -51,6 +50,7 @@
     "amazon_sku": "B0F4RTF9QN",
     "newegg_sku": "N82E16814126794",
     "bestbuy_sku": 6628263,
+    "walmart_sku": 16677263497,
     "ibuypower_sku": "32110",
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/graphics-cards/prime/prime-rtx5060ti-8g/techspec/"
   }

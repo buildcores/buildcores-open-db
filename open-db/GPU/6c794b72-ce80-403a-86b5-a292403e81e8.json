@@ -7,25 +7,27 @@
     "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": null,
     "displayport_1_4a": 0,
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c7b8865ad0c3553ebcfb"
+    "hdmi_2_1": 0,
+    "hdmi_2_2": 0,
+    "displayport_2_1a": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte AORUS MASTER GeForce RTX 5090 32GB GDDR7 White",
+    "name": "Gigabyte AORUS MASTER GeForce RTX 5090 32GB GDDR7 ",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "GV-N5090AORUSM ICE-32GD"
-    ],
-    "series": "GeForce RTX 5090",
-    "variant": "AORUS MASTER ",
+    "part_numbers": ["GV-N5090AORUSM ICE-32GD"],
+    "series": "AORUS ",
+    "variant": "MASTER",
     "releaseYear": 2025,
+    "manufacturer_color": "Ice White",
     "last_manually_spec_verified_at": "2025-10-14T17:47:31.326Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -37,10 +39,7 @@
   "effective_memory_clock": 1750,
   "memory_bus": 512,
   "interface": "PCIe 5.0 x16",
-  "color": [
-    "WHITE",
-    "RGB"
-  ],
+  "color": ["WHITE", "RGB"],
   "length": 360,
   "tdp": 575,
   "total_slot_width": 4,

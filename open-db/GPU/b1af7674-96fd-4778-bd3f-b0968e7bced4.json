@@ -1,27 +1,36 @@
 {
   "opendb_id": "b1af7674-96fd-4778-bd3f-b0968e7bced4",
   "power_connectors": {
-    "pcie_8_pin": 1
+    "pcie_8_pin": 1,
+    "pcie_6_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "displayport_2_1_b": 3,
-    "_id": "68f0b9ea92a06de8fe631b2a"
+    "hdmi_2_1b": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_0": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
     "name": "ASUS Dual GeForce RTX 5050 8GB GDDR6 OC Edition BLACK",
-    "part_numbers": [
-      "DUAL-RTX5050-O8G"
-    ],
+    "part_numbers": ["DUAL-RTX5050-O8G"],
     "manufacturer": "ASUS",
-    "series": "GeForce RTX 5050",
+    "series": "Dual ",
     "releaseYear": 2025,
-    "variant": "Dual OC 8GB",
+    "variant": "OC Edition",
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-12-03T17:25:55.909Z"
   },
-  "color": [
-    "BLACK"
-  ],
+  "color": ["BLACK"],
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5050",
   "core_count": 2560,

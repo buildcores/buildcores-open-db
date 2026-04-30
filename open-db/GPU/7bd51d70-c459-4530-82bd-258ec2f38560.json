@@ -7,25 +7,26 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "677a9d408776ff3622ed9aa5"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
     "name": "Intel Arc B580 Graphics",
     "manufacturer": "Intel",
-    "part_numbers": [
-      "INT-31P06HB0BA",
-      "ARC B580 12G"
-    ],
-    "series": "Intel Arc B-Series",
-    "variant": "Limited Edition",
+    "part_numbers": ["INT-31P06HB0BA", "ARC B580 12G"],
     "releaseYear": 2024,
+    "series": "B-Series",
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-03-07T03:10:07.685Z"
   },
   "chipset_manufacturer": "Intel",
@@ -34,21 +35,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2670,
   "core_boost_clock": 2670,
-  "effective_memory_clock": 19000,
+  "effective_memory_clock": 2375,
   "memory_bus": 192,
   "interface": "PCIe 4.0 x8",
-  "frame_sync": "FreeSync",
+  "frame_sync": "G-Sync Compatible",
   "length": 272,
   "tdp": 190,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "1 Fan",
-  "color": [],
+  "color": ["BLACK"],
   "core_count": 2560,
   "general_product_information": {
     "amazon_sku": "B0DPM9923G",
     "newegg_sku": "1WK-0040-00C87",
     "bestbuy_sku": 6613053,
-    "walmart_sku": 14844319838
+    "walmart_sku": 14844319838,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html"
   }
 }

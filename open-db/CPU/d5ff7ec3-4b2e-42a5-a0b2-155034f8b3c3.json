@@ -2,14 +2,13 @@
   "opendb_id": "d5ff7ec3-4b2e-42a5-a0b2-155034f8b3c3",
   "cores": {
     "total": 32,
-    "performance": 32,
     "efficiency": 0,
     "threads": 64
   },
   "clocks": {
     "performance": {
-      "base": 4000,
-      "boost": 5300
+      "base": 4,
+      "boost": 5.3
     },
     "efficiency": {
       "base": null,
@@ -17,8 +16,8 @@
     }
   },
   "cache": {
-    "l1": null,
-    "l2": null,
+    "l1": "2048 KB",
+    "l2": 32,
     "l3": 128
   },
   "specifications": {
@@ -29,30 +28,28 @@
       "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 192,
-      "types": [
-        "DDR5"
-      ],
+      "maxSupport": 1024,
+      "types": ["DDR5"],
       "channels": 4
     },
     "tdp": 350,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
-    "packaging": null,
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "packaging": "Boxed",
+    "simultaneousMultithreading": true,
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET"
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 7970X",
-    "part_numbers": [
-      "AMD Ryzen™ Threadripper™ 7970X",
-      "100-100001351WOF"
-    ],
-    "releaseYear": 2023
+    "part_numbers": ["100-100001351WOF"],
+    "releaseYear": 2023,
+    "manufacturer": "AMD",
+    "series": "Ryzen Threadripper 7000 Series",
+    "variant": "7970X"
   },
-  "series": "Ryzen Threadripper",
+  "series": "Ryzen Threadripper 7000 Series",
   "microarchitecture": "Zen 4",
-  "coreFamily": null,
+  "coreFamily": "Storm Peak",
   "socket": "sTR5",
   "general_product_information": {
     "amazon_sku": "B0CK2W3WFP",

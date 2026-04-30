@@ -3,28 +3,31 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c5da865ad0c3553e9f18"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PNY OC GeForce RTX 5070 12GB GDDR7 Black",
+    "name": "PNY GeForce RTX 5070 12GB ARGB EPIC-X RGB Overclocked Triple Fan GDDR7",
     "manufacturer": "PNY",
-    "part_numbers": [
-      "VCG507012TFXPB1-O",
-      "VCG507012TFXXPB1-O"
-    ],
-    "series": "GeForce RTX 5070",
-    "variant": "PNY"
+    "part_numbers": ["VCG507012TFXPB1-O", "VCG507012TFXXPB1-O"],
+    "variant": "Overclocked Triple Fan",
+    "series": "EPIC-X RGB",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
@@ -32,21 +35,22 @@
   "memory": 12,
   "memory_type": "GDDR7",
   "core_base_clock": 2325,
-  "core_boost_clock": 2587,
-  "effective_memory_clock": 0,
+  "core_boost_clock": 2512,
+  "effective_memory_clock": 1750,
   "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK"],
   "length": 300,
   "tdp": 250,
-  "total_slot_width": 3,
+  "total_slot_width": 2.4,
   "cooling": "3 Fans",
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DYPGBX6J",
     "newegg_sku": "N82E16814133902",
     "bestbuy_sku": 6620354,
-    "walmart_sku": 15401503236
+    "walmart_sku": 15401503236,
+    "manufacturer_url": "https://www.pny.com/geforce-rtx-5070-models"
   }
 }

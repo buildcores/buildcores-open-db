@@ -2,7 +2,7 @@
   "opendb_id": "4d4b9c98-f7c7-48ac-8496-456593ffb3de",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,39 +14,43 @@
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c77f865ad0c3553eb96e"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus DUAL OC GeForce RTX 4070 12GB GDDR6X Black",
+    "name": "ASUS Dual GeForce RTX 4070 OC Edition 12GB GDDR6X",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "dual-rtx4070-o12g                                                    90YV0IZ2-M0NA00",
-      "DUAL-RTX4070-O12G"
-    ],
-    "series": "GeForce RTX 4070",
-    "variant": "Asus"
+    "part_numbers": ["dual-rtx4070-o12g", "90YV0IZ2-M0NA00", "DUAL-RTX4070-O12G"],
+    "series": "Dual",
+    "variant": "OC Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070",
   "memory": 12,
   "memory_type": "GDDR6X",
-  "core_base_clock": 2520,
-  "core_boost_clock": 2550,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 267,
+  "core_base_clock": 1920,
+  "core_boost_clock": 2520,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY"],
+  "length": 267.01,
   "tdp": 200,
-  "total_slot_width": 3,
+  "total_slot_width": 2.56,
   "cooling": "2 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BZTF7LFK",
     "newegg_sku": "N82E16814126638",
     "bestbuy_sku": 6540001,
-    "walmart_sku": 2446803882
+    "walmart_sku": 2446803882,
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/graphics-cards/dual/dual-rtx4070-o12g/techspec/"
   }
 }

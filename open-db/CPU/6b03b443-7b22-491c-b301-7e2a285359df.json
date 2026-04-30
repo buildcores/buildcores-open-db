@@ -2,46 +2,54 @@
   "opendb_id": "6b03b443-7b22-491c-b301-7e2a285359df",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": null,
+    "threads": 12,
+    "efficiency": null
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 5.1
+    },
+    "efficiency": {
+      "base": null,
+      "boost": null
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "384 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": [
-        "DDR5"
-      ]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
     "name": "AMD Ryzen 5 7600 3.8 GHz 6-Core AM5",
     "manufacturer": "AMD",
-    "part_numbers": [
-      "100-100001015BOX",
-      "100-00001015BOX"
-    ],
-    "series": "AMD Ryzen 5"
+    "part_numbers": ["100-100001015BOX", "100-00001015BOX"],
+    "series": "AMD Ryzen 5 7000",
+    "variant": "7600",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

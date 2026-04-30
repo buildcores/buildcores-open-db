@@ -33,15 +33,12 @@
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false,
-    "_id": "67f9b981865ad0c3553de1ed"
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC4080",
@@ -50,10 +47,7 @@
   "metadata": {
     "name": "Gigabyte B650I AORUS ULTRA 1.0 DDR5 Mini ITX",
     "manufacturer": "Gigabyte",
-    "part_numbers": [
-      "B650I AORUS ULTRA",
-      "MBG-B650IAORUSULTRA"
-    ],
+    "part_numbers": ["B650I AORUS ULTRA", "MBG-B650IAORUSULTRA"],
     "series": "B650I",
     "variant": "AORUS ULTRA 1.0",
     "last_manually_spec_verified_at": "2026-02-19T20:25:26.034Z"
@@ -61,16 +55,13 @@
   "socket": "AM5",
   "form_factor": "Mini-ITX",
   "chipset": "AMD B650",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f9b981865ad0c3553de1e6"
+      "_id": "69b3ac4f75ef0cf5df018100"
     }
   ],
   "m2_slots": [
@@ -78,26 +69,26 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f9b981865ad0c3553de1e7"
+      "_id": "69b3ac4f75ef0cf5df018101"
     },
     {
       "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b981865ad0c3553de1e8"
+      "_id": "69b3ac4f75ef0cf5df018102"
     },
     {
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f9b981865ad0c3553de1e9"
+      "_id": "69b3ac4f75ef0cf5df018103"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel",
-      "_id": "67f9b981865ad0c3553de1ec"
+      "_id": "69b3ac4f75ef0cf5df018104"
     }
   ],
   "ecc_support": false,

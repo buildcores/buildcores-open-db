@@ -37,15 +37,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": [
-      "8-pin"
-    ],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true,
-    "_id": "67f91ee0eb7c00c41ad737de"
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -54,12 +51,7 @@
   "metadata": {
     "name": "ASRock B650M HDV/M.2 DDR5 Micro ATX",
     "manufacturer": "ASRock",
-    "part_numbers": [
-      "B650M-HDV",
-      "M.2                                                    90-MXBLA0-A0UAYZ",
-      "B650M-HDV/M.2",
-      "90-MXBLA0-A0UAYZ"
-    ],
+    "part_numbers": ["B650M-HDV", "M.2", "90-MXBLA0-A0UAYZ", "B650M-HDV/M.2"],
     "series": "B650M",
     "variant": "HDV/M.2",
     "last_manually_spec_verified_at": "2026-01-29T16:31:16.023Z"
@@ -67,28 +59,25 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B650",
-  "color": [
-    "GREY",
-    "BLACK"
-  ],
+  "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16,
-      "_id": "67f91ee0eb7c00c41ad737d7"
+      "_id": "69b3abf7cf841c9bc5aa4c62"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4,
-      "_id": "67f91ee0eb7c00c41ad737d8"
+      "_id": "69b3abf7cf841c9bc5aa4c63"
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 1,
-      "_id": "697b8b53c866e40be7aaa515"
+      "_id": "69b3abf7cf841c9bc5aa4c64"
     }
   ],
   "m2_slots": [
@@ -96,20 +85,20 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 5.0 x4",
-      "_id": "67f91ee0eb7c00c41ad737d9"
+      "_id": "69b3abf7cf841c9bc5aa4c65"
     },
     {
       "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4",
-      "_id": "67f91ee0eb7c00c41ad737da"
+      "_id": "69b3abf7cf841c9bc5aa4c66"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek RTL8125BG",
-      "_id": "67f91ee0eb7c00c41ad737dd"
+      "_id": "69b3abf7cf841c9bc5aa4c67"
     }
   ],
   "ecc_support": true,
@@ -128,6 +117,7 @@
   "general_product_information": {
     "amazon_sku": "B0BY6YRT41",
     "newegg_sku": "N82E16813162114",
+    "walmart_sku": 3911084081,
     "manufacturer_url": "https://www.asrock.com/mb/AMD/B650M-HDVM.2/#Specification"
   }
 }

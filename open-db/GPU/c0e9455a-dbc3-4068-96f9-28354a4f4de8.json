@@ -2,31 +2,32 @@
   "opendb_id": "c0e9455a-dbc3-4068-96f9-28354a4f4de8",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 2,
+    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": null,
+    "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67e89c7111815510c7c777d3"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI SUPRIM LIQUID SOC GeForce RTX 5080 16 GB",
+    "name": "MSI GeForce RTX 5080 16G SUPRIM LIQUID SOC GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "G5080-16SLS",
-      "RTX 5080 16G SUPRIM LIQUID SOC"
-    ],
-    "series": "GeForce RTX 5080",
-    "variant": "SUPRIM LIQUID SOC",
+    "part_numbers": ["G5080-16SLS", "RTX 5080 16G SUPRIM LIQUID SOC"],
+    "series": "SUPRIM LIQUID",
+    "variant": "SOC ",
     "releaseYear": 2025,
+    "manufacturer_color": "Titanium Gray",
     "last_manually_spec_verified_at": "2025-12-15T21:11:10.268Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -34,7 +35,7 @@
   "memory": 16,
   "memory_type": "GDDR7",
   "core_base_clock": 2295,
-  "core_boost_clock": 2760,
+  "core_boost_clock": 2745,
   "effective_memory_clock": 1875,
   "memory_bus": 256,
   "interface": "PCIe 5.0 x16",
@@ -42,12 +43,9 @@
   "length": 280,
   "tdp": 360,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "Hybrid",
-  "color": [
-    "BLACK",
-    "GREY"
-  ],
+  "color": ["BLACK", "GREY", "RGB"],
   "core_count": 10752,
   "general_product_information": {
     "amazon_sku": "B0DSWR8WMB",

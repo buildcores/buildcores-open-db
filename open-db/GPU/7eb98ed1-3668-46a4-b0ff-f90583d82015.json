@@ -2,48 +2,53 @@
   "opendb_id": "7eb98ed1-3668-46a4-b0ff-f90583d82015",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c768865ad0c3553eb808"
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Radeon RX 9070 Reaper 16GB GDDR6 Black",
+    "name": "PowerColor Reaper AMD Radeon RX 9070 16GB GDDR6",
     "manufacturer": "PowerColor",
-    "part_numbers": [
-      "RX9070 16G-A                                                    RX9070 16GB-A",
-      "RX9070 16G-A"
-    ],
-    "series": "Radeon RX 9070",
-    "variant": "PowerColor"
+    "part_numbers": ["RX9070 16G-A", "RX9070 16GB-A"],
+    "series": "Reaper",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2070,
+  "core_base_clock": 1330,
   "core_boost_clock": 2520,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK"],
   "length": 289,
   "tdp": 220,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814131874"
+    "amazon_sku": "B0DSWL46CF",
+    "newegg_sku": "N82E16814131874",
+    "walmart_sku": 16615457545,
+    "manufacturer_url": "https://www.powercolor.com/product-detail215.htm"
   }
 }

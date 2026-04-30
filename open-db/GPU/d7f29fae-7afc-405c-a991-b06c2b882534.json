@@ -2,7 +2,7 @@
   "opendb_id": "d7f29fae-7afc-405c-a991-b06c2b882534",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -14,35 +14,42 @@
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "68cb8a3e9b67bc35527ba361"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "usb_c": 0,
+    "displayport_2_1_b": 0
   },
   "metadata": {
-    "name": "XFX Quicksilver 2 Radeon RX 9070 XT 16GB GDDR6",
+    "name": "XFX Quicksilver AMD Radeon RX 9070 XT Gaming Edition 16GB GDDR6",
     "manufacturer": "XFX",
-    "part_numbers": [
-      "RX-97TQICKBA"
-    ],
-    "series": "Radeon RX 9070 XT",
-    "variant": "XFX"
+    "part_numbers": ["RX-97TQICKBA"],
+    "series": "Quicksilver",
+    "variant": "Gaming Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2400,
+  "core_base_clock": 1660,
   "core_boost_clock": 2970,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 2518,
+  "memory_bus": 256,
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK"],
   "length": 350,
   "tdp": 304,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
+  "core_count": 4096,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DW4H333L",
-    "walmart_sku": 16299014736
+    "newegg_sku": "27N-0002-001K1",
+    "walmart_sku": 16299014736,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-quicksilver-amd-radeon-rx-9070xt-gaming-edition-2"
   }
 }

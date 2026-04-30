@@ -2,7 +2,7 @@
   "opendb_id": "e201f0f5-cf41-4427-a011-cb95be752354",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,37 +12,43 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0,
-    "_id": "67f9c545865ad0c3553e95dc"
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER 6GB GDDR6 Black",
+    "name": "EVGA SC ULTRA GAMING GeForce GTX 1660 SUPER 6GB GDDR6 ",
     "manufacturer": "EVGA",
-    "part_numbers": [
-      "06G-P4-1068-KR"
-    ],
-    "series": "GeForce GTX 1660 SUPER",
-    "variant": "EVGA"
+    "part_numbers": ["06G-P4-1068-KR"],
+    "series": "SC ULTRA GAMING",
+    "variant": "Black",
+    "manufacturer_color": "Black",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1660 SUPER",
   "memory": 6,
   "memory_type": "GDDR6",
   "core_base_clock": 1530,
-  "core_boost_clock": 1830,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "core_boost_clock": 1785,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
   "length": 202,
   "tdp": 125,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1408,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07ZHZL2JB",
-    "newegg_sku": "N82E16814487479"
+    "newegg_sku": "N82E16814487479",
+    "manufacturer_url": "https://www.evga.com/products/Specs/GPU.aspx?pn=18c598e9-d769-47a4-8461-f25098789a56"
   }
 }

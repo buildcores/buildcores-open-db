@@ -2,28 +2,32 @@
   "opendb_id": "882df2ce-04ba-452c-82d9-26c1c7264aa9",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
+    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c625865ad0c3553ea3b8"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Speedster SWFT 309 Radeon RX 6700 10GB GDDR6 Black",
+    "name": "XFX SPEEDSTER SWFT 309 AMD Radeon™ RX 6700 CORE Gaming 10GB GDDR6",
     "manufacturer": "XFX",
-    "part_numbers": [
-      "RX-67XLKWFDV"
-    ],
-    "series": "Radeon RX 6700",
-    "variant": "XFX"
+    "part_numbers": ["RX-67XLKWFDV"],
+    "series": "Speedster SWFT 309",
+    "variant": "CORE Gaming",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6700",
@@ -31,19 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2132,
   "core_boost_clock": 2425,
-  "effective_memory_clock": 16000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
+  "effective_memory_clock": 2000,
+  "memory_bus": 160,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK"],
   "length": 304,
   "tdp": 175,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 2304,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BCL3L6ZG",
-    "newegg_sku": "N82E16814150874"
+    "newegg_sku": "N82E16814150874",
+    "walmart_sku": 1145974194,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-swft-309-amd-radeon-tm-rx-6700-core-gaming-graphics"
   }
 }

@@ -2,50 +2,53 @@
   "opendb_id": "ea20c629-076d-4938-9254-3989f97b8295",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_1": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0,
-    "_id": "67f9c705865ad0c3553eb1ee"
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus STRIX GAMING OC GeForce RTX 3090 24GB GDDR6X Black",
+    "name": "ASUS ROG Strix GeForce RTX 3090 24GB GDDR6X",
     "manufacturer": "Asus",
-    "part_numbers": [
-      "ROG-STRIX-RTX3090-O24G-GAMING                                                                                                        90YV0F93-M0NM00",
-      "ROG-STRIX-RTX3090-O24G-GAMING"
-    ],
-    "series": "GeForce RTX 3090",
-    "variant": "Asus"
+    "part_numbers": ["ROG-STRIX-RTX3090-O24G-GAMING", "90YV0F93-M0NM00"],
+    "series": "ROG Strix",
+    "manufacturer_color": "Black",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3090",
   "memory": 24,
   "memory_type": "GDDR6X",
   "core_base_clock": 1395,
-  "core_boost_clock": 1890,
-  "effective_memory_clock": 19500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": [
-    "BLACK"
-  ],
-  "length": 318,
+  "core_boost_clock": 1860,
+  "effective_memory_clock": 1219,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
+  "length": 318.5,
   "tdp": 350,
-  "total_slot_width": 3,
+  "total_slot_width": 2.9,
   "cooling": "3 Fans",
   "core_count": 10496,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08J6GMWCQ",
     "newegg_sku": "N82E16814126456R",
-    "bestbuy_sku": 6432447
+    "bestbuy_sku": 6432447,
+    "manufacturer_url": "https://rog.asus.com/ph/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3090-o24g-gaming-model/spec/"
   }
 }
