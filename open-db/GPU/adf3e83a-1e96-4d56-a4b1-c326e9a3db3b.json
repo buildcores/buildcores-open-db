@@ -2,7 +2,7 @@
   "opendb_id": "adf3e83a-1e96-4d56-a4b1-c326e9a3db3b",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,32 +13,42 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Radeon RX 7900 GRE Fighter OC 16GB GDDR6 Black",
+    "name": "PowerColor AMD Radeon RX 7900 GRE Fighter OC 16GB GDDR6",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX 7900 GRE 16G-F", "OC", "RX7900GRE 16G-F/OC"],
-    "series": "Radeon RX 7900 GRE",
-    "variant": "PowerColor"
+    "series": "Fighter",
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 GRE",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1270,
+  "core_base_clock": 1358,
   "core_boost_clock": 2293,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2250,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 303,
   "tdp": 260,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 5120,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CTJBC468",
-    "newegg_sku": "N82E16814131864"
+    "newegg_sku": "N82E16814131864",
+    "manufacturer_url": "https://www.powercolor.com/product-detail186.htm"
   }
 }

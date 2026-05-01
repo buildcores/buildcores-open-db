@@ -7,42 +7,52 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI VENTUS 3X OC GeForce RTX 3060 Ti 8GB GDDR6 Black / Silver",
+    "name": "MSI GeForce RTX 3060 Ti VENTUS 3X OC GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
       "RTX 3060 Ti VENTUS 3X OC",
       "GEFORCE RTX 3060 TI VENTUS 3X OC",
       "RTX 3060 Ti VENTUS 3X 8G OC LHR"
     ],
-    "series": "GeForce RTX 3060 Ti",
-    "variant": "MSI"
+    "series": "Ventus 3X",
+    "variant": "OC ",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 3060 Ti",
   "memory": 8,
   "memory_type": "GDDR6",
   "core_base_clock": 1410,
   "core_boost_clock": 1695,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK", "GREY"],
-  "length": 316,
+  "length": 305,
   "tdp": 200,
-  "total_slot_width": 2,
+  "total_slot_width": 2.1,
   "cooling": "3 Fans",
   "core_count": 4864,
+  "chipset": "GeForce RTX 3060 Ti",
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B09BK9X9K9",
-    "walmart_sku": 419195355
+    "walmart_sku": 419195355,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-ti-ventus-3x-oc/Specification"
   }
 }

@@ -262,31 +262,31 @@
       "type": ["object", "null"],
       "properties": {
         "name": {
-          "type": ["string", "null"],
-          "description": "Full product name"
+          "description": "Full product name Prefer manufacturer + product family + processor number/suffix. Exclude generic category words like 'processor' or 'CPU' unless they are part of the marketed family name. Exclude cache, frequency, and other trailing spec text. Example: Intel Core Ultra 5 250K Plus, AMD Ryzen 7 9800X3D",
+          "type": ["string", "null"]
         },
         "manufacturer": {
-          "type": ["string", "null"],
-          "description": "CPU manufacturer"
+          "description": "CPU manufacturer",
+          "type": ["string", "null"]
         },
         "part_numbers": {
+          "description": "Array of manufacturer's part numbers/SKUs",
           "type": ["array", "null"],
           "items": {
             "type": "string"
-          },
-          "description": "Array of manufacturer's part numbers/SKUs"
+          }
         },
         "series": {
-          "type": ["string", "null"],
-          "description": "Product series name"
+          "description": "Product series name Use the exact reference name first; if there is no reliable reference name, use the exact source product name. Return the normalized family bucket that groups nearby SKUs together — not the full SKU and not the bare tier alone. Include the family number when the naming scheme uses one. Do NOT include the manufacturer name (Intel/AMD) in Series — that belongs in `manufacturer`. Full SKU identifiers belong in `variant`. Reject broad marketing labels like 'Intel Core Ultra Processors (Series 2)' unless they exactly match the canonical family bucket. Examples: 'Intel Core Ultra 5 250K Plus' → series='Core Ultra 5 200'. 'Intel Core i7-14700K' → series='Core i7 14000'. 'AMD Ryzen 7 9800X3D' → series='Ryzen 7 9000'. Wrong outputs for the same examples would be: 'Intel Core Ultra 5 200', 'Core Ultra 5', '250K Plus', or 'Series 2'.",
+          "type": ["string", "null"]
         },
         "variant": {
-          "type": ["string", "null"],
-          "description": "Specific variant in the series"
+          "description": "Specific variant in the series Use the exact model number and suffix that identify the specific SKU inside the series family bucket. Examples: 'Intel Core Ultra 5 250K Plus' → variant='250K Plus' (with series='Core Ultra 5 200'). 'Intel Core i9-14900KS' → variant='14900KS'. 'AMD Ryzen 7 9800X3D' → variant='9800X3D' (with series='Ryzen 7 9000').",
+          "type": ["string", "null"]
         },
         "releaseYear": {
-          "type": ["number", "null"],
-          "description": "Year of release"
+          "description": "Year of release",
+          "type": ["number", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],

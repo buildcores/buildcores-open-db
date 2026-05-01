@@ -2,7 +2,7 @@
   "opendb_id": "a69ac9fd-0d12-4893-acad-405d2da1c5c3",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,32 +12,42 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus STRIX GAMING GeForce GTX 1080 Ti 11GB GDDR5X Black",
+    "name": "ASUS ROG Strix GeForce GTX 1080 Ti 11GB GDDR5X",
     "manufacturer": "Asus",
     "part_numbers": ["STRIX-GTX1080TI-11G-GAMING", "ROG-STRIX-GTX1080TI-11G-GAMING"],
-    "series": "GeForce GTX 1080 Ti",
-    "variant": "Asus"
+    "series": "ROG Strix",
+    "manufacturer_color": "Black",
+    "releaseYear": 2017
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1080 Ti",
   "memory": 11,
   "memory_type": "GDDR5X",
   "core_base_clock": 1493,
-  "core_boost_clock": 1632,
-  "effective_memory_clock": 11100,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "core_boost_clock": 1708,
+  "effective_memory_clock": 1376,
+  "memory_bus": 352,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 298,
   "tdp": 250,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
+  "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B06XY25VTC",
-    "walmart_sku": 283926538
+    "walmart_sku": 283926538,
+    "manufacturer_url": "https://rog.asus.com/articles/gaming-graphics-cards/the-rog-strix-geforce-gtx-1080-ti-takes-pascal-to-the-limit/"
   }
 }

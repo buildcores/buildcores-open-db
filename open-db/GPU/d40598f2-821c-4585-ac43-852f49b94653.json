@@ -2,25 +2,32 @@
   "opendb_id": "d40598f2-821c-4585-ac43-852f49b94653",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_1": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus ROG Strix Gaming OC GeForce RTX 3070 8GB GDDR6 Black",
+    "name": "ASUS ROG Strix GeForce RTX 3070 OC 8GB GDDR6",
     "manufacturer": "Asus",
     "part_numbers": ["ROG-STRIX-RTX3070-O8G-GAMING", "90YV0FR1-M0NA00", "STRIX-RTX3070-O8G-GA"],
-    "series": "GeForce RTX 3070",
-    "variant": "Asus"
+    "series": "ROG Strix",
+    "variant": "OC ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3070",
@@ -28,18 +35,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1905,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 318,
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "RGB", "GREY"],
+  "length": 319,
   "tdp": 220,
-  "total_slot_width": 3,
+  "total_slot_width": 2.9,
   "cooling": "3 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08L8JNTXQ",
     "newegg_sku": "N82E16814126458R",
-    "bestbuy_sku": 6439127
+    "bestbuy_sku": 6439127,
+    "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3070-o8g-gaming-model/spec/"
   }
 }

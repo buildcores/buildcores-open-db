@@ -2,25 +2,32 @@
   "opendb_id": "8ad635c9-2eb5-4266-88a7-064b1f14d8d5",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GAMING X TRIO GeForce RTX 3070 8GB GDDR6 Black / Silver",
+    "name": "MSI GeForce RTX 3070 GAMING X TRIO 8GB GDDR6",
     "manufacturer": "MSI",
     "part_numbers": ["RTX3070GAMINGXTRIO", "GEFORCE RTX 3070 GAMING X TRIO", "G3070GXT"],
-    "series": "GeForce RTX 3070",
-    "variant": "MSI"
+    "series": "GAMING",
+    "variant": "X TRIO",
+    "manufacturer_color": "Gunmetal Grey",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3070",
@@ -28,17 +35,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1500,
   "core_boost_clock": 1830,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 323,
   "tdp": 240,
-  "total_slot_width": 3,
+  "total_slot_width": 2.8,
   "cooling": "3 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08KWN2LZG",
-    "walmart_sku": 140145094
+    "walmart_sku": 140145094,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3070-GAMING-X-TRIO/Specification"
   }
 }

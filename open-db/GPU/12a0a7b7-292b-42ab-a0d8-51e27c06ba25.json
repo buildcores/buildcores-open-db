@@ -2,7 +2,7 @@
   "opendb_id": "12a0a7b7-292b-42ab-a0d8-51e27c06ba25",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,10 +13,15 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus TUF GAMING OC Radeon RX 7900 XT 20 GB",
+    "name": "ASUS TUF Gaming Radeon RX 7900 XT OC Edition 20GB GDDR6",
     "manufacturer": "Asus",
     "part_numbers": [
       "tuf-rx7900xt-o20g-gaming",
@@ -24,28 +29,31 @@
       "90YV0IV1-M0AA00",
       "TUF-RX7900XT-O20G-GAMING"
     ],
-    "series": "Radeon RX 7900 XT",
-    "variant": "Asus"
+    "series": "TUF Gaming",
+    "variant": "OC Edition",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 XT",
   "memory": 20,
   "memory_type": "GDDR6",
-  "core_base_clock": 2000,
-  "core_boost_clock": 2000,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "core_base_clock": 1687,
+  "core_boost_clock": 2500,
+  "effective_memory_clock": 2500,
+  "memory_bus": 320,
+  "interface": "PCIe 4.0 x16",
   "frame_sync": "FreeSync",
   "length": 353,
   "tdp": 300,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 4,
+  "total_slot_width": 3.63,
   "cooling": "3 Fans",
-  "color": [],
+  "color": ["BLACK", "RGB", "GREY"],
   "core_count": 5376,
   "general_product_information": {
     "amazon_sku": "B0BSVLCJHL",
-    "walmart_sku": 1870034436
+    "walmart_sku": 1870034436,
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/graphics-cards/tuf-gaming/tuf-rx7900xt-o20g-gaming/techspec/"
   }
 }

@@ -1,48 +1,55 @@
 {
   "opendb_id": "4051ee98-6673-4f27-b7d7-5923e7c1906f",
   "power_connectors": {
-    "pcie_6_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Fighter OC Radeon RX 6500 XT 4 GB",
+    "name": "PowerColor Fighter OC Radeon RX 6500 XT 4GB GDDR6",
     "manufacturer": "PowerColor",
     "part_numbers": ["AXRX 6500XT 4GBD6-DH", "OC", "AXRX 6500XT 4GBD6-DH/OC"],
-    "series": "Radeon RX 6500 XT",
-    "variant": "PowerColor"
+    "series": "Fighter",
+    "variant": "OC ",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6500 XT",
   "memory": 4,
   "memory_type": "GDDR6",
-  "core_base_clock": 2310,
-  "core_boost_clock": 2310,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "core_base_clock": 2365,
+  "core_boost_clock": 2820,
+  "effective_memory_clock": 2248,
+  "memory_bus": 64,
+  "interface": "PCIe 4.0 x4",
   "frame_sync": "FreeSync",
   "length": 191,
   "tdp": 107,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
-  "color": [],
+  "color": ["BLACK"],
   "core_count": 1024,
   "general_product_information": {
     "amazon_sku": "B09PSN3Y63",
     "newegg_sku": "N82E16814131792R",
     "bestbuy_sku": 6496021,
-    "walmart_sku": 494097235
+    "manufacturer_url": "https://www.powercolor.com/product-detail48.htm"
   }
 }

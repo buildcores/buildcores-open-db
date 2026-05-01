@@ -8,19 +8,26 @@
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus ROG STRIX Radeon RX 580 8GB GDDR5 Black",
+    "name": "ASUS Dual series Radeon RX 580 OC edition 8GB GDDR5",
     "manufacturer": "Asus",
     "part_numbers": ["ROG-STRIX-RX580-O8G-GAMING", "STRIX-RX580-O8G-GAMING", "90YV0AK0-M0NA00"],
-    "series": "Radeon RX 580",
-    "variant": "Asus"
+    "series": "Dual ",
+    "variant": "OC edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2017
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 580",
@@ -28,16 +35,20 @@
   "memory_type": "GDDR5",
   "core_base_clock": 1257,
   "core_boost_clock": 1380,
-  "effective_memory_clock": 8000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 298,
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "WHITE"],
+  "length": 242,
   "tdp": 185,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "core_count": 2304,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B071D8YQJD",
-    "walmart_sku": 696217814
+    "walmart_sku": 696217814,
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/graphics-cards/dual/dual-rx580-o8g/"
   }
 }

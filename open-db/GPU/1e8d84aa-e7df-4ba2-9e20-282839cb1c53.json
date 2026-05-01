@@ -2,7 +2,7 @@
   "opendb_id": "1e8d84aa-e7df-4ba2-9e20-282839cb1c53",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,20 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Arc A580 Challenger OC 8GB GDDR6 Black",
+    "name": "ASRock Intel Arc A580 Challenger OC 8GB GDDR6",
     "manufacturer": "ASRock",
     "part_numbers": ["A580 CL 8GO", "90-GA3JZZ-00UANF"],
-    "series": "Arc A580",
-    "variant": "ASRock"
+    "series": "Challenger",
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc A580",
@@ -28,16 +34,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1700,
   "core_boost_clock": 2000,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 271,
   "tdp": 175,
-  "total_slot_width": 3,
+  "total_slot_width": 2.4,
   "cooling": "2 Fans",
-  "core_count": 0,
+  "core_count": 3072,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B0CJGSP9R7"
+    "amazon_sku": "B0CJGSP9R7",
+    "manufacturer_url": "https://asrock.com/Graphics-Card/Intel/Intel%20Arc%20A580%20Challenger%208GB%20OC/"
   }
 }

@@ -3,42 +3,52 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 1,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1,
+    "pcie_12VHPWR": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte GeForce RTX 4070 SUPER GAMING OC Black 12GB GDDR6X",
+    "name": "Gigabyte GeForce RTX 4070 SUPER GAMING OC 12G GDDR6X",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N407SGAMING OC-12GD", "GV-N407SGAMINGOC-12GD"],
-    "series": "GeForce RTX 4070 SUPER",
-    "variant": "Gigabyte"
+    "series": "GAMING ",
+    "variant": "OC ",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 4070 SUPER",
   "memory": 12,
   "memory_type": "GDDR6X",
   "core_base_clock": 1980,
   "core_boost_clock": 2565,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "RGB", "GREY"],
   "length": 300,
   "tdp": 220,
-  "total_slot_width": 3,
+  "total_slot_width": 2.88,
   "cooling": "3 Fans",
   "core_count": 7168,
+  "chipset": "GeForce RTX 4070 SUPER",
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CSJWWDS7",
-    "walmart_sku": 5275375586
+    "walmart_sku": 5275375586,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N407SGAMING-OC-12GD/sp"
   }
 }

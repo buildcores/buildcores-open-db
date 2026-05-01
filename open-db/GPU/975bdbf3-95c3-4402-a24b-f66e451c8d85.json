@@ -2,44 +2,54 @@
   "opendb_id": "975bdbf3-95c3-4402-a24b-f66e451c8d85",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Speedster MERC 319 CORE Radeon RX 6800 XT 16GB GDDR6 Black / Silver",
+    "name": "XFX Speedster MERC 319 AMD Radeon RX 6800 XT CORE Gaming 16GB GDDR6",
     "manufacturer": "XFX",
     "part_numbers": ["RX-68XTALFD9"],
-    "series": "Radeon RX 6800 XT",
-    "variant": "XFX"
+    "series": "Speedster MERC 319",
+    "variant": "CORE",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6800 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1825,
+  "core_base_clock": 1900,
   "core_boost_clock": 2250,
-  "effective_memory_clock": 16000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 340,
   "tdp": 300,
-  "total_slot_width": 3,
+  "total_slot_width": 2.7,
   "cooling": "3 Fans",
   "core_count": 4608,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08TJ2BHCQ",
     "newegg_sku": "N82E16814150848",
-    "walmart_sku": 482165625
+    "walmart_sku": 482165625,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-merc-319-amd-radeon-tm-rx-6800-xt-core-gaming-graphics-card-with-16gb-gddr6-amd-rdna-tm-2"
   }
 }

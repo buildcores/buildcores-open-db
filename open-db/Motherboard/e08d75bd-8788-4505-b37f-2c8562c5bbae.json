@@ -48,44 +48,44 @@
     "part_numbers": ["COLORFIRE B650M-MEOW WIFI"],
     "series": "B650M",
     "variant": "MEOW WiFi Orange",
-    "last_manually_spec_verified_at": "2026-02-13T10:03:26.442Z"
+    "last_manually_spec_verified_at": "2026-04-27T14:43:35.000Z"
   },
   "color": ["GREY", "ORANGE", "WHITE"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aca07d50ea7030496ef5"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3aca07d50ea7030496ef6"
+      "lanes": 4
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3aca07d50ea7030496ef7"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "69b3aca07d50ea7030496ef8"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "69b3aca07d50ea7030496ef9"
+      "interface": "PCIe 5.0 x4"
     }
   ],
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "back_panel_ports": [
     "1 x HDMI 1.4 port",
     "1 x DisplayPort 1.2",
@@ -101,7 +101,7 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B650",
-  "wireless_networking": "Wifi 6 Bluetooth 5.2",
+  "wireless_networking": "Wi-Fi 6 Bluetooth 5.2",
   "raid_support": true,
   "general_product_information": {
     "manufacturer_url": "https://en.colorful.cn/en/home/product?mid=84&id=abfd70ad-b27c-4ea2-97b7-e69b9074b8d8"
