@@ -2,7 +2,7 @@
   "opendb_id": "6465181b-1f65-477a-a04d-46b0a3061632",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,32 +12,42 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte GAMING GeForce GTX 1070 8GB GDDR5 Black / Orange",
+    "name": "Gigabyte GeForce GTX 1070 G1 Gaming 8G (Rev. 1.0) GDDR5",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N1070G1-GAMING-8GD", "GV-N1070G1 GAMING-8GD"],
-    "series": "GeForce GTX 1070",
-    "variant": "Gigabyte"
+    "series": "G1 Gaming",
+    "manufacturer_color": "Black",
+    "releaseYear": 2016
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1070",
   "memory": 8,
   "memory_type": "GDDR5",
   "core_base_clock": 1594,
-  "core_boost_clock": 1822,
-  "effective_memory_clock": 8008,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "ORANGE"],
+  "core_boost_clock": 1784,
+  "effective_memory_clock": 2002,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "RGB", "GREY"],
   "length": 280,
   "tdp": 150,
-  "total_slot_width": 2,
+  "total_slot_width": 2.05,
   "cooling": "3 Fans",
+  "core_count": 1920,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B01H0WU884",
-    "walmart_sku": 52890686
+    "walmart_sku": 52890686,
+    "manufacturer_url": "https://www.gigabyte.com/ph/Graphics-Card/GV-N1070G1-GAMING-8GD-rev-10/sp"
   }
 }

@@ -2,7 +2,7 @@
   "opendb_id": "b2b2daf9-011c-4b7c-802e-ac6931acdb1e",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,20 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PNY VERTO GeForce RTX 4060 Ti 8GB GDDR6 Black",
+    "name": "PNY GeForce RTX 4060 Ti 8GB VERTO Dual Fan DLSS 3 GDDR6",
     "manufacturer": "PNY",
     "part_numbers": ["VCG4060T8DFXPB1"],
-    "series": "GeForce RTX 4060 Ti",
-    "variant": "PNY"
+    "series": "VERTO",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
@@ -28,19 +34,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2310,
   "core_boost_clock": 2535,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
   "color": ["BLACK"],
   "length": 245,
   "tdp": 160,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 4352,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C5P31ZK6",
     "newegg_sku": "N82E16814133858",
     "bestbuy_sku": 6545116,
-    "walmart_sku": 1117154547
+    "walmart_sku": 1117154547,
+    "manufacturer_url": "https://www.pny.com/pny-geforce-rtx-4060-ti-8gb-verto-dual-fan"
   }
 }
