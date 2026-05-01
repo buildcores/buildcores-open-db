@@ -7,38 +7,48 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte GeForce RTX 4070 WINDFORCE 2X OC 12GB GDDR6X",
+    "name": "Gigabyte GeForce RTX 4070 WINDFORCE 2X OC 12G GDDR6X",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N4070WF2OC-12GD"],
-    "series": "GeForce RTX 4070",
-    "variant": "Gigabyte"
+    "series": "WINDFORCE 2X",
+    "variant": "OC ",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070",
   "memory": 12,
   "memory_type": "GDDR6X",
-  "core_base_clock": 2475,
+  "core_base_clock": 1920,
   "core_boost_clock": 2490,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2500,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK", "GREY"],
   "length": 201,
   "tdp": 200,
-  "total_slot_width": 3,
+  "total_slot_width": 2.42,
   "cooling": "2 Fans",
   "core_count": 5888,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CMFYQ2JL",
-    "walmart_sku": 5146744626
+    "walmart_sku": 5146744626,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N4070WF2OC-12GD/sp"
   }
 }

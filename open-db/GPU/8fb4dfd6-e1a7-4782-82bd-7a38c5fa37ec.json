@@ -2,7 +2,7 @@
   "opendb_id": "8fb4dfd6-e1a7-4782-82bd-7a38c5fa37ec",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,36 +12,46 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GAMING X GeForce GTX 1080 Ti 11GB GDDR5X Black / Red",
+    "name": "MSI GeForce GTX 1080 Ti GAMING X 11G GDDR5X",
     "manufacturer": "MSI",
     "part_numbers": [
       "GeForce GTX 1080 Ti GAMING X 11G",
       "GTX 1080 TI GAMING X",
       "GTX 1080 TI GAMING X 11G"
     ],
-    "series": "GeForce GTX 1080 Ti",
-    "variant": "MSI"
+    "series": "GAMING X",
+    "releaseYear": 2017,
+    "manufacturer_color": "Black / Red"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1080 Ti",
   "memory": 11,
   "memory_type": "GDDR5X",
-  "core_base_clock": 1569,
-  "core_boost_clock": 1683,
-  "effective_memory_clock": 11124,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "RED"],
+  "core_base_clock": 1544,
+  "core_boost_clock": 1657,
+  "effective_memory_clock": 1376,
+  "memory_bus": 352,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "RED", "RGB"],
   "length": 290,
   "tdp": 250,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "2 Fans",
+  "core_count": 3584,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B06XVG7M23",
-    "walmart_sku": 549079342
+    "walmart_sku": 549079342,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GTX-1080-Ti-GAMING-X-11G/Specification"
   }
 }

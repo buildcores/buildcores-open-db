@@ -2,25 +2,32 @@
   "opendb_id": "af52a0c6-e9da-4ede-aed7-30a5c69056a7",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "EVGA FTW3 ULTRA GAMING GeForce RTX 3090 24GB GDDR6X Black",
+    "name": "EVGA GeForce RTX 3090 FTW3 ULTRA GAMING 24GB GDDR6X",
     "manufacturer": "EVGA",
     "part_numbers": ["24G-P5-3987-KR"],
-    "series": "GeForce RTX 3090",
-    "variant": "EVGA"
+    "series": "FTW3",
+    "variant": "ULTRA GAMING",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2020
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3090",
@@ -28,18 +35,21 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 1395,
   "core_boost_clock": 1800,
-  "effective_memory_clock": 19500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 1219,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 300,
   "tdp": 350,
-  "total_slot_width": 3,
+  "total_slot_width": 2.75,
   "cooling": "3 Fans",
   "core_count": 10496,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B08J5F3G18",
     "newegg_sku": "N82E16814487526",
-    "bestbuy_sku": 6436192
+    "bestbuy_sku": 6436192,
+    "manufacturer_url": "https://www.evga.com/products/specs/gpu.aspx?pn=e2763314-163f-4391-8935-ea2c5dffd06b"
   }
 }

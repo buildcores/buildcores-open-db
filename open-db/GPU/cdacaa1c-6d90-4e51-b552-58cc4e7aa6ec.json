@@ -2,7 +2,7 @@
   "opendb_id": "cdacaa1c-6d90-4e51-b552-58cc4e7aa6ec",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,32 +13,42 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "ASRock Challenger OC Radeon RX 7800 XT 16GB GDDR6 Black",
+    "name": "ASRock AMD Radeon RX 7800 XT Challenger 16GB OC GDDR6",
     "manufacturer": "ASRock",
     "part_numbers": ["RX7800XT CL 16GO", "90-GA4SZZ-00UANF"],
-    "series": "Radeon RX 7800 XT",
-    "variant": "ASRock"
+    "series": "Challenger ",
+    "variant": "OC ",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 7800 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1295,
+  "core_base_clock": 1397,
   "core_boost_clock": 2475,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 2438,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "WHITE", "RGB", "GREY"],
   "length": 267,
   "tdp": 263,
-  "total_slot_width": 3,
+  "total_slot_width": 2.55,
   "cooling": "2 Fans",
   "core_count": 3840,
+  "chipset": "Radeon RX 7800 XT",
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0CHK3929K",
-    "newegg_sku": "N82E16814930106"
+    "newegg_sku": "N82E16814930106",
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%207800%20XT%20Challenger%2016GB%20OC/#Specification"
   }
 }
