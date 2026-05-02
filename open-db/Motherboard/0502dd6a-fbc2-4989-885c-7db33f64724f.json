@@ -2,25 +2,98 @@
   "opendb_id": "0502dd6a-fbc2-4989-885c-7db33f64724f",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 2
+    "slots": 2,
+    "max": 96
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_led": true,
+    "power_button": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": [],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS B760M-AYW WIFI II",
     "manufacturer": "ASUS",
     "variant": "B760M-AYW WIFI II",
     "manufacturer_color": "Black/Silver",
-    "part_numbers": []
+    "part_numbers": ["b760m-ayw-wifi-ii"],
+    "series": "AYW",
+    "releaseYear": 2023
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
+  "color": ["BLACK", "GREY"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek 2.5Gb Ethernet"
+    }
+  ],
+  "back_panel_ports": [
+    "4 x USB 5Gbps ports (Type-A)",
+    "2 x USB 2.0 ports (Type-A)",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks"
+  ],
+  "wireless_networking": "WiFi 6 Bluetooth 5.3",
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "general_product_information": {}
 }
