@@ -2,21 +2,26 @@
   "opendb_id": "7d216188-8d7c-45a0-a60b-e8e7f1619a8e",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 3,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI Gaming X Trio GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
+    "name": "MSI GeForce RTX 3080 Ti GAMING X TRIO 12G GDDR6X",
     "manufacturer": "MSI",
     "part_numbers": [
       "GeForce RTX 3080 Ti GAMING X TRIO 12G",
@@ -25,8 +30,9 @@
       "G308TGXT12",
       "RTX 3080 Ti Gaming X Trio 12G"
     ],
-    "series": "GeForce RTX 3080 Ti",
-    "variant": "MSI"
+    "series": "Gaming X Trio",
+    "manufacturer_color": "Black",
+    "releaseYear": 2021
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3080 Ti",
@@ -34,19 +40,22 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 1365,
   "core_boost_clock": 1770,
-  "effective_memory_clock": 19000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "effective_memory_clock": 1188,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 324,
   "tdp": 350,
-  "total_slot_width": 3,
+  "total_slot_width": 2.8,
   "cooling": "3 Fans",
   "core_count": 10240,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B095VZ6F73",
     "newegg_sku": "N82E16814137650R",
     "bestbuy_sku": 6465803,
-    "walmart_sku": 520770544
+    "walmart_sku": 520770544,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3080-Ti-GAMING-X-TRIO-12G/Specification"
   }
 }

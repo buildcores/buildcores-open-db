@@ -1,44 +1,54 @@
 {
   "opendb_id": "7f768077-47f5-4e88-b045-c49b87a8d2b8",
   "power_connectors": {
-    "pcie_6_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Speedster QICK 210 Radeon RX 6500 XT 4GB GDDR6 Black / Silver",
+    "name": "XFX Speedster QICK 210 AMD Radeon RX 6500 XT Core Gaming 4GB GDDR6",
     "manufacturer": "XFX",
     "part_numbers": ["RX-65XT4DBDQ"],
-    "series": "Radeon RX 6500 XT",
-    "variant": "XFX"
+    "series": "Speedster QICK 210",
+    "variant": "Core",
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 6500 XT",
   "memory": 4,
   "memory_type": "GDDR6",
-  "core_base_clock": 2310,
+  "core_base_clock": 2420,
   "core_boost_clock": 2825,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2248,
+  "memory_bus": 64,
+  "interface": "PCIe 4.0 x4",
   "color": ["BLACK", "GREY"],
-  "length": 232,
+  "length": 233,
   "tdp": 107,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 1024,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B09Q98KRTG",
-    "walmart_sku": 1164428983
+    "walmart_sku": 1164428983,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-speedster-qick-210-amd-radeon-tm-rx-6500-black"
   }
 }
