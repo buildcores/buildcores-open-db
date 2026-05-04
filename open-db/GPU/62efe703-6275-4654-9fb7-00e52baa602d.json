@@ -2,7 +2,7 @@
   "opendb_id": "62efe703-6275-4654-9fb7-00e52baa602d",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,15 +12,21 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "EVGA KO ULTRA GAMING GeForce RTX 2060 6GB GDDR6 Black",
+    "name": "EVGA GeForce RTX 2060 KO ULTRA GAMING 6GB GDDR6",
     "manufacturer": "EVGA",
     "part_numbers": ["06G-P4-2068-KR"],
-    "series": "GeForce RTX 2060",
-    "variant": "EVGA"
+    "series": "KO ULTRA GAMING",
+    "releaseYear": 2020,
+    "manufacturer_color": "Silver / Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2060",
@@ -28,17 +34,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1365,
   "core_boost_clock": 1755,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 202,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY"],
+  "length": 202.1,
   "tdp": 160,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "core_count": 1920,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B083GGYNQ6",
     "newegg_sku": "N82E16814487486",
-    "walmart_sku": 570613186
+    "walmart_sku": 570613186,
+    "manufacturer_url": "https://www.evga.com/products/specs/gpu.aspx?pn=95e906e7-ff3c-4aa9-9969-71b8cebe7ed3"
   }
 }

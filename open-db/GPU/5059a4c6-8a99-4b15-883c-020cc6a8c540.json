@@ -7,42 +7,52 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI SUPRIM LIQUID GeForce RTX 4090 24GB GDDR6X Black / Silver",
+    "name": "MSI GeForce RTX 4090 SUPRIM LIQUID X 24G GDDR6X",
     "manufacturer": "MSI",
     "part_numbers": [
       "RTX 4090 SUPRIM LIQUID 24G",
       "GeForce RTX 4090 SUPRIM LIQUID 24G",
       "V510-007R"
     ],
-    "series": "GeForce RTX 4090",
-    "variant": "MSI"
+    "series": "SUPRIM LIQUID",
+    "variant": "X ",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4090",
   "memory": 24,
   "memory_type": "GDDR6X",
   "core_base_clock": 2235,
-  "core_boost_clock": 2610,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "core_boost_clock": 2625,
+  "effective_memory_clock": 1313,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 280,
   "tdp": 480,
-  "total_slot_width": 2,
+  "total_slot_width": 2.15,
   "cooling": "Hybrid",
   "core_count": 16384,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B09YD4FJ5R",
-    "walmart_sku": 1453041947
+    "walmart_sku": 1453041947,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-SUPRIM-LIQUID-X-24G/Specification"
   }
 }
