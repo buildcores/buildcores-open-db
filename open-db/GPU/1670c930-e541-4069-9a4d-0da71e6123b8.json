@@ -2,21 +2,26 @@
   "opendb_id": "1670c930-e541-4069-9a4d-0da71e6123b8",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 0,
+    "hdmi_2_0": 1,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 2060 VENTUS GP OC 6GB GDDR6 Gray / Black",
+    "name": "MSI GeForce RTX 2060 VENTUS GP OC 6GB GDDR6",
     "manufacturer": "MSI",
     "part_numbers": [
       "RTX 2060 VENTUS GPOC",
@@ -26,8 +31,10 @@
       "GeForce RTX 2060 VENTUS 6G OC",
       "G206VPC"
     ],
-    "series": "GeForce RTX 2060",
-    "variant": "MSI"
+    "series": "VENTUS GP",
+    "variant": "OC ",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2060",
@@ -35,16 +42,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1365,
   "core_boost_clock": 1710,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
   "color": ["GREY", "BLACK"],
   "length": 231,
   "tdp": 160,
-  "total_slot_width": 2,
+  "total_slot_width": 2.1,
   "cooling": "2 Fans",
+  "core_count": 1920,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B091PVFYXM",
-    "walmart_sku": 134162578
+    "walmart_sku": 134162578,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-2060-VENTUS-GP-OC/Specification"
   }
 }

@@ -2,7 +2,7 @@
   "opendb_id": "af127767-8496-4a3a-805d-2766e16c976c",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,15 +12,21 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA Founders Edition GeForce GTX 1080 8GB GDDR5X Black / Silver",
+    "name": "NVIDIA Founders Edition GeForce GTX 1080 8GB GDDR5X",
     "manufacturer": "NVIDIA",
     "part_numbers": ["9001G4132500001", "900-1G411-2520-001"],
-    "series": "GeForce GTX 1080",
-    "variant": "NVIDIA"
+    "series": "Founders Edition",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2016
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1080",
@@ -28,16 +34,20 @@
   "memory_type": "GDDR5X",
   "core_base_clock": 1607,
   "core_boost_clock": 1733,
-  "effective_memory_clock": 10000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
+  "effective_memory_clock": 1251,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "GREY", "GREEN"],
   "length": 267,
   "tdp": 180,
   "total_slot_width": 2,
   "cooling": "1 Fan",
+  "core_count": 2560,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B01GATSH9U",
-    "walmart_sku": 848250255
+    "walmart_sku": 848250255,
+    "manufacturer_url": "https://www.nvidia.com/en-ph/geforce/products/10series/geforce-gtx-1080/"
   }
 }

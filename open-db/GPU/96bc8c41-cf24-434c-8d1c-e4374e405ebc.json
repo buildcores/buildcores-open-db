@@ -13,10 +13,15 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_2": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GeForce GT 1030 DDR4 GT 1030 2GHD4 LP OC Black 2GB DDR4",
+    "name": "MSI GeForce GT 1030 2GHD4 LP OC 2GB DDR4",
     "manufacturer": "MSI",
     "part_numbers": [
       "GT 1030 2GHD4 LP OC",
@@ -24,8 +29,10 @@
       "V809-2825R",
       "912-V809-3817"
     ],
-    "series": "GeForce GT 1030 DDR4",
-    "variant": "MSI"
+    "series": "Low Profile",
+    "variant": "OC ",
+    "releaseYear": 2018,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GT 1030",
@@ -33,17 +40,20 @@
   "memory_type": "DDR4",
   "core_base_clock": 1189,
   "core_boost_clock": 1430,
-  "effective_memory_clock": 2100,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1050,
+  "memory_bus": 64,
+  "interface": "PCIe 3.0 x4",
   "color": ["BLACK"],
   "length": 150,
-  "tdp": 30,
-  "total_slot_width": 2,
+  "tdp": 20,
+  "total_slot_width": 1.9,
   "cooling": "Passive",
-  "core_count": 0,
+  "core_count": 384,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 1,
   "general_product_information": {
     "amazon_sku": "B07CMH5F9R",
-    "walmart_sku": 667297493
+    "walmart_sku": 667297493,
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GT-1030-2GHD4-LP-OC/Specification"
   }
 }

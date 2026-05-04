@@ -2,25 +2,32 @@
   "opendb_id": "732a595c-1b2a-403d-ab3a-bc2e14527842",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sparkle Arc A750 ORC OC 8GB GDDR6 Blue / Black",
+    "name": "SPARKLE Intel Arc A750 ORC OC Edition, 8GB GDDR6",
     "manufacturer": "Sparkle",
     "part_numbers": ["SA750C-8GOC", "SA750C-800C", "1A1-S00393500G"],
-    "series": "Arc A750",
-    "variant": "Sparkle"
+    "series": "ORC",
+    "variant": "OC Edition",
+    "releaseYear": 2022,
+    "manufacturer_color": "Blue"
   },
   "chipset_manufacturer": "Intel",
   "chipset": "Arc A750",
@@ -28,16 +35,19 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2050,
   "core_boost_clock": 2200,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 2000,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLUE", "BLACK"],
   "length": 222,
   "tdp": 225,
-  "total_slot_width": 3,
+  "total_slot_width": 2.2,
   "cooling": "2 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B0C74TTHBD"
+    "amazon_sku": "B0C74TTHBD",
+    "manufacturer_url": "https://www.sparkle.com.tw/files/20240202122016342.pdf"
   }
 }
