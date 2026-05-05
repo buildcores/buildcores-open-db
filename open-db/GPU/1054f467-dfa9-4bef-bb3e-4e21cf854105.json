@@ -3,24 +3,31 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Zotac GAMING Trinity OC GeForce RTX 4070 Ti 12GB GDDR6X Black",
+    "name": "ZOTAC GAMING GeForce RTX 4070 Ti Trinity OC 12GB GDDR6X",
     "manufacturer": "Zotac",
     "part_numbers": ["ZT-D40710J-10P"],
-    "series": "GeForce RTX 4070 Ti",
-    "variant": "Zotac"
+    "series": "Trinity",
+    "variant": "OC ",
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
@@ -28,17 +35,20 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 2310,
   "core_boost_clock": 2625,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 307,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
+  "length": 306.8,
   "tdp": 285,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 7680,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0BQCVTSR3",
-    "walmart_sku": 2238289540
+    "walmart_sku": 2238289540,
+    "manufacturer_url": "https://www.zotac.com/us/product/graphics_card/zotac-gaming-geforce-rtx-4070-ti-trinity-oc#spec"
   }
 }

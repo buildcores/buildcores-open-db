@@ -2,10 +2,46 @@
   "opendb_id": "cb8264c5-4850-4007-b245-ce454dc7cf45",
   "memory": {
     "ram_type": "DDR4",
-    "slots": 4
+    "slots": 4,
+    "max": 192
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS TUF GAMING B760M-PLUS II",
@@ -13,15 +49,69 @@
     "series": "TUF GAMING",
     "variant": "B760M-PLUS II",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["tuf-gaming-b760m-plus-ii"],
+    "releaseYear": 2024
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "color": ["BLACK", "GREY", "ORANGE"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4 "
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek 2.5Gb Ethernet"
+    }
+  ],
+  "back_panel_ports": [
+    "1 x USB 20Gbps port (1 x USB Type-C)",
+    "1 x USB 10Gbps port (1 x Type-A)",
+    "2 x USB 5Gbps ports (2 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port"
+  ],
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "newegg_sku": "9SIBTK0KR91747",
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b760m-plus-ii/"
+  }
 }
