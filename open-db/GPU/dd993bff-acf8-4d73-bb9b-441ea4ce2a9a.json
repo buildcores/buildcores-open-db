@@ -2,7 +2,7 @@
   "opendb_id": "dd993bff-acf8-4d73-bb9b-441ea4ce2a9a",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,20 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PNY GeForce RTX 4060 Ti XLR8 Gaming VERTO EPIC-X RGB 8GB GDDR6 Black",
+    "name": "PNY GeForce RTX 4060 Ti 8GB XLR8 Gaming VERTO EPIC-X RGB Triple Fan GDDR6",
     "manufacturer": "PNY",
     "part_numbers": ["VCG4060T8TFXXPB1"],
-    "series": "GeForce RTX 4060 Ti",
-    "variant": "PNY"
+    "series": "XLR8 Gaming VERTO",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060 Ti",
@@ -28,19 +34,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2310,
   "core_boost_clock": 2535,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 2250,
+  "memory_bus": 128,
+  "interface": "PCIe 4.0 x8",
+  "color": ["BLACK", "RGB", "GREY"],
   "length": 305,
   "tdp": 160,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 4352,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0C5P615P7",
     "newegg_sku": "N82E16814133857",
     "bestbuy_sku": 6546119,
-    "walmart_sku": 3841725264
+    "walmart_sku": 3841725264,
+    "manufacturer_url": "https://www.pny.com/pny-geforce-rtx-4060-ti-8gb-xlr8-gaming-verto-epic-x-rgb-triple-fan"
   }
 }

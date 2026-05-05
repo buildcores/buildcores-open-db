@@ -2,7 +2,7 @@
   "opendb_id": "56393cd2-1dde-499e-831a-658e4e141a9c",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,11 +12,16 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "MSI GAMING X GeForce GTX 1060 6GB GDDR5 Black / Red",
+    "name": "MSI GeForce GTX 1060 GAMING X 6G GDDR5",
     "manufacturer": "MSI",
     "part_numbers": [
       "GEFORCE GTX 1060 GAMING X 6G",
@@ -24,25 +29,29 @@
       "V328-001R",
       "GeForce GTX 1060 GAMING X 6G"
     ],
-    "series": "GeForce GTX 1060 6GB",
-    "variant": "MSI"
+    "series": "GAMING X",
+    "releaseYear": 2016,
+    "manufacturer_color": "Black / Red"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1060",
   "memory": 6,
   "memory_type": "GDDR5",
-  "core_base_clock": 1506,
-  "core_boost_clock": 1809,
-  "effective_memory_clock": 8100,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "RED"],
+  "core_base_clock": 1569,
+  "core_boost_clock": 1784,
+  "effective_memory_clock": 2002,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "RED", "RGB"],
   "length": 277,
   "tdp": 120,
-  "total_slot_width": 2,
+  "total_slot_width": 1.95,
   "cooling": "2 Fans",
-  "core_count": 0,
+  "core_count": 1280,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "amazon_sku": "B01IEKYD5U"
+    "amazon_sku": "B01IEKYD5U",
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/geforce-gtx-1060-gaming-x-6g/Specification"
   }
 }
