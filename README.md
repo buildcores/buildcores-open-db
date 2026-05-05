@@ -2,8 +2,7 @@
 
 # BuildCores OpenDB
 
-    
-A community-driven open database for PC components. This repository contains structured data about computer hardware components that can be used for compatibility checking, component research, and building PC builder / part picking apps.
+The world's largest, community-driven, and open database for PC components and tech products. This repository contains structured data about computer hardware components that can be used for compatibility checking, component research, and building PC builder / part picking apps.  
 
 _For an easy way to browse and search all components in a user-friendly interface, you can visit:_
 https://buildcores.com/products
