@@ -4,23 +4,29 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": 3,
+    "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
+    "displayport_2_1_b": 3,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA Founders Edition GeForce RTX 5080 16GB GDDR7 Black / Gray",
+    "name": "NVIDIA Founders Edition GeForce RTX 5080 16GB GDDR7",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G144-2545-000"],
-    "series": "GeForce RTX 5080",
-    "variant": "NVIDIA"
+    "series": "Founders Edition",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black / Gray"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
@@ -28,19 +34,22 @@
   "memory_type": "GDDR7",
   "core_base_clock": 2300,
   "core_boost_clock": 2620,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1875,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK", "GREY"],
   "length": 304,
   "tdp": 360,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DYVCGVK4",
     "newegg_sku": "N82E16814132102R",
     "bestbuy_sku": 6614153,
-    "walmart_sku": 15194956890
+    "walmart_sku": 15194956890,
+    "manufacturer_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/"
   }
 }
