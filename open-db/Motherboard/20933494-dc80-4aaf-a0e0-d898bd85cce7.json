@@ -2,10 +2,43 @@
   "opendb_id": "20933494-dc80-4aaf-a0e0-d898bd85cce7",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 2
+    "slots": 2,
+    "max": 96
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS PRIME B650M-F-CSM",
@@ -13,16 +46,51 @@
     "series": "PRIME",
     "variant": "B650M-F-CSM",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["prime-b650m-f-csm"],
+    "releaseYear": 2025
   },
+  "lighting": [],
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B650",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK", "GREY"],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": " PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": " Realtek 1Gb Ethernet "
+    }
+  ],
+  "back_panel_ports": [
+    "2 x USB 5Gbps ports (2 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x HDMI port",
+    "1 x Realtek 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "ecc_support": false,
+  "back_connect_connectors": false,
+  "raid_support": true,
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/prime-b650m-f-csm/"
+  }
 }

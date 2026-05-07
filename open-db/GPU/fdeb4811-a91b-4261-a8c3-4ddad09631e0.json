@@ -3,20 +3,25 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus DUAL EVO OC GeForce RTX 4070 SUPER 12GB GDDR6X White",
+    "name": "ASUS Dual GeForce RTX 4070 SUPER EVO White OC Edition 12GB GDDR6X",
     "manufacturer": "Asus",
     "part_numbers": [
       "dual-rtx4070s-o12g-evo-white",
@@ -24,28 +29,33 @@
       "90YV0KC8-M0NA00",
       "DUAL-RTX4070S-O12G-EVO-WHITE"
     ],
-    "series": "GeForce RTX 4070 SUPER",
-    "variant": "Asus"
+    "series": "Dual",
+    "variant": "OC Edition",
+    "releaseYear": 2024,
+    "manufacturer_color": "White"
   },
+  "lighting": [],
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 SUPER",
   "memory": 12,
   "memory_type": "GDDR6X",
   "core_base_clock": 1980,
-  "core_boost_clock": 2550,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "core_boost_clock": 2520,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
+  "interface": "PCIe 4.0 x16",
   "color": ["WHITE"],
-  "length": 227,
+  "length": 227.2,
   "tdp": 220,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "core_count": 7168,
-  "lighting": [],
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0DC29KHWS",
     "newegg_sku": "N82E16814126738",
-    "walmart_sku": 10295800914
+    "walmart_sku": 10295800914,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx4070s-o12g-evo-white/techspec/"
   }
 }

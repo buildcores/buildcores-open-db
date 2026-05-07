@@ -2,10 +2,45 @@
   "opendb_id": "28890f1f-e212-4d60-8267-173702196647",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 3
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS B650EM MAX GAMING WIFI",
@@ -13,16 +48,63 @@
     "series": "MAX GAMING",
     "variant": "B650EM WIFI",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["b650em-max-gaming-wifi"],
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B650E",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
+  "color": ["BLACK", "GREY"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x2"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek 1Gb Ethernet port"
+    }
+  ],
+  "back_panel_ports": [
+    " 2 x USB 10Gbps ports (1 x Type-A + 1 x USB Type-C)",
+    "2 x USB 5Gbps ports (2 x Type-A)",
+    "5 x USB 2.0 ports (5 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "back_connect_connectors": false,
+  "ecc_support": false,
+  "raid_support": true,
+  "wireless_networking": " Wi-Fi 6 Bluetooth 5.4",
   "lighting": [],
   "general_product_information": {}
 }

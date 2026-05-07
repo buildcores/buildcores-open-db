@@ -2,44 +2,53 @@
   "opendb_id": "05091474-fad1-4e95-9e14-2765ad4462ba",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Reaper Radeon RX 9060 XT 8GB GDDR6 Black",
+    "name": "PowerColor Reaper Radeon RX 9060 XT 8GB GDDR6",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX9060XT 8G-A", "RX9060XT Z8G-A"],
-    "series": "Radeon RX 9060 XT",
-    "variant": "PowerColor"
+    "series": "Reaper",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
+  "lighting": [],
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 8 GB",
   "memory": 8,
   "memory_type": "GDDR6",
-  "core_base_clock": 2220,
+  "core_base_clock": 1700,
   "core_boost_clock": 3130,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 128,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "RED"],
   "length": 200,
-  "tdp": 160,
+  "tdp": 150,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 2048,
-  "lighting": [],
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B0F9QS3L7B",
-    "newegg_sku": "N82E16814131876R"
+    "newegg_sku": "N82E16814131876R",
+    "manufacturer_url": "https://www.powercolor.com/product-detail250.htm"
   }
 }

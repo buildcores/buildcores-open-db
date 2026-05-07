@@ -2,43 +2,52 @@
   "opendb_id": "4448b05c-49b5-48c5-83eb-80be72818874",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 3,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 Black / Red",
+    "name": "PowerColor Reaper AMD Radeon RX 9070 XT 16GB GDDR6",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX9070XT 16G-A", "RX9070XT 16GB-A"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "PowerColor"
+    "series": "Reaper",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
+  "lighting": [],
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2400,
+  "core_base_clock": 1660,
   "core_boost_clock": 2970,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK", "RED"],
   "length": 289,
   "tdp": 304,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 4096,
-  "lighting": [],
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814131871"
+    "newegg_sku": "N82E16814131871",
+    "manufacturer_url": "https://www.powercolor.com/product-detail212.htm"
   }
 }
