@@ -2,7 +2,7 @@
   "opendb_id": "e25485c2-b582-4a85-9f13-88839c7b77b7",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,20 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Speedster MERC 310 Radeon RX 7900 XT 20GB GDDR6 White",
+    "name": "XFX Speedster MERC 310 AMD Radeon RX 7900 XT White Edition 20GB GDDR6",
     "manufacturer": "XFX",
     "part_numbers": ["RX-79TMERCW9"],
-    "series": "Radeon RX 7900 XT",
-    "variant": "XFX"
+    "series": "Speedster MERC 310",
+    "manufacturer_color": "White",
+    "releaseYear": 2024
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 XT",
@@ -28,18 +34,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1775,
   "core_boost_clock": 2535,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE"],
+  "effective_memory_clock": 2500,
+  "memory_bus": 320,
+  "interface": "PCIe 4.0 x16",
+  "color": ["WHITE", "RGB"],
   "length": 344,
   "tdp": 300,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "3 Fans",
   "core_count": 5376,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
+  "lighting": [],
   "general_product_information": {
     "amazon_sku": "B0DNR86QPQ",
     "newegg_sku": "N82E16814150898",
-    "walmart_sku": 14601019836
+    "walmart_sku": 14601019836,
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-merc310-amd-radeon-rx-7900-xt-gaming-graphics-card-white"
   }
 }

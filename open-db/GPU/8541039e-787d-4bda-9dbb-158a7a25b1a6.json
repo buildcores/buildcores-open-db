@@ -3,7 +3,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -13,14 +13,20 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "NVIDIA Founders Edition GeForce RTX 3090 Ti 24GB GDDR6X Silver / Black",
+    "name": "NVIDIA Founders Edition GeForce RTX 3090 Ti 24GB GDDR6X",
     "manufacturer": "NVIDIA",
     "part_numbers": ["9001G1362505000"],
-    "series": "GeForce RTX 3090 Ti",
-    "variant": "NVIDIA"
+    "series": "Founders Edition",
+    "manufacturer_color": "Silver / Black",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3090 Ti",
@@ -28,16 +34,20 @@
   "memory_type": "GDDR6X",
   "core_base_clock": 1560,
   "core_boost_clock": 1860,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1313,
+  "memory_bus": 384,
+  "interface": "PCIe 4.0 x16",
   "color": ["GREY", "BLACK"],
   "length": 313,
   "tdp": 450,
   "total_slot_width": 3,
   "cooling": "2 Fans",
   "core_count": 10752,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
+  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B09X4JVZB5"
+    "amazon_sku": "B09X4JVZB5",
+    "manufacturer_url": "https://www.nvidia.com/en-ph/geforce/graphics-cards/30-series/rtx-3090-3090ti/"
   }
 }

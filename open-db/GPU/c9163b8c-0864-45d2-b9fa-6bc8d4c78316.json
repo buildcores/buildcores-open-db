@@ -2,42 +2,53 @@
   "opendb_id": "c9163b8c-0864-45d2-b9fa-6bc8d4c78316",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 2,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 2,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sapphire PURE Radeon RX 9070 16GB GDDR6 White",
+    "name": "Sapphire PURE AMD Radeon RX 9070 16GB OC GDDR6",
     "manufacturer": "Sapphire",
     "part_numbers": ["11349-02-20G"],
-    "series": "Radeon RX 9070",
-    "variant": "Sapphire"
+    "series": "PURE",
+    "variant": "OC",
+    "manufacturer_color": "White",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2210,
+  "core_base_clock": 1440,
   "core_boost_clock": 2700,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["WHITE"],
+  "interface": "PCIe 5.0 x16",
+  "color": ["WHITE", "RGB"],
   "length": 320,
   "tdp": 245,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 3584,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 3,
+  "lighting": [],
   "general_product_information": {
-    "newegg_sku": "N82E16814202452"
+    "newegg_sku": "N82E16814202452",
+    "manufacturer_url": "https://www.sapphiretech.com/en/consumer/pure-radeon-rx-9070-16g-gddr6#Specification"
   }
 }

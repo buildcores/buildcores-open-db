@@ -1,14 +1,14 @@
 {
   "opendb_id": "1a2236a4-508d-43cb-a19b-015339816362",
   "memory": {
-    "max": 192,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
-    "u2": 0
+    "u2": 0,
+    "sata_6_gb_s": 4
   },
   "usb_headers": {
     "usb_2_0": 2,
@@ -17,39 +17,60 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 4
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
     "name": "Asus ROG STRIX B650E-F GAMING WIFI DDR5 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": [
-      "ROG STRIX B650E-F GAMING WIFI",
-      "90MB1BQ0-M0AAY0",
-      "90MB1BQ0-M0EAY0",
-      "90MB1BQ0-M0EAY1"
-    ],
+    "part_numbers": ["ROG STRIX B650E-F GAMING WIFI", "90MB1BQ0-M0AAY0"],
     "series": "ROG",
     "variant": "STRIX B650E-F GAMING WIFI DDR5 ATX",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B650E",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -59,17 +80,17 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
@@ -98,11 +119,23 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel I225-V)"],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C",
+    "3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module",
+    "1 x Intel I225-V 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "lighting": ["RGB"],
+  "wireless_networking": "Wifi 6E Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B0BHMTYZKZ",
     "newegg_sku": "N82E16813119604",
-    "bestbuy_sku": 6523721,
-    "walmart_sku": 1953451145
+    "bestbuy_sku": 6523721
   }
 }

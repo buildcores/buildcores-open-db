@@ -1,7 +1,7 @@
 {
   "opendb_id": "ed05907b-b160-4bc4-bb6d-299367cb4db0",
   "power_connectors": {
-    "pcie_6_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
@@ -12,32 +12,44 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 2,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Gigabyte WINDFORCE OC GeForce GTX 1060 3GB 3GB GDDR5 Black / Orange",
+    "name": "Gigabyte GeForce GTX 1060 WINDFORCE OC 3G GDDR5",
     "manufacturer": "Gigabyte",
     "part_numbers": ["GV-N1060WF2OC-3GD"],
-    "series": "GeForce GTX 1060 3GB",
-    "variant": "Gigabyte"
+    "series": "WINDFORCE ",
+    "variant": "OC ",
+    "releaseYear": 2016,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1060",
   "memory": 3,
   "memory_type": "GDDR5",
   "core_base_clock": 1556,
-  "core_boost_clock": 1797,
-  "effective_memory_clock": 8008,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "core_boost_clock": 1771,
+  "effective_memory_clock": 2002,
+  "memory_bus": 192,
+  "interface": "PCIe 3.0 x16",
   "color": ["BLACK", "ORANGE"],
   "length": 223,
   "tdp": 120,
-  "total_slot_width": 2,
+  "total_slot_width": 1.95,
   "cooling": "2 Fans",
+  "core_count": 1152,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "lighting": [],
   "general_product_information": {
     "amazon_sku": "B01KQUDE2Y",
-    "walmart_sku": 157434344
+    "walmart_sku": 157434344,
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-N1060WF2OC-3GD/sp"
   }
 }

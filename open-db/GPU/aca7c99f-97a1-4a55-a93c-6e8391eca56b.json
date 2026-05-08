@@ -2,7 +2,7 @@
   "opendb_id": "aca7c99f-97a1-4a55-a93c-6e8391eca56b",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,31 +13,42 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "XFX Mercury Radeon RX 9070 XT 16GB GDDR6 Black",
+    "name": "XFX Mercury AMD Radeon RX 9070 XT Gaming Edition 16GB GDDR6",
     "manufacturer": "XFX",
     "part_numbers": ["RX-97TMERCB9"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "XFX"
+    "series": "Mercury",
+    "variant": "Gaming Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
   "core_count": 4096,
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1870,
-  "core_boost_clock": 3100,
-  "effective_memory_clock": 20000,
+  "core_base_clock": 1660,
+  "core_boost_clock": 2970,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "interface": "PCIe 5.0 x16",
+  "color": ["BLACK", "GREY", "RGB"],
   "length": 360,
   "tdp": 304,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
+  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0DZPBYXYW"
+    "amazon_sku": "B0DZPBYXYW",
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-mercury-amd-radeon-rx-9070xt-gaming-edition"
   }
 }

@@ -2,10 +2,44 @@
   "opendb_id": "d1ad4b8b-c0cc-4957-8c2f-95d6493ba645",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 3
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "cpu_opt": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS PRIME B760M-A II",
@@ -13,15 +47,60 @@
     "series": "PRIME",
     "variant": "B760M-A II",
     "manufacturer_color": "Black/Silver",
-    "part_numbers": []
+    "part_numbers": ["prime-b760m-a-ii"],
+    "releaseYear": 2024
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel B760",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
+  "color": ["BLACK", "GREY"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": " PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": " PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek 2.5Gb Ethernet"
+    }
+  ],
+  "back_panel_ports": [
+    "2 x USB 10Gbps ports (2 x Type-A )",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "ecc_support": false,
+  "back_connect_connectors": false,
+  "raid_support": true,
+  "lighting": [],
   "general_product_information": {}
 }

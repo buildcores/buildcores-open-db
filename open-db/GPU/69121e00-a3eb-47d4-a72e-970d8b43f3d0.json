@@ -2,7 +2,7 @@
   "opendb_id": "69121e00-a3eb-47d4-a72e-970d8b43f3d0",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,31 +13,42 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "PowerColor Radeon RX 7900 XT Hellhound 20GB GDDR6 Black",
+    "name": "PowerColor Hellhound AMD Radeon RX 7900 XT 20GB OC GDDR6",
     "manufacturer": "PowerColor",
     "part_numbers": ["RX7900XT 20G-L", "OC", "RX7900XT 20G-L/OC"],
-    "series": "Radeon RX 7900 XT",
-    "variant": "PowerColor"
+    "series": "Hellhound",
+    "variant": "OC",
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 XT",
   "memory": 20,
   "memory_type": "GDDR6",
-  "core_base_clock": 2000,
+  "core_base_clock": 1687,
   "core_boost_clock": 2500,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "effective_memory_clock": 2500,
+  "memory_bus": 320,
+  "interface": "PCIe 4.0 x16",
+  "color": ["BLACK", "RGB", "BLUE"],
   "length": 320,
   "tdp": 300,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 5376,
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 3,
+  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0BMWHJ5Q7"
+    "amazon_sku": "B0BMWHJ5Q7",
+    "manufacturer_url": "https://www.powercolor.com/product-detail120.htm"
   }
 }

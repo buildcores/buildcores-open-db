@@ -1,8 +1,8 @@
 {
   "opendb_id": "f7e79ef8-d2be-409b-ab8a-ea9b8204fe37",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -12,32 +12,43 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
-    "dvi_d": 0,
-    "vga": 0
+    "dvi_d": 1,
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Asus ROG STRIX GeForce GTX 1080 8GB GDDR5X Black",
+    "name": "ASUS ROG STRIX GeForce GTX 1080 GAMING 8GB GDDR5X",
     "manufacturer": "Asus",
     "part_numbers": ["ROG STRIX-GTX1080-A8G-GAMING", "STRIX-GTX1080-A8G-GAMING"],
-    "series": "GeForce GTX 1080",
-    "variant": "Asus"
+    "series": "ROG STRIX",
+    "releaseYear": 2016,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GTX 1080",
   "memory": 8,
   "memory_type": "GDDR5X",
-  "core_base_clock": 1670,
-  "core_boost_clock": 1835,
-  "effective_memory_clock": 10010,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
+  "core_base_clock": 1607,
+  "core_boost_clock": 1898,
+  "effective_memory_clock": 1251,
+  "memory_bus": 256,
+  "interface": "PCIe 3.0 x16",
+  "color": ["BLACK", "RGB", "GREY"],
   "length": 298,
   "tdp": 180,
   "total_slot_width": 2,
   "cooling": "3 Fans",
+  "core_count": 2560,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "lighting": [],
   "general_product_information": {
     "amazon_sku": "B01K5F8MJK",
-    "walmart_sku": 140627808
+    "walmart_sku": 140627808,
+    "manufacturer_url": "https://rog.asus.com/articles/gaming-graphics-cards/asus-republic-of-gamers-announces-strix-gtx-1080/"
   }
 }

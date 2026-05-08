@@ -2,7 +2,7 @@
   "opendb_id": "fceefb27-bcab-4483-9a1a-186397fa5f25",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,29 +13,40 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1b": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0
   },
   "metadata": {
-    "name": "Sapphire PURE Radeon RX 7900 GRE 16GB GDDR6 White",
+    "name": "SAPPHIRE PURE AMD Radeon RX 7900 GRE 16GB GDDR6",
     "manufacturer": "Sapphire",
     "part_numbers": ["11325-03-20G"],
-    "series": "Radeon RX 7900 GRE",
-    "variant": "Sapphire"
+    "series": "PURE",
+    "manufacturer_color": "White",
+    "releaseYear": 2023
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 7900 GRE",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1270,
+  "core_base_clock": 1448,
   "core_boost_clock": 2333,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE"],
+  "effective_memory_clock": 2250,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
+  "color": ["WHITE", "RGB"],
   "length": 320,
   "tdp": 275,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "core_count": 5120,
-  "general_product_information": {}
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
+  "lighting": [],
+  "general_product_information": {
+    "manufacturer_url": "https://www.sapphiretech.com/en/consumer/pure-radeon-rx-7900-gre-16g-gddr6#Specification"
+  }
 }
