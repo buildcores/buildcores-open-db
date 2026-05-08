@@ -1,19 +1,34 @@
 {
   "opendb_id": "ebac3890-6f55-436b-a88c-5585e030ecd4",
   "power_connectors": {
-    "pcie_8_pin": 2
+    "pcie_8_pin": 0,
+    "pcie_6_pin": 0,
+    "pcie_12V_2x6": 1,
+    "pcie_12VHPWR": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "displayport_2_1_b": 3
+    "hdmi_2_1": 0,
+    "displayport_2_1_b": 3,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "displayport_2_1a": 0,
+    "displayport_2_1": 0,
+    "displayport_1_4a": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X PZ WHITE",
+    "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X PZ GDDR7",
     "manufacturer": "MSI",
     "part_numbers": ["G507T-16V3Z", "RTX 5070 Ti 16G VENTUS 3X PZ OC"],
-    "series": "GeForce RTX 5070 Ti",
-    "variant": "VENTUS 3X PZ",
+    "series": "VENTUS 3X PZ",
     "releaseYear": 2025,
+    "manufacturer_color": "White",
     "last_manually_spec_verified_at": "2025-10-27T18:26:57.120Z"
   },
   "chipset_manufacturer": "NVIDIA",
@@ -22,20 +37,20 @@
   "memory": 16,
   "memory_type": "GDDR7",
   "core_base_clock": 2295,
-  "core_boost_clock": 2467,
-  "effective_memory_clock": 28000,
+  "core_boost_clock": 2452,
+  "effective_memory_clock": 1750,
   "memory_bus": 256,
   "interface": "PCIe 5.0 x16",
-  "color": ["WHITE"],
+  "color": ["WHITE", "GREY"],
   "frame_sync": "G-Sync",
   "length": 303,
   "tdp": 300,
   "cooling": "3 Fans",
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
-  "lighting": [],
+  "total_slot_width": 2.45,
+  "lighting": ["None"],
   "general_product_information": {
     "newegg_sku": "N82E16814137995",
-    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X-PZ/"
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VENTUS-3X-PZ/Specification"
   }
 }

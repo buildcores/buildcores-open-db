@@ -2,7 +2,7 @@
   "opendb_id": "e945a975-7ab7-4e6f-8229-d6785af4b60d",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -13,14 +13,23 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "usb_c": 0,
+    "displayport_2_1_b": 0
   },
   "metadata": {
-    "name": "XFX Radeon RX 9070 XT Swift 16GB GDDR6 Black",
+    "name": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming Edition 16GB GDDR6",
     "manufacturer": "XFX",
     "part_numbers": ["RX-97TSWF3B9"],
-    "series": "Radeon RX 9070 XT",
-    "variant": "XFX"
+    "series": "Swift",
+    "variant": "Triple Fan Gaming Edition",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070 XT",
@@ -28,17 +37,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1660,
   "core_boost_clock": 2970,
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK"],
   "length": 325,
   "tdp": 304,
-  "total_slot_width": 4,
+  "total_slot_width": 3.5,
   "cooling": "3 Fans",
   "core_count": 4096,
-  "lighting": [],
+  "lighting": ["None"],
+  "frame_sync": "FreeSync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16814150900"
+    "newegg_sku": "N82E16814150900",
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition"
   }
 }
