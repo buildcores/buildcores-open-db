@@ -1,20 +1,20 @@
 {
   "opendb_id": "b494adc6-6197-4807-b2fc-38804efc3fb1",
   "metadata": {
-    "name": "NZXT F120 RGB Core 120mm RGB PWM 78.86 CFM White",
+    "name": "NZXT F120 RGB Core 120mm White ARGB",
     "manufacturer": "NZXT",
-    "part_numbers": ["RF-C12SF-W1", "RF-C12FF-W1"],
+    "part_numbers": ["RF-C12SF-W1", "RF-C12FF-W1", "RF-R12SF-W1"],
     "series": "F120 RGB",
     "variant": "Core",
-    "manufacturer_color": "White"
+    "manufacturer_color": "White",
+    "releaseYear": 2023
   },
   "size": 120,
-  "color": ["WHITE"],
+  "color": ["WHITE", "RGB"],
   "quantity": 1,
-  "min_airflow": 78.86,
-  "max_airflow": null,
-  "min_noise_level": 33.88,
-  "max_noise_level": null,
+  "min_airflow": 13.94,
+  "max_airflow": 50.18,
+  "min_noise_level": 17.2,
   "pwm": true,
   "led": "RGB",
   "connector": "4-pin PWM + 4-pin 12V RGB",
@@ -22,11 +22,13 @@
   "static_pressure": 2.57,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
+  "max_noise_level": 27.5,
   "general_product_information": {
     "amazon_sku": "B0BYN32YCB",
     "newegg_sku": "N82E16835146137",
-    "bestbuy_sku": 6563118,
-    "walmart_sku": 3105894095
+    "bestbuy_sku": 6563114,
+    "walmart_sku": 3105894095,
+    "manufacturer_url": "https://nzxt.com/en-intl/products/f120-rgb-fan?srsltid=AfmBOoo03i1Xyhpfp5mAk_MeywyckrNrU6ZrVccIGN6GpISxFKs8CUoy"
   }
 }

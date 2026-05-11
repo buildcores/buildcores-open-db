@@ -1,19 +1,21 @@
 {
   "opendb_id": "ecdbc951-5343-4194-a669-a03a18f08913",
   "metadata": {
-    "name": "Corsair iCUE LINK QX140 140mm Black ARGB PWM",
+    "name": "Corsair iCUE LINK QX140 140mm Black ARGB",
     "manufacturer": "Corsair",
     "part_numbers": ["CO-9051003-WW"],
     "series": "iCUE",
-    "variant": "140mm Black"
+    "variant": "140mm Black",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "size": 140,
-  "color": ["BLACK"],
+  "color": ["BLACK", "RGB"],
   "quantity": 1,
   "min_airflow": 12.1,
   "max_airflow": 82.5,
-  "min_noise_level": null,
-  "max_noise_level": null,
+  "min_noise_level": 10,
+  "max_noise_level": 37,
   "pwm": true,
   "led": "Addressable RGB",
   "connector": "Proprietary PWM",
@@ -21,10 +23,11 @@
   "static_pressure": 3.5,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0C64WFQGC",
     "newegg_sku": "N82E16835181360",
-    "walmart_sku": 2622384159
+    "walmart_sku": 2622384159,
+    "manufacturer_url": "https://www.corsair.com/ww/en/p/case-fans/co-9051004-ww/icue-link-qx140-rgb-140mm-pwm-pc-fans-starter-kit-with-icue-link-system-hub-co-9051004-ww?srsltid=AfmBOoqfauLRXjhBKUCjxkpxAWPxeGBaWcxBPgsvBjMDn4ytqyzkqpFf#tab-techspecs"
   }
 }
