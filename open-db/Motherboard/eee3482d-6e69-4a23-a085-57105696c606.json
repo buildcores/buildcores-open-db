@@ -29,12 +29,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MAG B550M MORTAR",
+    "name": "MSI MAG B550M MORTAR",
     "manufacturer": "MSI",
     "series": "MAG",
-    "variant": null,
+    "variant": "B550M MORTAR",
     "releaseYear": 2020,
-    "part_numbers": ["MAG B550M MORTAR"]
+    "part_numbers": ["MAG B550M MORTAR"],
+    "manufacturer_color": "Black"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -43,41 +44,35 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac95fe073ff824efd043"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac95fe073ff824efd044"
+      "lanes": 4
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac95fe073ff824efd045"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0/3.0 x4, SATA 6Gb/s",
-      "_id": "69b3ac95fe073ff824efd046"
+      "interface": "PCIe 4.0/3.0 x4, SATA 6Gb/s"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3ac95fe073ff824efd047"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125B",
-      "_id": "69b3ac95fe073ff824efd048"
+      "controller": "Realtek RTL8125B"
     }
   ],
   "ecc_support": false,

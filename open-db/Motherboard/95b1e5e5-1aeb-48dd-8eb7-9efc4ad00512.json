@@ -45,12 +45,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI B550M PRO-VDH WIFI AM4 DDR4 Micro ATX",
+    "name": "MSI B550M PRO-VDH WIFI",
     "manufacturer": "MSI",
     "part_numbers": ["B550M PRO-VDH WIFI", "7C95-001R", "911-7C95-008"],
-    "series": "B550M",
-    "variant": "rev. 1.0",
+    "series": "PRO",
+    "variant": "B550M PRO-VDH WIFI",
     "releaseYear": 2020,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-03-03T23:29:20.683Z"
   },
   "socket": "AM4",
@@ -61,35 +62,30 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac1d7d50ea7030492ac6"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac1d7d50ea7030492ac7"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/ 2260/ 2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d7d50ea7030492ac8"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/ 2260/ 2280",
       "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3ac1d7d50ea7030492ac9"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111HN",
-      "_id": "69b3ac1d7d50ea7030492aca"
+      "controller": "Realtek RTL8111HN"
     }
   ],
   "ecc_support": true,
