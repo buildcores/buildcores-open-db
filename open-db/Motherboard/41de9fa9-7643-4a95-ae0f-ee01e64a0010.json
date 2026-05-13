@@ -34,7 +34,7 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -62,13 +62,18 @@
   "pcie_slots": [
     {
       "gen": "5.0",
-      "quantity": 1,
+      "quantity": 2,
       "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
     }
   ],
   "m2_slots": [
@@ -80,6 +85,11 @@
     {
       "size": "2242/2260/2280",
       "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -90,17 +100,17 @@
     }
   ],
   "back_panel_ports": [
-    "2 x USB 10Gbps ports (1 x Type-C® + 1 x Type-C® with Alt mode)",
+    "2 x USB 10Gbps ports (1 x Type-C + 1 x Type-C with Alt mode)",
     "2 x USB 10Gbps ports (2 x Type-A)",
     "4 x USB2.0 ports (4 x Type-A)",
     "1 x DisplayPort",
-    "1 x HDMI™ port",
+    "1 x HDMI port",
     "1 x Wi-Fi module",
-    "2 x Realtek® 5Gb Ethernet ports",
+    "2 x Realtek 5Gb Ethernet ports",
     "3 x Audio jacks",
-    "1 x BIOS FlashBack™ button"
+    "1 x BIOS FlashBack button"
   ],
-  "wireless_networking": "Wifi 7",
+  "wireless_networking": "WiFi-7",
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,

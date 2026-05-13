@@ -2,10 +2,43 @@
   "opendb_id": "09cd6dc9-a9d1-4088-92bc-85595b7520b6",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_3_2_gen_1": 2,
+    "usb_2_0": 2,
+    "usb_3_2_gen_2x2": 2
+  },
+  "fan_headers": {
+    "case_fan": 5,
+    "cpu_fan": 1,
+    "pump": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1,
+    "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "MSI MPG X870E CARBON MAX WIFI",
@@ -13,16 +46,63 @@
     "series": "MPG",
     "variant": "X870E CARBON MAX WIFI",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2026
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["RGB", "BLACK"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": " PCIe 5.0 x4"
+    },
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": " PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": ""
+    }
+  ],
+  "back_panel_ports": [
+    "2x USB 10Gbps Type A ports (From X870E Chipset)",
+    "4x USB 10Gbps Type A ports (From RTS5420)",
+    "1x HDMI™ port",
+    "2x USB 40Gbps Type-C ports",
+    "1x USB 10Gbps Type C port (From CPU)",
+    "2x USB 10Gbps Type A ports",
+    "1x Clear CMOS Button",
+    "1x Flash BIOS Button",
+    "1x 5G LAN port",
+    "2x Wi-Fi antenna connectors",
+    "2x audio jacks",
+    "1x Optical S/PDIF Out connector"
+  ],
+  "lighting": ["RGB"],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-MAX-WIFI/Gallery"
+  }
 }
