@@ -7,7 +7,7 @@
     "pcie_12VHPWR": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -16,9 +16,11 @@
     "vga": 0,
     "hdmi_2_1b": 0,
     "hdmi_2_2": 0,
-    "hdmi_2_1a": 0,
+    "hdmi_2_1a": 2,
     "displayport_2_1_b": 0,
-    "usb_c": 0
+    "usb_c": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0
   },
   "metadata": {
     "name": "NVIDIA Founders Edition GeForce RTX 4090 24GB GDDR6X ",
@@ -45,7 +47,7 @@
   "core_count": 16384,
   "frame_sync": "G-Sync",
   "case_expansion_slot_width": 3,
-  "lighting": [],
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0BJFRT43X",
     "newegg_sku": "1FT-0004-00835",
