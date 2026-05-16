@@ -2,10 +2,46 @@
   "opendb_id": "65f88513-05bc-495c-b452-50a527cc1719",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "MSI PRO Z890-S WIFI WHITE",
@@ -13,16 +49,73 @@
     "series": "PRO",
     "variant": "Z890-S WIFI WHITE",
     "manufacturer_color": "White",
-    "part_numbers": []
+    "part_numbers": ["PRO-Z890-S-WIFI-WHITE"],
+    "releaseYear": 2024
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
   "chipset": "Intel Z890",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "color": ["WHITE", "GREY", "BLACK"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/ 2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2242/ 2260/ 2280 ",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/ 2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek 8125D"
+    }
+  ],
+  "back_panel_ports": [
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Thunderbolt 4 USB-C port",
+    "1 x USB 20Gbps Type-C port",
+    "6 x USB 5Gbps Type-A ports",
+    "1 x 2.5G LAN (RJ45) port",
+    "2 x Wi-Fi antenna connectors",
+    "3 x Audio jacks"
+  ],
+  "ecc_support": false,
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "amazon_sku": "B0DPY5WKGF",
+    "newegg_sku": "9SIA6ZPKD92521",
+    "bestbuy_sku": 11233359,
+    "walmart_sku": 15023224313,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI-WHITE/Gallery"
+  }
 }
