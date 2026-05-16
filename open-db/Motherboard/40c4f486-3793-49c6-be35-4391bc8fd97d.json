@@ -2,10 +2,29 @@
   "opendb_id": "40c4f486-3793-49c6-be35-4391bc8fd97d",
   "memory": {
     "ram_type": "DDR4",
-    "slots": 4
+    "slots": 4,
+    "max": 128
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 6
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "ROG SupremeFX S1220A",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS ROG STRIX B550-XE GAMING WIFI",
@@ -13,16 +32,69 @@
     "series": "ROG",
     "variant": "STRIX B550-XE GAMING WIFI",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["rog-strix-b550-xe-gaming-wifi"],
+    "releaseYear": 2020
   },
   "socket": "AM4",
   "form_factor": "ATX",
   "chipset": "AMD B550",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "color": ["RGB", "BLACK"],
+  "lighting": ["RGB"],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIE 3.0 x 4 "
+    },
+    {
+      "size": "2242/2260/2280/22110 ",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIE 3.0 x 4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": " Intel I225-V"
+    }
+  ],
+  "back_panel_ports": [
+    " 3 x USB 3.2 Gen 2  (2 x Type-A+1 x USB Type-C)",
+    "5 x USB 2.0 (1 for audio USB Type-C)",
+    "1 x BIOS FlashBack Button",
+    "1 x Intel I225-V 2.5Gb Ethernet",
+    "1 x DisplayPort",
+    "1 x HDMI",
+    "5 x Audio jacks"
+  ],
+  "wireless_networking": "Wi-Fi 6",
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "newegg_sku": "9SIC4RPKRF5524",
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/"
+  }
 }

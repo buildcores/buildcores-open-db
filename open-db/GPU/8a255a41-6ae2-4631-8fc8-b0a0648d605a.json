@@ -1,12 +1,19 @@
 {
   "opendb_id": "8a255a41-6ae2-4631-8fc8-b0a0648d605a",
+  "power_connectors": {
+    "pcie_8_pin": 1
+  },
+  "video_outputs": {
+    "displayport_1_4a": 3,
+    "hdmi_2_1": 1
+  },
   "metadata": {
     "name": "MSI GeForce RTX 3060 VENTUS 2X XS 12GB OC",
     "manufacturer": "MSI",
     "series": "VENTUS",
     "variant": "2X XS OC",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["RTX-3060-VENTUS-2X-XS-12G-OC"]
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 12 GB",
@@ -18,7 +25,15 @@
   "length": 212,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
+  "core_boost_clock": 1792,
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "frame_sync": "G-Sync",
+  "interface": "PCIe 4.0 x16",
+  "cooling": "2 Fans",
+  "general_product_information": {
+    "manufacturer_url": "http://techpowerup.com/gpu-specs/msi-rtx-3060-ventus-2x-oc.b8613"
+  }
 }
