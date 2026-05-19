@@ -8,14 +8,33 @@
   "storage_devices": {
     "sata_6_gb_s": 6
   },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "cpu_opt": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
   "front_panel_headers": {
     "power_button": true,
     "reset_button": true,
     "hdd_led": true,
     "power_led": true
   },
+  "other_headers": {
+    "thunderbolt": 1,
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -55,16 +74,16 @@
       "gen": "3.0",
       "quantity": 1,
       "lanes": 1
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIE 3.0 x 4 "
-    },
-    {
-      "size": "2242/2260/2280/22110 ",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
@@ -81,7 +100,7 @@
     }
   ],
   "back_panel_ports": [
-    " 3 x USB 3.2 Gen 2  (2 x Type-A+1 x USB Type-C)",
+    "3 x USB 3.2 Gen 2  (2 x Type-A+1 x USB Type-C)",
     "5 x USB 2.0 (1 for audio USB Type-C)",
     "1 x BIOS FlashBack Button",
     "1 x Intel I225-V 2.5Gb Ethernet",
@@ -89,12 +108,11 @@
     "1 x HDMI",
     "5 x Audio jacks"
   ],
-  "wireless_networking": "Wi-Fi 6",
+  "wireless_networking": "Wi-Fi 6 Bluetooth 5.1",
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
-    "newegg_sku": "9SIC4RPKRF5524",
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/"
+    "newegg_sku": "9SIC4RPKRF5524"
   }
 }

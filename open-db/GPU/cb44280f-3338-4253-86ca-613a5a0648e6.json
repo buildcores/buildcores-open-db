@@ -1,12 +1,20 @@
 {
   "opendb_id": "cb44280f-3338-4253-86ca-613a5a0648e6",
+  "power_connectors": {
+    "pcie_6_pin": 1
+  },
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 2
+  },
   "metadata": {
     "name": "MSI GeForce RTX 3050 VENTUS 2X 8GB V1",
     "manufacturer": "MSI",
     "series": "VENTUS",
     "variant": "2X V1",
-    "part_numbers": [],
-    "manufacturer_color": "Black"
+    "part_numbers": ["RTX-3050-VENTUS-2X-8G-V1"],
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3050 8 GB",
@@ -17,8 +25,16 @@
   "length": 236,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
   "core_base_clock": 1552,
-  "general_product_information": {}
+  "core_boost_clock": 1777,
+  "effective_memory_clock": 1750,
+  "memory_bus": 128,
+  "frame_sync": "G-Sync",
+  "interface": "PCIe 4.0 x8",
+  "cooling": "2 Fans",
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.cn/Graphics-Card/GeForce-RTX-3050-VENTUS-2X-8G-V1/Gallery"
+  }
 }

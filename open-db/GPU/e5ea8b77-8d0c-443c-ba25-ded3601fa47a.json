@@ -1,11 +1,19 @@
 {
   "opendb_id": "e5ea8b77-8d0c-443c-ba25-ded3601fa47a",
+  "power_connectors": {
+    "pcie_8_pin": 1
+  },
+  "video_outputs": {
+    "displayport_2_1a": 2,
+    "hdmi_2_1b": 1
+  },
   "metadata": {
     "name": "ASRock AMD Radeon RX 9060 XT Challenger 16GB",
     "manufacturer": "ASRock",
     "series": "Challenger",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["RX9060XT CL 16G"],
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 16 GB",
@@ -13,7 +21,22 @@
   "memory_type": "GDDR6",
   "tdp": 170,
   "length": 249,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK", "RGB"],
+  "lighting": ["RGB"],
+  "core_count": 2048,
+  "core_base_clock": 1700,
+  "core_boost_clock": 3290,
+  "effective_memory_clock": 2518,
+  "memory_bus": 128,
+  "frame_sync": "FreeSync",
+  "interface": "PCIe 5.0 x16",
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
+  "general_product_information": {
+    "newegg_sku": "N82E16814930140",
+    "bestbuy_sku": 11019285,
+    "walmart_sku": 17373611957,
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209060%20XT%20Challenger%2016GB/#Manual"
+  }
 }
