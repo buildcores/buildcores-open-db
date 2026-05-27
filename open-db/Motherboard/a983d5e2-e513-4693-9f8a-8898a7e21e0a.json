@@ -29,11 +29,12 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock Z890 Pro-A LGA1851 DDR5 ATX",
+    "name": "ASRock Z890 Pro-A",
     "manufacturer": "ASRock",
     "part_numbers": ["Z890 Pro-A", "90-MXBP50-A0UAYZ", "Z890 PRO-A"],
-    "series": "Z890",
-    "variant": ""
+    "variant": "Z890-A",
+    "series": "Pro",
+    "manufacturer_color": "Black"
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
@@ -43,71 +44,62 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac404fd4af70a34a050c"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 4,
-      "_id": "69b3ac404fd4af70a34a050d"
+      "lanes": 4
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac404fd4af70a34a050e"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac404fd4af70a34a050f"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac404fd4af70a34a0510"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac404fd4af70a34a0511"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2230-2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac404fd4af70a34a0512"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac404fd4af70a34a0513"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac404fd4af70a34a0514"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG",
-      "_id": "69b3ac404fd4af70a34a0515"
+      "controller": "Realtek Dragon RTL8125BG"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
+  "lighting": [],
   "general_product_information": {
     "amazon_sku": "B0DJQ2RXNX",
     "newegg_sku": "N82E16813162179"

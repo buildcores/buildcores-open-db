@@ -17,11 +17,28 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -29,11 +46,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus B760 M-AYW WIFI D4 DDR4 Micro ATX",
+    "name": "ASUS B760M-AYW WIFI D4",
     "manufacturer": "ASUS",
-    "part_numbers": ["B760M-AYW WIFI D4"],
-    "series": "B760",
-    "variant": ""
+    "part_numbers": ["B760M-AYW WIFI D4", "90MB1CX0-M1EAY0"],
+    "variant": "B760M-AYW WIFI D4",
+    "manufacturer_color": "Black",
+    "series": "AYW",
+    "releaseYear": 2025
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
@@ -43,52 +62,47 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab517d50ea703048cd09"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ab517d50ea703048cd0a"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab517d50ea703048cd0b"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab517d50ea703048cd0c"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab517d50ea703048cd0d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab517d50ea703048cd0e"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab517d50ea703048cd0f"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "lighting": [],
+  "wireless_networking": "Wifi 6 Bluetooth 5.2",
+  "general_product_information": {
+    "amazon_sku": "B0BNQGQF43"
+  }
 }

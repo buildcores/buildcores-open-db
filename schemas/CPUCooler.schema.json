@@ -47,6 +47,14 @@
         ]
       }
     },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
+      }
+    },
     "height": {
       "description": "The height of the CPU cooler in mm",
       "type": ["number", "null"]
@@ -70,6 +78,7 @@
           "sTR5",
           "sTRX4",
           "sTR4",
+          "sWRX8",
           "TR4",
           "LGA 1851",
           "LGA 1700",

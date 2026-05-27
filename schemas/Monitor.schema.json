@@ -56,6 +56,10 @@
       "description": "Gray-to-gray response time in milliseconds",
       "type": ["number", "null"]
     },
+    "mprt_response_time": {
+      "description": "Moving picture response time in milliseconds",
+      "type": ["number", "null"]
+    },
     "color": {
       "description": "The color(s) of this product. Each color of the product should be included in the array.",
       "type": ["array", "null"],
@@ -76,6 +80,14 @@
           "BROWN",
           "GOLD"
         ]
+      }
+    },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
       }
     },
     "viewing_angle": {
@@ -108,9 +120,70 @@
       "description": "Available ports and connections",
       "type": ["string", "null"]
     },
+    "video_outputs": {
+      "type": ["object", "null"],
+      "properties": {
+        "hdmi_2_2": {
+          "description": "Number of HDMI 2.2 ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_1": {
+          "description": "Number of HDMI 2.1 ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_1a": {
+          "description": "Number of HDMI 2.1a ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_1b": {
+          "description": "Number of HDMI 2.1b ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_0": {
+          "description": "Number of HDMI 2.0 ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_0a": {
+          "description": "Number of HDMI 2.0a ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_0b": {
+          "description": "Number of HDMI 2.0b ports",
+          "type": ["number", "null"]
+        },
+        "displayport_2_1": {
+          "description": "Number of DisplayPort 2.1 ports",
+          "type": ["number", "null"]
+        },
+        "displayport_2_1a": {
+          "description": "Number of DisplayPort 2.1a ports",
+          "type": ["number", "null"]
+        },
+        "displayport_1_4a": {
+          "description": "Number of DisplayPort 1.4a ports",
+          "type": ["number", "null"]
+        },
+        "displayport_2_1_b": {
+          "description": "Number of DisplayPort 2.1b ports",
+          "type": ["number", "null"]
+        },
+        "usb_c": {
+          "description": "Number of USB-C ports",
+          "type": ["number", "null"]
+        },
+        "dvi_d": {
+          "description": "Number of DVI-D ports",
+          "type": ["number", "null"]
+        },
+        "vga": {
+          "description": "Number of VGA ports",
+          "type": ["number", "null"]
+        }
+      }
+    },
     "max_brightness": {
       "description": "Maximum brightness in nits",
-      "type": ["string", "null"]
+      "type": ["number", "null"]
     },
     "hdr": {
       "description": "HDR support and certification",

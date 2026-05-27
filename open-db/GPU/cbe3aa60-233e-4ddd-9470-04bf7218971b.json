@@ -3,7 +3,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -19,23 +19,29 @@
     "name": "NVIDIA Founders Edition GeForce RTX 4080 SUPER 16GB GDDR6 Black",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G136-2555-000"],
-    "series": "GeForce RTX 4080 SUPER",
-    "variant": "NVIDIA"
+    "series": "Founders Edition",
+    "manufacturer_color": "Black",
+    "releaseYear": 2024
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080 SUPER",
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 2210,
+  "core_base_clock": 2295,
   "core_boost_clock": 2550,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1438,
+  "memory_bus": 256,
+  "interface": "PCIe 4.0 x16",
   "color": ["BLACK"],
   "length": 304,
   "tdp": 320,
   "total_slot_width": 3,
   "cooling": "2 Fans",
   "core_count": 10240,
-  "general_product_information": {}
+  "lighting": ["None"],
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 3,
+  "general_product_information": {
+    "newegg_sku": "1FT-0004-008P3"
+  }
 }
