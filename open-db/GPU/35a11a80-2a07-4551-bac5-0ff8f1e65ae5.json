@@ -1,9 +1,18 @@
 {
   "opendb_id": "35a11a80-2a07-4551-bac5-0ff8f1e65ae5",
+  "power_connectors": {
+    "pcie_12VHPWR": 1
+  },
+  "video_outputs": {
+    "displayport_2_1_b": 4
+  },
   "metadata": {
     "name": "PNY NVIDIA RTX PRO 4000 Blackwell 24GB",
     "manufacturer": "PNY",
-    "part_numbers": []
+    "part_numbers": [""],
+    "series": "RTX PRO 4000 Blackwell",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "RTX PRO 4000 Blackwell",
@@ -11,7 +20,18 @@
   "memory_type": "GDDR7",
   "tdp": 140,
   "length": 241.3,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "core_count": 8960,
+  "core_base_clock": 1230,
+  "core_boost_clock": 2055,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 1,
+  "total_slot_width": 1,
+  "general_product_information": {
+    "manufacturer_url": "https://www.pny.com/nvidia-rtx-pro-4000-blackwell"
+  }
 }

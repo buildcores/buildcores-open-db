@@ -1,9 +1,18 @@
 {
   "opendb_id": "0ba45889-bb01-44a5-b3d8-1afbccfbe1d9",
+  "power_connectors": {
+    "pcie_12VHPWR": 1
+  },
+  "video_outputs": {
+    "displayport_2_1_b": 4
+  },
   "metadata": {
     "name": "NVIDIA RTX PRO 4000 Blackwell 24GB",
     "manufacturer": "NVIDIA",
-    "part_numbers": []
+    "part_numbers": ["rtx-pro-4000"],
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
+    "series": "RTX 4000 Blackwell"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "RTX PRO 4000 Blackwell",
@@ -11,7 +20,20 @@
   "memory_type": "GDDR7",
   "tdp": 140,
   "length": 241.3,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "core_count": 8960,
+  "core_base_clock": 1230,
+  "core_boost_clock": 2055,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 1,
+  "total_slot_width": 1,
+  "cooling": "Blower",
+  "general_product_information": {
+    "amazon_sku": "B0GJNJYNKY",
+    "manufacturer_url": "https://www.nvidia.com/en-in/products/workstations/professional-desktop-gpus/rtx-pro-4000/"
+  }
 }
