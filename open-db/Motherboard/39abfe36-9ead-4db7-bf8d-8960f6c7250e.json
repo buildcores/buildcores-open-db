@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,24 +17,44 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_opt": 1,
+    "case_fan": 2,
+    "cpu_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC887",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS PRIME B550M-A",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B550M-A", "90MB14I0-M0EAY0"],
+    "part_numbers": ["PRIME B550M-A"],
     "series": "PRIME",
     "variant": "B550M-A",
-    "manufacturer_color": "Black/Silver"
+    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2020
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -83,10 +103,20 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek RTL8111H)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "1 x D-Sub port",
+    "1 x DVI-D port",
+    "1 x HDMI port",
+    "1 x Realtek RTL8111H 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B089HDHVV6",
-    "walmart_sku": 2268532176
+    "walmart_sku": 2268532176,
+    "manufacturer_url": "https://www.asus.com/supportonly/prime%20b550m-a/helpdesk_manual/"
   }
 }

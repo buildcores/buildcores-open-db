@@ -6,9 +6,9 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
-    "u2": 0
+    "u2": 0,
+    "sata_6_gb_s": 4
   },
   "usb_headers": {
     "usb_2_0": 2,
@@ -17,28 +17,40 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "pump": 1,
+    "cpu_fan": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
     "name": "MSI X870E MPG EDGE TI WIFI AM5 DDR5 ATX",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "MPG X870E EDGE TI WIFI",
-      "7E59-002R",
-      "MPG X870E Edge TI WiFi",
-      "911-7E59-05S"
-    ],
+    "part_numbers": ["MPG X870E EDGE TI WIFI"],
     "series": "X870E",
-    "variant": ""
+    "variant": "",
+    "manufacturer_color": "White",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -48,82 +60,73 @@
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac851698c6213208e1c4"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2280-22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1c5"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1c6"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1c7"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1c8"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1c9"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1ca"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2260-2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1cb"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1cc"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac851698c6213208e1cd"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek 8126",
-      "_id": "69b3ac851698c6213208e1ce"
+      "controller": "Realtek 8126"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek 8126)"],
-  "lighting": [],
+  "lighting": ["RGB"],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0BSLKWC3R",
     "newegg_sku": "N82E16813144698",
     "bestbuy_sku": 6629575,
-    "walmart_sku": 15116018955
+    "walmart_sku": 15116018955,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870E-EDGE-TI-WIFI/Overview"
   }
 }
