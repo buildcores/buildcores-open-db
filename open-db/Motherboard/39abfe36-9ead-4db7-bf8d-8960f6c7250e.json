@@ -40,7 +40,7 @@
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -50,7 +50,7 @@
   "metadata": {
     "name": "ASUS PRIME B550M-A",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B550M-A", "90MB14I0-M0EAY0"],
+    "part_numbers": ["PRIME B550M-A"],
     "series": "PRIME",
     "variant": "B550M-A",
     "manufacturer_color": "Black/Silver",
@@ -67,31 +67,21 @@
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "onboard_ethernet": [
