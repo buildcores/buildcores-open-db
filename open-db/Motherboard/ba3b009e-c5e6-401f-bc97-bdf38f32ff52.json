@@ -50,7 +50,7 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus PRIME Z790-P WIFI DDR4 ATX",
+    "name": "Asus PRIME Z790-P WIFI D4 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
       "PRIME Z790-P WIFI DDR4",
@@ -58,8 +58,9 @@
       "90MB1DB0-M0AAY0",
       "90MB1CV0-M0EAY0"
     ],
-    "series": "Z790",
-    "variant": "PRIME P WIFI DDR4",
+    "series": "PRIME",
+    "variant": "Z790-P WIFI",
+    "manufacturer_color": "Black/Silver",
     "last_manually_spec_verified_at": "2026-02-16T15:25:07.537Z"
   },
   "socket": "LGA 1700",
@@ -70,47 +71,40 @@
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac43b27c54a042d0266c"
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 4,
-      "_id": "69b3ac43b27c54a042d0266d"
+      "lanes": 4
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac43b27c54a042d0266e"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac43b27c54a042d0266f"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac43b27c54a042d02670"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242/2260/2280/22110 ",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac43b27c54a042d02671"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac43b27c54a042d02672"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": true,

@@ -11,21 +11,39 @@
     "u2": null
   },
   "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 4,
-    "usb_3_2_gen_2": 2,
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2x2": null,
     "usb_4": null
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "cpu_opt": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": true
+    "flashback": true,
+    "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek ALC887/897",
+    "chipset": "Realtek ALC887",
     "channels": "7.1"
   },
   "metadata": {
@@ -34,7 +52,7 @@
     "series": "PRIME",
     "variant": "B550M-A WIFI",
     "releaseYear": 2022,
-    "part_numbers": ["PRIME B550M-A (WI-FI)", "90MB14I0-M0EAY0"],
+    "part_numbers": ["PRIME B550M-A (WI-FI)"],
     "manufacturer_color": "Black/Silver"
   },
   "socket": "AM4",
@@ -48,35 +66,20 @@
     },
     {
       "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16
-    },
-    {
-      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIE 3.0 x4 and SATA modes"
+      "interface": "PCIE 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIE 4.0 x4 and SATA modes"
-    },
-    {
-      "size": "2260",
-      "key": "M",
-      "interface": "PCIE 4.0 x4 and SATA modes"
-    },
-    {
-      "size": "22110",
-      "key": "M",
-      "interface": "PCIE 4.0 x4 and SATA modes"
+      "interface": "PCIE 3.0 x4"
     }
   ],
   "onboard_ethernet": [
@@ -89,20 +92,22 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1xPS/2keyboard/mousecomboports",
-    "1xDVI-D",
-    "1xD-Sub",
-    "1xHDMI",
-    "1xLAN(RJ45)ports",
-    "2xUSB3.2Gen2(tealblue)(2xType-A)",
-    "4xUSB3.2Gen1(blue)Type-A",
-    "3xAudiojack(s)"
+    "1 x PS/2 keyboard/Mouse combo ports",
+    "1 x DVI-D",
+    "1 x D-Sub",
+    "1 x HDMI",
+    "1 x LAN(RJ45)ports",
+    "2 x USB 3.2 Gen2 (2xType-A)",
+    "4 x USB 3.2 Gen1 Type-A",
+    "3 x Audiojack (s)"
   ],
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6 Bluetooth 5.1",
   "general_product_information": {
     "amazon_sku": "B081PZTZ4B",
     "newegg_sku": "9SIB0TFJPM7046",
-    "walmart_sku": 393480332
+    "walmart_sku": 393480332,
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-b550m-a-wi-fi/helpdesk_manual?model2Name=PRIME-B550M-A-WI-FI"
   }
 }

@@ -1,11 +1,19 @@
 {
   "opendb_id": "1d98afc3-0383-4516-9215-559c2639624f",
+  "power_connectors": {
+    "pcie_12V_2x6": 1
+  },
+  "video_outputs": {
+    "displayport_2_1_b": 3,
+    "hdmi_2_1b": 1
+  },
   "metadata": {
     "name": "GIGABYTE GeForce RTX 5070 Ti GAMING 16G",
     "manufacturer": "Gigabyte",
     "series": "GAMING",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["GV-N507TGAMING-16GD", "GV-N507TGAMING OC-16GD"],
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
@@ -13,7 +21,23 @@
   "memory_type": "GDDR7",
   "tdp": 300,
   "length": 342,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["RGB", "BLACK"],
+  "lighting": ["RGB"],
+  "core_count": 8960,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2588,
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "frame_sync": "G-Sync",
+  "interface": "PCIe 5.0 x16",
+  "case_expansion_slot_width": 3.5,
+  "total_slot_width": 3.5,
+  "cooling": "3 Fans",
+  "general_product_information": {
+    "amazon_sku": "B0DTRC7782",
+    "newegg_sku": "N82E16814932768",
+    "bestbuy_sku": 6618884,
+    "walmart_sku": 15941157786,
+    "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N507TGAMING-16GD/gallery"
+  }
 }
