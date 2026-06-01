@@ -18,11 +18,15 @@
   },
   "cache": {
     "l2": 30,
-    "l3": 30
+    "l3": 30,
+    "l1": "192KB per P-core, 96KB per E-core cluster"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 256,
@@ -38,21 +42,22 @@
     "simultaneousMultithreading": false
   },
   "metadata": {
-    "name": "Intel Core Ultra 5 250KF Plus",
+    "name": "Intel Core Ultra 5 250K Plus",
     "manufacturer": "Intel",
     "part_numbers": ["BX80768250KF", "Intel Core Ultra 5 250KF Plus"],
-    "series": "Intel Core Ultra 5 200",
-    "variant": "250KF Plus",
+    "series": "Core Ultra 5 200",
+    "variant": "250K Plus",
     "releaseYear": 2026
   },
   "series": "Core Ultra 5 200",
   "microarchitecture": "Arrow Lake Refresh",
-  "coreFamily": "Lion Cove / Skymont",
+  "coreFamily": "Arrow Lake Refresh",
   "socket": "LGA 1851",
   "general_product_information": {
     "amazon_sku": "B0GMLFFHS1",
     "newegg_sku": "N82E16819118630",
     "bestbuy_sku": 12527151,
-    "walmart_sku": 19949371519
+    "walmart_sku": 19949371519,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/245689/intel-core-ultra-5-processor-250kf-plus-30m-cache-up-to-5-30-ghz/specifications.html"
   }
 }
