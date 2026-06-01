@@ -2,7 +2,9 @@
   "opendb_id": "8a042a3a-8c29-4599-8be6-b93f55830e54",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,30 +18,38 @@
   },
   "cache": {
     "l2": 24,
-    "l3": 30
+    "l3": 30,
+    "l1": "80 KB per core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
-    "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 253,
+    "eccSupport": false
   },
   "metadata": {
-    "name": "Intel Core i7 13700KF 3.4 GHz 16-Core LGA1700",
+    "name": "Intel Core i7 13700KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513700KF", "Lago Raptor 13700", "i7-13700KF"],
-    "series": "Intel Core i7"
+    "series": "Core i7 13000",
+    "variant": "13700KF",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 13000",
   "microarchitecture": "Raptor Lake",
   "coreFamily": "Raptor Lake",
   "socket": "LGA 1700",
@@ -47,6 +57,7 @@
     "amazon_sku": "B0BCDL7F5W",
     "newegg_sku": "N82E16819118415",
     "bestbuy_sku": 6521195,
-    "walmart_sku": 1885221436
+    "walmart_sku": 1885221436,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230489/intel-core-i713700kf-processor-30m-cache-up-to-5-40-ghz/specifications.html"
   }
 }
