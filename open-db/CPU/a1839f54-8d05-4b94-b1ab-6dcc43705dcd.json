@@ -2,12 +2,18 @@
   "opendb_id": "a1839f54-8d05-4b94-b1ab-6dcc43705dcd",
   "cores": {
     "total": 16,
-    "threads": 32
+    "threads": 32,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.5,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
@@ -17,7 +23,10 @@
   },
   "specifications": {
     "integratedGraphics": {
-      "model": null
+      "model": "0",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "types": ["DDR5"],
@@ -29,17 +38,18 @@
     "packaging": "Boxed",
     "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true,
-    "includesCooler": false
+    "includesCooler": false,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 9955WX",
     "manufacturer": "AMD",
     "part_numbers": ["Ryzen Threadripper PRO 9955WX", "100-100000725WOF"],
-    "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
-    "variant": "PRO 9955WX",
+    "series": "Threadripper 9000",
+    "variant": "9955WX",
     "releaseYear": 2025
   },
-  "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
+  "series": "Ryzen PRO 9000",
   "microarchitecture": "Zen 5",
   "coreFamily": "Shimada Peak",
   "socket": "sTR5",
