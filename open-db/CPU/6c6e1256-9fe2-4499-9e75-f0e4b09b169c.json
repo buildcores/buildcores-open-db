@@ -2,12 +2,14 @@
   "opendb_id": "6c6e1256-9fe2-4499-9e75-f0e4b09b169c",
   "cores": {
     "total": 24,
-    "threads": 32
+    "threads": 32,
+    "performance": 8,
+    "efficiency": 16
   },
   "clocks": {
     "performance": {
-      "base": 3,
-      "boost": 6
+      "boost": 6,
+      "base": 3.2
     },
     "efficiency": {
       "base": 2.4,
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 32,
-    "l3": 36
+    "l3": 36,
+    "l1": "80KB per P-core, 96KB per E-core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1.65,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 150,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 253
   },
   "metadata": {
-    "name": "Intel Core i9 13900KS 3.0 GHz 24-Core LGA1700",
+    "name": "Intel Core i9 13900KS",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513900KS", "i9-13900KS"],
-    "series": "Intel Core i9"
+    "series": "Core i9 13000",
+    "variant": "13900KS",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BPXCRWB2",
     "newegg_sku": "N82E16819118446",
-    "walmart_sku": 2261657429
+    "walmart_sku": 2261657429,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html"
   }
 }

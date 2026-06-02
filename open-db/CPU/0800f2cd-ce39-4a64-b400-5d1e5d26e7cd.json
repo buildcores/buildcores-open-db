@@ -2,46 +2,61 @@
   "opendb_id": "0800f2cd-ce39-4a64-b400-5d1e5d26e7cd",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 6,
+    "threads": 16,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.9
+    },
+    "efficiency": {
+      "base": 2.8,
+      "boost": 3.6
     }
   },
   "cache": {
-    "l3": 20
+    "l3": 20,
+    "l1": "80KB per P-core",
+    "l2": 9.5
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 150
   },
   "metadata": {
-    "name": "Intel Core i5 12600KF 3.7 GHz 10-Core LGA1700",
+    "name": "Intel Core i5 12600KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512600KF"],
-    "series": "Intel Core i5"
+    "series": "Core i5 12000",
+    "variant": "12600KF",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09FXFJW2F",
     "bestbuy_sku": 6483680,
-    "walmart_sku": 793064999
+    "walmart_sku": 793064999,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html"
   }
 }

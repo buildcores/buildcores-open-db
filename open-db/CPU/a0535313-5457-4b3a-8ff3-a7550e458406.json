@@ -2,7 +2,9 @@
   "opendb_id": "a0535313-5457-4b3a-8ff3-a7550e458406",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,37 +18,46 @@
   },
   "cache": {
     "l2": 14,
-    "l3": 30
+    "l3": 30,
+    "l1": "80KB per P-core, 96KB per E-core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD 770",
+      "baseClock": 300,
+      "boostClock": 1.55,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
-    "eccSupport": false,
-    "includesCooler": false,
+    "eccSupport": true,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 241
   },
   "metadata": {
-    "name": "Intel Core i9 12900K 3.2 GHz 16-Core LGA1700",
+    "name": "Intel Core i9 12900K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512900K"],
-    "series": "Intel Core i9"
+    "series": "Core i9 12000",
+    "variant": "12900K",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09GYLB4J6",
     "newegg_sku": "N82E16819118339",
     "bestbuy_sku": 6483663,
-    "walmart_sku": 896914815
+    "walmart_sku": 896914815,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134599/intel-core-i912900k-processor-30m-cache-up-to-5-20-ghz/specifications.html"
   }
 }

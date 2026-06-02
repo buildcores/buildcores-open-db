@@ -2,41 +2,54 @@
   "opendb_id": "89eeefbe-a6d6-4f77-9c4d-025df2f10a3e",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 32
+    "l3": 32,
+    "l1": "512KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 3700X 3.6 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 3700X",
     "manufacturer": "AMD",
     "part_numbers": ["Ryzen 7 3700X", "100-100000071BOX"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 3000",
+    "variant": "3700X",
+    "releaseYear": 2019
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B07SXMZLPK",
     "newegg_sku": "N82E16819113650",
     "bestbuy_sku": 6356277,
-    "walmart_sku": 431501281
+    "walmart_sku": 431501281,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-7-3700x.html"
   }
 }

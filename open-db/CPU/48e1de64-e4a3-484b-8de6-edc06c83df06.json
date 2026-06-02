@@ -2,45 +2,58 @@
   "opendb_id": "48e1de64-e4a3-484b-8de6-edc06c83df06",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.5,
       "boost": 5.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 16,
-    "l3": 64
+    "l2": 1,
+    "l3": 64,
+    "l1": "64KB (per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "maxSupport": 192,
+      "channels": 2
     },
     "tdp": 170,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 230
   },
   "metadata": {
-    "name": "AMD EPYC 4564P 4.5 GHz 16-Core AM5",
+    "name": "AMD EPYC 4564P",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001476WOF", "100-000000790"],
-    "series": "AMD EPYC"
+    "series": "EPYC 4564P",
+    "variant": "4564P",
+    "releaseYear": 2024
   },
-  "series": "AMD EPYC",
+  "series": "EPYC 4000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
   "general_product_information": {
-    "newegg_sku": "N82E16819113829"
+    "newegg_sku": "N82E16819113829",
+    "manufacturer_url": "https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4564p.html"
   }
 }

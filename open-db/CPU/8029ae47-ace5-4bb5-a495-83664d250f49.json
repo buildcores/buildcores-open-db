@@ -2,46 +2,60 @@
   "opendb_id": "8029ae47-ace5-4bb5-a495-83664d250f49",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.2,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "64KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 530"
+      "model": "Intel HD Graphics 530",
+      "baseClock": 350,
+      "boostClock": 1.05,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 6500 3.2 GHz 4-Core LGA1151",
+    "name": "Intel Core i5 6500",
     "manufacturer": "Intel",
     "part_numbers": ["BX80662I56500", "1357826"],
-    "series": "Intel Core i5"
+    "series": "Core i5 65000",
+    "variant": "6500",
+    "releaseYear": 2015
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 6000",
   "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-S",
+  "coreFamily": "Skylake",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B010T6CWI2",
-    "walmart_sku": 47087385
+    "walmart_sku": 47087385,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/88184/intel-core-i56500-processor-6m-cache-up-to-3-60-ghz/specifications.html"
   }
 }
