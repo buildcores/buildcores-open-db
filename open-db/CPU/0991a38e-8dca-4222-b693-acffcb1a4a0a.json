@@ -2,22 +2,31 @@
   "opendb_id": "0991a38e-8dca-4222-b693-acffcb1a4a0a",
   "cores": {
     "total": 64,
-    "threads": 128
+    "threads": 128,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.2,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": " 5120 KB",
     "l2": 64,
-    "l3": 256
+    "l3": 256,
+    "l1": "96 x 80 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "types": ["DDR5"],
@@ -29,17 +38,18 @@
     "packaging": "Boxed",
     "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true,
-    "includesCooler": false
+    "includesCooler": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen Threadripper PRO 9985WX",
+    "name": "AMD Ryzen Threadripper 9985WX",
     "manufacturer": "AMD",
     "part_numbers": ["AMD Ryzen Threadripper PRO 9985WX", "100-100000722WOF"],
-    "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
-    "variant": "Pro 9985WX",
+    "series": "Ryzen Threadripper 9000",
+    "variant": "9985WX",
     "releaseYear": 2025
   },
-  "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
+  "series": "Ryzen Threadripper PRO 9000",
   "microarchitecture": "Zen 5",
   "coreFamily": "Shimada Peak",
   "socket": "sTR5",

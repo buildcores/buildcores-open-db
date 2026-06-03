@@ -2,41 +2,54 @@
   "opendb_id": "ab4fadad-e3a1-41ff-82fd-e16e5af8a324",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
-      "base": 3.6,
+      "base": 3.8,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "64KB per core (32KB Instruction + 32KB Data)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 7700 3.6 GHz 8-Core AM5",
+    "name": "AMD Ryzen 7 7700",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000592BOX", "100-00000592BOX"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 7000",
+    "variant": "7700",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0BMQHSCVF",
     "newegg_sku": "N82E16819113786",
     "bestbuy_sku": 6530447,
-    "walmart_sku": 2207938977
+    "walmart_sku": 2207938977,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html"
   }
 }

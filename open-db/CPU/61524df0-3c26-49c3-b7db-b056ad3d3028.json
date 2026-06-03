@@ -2,7 +2,9 @@
   "opendb_id": "61524df0-3c26-49c3-b7db-b056ad3d3028",
   "cores": {
     "total": 14,
-    "threads": 20
+    "threads": 20,
+    "performance": 6,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,37 +18,46 @@
   },
   "cache": {
     "l2": 20,
-    "l3": 24
+    "l3": 24,
+    "l1": "6 x 80 KB + 8 x 96 KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1550,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 181
   },
   "metadata": {
-    "name": "Intel Core i5 14600K 3.5 GHz 14-Core LGA1700",
+    "name": "Intel Core i5 14600K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514600K"],
-    "series": "Intel Core i5"
+    "series": "Core i5 14000",
+    "variant": "14600K",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "series": "Core i5 14000",
+  "microarchitecture": "Raptor Lake",
+  "coreFamily": "Raptor Lake-R",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CGJ9STNF",
     "newegg_sku": "N82E16819118470",
     "bestbuy_sku": 6560423,
-    "walmart_sku": 5117652215
+    "walmart_sku": 5117652215,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236799/intel-core-i5-processor-14600k-24m-cache-up-to-5-30-ghz/specifications.html"
   }
 }

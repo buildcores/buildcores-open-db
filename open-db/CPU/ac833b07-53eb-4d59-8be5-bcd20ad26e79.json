@@ -2,47 +2,60 @@
   "opendb_id": "ac833b07-53eb-4d59-8be5-bcd20ad26e79",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.3,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 16
+    "l3": 16,
+    "l1": "64KB per core (32KB Instruction + 48KB Data)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon 760M"
+      "model": "AMD Radeon 760M",
+      "boostClock": 2800,
+      "shaderCount": 512
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 8600G 4.3 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 8600G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001237BOX", "AMD Ryzen™ 5 8600G", "Ryzen 5 8600G"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 8000",
+    "variant": "8600G",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 8000",
   "microarchitecture": "Zen 4",
-  "coreFamily": "Phoenix 1",
+  "coreFamily": "Phoenix",
   "socket": "AM5",
   "general_product_information": {
     "amazon_sku": "B0CQ4GYTTX",
     "newegg_sku": "N82E16819113814",
-    "walmart_sku": 5295336778
+    "walmart_sku": 5295336778,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8600g.html"
   }
 }

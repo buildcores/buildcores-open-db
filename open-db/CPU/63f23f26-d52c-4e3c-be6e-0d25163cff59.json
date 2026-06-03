@@ -2,41 +2,54 @@
   "opendb_id": "63f23f26-d52c-4e3c-be6e-0d25163cff59",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.5,
       "boost": 5.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 64
+    "l3": 64,
+    "l1": "32 KB L1I + 32 KB L1D per core (1 MB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "boostClock": 2200,
+      "baseClock": 400,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 170,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 230
   },
   "metadata": {
-    "name": "AMD Ryzen 9 7950X 4.5 GHz 16-Core AM5",
+    "name": "AMD Ryzen 9 7950X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000514WOF", "RYZEN 9 7950X"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 7000",
+    "variant": "7950X",
+    "releaseYear": 2022
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0BBHD5D8Y",
     "newegg_sku": "N82E16819113771",
     "bestbuy_sku": 6519470,
-    "walmart_sku": 1356361247
+    "walmart_sku": 1356361247,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html"
   }
 }

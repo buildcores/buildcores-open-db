@@ -3,7 +3,8 @@
   "cores": {
     "total": 32,
     "efficiency": 0,
-    "threads": 64
+    "threads": 64,
+    "performance": 0
   },
   "clocks": {
     "performance": {
@@ -11,14 +12,14 @@
       "boost": 5.3
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "2048 KB",
     "l2": 32,
-    "l3": 128
+    "l3": 128,
+    "l1": "64KB (32KB I + 32KB D)"
   },
   "specifications": {
     "integratedGraphics": {
@@ -37,14 +38,15 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "simultaneousMultithreading": true,
-    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET"
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 7970X",
     "part_numbers": ["100-100001351WOF"],
     "releaseYear": 2023,
     "manufacturer": "AMD",
-    "series": "Ryzen Threadripper 7000 Series",
+    "series": "Threadripper 7000",
     "variant": "7970X"
   },
   "series": "Ryzen Threadripper 7000 Series",

@@ -2,41 +2,54 @@
   "opendb_id": "78196eaf-6ffa-4232-976b-c50e0680157e",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.4,
       "boost": 5.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 128
+    "l3": 128,
+    "l1": "64 KB (32 KB Instruction + 32 KB Data)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "boostClock": 2200,
+      "baseClock": 400,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 162
   },
   "metadata": {
-    "name": "AMD Ryzen 9 7900X3D 4.4 GHz 12-Core AM5",
+    "name": "AMD Ryzen 9 7900X3D",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000909WOF", "AMD Ryzen 9 7900X3D"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 7000",
+    "variant": "7900X3D",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0BTRRNK7T",
     "newegg_sku": "N82E16819113792",
     "bestbuy_sku": 6537140,
-    "walmart_sku": 2475644842
+    "walmart_sku": 2475644842,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x3d.html"
   }
 }
