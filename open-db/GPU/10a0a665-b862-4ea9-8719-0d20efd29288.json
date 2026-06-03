@@ -1,19 +1,39 @@
 {
   "opendb_id": "10a0a665-b862-4ea9-8719-0d20efd29288",
   "power_connectors": {
-    "pcie_12V_2x6": 1
+    "pcie_12V_2x6": 1,
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0
   },
   "video_outputs": {
     "hdmi_2_1b": 1,
-    "displayport_2_1_b": 3
+    "displayport_2_1_b": 3,
+    "hdmi_2_2": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "usb_c": 0,
+    "vga": 0,
+    "dvi_d": 0
   },
   "metadata": {
-    "name": "MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT VOID EDITION OC",
+    "name": "MSI GeForce RTX 5070 12G World of Warcraft MIDNIGHT VOID EDITION OC GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": ["G507012WMVEC", "RTX 5070 12G WOW MIDNIGHT VOID OC"],
-    "series": "GeForce RTX 5070",
-    "variant": "World of Warcraft MIDNIGHT VOID EDITION OC 12GB",
+    "part_numbers": [
+      "G507012WMVEC",
+      "RTX 5070 12G WOW MIDNIGHT VOID OC",
+      "GeForce RTX 5070 12G World of Warcraft MIDNIGHT VOID EDITION OC"
+    ],
+    "series": "World of Warcraft MIDNIGHT VOID EDITION",
+    "variant": "OC",
     "releaseYear": 2026,
+    "manufacturer_color": "Purple",
     "last_manually_spec_verified_at": "2026-04-01T13:09:01.884Z"
   },
   "color": ["BLACK", "PURPLE"],
@@ -32,8 +52,8 @@
   "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
-  "core_boost_clock": 2625,
-  "lighting": [],
+  "core_boost_clock": 2610,
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0GNCD2VW6",
     "newegg_sku": "N82E16814982004",

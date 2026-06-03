@@ -2,7 +2,9 @@
   "opendb_id": "ed3c1bda-9520-40b5-bb05-e7e44ae7bfc1",
   "cores": {
     "total": 14,
-    "threads": 20
+    "threads": 20,
+    "performance": 6,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 20,
-    "l3": 24
+    "l3": 24,
+    "l1": "80KB per P-core, 96KB per E-core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1.5,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 181
   },
   "metadata": {
-    "name": "Intel Core i5 13600K 3.5 GHz 14-Core LGA1700",
+    "name": "Intel Core i5 13600K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513600K", "i5-13600K"],
-    "series": "Intel Core i5"
+    "series": "Core i5 13000",
+    "variant": "13600K",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BCDR9M33",
     "bestbuy_sku": 6521196,
-    "walmart_sku": 1768427646
+    "walmart_sku": 1768427646,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230493/intel-core-i513600k-processor-24m-cache-up-to-5-10-ghz/specifications.html"
   }
 }

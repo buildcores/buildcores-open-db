@@ -2,47 +2,61 @@
   "opendb_id": "fe3d12e9-87eb-4701-8579-5c29d61437c6",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.2,
       "boost": 5.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 16
+    "l3": 16,
+    "l1": "32 KB instruction + 32 KB data per core (64 KB L1 per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon 780M"
+      "model": "AMD Radeon 780M",
+      "boostClock": 2900,
+      "baseClock": 0,
+      "shaderCount": 768
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 8700G 4.2 GHz 8-Core AM5",
+    "name": "AMD Ryzen 7 8700G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001236BOX", "AMD Ryzen™ 7 8700G", "Ryzen 7 8700G"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 8000",
+    "variant": "8700G",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 8000",
   "microarchitecture": "Zen 4",
-  "coreFamily": "Phoenix 1",
+  "coreFamily": "Phoenix",
   "socket": "AM5",
   "general_product_information": {
     "amazon_sku": "B0CQ4JBKW3",
     "newegg_sku": "N82E16819113811",
-    "walmart_sku": 5293078784
+    "walmart_sku": 5293078784,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700g.html"
   }
 }

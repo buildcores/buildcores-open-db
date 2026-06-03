@@ -1,18 +1,20 @@
 {
   "opendb_id": "553f2e65-95ac-4c27-a05a-ab52630b329a",
   "metadata": {
-    "name": "ARCTIC P14 Pro 140mm Black PWM Addressable RGB 110 CFM",
+    "name": "ARCTIC P14 Pro 140mm Black ARGB",
     "manufacturer": "ARCTIC",
     "part_numbers": ["ACFAN00315A"],
     "series": "P14",
-    "variant": "140mm Black"
+    "variant": "140mm Black",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "size": 140,
-  "color": ["BLACK"],
+  "color": ["BLACK", "RGB"],
   "quantity": 1,
   "min_airflow": 110,
   "max_airflow": null,
-  "min_noise_level": null,
+  "min_noise_level": 25,
   "max_noise_level": null,
   "pwm": true,
   "led": "Addressable RGB",
@@ -21,9 +23,10 @@
   "static_pressure": 5.2,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DPX47W44",
-    "walmart_sku": 17661521157
+    "walmart_sku": 17661521157,
+    "manufacturer_url": "https://www.arctic.de/en/P14-Pro/ACFAN00313A"
   }
 }

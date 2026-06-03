@@ -54,7 +54,7 @@
       }
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes exterior and interior colors",
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Includes exterior and interior colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -75,6 +75,14 @@
         ]
       }
     },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
+      }
+    },
     "power_supply": {
       "description": "If included with the case, could detail the PSU model.",
       "type": ["string", "null"]
@@ -87,7 +95,8 @@
       "description": "The PSU form factors that the case can support.",
       "type": ["array", "null"],
       "items": {
-        "type": "string"
+        "type": "string",
+        "enum": ["ATX", "SFX", "SFX-L", "TFX", "Flex ATX", "Mini-ITX", "ATX/EPS"]
       }
     },
     "side_panel": {

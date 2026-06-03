@@ -2,7 +2,9 @@
   "opendb_id": "c2900762-11b6-49bc-a728-566b56db3638",
   "cores": {
     "total": 20,
-    "threads": 28
+    "threads": 28,
+    "performance": 8,
+    "efficiency": 12
   },
   "clocks": {
     "performance": {
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 28,
-    "l3": 33
+    "l3": 33,
+    "l1": "80 KB per core (48 KB data + 32 KB instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
-    "name": "Intel Core i7 14700F 2.1 GHz 20-Core LGA1700",
+    "name": "Intel Core i7 14700F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514700F"],
-    "series": "Intel Core i7"
+    "series": "Core i7 14000",
+    "variant": "14700F",
+    "releaseYear": 2024
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 14000",
   "microarchitecture": "Raptor Lake Refresh",
   "coreFamily": "Raptor Lake Refresh",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ1P2TRN",
     "newegg_sku": "N82E16819118487",
-    "walmart_sku": 5266285745
+    "walmart_sku": 5266285745,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236854/intel-core-i7-processor-14700f-33m-cache-up-to-5-40-ghz/specifications.html"
   }
 }

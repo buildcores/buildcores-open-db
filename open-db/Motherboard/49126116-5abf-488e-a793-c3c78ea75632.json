@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,23 +17,44 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_opt": 1,
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus B550 PRIME M-A AC AM4 DDR4 Micro ATX",
+    "name": "ASUS PRIME B550M-A AC",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B550M-A AC", "B550M-A AC"],
-    "series": "B550",
-    "variant": ""
+    "part_numbers": ["PRIME B550M-A AC"],
+    "series": "PRIME",
+    "variant": "B550M-A AC",
+    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2021
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -43,57 +64,52 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abaf75ef0cf5df014290"
+      "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3abaf75ef0cf5df014291"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abaf75ef0cf5df014292"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abaf75ef0cf5df014293"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abaf75ef0cf5df014294"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abaf75ef0cf5df014295"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H",
-      "_id": "69b3abaf75ef0cf5df014296"
+      "controller": "Realtek RTL8111H"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek RTL8111H)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "1 x D-Sub port",
+    "1 x DVI-D port",
+    "1 x HDMI port",
+    "1 x ASUS Wi-Fi Module",
+    "1 x Realtek RTL8111H 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wi-Fi 5 Bluetooth v5.0",
   "general_product_information": {
     "amazon_sku": "B07VHJ34W7",
     "newegg_sku": "N82E16813119492",
-    "walmart_sku": 573909318
+    "walmart_sku": 573909318,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550m-a-ac/"
   }
 }

@@ -2,8 +2,8 @@
   "opendb_id": "6cac8d9c-b7e4-4ad4-a06d-ecb5c06220a4",
   "cores": {
     "total": 24,
-    "performance": 24,
-    "efficiency": null,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 48
   },
   "clocks": {
@@ -12,12 +12,12 @@
       "boost": 5.3
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l1": null,
+    "l1": "1536 KB",
     "l2": 24,
     "l3": 128
   },
@@ -29,7 +29,7 @@
       "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 2,
+      "maxSupport": 1024,
       "types": ["DDR5"],
       "channels": 4
     },
@@ -43,15 +43,19 @@
   "metadata": {
     "name": "AMD Ryzen Threadripper 7960X",
     "part_numbers": ["AMD Ryzen™ Threadripper™ 7960X", "100-100001352WOF"],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "series": "Threadripper 7000",
+    "variant": "7960X",
+    "manufacturer": "AMD"
   },
-  "series": "Ryzen Threadripper 7000 Series",
+  "series": "Ryzen Threadripper 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Storm Peak",
   "socket": "sTR5",
   "general_product_information": {
     "amazon_sku": "B0CK2VGBSQ",
     "newegg_sku": "N82E16819113804",
-    "walmart_sku": 5221773652
+    "walmart_sku": 5221773652,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-7000-series/amd-ryzen-threadripper-7960x.html"
   }
 }

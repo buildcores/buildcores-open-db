@@ -2,22 +2,31 @@
   "opendb_id": "e36d7473-1150-4097-a96b-3dfd5837ce75",
   "cores": {
     "total": 32,
-    "threads": 64
+    "threads": 64,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "2560 KB",
+    "l1": "2560",
     "l2": 32,
     "l3": 128
   },
   "specifications": {
     "integratedGraphics": {
-      "model": null
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "types": ["DDR5"],
@@ -29,16 +38,18 @@
     "packaging": "Boxed",
     "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true,
-    "includesCooler": false
+    "includesCooler": false,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 9975WX",
     "manufacturer": "AMD",
     "part_numbers": ["Ryzen Threadripper PRO 9975WX", "100-100000723WOF"],
-    "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
-    "variant": "PRO 9975WX"
+    "series": "Threadripper 9000",
+    "variant": "9975WX",
+    "releaseYear": 2025
   },
-  "series": "AMD Ryzen Threadripper PRO 9000 WX-Series",
+  "series": "Ryzen Threadripper PRO 9000",
   "microarchitecture": "Zen 5",
   "coreFamily": "Shimada Peak",
   "socket": "sTR5",

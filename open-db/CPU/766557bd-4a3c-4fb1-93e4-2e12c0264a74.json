@@ -2,47 +2,61 @@
   "opendb_id": "766557bd-4a3c-4fb1-93e4-2e12c0264a74",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "64KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 10400F 2.9 GHz 6-Core LGA1200",
+    "name": "Intel Core i5 10400F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110400F", "Intel Core i5-10400F"],
-    "series": "Intel Core i5"
+    "series": "Core i5 10000",
+    "variant": "10400F",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B086MHSTWN",
     "newegg_sku": "9SIA2W0CA71027",
-    "walmart_sku": 410278714
+    "walmart_sku": 410278714,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199278/intel-core-i510400f-processor-12m-cache-up-to-4-30-ghz/specifications.html"
   }
 }

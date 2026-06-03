@@ -2,47 +2,61 @@
   "opendb_id": "d4f192f2-115a-4821-9510-369615c4b0a4",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 99
+    "l3": 16,
+    "l1": "576"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 2600 3.4 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 2600",
     "manufacturer": "AMD",
     "part_numbers": ["YD2600BBAFBOX"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 2000",
+    "variant": "2600",
+    "releaseYear": 2018
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Pinnacle Ridge",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B07B41WS48",
     "newegg_sku": "9SIA4REJUA8709",
-    "walmart_sku": 312473574
+    "walmart_sku": 312473574,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-5-2600.html"
   }
 }

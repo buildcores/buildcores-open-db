@@ -2,7 +2,9 @@
   "opendb_id": "c14d84a3-7c13-4611-a367-7e034693266f",
   "cores": {
     "total": 10,
-    "threads": 16
+    "threads": 16,
+    "performance": 6,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
@@ -15,38 +17,47 @@
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 9.5,
+    "l3": 20,
+    "l1": "864 KB (6 x 80 KB + 4 x 96 KB)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1.45,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 150
   },
   "metadata": {
-    "name": "Intel Core i5 12600K 3.7 GHz 10-Core LGA1700",
+    "name": "Intel Core i5 12600K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512600K"],
-    "series": "Intel Core i5"
+    "series": "Core i5 12000",
+    "variant": "12600K",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09FX4D72T",
     "newegg_sku": "N82E16819118347",
     "bestbuy_sku": 6483676,
-    "walmart_sku": 627027412
+    "walmart_sku": 627027412,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz/specifications.html"
   }
 }

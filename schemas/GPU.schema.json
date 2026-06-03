@@ -119,6 +119,14 @@
         ]
       }
     },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
+      }
+    },
     "length": {
       "description": "The length of the graphics card in mm",
       "type": ["number", "null"]
@@ -188,6 +196,14 @@
         },
         "hdmi_2_0": {
           "description": "Number of HDMI 2.0 ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_0a": {
+          "description": "Number of HDMI 2.0a ports",
+          "type": ["number", "null"]
+        },
+        "hdmi_2_0b": {
+          "description": "Number of HDMI 2.0b ports",
           "type": ["number", "null"]
         },
         "displayport_2_1": {

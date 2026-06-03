@@ -2,7 +2,9 @@
   "opendb_id": "af402682-92b0-4c17-9228-19b9b5c6dcdd",
   "cores": {
     "total": 10,
-    "threads": 16
+    "threads": 16,
+    "performance": 6,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
@@ -15,37 +17,46 @@
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 9.5,
+    "l3": 20,
+    "l1": "80KB per P-core, 96KB per E-core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 730"
+      "model": "Intel UHD Graphics 730",
+      "boostClock": 1.55,
+      "baseClock": 300,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "10 nm",
+    "simultaneousMultithreading": true,
+    "ppt": 148
   },
   "metadata": {
-    "name": "Intel Core i5 14400 2.5 GHz 10-Core LGA1700",
+    "name": "Intel Core i5 14400",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514400", "14400"],
-    "series": "Intel Core i5"
+    "series": "Core i5 14000",
+    "variant": "14400",
+    "releaseYear": 2024
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 14000",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Lake-R",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ1M1YXM",
     "newegg_sku": "N82E16819118480",
-    "walmart_sku": 5319158082
+    "walmart_sku": 5319158082,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html"
   }
 }

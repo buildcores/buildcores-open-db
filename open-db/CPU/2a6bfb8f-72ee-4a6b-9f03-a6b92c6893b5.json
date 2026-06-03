@@ -2,7 +2,9 @@
   "opendb_id": "2a6bfb8f-72ee-4a6b-9f03-a6b92c6893b5",
   "cores": {
     "total": 10,
-    "threads": 10
+    "threads": 10,
+    "performance": 6,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 22,
-    "l3": 20
+    "l3": 20,
+    "l1": "192KB per P-core, 96KB per E-core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 256,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "3 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 121
   },
   "metadata": {
-    "name": "Intel Core Ultra 5 225F 3.3 GHz 10-Core LGA1851",
+    "name": "Intel Core Ultra 5 225F",
     "manufacturer": "Intel",
     "part_numbers": ["BX80768225F"],
-    "series": "Intel Core Ultra 5"
+    "series": "Core Ultra 5 200",
+    "variant": "225F",
+    "releaseYear": 2025
   },
-  "series": "Intel Core Ultra 5",
+  "series": "Core Ultra 5 200",
   "microarchitecture": "Arrow Lake",
-  "coreFamily": "Arrow Lake",
+  "coreFamily": "Arrow Lake-S",
   "socket": "LGA 1851",
   "general_product_information": {
     "amazon_sku": "B0DTRMDXJ5",
     "newegg_sku": "N82E16819118578",
-    "walmart_sku": 15171450058
+    "walmart_sku": 15171450058,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html"
   }
 }

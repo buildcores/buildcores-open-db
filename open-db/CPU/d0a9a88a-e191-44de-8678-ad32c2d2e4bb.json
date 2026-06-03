@@ -2,41 +2,53 @@
   "opendb_id": "d0a9a88a-e191-44de-8678-ad32c2d2e4bb",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 16
+    "l3": 16,
+    "l1": "384KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 7"
+      "model": "AMD Radeon Vega 7",
+      "baseClock": 1900,
+      "shaderCount": 448
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5500GT 3.6 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 5500GT",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001489BOX", "AMD Ryzen™ 5 5500GT", "Ryzen 5 5500GT"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "variant": "5500GT",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Cezanne",
   "socket": "AM4",
@@ -44,6 +56,7 @@
     "amazon_sku": "B0CQ4H1B5B",
     "newegg_sku": "N82E16819113817",
     "bestbuy_sku": 6573564,
-    "walmart_sku": 5367159112
+    "walmart_sku": 5367159112,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html"
   }
 }

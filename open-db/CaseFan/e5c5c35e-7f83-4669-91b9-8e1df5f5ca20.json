@@ -1,27 +1,30 @@
 {
   "opendb_id": "e5c5c35e-7f83-4669-91b9-8e1df5f5ca20",
   "metadata": {
-    "name": "Arctic P12 Pro Reverse ARGB White",
+    "name": "Arctic P12 Pro 120mm White ARGB Reverse Blade",
     "manufacturer": "ARCTIC",
     "series": "P12 Pro",
     "variant": "120mm Reverse White ARGB",
-    "part_numbers": ["ACFAN00325A", "4895265000706", "840033403375"]
+    "part_numbers": ["ACFAN00325A"],
+    "manufacturer_color": "White",
+    "releaseYear": 2025
   },
   "size": 120,
-  "color": ["WHITE"],
+  "color": ["WHITE", "RGB"],
   "quantity": 1,
   "pwm": true,
   "led": "Addressable RGB",
   "flow_direction": "Reverse",
-  "min_airflow": 0,
-  "max_airflow": 73,
+  "min_airflow": 73,
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
   "controller": "None",
   "static_pressure": 4.5,
   "isOEM": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
+  "min_noise_level": 25,
   "general_product_information": {
     "amazon_sku": "B0FJRZCHRL",
+    "newegg_sku": "9SIA2W0KKD4526",
     "walmart_sku": 19045270177,
     "manufacturer_url": "https://www.arctic.de/us/P12-Pro-Reverse-A-RGB-White/ACFAN00325A"
   }

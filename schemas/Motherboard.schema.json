@@ -124,6 +124,14 @@
         ]
       }
     },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
+      }
+    },
     "pcie_slots": {
       "description": "PCIe slots on the motherboard. E.g. a motherboard with 4 PCIe x16 slots, 2 PCIe x8 slots, and 1 PCIe x4 slot would be represented as an array with 3 objects. Be careful on this section and use all available info to make your decision including obvious pcie slots on the motherboard images if provided.",
       "type": ["array", "null"],

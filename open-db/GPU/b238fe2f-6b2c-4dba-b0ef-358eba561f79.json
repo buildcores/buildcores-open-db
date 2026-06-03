@@ -2,25 +2,27 @@
   "opendb_id": "b238fe2f-6b2c-4dba-b0ef-358eba561f79",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 2,
     "displayport_1_4a": 0,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "hdmi_2_1b": 1
   },
   "metadata": {
-    "name": "ASRock Challenger OC Radeon RX 9060 XT 8GB GDDR6 Black / Silver",
+    "name": "ASRock AMD Radeon RX 9060 XT Challenger 8GB OC",
     "manufacturer": "ASRock",
-    "part_numbers": ["RX9060XT CL 8GO", "90-GA5TZZ-00UANF"],
-    "series": "Radeon RX 9060 XT",
-    "variant": "ASRock"
+    "part_numbers": ["RX9060XT CL 8GO"],
+    "series": "Challenger",
+    "variant": "OC",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9060 XT 8 GB",
@@ -28,17 +30,22 @@
   "memory_type": "GDDR6",
   "core_base_clock": 2220,
   "core_boost_clock": 3290,
-  "effective_memory_clock": 0,
   "memory_bus": 128,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "color": ["BLACK", "GREY"],
   "length": 249,
   "tdp": 160,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "core_count": 2048,
-  "lighting": [],
+  "lighting": ["Fixed"],
+  "effective_memory_clock": 2518,
+  "case_expansion_slot_width": 2,
+  "frame_sync": "FreeSync",
   "general_product_information": {
-    "newegg_sku": "N82E16814930142"
+    "amazon_sku": "B0FBX7FB1T",
+    "newegg_sku": "N82E16814930142",
+    "walmart_sku": 17441004601,
+    "manufacturer_url": "https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209060%20XT%20Challenger%208GB%20OC/#Specification"
   }
 }

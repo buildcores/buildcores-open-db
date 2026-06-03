@@ -2,41 +2,54 @@
   "opendb_id": "d47b30db-de48-4806-95bb-f3ee27d254bf",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 4.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 64
+    "l3": 64,
+    "l1": "64KB"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 9 5950X 3.4 GHz 16-Core AM4",
+    "name": "AMD Ryzen 9 5950X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000059WOF", "AMD Ryzen 9 5950X"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 5000",
+    "variant": "5950X",
+    "releaseYear": 2020
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Vermeer",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0815Y8J9N",
     "newegg_sku": "N82E16819113663",
     "bestbuy_sku": 6438941,
-    "walmart_sku": 159710953
+    "walmart_sku": 159710953,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html"
   }
 }

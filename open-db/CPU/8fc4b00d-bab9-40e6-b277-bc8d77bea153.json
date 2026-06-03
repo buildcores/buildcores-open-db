@@ -2,42 +2,55 @@
   "opendb_id": "8fc4b00d-bab9-40e6-b277-bc8d77bea153",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "512 KB (8 x 64 KB)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 8"
+      "model": "AMD Radeon Vega 8",
+      "baseClock": 400,
+      "boostClock": 2000,
+      "shaderCount": 512
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 5700G 3.8 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 5700G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000263BOX", "AMD Ryzen 7 5700G"],
-    "series": "AMD Ryzen 7",
+    "series": "Ryzen 7 5000",
+    "variant": "5700G",
+    "releaseYear": 2021,
     "last_manually_spec_verified_at": "2025-05-05T01:21:53.921Z"
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Cezanne",
   "socket": "AM4",
@@ -45,6 +58,7 @@
     "amazon_sku": "B091J3NYVF",
     "newegg_sku": "N82E16819113682",
     "bestbuy_sku": 6474406,
-    "walmart_sku": 981199214
+    "walmart_sku": 981199214,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html"
   }
 }

@@ -2,47 +2,61 @@
   "opendb_id": "1380a6eb-8357-4ce2-be1c-190fa045a108",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 8
+    "l3": 8,
+    "l1": "384"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 7"
+      "model": "AMD Radeon Vega 7",
+      "baseClock": 1900,
+      "boostClock": 2100,
+      "shaderCount": 448
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 4600G 3.7 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 4600G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000147BOX", "AMD Ryzen 5 4600G"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 4000",
+    "variant": "4600G",
+    "releaseYear": 2020
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 4000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Renoir",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B09Z5NH6SJ",
     "newegg_sku": "N82E16819113744",
-    "walmart_sku": 305446027
+    "walmart_sku": 305446027,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html"
   }
 }
