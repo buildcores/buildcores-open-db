@@ -2,47 +2,61 @@
   "opendb_id": "cf60f167-fee9-48fc-a3c3-91a1c3af275e",
   "cores": {
     "total": 64,
-    "performance": 64,
-    "threads": 128
+    "performance": 0,
+    "threads": 128,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 32,
-    "l3": 256
+    "l3": 256,
+    "l1": "32 KB instruction + 32 KB data per core (64 KB L1 per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 1024,
-      "types": []
+      "maxSupport": 256,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 280,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 280
   },
   "metadata": {
-    "name": "AMD Threadripper 3990X 2.9 GHz 64-Core sTRX4",
+    "name": "AMD Ryzen Threadripper 3990X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000163WOF", "AMD Ryzen Threadripper 3990X"],
-    "series": "AMD Threadripper"
+    "series": "Threadripper 3000",
+    "variant": "3990X",
+    "releaseYear": 2020
   },
-  "series": "AMD Threadripper",
+  "series": "Ryzen Threadripper 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Castle Peak",
   "socket": "sTRX4",
   "general_product_information": {
     "amazon_sku": "B0815SBQ9W",
     "newegg_sku": "N82E16819113620",
-    "bestbuy_sku": 6404153
+    "bestbuy_sku": 6404153,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-3000-series/amd-ryzen-threadripper-3990x.html"
   }
 }
