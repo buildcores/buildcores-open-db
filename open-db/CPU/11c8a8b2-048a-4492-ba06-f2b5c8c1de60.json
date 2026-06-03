@@ -2,47 +2,61 @@
   "opendb_id": "11c8a8b2-048a-4492-ba06-f2b5c8c1de60",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "threads": 8,
+    "efficiency": 0,
+    "performance": 4
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 12
+    "l3": 12,
+    "l1": "80KB (32KB I + 48KB D) per core"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 58,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 89
   },
   "metadata": {
-    "name": "Intel Core i3 12100F 3.3 GHz 4-Core LGA1700",
+    "name": "Intel Core i3 12100F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512100F", "i3-12100F", "BX8071513100F"],
-    "series": "Intel Core i3"
+    "series": "Core i3 12000",
+    "variant": "12100F",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 12100",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09NPJX7PV",
     "newegg_sku": "N82E16819118357",
-    "walmart_sku": 876549698
+    "walmart_sku": 876549698,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/132223/intel-core-i312100f-processor-12m-cache-up-to-4-30-ghz/specifications.html"
   }
 }
