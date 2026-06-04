@@ -2,41 +2,54 @@
   "opendb_id": "eda463d1-d4b6-4f1a-96dd-0416efe84381",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "threads": 24,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.7,
       "boost": 5.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 64
+    "l3": 64,
+    "l1": "12 × 64 KB (32 KB Instruction + 32 KB Data)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 170,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 230
   },
   "metadata": {
-    "name": "AMD Ryzen 9 7900X 4.7 GHz 12-Core AM5",
+    "name": "AMD Ryzen 9 7900X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000589WOF", "RYZEN 9 7900X"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 7000",
+    "variant": "7900X",
+    "releaseYear": 2022
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0BBJ59WJ4",
     "newegg_sku": "N82E16819113769",
     "bestbuy_sku": 6519473,
-    "walmart_sku": 1679137132
+    "walmart_sku": 1679137132,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html"
   }
 }

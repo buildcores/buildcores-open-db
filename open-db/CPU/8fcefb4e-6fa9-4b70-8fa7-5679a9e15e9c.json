@@ -2,41 +2,54 @@
   "opendb_id": "8fcefb4e-6fa9-4b70-8fa7-5679a9e15e9c",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.4,
       "boost": 5.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 128
+    "l3": 128,
+    "l1": "12 × 64 KB (32 KB I-cache + 32 KB D-cache)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 230
   },
   "metadata": {
-    "name": "AMD Ryzen 9 9900X3D 4.4 GHz 12-Core AM5",
+    "name": "AMD Ryzen 9 9900X3D",
     "manufacturer": "AMD",
     "part_numbers": ["100-1000001368WOF", "AMD-Ryzen-9-9900X3D", "100-100001368WOF"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 9000",
+    "variant": "9900X3D",
+    "releaseYear": 2025
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 9000",
   "microarchitecture": "Zen 5",
   "coreFamily": "Granite Ridge",
   "socket": "AM5",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0DWGWN8GY",
     "newegg_sku": "N82E16819113886",
     "bestbuy_sku": 6621940,
-    "walmart_sku": 15487369763
+    "walmart_sku": 15487369763,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x3d.html"
   }
 }

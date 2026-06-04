@@ -2,47 +2,61 @@
   "opendb_id": "38cf0049-8c6a-417d-afd5-292d384ca632",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.1,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB (32 KB I-cache + 32 KB D-cache)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 256,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "4 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 4nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 8700F 4.1 GHz 8-Core AM5",
+    "name": "AMD Ryzen 7 8700F",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001590BOX", "AMD Ryzen™ 7 8700F"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 8000",
+    "variant": "8700F",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 8000",
   "microarchitecture": "Zen 4",
-  "coreFamily": "Phoenix 1",
+  "coreFamily": "Phoenix",
   "socket": "AM5",
   "general_product_information": {
     "amazon_sku": "B0D2JCMP34",
     "newegg_sku": "N82E16819113825",
-    "walmart_sku": 5636113510
+    "walmart_sku": 5636113510,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html"
   }
 }
