@@ -19,11 +19,14 @@
   "cache": {
     "l2": 9.5,
     "l3": 20,
-    "l1": "80KB per P-core, 96KB per E-core cluster"
+    "l1": "6 × 80 KB + 4 × 96 KB (L1 per-core totals)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": null
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 192,
@@ -39,16 +42,16 @@
     "ppt": 148
   },
   "metadata": {
-    "name": "Intel Core i5 14400F 2.5 GHz 10-Core LGA1700",
+    "name": "Intel Core i5 14400F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514400F", "14400F"],
-    "series": "Intel Core i5 14000",
+    "series": "Core i5 14000",
     "variant": "14400F",
     "releaseYear": 2024
   },
   "series": "Core i5 14000",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Cove",
+  "coreFamily": "Raptor Cove / Gracemont",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ1Y7KHV",

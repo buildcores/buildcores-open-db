@@ -2,41 +2,54 @@
   "opendb_id": "bf36a706-491a-45e8-ba4a-8529d3ef91e9",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 16
+    "l3": 16,
+    "l1": "384 KB (6 x 32 KB I-Cache + 6 x 32 KB D-Cache)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5500 3.6 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 5500",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000457BOX", "AMD Ryzen 5 5500"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "variant": "5500",
+    "releaseYear": 2022
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Cezanne",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B09VCJ171S",
     "newegg_sku": "N82E16819113737",
     "bestbuy_sku": 6510779,
-    "walmart_sku": 222589536
+    "walmart_sku": 222589536,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html"
   }
 }

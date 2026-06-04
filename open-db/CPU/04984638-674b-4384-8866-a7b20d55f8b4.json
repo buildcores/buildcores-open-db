@@ -2,41 +2,54 @@
   "opendb_id": "04984638-674b-4384-8866-a7b20d55f8b4",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 32
+    "l3": 32,
+    "l1": "64KB per core (32KB Instruction + 48KB Data)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5600 3.5 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 5600",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000927BOX", "AMD Ryzen 5 5600"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "variant": "5600",
+    "releaseYear": 2022
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Vermeer",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B09VCHR1VH",
     "newegg_sku": "N82E16819113736",
     "bestbuy_sku": 6510772,
-    "walmart_sku": 330013066
+    "walmart_sku": 330013066,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html"
   }
 }
