@@ -2,9 +2,9 @@
   "opendb_id": "6b03b443-7b22-491c-b301-7e2a285359df",
   "cores": {
     "total": 6,
-    "performance": null,
+    "performance": 0,
     "threads": 12,
-    "efficiency": null
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
@@ -12,14 +12,14 @@
       "boost": 5.1
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
     "l3": 32,
-    "l1": "384 KB"
+    "l1": "6 × 64 KB (32 KB I-cache + 32 KB D-cache)"
   },
   "specifications": {
     "integratedGraphics": {
@@ -42,7 +42,7 @@
     "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 7600 3.8 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 7600",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001015BOX", "100-00001015BOX"],
     "series": "AMD Ryzen 5 7000",

@@ -2,41 +2,54 @@
   "opendb_id": "8f4be642-fc35-4ec2-aa3d-e06c5eb21b10",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 32
+    "l3": 32,
+    "l1": "8 × 64 KB (32 KB I-cache + 32 KB D-cache)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 7 5800X 3.8 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 5800X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000063WOF", "AMD Ryzen 7 5800X"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 5000",
+    "variant": "5800X",
+    "releaseYear": 2020
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Vermeer",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0815XFSGK",
     "newegg_sku": "N82E16819113665",
     "bestbuy_sku": 6439000,
-    "walmart_sku": 950625545
+    "walmart_sku": 950625545,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-7-5800x.html"
   }
 }

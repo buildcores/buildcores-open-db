@@ -3,8 +3,8 @@
   "cores": {
     "total": 6,
     "threads": 12,
-    "efficiency": null,
-    "performance": null
+    "efficiency": 0,
+    "performance": 6
   },
   "clocks": {
     "performance": {
@@ -12,18 +12,21 @@
       "boost": 4.4
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 7.5,
     "l3": 18,
-    "l1": "80KB per core"
+    "l1": "6 × 80 KB (L1 per-core total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": null
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
@@ -39,10 +42,10 @@
     "ppt": 117
   },
   "metadata": {
-    "name": "Intel Core i5 12400F 2.5 GHz 6-Core LGA1700",
+    "name": "Intel Core i5 12400F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512400F", "i5-12400F", "BX8071512400"],
-    "series": "Intel Core i5 12000",
+    "series": "Core i5 12000",
     "variant": "12400F",
     "releaseYear": 2022
   },

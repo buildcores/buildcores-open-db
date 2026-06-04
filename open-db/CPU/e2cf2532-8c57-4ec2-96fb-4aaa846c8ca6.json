@@ -19,14 +19,14 @@
   "cache": {
     "l2": 40,
     "l3": 36,
-    "l1": "192 KB per core"
+    "l1": "8 × 80 KB + 16 × 64 KB (L1 per-core totals)"
   },
   "specifications": {
     "integratedGraphics": {
       "model": "Intel Graphics",
       "baseClock": 300,
       "boostClock": 2000,
-      "shaderCount": 4
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 256,
@@ -42,10 +42,10 @@
     "ppt": 250
   },
   "metadata": {
-    "name": "Intel Core Ultra 9 285K 3.7 GHz 24-Core LGA1851",
+    "name": "Intel Core Ultra 9 285K",
     "manufacturer": "Intel",
     "part_numbers": ["BX80768285K", "Intel® Core™ Ultra 9"],
-    "series": "Intel Core Ultra 9 200",
+    "series": "Core Ultra 9 200",
     "variant": "285K",
     "releaseYear": 2024
   },

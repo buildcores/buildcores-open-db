@@ -24,9 +24,9 @@
   "specifications": {
     "integratedGraphics": {
       "model": "AMD Radeon 740M",
-      "baseClock": 100,
+      "baseClock": 0,
       "boostClock": 2800,
-      "shaderCount": 256
+      "shaderCount": 384
     },
     "memory": {
       "maxSupport": 256,
@@ -37,10 +37,12 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 4nm FinFET",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "tdp": 65,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 8500G 4.1 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 8500G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000931BOX", "AMD Ryzen™ 5 8500G", "Ryzen 5 8500G"],
     "series": "AMD Ryzen 5 8000",

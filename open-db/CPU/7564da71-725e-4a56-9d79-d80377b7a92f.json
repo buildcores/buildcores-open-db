@@ -2,41 +2,54 @@
   "opendb_id": "7564da71-725e-4a56-9d79-d80377b7a92f",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 16
+    "l3": 16,
+    "l1": "6 × 64 KB (32 KB I-cache + 32 KB D-cache)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 7"
+      "model": "AMD Radeon Vega 7",
+      "boostClock": 1900,
+      "baseClock": 0,
+      "shaderCount": 448
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5600G 3.9 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 5600G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000252BOX", "AMD Ryzen 5 5600G"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "variant": "5600G",
+    "releaseYear": 2021
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Cezanne",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B092L9GF5N",
     "newegg_sku": "N82E16819113683",
     "bestbuy_sku": 6474407,
-    "walmart_sku": 419106070
+    "walmart_sku": 419106070,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600g.html"
   }
 }

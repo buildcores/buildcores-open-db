@@ -2,9 +2,9 @@
   "opendb_id": "b7d6999e-97a3-4ca1-b9d4-f266e4d60135",
   "cores": {
     "total": 6,
-    "performance": null,
+    "performance": 0,
     "threads": 12,
-    "efficiency": null
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
@@ -12,18 +12,21 @@
       "boost": 4.7
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
     "l3": 16,
-    "l1": "384 KB"
+    "l1": "6 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": null
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 256,
@@ -34,13 +37,15 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 4nm FinFET",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "tdp": 65,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 8400F 4.2 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 8400F",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001591BOX", "Ryzen™ 5 8400F", "AMD Ryzen™ 5 8400F"],
-    "series": "AMD Ryzen 5 8000",
+    "series": "Ryzen 5 8000",
     "variant": "8400F",
     "releaseYear": 2024
   },

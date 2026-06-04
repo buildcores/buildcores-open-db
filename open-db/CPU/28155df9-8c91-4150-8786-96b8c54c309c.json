@@ -19,14 +19,14 @@
   "cache": {
     "l2": 24,
     "l3": 30,
-    "l1": "80KB per P-core, 96KB per E-core cluster"
+    "l1": "8 × 80 KB + 8 × 64 KB (L1 per-core totals)"
   },
   "specifications": {
     "integratedGraphics": {
       "model": "Intel UHD Graphics 770",
       "baseClock": 300,
       "boostClock": 1600,
-      "shaderCount": 32
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
@@ -42,16 +42,16 @@
     "ppt": 253
   },
   "metadata": {
-    "name": "Intel Core i7 13700K 3.4 GHz 16-Core LGA1700",
+    "name": "Intel Core i7 13700K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513700K", "i7-13700K", "Intel Core i7-13700K"],
-    "series": "Intel Core i7 13000",
+    "series": "Core i7 13000",
     "variant": "13700K",
     "releaseYear": 2022
   },
   "series": "Core i7 13000",
-  "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Cove",
+  "microarchitecture": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove / Gracemont",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BCF57FL5",
