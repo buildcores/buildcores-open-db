@@ -2,41 +2,54 @@
   "opendb_id": "e88d12fe-6384-4d97-befc-3a0ec16a9e5b",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 4.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 32
+    "l3": 32,
+    "l1": "8 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 5700X 3.4 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 5700X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000926WOF", "AMD Ryzen 7 5700X"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 5000",
+    "variant": "5700X",
+    "releaseYear": 2022
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Vermeer",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B09VCHQHZ6",
     "newegg_sku": "N82E16819113735",
     "bestbuy_sku": 6510770,
-    "walmart_sku": 765713065
+    "walmart_sku": 765713065,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html"
   }
 }

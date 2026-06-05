@@ -10,16 +10,23 @@
     "performance": {
       "boost": 5.1,
       "base": 3.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l3": 256,
-    "l1": "4096 KB",
+    "l1": "64 × 64 KB (32 KB L1I + 32 KB L1D)",
     "l2": 64
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1024,
@@ -31,18 +38,19 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "simultaneousMultithreading": true,
-    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET"
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 7980X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001350WOF"],
-    "series": "Ryzen Threadripper 7000 Series",
+    "series": "Ryzen Threadripper 7000",
     "variant": "7980X",
     "releaseYear": 2023,
     "last_manually_spec_verified_at": "2025-07-28T23:24:06.287Z"
   },
-  "series": "Ryzen Threadripper 7000 Series",
+  "series": "Ryzen Threadripper 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Storm Peak",
   "socket": "sTR5",

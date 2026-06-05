@@ -2,19 +2,21 @@
   "opendb_id": "efd088ae-f796-4d90-a727-bc76fb2bda6c",
   "connectors": {
     "atx_24_pin": 1,
-    "eps_8_pin": 0,
-    "pcie_12vhpwr": 0,
-    "pcie_6_plus_2_pin": 0,
+    "pcie_12vhpwr": 1,
     "sata": 6,
     "molex_4_pin": 0,
-    "floppy_4_pin": 0
+    "floppy_4_pin": 0,
+    "eps_8_pin": 2,
+    "pcie_6_plus_2_pin": 2
   },
   "metadata": {
     "name": "Rosewill VSB Black 650W Semi-Modular 80+ Bronze Certified ATX",
     "manufacturer": "Rosewill",
     "part_numbers": ["VSB650"],
     "series": "VSB",
-    "variant": "650W Bronze"
+    "variant": "650W Bronze",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "wattage": 650,
   "form_factor": "ATX",
@@ -23,9 +25,10 @@
   "color": ["BLACK"],
   "length": 140,
   "fanless": false,
-  "lighting": [],
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0FFPQ38QV",
-    "newegg_sku": "N82E16817182464"
+    "newegg_sku": "N82E16817182464",
+    "manufacturer_url": "https://www.rosewill.com/p/9SIA072KH37854"
   }
 }

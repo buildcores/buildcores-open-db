@@ -2,9 +2,9 @@
   "opendb_id": "fe2cf1aa-c66e-43ec-a55b-997584228dd1",
   "cores": {
     "total": 6,
-    "performance": null,
+    "performance": 0,
     "threads": 12,
-    "efficiency": null
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
@@ -12,19 +12,21 @@
       "boost": 5.3
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
     "l3": 32,
-    "l1": "384 KB"
+    "l1": "6 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
       "model": "AMD Radeon Graphics",
-      "boostClock": 2200
+      "boostClock": 2200,
+      "baseClock": 0,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
@@ -40,10 +42,10 @@
     "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 7600X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000593WOF", "RYZEN 5 7600X"],
-    "series": "AMD Ryzen 5 7000",
+    "series": "Ryzen 5 7000",
     "variant": "7600X",
     "releaseYear": 2022
   },

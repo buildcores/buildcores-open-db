@@ -1,29 +1,41 @@
 {
   "opendb_id": "1ebe9a49-611c-4b53-9962-5b7be5046dbf",
+  "dimensions_mm": {
+    "depth": 454,
+    "width": 228,
+    "height": 588
+  },
   "metadata": {
-    "name": "Phanteks EVOLV X2 ATX Mid Tower Black / Gold with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A",
+    "name": "Phanteks EVOLV X2 ATX Mid Tower Black / Gold",
     "manufacturer": "Phanteks",
     "part_numbers": ["PH-ES524XTG_DGD01"],
     "series": "EVOLV",
     "variant": ""
   },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
+  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX", "EATX", "ATX"],
   "form_factor": "ATX Mid Tower",
   "color": ["BLACK", "GOLD"],
   "power_supply": "None",
-  "supported_power_supply_form_factors": [],
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 2x2 Type-C                                                    USB 3.2 Gen 1 Type-A",
-  "front_usb_ports": [],
+  "front_usb_ports": ["1x USB-C 3.2 Gen2x2"],
   "max_video_card_length": 380,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 170,
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 3,
   "expansion_slots": 8,
   "dimensions": "454 x 228 x 588",
   "volume": 60.865,
-  "weight": null,
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["RGB"],
+  "power_supply_included": false,
+  "supports_rear_connecting_motherboard": true,
+  "max_psu_length": 250,
+  "weight": 31.3,
+  "power_supply_shroud": false,
+  "general_product_information": {
+    "amazon_sku": "B086YNWFQ8",
+    "manufacturer_url": "https://phanteks.com/product/evolv-x2-black/#Specifications"
+  }
 }

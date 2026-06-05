@@ -2,9 +2,9 @@
   "opendb_id": "4dcfffec-423b-4052-8aca-db6c0f84bb43",
   "cores": {
     "total": 8,
-    "performance": null,
+    "performance": 0,
     "threads": 16,
-    "efficiency": null
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
@@ -12,14 +12,14 @@
       "boost": 5
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
     "l3": 96,
-    "l1": "512 KB"
+    "l1": "8 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
@@ -42,10 +42,10 @@
     "ppt": 162
   },
   "metadata": {
-    "name": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core AM5",
+    "name": "AMD Ryzen 7 7800X3D",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000910WOF", "AMD Ryzen 7 7800X3D"],
-    "series": "AMD Ryzen 7 7000",
+    "series": "Ryzen 7 7000",
     "variant": "7800X3D",
     "releaseYear": 2023
   },
