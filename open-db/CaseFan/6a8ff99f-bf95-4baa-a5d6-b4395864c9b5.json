@@ -1,7 +1,7 @@
 {
   "opendb_id": "6a8ff99f-bf95-4baa-a5d6-b4395864c9b5",
   "metadata": {
-    "name": "NZXT F120 RGB DUO 120mm Black Addressable RGB PWM 48.58 CFM 1-Pack",
+    "name": "NZXT F120 RGB DUO 120mm Black Addressable RGB PWM",
     "manufacturer": "NZXT",
     "part_numbers": ["RF-D12SF-B1"],
     "series": "F120 RGB",
@@ -11,9 +11,8 @@
   "size": 120,
   "color": ["BLACK"],
   "quantity": 1,
-  "min_airflow": 48.58,
   "max_airflow": null,
-  "min_noise_level": 29,
+  "min_noise_level": 31,
   "max_noise_level": null,
   "pwm": true,
   "led": "Addressable RGB",
@@ -22,11 +21,12 @@
   "static_pressure": 2.42,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
+  "min_airflow": 50,
   "general_product_information": {
     "amazon_sku": "B0BS1WZPGD",
     "newegg_sku": "1YF-000Z-00118",
     "bestbuy_sku": 6563107,
-    "walmart_sku": 1885759651
+    "manufacturer_url": "https://nzxt.com/en-intl/products/f120-rgb-duo"
   }
 }
