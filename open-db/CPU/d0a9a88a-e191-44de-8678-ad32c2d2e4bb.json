@@ -19,13 +19,14 @@
   "cache": {
     "l2": 3,
     "l3": 16,
-    "l1": "384KB"
+    "l1": "6 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
       "model": "AMD Radeon Vega 7",
       "baseClock": 1900,
-      "shaderCount": 448
+      "shaderCount": 448,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
