@@ -2,41 +2,54 @@
   "opendb_id": "8d8fc082-483c-4e5a-980f-d6191a73f946",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 12
+    "l3": 12,
+    "l1": "6 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 134
   },
   "metadata": {
-    "name": "Intel Core i5 10400 2.9 GHz 6-Core LGA1200",
+    "name": "Intel Core i5 10400",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110400"],
-    "series": "Intel Core i5"
+    "series": "Core i5 10000",
+    "variant": "10400",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
@@ -44,6 +57,7 @@
     "amazon_sku": "B086MN38Q2",
     "newegg_sku": "9SIA4REJUW1816",
     "bestbuy_sku": 6411498,
-    "walmart_sku": 838833207
+    "walmart_sku": 838833207,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199271/intel-core-i510400-processor-12m-cache-up-to-4-30-ghz/specifications.html"
   }
 }

@@ -2,41 +2,54 @@
   "opendb_id": "2ab00ac9-d91e-4250-9297-2bdd6f617d41",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
-      "base": 3.6,
+      "base": 3.7,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 64
+    "l3": 64,
+    "l1": "12 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "boostClock": 2200,
+      "baseClock": 400,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 9 7900 3.6 GHz 12-Core AM5",
+    "name": "AMD Ryzen 9 7900",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000590BOX", "100-00000590BOX"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 7000",
+    "variant": "7900",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
@@ -44,6 +57,7 @@
     "amazon_sku": "B0BMQK718H",
     "newegg_sku": "N82E16819113785",
     "bestbuy_sku": 6530446,
-    "walmart_sku": 2269166702
+    "walmart_sku": 2269166702,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html"
   }
 }

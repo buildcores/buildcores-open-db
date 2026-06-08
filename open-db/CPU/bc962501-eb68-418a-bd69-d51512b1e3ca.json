@@ -2,41 +2,54 @@
   "opendb_id": "bc962501-eb68-418a-bd69-d51512b1e3ca",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "boost": 5.1,
       "base": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 10700K 3.8 GHz 8-Core LGA1200",
+    "name": "Intel Core i7 10700K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110700K", "i7-10700K"],
-    "series": "Intel Core i7"
+    "series": "Core i7 10000",
+    "variant": "10700K",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
@@ -44,6 +57,7 @@
     "amazon_sku": "B086ML4XSB",
     "newegg_sku": "N82E16819118123",
     "bestbuy_sku": 6411488,
-    "walmart_sku": 434262980
+    "walmart_sku": 434262980,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199335/intel-core-i710700k-processor-16m-cache-up-to-5-10-ghz/specifications.html"
   }
 }

@@ -2,41 +2,54 @@
   "opendb_id": "8fa3e52f-5fef-48ff-bba6-0f81708ccacf",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 4
+    "l3": 4,
+    "l1": "4 × 96 KB (64 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 8"
+      "model": "AMD Radeon Vega 8 Graphics",
+      "boostClock": 1250,
+      "baseClock": 300,
+      "shaderCount": 512
     },
     "memory": {
       "maxSupport": 64,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "12 nm",
-    "simultaneousMultithreading": false
+    "lithography": "12nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 3 3200G 3.6 GHz 4-Core AM4",
+    "name": "AMD Ryzen 3 3200G",
     "manufacturer": "AMD",
     "part_numbers": ["Ryzen 3 3200G", "YD3200C5FHBOX"],
-    "series": "AMD Ryzen 3"
+    "series": "Ryzen 3 3000",
+    "variant": "3200G",
+    "releaseYear": 2019
   },
-  "series": "AMD Ryzen 3",
+  "series": "Ryzen 3 3000",
   "microarchitecture": "Zen+",
   "coreFamily": "Picasso",
   "socket": "AM4",
@@ -44,6 +57,7 @@
     "amazon_sku": "B07STGHZK8",
     "newegg_sku": "9SIAGBAKDG5754",
     "bestbuy_sku": 6356279,
-    "walmart_sku": 424370662
+    "walmart_sku": 424370662,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-3-3200g.html"
   }
 }

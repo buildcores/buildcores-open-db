@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "8 x 32 kB Instruction, 8 x 32 kB Data",
+    "l1": "8 × 64 KB (32 KB L1I + 32 KB L1D)",
     "l2": 2,
     "l3": 16
   },
@@ -25,8 +25,8 @@
     "integratedGraphics": {
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
-      "boostClock": 1.2,
-      "shaderCount": 0
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
@@ -38,21 +38,23 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 119
   },
   "metadata": {
     "name": "Intel Core i9-9900K",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684I99900K", "BX80684I99900KSRG19"],
-    "series": "Core i9",
-    "variant": "K",
+    "series": "Core i9 99000",
+    "variant": "9900K",
     "releaseYear": 2018
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 9000",
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B07KC6V4YF"
+    "amazon_sku": "B07KC6V4YF",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/186605/intel-core-i99900k-processor-16m-cache-up-to-5-00-ghz/specifications.html"
   }
 }
