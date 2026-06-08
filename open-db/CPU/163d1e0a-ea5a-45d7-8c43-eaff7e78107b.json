@@ -2,7 +2,9 @@
   "opendb_id": "163d1e0a-ea5a-45d7-8c43-eaff7e78107b",
   "cores": {
     "total": 24,
-    "threads": 32
+    "threads": 32,
+    "performance": 8,
+    "efficiency": 16
   },
   "clocks": {
     "performance": {
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 32,
-    "l3": 36
+    "l3": 36,
+    "l1": "8×32 KB L1D + 8×48 KB L1I, 16×32 KB L1D + 16×64 KB L1I (2176 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1650,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
-    "name": "Intel Core i9 14900 2 GHz 24-Core LGA1700",
+    "name": "Intel Core i9 14900",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514900"],
-    "series": "Intel Core i9"
+    "series": "Core i9 14000",
+    "variant": "14900",
+    "releaseYear": 2024
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 14000",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ24VW72",
     "newegg_sku": "N82E16819118474",
-    "walmart_sku": 5266285173
+    "walmart_sku": 5266285173,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236793/intel-core-i9-processor-14900-36m-cache-up-to-5-80-ghz/specifications.html"
   }
 }

@@ -2,41 +2,54 @@
   "opendb_id": "f6b68476-baa6-4789-ba01-e34cb34567b3",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 9
+    "l3": 9,
+    "l1": "6 × 32 KB L1I + 6 × 32 KB L1D"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 9400F 2.9 GHz 6-Core LGA1151",
+    "name": "Intel Core i5 9400F",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684I59400F"],
-    "series": "Intel Core i5"
+    "series": "Core i5 9000",
+    "variant": "9400F",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 9000",
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
@@ -44,6 +57,7 @@
     "amazon_sku": "B07MRCGQQ4",
     "newegg_sku": "9SIA2W09379170",
     "bestbuy_sku": 6350570,
-    "walmart_sku": 944198509
+    "walmart_sku": 944198509,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/190883/intel-core-i59400f-processor-9m-cache-up-to-4-10-ghz/specifications.html"
   }
 }

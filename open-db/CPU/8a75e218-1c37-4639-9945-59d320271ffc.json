@@ -2,7 +2,9 @@
   "opendb_id": "8a75e218-1c37-4639-9945-59d320271ffc",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,37 +18,46 @@
   },
   "cache": {
     "l2": 14,
-    "l3": 30
+    "l3": 30,
+    "l1": "P-cores: 8×80 KB (L1I+L1D); E-cores: 8×64 KB (L1I+L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 241
   },
   "metadata": {
-    "name": "Intel Core i9 12900KF 3.2 GHz 16-Core LGA1700",
+    "name": "Intel Core i9 12900KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512900KF"],
-    "series": "Intel Core i9"
+    "series": "Core i9 12000",
+    "variant": "12900KF",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09FWYK5M9",
     "newegg_sku": "N82E16819118341",
     "bestbuy_sku": 6483666,
-    "walmart_sku": 477850730
+    "walmart_sku": 477850730,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134600/intel-core-i912900kf-processor-30m-cache-up-to-5-20-ghz/specifications.html"
   }
 }
