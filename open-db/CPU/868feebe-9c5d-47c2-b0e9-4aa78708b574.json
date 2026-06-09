@@ -2,7 +2,9 @@
   "opendb_id": "868feebe-9c5d-47c2-b0e9-4aa78708b574",
   "cores": {
     "total": 12,
-    "threads": 20
+    "threads": 20,
+    "performance": 8,
+    "efficiency": 4
   },
   "clocks": {
     "performance": {
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 12,
-    "l3": 25
+    "l3": 25,
+    "l1": "768 KB total (8 P-cores × 32 KB I + 32 KB D, 4 E-cores × 64 KB per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1500,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 180
   },
   "metadata": {
-    "name": "Intel Core i7 12700 2.1 GHz 12-Core LGA1700",
+    "name": "Intel Core i7 12700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512700"],
-    "series": "Intel Core i7"
+    "series": "Core i7 12000",
+    "variant": "12700",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09NPHHSZ1",
     "newegg_sku": "N82E16819118368",
-    "walmart_sku": 175042101
+    "walmart_sku": 175042101,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134591/intel-core-i712700-processor-25m-cache-up-to-4-90-ghz/specifications.html"
   }
 }

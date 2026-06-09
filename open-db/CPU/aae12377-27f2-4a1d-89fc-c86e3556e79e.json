@@ -2,46 +2,60 @@
   "opendb_id": "aae12377-27f2-4a1d-89fc-c86e3556e79e",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "256 KB total (4 cores × 32 KB Instruction + 32 KB Data per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 630"
+      "model": "Intel HD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 7500 3.4 GHz 4-Core LGA1151",
+    "name": "Intel Core i5 7500",
     "manufacturer": "Intel",
     "part_numbers": ["BX80677I57500"],
-    "series": "Intel Core i5"
+    "series": "Core i5 7500",
+    "variant": "7500",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 7500",
   "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
+  "coreFamily": "Kaby Lake",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B01MZZJ1P0",
-    "newegg_sku": "9SIA7S6JNX7774"
+    "newegg_sku": "9SIA7S6JNX7774",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/97123/intel-core-i57500-processor-6m-cache-up-to-3-80-ghz/specifications.html"
   }
 }

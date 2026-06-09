@@ -2,8 +2,8 @@
   "opendb_id": "f8dce6ce-17aa-426d-a513-3d4c0136f180",
   "cores": {
     "total": 8,
-    "performance": null,
-    "efficiency": null,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 16
   },
   "clocks": {
@@ -12,12 +12,12 @@
       "boost": 5
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": null,
+    "l1": "8 × 64 KB (32 KB L1I + 32 KB L1D)",
     "l2": 2,
     "l3": 16
   },
@@ -25,8 +25,8 @@
     "integratedGraphics": {
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
-      "boostClock": 1.2,
-      "shaderCount": null
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
@@ -37,20 +37,27 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "tdp": 95,
+    "ppt": 119
   },
   "metadata": {
     "name": "Intel Core i9-9900K",
     "part_numbers": ["BX80684I99900K"],
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "variant": "9900K",
+    "series": "Core i9 9900",
+    "manufacturer": "Intel"
   },
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
+  "series": "Core i9 9900",
   "general_product_information": {
     "amazon_sku": "B005404P9I",
     "newegg_sku": "9SIBWH3KC38536",
     "bestbuy_sku": 6302019,
-    "walmart_sku": 248952912
+    "walmart_sku": 248952912,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/186605/intel-core-i99900k-processor-16m-cache-up-to-5-00-ghz/specifications.html"
   }
 }
