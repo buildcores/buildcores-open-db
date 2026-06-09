@@ -2,7 +2,9 @@
   "opendb_id": "1292d93d-417f-4ec6-b84f-21be2d85b2b2",
   "cores": {
     "total": 24,
-    "threads": 32
+    "threads": 32,
+    "performance": 8,
+    "efficiency": 16
   },
   "clocks": {
     "performance": {
@@ -16,36 +18,45 @@
   },
   "cache": {
     "l2": 32,
-    "l3": 36
+    "l3": 36,
+    "l1": "2 MB total (P-cores + E-cores combined, 32 KB I + 32 KB D per core equivalent)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
-    "name": "Intel Core i9 14900F 2.0 GHz 24-Core LGA1700",
+    "name": "Intel Core i9 14900F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514900F"],
-    "series": "Intel Core i9"
+    "series": "Core i9 14000",
+    "variant": "14900F",
+    "releaseYear": 2024
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 14000",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove / Gracemont",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ1FC8WZ",
     "newegg_sku": "N82E16819118485",
-    "walmart_sku": 5323712760
+    "walmart_sku": 5323712760,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236853/intel-core-i9-processor-14900f-36m-cache-up-to-5-80-ghz/specifications.html"
   }
 }
