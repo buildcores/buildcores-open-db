@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": null,
+    "l1": "2 × 80 KB (32 KB L1I + 48 KB L1D)",
     "l2": 2.5,
     "l3": 6
   },
@@ -25,8 +25,8 @@
     "integratedGraphics": {
       "model": "Intel UHD Graphics 710",
       "baseClock": 300,
-      "boostClock": 1.35,
-      "shaderCount": 16
+      "boostClock": 1350,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
@@ -36,26 +36,28 @@
     "tdp": 46,
     "eccSupport": false,
     "includesCooler": true,
-    "packaging": null,
+    "packaging": "Boxed",
     "lithography": "Intel 7",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Pentium Gold G7400 Processor",
+    "name": "Intel Pentium Gold G7400",
     "manufacturer": "Intel",
     "part_numbers": ["BX80715G7400", "G7400"],
-    "series": "Pentium Gold",
-    "variant": null,
+    "series": "Pentium G7000",
+    "variant": "G7400",
     "releaseYear": 2022
   },
-  "series": "Pentium Gold",
+  "series": "Pentium G7000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": null,
+  "coreFamily": "Golden Cove",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09Q87W31F",
     "newegg_sku": "N82E16819118376",
     "bestbuy_sku": 6492596,
-    "walmart_sku": 632926408
+    "walmart_sku": 632926408,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/219435/intel-pentium-gold-g7400-processor-6m-cache-3-70-ghz/specifications.html"
   }
 }
