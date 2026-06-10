@@ -2,7 +2,9 @@
   "opendb_id": "8a185318-6ca2-4a53-93b1-f01d9d5dbad1",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,37 +18,46 @@
   },
   "cache": {
     "l2": 14,
-    "l3": 30
+    "l3": 30,
+    "l1": "8 × 80 KB + 8 × 64 KB (L1 per-core totals)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1550,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 150,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 241
   },
   "metadata": {
-    "name": "Intel Core i9 12900KS 3.4 GHz 16-Core LGA1700",
+    "name": "Intel Core i9 12900KS",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512900KS"],
-    "series": "Intel Core i9"
+    "series": "Core i9 12000",
+    "variant": "12900KS",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake (Golden Cove / Gracemont)",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09RWL74GY",
     "newegg_sku": "N82E16819118392",
     "bestbuy_sku": 6501867,
-    "walmart_sku": 828289486
+    "walmart_sku": 828289486,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/225916/intel-core-i912900ks-processor-30m-cache-up-to-5-50-ghz/specifications.html"
   }
 }

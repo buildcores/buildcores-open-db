@@ -2,7 +2,9 @@
   "opendb_id": "ebb0e539-2265-4e3f-bb05-960429116b4b",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,37 +18,46 @@
   },
   "cache": {
     "l2": 24,
-    "l3": 30
+    "l3": 30,
+    "l1": "8 × 80 KB + 8 × 64 KB (L1 per-core totals)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
-    "name": "Intel Core i7 13700F 2.1 GHz 16-Core LGA1700",
+    "name": "Intel Core i7 13700F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513700F"],
-    "series": "Intel Core i7"
+    "series": "Core i7 13000",
+    "variant": "13700F",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Cove / Gracemont",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BQ6CSY9C",
     "newegg_sku": "N82E16819118428",
     "bestbuy_sku": 6530248,
-    "walmart_sku": 2396027096
+    "walmart_sku": 2396027096,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230491/intel-core-i713700f-processor-30m-cache-up-to-5-20-ghz/specifications.html"
   }
 }

@@ -2,22 +2,31 @@
   "opendb_id": "92e90c8a-4ba7-4bab-934c-67cc037a9568",
   "cores": {
     "total": 32,
-    "threads": 64
+    "threads": 64,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "2048 KB",
+    "l1": "32 × 64 KB (32 KB L1I + 32 KB L1D)",
     "l2": 32,
     "l3": 128
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 2048,
@@ -29,13 +38,14 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 7975WX",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000453WOF"],
-    "series": "AMD Ryzen Threadripper PRO 7000 WX",
+    "series": "Ryzen Threadripper PRO 7000 WX",
     "variant": "7975WX",
     "releaseYear": 2023
   },

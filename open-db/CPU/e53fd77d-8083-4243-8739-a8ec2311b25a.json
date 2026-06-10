@@ -2,7 +2,9 @@
   "opendb_id": "e53fd77d-8083-4243-8739-a8ec2311b25a",
   "cores": {
     "total": 14,
-    "threads": 20
+    "threads": 20,
+    "performance": 6,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -15,37 +17,46 @@
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 24
+    "l2": 11.5,
+    "l3": 24,
+    "l1": "6 × 80 KB + 8 × 64 KB (L1 per-core totals)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1550,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 154
   },
   "metadata": {
-    "name": "Intel Core i5 14500 2.6 GHz 14-Core LGA1700",
+    "name": "Intel Core i5 14500",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071514500", "14500"],
-    "series": "Intel Core i5"
+    "series": "Core i5 14000",
+    "variant": "14500",
+    "releaseYear": 2024
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 14000",
   "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove / Gracemont",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0CQ27H8VY",
     "newegg_sku": "N82E16819118478",
-    "walmart_sku": 5332423277
+    "walmart_sku": 5332423277,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236784/intel-core-i5-processor-14500-24m-cache-up-to-5-00-ghz/specifications.html"
   }
 }

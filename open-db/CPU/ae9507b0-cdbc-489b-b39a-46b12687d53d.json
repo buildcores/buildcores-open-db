@@ -2,43 +2,56 @@
   "opendb_id": "ae9507b0-cdbc-489b-b39a-46b12687d53d",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.7,
       "boost": 3.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "256 KB (4×32 KB L1D + 4×32 KB L1I)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 530"
+      "model": "Intel HD Graphics 530",
+      "baseClock": 350,
+      "boostClock": 950,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 6400 2.7 GHz 4-Core LGA1151",
+    "name": "Intel Core i5 6400",
     "manufacturer": "Intel",
     "part_numbers": ["CM8066201920506", "BX80662I56400"],
-    "series": "Intel Core i5"
+    "series": "Core i5 6000",
+    "variant": "6400",
+    "releaseYear": 2015
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 6000",
   "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-S",
+  "coreFamily": "Skylake",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B010T6CG7E",

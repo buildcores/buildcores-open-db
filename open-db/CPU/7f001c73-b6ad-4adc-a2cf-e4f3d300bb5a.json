@@ -2,7 +2,9 @@
   "opendb_id": "7f001c73-b6ad-4adc-a2cf-e4f3d300bb5a",
   "cores": {
     "total": 24,
-    "threads": 32
+    "threads": 32,
+    "performance": 8,
+    "efficiency": 16
   },
   "clocks": {
     "performance": {
@@ -10,36 +12,44 @@
       "boost": 5.6
     },
     "efficiency": {
-      "base": 2.2,
+      "base": 1.5,
       "boost": 4.2
     }
   },
   "cache": {
     "l2": 32,
-    "l3": 36
+    "l3": 36,
+    "l1": "1.44 MB (8×32 KB L1 Data + 16×48 KB L1 Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1650,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
-    "name": "Intel Core i9 13900 2 GHz 24-Core LGA1700",
+    "name": "Intel Core i9 13900",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513900"],
-    "series": "Intel Core i9"
+    "series": "Core i9 13000",
+    "variant": "13900",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 13000",
   "microarchitecture": "Raptor Lake",
   "coreFamily": "Raptor Lake",
   "socket": "LGA 1700",

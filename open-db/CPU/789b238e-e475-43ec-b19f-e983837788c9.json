@@ -2,45 +2,59 @@
   "opendb_id": "789b238e-e475-43ec-b19f-e983837788c9",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "256 KB total (4 cores × 32 KB Instruction + 32 KB Data per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4600"
+      "model": "Intel HD Graphics 4600",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 160
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 84,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 4770 3.4 GHz 4-Core LGA1150",
+    "name": "Intel Core i7 4770",
     "manufacturer": "Intel",
     "part_numbers": ["BX80646I74770"],
-    "series": "Intel Core i7"
+    "series": "Core i7 4000",
+    "variant": "4770",
+    "releaseYear": 2013
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 4000",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell",
   "socket": "LGA 1150",
   "general_product_information": {
-    "amazon_sku": "B00CO8TBNS"
+    "amazon_sku": "B00CO8TBNS",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75122/intel-core-i74770-processor-8m-cache-up-to-3-90-ghz/specifications.html"
   }
 }

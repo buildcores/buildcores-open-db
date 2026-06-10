@@ -2,41 +2,54 @@
   "opendb_id": "e5b3a5b6-4a78-4643-a729-01056c846f75",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 11700KF 3.6 GHz 8-Core LGA1200",
+    "name": "Intel Core i7 11700KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070811700KF"],
-    "series": "Intel Core i7"
+    "series": "Core i7 11000",
+    "variant": "11700KF",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 11000",
   "microarchitecture": "Rocket Lake",
   "coreFamily": "Rocket Lake-S",
   "socket": "LGA 1200",

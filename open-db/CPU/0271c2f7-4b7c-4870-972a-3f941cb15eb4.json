@@ -2,47 +2,61 @@
   "opendb_id": "0271c2f7-4b7c-4870-972a-3f941cb15eb4",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.2,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "256 KB total (4 cores × 32 KB Instruction + 32 KB Data per core)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 630"
+      "model": "Intel HD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 91,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 7700K 4.2 GHz 4-Core LGA1151",
+    "name": "Intel Core i7 7700K",
     "manufacturer": "Intel",
     "part_numbers": ["BX80677I77700K"],
-    "series": "Intel Core i7"
+    "series": "Core i7 7000",
+    "variant": "7700K",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 7000",
   "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
+  "coreFamily": "Kaby Lake",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B01MXSI216",
     "newegg_sku": "9SIA7S6JSB8926",
-    "walmart_sku": 55428258
+    "walmart_sku": 55428258,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/97129/intel-core-i77700k-processor-8m-cache-up-to-4-50-ghz/specifications.html"
   }
 }

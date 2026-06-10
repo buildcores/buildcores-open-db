@@ -2,47 +2,61 @@
   "opendb_id": "2e3b7f24-a606-4652-9ffa-74a7f1c41bfe",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "512 KB total (8 × 32 KB L1 Data Cache + 8 × 32 KB L1 Instruction Cache)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 224
   },
   "metadata": {
-    "name": "Intel Core i7 10700F 2.9 GHz 8-Core LGA1200",
+    "name": "Intel Core i7 10700F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110700F"],
-    "series": "Intel Core i7"
+    "series": "Core i7 10000",
+    "variant": "10700F",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B086MN2XYL",
     "newegg_sku": "9SIASGMKB19391",
-    "walmart_sku": 912350317
+    "walmart_sku": 912350317,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199318/intel-core-i710700f-processor-16m-cache-up-to-4-80-ghz/specifications.html"
   }
 }

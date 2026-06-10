@@ -2,41 +2,54 @@
   "opendb_id": "ec460ae9-d125-4d92-ac76-87645aedf616",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "512 KB (8×32 KB L1 Data + 8×32 KB L1 Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 10700 2.9 GHz 8-Core LGA1200",
+    "name": "Intel Core i7 10700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110700", "BX8070110700-2"],
-    "series": "Intel Core i7"
+    "series": "Core i7 10000",
+    "variant": "10700",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",

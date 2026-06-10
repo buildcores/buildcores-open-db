@@ -2,7 +2,7 @@
   "opendb_id": "61ccec51-9636-400c-b879-2ac9dcea439f",
   "cores": {
     "total": 16,
-    "performance": 16,
+    "performance": 0,
     "efficiency": 0,
     "threads": 32
   },
@@ -12,21 +12,21 @@
       "boost": 4.5
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "64 KB (instruction) / 64 KB (data) per core",
-    "l2": 1024,
+    "l1": "16 × 64 KB (32 KB L1I + 32 KB L1D)",
+    "l2": 16,
     "l3": 22
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
@@ -38,19 +38,24 @@
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9-9960X",
+    "name": "Intel Core i9 9960X",
     "part_numbers": ["BX80673I99960X"],
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "variant": "9960X",
+    "series": "Core i9 9000",
+    "manufacturer": "Intel"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake-X",
-  "coreFamily": null,
+  "series": "Core i9 9000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B07JDV1QDG",
-    "walmart_sku": 547239852
+    "walmart_sku": 547239852,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/189123/intel-core-i99960x-xseries-processor-22m-cache-up-to-4-50-ghz/specifications.html"
   }
 }
