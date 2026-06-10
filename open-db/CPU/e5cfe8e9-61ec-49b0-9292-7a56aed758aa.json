@@ -2,41 +2,54 @@
   "opendb_id": "e5cfe8e9-61ec-49b0-9292-7a56aed758aa",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.1,
       "boost": 4.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 10600K 4.1 GHz 6-Core LGA1200",
+    "name": "Intel Core i5 10600K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110600K", "PK8071305129200"],
-    "series": "Intel Core i5"
+    "series": "Core i5 10000",
+    "variant": "10600K",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",

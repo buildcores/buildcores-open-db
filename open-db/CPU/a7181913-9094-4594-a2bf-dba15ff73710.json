@@ -2,43 +2,56 @@
   "opendb_id": "a7181913-9094-4594-a2bf-dba15ff73710",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 4.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 12
+    "l3": 12,
+    "l1": "384 KB (6×32 KB L1 Data + 6×32 KB L1 Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 750"
+      "model": "Intel UHD Graphics 750",
+      "baseClock": 350,
+      "boostClock": 1300,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 11600K 3.9 GHz 6-Core LGA1200",
+    "name": "Intel Core i5 11600K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070811600K", "i5-11600K"],
-    "series": "Intel Core i5"
+    "series": "Core i5 11000",
+    "variant": "11600K",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 11000",
   "microarchitecture": "Rocket Lake",
-  "coreFamily": "Rocket Lake-S",
+  "coreFamily": "Rocket Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B08X67YZBL",

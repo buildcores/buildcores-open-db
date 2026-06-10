@@ -2,41 +2,54 @@
   "opendb_id": "9ee0dbe7-c96f-45ef-a814-8c7d6c8b49a1",
   "cores": {
     "total": 18,
-    "performance": 18,
-    "threads": 36
+    "performance": 0,
+    "threads": 36,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.6,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 18,
-    "l3": 24
+    "l3": 24.75,
+    "l1": "1.125 MB (18×32 KB L1 Data + 18×32 KB L1 Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 7980XE 2.6 GHz 18-Core LGA2066",
+    "name": "Intel Core i9 7980XE",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I97980X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 7000",
+    "variant": "7980XE",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 7000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",

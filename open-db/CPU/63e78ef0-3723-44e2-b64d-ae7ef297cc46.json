@@ -3,42 +3,55 @@
   "cores": {
     "total": 4,
     "performance": 4,
-    "threads": 8
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 12
+    "l3": 12,
+    "l1": "320 KB (4×48 KB L1 Data + 4×32 KB L1 Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 730"
+      "model": "Intel UHD Graphics 730",
+      "baseClock": 300,
+      "boostClock": 1400,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 60,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 89
   },
   "metadata": {
-    "name": "Intel Core i3 12100 3.3 GHz 4-Core LGA1700",
+    "name": "Intel Core i3 12100",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512100"],
-    "series": "Intel Core i3"
+    "series": "Core i3 12000",
+    "variant": "12100",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09NPHJLPT",

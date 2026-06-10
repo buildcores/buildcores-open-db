@@ -2,7 +2,7 @@
   "opendb_id": "f4fcdf17-ee89-4728-a37f-3bb8350cc118",
   "cores": {
     "total": 2,
-    "performance": 2,
+    "performance": 0,
     "efficiency": 0,
     "threads": 2
   },
@@ -12,13 +12,13 @@
       "boost": 0
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": null,
-    "l2": 0,
+    "l1": "128 KB (2×32 KB L1 Data + 2×32 KB L1 Instruction)",
+    "l2": 0.5,
     "l3": 2
   },
   "specifications": {
@@ -26,7 +26,7 @@
       "model": "Intel UHD Graphics 610",
       "baseClock": 350,
       "boostClock": 1050,
-      "shaderCount": 0
+      "shaderCount": 96
     },
     "memory": {
       "maxSupport": 128,
@@ -38,16 +38,20 @@
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
     "name": "Intel Celeron G5900",
     "part_numbers": ["BX80701G5900"],
-    "releaseYear": 2020
+    "releaseYear": 2020,
+    "manufacturer": "Intel",
+    "variant": "G5900",
+    "series": "Core Celeron 5000"
   },
-  "series": "Intel Celeron G Series",
+  "series": "Core Celeron 5000",
   "microarchitecture": "Comet Lake",
-  "coreFamily": null,
+  "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B086MW76F8",

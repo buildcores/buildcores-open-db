@@ -2,48 +2,62 @@
   "opendb_id": "27ddd147-32ca-46ae-802b-c288f94f1f60",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 80 KB (32 KB L1I + 48 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 750"
+      "model": "Intel UHD Graphics 750",
+      "baseClock": 350,
+      "boostClock": 1300,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 11900K 3.5 GHz 8-Core LGA1200",
+    "name": "Intel Core i9 11900K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070811900K"],
-    "series": "Intel Core i9"
+    "series": "Core i9 11000",
+    "variant": "11900K",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 11000",
   "microarchitecture": "Rocket Lake",
-  "coreFamily": "Rocket Lake-S",
+  "coreFamily": "Cypress Cove",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B08X6PPTTH",
     "newegg_sku": "N82E16819118231",
     "bestbuy_sku": 6452222,
-    "walmart_sku": 977362339
+    "walmart_sku": 977362339,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/212325/intel-core-i911900k-processor-16m-cache-up-to-5-30-ghz/specifications.html"
   }
 }

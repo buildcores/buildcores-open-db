@@ -2,41 +2,54 @@
   "opendb_id": "f165b2c9-fa32-4bfd-8ebe-2a0606dec25e",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 10100 3.6 GHz 4-Core LGA1200",
+    "name": "Intel Core i3 10100",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110100"],
-    "series": "Intel Core i3"
+    "series": "Core i3 10000",
+    "variant": "10100",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
