@@ -2,41 +2,54 @@
   "opendb_id": "1bfc789d-fdf7-44d4-88d3-a5f1d5b2dc7c",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 2.5,
+    "l3": 20,
+    "l1": "10 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10900KF 3.7 GHz 10-Core LGA1200",
+    "name": "Intel Core i9 10900KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110900KF", "i9-10900KF"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10900KF",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
