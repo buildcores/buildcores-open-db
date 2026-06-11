@@ -2,43 +2,56 @@
   "opendb_id": "09e91f36-20fd-4461-a117-37ef0872fc63",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4600"
+      "model": "Intel HD Graphics 4600",
+      "baseClock": 350,
+      "boostClock": 1250,
+      "shaderCount": 160
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 88,
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 4790K 4 GHz 4-Core LGA1150 OEM/Tray",
+    "name": "Intel Core i7 4790K",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064601710501", "3886787"],
-    "series": "Intel Core i7"
+    "series": "Core i7 4000",
+    "variant": "4790K",
+    "releaseYear": 2014
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 4000",
   "microarchitecture": "Haswell Refresh",
-  "coreFamily": "Haswell Refresh",
+  "coreFamily": "Haswell",
   "socket": "LGA 1150",
   "general_product_information": {
     "amazon_sku": "B00N0QZJ4S",

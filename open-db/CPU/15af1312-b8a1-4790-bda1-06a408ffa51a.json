@@ -2,41 +2,54 @@
   "opendb_id": "15af1312-b8a1-4790-bda1-06a408ffa51a",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 64 KB (32 KB L1I + 32 KB L1D)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 530"
+      "model": "Intel HD Graphics 530",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 91,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 6700K 4 GHz 4-Core LGA1151",
+    "name": "Intel Core i7 6700K",
     "manufacturer": "Intel",
     "part_numbers": ["BX80662I76700K", "4512"],
-    "series": "Intel Core i7"
+    "series": "Core i7 6000",
+    "variant": "6700K",
+    "releaseYear": 2015
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 6000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-S",
   "socket": "LGA 1151",

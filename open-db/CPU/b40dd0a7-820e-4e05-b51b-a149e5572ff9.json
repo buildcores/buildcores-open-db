@@ -2,22 +2,31 @@
   "opendb_id": "b40dd0a7-820e-4e05-b51b-a149e5572ff9",
   "cores": {
     "total": 16,
-    "threads": 32
+    "threads": 32,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "boost": 5.3,
       "base": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "1024 KB",
+    "l1": "1 MB (16 × 32 KB Data + 16 × 32 KB Instruction)",
     "l2": 16,
     "l3": 64
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "types": ["DDR5"],
@@ -29,17 +38,18 @@
     "simultaneousMultithreading": true,
     "tdp": 350,
     "packaging": "Boxed",
-    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET"
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 7955WX",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000886WOF"],
-    "series": "AMD Ryzen Threadripper PRO 7000 WX",
+    "series": "Threadripper PRO 7000",
     "variant": "7955WX",
     "releaseYear": 2023
   },
-  "series": "AMD Ryzen Threadripper PRO 7000 WX",
+  "series": "Threadripper PRO 7000",
   "socket": "sTR5",
   "microarchitecture": "Zen 4",
   "coreFamily": "Storm Peak",
