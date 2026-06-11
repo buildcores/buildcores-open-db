@@ -2,41 +2,54 @@
   "opendb_id": "616b97e2-782a-4a0c-80cf-f8b56a9cf18b",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 32
+    "l3": 64,
+    "l1": "768 KB (12 × 32 KB Data + 12 × 32 KB Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 192,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD EPYC 4464P 3.7 GHz 12-Core AM5",
+    "name": "AMD EPYC 4464P",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001478WOF"],
-    "series": "AMD EPYC"
+    "series": "EPYC 4000",
+    "variant": "4464P",
+    "releaseYear": 2024
   },
-  "series": "AMD EPYC",
+  "series": "EPYC  4000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

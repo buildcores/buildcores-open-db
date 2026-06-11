@@ -2,41 +2,54 @@
   "opendb_id": "52046b4b-1ff1-4593-9cc5-f007a38fa409",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "512 KB (8 × 32 KB Data + 8 × 32 KB Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 127,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 9900KS 4 GHz 8-Core LGA1151",
+    "name": "Intel Core i9 9900KS",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684I99900KS"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9900KS",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 9000",
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
