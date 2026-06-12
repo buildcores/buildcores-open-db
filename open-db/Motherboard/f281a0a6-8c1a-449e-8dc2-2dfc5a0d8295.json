@@ -36,8 +36,8 @@
     "main_power": "24-pin"
   },
   "bios_features": {
-    "clear_cmos": false,
-    "flashback": true
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4082",
@@ -94,16 +94,26 @@
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
-      "controller": "Asus Languard"
+      "controller": "Realtek"
     },
     {
       "speed": "5 Gb/s",
-      "controller": "Asus Languard"
+      "controller": "Realtek"
     }
   ],
-  "back_panel_ports": [""],
+  "back_panel_ports": [
+    "2 x USB4 (40Gbps) ports (2 x USB Type-C)",
+    "9 x USB 10Gbps connector (6 x Type-A + 3 x USB Type-C)",
+    "1 x HDMI port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 10Gb Ethernet port",
+    "1 x Realtek 5Gb Ethernet port",
+    "2 x Gold-plated audio jacks",
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack button",
+    "1 x Clear CMOS button"
+  ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
