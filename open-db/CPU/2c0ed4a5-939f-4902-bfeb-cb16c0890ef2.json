@@ -2,47 +2,60 @@
   "opendb_id": "2c0ed4a5-939f-4902-bfeb-cb16c0890ef2",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 64
+    "l3": 64,
+    "l1": "16 × (32 KB Data + 32 KB Instruction) = 1 MB total"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 9 3950X 3.5 GHz 16-Core AM4",
+    "name": "AMD Ryzen 9 3950X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000051WOF", "AMD Ryzen 9 3950X"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 3000",
+    "variant": "3950X",
+    "releaseYear": 2019
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B07ZTYKLZW",
-    "newegg_sku": "9SIASGMK334652",
+    "newegg_sku": "N82E16819113616",
     "bestbuy_sku": 6391901,
     "walmart_sku": 496752740
   }

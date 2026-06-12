@@ -2,48 +2,60 @@
   "opendb_id": "70bae351-5e16-46d2-ac14-821d393b6244",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 64
+    "l3": 64,
+    "l1": "12 × (32 KB Data + 32 KB Instruction) = 768 KB total"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 9 3900X 3.8 GHz 12-Core AM4",
+    "name": "AMD Ryzen 9 3900X",
     "manufacturer": "AMD",
     "part_numbers": ["Ryzen 9 3900X", "100-100000023BOX"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 3000",
+    "variant": "3900X",
+    "releaseYear": 2019
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B07SXMZLP9",
-    "newegg_sku": "9SIBWH3KBZ2925",
-    "bestbuy_sku": 6356274,
-    "walmart_sku": 360697304
+    "newegg_sku": "N82E16819113103",
+    "bestbuy_sku": 6356274
   }
 }
