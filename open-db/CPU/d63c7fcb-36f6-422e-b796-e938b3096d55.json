@@ -2,44 +2,57 @@
   "opendb_id": "d63c7fcb-36f6-422e-b796-e938b3096d55",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.3,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 40
+    "l3": 40,
+    "l1": "16 × 32 KB Instruction + 16 × 32 KB Data (1024 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2698 V3 2.3 GHz 16-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-2698 v3",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064401609800", "E5-2698 V3", "SR1XE"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "variant": "E5-2698 v3",
+    "releaseYear": 2014
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
+  "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B08MLNFJSD"
   }

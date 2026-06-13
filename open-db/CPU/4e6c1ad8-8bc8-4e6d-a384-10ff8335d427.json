@@ -2,46 +2,59 @@
   "opendb_id": "4e6c1ad8-8bc8-4e6d-a384-10ff8335d427",
   "cores": {
     "total": 14,
-    "performance": 14,
-    "threads": 28
+    "performance": 0,
+    "threads": 28,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.4,
       "boost": 3.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 35
+    "l3": 20,
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)",
+    "l2": 3.5
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2680 V4 2.4 GHz 14-Core LGA2011-3",
+    "name": "Intel Xeon E5-2680 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52680V4"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5-2600 v4",
+    "releaseYear": 2012,
+    "variant": "E5-2680 v4"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5-2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
-  "socket": "LGA 2011-3",
+  "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B01CNKF0U4",
-    "walmart_sku": 991078339
+    "walmart_sku": 180895223
   }
 }

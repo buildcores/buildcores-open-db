@@ -2,45 +2,58 @@
   "opendb_id": "2d13d0bd-abc8-42e3-b8f6-64ae86b3d24d",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.6,
       "boost": 3.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2660 V3 2.6 GHz 10-Core LGA2011-3",
+    "name": "Intel Xeon E5-2660 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52660V3", "SR1XR"],
-    "series": "Intel Xeon E5",
+    "series": "Xeon E5-2000 v3",
+    "variant": "E5-2660 v3",
+    "releaseYear": 2014,
     "last_manually_spec_verified_at": "2025-07-28T23:24:55.122Z"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5-2000 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
+  "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B016APJ8Y2",
     "walmart_sku": 416399757
