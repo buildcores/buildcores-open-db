@@ -2,41 +2,54 @@
   "opendb_id": "978c6a6e-24b6-4a23-b063-86a699eff902",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 12
+    "l3": 12,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 9700KF 3.6 GHz 8-Core LGA1151",
+    "name": "Intel Core i7 9700KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684I79700KF"],
-    "series": "Intel Core i7"
+    "series": "Core i7 9000",
+    "variant": "9700KF",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 9000",
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",

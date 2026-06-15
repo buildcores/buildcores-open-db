@@ -17,8 +17,8 @@
     }
   },
   "cache": {
-    "l1": "80 KB (per core)",
-    "l2": 1.25,
+    "l1": "2 × 32 KB Instruction + 2 × 32 KB Data (128 KB total)",
+    "l2": 2.5,
     "l3": 4
   },
   "specifications": {
@@ -26,7 +26,7 @@
       "model": "Intel UHD Graphics 710",
       "baseClock": 300,
       "boostClock": 1300,
-      "shaderCount": 16
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
@@ -36,19 +36,22 @@
     "tdp": 46,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "Intel 7",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
     "name": "Intel Celeron G6900",
     "part_numbers": ["G6900", "BX80715G6900"],
     "releaseYear": 2022,
-    "manufacturer": "Intel"
+    "manufacturer": "Intel",
+    "series": "Celeron G6000",
+    "variant": "G6900"
   },
-  "series": "Celeron",
+  "series": "Celeron G6000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": null,
+  "coreFamily": "Alder Lake",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09Q8L8MDQ",

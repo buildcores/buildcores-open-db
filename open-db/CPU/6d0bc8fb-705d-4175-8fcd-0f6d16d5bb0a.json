@@ -2,7 +2,7 @@
   "opendb_id": "6d0bc8fb-705d-4175-8fcd-0f6d16d5bb0a",
   "cores": {
     "total": 18,
-    "performance": 18,
+    "performance": 0,
     "efficiency": 0,
     "threads": 36
   },
@@ -12,21 +12,21 @@
       "boost": 4.8
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": null,
-    "l2": null,
+    "l1": "18 × 32 KB Instruction + 18 × 32 KB Data (1,152 KB total)",
+    "l2": 18,
     "l3": 24.75
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 256,
@@ -38,17 +38,20 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9-10980XE Extreme Edition",
+    "name": "Intel Core i9 10980XE",
     "releaseYear": 2019,
     "part_numbers": ["BX8069510980XE"],
-    "manufacturer": "Intel"
+    "manufacturer": "Intel",
+    "variant": "10980XE",
+    "series": "Core i9 10000"
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Cascade Lake",
-  "coreFamily": null,
+  "coreFamily": "Cascade Lake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B08DG2HRJN",

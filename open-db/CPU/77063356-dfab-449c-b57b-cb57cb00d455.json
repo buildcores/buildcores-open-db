@@ -2,41 +2,54 @@
   "opendb_id": "77063356-dfab-449c-b57b-cb57cb00d455",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.5,
       "boost": 5.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 48 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 11900F 2.5 GHz 8-Core LGA1200",
+    "name": "Intel Core i9-11900F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070811900F"],
-    "series": "Intel Core i9"
+    "series": "Core i9 11000",
+    "variant": "11900F",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 11000",
   "microarchitecture": "Rocket Lake",
   "coreFamily": "Rocket Lake-S",
   "socket": "LGA 1200",

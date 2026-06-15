@@ -2,41 +2,54 @@
   "opendb_id": "c315b361-a062-410e-9108-de12a2e800d0",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.5,
       "boost": 5.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 192,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD EPYC EPYC 4364P 4.5 GHz 8-Core AM5",
+    "name": "AMD EPYC 4364P",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001477WOF", "4364P"],
-    "series": "AMD EPYC"
+    "series": "EPYC 4004",
+    "variant": "4364P",
+    "releaseYear": 2024
   },
-  "series": "AMD EPYC",
+  "series": "EPYC 4004",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
