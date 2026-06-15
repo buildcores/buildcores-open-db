@@ -2,43 +2,56 @@
   "opendb_id": "80ddf430-efb7-4abf-8ba0-ad0639b4a944",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4000"
+      "model": "Intel HD Graphics 4600",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 160
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 4590S 3.0 GHz 4-Core LGA1150",
+    "name": "Intel Core i5 4590S",
     "manufacturer": "Intel",
     "part_numbers": ["BX80646I54590S", "i5-4590S"],
-    "series": "Intel Core i5"
+    "series": "Core i5 4000",
+    "variant": "4590S",
+    "releaseYear": 2014
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Haswell Refresh",
-  "coreFamily": "Haswell Refresh",
+  "series": "Core i5 4000",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
   "socket": "LGA 1150",
   "general_product_information": {
     "amazon_sku": "B00SYCWFD6"

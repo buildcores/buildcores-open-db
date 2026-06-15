@@ -17,8 +17,8 @@
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 256,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)",
+    "l2": 1.5,
     "l3": 12
   },
   "specifications": {
@@ -26,7 +26,7 @@
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
       "boostClock": 1150,
-      "shaderCount": 0
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
@@ -36,18 +36,22 @@
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 134
   },
   "metadata": {
-    "name": "Intel Core i5-10500 Processor",
+    "name": "Intel Core i5 10500",
     "part_numbers": ["BX8070110500"],
-    "releaseYear": 2020
+    "releaseYear": 2020,
+    "manufacturer": "Intel",
+    "variant": "10500",
+    "series": "Core i5 10000"
   },
-  "series": "Core i5",
+  "series": "Core i5 10000",
   "microarchitecture": "Comet Lake",
-  "coreFamily": null,
+  "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B086MW76DW",

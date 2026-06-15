@@ -2,41 +2,54 @@
   "opendb_id": "b41a8d44-f02d-41b5-aedb-f267b0450a23",
   "cores": {
     "total": 14,
-    "performance": 14,
-    "threads": 28
+    "performance": 0,
+    "threads": 28,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 14,
-    "l3": 25
+    "l3": 19.25,
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 9940X 3.3 GHz 14-Core LGA2066 OEM/Tray",
+    "name": "Intel Core i9-9940X",
     "manufacturer": "Intel",
     "part_numbers": ["CD8067304175600"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9940X",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 9000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",

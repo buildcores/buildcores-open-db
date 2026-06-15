@@ -2,41 +2,54 @@
   "opendb_id": "129aed7c-71fc-4e26-8a7d-527d88eae596",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 64
+    "l3": 64,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 9 3900XT 3.8 GHz 12-Core AM4",
+    "name": "AMD Ryzen 9 3900XT",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000277WOF", "AMD Ryzen 9 3900XT"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 3000",
+    "variant": "3900XT",
+    "releaseYear": 2020
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",
