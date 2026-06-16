@@ -2,41 +2,54 @@
   "opendb_id": "6233c260-d628-42bf-922b-fdfec2f22938",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 5.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 10700K Avengers Collector's Edition 3.8 GHz 8-Core LGA1200",
+    "name": "Intel Core i7 10700K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110700KA"],
-    "series": "Intel Core i7"
+    "series": "Core i7 10000",
+    "variant": "10700K",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
