@@ -2,44 +2,57 @@
   "opendb_id": "5ddb1d54-bfdc-4a6b-9142-771d85707856",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1,152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 1024,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 180,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Threadripper Threadripper 1920X 3.5 GHz 12-Core sTR4",
+    "name": "AMD Ryzen Threadripper 1920X",
     "manufacturer": "AMD",
     "part_numbers": ["YD192XA8AEWOF"],
-    "series": "AMD Threadripper"
+    "series": "Ryzen Threadripper 1000",
+    "variant": "1920X",
+    "releaseYear": 2017
   },
-  "series": "AMD Threadripper",
+  "series": "Ryzen Threadripper 1000",
   "microarchitecture": "Zen",
   "coreFamily": "Whitehaven",
-  "socket": "TR4",
+  "socket": "sTR4",
   "general_product_information": {
     "amazon_sku": "B074CBJHCT",
     "newegg_sku": "9SIAGKCJV66359",
