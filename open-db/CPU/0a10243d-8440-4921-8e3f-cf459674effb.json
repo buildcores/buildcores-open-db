@@ -2,41 +2,54 @@
   "opendb_id": "0a10243d-8440-4921-8e3f-cf459674effb",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 5.3
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 192,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD EPYC EPYC 4344P 3.8 GHz 8-Core AM5",
+    "name": "AMD EPYC 4344P",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001479WOF", "4344P"],
-    "series": "AMD EPYC"
+    "series": "EPYC 4004",
+    "variant": "4344P",
+    "releaseYear": 2024
   },
-  "series": "AMD EPYC",
+  "series": "EPYC 4004",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

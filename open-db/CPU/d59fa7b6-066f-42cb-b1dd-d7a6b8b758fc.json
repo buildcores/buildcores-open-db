@@ -12,14 +12,13 @@
       "boost": 4.5
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "14 x 32 KB, 14 x 32 KB",
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)",
     "l2": 14,
-    "l3": 19
+    "l3": 19.25
   },
   "specifications": {
     "integratedGraphics": {
@@ -36,18 +35,22 @@
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9-9940X X-series Processor",
+    "name": "Intel Core i9 9940X",
     "part_numbers": ["BX80673I99940X"],
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "manufacturer": "Intel",
+    "variant": "9940X",
+    "series": "Core i9 9000"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake-X",
-  "coreFamily": null,
+  "series": "Core i9 9000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B07JFH771Y",

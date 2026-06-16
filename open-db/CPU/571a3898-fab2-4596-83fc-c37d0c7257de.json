@@ -2,41 +2,54 @@
   "opendb_id": "571a3898-fab2-4596-83fc-c37d0c7257de",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4600"
+      "model": "Intel HD Graphics 4600",
+      "baseClock": 350,
+      "boostClock": 1250,
+      "shaderCount": 160
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 84,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 4770K 3.5 GHz 4-Core LGA1150",
+    "name": "Intel Core i7 4770K",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064601464206"],
-    "series": "Intel Core i7"
+    "series": "Core i7 4000",
+    "variant": "4770K",
+    "releaseYear": 2013
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 4000",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell",
   "socket": "LGA 1150",

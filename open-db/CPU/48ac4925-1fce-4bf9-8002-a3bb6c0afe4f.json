@@ -2,41 +2,54 @@
   "opendb_id": "48ac4925-1fce-4bf9-8002-a3bb6c0afe4f",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 4.5
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": true,
-    "packaging": "Boxed",
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 10500 3.1 GHz 6-Core LGA1200",
+    "name": "Intel Core i5 10500 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110500", "4807120"],
-    "series": "Intel Core i5"
+    "series": "Core i5 10000",
+    "variant": "10500",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
