@@ -2,41 +2,54 @@
   "opendb_id": "891fb125-0c86-4ea2-ab5a-85bf033d8c6b",
   "cores": {
     "total": 20,
-    "performance": 20,
-    "threads": 40
+    "performance": 0,
+    "threads": 40,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.2,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 50
+    "l3": 50,
+    "l1": "20 × 32 KB Instruction + 20 × 32 KB Data (1280 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2698 V4 2.2 GHz 20-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-2698 v4 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8066002024000"],
-    "series": "Intel Xeon E5"
+    "series": "E5-2600 v4",
+    "variant": "E5-2698 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "E5-2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",

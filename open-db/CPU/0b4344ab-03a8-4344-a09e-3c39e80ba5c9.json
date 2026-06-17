@@ -2,42 +2,55 @@
   "opendb_id": "0b4344ab-03a8-4344-a09e-3c39e80ba5c9",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.7,
       "boost": 3.5
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2680 2.7 GHz 8-Core LGA2011",
+    "name": "Intel Xeon E5-2680",
     "manufacturer": "Intel",
     "part_numbers": ["BX80621E52680"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600",
+    "releaseYear": 2012,
+    "variant": "E5 2680"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
+  "series": "Xeon E5 2600",
+  "microarchitecture": "Sandy Bridge EP",
   "coreFamily": "Sandy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {

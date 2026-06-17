@@ -2,41 +2,54 @@
   "opendb_id": "d2e54c6a-4407-48cd-8266-761219fc89c3",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 25
+    "l3": 19.25,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 256,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10920X 3.5 GHz 12-Core LGA2066",
+    "name": "Intel Core i9-10920X",
     "manufacturer": "Intel",
     "part_numbers": ["BX8069510920X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10920X",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Cascade Lake",
   "coreFamily": "Cascade Lake-X",
   "socket": "LGA 2066",

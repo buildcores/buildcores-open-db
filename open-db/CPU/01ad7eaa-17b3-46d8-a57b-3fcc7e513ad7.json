@@ -2,41 +2,53 @@
   "opendb_id": "01ad7eaa-17b3-46d8-a57b-3fcc7e513ad7",
   "cores": {
     "total": 14,
-    "performance": 14,
+    "performance": 0,
     "threads": 28
   },
   "clocks": {
     "performance": {
       "base": 2,
       "boost": 3.2
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 35
+    "l2": 3.5,
+    "l3": 35,
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 1536,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2660 V4 2 GHz 14-Core LGA2011-3",
+    "name": "Intel Xeon E5-2660 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52660V4"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v4",
+    "variant": "E5-2660 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
