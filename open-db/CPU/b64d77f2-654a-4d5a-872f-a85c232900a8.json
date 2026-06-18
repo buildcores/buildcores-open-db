@@ -2,46 +2,58 @@
   "opendb_id": "b64d77f2-654a-4d5a-872f-a85c232900a8",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.2,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 8
+    "l3": 8,
+    "l1": "64 KB Instruction per module + 16 KB Data per core (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 95,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD FX 8320E 3.2 GHz 8-Core AM3+",
+    "name": "AMD FX 8320E",
     "manufacturer": "AMD",
     "part_numbers": ["FD832EWMHKBOX", "B960925"],
-    "series": "AMD FX"
+    "series": "FX 8000",
+    "releaseYear": 2014,
+    "variant": "8320E"
   },
-  "series": "AMD FX",
+  "series": "FX 8000",
   "microarchitecture": "Piledriver",
   "coreFamily": "Vishera",
   "socket": "AM3+",
   "general_product_information": {
-    "amazon_sku": "B00MUTWEM6",
-    "walmart_sku": 39798046
+    "amazon_sku": "B00MUTWEM6"
   }
 }
