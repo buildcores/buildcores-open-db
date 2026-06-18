@@ -2,27 +2,106 @@
   "opendb_id": "1239bc12-2d2f-4148-ab1c-b41b41a75136",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 3
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "clear_cmos": false,
+    "flashback": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "AsRock B850M Pro RS WiFi White",
     "manufacturer": "ASRock",
     "series": "PRO",
     "variant": "B850M Pro RS WiFi White",
-    "part_numbers": [],
-    "manufacturer_color": "White"
+    "part_numbers": ["90-MXBT40-A0UAYAZ"],
+    "manufacturer_color": "White",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
+  "color": ["WHITE"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 5.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0x4"
+    }
+  ],
   "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen2 Type-A Port",
+    "1 x USB 3.2 Gen2 Type-C Port",
+    "2 x USB 3.2 Gen1 Ports",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "amazon_sku": "B0FJHT72ZR",
+    "newegg_sku": "N82E16813162230",
+    "bestbuy_sku": 11013060,
+    "walmart_sku": 17459254899
+  }
 }

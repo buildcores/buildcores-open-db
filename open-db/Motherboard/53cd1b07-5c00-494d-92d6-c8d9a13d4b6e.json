@@ -2,10 +2,38 @@
   "opendb_id": "53cd1b07-5c00-494d-92d6-c8d9a13d4b6e",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 3
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4082",
+    "channels": "5.1"
   },
   "metadata": {
     "name": "AsRock X870E TAICHI White",
@@ -13,16 +41,61 @@
     "series": "TAICHI",
     "variant": "X870E",
     "manufacturer_color": "White",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2026
   },
   "socket": "AM5",
   "form_factor": "EATX",
   "chipset": "AMD X870E",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
+  "color": ["WHITE"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 2,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen5.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4.0x4"
+    }
+  ],
   "onboard_ethernet": [],
-  "back_panel_ports": [],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x Optical SPDIF Out Port",
+    "2 x USB4 Type-C Ports (40 Gb/s)",
+    "5 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x Clear CMOS Button",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack (Gold Audio Jack)",
+    "1 x Microphone Input Jack (Gold Audio Jack)"
+  ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "general_product_information": {}
 }

@@ -2,10 +2,38 @@
   "opendb_id": "5840cd61-ccb6-4680-b10d-c83b071e0af2",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 2
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "AsRock X870 Challenger WIFI White",
@@ -13,16 +41,72 @@
     "series": "Challenger",
     "variant": "X870 Challenger",
     "manufacturer_color": "White",
-    "part_numbers": []
+    "part_numbers": ["X870 Challenger WiFi White"],
+    "releaseYear": 2026
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "color": ["WHITE"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen5.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4.0x2"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Dragon"
+    }
+  ],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "2 x USB4 Type-C Ports (40 Gb/s)",
+    "2 x USB 3.2 Gen2 Type-A Ports",
+    "1 x USB 3.2 Gen1 Type-A Port",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks Line in / Front Speaker / Microphone"
+  ],
+  "ecc_support": false,
+  "back_connect_connectors": false,
+  "raid_support": true,
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "general_product_information": {
+    "amazon_sku": "B0GWM7NRL8",
+    "newegg_sku": "N82E16813162252",
+    "walmart_sku": 20096870877
+  }
 }
