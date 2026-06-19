@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "8 x 16 KB data caches, 4 x 64 KB instruction caches",
+    "l1": "4 × 64 KB Instruction + 8 × 16 KB Data (384 KB total)",
     "l2": 8,
     "l3": 8
   },
@@ -38,19 +38,24 @@
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD FX-8350",
     "part_numbers": ["FD8350FRHKHBX"],
-    "releaseYear": 2012
+    "releaseYear": 2012,
+    "manufacturer": "AMD",
+    "series": "FX 8000",
+    "variant": "8350"
   },
-  "series": "FX",
+  "series": "FX 8000",
   "microarchitecture": "Vishera",
-  "coreFamily": null,
+  "coreFamily": "Piledriver",
   "socket": "AM3+",
   "general_product_information": {
     "amazon_sku": "B01F4ZOB3C",
-    "newegg_sku": "9SIAM4SHEE2762"
+    "newegg_sku": "N82E16819113284",
+    "walmart_sku": 51987916
   }
 }

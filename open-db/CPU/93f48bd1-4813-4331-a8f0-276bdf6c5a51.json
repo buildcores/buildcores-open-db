@@ -2,42 +2,55 @@
   "opendb_id": "93f48bd1-4813-4331-a8f0-276bdf6c5a51",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 12
+    "l3": 12,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "boostClock": 0,
+      "shaderCount": 0,
+      "baseClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 9700F 3 GHz 8-Core LGA1151 (OEM/Tray)",
+    "name": "Intel Core i7 9700F OEM / Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403874523"],
-    "series": "Intel Core i7"
+    "series": "Core i7 9000",
+    "variant": "9700F",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i7 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {
