@@ -2,42 +2,55 @@
   "opendb_id": "0eef5725-3634-4a65-b249-49888874dc68",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 Extreme 6950X 3.0 GHz 10-Core LGA2011-3",
+    "name": "Intel Core i7 6950X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80671I76950X"],
-    "series": "Intel Core i7 Extreme"
+    "series": "Core i7 6000",
+    "variant": "6950X",
+    "releaseYear": 2016
   },
-  "series": "Intel Core i7 Extreme",
-  "microarchitecture": "Broadwell",
+  "series": "Core i7 6000",
+  "microarchitecture": "Broadwell-E",
   "coreFamily": "Broadwell-E",
   "socket": "LGA 2011-3",
   "general_product_information": {
