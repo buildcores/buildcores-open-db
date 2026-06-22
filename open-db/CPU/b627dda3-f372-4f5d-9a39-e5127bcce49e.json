@@ -2,41 +2,54 @@
   "opendb_id": "b627dda3-f372-4f5d-9a39-e5127bcce49e",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "64 KB Instruction per module + 16 KB Data per core (192 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "boostClock": 720,
+      "baseClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A10 A10-7850K 3.7 GHz 4-Core FM2+",
+    "name": "AMD A10-7850K",
     "manufacturer": "AMD",
     "part_numbers": ["AD785KXBJABOX"],
-    "series": "AMD A10"
+    "series": "A10 7000",
+    "releaseYear": 2014,
+    "variant": "7850K"
   },
-  "series": "AMD A10",
+  "series": "A10 7000",
   "microarchitecture": "Steamroller",
   "coreFamily": "Kaveri",
   "socket": "FM2+",

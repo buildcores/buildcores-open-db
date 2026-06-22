@@ -2,41 +2,54 @@
   "opendb_id": "9ba01056-5190-4d7b-ade4-e930eeddd24c",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 25
+    "l3": 8.25,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066",
+    "name": "Intel Core i7 7800X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I77800X"],
-    "series": "Intel Core i7"
+    "series": "Core i7 7000",
+    "variant": "7800X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 7000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
