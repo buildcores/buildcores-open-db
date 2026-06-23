@@ -2,42 +2,55 @@
   "opendb_id": "fdbaa917-5ffa-4a2f-b37b-c40280dfe3dd",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 10
+    "l3": 10,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 4820K 3.7 GHz 4-Core LGA2011",
+    "name": "Intel Core i7 4820K",
     "manufacturer": "Intel",
     "part_numbers": ["BX80633I74820K"],
-    "series": "Intel Core i7"
+    "series": "Core i7 4000",
+    "variant": "4820K",
+    "releaseYear": 2013
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Core i7 4000",
+  "microarchitecture": "Ivy Bridge E",
   "coreFamily": "Ivy Bridge-E",
   "socket": "LGA 2011",
   "general_product_information": {
