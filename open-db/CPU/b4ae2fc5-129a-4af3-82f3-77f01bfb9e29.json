@@ -2,41 +2,54 @@
   "opendb_id": "b4ae2fc5-129a-4af3-82f3-77f01bfb9e29",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics P630"
+      "model": "Intel HD Graphics P630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
-      "maxSupport": 64,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 71,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E 2174G 3.8 GHz 4-Core LGA1151 OEM/Tray",
+    "name": "Intel Xeon E-2174G",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403654221"],
-    "series": "Intel Xeon E"
+    "series": "Xeon E 2100",
+    "variant": "2174G",
+    "releaseYear": 2018
   },
-  "series": "Intel Xeon E",
+  "series": "Xeon E 2100",
   "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake",
   "socket": "LGA 1151",
