@@ -2,41 +2,54 @@
   "opendb_id": "3cb99ba6-4a3b-4f8b-b63f-f20a79be104a",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 3.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics P630"
+      "model": "Intel HD Graphics P630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 73,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E3 1225 V6 3.3 GHz 4-Core LGA1151",
+    "name": "Intel Xeon E3-1225 v6",
     "manufacturer": "Intel",
     "part_numbers": ["BX80677E31225V6"],
-    "series": "Intel Xeon E3"
+    "series": "Xeon E3 1200 v6",
+    "variant": "1225 v6",
+    "releaseYear": 2017
   },
-  "series": "Intel Xeon E3",
+  "series": "Xeon E3 1200 v6",
   "microarchitecture": "Kaby Lake",
   "coreFamily": "Kaby Lake-S",
   "socket": "LGA 1151",
