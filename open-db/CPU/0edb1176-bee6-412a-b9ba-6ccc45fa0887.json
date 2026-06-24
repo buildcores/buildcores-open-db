@@ -2,41 +2,54 @@
   "opendb_id": "0edb1176-bee6-412a-b9ba-6ccc45fa0887",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "boostClock": 847,
+      "baseClock": 384,
+      "shaderCount": 384
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A-Series A10 9700E 3 GHz 4-Core AM4",
+    "name": "AMD A10-9700E",
     "manufacturer": "AMD",
     "part_numbers": ["AD9700AHABBOX", "B961021"],
-    "series": "AMD A10"
+    "series": "A-Series A10 9000",
+    "variant": "9700E",
+    "releaseYear": 2017
   },
-  "series": "AMD A10",
+  "series": "A-Series A10 9000",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",

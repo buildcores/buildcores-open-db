@@ -2,43 +2,56 @@
   "opendb_id": "a8cd0239-10f5-4e57-be79-c3540e17cafc",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 3,
-    "l3": 96
+    "l3": 96,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)",
+    "l2": 3
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5600X3D 3.3 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 5600X3D",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001176WO", "100-100001176WOF"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "variant": "5600X3D",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
-  "coreFamily": "Vermeer-X",
+  "coreFamily": "Vermeer",
   "socket": "AM4",
   "general_product_information": {}
 }

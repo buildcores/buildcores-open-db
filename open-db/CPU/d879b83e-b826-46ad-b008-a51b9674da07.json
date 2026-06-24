@@ -2,41 +2,54 @@
   "opendb_id": "d879b83e-b826-46ad-b008-a51b9674da07",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "threads": 8,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.5,
       "boost": 3.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4000"
+      "model": "Intel HD Graphics 4000",
+      "baseClock": 650,
+      "boostClock": 1150,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 45,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 3770T 2.5 GHz 4-Core LGA1155",
+    "name": "Intel Core i7 3770T OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8063701212200"],
-    "series": "Intel Core i7"
+    "series": "Core i7 3000",
+    "variant": "3770T",
+    "releaseYear": 2012
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 3000",
   "microarchitecture": "Ivy Bridge",
   "coreFamily": "Ivy Bridge",
   "socket": "LGA 1155",
