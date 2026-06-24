@@ -2,41 +2,54 @@
   "opendb_id": "296774f6-2c83-4ce0-b475-125e4c88c0d1",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 112,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 7640X 4 GHz 4-Core LGA2066",
+    "name": "Intel Core i5 7640X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80677I57640X"],
-    "series": "Intel Core i5"
+    "series": "Core i5 7000",
+    "variant": "7640X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 7000",
   "microarchitecture": "Kaby Lake",
   "coreFamily": "Kaby Lake-X",
   "socket": "LGA 2066",

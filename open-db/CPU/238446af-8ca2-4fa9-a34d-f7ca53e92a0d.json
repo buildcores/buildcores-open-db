@@ -2,43 +2,56 @@
   "opendb_id": "238446af-8ca2-4fa9-a34d-f7ca53e92a0d",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 256,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1650 V2 OEM/Tray 3.5 GHz 6-Core LGA2011",
+    "name": "Intel Xeon E5-1650 v2 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8063501292204"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v2",
+    "variant": "1650 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
-  "coreFamily": "Ivy Bridge-EP",
+  "series": "Xeon E5 1600 v2",
+  "microarchitecture": "Ivy Bridge EP",
+  "coreFamily": "Ivy Bridge-E",
   "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B00F3U005M"

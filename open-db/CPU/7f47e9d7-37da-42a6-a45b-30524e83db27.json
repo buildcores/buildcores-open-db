@@ -2,41 +2,54 @@
   "opendb_id": "7f47e9d7-37da-42a6-a45b-30524e83db27",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.1,
       "boost": 3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 40
+    "l3": 40,
+    "l1": "16 × 32 KB Instruction + 16 × 32 KB Data (1024 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2683 V4 2.1 GHz 16-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-2683 v4 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8066002023604"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v4",
+    "variant": "2683 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
