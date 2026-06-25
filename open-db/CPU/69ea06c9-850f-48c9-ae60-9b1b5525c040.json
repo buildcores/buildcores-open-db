@@ -2,47 +2,60 @@
   "opendb_id": "69ea06c9-850f-48c9-ae60-9b1b5525c040",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 64 KB Instruction + 8 × 16 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD FX FX FX-8370 4 GHz 8-Core AM3+",
+    "name": "AMD FX-8370",
     "manufacturer": "AMD",
     "part_numbers": ["FD8370FRHKBOX", "FBA_FD8370FRHKBOX"],
-    "series": "AMD FX"
+    "series": "FX 8000",
+    "variant": "8370",
+    "releaseYear": 2014
   },
-  "series": "AMD FX",
+  "series": "FX 8000",
   "microarchitecture": "Piledriver",
   "coreFamily": "Vishera",
   "socket": "AM3+",
   "general_product_information": {
     "amazon_sku": "B00MUTWELC",
-    "newegg_sku": "9SIA4REJU82207",
-    "walmart_sku": 39846183
+    "newegg_sku": "N82E16819113374",
+    "walmart_sku": 49986832
   }
 }

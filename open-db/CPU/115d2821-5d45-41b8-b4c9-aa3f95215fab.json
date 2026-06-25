@@ -2,43 +2,60 @@
   "opendb_id": "115d2821-5d45-41b8-b4c9-aa3f95215fab",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 32
+    "l3": 32,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5 OEM/Tray",
+    "name": "AMD Ryzen 5 7500F OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-000000597"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 7000",
+    "variant": "7500F",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0D1CK42PV",
+    "newegg_sku": "9SIC3U3KN44094",
+    "walmart_sku": 11959955844
+  }
 }

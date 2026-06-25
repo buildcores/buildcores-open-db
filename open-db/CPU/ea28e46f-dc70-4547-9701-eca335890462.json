@@ -2,9 +2,9 @@
   "opendb_id": "ea28e46f-dc70-4547-9701-eca335890462",
   "cores": {
     "total": 6,
-    "performance": null,
+    "performance": 0,
     "threads": 12,
-    "efficiency": null
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
@@ -12,18 +12,21 @@
       "boost": 5
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
     "l3": 32,
-    "l1": "384 KB"
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": null
+      "model": "0",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
@@ -32,16 +35,17 @@
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": false,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 7500F",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000597BOX"],
-    "series": "AMD Ryzen 5 7000",
+    "series": "Ryzen 5 7000",
     "variant": "7500F",
     "releaseYear": 2020
   },
@@ -49,5 +53,9 @@
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0D2RWZ2LK",
+    "newegg_sku": "N82E16819113827",
+    "walmart_sku": 10690255858
+  }
 }
