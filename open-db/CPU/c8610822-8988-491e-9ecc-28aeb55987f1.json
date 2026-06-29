@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "96 KB (per core)",
+    "l1": "16 × 64 KB Instruction + 16 × 32 KB Data (1536 KB total)",
     "l2": 8,
     "l3": 32
   },
@@ -29,7 +29,7 @@
       "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
+      "maxSupport": 2048,
       "types": ["DDR4"],
       "channels": 4
     },
@@ -38,20 +38,24 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Ryzen Threadripper 2950X",
+    "name": "AMD Ryzen Threadripper 2950X",
     "part_numbers": ["116594", "YD295XA8AFWOF"],
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "manufacturer": "AMD",
+    "variant": "2950X",
+    "series": "Ryzen Threadripper 2000"
   },
-  "series": "Ryzen Threadripper",
+  "series": "Ryzen Threadripper 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Colfax",
   "socket": "TR4",
   "general_product_information": {
     "amazon_sku": "B07GFN6CVF",
-    "newegg_sku": "9SIA4REK9P7527",
+    "newegg_sku": "N82E16819113542",
     "walmart_sku": 465673464
   }
 }

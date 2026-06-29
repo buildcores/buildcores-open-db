@@ -2,47 +2,60 @@
   "opendb_id": "ef919fd3-b02f-414b-987f-7fea17ff8d82",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.3,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 112,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
+    "name": "Intel Core i7 7740X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80677I77740X", "i7-7740X"],
-    "series": "Intel Core i7"
+    "series": "Core i7 7000",
+    "variant": "7740X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 7000",
   "microarchitecture": "Kaby Lake",
   "coreFamily": "Kaby Lake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B072KTRQ9G",
-    "newegg_sku": "9SIBMM4KBA9546",
+    "newegg_sku": "N82E16819117792",
     "walmart_sku": 303078782
   }
 }

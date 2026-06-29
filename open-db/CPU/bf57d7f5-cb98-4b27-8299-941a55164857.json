@@ -2,42 +2,55 @@
   "opendb_id": "bf57d7f5-cb98-4b27-8299-941a55164857",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0,
+    "includesCooler": false
   },
   "metadata": {
-    "name": "Intel Core i9 9900 3.1 GHz 8-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i9 9900",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403874032", "BX80684I99900"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9900",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i9 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {

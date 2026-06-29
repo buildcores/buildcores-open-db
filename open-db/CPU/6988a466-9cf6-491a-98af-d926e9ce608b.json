@@ -2,46 +2,60 @@
   "opendb_id": "6988a466-9cf6-491a-98af-d926e9ce608b",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "512 KB (8 × 32 KB Data + 8 × 32 KB Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 9900K 3.6 GHz 8-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i9 9900K",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403873914", "i9-9900K"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9900K",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 9000",
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B07K1FV341",
+    "newegg_sku": "9SIA4REK9D4763",
     "walmart_sku": 954932369
   }
 }

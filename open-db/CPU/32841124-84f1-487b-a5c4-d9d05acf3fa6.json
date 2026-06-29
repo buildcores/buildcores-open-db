@@ -2,47 +2,60 @@
   "opendb_id": "32841124-84f1-487b-a5c4-d9d05acf3fa6",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.7
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 10,
-    "l3": 25
+    "l3": 19.25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 256,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10900X 3.7 GHz 10-Core",
+    "name": "Intel Core i9 10900X",
     "manufacturer": "Intel",
     "part_numbers": ["BX8069510900X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10900X",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Cascade Lake",
   "coreFamily": "Cascade Lake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B07YP69HTM",
-    "newegg_sku": "9SIBMM4KBA8904",
+    "newegg_sku": "N82E16819118111",
     "bestbuy_sku": 6387660,
     "walmart_sku": 654891774
   }

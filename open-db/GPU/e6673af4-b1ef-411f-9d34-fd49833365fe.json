@@ -1,11 +1,19 @@
 {
   "opendb_id": "e6673af4-b1ef-411f-9d34-fd49833365fe",
+  "power_connectors": {
+    "pcie_8_pin": 1
+  },
+  "video_outputs": {
+    "displayport_2_1a": 1,
+    "hdmi_2_1b": 2
+  },
   "metadata": {
     "name": "ASUS GeForce RTX 5060 LP BRK 8GB GDDR7",
     "manufacturer": "Asus",
     "variant": "LP BRK",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["RTX5060-8G-LP-BRK"],
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
@@ -13,7 +21,19 @@
   "memory_type": "GDDR7",
   "tdp": 145,
   "length": 175.8,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "core_count": 3840,
+  "core_base_clock": 2280,
+  "core_boost_clock": 2497,
+  "effective_memory_clock": 1750,
+  "memory_bus": 128,
+  "frame_sync": "G-Sync",
+  "interface": "PCIe 5.0 x8",
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "3 Fans",
+  "general_product_information": {
+    "newegg_sku": "9SIBP4YKKE3375"
+  }
 }

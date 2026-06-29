@@ -17,15 +17,34 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 4,
+    "pump": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 3
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4082",
     "channels": "7.1"
   },
   "metadata": {
@@ -34,7 +53,8 @@
     "part_numbers": ["Z890 Taichi Lite", "90-MXBPQ0-A0UAYZ", "Z890 TAICHI LITE"],
     "variant": "Z890 Lite",
     "manufacturer_color": "Black/Silver",
-    "series": "Taichi"
+    "series": "Taichi",
+    "releaseYear": 2024
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
@@ -42,16 +62,21 @@
   "color": ["GREY", "BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2260-2280",
@@ -59,22 +84,12 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2230-2242",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
@@ -84,28 +99,8 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -119,9 +114,21 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x 5 Gb/s (Realtek 8126)                                                    1 x 2.5 Gb/s (Realtek Dragon RTL8125BG)"
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x Optical SPDIF Out Port",
+    "2 x Thunderbolt 4 Type-C Port",
+    "4 x USB 3.2 Gen2 Type-A Ports",
+    "4 x USB 3.2 Gen1 Ports",
+    "2 x USB 2.0 Ports",
+    "2 x RJ-45 LAN Ports",
+    "1 x Clear CMOS Button",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack",
+    "1 x Microphone Input Jack"
   ],
-  "lighting": [],
+  "lighting": ["ARGB"],
+  "wireless_networking": "Wifi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DJRP9CWD",
     "newegg_sku": "N82E16813162171",

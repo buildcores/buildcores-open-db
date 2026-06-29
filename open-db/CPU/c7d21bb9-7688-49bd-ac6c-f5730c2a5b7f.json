@@ -2,41 +2,54 @@
   "opendb_id": "c7d21bb9-7688-49bd-ac6c-f5730c2a5b7f",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.7
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 12
+    "l3": 12,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 630"
+      "model": "Intel HD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "includesCooler": true,
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 9700 3 GHz 8-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i7 9700",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403874521"],
-    "series": "Intel Core i7"
+    "series": "Core i7 9000",
+    "variant": "9700",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 9000",
   "microarchitecture": "Coffee Lake Refresh",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",

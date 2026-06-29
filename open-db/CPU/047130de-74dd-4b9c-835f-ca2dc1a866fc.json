@@ -2,43 +2,58 @@
   "opendb_id": "047130de-74dd-4b9c-835f-ca2dc1a866fc",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 2500"
+      "model": "Intel HD Graphics 2500",
+      "baseClock": 650,
+      "boostClock": 1150,
+      "shaderCount": 48
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 3570S 3.1 GHz 4-Core LGA1155 OEM/Tray",
+    "name": "Intel Core i5 3570S OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8063701093901"],
-    "series": "Intel Core i5"
+    "series": "Core i5 3000",
+    "releaseYear": 2012,
+    "variant": "3570S"
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 3000",
   "microarchitecture": "Ivy Bridge",
   "coreFamily": "Ivy Bridge",
   "socket": "LGA 1155",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B082GNGGFX"
+  }
 }

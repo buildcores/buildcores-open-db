@@ -2,41 +2,54 @@
   "opendb_id": "fffab94c-d43c-4b94-af4f-07f0c329ac0a",
   "cores": {
     "total": 22,
-    "performance": 22,
-    "threads": 44
+    "performance": 0,
+    "threads": 44,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.2,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 55
+    "l2": 5.5,
+    "l3": 55,
+    "l1": "22 × 32 KB Instruction + 22 × 32 KB Data (1408 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 145,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2699 V4 2.2 GHz 22-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-2699 v4",
     "manufacturer": "Intel",
     "part_numbers": ["CM8066002022506"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5-2600 v4",
+    "variant": "E5-2699 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5-2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",

@@ -2,43 +2,56 @@
   "opendb_id": "15abb515-0c8f-4cbc-af37-434908b5729a",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 48 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 11900KF 3.5 GHz 8-Core LGA1200",
+    "name": "Intel Core i9 11900KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070811900KF"],
-    "series": "Intel Core i9"
+    "series": "Core i9 11000",
+    "variant": "11900KF",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 11000",
   "microarchitecture": "Rocket Lake",
-  "coreFamily": "Rocket Lake-S",
+  "coreFamily": "Cypress Cove",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B08X6KQSZ1",

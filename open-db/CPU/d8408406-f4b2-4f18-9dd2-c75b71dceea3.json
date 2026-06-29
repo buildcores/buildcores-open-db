@@ -2,45 +2,59 @@
   "opendb_id": "d8408406-f4b2-4f18-9dd2-c75b71dceea3",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 10,
-    "l3": 25
+    "l3": 19.25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 9900X 3.5 GHz 10-Core LGA2066",
+    "name": "Intel Core i9 9900X",
     "manufacturer": "Intel",
     "part_numbers": ["CD8067304126200"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9900X",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 9000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
-    "amazon_sku": "B07L5Q7K8N"
+    "amazon_sku": "B07L5Q7K8N",
+    "newegg_sku": "N82E16819117975"
   }
 }

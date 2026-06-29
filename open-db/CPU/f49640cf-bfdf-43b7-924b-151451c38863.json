@@ -2,45 +2,60 @@
   "opendb_id": "f49640cf-bfdf-43b7-924b-151451c38863",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 25
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2667 V2 OEM/Tray 3.3 GHz 8-Core LGA2011",
+    "name": "Intel Xeon E5-2667 v2 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8063501287304", "LSE-0A3F89993E5DFDA0A52DB0F63663A4E2"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v2",
+    "variant": "2667 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Xeon E5 2600 v2",
+  "microarchitecture": "Ivy Bridge-EP",
   "coreFamily": "Ivy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
-    "amazon_sku": "B08NPX1X3S"
+    "amazon_sku": "B08NPX1X3S",
+    "newegg_sku": "2NS-0006-06EW6",
+    "walmart_sku": 605336731
   }
 }

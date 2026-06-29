@@ -2,46 +2,60 @@
   "opendb_id": "a23a5235-8ab4-4dd1-b48d-ca1fbbf25a94",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 10
+    "l3": 10,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1620 V3 3.5 GHz 4-Core LGA2011-3",
+    "name": "Intel Xeon E5-1620 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E51620V3"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v3",
+    "releaseYear": 2014,
+    "variant": "1620 v3"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 1600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
     "amazon_sku": "B00MU046J4",
+    "newegg_sku": "N82E16819117512",
     "walmart_sku": 41192925
   }
 }

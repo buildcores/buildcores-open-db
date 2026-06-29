@@ -2,12 +2,12 @@
   "opendb_id": "1d967fd9-6c6f-4693-9b1f-8c5af65fe4a7",
   "connectors": {
     "atx_24_pin": 1,
-    "eps_8_pin": 0,
-    "pcie_12vhpwr": 0,
-    "pcie_6_plus_2_pin": 0,
     "sata": 7,
-    "molex_4_pin": 0,
-    "floppy_4_pin": 0
+    "floppy_4_pin": 0,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "molex_4_pin": 6
   },
   "metadata": {
     "name": "Asus ROG Thor P3 Gaming White 1200W Fully Modular 80+ Platinum",
@@ -15,7 +15,8 @@
     "part_numbers": ["rog-thor-1200p3-white-gaming"],
     "series": "ROG Thor",
     "variant": "1200W Platinum III",
-    "manufacturer_color": "White"
+    "manufacturer_color": "White",
+    "releaseYear": 2026
   },
   "wattage": 1200,
   "form_factor": "ATX",
@@ -24,6 +25,10 @@
   "color": ["WHITE"],
   "length": 190,
   "fanless": false,
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["None", "ARGB"],
+  "cybernetics_efficiency_rating": "Cybenetics Platinum",
+  "cybernetics_noise_rating": "Cybenetics A++",
+  "general_product_information": {
+    "amazon_sku": "B0BWH7LDN5"
+  }
 }

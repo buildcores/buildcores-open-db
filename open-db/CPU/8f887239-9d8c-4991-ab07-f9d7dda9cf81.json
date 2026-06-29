@@ -2,41 +2,54 @@
   "opendb_id": "8f887239-9d8c-4991-ab07-f9d7dda9cf81",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.7
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 8700K 3.7 GHz 6-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i7 8700K OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403358220"],
-    "series": "Intel Core i7"
+    "series": "Core i7 8000",
+    "variant": "8700K",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 8000",
   "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake",
   "socket": "LGA 1151",

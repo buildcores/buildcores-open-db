@@ -2,7 +2,7 @@
   "opendb_id": "26958ace-558b-4181-ba1a-82a0fbc8a132",
   "cores": {
     "total": 2,
-    "performance": 2,
+    "performance": 0,
     "efficiency": 0,
     "threads": 4
   },
@@ -12,13 +12,12 @@
       "boost": 4
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": null,
-    "l2": null,
+    "l1": "2 × 32 KB Instruction + 2 × 32 KB Data (128 KB total)",
     "l3": 4
   },
   "specifications": {
@@ -26,7 +25,7 @@
       "model": "Intel UHD Graphics 610",
       "baseClock": 350,
       "boostClock": 1050,
-      "shaderCount": null
+      "shaderCount": 96
     },
     "memory": {
       "maxSupport": 128,
@@ -36,17 +35,21 @@
     "tdp": 58,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": null,
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel® Pentium® Gold G6400 Processor (4M Cache, 4.00 GHz)",
+    "name": "Intel Pentium Gold G6400",
     "part_numbers": ["BX80701G6400"],
     "releaseYear": 2020,
+    "manufacturer": "Intel",
+    "series": "Pentium Gold G6000",
+    "variant": "G6400",
     "last_manually_spec_verified_at": "2025-07-28T23:30:30.778Z"
   },
-  "series": "Intel Pentium Gold Processor Series",
+  "series": "Pentium Gold G6000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",

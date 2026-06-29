@@ -1,11 +1,19 @@
 {
   "opendb_id": "4bb4a9fd-8446-4086-99a3-bfa29f4b9f46",
+  "power_connectors": {
+    "pcie_12V_2x6": 1
+  },
+  "video_outputs": {
+    "hdmi_2_1b": 0,
+    "displayport_2_1a": 4
+  },
   "metadata": {
     "name": "ASRock AMD Radeon AI PRO R9700 Creator 32GB",
     "manufacturer": "ASRock",
     "series": "Creator",
     "manufacturer_color": "Black / Gold",
-    "part_numbers": []
+    "part_numbers": ["90-GA5XZZ-00UANZ", "R9700 CT 32G", "90-GA5XZZ-00UANF"],
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon AI PRO R9700",
@@ -13,7 +21,20 @@
   "memory_type": "GDDR6",
   "tdp": 300,
   "length": 271,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK", "GOLD"],
+  "lighting": ["None"],
+  "core_count": 4096,
+  "core_base_clock": 1660,
+  "core_boost_clock": 2920,
+  "effective_memory_clock": 2518,
+  "memory_bus": 256,
+  "frame_sync": "FreeSync",
+  "interface": "PCIe 5.0 x16",
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "Blower",
+  "general_product_information": {
+    "amazon_sku": "B0G1WZMKW6",
+    "newegg_sku": "N82E16814930143"
+  }
 }

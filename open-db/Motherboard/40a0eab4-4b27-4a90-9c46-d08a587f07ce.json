@@ -14,11 +14,30 @@
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 1,
     "usb_4": 1
   },
+  "fan_headers": {
+    "case_fan": 4,
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -40,7 +59,7 @@
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": [],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -49,12 +68,7 @@
     },
     {
       "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
+      "quantity": 2,
       "lanes": 4
     },
     {
@@ -65,22 +79,22 @@
   ],
   "m2_slots": [
     {
-      "size": "2242",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "22110",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4 & SATA"
     }
@@ -105,11 +119,10 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF Out"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6 Bluetooth 5.2",
   "general_product_information": {
     "amazon_sku": "B0BG7DY6MT",
-    "newegg_sku": "N82E16813119602",
-    "bestbuy_sku": 6523720,
-    "walmart_sku": 1029419728
+    "newegg_sku": "N82E16813119602"
   }
 }

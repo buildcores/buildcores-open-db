@@ -12,13 +12,13 @@
       "boost": 4.5
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 1,
+    "l1": "512 KB (8×32 KB L1 Data + 8×32 KB L1 Instruction)",
+    "l2": 8,
     "l3": 11
   },
   "specifications": {
@@ -38,20 +38,24 @@
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7-7820X",
+    "name": "Intel Core i7 7820X",
     "part_numbers": ["BX80673I77820X"],
-    "releaseYear": 2017
+    "releaseYear": 2017,
+    "manufacturer": "Intel",
+    "variant": "7820X",
+    "series": "Core i7 7000"
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Skylake-X",
-  "coreFamily": null,
+  "series": "Core i7 7000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B072NF4BY3",
-    "newegg_sku": "9SIA4REK9P1320",
+    "newegg_sku": "N82E16819117794",
     "walmart_sku": 709236273
   }
 }

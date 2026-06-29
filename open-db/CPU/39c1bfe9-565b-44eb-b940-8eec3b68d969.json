@@ -2,7 +2,7 @@
   "opendb_id": "39c1bfe9-565b-44eb-b940-8eec3b68d969",
   "cores": {
     "total": 2,
-    "performance": 2,
+    "performance": 0,
     "efficiency": 0,
     "threads": 4
   },
@@ -17,19 +17,19 @@
     }
   },
   "cache": {
-    "l1": "96 KB (per core)",
-    "l2": 512,
+    "l1": "2 × 64 KB Instruction + 2 × 32 KB Data (192 KB total)",
+    "l2": 1,
     "l3": 4
   },
   "specifications": {
     "integratedGraphics": {
       "model": "AMD Radeon Vega 3",
       "baseClock": 1,
-      "boostClock": 0,
-      "shaderCount": 0
+      "boostClock": 1000,
+      "shaderCount": 192
     },
     "memory": {
-      "maxSupport": 0,
+      "maxSupport": 64,
       "types": ["DDR4"],
       "channels": 2
     },
@@ -38,20 +38,24 @@
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Athlon 200GE",
     "part_numbers": ["YD200GC6FBBOX"],
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "variant": "200GE",
+    "series": "Athlon 200",
+    "manufacturer": "AMD"
   },
-  "series": "Athlon",
+  "series": "Athlon 200",
   "microarchitecture": "Zen",
-  "coreFamily": null,
+  "coreFamily": "Picasso",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B07HJWVJDN",
-    "newegg_sku": "9SIASGMK8B0129",
+    "newegg_sku": "N82E16819113544",
     "walmart_sku": 108176692
   }
 }

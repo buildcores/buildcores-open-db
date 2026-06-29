@@ -2,34 +2,34 @@
   "opendb_id": "ab6f4801-06f7-4d96-a9f4-0a84de527f54",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "efficiency": null,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 16
   },
   "clocks": {
     "performance": {
-      "base": 3800,
-      "boost": 4700
+      "base": 3.9,
+      "boost": 4.7
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 512,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)",
+    "l2": 4,
     "l3": 32
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": null,
+      "maxSupport": 128,
       "types": ["DDR4"],
       "channels": 2
     },
@@ -37,21 +37,25 @@
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
     "name": "AMD Ryzen 7 3800XT",
     "part_numbers": ["AMD Ryzen 7 3800XT", "100-100000279WOF"],
-    "releaseYear": 2020
+    "releaseYear": 2020,
+    "manufacturer": "AMD",
+    "variant": "3800XT",
+    "series": "Ryzen 7 3000"
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse 2",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B089WCXZJC",
-    "newegg_sku": "9SIASGMK7V2811",
+    "newegg_sku": "N82E16819113652",
     "bestbuy_sku": 6422511
   }
 }

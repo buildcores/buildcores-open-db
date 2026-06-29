@@ -2,41 +2,54 @@
   "opendb_id": "fa3fa848-a686-4c5d-a31e-eaa9f9914f3f",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.6,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 30
+    "l3": 30,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2690 V3 2.6 GHz 12-Core LGA2011-3",
+    "name": "Intel Xeon E5-2690 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52690V3", "5032037064651-cr"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "variant": "2690 v3",
+    "releaseYear": 2014
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",

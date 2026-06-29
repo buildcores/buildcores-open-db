@@ -2,22 +2,31 @@
   "opendb_id": "7bcf034c-041b-45f1-bbde-9dafc7f0fb8c",
   "cores": {
     "total": 24,
-    "threads": 48
+    "threads": 48,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.2,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "1536 KB",
+    "l1": "1.5 MB (24 × 32 KB Data + 24 × 32 KB Instruction)",
     "l2": 24,
     "l3": 128
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 2048,
@@ -29,17 +38,18 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 7965WX",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000885WOF"],
-    "series": "AMD Ryzen Threadripper PRO 7000 WX",
+    "series": "Threadripper PRO 7000",
     "variant": "7965WX",
     "releaseYear": 2023
   },
-  "series": "AMD Ryzen Threadripper PRO 7000 WX",
+  "series": "Threadripper PRO 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Storm Peak",
   "socket": "sTR5",

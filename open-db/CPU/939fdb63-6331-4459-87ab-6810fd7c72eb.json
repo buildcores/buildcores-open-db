@@ -2,47 +2,60 @@
   "opendb_id": "939fdb63-6331-4459-87ab-6810fd7c72eb",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 10105 3.7 GHz 4-Core LGA1200",
+    "name": "Intel Core i3 10105",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110105"],
-    "series": "Intel Core i3"
+    "series": "Core i3 10000",
+    "variant": "10105",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B092ZGRHB5",
-    "newegg_sku": "9SIBFJRK9Y1824",
+    "newegg_sku": "N82E16819118248",
     "walmart_sku": 539378364
   }
 }

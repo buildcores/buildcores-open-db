@@ -2,47 +2,60 @@
   "opendb_id": "0e3a1478-3653-450c-ab32-b9755695c75b",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 5.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 2.5,
+    "l3": 20,
+    "l1": "640 KB (10 × 32 KB Data + 10 × 32 KB Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10850K 3.6 GHz 10-Core LGA1200",
+    "name": "Intel Core i9 10850K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110850K"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10850K",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B08DHRG2X9",
-    "newegg_sku": "9SIBWH3KAC6962",
+    "newegg_sku": "N82E16819118175",
     "bestbuy_sku": 6428160,
     "walmart_sku": 151820731
   }

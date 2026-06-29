@@ -2,41 +2,54 @@
   "opendb_id": "b6ccf9c4-58e4-4c14-8dbd-82454da31ce8",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 30
+    "l3": 30,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "boostClock": 0,
+      "shaderCount": 0,
+      "baseClock": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 160,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2687W V4 3 GHz 12-Core LGA2011-3",
+    "name": "Intel Xeon E5-2687W v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52687V4"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v4",
+    "variant": "2687W v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",

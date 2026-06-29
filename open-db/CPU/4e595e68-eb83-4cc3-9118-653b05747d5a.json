@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
+    "l1": "256 KB (4×32 KB L1 Data + 4×32 KB L1 Instruction)",
     "l2": 1,
     "l3": 6
   },
@@ -26,7 +26,7 @@
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
       "boostClock": 1100,
-      "shaderCount": 0
+      "shaderCount": 184
     },
     "memory": {
       "maxSupport": 64,
@@ -38,20 +38,24 @@
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3-8100",
+    "name": "Intel Core i3 8100",
     "part_numbers": ["BX80684I38100"],
-    "releaseYear": 2017
+    "releaseYear": 2017,
+    "manufacturer": "Intel",
+    "variant": "8100",
+    "series": "Core i3 8000"
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 8000",
   "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B0759FTRZL",
-    "newegg_sku": "9SIBWH3KAX9185",
+    "newegg_sku": "N82E16819117822",
     "bestbuy_sku": 6162970,
     "walmart_sku": 215584648
   }

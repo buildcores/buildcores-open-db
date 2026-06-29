@@ -2,41 +2,54 @@
   "opendb_id": "850de815-7c76-48e5-8097-a009109be14b",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.1,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 96
+    "l3": 96,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core AM5 OEM/Tray",
+    "name": "AMD Ryzen 5 7600X3D OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-000001721"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 7000",
+    "variant": "7600X3D",
+    "releaseYear": 2024
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

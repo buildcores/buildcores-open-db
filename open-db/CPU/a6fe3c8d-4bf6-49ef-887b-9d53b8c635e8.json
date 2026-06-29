@@ -2,7 +2,9 @@
   "opendb_id": "a6fe3c8d-4bf6-49ef-887b-9d53b8c635e8",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,32 +18,40 @@
   },
   "cache": {
     "l2": 14,
-    "l3": 30
+    "l3": 30,
+    "l1": "16 × 32 KB Instruction + 16 × 48 KB Data (1,280 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1550,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 202
   },
   "metadata": {
-    "name": "Intel Core i9 12900 2.4 GHz 16-Core LGA1700",
+    "name": "Intel Core i9 12900",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071512900"],
-    "series": "Intel Core i9"
+    "series": "Core i9 12000",
+    "variant": "12900",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B09RPF28CG",

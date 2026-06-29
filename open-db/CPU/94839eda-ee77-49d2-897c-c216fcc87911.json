@@ -2,45 +2,59 @@
   "opendb_id": "94839eda-ee77-49d2-897c-c216fcc87911",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 3.7
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E3-1230 V3 3.3 GHz 4-Core LGA1150",
+    "name": "Intel Xeon E3-1230 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80646E31230V3"],
-    "series": "Intel Xeon E3"
+    "series": "Xeon E3-1200 v3",
+    "variant": "E3-1230 v3",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E3",
+  "series": "Xeon E3-1200 v3",
   "microarchitecture": "Haswell",
-  "coreFamily": "Haswell",
+  "coreFamily": "Haswell-WS",
   "socket": "LGA 1150",
   "general_product_information": {
-    "amazon_sku": "B00D697PEG"
+    "amazon_sku": "B00D697PEG",
+    "newegg_sku": "N82E16819116984"
   }
 }

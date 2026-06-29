@@ -2,45 +2,59 @@
   "opendb_id": "22f7d1e2-6bd6-4fe3-adaa-55f683d3cf5f",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 3.8
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
-    "eccSupport": false,
-    "includesCooler": false,
+    "eccSupport": true,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 7 1700X 3.4 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 1700X",
     "manufacturer": "AMD",
     "part_numbers": ["YD170XBCAEWOF", "116730"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 1000",
+    "variant": "1700X",
+    "releaseYear": 2017
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 1000",
   "microarchitecture": "Zen",
   "coreFamily": "Summit Ridge",
   "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "B06X3W9NGG"
+    "amazon_sku": "B06X3W9NGG",
+    "walmart_sku": 55577372
   }
 }

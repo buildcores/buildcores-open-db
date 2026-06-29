@@ -17,8 +17,8 @@
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 1,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)",
+    "l2": 10,
     "l3": 19.25
   },
   "specifications": {
@@ -36,22 +36,26 @@
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "Intel Core i9-9900X",
     "part_numbers": ["BX80673I99900X"],
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "manufacturer": "Intel",
+    "variant": "9900X",
+    "series": "Core i9 9000"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake-X",
-  "coreFamily": null,
+  "series": "Core i9 9000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B07JDV1MMR",
-    "newegg_sku": "9SIBWH3KAM1269",
+    "newegg_sku": "N82E16819117962",
     "bestbuy_sku": 6311303,
     "walmart_sku": 508570139
   }

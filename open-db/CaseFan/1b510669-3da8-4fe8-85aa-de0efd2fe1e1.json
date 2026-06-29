@@ -1,12 +1,13 @@
 {
   "opendb_id": "1b510669-3da8-4fe8-85aa-de0efd2fe1e1",
   "metadata": {
-    "name": "be quiet! Light Wings LX 140mm Addressable RGB PWM 75.5 CFM White",
+    "name": "be quiet! Light Wings LX 140mm White ARGB PWM",
     "manufacturer": "be quiet!",
     "series": "Light Wings",
     "variant": "High Speed LX",
     "manufacturer_color": "White",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2024
   },
   "size": 140,
   "color": ["WHITE"],
@@ -14,7 +15,13 @@
   "pwm": true,
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
   "flow_direction": "Standard",
-  "lighting": [],
+  "lighting": ["ARGB"],
   "isOEM": false,
+  "min_airflow": 75.3,
+  "max_airflow": 127.9,
+  "min_noise_level": 30.5,
+  "led": "Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.45,
   "general_product_information": {}
 }

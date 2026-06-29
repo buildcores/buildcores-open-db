@@ -2,45 +2,59 @@
   "opendb_id": "58e5d3a4-0c33-497b-88ff-0ce7713337f5",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.8,
       "boost": 3.6
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 530"
+      "model": "Intel HD Graphics 530",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 6700T 2.8 GHz 4-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i7 6700T",
     "manufacturer": "Intel",
     "part_numbers": ["CM8066201920202", "SR2L3"],
-    "series": "Intel Core i7"
+    "series": "Core i7 6000",
+    "variant": "6700T",
+    "releaseYear": 2015
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 6000",
   "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-S",
+  "coreFamily": "Skylake",
   "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B08GH9XVFV"
+    "amazon_sku": "B08GH9XVFV",
+    "walmart_sku": 511987710
   }
 }

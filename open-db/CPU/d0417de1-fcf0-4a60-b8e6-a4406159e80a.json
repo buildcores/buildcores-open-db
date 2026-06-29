@@ -2,46 +2,60 @@
   "opendb_id": "d0417de1-fcf0-4a60-b8e6-a4406159e80a",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 64 KB Instruction + 4 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 3 1200 3.1 GHz 4-Core AM4",
+    "name": "AMD Ryzen 3 1200",
     "manufacturer": "AMD",
     "part_numbers": ["YD1200BBAEBOX", "116742"],
-    "series": "AMD Ryzen 3"
+    "series": "Ryzen 3 1000",
+    "variant": "1200",
+    "releaseYear": 2017
   },
-  "series": "AMD Ryzen 3",
+  "series": "Ryzen 3 1000",
   "microarchitecture": "Zen",
   "coreFamily": "Summit Ridge",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B0741DN383",
+    "newegg_sku": "N82E16819113446",
     "walmart_sku": 725039934
   }
 }

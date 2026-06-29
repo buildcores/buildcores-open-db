@@ -2,41 +2,54 @@
   "opendb_id": "10213fa5-c67b-4d69-b8a0-913cd25b129f",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1660 V3 3 GHz 8-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-1660 v3",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064401909200", "SR2PK"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v3",
+    "releaseYear": 2014,
+    "variant": "1660 v3"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 1600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",

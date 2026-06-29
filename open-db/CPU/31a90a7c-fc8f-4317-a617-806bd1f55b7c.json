@@ -2,47 +2,58 @@
   "opendb_id": "31a90a7c-fc8f-4317-a617-806bd1f55b7c",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 630"
+      "model": "Intel HD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 7700 3.6 GHz 4-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i7 7700 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8067702868314"],
-    "series": "Intel Core i7"
+    "series": "Core i7 7000",
+    "variant": "7700",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 7000",
   "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
+  "coreFamily": "Kaby Lake",
   "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B06XPBFXLG",
-    "newegg_sku": "9SIBWH3KC50287",
-    "walmart_sku": 780591849
+    "amazon_sku": "B06XPBFXLG"
   }
 }

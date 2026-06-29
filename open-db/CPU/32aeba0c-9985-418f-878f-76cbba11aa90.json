@@ -2,47 +2,60 @@
   "opendb_id": "32aeba0c-9985-418f-878f-76cbba11aa90",
   "cores": {
     "total": 24,
-    "performance": 24,
-    "threads": 48
+    "performance": 0,
+    "threads": 48,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 128
+    "l3": 128,
+    "l1": "24 × 32 KB Instruction + 24 × 32 KB Data (1,536 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 512,
-      "types": []
+      "maxSupport": 256,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 280,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Threadripper 3960X 3.8 GHz 24-Core sTRX4",
+    "name": "AMD Ryzen Threadripper 3960X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000010WOF"],
-    "series": "AMD Threadripper"
+    "series": "Ryzen Threadripper 3000",
+    "variant": "3960X",
+    "releaseYear": 2019
   },
-  "series": "AMD Threadripper",
+  "series": "Ryzen Threadripper 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Castle Peak",
   "socket": "sTRX4",
   "general_product_information": {
     "amazon_sku": "B0815JGCXP",
-    "newegg_sku": "9SIA4REJEF6773",
+    "newegg_sku": "N82E16819113619",
     "bestbuy_sku": 6395995,
     "walmart_sku": 552872311
   }

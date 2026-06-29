@@ -2,45 +2,59 @@
   "opendb_id": "92f76877-d37d-4026-a930-e71d0880d506",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "4 × 64 KB Instruction + 4 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "baseClock": 384,
+      "boostClock": 1029,
+      "shaderCount": 192
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A10 9700 3.5 GHz 4-Core AM4",
+    "name": "AMD A10-9700",
     "manufacturer": "AMD",
     "part_numbers": ["AD9700AGABBOX", "114949", "B961026"],
-    "series": "AMD A10"
+    "series": "A-Series A10 9000",
+    "variant": "9700",
+    "releaseYear": 2017
   },
-  "series": "AMD A10",
+  "series": "A-Series A10 9000",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "B074B856CD"
+    "amazon_sku": "B074B856CD",
+    "newegg_sku": "N82E16819113451"
   }
 }

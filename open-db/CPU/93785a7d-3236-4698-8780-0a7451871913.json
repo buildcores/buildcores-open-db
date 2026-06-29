@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": null,
+    "l1": "8 × 64 KB Instruction + 8 × 48 KB Data + 16 × 64 KB Instruction + 16 × 32 KB Data (2432 KB total)",
     "l2": 32,
     "l3": 36
   },
@@ -34,20 +34,24 @@
       "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "Intel 7",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
     "name": "Intel Core i9-13900F",
     "part_numbers": ["BX8071513900F"],
-    "releaseYear": 2023
+    "releaseYear": 2023,
+    "manufacturer": "Intel",
+    "series": "Core i9 13000",
+    "variant": "13900F"
   },
-  "series": "Core i9",
+  "series": "Core i9 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": null,
+  "coreFamily": "Raptor Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BN5ZTG66",

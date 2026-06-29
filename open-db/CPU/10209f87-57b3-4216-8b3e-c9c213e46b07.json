@@ -2,47 +2,60 @@
   "opendb_id": "10209f87-57b3-4216-8b3e-c9c213e46b07",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.8,
       "boost": 5.2
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 2.5,
+    "l3": 20,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10900F 2.8 GHz 10-Core LGA1200",
+    "name": "Intel Core i9 10900F",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110900F", "10900"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10900F",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B086MHTK5C",
-    "newegg_sku": "9SIA2W0JYA3495",
+    "newegg_sku": "N82E16819118130",
     "walmart_sku": 437827630
   }
 }

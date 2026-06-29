@@ -2,47 +2,60 @@
   "opendb_id": "e155f7cf-5720-4f15-bf3c-96a1dfca8ac0",
   "cores": {
     "total": 32,
-    "performance": 32,
-    "threads": 64
+    "performance": 0,
+    "threads": 64,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 128
+    "l3": 128,
+    "l1": "32 × (32 KB Data + 32 KB Instruction) = 2 MB total"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 512,
-      "types": []
+      "maxSupport": 256,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 280,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Threadripper 3970X 3.7 GHz 32-Core sTRX4",
+    "name": "AMD Ryzen Threadripper 3970X",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000011WOF", "AMD Ryzen Threadripper 3970X"],
-    "series": "AMD Threadripper"
+    "series": "Ryzen Threadripper 3970X",
+    "releaseYear": 2019,
+    "variant": "3970X"
   },
-  "series": "AMD Threadripper",
+  "series": "Ryzen Threadripper 3970X",
   "microarchitecture": "Zen 2",
   "coreFamily": "Castle Peak",
   "socket": "sTRX4",
   "general_product_information": {
     "amazon_sku": "B0815JJQQ8",
-    "newegg_sku": "9SIA4RECAZ0003",
+    "newegg_sku": "N82E16819113618",
     "bestbuy_sku": 6395993,
     "walmart_sku": 399581334
   }

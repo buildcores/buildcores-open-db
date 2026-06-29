@@ -1,12 +1,20 @@
 {
   "opendb_id": "3b734e33-534f-4045-9520-980974de8fdf",
+  "power_connectors": {
+    "pcie_12V_2x6": 1
+  },
+  "video_outputs": {
+    "hdmi_2_1b": 1,
+    "displayport_2_1_b": 3
+  },
   "metadata": {
     "name": "MSI GeForce RTX 5070 12G GAMING DUKE 3X WHITE",
     "manufacturer": "MSI",
     "series": "GAMING DUKE",
     "variant": "3X",
     "manufacturer_color": "White",
-    "part_numbers": []
+    "part_numbers": ["RTX-5070-12G-GAMING-DUKE-3X-WHITE"],
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
@@ -16,8 +24,15 @@
   "tdp": 250,
   "length": 325,
   "case_expansion_slot_width": 2,
-  "color": [],
-  "lighting": [],
+  "color": ["WHITE"],
+  "lighting": ["None"],
   "cooling": "3 Fans",
+  "core_base_clock": 2325,
+  "core_boost_clock": 2512,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "total_slot_width": 2,
   "general_product_information": {}
 }

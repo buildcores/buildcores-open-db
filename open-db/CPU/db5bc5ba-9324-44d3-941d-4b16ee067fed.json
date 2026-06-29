@@ -2,45 +2,60 @@
   "opendb_id": "db5bc5ba-9324-44d3-941d-4b16ee067fed",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4600"
+      "model": "Intel HD Graphics 4600",
+      "baseClock": 350,
+      "boostClock": 1250,
+      "shaderCount": 160
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 84,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 4770K 3.5 GHz 4-Core LGA1150",
+    "name": "Intel Core i7 4770K",
     "manufacturer": "Intel",
     "part_numbers": ["BXF80646I74770K"],
-    "series": "Intel Core i7"
+    "series": "Core i7 4000",
+    "variant": "4770K",
+    "releaseYear": 2013
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 4000",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell",
   "socket": "LGA 1150",
   "general_product_information": {
-    "amazon_sku": "B00DT5WV6E"
+    "amazon_sku": "B00DT5WV6E",
+    "newegg_sku": "N82E16819116901",
+    "walmart_sku": 612130461
   }
 }

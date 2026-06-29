@@ -2,47 +2,60 @@
   "opendb_id": "83aee1bc-820b-42e4-a062-efb06b659df2",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 9,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 9600KF 3.7 GHz 6-Core LGA1151",
+    "name": "Intel Core i5 9600KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684I59600KF"],
-    "series": "Intel Core i5"
+    "series": "Core i5 9000",
+    "variant": "9600KF",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i5 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B07MQP5LNM",
-    "newegg_sku": "9SIBWH3KAA8801",
+    "newegg_sku": "N82E16819117996",
     "walmart_sku": 975156288
   }
 }

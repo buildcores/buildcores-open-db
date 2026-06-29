@@ -48,9 +48,9 @@
     "name": "Gigabyte B850M EAGLE WIFI6E AM5 DDR5 Micro ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["B850M EAGLE WIFI6E", "B850 EAGLE WIFI6E", "B850M EAGLE WF6E"],
-    "series": "B850M",
-    "variant": "EAGLE WiFi 6E",
+    "variant": "B850M WIFI6E",
     "manufacturer_color": "Black",
+    "series": "EAGLE",
     "last_manually_spec_verified_at": "2026-03-16T12:23:19.779Z"
   },
   "socket": "AM5",
@@ -61,35 +61,30 @@
     {
       "gen": "5.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac98c0db8dfe4bc79230"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "69b7f3f081594acde4271200"
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac98c0db8dfe4bc79231"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac98c0db8dfe4bc79232"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac98c0db8dfe4bc79235"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,

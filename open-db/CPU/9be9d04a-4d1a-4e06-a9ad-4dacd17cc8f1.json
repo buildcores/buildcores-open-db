@@ -2,41 +2,54 @@
   "opendb_id": "9be9d04a-4d1a-4e06-a9ad-4dacd17cc8f1",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 10100T 3 GHz 4-Core LGA1200 OEM/Tray",
+    "name": "Intel Core i3 10100T OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8070104291412", "SRH3Q"],
-    "series": "Intel Core i3"
+    "series": "Core i3 10000",
+    "variant": "10100T",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",

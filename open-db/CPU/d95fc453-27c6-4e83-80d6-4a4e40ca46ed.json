@@ -2,41 +2,54 @@
   "opendb_id": "d95fc453-27c6-4e83-80d6-4a4e40ca46ed",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
-    "eccSupport": false,
-    "includesCooler": false,
+    "eccSupport": true,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 7 1800X 3.6 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 1800X",
     "manufacturer": "AMD",
     "part_numbers": ["YD180XBCAEWOF"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 1000",
+    "variant": "1800X",
+    "releaseYear": 2017
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 1000",
   "microarchitecture": "Zen",
   "coreFamily": "Summit Ridge",
   "socket": "AM4",

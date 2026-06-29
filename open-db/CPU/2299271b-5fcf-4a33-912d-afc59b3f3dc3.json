@@ -2,47 +2,60 @@
   "opendb_id": "2299271b-5fcf-4a33-912d-afc59b3f3dc3",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 15
+    "l2": 1.5,
+    "l3": 15,
+    "l1": "384 KB (6 × 32 KB Data + 6 × 32 KB Instruction)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3",
+    "name": "Intel Core i7 6850K",
     "manufacturer": "Intel",
     "part_numbers": ["BX80671I76850K"],
-    "series": "Intel Core i7"
+    "series": "Core i7 6000",
+    "variant": "6850K",
+    "releaseYear": 2016
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Broadwell",
+  "series": "Core i7 6000",
+  "microarchitecture": "Broadwell E",
   "coreFamily": "Broadwell-E",
   "socket": "LGA 2011-3",
   "general_product_information": {
     "amazon_sku": "B01FJLAITC",
-    "newegg_sku": "9SIBMM4KBT5541",
+    "newegg_sku": "N82E16819117647",
     "walmart_sku": 52329168
   }
 }

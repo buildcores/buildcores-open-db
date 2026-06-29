@@ -2,47 +2,59 @@
   "opendb_id": "4a6afe32-37f9-45c5-88ac-bf43d847e3e4",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 25
+    "l3": 8.25,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066 OEM/Tray",
+    "name": "Intel Core i7-7800X",
     "manufacturer": "Intel",
     "part_numbers": ["CD8067303287002"],
-    "series": "Intel Core i7"
+    "series": "Core i7 7000",
+    "variant": "7800X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 7000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B073VMZF45",
-    "newegg_sku": "9SIBMM4KBT5031",
     "walmart_sku": 321572929
   }
 }

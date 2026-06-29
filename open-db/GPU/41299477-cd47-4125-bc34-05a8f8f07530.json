@@ -1,12 +1,20 @@
 {
   "opendb_id": "41299477-cd47-4125-bc34-05a8f8f07530",
+  "power_connectors": {
+    "pcie_12V_2x6": 1
+  },
+  "video_outputs": {
+    "displayport_2_1_b": 3,
+    "hdmi_2_1b": 1
+  },
   "metadata": {
     "name": "MSI GeForce RTX™ 5070 12G GAMING DUKE 3X OC",
     "manufacturer": "MSI",
     "series": "GAMING DUKE",
     "variant": "3X OC",
-    "part_numbers": [],
-    "manufacturer_color": "Black"
+    "part_numbers": ["RTX-5070-12G-GAMING-DUKE-3X-OC"],
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
@@ -17,7 +25,14 @@
   "length": 325,
   "case_expansion_slot_width": 2,
   "cooling": "3 Fans",
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "core_boost_clock": 2557,
+  "core_base_clock": 2325,
+  "effective_memory_clock": 1750,
+  "memory_bus": 192,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "total_slot_width": 2,
   "general_product_information": {}
 }

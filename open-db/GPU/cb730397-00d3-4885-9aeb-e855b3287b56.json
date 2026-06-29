@@ -1,11 +1,19 @@
 {
   "opendb_id": "cb730397-00d3-4885-9aeb-e855b3287b56",
+  "power_connectors": {
+    "pcie_8_pin": 1
+  },
+  "video_outputs": {
+    "hdmi_2_1b": 1,
+    "displayport_2_1_b": 3
+  },
   "metadata": {
     "name": "Gigabyte GeForce RTX 5050 D6 Low Profile 8G",
     "manufacturer": "Gigabyte",
     "variant": "D6 Low Profile",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["GV-N5050D6-8GL", "GV-N5050OC-8GL"],
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5050",
@@ -13,7 +21,21 @@
   "memory_type": "GDDR6",
   "tdp": 120,
   "length": 182,
-  "color": [],
-  "lighting": [],
-  "general_product_information": {}
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "core_count": 2560,
+  "core_base_clock": 2317,
+  "core_boost_clock": 2587,
+  "effective_memory_clock": 2500,
+  "memory_bus": 128,
+  "frame_sync": "G-Sync",
+  "interface": "PCIe 5.0 x8",
+  "total_slot_width": 2,
+  "case_expansion_slot_width": 2,
+  "cooling": "3 Fans",
+  "general_product_information": {
+    "amazon_sku": "B0FG8J867N",
+    "newegg_sku": "N82E16814932817",
+    "walmart_sku": 17541618218
+  }
 }

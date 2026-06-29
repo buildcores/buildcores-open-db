@@ -2,45 +2,60 @@
   "opendb_id": "e3f597e3-0a3d-44dd-89ee-292ccb9767a4",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.4,
       "boost": 3.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 115,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2665 2.4 GHz 8-Core LGA2011",
+    "name": "Intel Xeon E5-2665",
     "manufacturer": "Intel",
     "part_numbers": ["BX80621E52665"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600",
+    "variant": "2665",
+    "releaseYear": 2012
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
+  "series": "Xeon E5 2600",
+  "microarchitecture": "Sandy Bridge EP",
   "coreFamily": "Sandy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
-    "amazon_sku": "B007H29F28"
+    "amazon_sku": "B007H29F28",
+    "newegg_sku": "N82E16819117361",
+    "walmart_sku": 1138226592
   }
 }
