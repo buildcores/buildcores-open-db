@@ -2,7 +2,9 @@
   "opendb_id": "7f0f36c1-c2c5-4bb9-bc9d-e3be2999a3fc",
   "cores": {
     "total": 16,
-    "threads": 24
+    "threads": 24,
+    "performance": 8,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -16,32 +18,40 @@
   },
   "cache": {
     "l2": 24,
-    "l3": 30
+    "l3": 30,
+    "l1": "8 × 64 KB Instruction + 8 × 48 KB Data + 8 × 64 KB Instruction + 8 × 32 KB Data (1664 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1600,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 219
   },
   "metadata": {
-    "name": "Intel Core i7 13700 2.1 GHz 16-Core LGA1700",
+    "name": "Intel Core i7 13700",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513700", "i7-13700"],
-    "series": "Intel Core i7"
+    "series": "Core i7 13000",
+    "variant": "13700",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BQ6BNY56",
