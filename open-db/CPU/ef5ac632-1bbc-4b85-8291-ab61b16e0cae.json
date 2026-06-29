@@ -2,41 +2,54 @@
   "opendb_id": "ef5ac632-1bbc-4b85-8291-ab61b16e0cae",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 32
+    "l3": 32,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5600XT 3.7 GHz 6-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 5 5600XT OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-000001585"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "releaseYear": 2024,
+    "variant": "5600XT"
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Vermeer",
   "socket": "AM4",

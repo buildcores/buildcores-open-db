@@ -2,41 +2,54 @@
   "opendb_id": "84969f34-49dc-457b-a78a-2875fa58b424",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "boostClock": 900,
+      "shaderCount": 384,
+      "baseClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A 8 A8-9600 3.1 GHz 4-Core AM4",
+    "name": "AMD A8-9600",
     "manufacturer": "AMD",
     "part_numbers": ["AD9600AGABBOX", "114951"],
-    "series": "AMD A8"
+    "series": "A-Series A8 9000",
+    "variant": "9600",
+    "releaseYear": 2016
   },
-  "series": "AMD A8",
+  "series": "A-Series A8 9000",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",

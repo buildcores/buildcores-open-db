@@ -2,41 +2,54 @@
   "opendb_id": "2027bf67-9231-46ab-921d-b81868f28f9f",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 64
+    "l3": 64,
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "boostClock": 2200,
+      "baseClock": 400,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 9 PRO 7945 3.7 GHz 12-Core AM5 OEM/Tray",
+    "name": "AMD Ryzen 9 7945 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-000000598"],
-    "series": "AMD Ryzen 9 PRO"
+    "series": "Ryzen 9 7000",
+    "variant": "7945",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 9 PRO",
+  "series": "Ryzen 9 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

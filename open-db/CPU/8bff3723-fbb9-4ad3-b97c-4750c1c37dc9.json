@@ -2,41 +2,54 @@
   "opendb_id": "8bff3723-fbb9-4ad3-b97c-4750c1c37dc9",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 32
+    "l3": 32,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 3600 3.6 GHz 6-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 5 3600 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000031MPK"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 3000",
+    "variant": "3600",
+    "releaseYear": 2019
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",

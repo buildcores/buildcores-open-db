@@ -2,41 +2,54 @@
   "opendb_id": "ea7fa8f8-bef5-4783-8b21-c7548bb46dd6",
   "cores": {
     "total": 14,
-    "performance": 14,
-    "threads": 28
+    "performance": 0,
+    "threads": 28,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.6,
       "boost": 3.5
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 35
+    "l2": 3.5,
+    "l3": 35,
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2690 V4 2.6 GHz 14-Core LGA2011-3",
+    "name": "Intel Xeon E5-2690 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52690V4"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v4",
+    "releaseYear": 2016,
+    "variant": "2690 v4"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
