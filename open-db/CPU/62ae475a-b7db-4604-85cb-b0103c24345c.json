@@ -2,41 +2,54 @@
   "opendb_id": "62ae475a-b7db-4604-85cb-b0103c24345c",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 32
+    "l3": 32,
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5"]
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 7 PRO 7745 3.8 GHz 8-Core AM5",
+    "name": "AMD Ryzen 7 PRO 7745",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000599MPK"],
-    "series": "AMD Ryzen 7 PRO"
+    "series": "Ryzen 7 PRO 7000",
+    "variant": "7745",
+    "releaseYear": 2023
   },
-  "series": "AMD Ryzen 7 PRO",
+  "series": "Ryzen 7 PRO 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

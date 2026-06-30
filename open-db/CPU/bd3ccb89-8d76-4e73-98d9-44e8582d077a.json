@@ -2,7 +2,7 @@
   "opendb_id": "bd3ccb89-8d76-4e73-98d9-44e8582d077a",
   "cores": {
     "total": 2,
-    "performance": 2,
+    "performance": 0,
     "efficiency": 0,
     "threads": 4
   },
@@ -12,43 +12,46 @@
       "boost": 0
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": null,
-    "l2": 512,
+    "l1": "2 × 64 KB Instruction + 2 × 32 KB Data (192 KB total)",
+    "l2": 1,
     "l3": 4
   },
   "specifications": {
     "integratedGraphics": {
       "model": "AMD Radeon Vega 3",
-      "baseClock": 1.1,
-      "boostClock": null,
-      "shaderCount": 192
+      "boostClock": 1100,
+      "shaderCount": 192,
+      "baseClock": 0
     },
     "memory": {
-      "maxSupport": null,
+      "maxSupport": 64,
       "types": ["DDR4"],
-      "channels": null
+      "channels": 2
     },
     "tdp": 35,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
-    "packaging": null,
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Athlon 3000G",
     "releaseYear": 2019,
     "part_numbers": ["YD3000C6FHBOX", "YD220GC6FBBOX"],
-    "manufacturer": "AMD"
+    "manufacturer": "AMD",
+    "variant": "3000G",
+    "series": "Athlon 3000"
   },
-  "series": "Athlon",
+  "series": "Athlon 3000",
   "microarchitecture": "Zen",
-  "coreFamily": null,
+  "coreFamily": "Picasso",
   "socket": "AM4",
   "general_product_information": {
     "newegg_sku": "9SIAVH0HX07726",

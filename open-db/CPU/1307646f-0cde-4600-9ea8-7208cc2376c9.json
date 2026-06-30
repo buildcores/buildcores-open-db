@@ -2,8 +2,8 @@
   "opendb_id": "1307646f-0cde-4600-9ea8-7208cc2376c9",
   "cores": {
     "total": 32,
-    "performance": 32,
-    "efficiency": null,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 64
   },
   "clocks": {
@@ -12,44 +12,47 @@
       "boost": 4.2
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "96 KB (per core),32 x 64 KB,32 x 32 KB",
-    "l2": 512,
+    "l1": "32 × 64 KB Instruction + 32 × 32 KB Data (3072 KB total)",
+    "l2": 16,
     "l3": 64
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": null,
+      "maxSupport": 256,
       "types": ["DDR4"],
       "channels": 4
     },
     "tdp": 250,
     "eccSupport": false,
-    "includesCooler": false,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 2990WX",
     "releaseYear": 2018,
     "part_numbers": ["YD299XAZAFWOF", "116580"],
-    "manufacturer": "AMD"
+    "manufacturer": "AMD",
+    "variant": "2990WX",
+    "series": "Ryzen Threadripper 2000"
   },
-  "series": "AMD Ryzen Threadripper",
+  "series": "Ryzen Threadripper 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Colfax",
-  "socket": "TR4",
+  "socket": "sTR4",
   "general_product_information": {
     "amazon_sku": "B07G25SD1P",
     "newegg_sku": "9SIATJ1HWX2651",

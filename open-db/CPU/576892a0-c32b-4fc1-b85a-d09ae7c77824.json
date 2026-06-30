@@ -2,41 +2,54 @@
   "opendb_id": "576892a0-c32b-4fc1-b85a-d09ae7c77824",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 32
+    "l3": 32,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 5 5600T 3.5 GHz 6-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 5 5600T OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-000001584"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 5000",
+    "releaseYear": 2024,
+    "variant": "5600T"
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 5000",
   "microarchitecture": "Zen 3",
   "coreFamily": "Vermeer",
   "socket": "AM4",

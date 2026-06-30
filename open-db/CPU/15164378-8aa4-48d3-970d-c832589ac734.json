@@ -2,41 +2,54 @@
   "opendb_id": "15164378-8aa4-48d3-970d-c832589ac734",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.2,
       "boost": 5.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 128
+    "l3": 128,
+    "l1": "16 × 64 KB Instruction + 16 × 32 KB Data (1536 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 256,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 162
   },
   "metadata": {
-    "name": "AMD EPYC 4584PX 4.2 GHz 16-Core AM5",
+    "name": "AMD EPYC 4584PX",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001481WOF"],
-    "series": "AMD EPYC"
+    "series": "EPYC 4000",
+    "releaseYear": 2024,
+    "variant": "4584PX"
   },
-  "series": "AMD EPYC",
+  "series": "EPYC 4000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",

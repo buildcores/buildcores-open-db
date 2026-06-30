@@ -3,42 +3,55 @@
   "cores": {
     "total": 4,
     "performance": 4,
-    "threads": 8
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 12
+    "l3": 12,
+    "l1": "4 × 64 KB Instruction + 4 × 48 KB Data (448 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 730"
+      "model": "Intel UHD Graphics 730",
+      "baseClock": 300,
+      "boostClock": 1500,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 60,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 110
   },
   "metadata": {
-    "name": "Intel Core i3 13100 3.4 GHz 4-Core LGA1700",
+    "name": "Intel Core i3 13100",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513100"],
-    "series": "Intel Core i3"
+    "series": "Core i3 13000",
+    "variant": "13100",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {
     "amazon_sku": "B0BQ6CTTMK",

@@ -2,41 +2,54 @@
   "opendb_id": "bf21533b-baba-409f-aa43-c5f3eab64c5f",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 32
+    "l3": 32,
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 7 3800XT 3.9 GHz 8-Core",
+    "name": "AMD Ryzen 7 3800XT",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000279WOF"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 3000",
+    "variant": "3800XT",
+    "releaseYear": 2020
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",

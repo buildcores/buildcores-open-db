@@ -2,41 +2,54 @@
   "opendb_id": "45118c9a-09c6-47e8-b3b0-9abca47b472f",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 99
+    "l3": 16,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "lithography": "12nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 5 2600X 3.6 GHz 6-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 5 2600X",
     "manufacturer": "AMD",
     "part_numbers": ["YD260XBCM6IAF", "2600X"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 2000",
+    "variant": "2600X",
+    "releaseYear": 2018
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Pinnacle Ridge",
   "socket": "AM4",

@@ -2,50 +2,54 @@
   "opendb_id": "cc3a29bc-0e7a-4351-9a87-f56eba3a0d75",
   "cores": {
     "total": 8,
-    "performance": 8,
+    "performance": 0,
     "efficiency": 0,
     "threads": 16
   },
   "clocks": {
     "performance": {
-      "base": 3000,
-      "boost": 3700
+      "boost": 3.7,
+      "base": 3
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "768KB",
-    "l2": 4096,
-    "l3": 16384
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)",
+    "l2": 4,
+    "l3": 16
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": null,
+      "maxSupport": 64,
       "types": ["DDR4"],
       "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen 7 1700",
     "part_numbers": ["YD1700BBAEBOX"],
-    "releaseYear": 2017
+    "releaseYear": 2017,
+    "series": "Ryzen 7 1000",
+    "variant": "1700",
+    "manufacturer": "AMD"
   },
-  "series": "Ryzen 7 1st Gen",
+  "series": "Ryzen 7 1000",
   "microarchitecture": "Zen",
   "coreFamily": "Summit Ridge",
   "socket": "AM4",
