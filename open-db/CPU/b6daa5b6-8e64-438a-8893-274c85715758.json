@@ -2,7 +2,9 @@
   "opendb_id": "b6daa5b6-8e64-438a-8893-274c85715758",
   "cores": {
     "total": 14,
-    "threads": 20
+    "threads": 20,
+    "performance": 6,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -15,33 +17,41 @@
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 24
+    "l2": 11.5,
+    "l3": 24,
+    "l1": "6 × 64 KB Instruction + 6 × 48 KB Data + 8 × 64 KB Instruction + 8 × 32 KB Data (1440 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1550,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 154
   },
   "metadata": {
-    "name": "Intel Core i5 13600 2.7 GHz 14-Core LGA1700",
+    "name": "Intel Core i5 13600",
     "manufacturer": "Intel",
     "part_numbers": ["BX8071513600"],
-    "series": "Intel Core i5"
+    "series": "Core i5 13000",
+    "releaseYear": 2023,
+    "variant": "13600"
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Cove",
   "socket": "LGA 1700",
   "general_product_information": {}
 }

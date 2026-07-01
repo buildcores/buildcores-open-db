@@ -2,7 +2,7 @@
   "opendb_id": "8937791f-331b-4887-9847-82f6b047c59b",
   "cores": {
     "total": 4,
-    "performance": 4,
+    "performance": 0,
     "efficiency": 0,
     "threads": 4
   },
@@ -12,24 +12,24 @@
       "boost": 3.8
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "320 KB instruction, 96 KB data (shared per 2 cores)",
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)",
     "l2": 2,
     "l3": 0
   },
   "specifications": {
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": null,
+      "maxSupport": 64,
       "types": ["DDR4"],
       "channels": 2
     },
@@ -38,14 +38,18 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Athlon X4 950",
     "part_numbers": ["116749", "B961020"],
-    "releaseYear": 2017
+    "releaseYear": 2017,
+    "series": "Athlon X4 900",
+    "variant": "950",
+    "manufacturer": "AMD"
   },
-  "series": "Athlon",
+  "series": "Athlon X4 900",
   "microarchitecture": "Bristol Ridge",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",

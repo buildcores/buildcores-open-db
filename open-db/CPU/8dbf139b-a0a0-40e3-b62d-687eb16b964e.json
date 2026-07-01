@@ -2,43 +2,56 @@
   "opendb_id": "8dbf139b-a0a0-40e3-b62d-687eb16b964e",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics P630"
+      "model": "Intel HD Graphics P630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
-      "maxSupport": 64,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
-    "includesCooler": false,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E 2146G 3.5 GHz 6-Core LGA1151",
+    "name": "Intel Xeon E-2146G",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684E2146G"],
-    "series": "Intel Xeon E"
+    "series": "Xeon E 2100",
+    "variant": "2146G",
+    "releaseYear": 2018
   },
-  "series": "Intel Xeon E",
+  "series": "Xeon E 2100",
   "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
+  "coreFamily": "Coffee Lake-S WS",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B07KNM3FRM",

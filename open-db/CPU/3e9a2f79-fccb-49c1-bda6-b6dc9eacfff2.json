@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "L1I$ 128 KiB, L1D$ 64 KiB",
+    "l1": "2 × 64 KB Instruction + 2 × 32 KB Data (192 KB total)",
     "l2": 1,
     "l3": 4
   },
@@ -25,7 +25,7 @@
     "integratedGraphics": {
       "model": "AMD Radeon Vega 3",
       "baseClock": 0,
-      "boostClock": 1,
+      "boostClock": 1000,
       "shaderCount": 192
     },
     "memory": {
@@ -38,18 +38,21 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Athlon 220GE",
+    "name": "AMD Athlon 220GE",
     "releaseYear": 2018,
     "part_numbers": ["YD220GC6FBBOX"],
-    "manufacturer": "AMD"
+    "manufacturer": "AMD",
+    "series": "Athlon 200GE",
+    "variant": "220GE"
   },
-  "series": "200",
   "microarchitecture": "Zen",
-  "coreFamily": "23",
+  "coreFamily": "Raven Ridge",
   "socket": "AM4",
+  "series": "Athlon 200GE",
   "general_product_information": {
     "amazon_sku": "B07L9Q7DLQ",
     "newegg_sku": "9SIBKYEK6R7522",

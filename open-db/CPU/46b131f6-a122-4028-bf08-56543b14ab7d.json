@@ -3,42 +3,55 @@
   "cores": {
     "total": 4,
     "performance": 4,
-    "threads": 8
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.2,
       "boost": 4.1
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 5,
-    "l3": 12
+    "l3": 12,
+    "l1": "4 × 64 KB Instruction + 4 × 48 KB Data (448 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 730"
+      "model": "Intel UHD Graphics 730",
+      "baseClock": 300,
+      "boostClock": 1400,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
-    "includesCooler": false,
-    "packaging": "OEM/Tray",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 69
   },
   "metadata": {
-    "name": "Intel Core i3 12100T 2.2 GHz 4-Core LGA1700 OEM/Tray",
+    "name": "Intel Core i3 12100T",
     "manufacturer": "Intel",
     "part_numbers": ["CM8071504651106"],
-    "series": "Intel Core i3"
+    "series": "Core i3 12000",
+    "variant": "12100T",
+    "releaseYear": 2022
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 12000",
   "microarchitecture": "Alder Lake",
-  "coreFamily": "Alder Lake",
+  "coreFamily": "Alder Lake-S",
   "socket": "LGA 1700",
   "general_product_information": {}
 }

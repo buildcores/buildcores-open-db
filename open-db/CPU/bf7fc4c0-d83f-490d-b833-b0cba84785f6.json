@@ -2,43 +2,56 @@
   "opendb_id": "bf7fc4c0-d83f-490d-b833-b0cba84785f6",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics P530"
+      "model": "Intel HD Graphics P530",
+      "baseClock": 400,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E3 1245 V5 3.5 GHz 4-Core LGA1151",
-    "manufacturer": "Intel",
+    "name": "Intel Xeon E3-1245 v5",
     "part_numbers": ["BX80662E31245V5"],
-    "series": "Intel Xeon E3"
+    "series": "Xeon E3 1200 v5",
+    "variant": "1245 v5",
+    "manufacturer": "Intel",
+    "releaseYear": 2015
   },
-  "series": "Intel Xeon E3",
+  "series": "Xeon E3 1200 v5",
   "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-H",
+  "coreFamily": "Skylake-DT",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B015T3YEZ4",

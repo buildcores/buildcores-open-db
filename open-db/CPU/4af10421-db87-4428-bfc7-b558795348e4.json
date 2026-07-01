@@ -2,41 +2,54 @@
   "opendb_id": "4af10421-db87-4428-bfc7-b558795348e4",
   "cores": {
     "total": 18,
-    "performance": 18,
-    "threads": 36
+    "performance": 0,
+    "threads": 36,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.3,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 45
+    "l2": 4.5,
+    "l3": 45,
+    "l1": "18 × 32 KB Instruction + 18 × 32 KB Data (1152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 145,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2699 V3 2.3 GHz 18-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-2699 v3 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064401739300", "SR1XD"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "variant": "2699 v3",
+    "releaseYear": 2014
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
