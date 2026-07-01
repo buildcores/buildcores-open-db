@@ -2,42 +2,55 @@
   "opendb_id": "abbabb54-67d1-46f3-b43e-6ca80c844001",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.1
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 9
+    "l2": 1.5,
+    "l3": 9,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 9400F 2.9 GHz 6-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i5 9400F OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403358819"],
-    "series": "Intel Core i5"
+    "series": "Core i5 9000",
+    "variant": "9400F",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i5 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {}
