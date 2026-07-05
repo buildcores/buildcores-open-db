@@ -1,26 +1,30 @@
 {
   "opendb_id": "45832c02-e4fc-462c-9e99-3467c40c58a9",
   "metadata": {
-    "name": "ARCTIC P12 Pro 120mm White RGB PWM",
+    "name": "ARCTIC P12 Pro 120mm White A-RGB PWM 77 CFM",
     "manufacturer": "ARCTIC",
-    "part_numbers": [],
-    "series": "P12 Pro",
-    "variant": "120mm White"
+    "part_numbers": ["ACFAN00311A", "P12 Pro A-RGB"],
+    "series": "P12",
+    "variant": "Pro",
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2026-07-05T09:22:24.000Z"
   },
   "size": 120,
   "color": ["WHITE"],
   "quantity": 1,
-  "min_airflow": null,
+  "min_airflow": 77,
   "max_airflow": null,
-  "min_noise_level": null,
+  "min_noise_level": 25,
   "max_noise_level": null,
   "pwm": true,
-  "led": "RGB",
-  "connector": "4-pin PWM",
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
   "controller": "None",
-  "static_pressure": 4.35,
+  "static_pressure": 6.9,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["ARGB"],
+  "general_product_information": {
+    "manufacturer_url": "https://www.arctic.de/en/P12-Pro-A-RGB-White/ACFAN00311A"
+  }
 }
