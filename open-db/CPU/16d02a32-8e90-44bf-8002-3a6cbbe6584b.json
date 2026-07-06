@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "2 x 32 KB instruction caches, 2 x 32 KB data caches",
+    "l1": "2 × 32 KB Instruction + 2 × 32 KB Data (128 KB total)",
     "l2": 0.5,
     "l3": 4
   },
@@ -26,7 +26,7 @@
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
       "boostClock": 1100,
-      "shaderCount": 0
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
@@ -36,23 +36,27 @@
     "tdp": 54,
     "eccSupport": true,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "Intel Pentium Gold G5500",
     "releaseYear": 2018,
     "part_numbers": ["BX80684G5500"],
-    "manufacturer": "Intel"
+    "manufacturer": "Intel",
+    "variant": "G5500",
+    "series": "Pentium Gold G5000"
   },
-  "series": "Intel Pentium Gold Processor Series",
+  "series": "Pentium Gold G5000",
   "microarchitecture": "Coffee Lake",
-  "coreFamily": null,
+  "coreFamily": "Coffee Lake",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B0793DYTCQ",
     "newegg_sku": "9SIBMM4KBS9978",
-    "walmart_sku": 510437540
+    "walmart_sku": 510437540,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/129946/intel-pentium-gold-g5500-processor-4m-cache-3-80-ghz/specifications.html"
   }
 }

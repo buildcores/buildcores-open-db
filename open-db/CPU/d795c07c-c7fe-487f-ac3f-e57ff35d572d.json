@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l1": "96 KB (per core)",
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)",
     "l2": 4,
     "l3": 16
   },
@@ -29,29 +29,32 @@
       "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
+      "maxSupport": 64,
       "types": ["DDR4"],
       "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "includesCooler": true,
-    "packaging": "Boxed",
+    "includesCooler": false,
+    "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 7 1700",
-    "vendor": "AMD",
+    "name": "AMD Ryzen 7 1700 OEM/Tray",
     "releaseYear": 2017,
     "part_numbers": ["YD1700BBM88AE"],
-    "manufacturer": "AMD"
+    "manufacturer": "AMD",
+    "variant": "1700",
+    "series": "Ryzen 7 1000"
   },
-  "series": "Ryzen 7",
+  "series": "Ryzen 7 1000",
   "microarchitecture": "Zen",
-  "coreFamily": null,
+  "coreFamily": "Summit Ridge",
   "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "B07F5LLKBX"
+    "amazon_sku": "B07F5LLKBX",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-7-1700.html"
   }
 }

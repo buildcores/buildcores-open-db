@@ -2,7 +2,9 @@
   "opendb_id": "f9a8771a-0467-4f53-ac5c-0f5a95b9fa0b",
   "cores": {
     "total": 14,
-    "threads": 20
+    "threads": 20,
+    "performance": 6,
+    "efficiency": 8
   },
   "clocks": {
     "performance": {
@@ -15,33 +17,43 @@
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 24
+    "l2": 11.5,
+    "l3": 24,
+    "l1": "6 × 64 KB Instruction + 6 × 48 KB Data + 8 × 64 KB Instruction + 8 × 32 KB Data (1440 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 770"
+      "model": "Intel UHD Graphics 770",
+      "baseClock": 300,
+      "boostClock": 1550,
+      "shaderCount": 256
     },
     "memory": {
       "maxSupport": 192,
-      "types": ["DDR5", "DDR4"]
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
     },
     "tdp": 35,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "10 nm",
-    "simultaneousMultithreading": true
+    "lithography": "Intel 7",
+    "simultaneousMultithreading": true,
+    "ppt": 92
   },
   "metadata": {
-    "name": "Intel Core i5 13500T 1.6 GHz 14-Core LGA1700 OEM/Tray",
+    "name": "Intel Core i5 13500T OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8071505092901"],
-    "series": "Intel Core i5"
+    "series": "Core i5 13000",
+    "variant": "13500T",
+    "releaseYear": 2023
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 13000",
   "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake",
+  "coreFamily": "Raptor Lake-S",
   "socket": "LGA 1700",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230578/intel-core-i513500t-processor-24m-cache-up-to-4-60-ghz/specifications.html"
+  }
 }

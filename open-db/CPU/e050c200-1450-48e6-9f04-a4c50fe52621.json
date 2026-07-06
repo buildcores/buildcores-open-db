@@ -2,47 +2,61 @@
   "opendb_id": "e050c200-1450-48e6-9f04-a4c50fe52621",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 3.7
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel Iris Pro Graphics 6200"
+      "model": "Intel Iris Pro Graphics 6200",
+      "baseClock": 300,
+      "boostClock": 1150,
+      "shaderCount": 384
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 5775C 3.3 GHz 4-Core LGA1150",
+    "name": "Intel Core i7-5775C",
     "manufacturer": "Intel",
     "part_numbers": ["BX80658I75775C", "BX80658i75775C"],
-    "series": "Intel Core i7"
+    "series": "Core i7 5000",
+    "variant": "5775C",
+    "releaseYear": 2015
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 5000",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell",
   "socket": "LGA 1150",
   "general_product_information": {
     "amazon_sku": "B00YAEA0U2",
     "newegg_sku": "9SIA4REFJW0890",
-    "walmart_sku": 46673902
+    "walmart_sku": 46673902,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/88040/intel-core-i75775c-processor-6m-cache-up-to-3-70-ghz/specifications.html"
   }
 }

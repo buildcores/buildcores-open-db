@@ -2,43 +2,58 @@
   "opendb_id": "1bdbeb35-0449-4d21-a297-213be55b1517",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.1,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 9900T 2.1 GHz 8-Core LGA1151",
+    "name": "Intel Core i9 9900T OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403874122"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9900T",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i9 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/191044/intel-core-i99900t-processor-16m-cache-up-to-4-40-ghz/specifications.html"
+  }
 }
