@@ -12,13 +12,13 @@
       "boost": 4.2
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 1,
+    "l1": "16 × 32 KB Instruction + 16 × 32 KB Data (1024 KB total)",
+    "l2": 16,
     "l3": 22
   },
   "specifications": {
@@ -36,22 +36,27 @@
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9-7960X X-series Processor",
+    "name": "Intel Core i9 i9-7960X X",
     "part_numbers": ["BX80673I97960X"],
-    "releaseYear": 2017
+    "releaseYear": 2017,
+    "series": "Core i9 7000",
+    "variant": "7960X",
+    "manufacturer": "Intel"
   },
-  "series": "Core i9",
-  "microarchitecture": "Skylake-X",
-  "coreFamily": null,
+  "series": "Core i9 7000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B075XRYMDS",
     "newegg_sku": "9SIBKFCK6Z0186",
-    "walmart_sku": 456944597
+    "walmart_sku": 456944597,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/126697/intel-core-i97960x-xseries-processor-22m-cache-up-to-4-20-ghz/specifications.html"
   }
 }

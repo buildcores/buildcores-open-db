@@ -2,45 +2,59 @@
   "opendb_id": "bf7825af-47b2-42ad-bba9-25ef34da4988",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon HD 8370D"
+      "model": "AMD Radeon HD 8370D",
+      "boostClock": 0,
+      "shaderCount": 128,
+      "baseClock": 760
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A-Series A4 6300 3.7 GHz 2-Core FM2",
+    "name": "AMD A-Series A4 6300",
     "manufacturer": "AMD",
     "part_numbers": ["AD6300OKHLBOX"],
-    "series": "AMD A4"
+    "series": "A-Series A4 6000",
+    "variant": "6300",
+    "releaseYear": 2013
   },
-  "series": "AMD A4",
+  "series": "A-Series A4 6000",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",
   "general_product_information": {
-    "amazon_sku": "B00GOPI4BW"
+    "amazon_sku": "B00GOPI4BW",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a4-series-apu-for-desktops/a4-6300-with-radeon-hd-8370d.html"
   }
 }
