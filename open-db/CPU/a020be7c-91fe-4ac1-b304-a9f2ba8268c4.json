@@ -2,45 +2,59 @@
   "opendb_id": "a020be7c-91fe-4ac1-b304-a9f2ba8268c4",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 91,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 9350KF 4 GHz 4-Core LGA1151",
+    "name": "Intel Core i3 9350KF",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684I39350KF"],
-    "series": "Intel Core i3"
+    "series": "Core i3 9000",
+    "variant": "9350KF",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i3",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i3 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B07NC419VF"
+    "amazon_sku": "B07NC419VF",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/191126/intel-core-i39350kf-processor-8m-cache-up-to-4-60-ghz/specifications.html"
   }
 }
