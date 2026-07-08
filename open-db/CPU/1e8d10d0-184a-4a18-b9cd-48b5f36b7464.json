@@ -2,43 +2,58 @@
   "opendb_id": "1e8d10d0-184a-4a18-b9cd-48b5f36b7464",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 1.8,
       "boost": 3.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 9
+    "l2": 1.5,
+    "l3": 9,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1050,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 9400T 1.8 GHz 6-Core LGA1151 (OEM/Tray)",
+    "name": "Intel Core i5 9400T (OEM/Tray)",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403358915"],
-    "series": "Intel Core i5"
+    "series": "Core i5 9000",
+    "variant": "9400T",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i5 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134893/intel-core-i59400t-processor-9m-cache-up-to-3-40-ghz/specifications.html"
+  }
 }

@@ -2,43 +2,58 @@
   "opendb_id": "d86a9762-f320-42c7-bfa0-dd92f41d286c",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 64 KB Instruction + 4 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "12 nm",
-    "simultaneousMultithreading": false
+    "lithography": "14nm",
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 3 1200 (12nm) 3.1 GHz 4-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 3 1200 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["YD1200BBM4KAF"],
-    "series": "AMD Ryzen 3"
+    "series": "Ryzen 3 1000",
+    "variant": "1200",
+    "releaseYear": 2017
   },
-  "series": "AMD Ryzen 3",
-  "microarchitecture": "Zen+",
-  "coreFamily": "Pinnacle Ridge",
+  "series": "Ryzen 3 1000",
+  "microarchitecture": "Zen",
+  "coreFamily": "Summit Ridge",
   "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1200.html"
+  }
 }
