@@ -2,46 +2,60 @@
   "opendb_id": "ad06f564-5ce6-4b63-89bf-ea3d1bac569d",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 10305 3.8 GHz 4-Core LGA1200",
+    "name": "Intel Core i3 10305",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110305"],
-    "series": "Intel Core i3"
+    "series": "Core i3 10000",
+    "variant": "10305",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 10000",
   "microarchitecture": "Comet Lake",
-  "coreFamily": "Comet Lake",
+  "coreFamily": "Comet Lake-R",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B093BMJ16V",
-    "walmart_sku": 492019747
+    "walmart_sku": 492019747,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/201893/intel-core-i310305-processor-8m-cache-up-to-4-50-ghz/specifications.html"
   }
 }

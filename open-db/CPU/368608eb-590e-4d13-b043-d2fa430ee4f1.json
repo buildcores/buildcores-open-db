@@ -2,43 +2,58 @@
   "opendb_id": "368608eb-590e-4d13-b043-d2fa430ee4f1",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 72,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E3 1230 V6 3.5 GHz 4-Core LGA1151",
+    "name": "Intel Xeon E3 1230 V6",
     "manufacturer": "Intel",
     "part_numbers": ["BX80677E31230V6"],
-    "series": "Intel Xeon E3"
+    "series": "Xeon E3 1200 v6",
+    "variant": "1230 V6",
+    "releaseYear": 2017
   },
-  "series": "Intel Xeon E3",
+  "series": "Xeon E3 1200 v6",
   "microarchitecture": "Kaby Lake",
   "coreFamily": "Kaby Lake-S",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/97474/intel-xeon-processor-e31230-v6-8m-cache-3-50-ghz/specifications.html"
+  }
 }
