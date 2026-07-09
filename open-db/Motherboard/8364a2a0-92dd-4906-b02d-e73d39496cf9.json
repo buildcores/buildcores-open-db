@@ -2,10 +2,46 @@
   "opendb_id": "8364a2a0-92dd-4906-b02d-e73d39496cf9",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "clear_cmos": true,
+    "flashback": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "MSI MAG B850 TOMAHAWK MAX WIFI II",
@@ -13,16 +49,74 @@
     "series": "MAG",
     "variant": "B850 TOMAHAWK MAX WIFI II",
     "part_numbers": [],
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2026
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B850",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280/ 22110",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x2"
+    },
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "1x Clear CMOS Button",
+    "1x Flash BIOS Button",
+    "1x HDMI port",
+    "3x USB 10Gbps Type-C ports",
+    "2x USB 10Gbps Type-A ports",
+    "1x USB 5Gbps Type-A",
+    "4x USB 2.0 connectors",
+    "1x 5G LAN (RJ45) port",
+    "2x Wi-Fi antenna connectors",
+    "2x Audio jacks",
+    "1x Optical S/PDIF Out connector"
+  ],
+  "ecc_support": false,
+  "back_connect_connectors": false,
+  "raid_support": false,
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "general_product_information": {
+    "amazon_sku": "B0GSH3M4RQ",
+    "newegg_sku": "N82E16813144744",
+    "walmart_sku": 20256508944
+  }
 }

@@ -8,6 +8,10 @@
   "storage_devices": {
     "sata_6_gb_s": 2
   },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2
+  },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
@@ -29,7 +33,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -65,28 +69,28 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen5.0x4"
+      "interface": "PCIe 5.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Dragon"
+      "controller": "Dragon RTL8125BG"
     }
   ],
   "back_panel_ports": [
