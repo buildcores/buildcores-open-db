@@ -2,43 +2,56 @@
   "opendb_id": "107f3722-b84b-43dd-a6a8-9dfe787bf03a",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X4 880K 4 GHz 4-Core FM2+",
+    "name": "AMD Athlon X4 880K",
     "manufacturer": "AMD",
     "part_numbers": ["AD880KXBJCSBX"],
-    "series": "AMD Athlon X4"
+    "series": "Athlon X4 800",
+    "variant": "880K",
+    "releaseYear": 2015
   },
-  "series": "AMD Athlon X4",
+  "series": "Athlon X4 800",
   "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
+  "coreFamily": "Godaveri",
   "socket": "FM2+",
   "general_product_information": {}
 }
