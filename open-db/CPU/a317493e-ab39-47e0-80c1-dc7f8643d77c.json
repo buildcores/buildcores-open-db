@@ -2,41 +2,54 @@
   "opendb_id": "a317493e-ab39-47e0-80c1-dc7f8643d77c",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 96 KB Instruction + 2 × 32 KB Data (160 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R5 (on-die)"
+      "model": "AMD Radeon R5 Graphics",
+      "baseClock": 200,
+      "boostClock": 800,
+      "shaderCount": 384
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A-Series A6 9500E 3.0 GHz 2-Core AM4",
+    "name": "AMD A6-9500E",
     "manufacturer": "AMD",
     "part_numbers": ["AD9500AHABBOX"],
-    "series": "AMD A6"
+    "series": "A-Series A6 9000",
+    "releaseYear": 2016,
+    "variant": "9500E"
   },
-  "series": "AMD A6",
+  "series": "A-Series A6 9000",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",
