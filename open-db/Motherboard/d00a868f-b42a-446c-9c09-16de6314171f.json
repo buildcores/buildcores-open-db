@@ -16,7 +16,8 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 4,
-    "pump": 2
+    "pump": 2,
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -37,7 +38,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC1220",
@@ -67,11 +68,6 @@
       "gen": "4.0",
       "quantity": 1,
       "lanes": 8
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4
     }
   ],
   "m2_slots": [
@@ -108,8 +104,8 @@
     "1 x reset button",
     "1 x Q-Flash Plus button",
     "1 x Clear CMOS button",
-    "2 x USB4",
-    "1 x USB Type-C",
+    "2 x USB4 Type-C",
+    "1 x USB Type-C (USB 3.2 Gen 2)",
     "2 x USB 3.2 Gen 2 Type-A ports",
     "4 x USB 3.2 Gen 1 ports",
     "1 x USB 2.0/1.1 port",
@@ -117,13 +113,14 @@
     "2 x antenna connectors",
     "2 x audio jacks"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0GP5Y8BXH",
     "newegg_sku": "N82E16813145608",
-    "walmart_sku": 19626170785
+    "walmart_sku": 19626170785,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870-AORUS-ELITE-X3D/sp"
   }
 }

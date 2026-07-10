@@ -2,8 +2,8 @@
   "opendb_id": "f5536a47-da8d-4c64-bcf2-399487d917a4",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4,
-    "max": 128
+    "max": 128,
+    "slots": 2
   },
   "storage_devices": {
     "sata_6_gb_s": 4
@@ -15,7 +15,7 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 1,
-    "pump": 1
+    "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -62,11 +62,6 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 8
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
       "lanes": 4
     }
   ],
@@ -105,8 +100,7 @@
     "2 x antenna connectors",
     "3 x audio jacks"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {}
