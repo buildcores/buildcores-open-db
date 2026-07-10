@@ -16,7 +16,7 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1
+    "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -29,7 +29,7 @@
     "power_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
@@ -37,7 +37,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC1220",
@@ -116,12 +116,13 @@
     "2 x antenna connectors",
     "2 x audio jacks"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "back_connect_connectors": false,
   "raid_support": true,
   "general_product_information": {
     "amazon_sku": "B0DGVMYTW6",
-    "walmart_sku": 12727107693
+    "walmart_sku": 12727107693,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-EAGLE-WIFI7/sp"
   }
 }
