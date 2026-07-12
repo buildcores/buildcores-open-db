@@ -16,7 +16,8 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 4,
-    "pump": 2
+    "pump": 2,
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -32,7 +33,7 @@
     "temperature_sensor": 2
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -62,11 +63,6 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 8
     },
     {
       "gen": "4.0",
@@ -113,13 +109,14 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "raid_support": true,
   "back_connect_connectors": true,
   "general_product_information": {
     "amazon_sku": "B0GDM77887",
     "newegg_sku": "N82E16813145607",
-    "walmart_sku": 19548666864
+    "walmart_sku": 19548666864,
+    "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/B850-AORUS-STEALTH/sp"
   }
 }

@@ -10,13 +10,12 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2x2": 1
+    "usb_3_2_gen_1": 1
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 1,
-    "pump": 1
+    "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -33,7 +32,7 @@
     "main_power": "24-pin"
   },
   "bios_features": {
-    "clear_cmos": false,
+    "clear_cmos": true,
     "flashback": true
   },
   "audio": {
@@ -59,11 +58,6 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 8
     },
     {
       "gen": "4.0",
@@ -110,9 +104,11 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "raid_support": true,
   "back_connect_connectors": true,
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B850M-AORUS-STEALTH/sp"
+  }
 }
