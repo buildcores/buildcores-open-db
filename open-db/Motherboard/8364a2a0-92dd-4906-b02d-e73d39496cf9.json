@@ -11,7 +11,8 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -29,7 +30,7 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
@@ -96,7 +97,12 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "10 Gb/s",
+      "controller": ""
+    }
+  ],
   "back_panel_ports": [
     "1x Clear CMOS Button",
     "1x Flash BIOS Button",
@@ -117,6 +123,7 @@
   "general_product_information": {
     "amazon_sku": "B0GSH3M4RQ",
     "newegg_sku": "N82E16813144744",
-    "walmart_sku": 20256508944
+    "walmart_sku": 20256508944,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-MAX-WIFI-II/"
   }
 }

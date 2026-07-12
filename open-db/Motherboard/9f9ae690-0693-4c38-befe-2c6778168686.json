@@ -29,10 +29,10 @@
     "reset_button": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -67,6 +67,11 @@
       "gen": "4.0",
       "quantity": 1,
       "lanes": 8
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
     }
   ],
   "m2_slots": [
@@ -114,6 +119,7 @@
     "amazon_sku": "B0GY1YVMMN",
     "newegg_sku": "N82E16813144750",
     "bestbuy_sku": 12771332,
-    "walmart_sku": 20123124495
+    "walmart_sku": 20123124495,
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-X870E-S-EVO-WIFI/"
   }
 }
