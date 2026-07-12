@@ -11,7 +11,8 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -29,7 +30,8 @@
     "reset_button": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "com_port": 1,
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
@@ -66,7 +68,7 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 8
+      "lanes": 4
     }
   ],
   "m2_slots": [
@@ -105,6 +107,7 @@
   "back_connect_connectors": false,
   "raid_support": false,
   "general_product_information": {
-    "amazon_sku": "B0GP9K7QHG"
+    "amazon_sku": "B0GP9K7QHG",
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B850-S-EVO-WIFI"
   }
 }

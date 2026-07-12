@@ -11,6 +11,7 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2x2": 0,
     "usb_3_2_gen_2": 1
   },
   "fan_headers": {
@@ -29,10 +30,11 @@
     "power_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -91,12 +93,17 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek 8126VB"
+    }
+  ],
   "back_panel_ports": [
     "1x Clear CMOS button",
     "1x Flash BIOS button",
     "1x DisplayPort",
-    "1x HDMI™ port",
+    "1x HDMI port",
     "1x USB 10Gbps Type-A port",
     "1x USB 10Gbps Type-C port",
     "4x USB 2.0 ports",
@@ -106,9 +113,10 @@
     "2x Wi-Fi Antenna connectors",
     "3x audio jacks"
   ],
-  "ecc_support": false,
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B850M-P-WIFI/Specification"
+  }
 }

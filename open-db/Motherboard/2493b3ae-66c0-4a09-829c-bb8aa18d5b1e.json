@@ -2,8 +2,8 @@
   "opendb_id": "2493b3ae-66c0-4a09-829c-bb8aa18d5b1e",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4,
-    "max": 128
+    "max": 128,
+    "slots": 2
   },
   "storage_devices": {
     "sata_6_gb_s": 4
@@ -11,7 +11,7 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1
+    "usb_3_2_gen_2": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -81,7 +81,12 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek 8125"
+    }
+  ],
   "back_panel_ports": [
     "1x DisplayPort",
     "1x HDMI port",
@@ -96,5 +101,7 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B850M-B-GEN4/support#manual"
+  }
 }

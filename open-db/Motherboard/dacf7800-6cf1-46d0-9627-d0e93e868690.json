@@ -20,7 +20,7 @@
   },
   "rgb_headers": {
     "argb_5v": 3,
-    "rgb_12v": 1
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "reset_button": true,
@@ -29,10 +29,10 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -106,9 +106,11 @@
     "2x audio jacks",
     "1x Optical S/PDIF Out connector"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "back_connect_connectors": false,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "raid_support": true,
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B850M-MORTAR-MAX-WIFI/support#manual"
+  }
 }

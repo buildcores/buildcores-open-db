@@ -29,10 +29,11 @@
     "power_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -100,8 +101,10 @@
     "3x audio jacks"
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B850M-GAMING-PRO-MAX-WIFI/support"
+  }
 }

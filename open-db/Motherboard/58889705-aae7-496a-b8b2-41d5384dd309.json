@@ -32,7 +32,7 @@
     "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -66,7 +66,7 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 8
+      "lanes": 4
     },
     {
       "gen": "3.0",
@@ -111,7 +111,7 @@
     "2x Wi-Fi Antenna connectors",
     "3x audio jacks"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "back_connect_connectors": false,
   "raid_support": true,
