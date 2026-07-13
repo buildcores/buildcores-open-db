@@ -2,43 +2,58 @@
   "opendb_id": "9614e97c-cd22-4d17-8533-8ce8651d9348",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 10
+    "l3": 10,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 256,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1620 V2 3.7 GHz 4-Core LGA2011",
+    "name": "Intel Xeon E5 1620 V2",
     "manufacturer": "Intel",
     "part_numbers": ["CM8063501292405"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v2",
+    "variant": "1620 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
-  "coreFamily": "Ivy Bridge-EP",
+  "series": "Xeon E5 1600 v2",
+  "microarchitecture": "Ivy Bridge EP",
+  "coreFamily": "Ivy Bridge-E",
   "socket": "LGA 2011",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75779/intel-xeon-processor-e51620-v2-10m-cache-3-70-ghz/specifications.html"
+  }
 }

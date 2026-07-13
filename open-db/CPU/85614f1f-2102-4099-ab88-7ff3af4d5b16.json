@@ -2,47 +2,61 @@
   "opendb_id": "85614f1f-2102-4099-ab88-7ff3af4d5b16",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.1,
       "boost": 3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 85,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2620 V4 2.1 GHz 8-Core LGA2011-3",
+    "name": "Intel Xeon E5-2620 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52620V4"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v4",
+    "variant": "2620 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
     "amazon_sku": "B01CNKEY8S",
     "newegg_sku": "9SIA8UCKBG9086",
-    "walmart_sku": 197443190
+    "walmart_sku": 197443190,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/92986/intel-xeon-processor-e52620-v4-20m-cache-2-10-ghz/specifications.html"
   }
 }

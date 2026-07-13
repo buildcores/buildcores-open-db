@@ -2,46 +2,59 @@
   "opendb_id": "172b0f70-129e-473c-9bf8-88de1d2e229c",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.5
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 64,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 71,
     "eccSupport": true,
-    "includesCooler": false,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E 2134 3.5 GHz 4-Core LGA1151",
+    "name": "Intel Xeon E-2134",
     "manufacturer": "Intel",
     "part_numbers": ["BX80684E2134"],
-    "series": "Intel Xeon E"
+    "series": "Xeon E 2100",
+    "variant": "2134",
+    "releaseYear": 2018
   },
-  "series": "Intel Xeon E",
+  "series": "Xeon E 2100",
   "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
+  "coreFamily": "Coffee Lake-S WS",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B07KNM7925",
-    "walmart_sku": 261775890
+    "walmart_sku": 261775890,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134858/intel-xeon-e2134-processor-8m-cache-up-to-4-50-ghz/specifications.html"
   }
 }

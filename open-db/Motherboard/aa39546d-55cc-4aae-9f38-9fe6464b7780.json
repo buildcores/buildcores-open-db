@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -34,7 +53,8 @@
     "part_numbers": ["Z890I Nova WiFi", "90-MXBPN0-A0UAYZ", "Z890I NOVA WIFI"],
     "variant": "Nova WiFi",
     "series": "Phantom Gaming",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2024
   },
   "socket": "LGA 1851",
   "form_factor": "Mini-ITX",
@@ -79,7 +99,8 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek 8126)"],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DJPXWMG8",
     "newegg_sku": "N82E16813162182R",

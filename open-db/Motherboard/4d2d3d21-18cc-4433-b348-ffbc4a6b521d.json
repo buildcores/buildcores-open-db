@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,27 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "case_fan": 3,
+    "cpu_fan": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -34,7 +50,8 @@
     "part_numbers": ["B760M PG Riptide Wifi", "B760M PG RIPTIDE WIFI"],
     "series": "Phantom Gaming",
     "variant": "B760M Riptide WIFI",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2023
   },
   "socket": "LGA 1700",
   "form_factor": "Micro ATX",
@@ -83,9 +100,22 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "2 x Antenna Mounting Points",
+    "1 x PS/2 Mouse/Keyboard Port",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
-    "amazon_sku": "B0CK582LX5"
+    "amazon_sku": "B0CK582LX5",
+    "newegg_sku": "9SIC3DRKN78750"
   }
 }
