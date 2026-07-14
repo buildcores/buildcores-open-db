@@ -2,43 +2,58 @@
   "opendb_id": "08020db3-1ea0-48a2-8276-934e41e6c676",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon HD 8370D"
+      "model": "AMD Radeon HD 8370D",
+      "baseClock": 760,
+      "shaderCount": 128,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "lithography": "32nm SOI",
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A4 6300 3.7 GHz 2-Core FM2 OEM/Tray",
+    "name": "AMD A4-6300 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD6300OKA23HL"],
-    "series": "AMD A4"
+    "series": "A-Series A4 6000",
+    "variant": "6300",
+    "releaseYear": 2013
   },
-  "series": "AMD A4",
+  "series": "A-Series A4 6000",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a4-series-apu-for-desktops/a4-6300-with-radeon-hd-8370d.html"
+  }
 }

@@ -2,43 +2,58 @@
   "opendb_id": "db4323ce-e076-423a-8065-e19cb05254fe",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.1,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "baseClock": 866,
+      "boostClock": 0,
+      "shaderCount": 512
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "types": ["DDR3"],
+      "channels": 2,
+      "maxSupport": 64
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A10 7890K 4.1 GHz 4-Core FM2+ OEM/Tray",
+    "name": "AMD A10-7890K OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD789KXDI44JC"],
-    "series": "AMD A10"
+    "series": "A-Series A10 7000",
+    "variant": "7890K",
+    "releaseYear": 2016
   },
-  "series": "AMD A10",
+  "series": "A-Series A10 7000",
   "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
+  "coreFamily": "Kaveri",
   "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a10-series-apu-for-desktops/a10-7890k-with-radeon-r7-graphics.html"
+  }
 }

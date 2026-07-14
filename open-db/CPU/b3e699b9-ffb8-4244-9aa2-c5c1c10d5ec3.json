@@ -2,43 +2,58 @@
   "opendb_id": "b3e699b9-ffb8-4244-9aa2-c5c1c10d5ec3",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics P630"
+      "model": "Intel HD Graphics P630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E 2288G 3.7 GHz 8-Core LGA1151 (OEM/Tray)",
+    "name": "Intel Xeon E 2288G OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068404224102"],
-    "series": "Intel Xeon E"
+    "series": "Xeon E 2200",
+    "variant": "2288G",
+    "releaseYear": 2019
   },
-  "series": "Intel Xeon E",
-  "microarchitecture": "Coffee Lake Refresh",
-  "coreFamily": "Coffee Lake Refresh",
+  "series": "Xeon E 2200",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake-S WS",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/193743/intel-xeon-e2288g-processor-16m-cache-3-70-ghz/specifications.html"
+  }
 }

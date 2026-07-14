@@ -2,45 +2,59 @@
   "opendb_id": "185f2bd4-60af-4761-8d6e-25fd909571dd",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 4.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "baseClock": 866,
+      "boostClock": 0,
+      "shaderCount": 512
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 95,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A10 A10-7870K 3.9 GHz 4-Core FM2+",
+    "name": "AMD A10-7870K",
     "manufacturer": "AMD",
     "part_numbers": ["AD787KXDJCBOX"],
-    "series": "AMD A10"
+    "series": "A-Series A10 7000",
+    "variant": "7870K",
+    "releaseYear": 2015
   },
-  "series": "AMD A10",
+  "series": "A-Series A10 7000",
   "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
+  "coreFamily": "Kaveri",
   "socket": "FM2+",
   "general_product_information": {
-    "amazon_sku": "B00Y1AJLS2"
+    "amazon_sku": "B00Y1AJLS2",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a10-series-apu-for-desktops/a10-7870k-with-radeon-r7-series.html"
   }
 }

@@ -2,45 +2,59 @@
   "opendb_id": "239ab6f9-265c-4d69-99b0-18b1b57f0231",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.4,
       "boost": 3.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 384,
-      "types": []
+      "types": ["DDR3"],
+      "channels": 3
     },
     "tdp": 95,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2470V2 2.4 GHz 10-Core LGA1356",
+    "name": "Intel Xeon E5-2470 v2",
     "manufacturer": "Intel",
     "part_numbers": ["BX80634E52470V2"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2400 v2",
+    "variant": "2470 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Xeon E5 2400 v2",
+  "microarchitecture": "Ivy Bridge EN",
   "coreFamily": "Ivy Bridge-EN",
   "socket": "LGA 1356",
   "general_product_information": {
-    "amazon_sku": "B00HTKVLLG"
+    "amazon_sku": "B00HTKVLLG",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75266/intel-xeon-processor-e52470-v2-25m-cache-2-40-ghz/specifications.html"
   }
 }

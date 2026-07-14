@@ -2,41 +2,54 @@
   "opendb_id": "fa69f0d2-e648-4597-8fd7-634915f56004",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.8
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2,
+      "maxSupport": 64
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X4 950 3.5 GHz 4-Core AM4",
+    "name": "AMD Athlon X4 950",
     "manufacturer": "AMD",
     "part_numbers": ["AD950XAGABBOX"],
-    "series": "AMD Athlon X4"
+    "series": "Athlon X4 900",
+    "variant": "950",
+    "releaseYear": 2017
   },
-  "series": "AMD Athlon X4",
+  "series": "Athlon X4 900",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",

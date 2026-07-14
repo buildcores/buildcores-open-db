@@ -2,41 +2,54 @@
   "opendb_id": "d75e09af-2936-4948-a778-afce5f7eb432",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.4,
       "boost": 3.3
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB Instruction + 16 × 16 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 115,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Opteron 6378 2.4 GHz 16-Core G34",
+    "name": "AMD Opteron 6378",
     "manufacturer": "AMD",
     "part_numbers": ["OS6378WKTGGHKWOF"],
-    "series": "AMD Opteron"
+    "series": "Opteron 6300",
+    "variant": "6378",
+    "releaseYear": 2012
   },
-  "series": "AMD Opteron",
+  "series": "Opteron 6300",
   "microarchitecture": "Piledriver",
   "coreFamily": "Abu Dhabi",
   "socket": "G34",
