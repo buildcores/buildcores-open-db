@@ -2,43 +2,58 @@
   "opendb_id": "a48616b6-d2db-4efe-bfd6-1d82e093d64a",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.5
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 Extreme 5960X 3 GHz 8-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Core i7 5960X OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064801547964"],
-    "series": "Intel Core i7 Extreme"
+    "series": "Core i7 5000",
+    "variant": "5960X",
+    "releaseYear": 2014
   },
-  "series": "Intel Core i7 Extreme",
-  "microarchitecture": "Haswell",
+  "series": "Core i7 5000",
+  "microarchitecture": "Haswell E",
   "coreFamily": "Haswell-E",
   "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/82930/intel-core-i75960x-processor-extreme-edition-20m-cache-up-to-3-50-ghz/specifications.html"
+  }
 }

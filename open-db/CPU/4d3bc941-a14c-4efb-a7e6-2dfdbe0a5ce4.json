@@ -2,45 +2,59 @@
   "opendb_id": "4d3bc941-a14c-4efb-a7e6-2dfdbe0a5ce4",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.7,
       "boost": 3.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 4650 2.7 GHz 8-Core LGA2011",
+    "name": "Intel Xeon E5 4650",
     "manufacturer": "Intel",
     "part_numbers": ["BX80621E54650"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 4600",
+    "variant": "4650",
+    "releaseYear": 2012
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
+  "series": "Xeon E5 4600",
+  "microarchitecture": "Sandy Bridge EP",
   "coreFamily": "Sandy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
-    "amazon_sku": "B0085SEH08"
+    "amazon_sku": "B0085SEH08",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/64622/intel-xeon-processor-e54650-20m-cache-2-70-ghz-8-00-gts-intel-qpi/specifications.html"
   }
 }

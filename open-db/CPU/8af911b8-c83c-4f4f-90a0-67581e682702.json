@@ -2,41 +2,54 @@
   "opendb_id": "8af911b8-c83c-4f4f-90a0-67581e682702",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "boostClock": 0,
+      "shaderCount": 0,
+      "baseClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X4 970 3.8 GHz 4-Core AM4",
+    "name": "AMD Athlon X4 970",
     "manufacturer": "AMD",
     "part_numbers": ["AD970XAUM44AB"],
-    "series": "AMD Athlon X4"
+    "series": "Athlon X4 900",
+    "variant": "970",
+    "releaseYear": 2017
   },
-  "series": "AMD Athlon X4",
+  "series": "Athlon X4 900",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",

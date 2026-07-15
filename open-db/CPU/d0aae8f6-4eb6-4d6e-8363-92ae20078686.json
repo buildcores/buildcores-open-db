@@ -2,43 +2,58 @@
   "opendb_id": "d0aae8f6-4eb6-4d6e-8363-92ae20078686",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2,
       "boost": 2.5
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 95,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2640 V2 2.0 GHz 8-Core LGA2011",
+    "name": "Intel Xeon E5-2640 v2",
     "manufacturer": "Intel",
     "part_numbers": ["BX80635E52640V2"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v2",
+    "variant": "2640 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Xeon E5 2600 v2",
+  "microarchitecture": "Ivy Bridge EP",
   "coreFamily": "Ivy Bridge-EP",
   "socket": "LGA 2011",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75267/intel-xeon-processor-e52640-v2-20m-cache-2-00-ghz/specifications.html"
+  }
 }
