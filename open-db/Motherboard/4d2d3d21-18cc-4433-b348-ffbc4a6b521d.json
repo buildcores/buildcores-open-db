@@ -1,7 +1,7 @@
 {
   "opendb_id": "4d2d3d21-18cc-4433-b348-ffbc4a6b521d",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
@@ -12,7 +12,7 @@
   },
   "usb_headers": {
     "usb_2_0": 1,
-    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
@@ -33,7 +33,7 @@
     "power_led": true
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
