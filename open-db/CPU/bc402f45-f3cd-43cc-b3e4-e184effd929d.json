@@ -2,45 +2,59 @@
   "opendb_id": "bc402f45-f3cd-43cc-b3e4-e184effd929d",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.7
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics P630"
+      "model": "Intel HD Graphics P630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
-      "maxSupport": 64,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E 2176G 3.7 GHz 6-Core LGA1151",
+    "name": "Intel Xeon E 2176G OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403380018"],
-    "series": "Intel Xeon E"
+    "series": "Xeon E 2100",
+    "variant": "2176G",
+    "releaseYear": 2018
   },
-  "series": "Intel Xeon E",
+  "series": "Xeon E 2100",
   "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
+  "coreFamily": "Coffee Lake-S WS",
   "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B07DYN2ZMK"
+    "amazon_sku": "B07DYN2ZMK",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134860/intel-xeon-e2176g-processor-12m-cache-up-to-4-70-ghz/specifications.html"
   }
 }
