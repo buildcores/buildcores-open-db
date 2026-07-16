@@ -60,12 +60,18 @@
   "form_factor": "Mini-ITX",
   "chipset": "Intel Z890",
   "color": ["BLACK"],
-  "pcie_slots": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -75,11 +81,6 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -92,12 +93,23 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek 8126)"],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "2 x Thunderbolt 4/USB4 Type-C Ports",
+    "1 x Optical SPDIF Out Port",
+    "6 x USB 3.2 Gen2 Type-A Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack",
+    "1 x Microphone Input Jack"
+  ],
   "lighting": ["None"],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DJPXWMG8",
-    "newegg_sku": "N82E16813162182R",
-    "walmart_sku": 13774923863
+    "newegg_sku": "N82E16813162182",
+    "walmart_sku": 13774923863,
+    "manufacturer_url": "https://pg.asrock.com/mb/Intel/Z890I%20Nova%20WiFi/index.asp#Manual"
   }
 }

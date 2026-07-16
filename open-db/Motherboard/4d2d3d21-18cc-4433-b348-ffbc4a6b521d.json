@@ -1,9 +1,9 @@
 {
   "opendb_id": "4d2d3d21-18cc-4433-b348-ffbc4a6b521d",
   "memory": {
-    "max": 256,
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 192
   },
   "storage_devices": {
     "sata_6_gb_s": 4,
@@ -12,10 +12,10 @@
   },
   "usb_headers": {
     "usb_2_0": 1,
-    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_3_2_gen_1": 2
   },
   "fan_headers": {
     "case_fan": 3,
@@ -37,7 +37,7 @@
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": true,
+    "flashback": false,
     "clear_cmos": false
   },
   "audio": {
@@ -112,10 +112,11 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": ["None"],
+  "lighting": ["ARGB"],
   "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0CK582LX5",
-    "newegg_sku": "9SIC3DRKN78750"
+    "newegg_sku": "9SIC3DRKN78750",
+    "manufacturer_url": "https://pg.asrock.com/mb/Intel/B760M%20PG%20Riptide%20WiFi/index.asp#Manual"
   }
 }
