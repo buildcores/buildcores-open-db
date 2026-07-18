@@ -2,43 +2,58 @@
   "opendb_id": "f3afc880-6bcf-43d3-95f1-8a63c88e1121",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.2,
       "boost": 3.6
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Sempron X2 250 3.2 GHz 2-Core FM2 OEM/Tray",
+    "name": "AMD Sempron X2 250 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["SD250XOKA23HL"],
-    "series": "AMD Sempron X2"
+    "series": "Sempron X2 200",
+    "variant": "250",
+    "releaseYear": 2013
   },
-  "series": "AMD Sempron X2",
+  "series": "Sempron X2 200",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.cpu-world.com/CPUs/Bulldozer/AMD-Sempron%20250%20-%20SD250XOKA23HL.html"
+  }
 }

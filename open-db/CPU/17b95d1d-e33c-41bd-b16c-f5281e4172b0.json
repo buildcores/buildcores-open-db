@@ -2,46 +2,61 @@
   "opendb_id": "17b95d1d-e33c-41bd-b16c-f5281e4172b0",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.7,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 30
+    "l3": 30,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5-2697 V2 2.7 GHz 12-Core LGA2011",
+    "name": "Intel Xeon E5-2697 v2",
     "manufacturer": "Intel",
     "part_numbers": ["BX80635E52697V2"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v2",
+    "variant": "2697 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Xeon E5 2600 v2",
+  "microarchitecture": "Ivy Bridge EP",
   "coreFamily": "Ivy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B00F42GWK6",
-    "walmart_sku": 123162742
+    "newegg_sku": "N82E16819116925",
+    "walmart_sku": 123162742,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75283/intel-xeon-processor-e52697-v2-30m-cache-2-70-ghz/specifications.html"
   }
 }

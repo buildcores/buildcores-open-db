@@ -2,43 +2,58 @@
   "opendb_id": "3b94f58c-7070-4a76-9b47-3a9685286621",
   "cores": {
     "total": 32,
-    "performance": 32,
-    "threads": 64
+    "performance": 0,
+    "threads": 64,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 64
+    "l3": 64,
+    "l1": "32 × 64 KB Instruction + 32 × 32 KB Data (3072 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1024,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 250,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Threadripper Threadripper 2990WX 3 GHz 32-Core sTR4 OEM/Tray",
+    "name": "AMD Ryzen Threadripper 2990WX OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["YD299XAZUIHAF"],
-    "series": "AMD Threadripper"
+    "series": "Ryzen Threadripper 2000",
+    "variant": "2990WX",
+    "releaseYear": 2018
   },
-  "series": "AMD Threadripper",
+  "series": "Ryzen Threadripper 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Colfax",
-  "socket": "TR4",
-  "general_product_information": {}
+  "socket": "sTR4",
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-2000-series/amd-ryzen-threadripper-2990wx.html"
+  }
 }
