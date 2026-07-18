@@ -2,9 +2,9 @@
   "opendb_id": "fc73856a-77ef-4961-be5b-4a33962068aa",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
     "hdmi_2_1": 0,
@@ -13,14 +13,17 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "usb_c": 1
   },
   "metadata": {
     "name": "NVIDIA GeForce RTX 2070 Founders Edition 8GB GDDR6 Silver / Black",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G160-2550-000"],
     "series": "GeForce RTX 2070",
-    "variant": "NVIDIA"
+    "variant": "NVIDIA",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2018
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2070",
@@ -28,17 +31,21 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1410,
   "core_boost_clock": 1710,
-  "effective_memory_clock": 14000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "interface": "PCIe 3.0 x16",
   "color": ["GREY", "BLACK"],
   "length": 229,
-  "tdp": 185,
+  "tdp": 175,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "lighting": [],
+  "core_count": 2304,
+  "effective_memory_clock": 1750,
+  "memory_bus": 1750,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07HM664M8",
-    "walmart_sku": 366156961
+    "walmart_sku": 366156961,
+    "manufacturer_url": "https://www.techpowerup.com/gpu-specs/nvidia-geforce-rtx-2070-founders-edition.b6195"
   }
 }

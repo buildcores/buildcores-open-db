@@ -2,46 +2,60 @@
   "opendb_id": "87a598a3-432b-4481-8f6a-5eb95e18fff1",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2690 V2 3 GHz 10-Core LGA2011",
+    "name": "Intel Xeon E5-2690 v2",
     "manufacturer": "Intel",
     "part_numbers": ["BX80635E52690V2"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v2",
+    "variant": "2690 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Xeon E5 2600 v2",
+  "microarchitecture": "Ivy Bridge EP",
   "coreFamily": "Ivy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B00F0R730S",
-    "walmart_sku": 39105760
+    "newegg_sku": "N82E16819116927",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75279/intel-xeon-processor-e52690-v2-25m-cache-3-00-ghz/specifications.html"
   }
 }

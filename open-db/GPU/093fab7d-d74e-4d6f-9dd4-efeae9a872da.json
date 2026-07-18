@@ -1,10 +1,10 @@
 {
   "opendb_id": "093fab7d-d74e-4d6f-9dd4-efeae9a872da",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_6_pin": 1,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
     "hdmi_2_1": 0,
@@ -13,14 +13,17 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "usb_c": 1
   },
   "metadata": {
     "name": "NVIDIA Founders Edition GeForce RTX 2070 SUPER 8GB GDDR6",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G180-2515-000"],
     "series": "GeForce RTX 2070 SUPER",
-    "variant": "NVIDIA"
+    "variant": "NVIDIA",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2019
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2070 SUPER",
@@ -28,17 +31,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1605,
   "core_boost_clock": 1770,
-  "effective_memory_clock": 14000,
   "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["GREY"],
+  "interface": "PCIe 3.0 x16",
+  "color": ["GREY", "BLACK"],
   "length": 267,
   "tdp": 215,
   "total_slot_width": 2,
   "cooling": "2 Fans",
-  "lighting": [],
+  "lighting": ["None"],
+  "core_count": 2560,
+  "effective_memory_clock": 1750,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07VDC5FDJ",
-    "walmart_sku": 591878334
+    "manufacturer_url": "https://www.techpowerup.com/gpu-specs/geforce-rtx-2070-super.c3440"
   }
 }

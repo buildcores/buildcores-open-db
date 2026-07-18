@@ -2,45 +2,60 @@
   "opendb_id": "efc2e6bd-7bde-483b-829f-ad07e632c5b9",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.3,
       "boost": 3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2650 V3 2.3 GHz 10-Core LGA2011-3",
+    "name": "Intel Xeon E5-2650 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52650V3", "CM8064401723701"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "variant": "2650 v3",
+    "releaseYear": 2014
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B00QNIOKI6"
+    "amazon_sku": "B00QNIOKI6",
+    "newegg_sku": "09Z-01R3-00009",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/81705/intel-xeon-processor-e52650-v3-25m-cache-2-30-ghz/specifications.html"
   }
 }

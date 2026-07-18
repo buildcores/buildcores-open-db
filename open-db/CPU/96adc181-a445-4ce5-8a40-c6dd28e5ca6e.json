@@ -2,22 +2,31 @@
   "opendb_id": "96adc181-a445-4ce5-8a40-c6dd28e5ca6e",
   "cores": {
     "total": 12,
-    "threads": 24
+    "threads": 24,
+    "performance": 0,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.7,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "768 KB",
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)",
     "l2": 12,
     "l3": 64
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 2048,
@@ -29,21 +38,22 @@
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 7945WX",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000887WOF"],
-    "series": "AMD Ryzen Threadripper PRO 7000 WX",
+    "series": "Ryzen Threadripper PRO 7000",
     "variant": "7945WX",
     "releaseYear": 2023
   },
-  "series": "AMD Ryzen Threadripper PRO 7000 WX",
+  "series": "Ryzen Threadripper PRO 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Storm Peak",
   "socket": "sTR5",
   "general_product_information": {
-    "manufacturer_url": "https://www.techpowerup.com/cpu-specs/ryzen-threadripper-pro-7945wx.c3362"
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper-pro/amd-ryzen-threadripper-pro-7000-wx-series/amd-ryzen-threadripper-pro-7945wx.html"
   }
 }

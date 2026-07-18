@@ -2,47 +2,60 @@
   "opendb_id": "1c16dbfa-0c47-425b-ad18-e06972ca6ffc",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "boostClock": 1108,
+      "baseClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A-Series A12 9800 3.8 GHz 4-Core AM4",
+    "name": "AMD A12-9800",
     "manufacturer": "AMD",
     "part_numbers": ["AD9800AUABBOX"],
-    "series": "AMD A12"
+    "series": "A-Series A12 9000",
+    "variant": "9800",
+    "releaseYear": 2017
   },
-  "series": "AMD A12",
+  "series": "A-Series A12 9000",
   "microarchitecture": "Excavator",
   "coreFamily": "Bristol Ridge",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B074BGGL6L",
-    "newegg_sku": "9SIAGKCFD31595",
-    "walmart_sku": 654248733
+    "newegg_sku": "9SIA4RE8171828",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a12-series-apu-for-desktops/7th-gen-a12-9800-apu.html"
   }
 }

@@ -2,43 +2,60 @@
   "opendb_id": "558f9e14-2ddd-4b02-8653-01011ef4cfe8",
   "cores": {
     "total": 16,
-    "performance": 16,
-    "threads": 32
+    "performance": 0,
+    "threads": 32,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.8,
       "boost": 4.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 16,
-    "l3": 22
+    "l3": 22,
+    "l1": "16 × 32 KB Instruction + 16 × 32 KB Data (1024 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 7960X 2.8 GHz 16-Core LGA2066",
+    "name": "Intel Core i9 7960X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I97960X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 7000",
+    "variant": "7960X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 7000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B075XRYMDS",
+    "newegg_sku": "N82E16819117835",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/126697/intel-core-i97960x-xseries-processor-22m-cache-up-to-4-20-ghz/specifications.html"
+  }
 }

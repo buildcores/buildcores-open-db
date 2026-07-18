@@ -1,10 +1,10 @@
 {
   "opendb_id": "7dbc8685-f948-4faa-9fd3-fdcec733941f",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
     "hdmi_2_1": 0,
@@ -13,14 +13,16 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "usb_c": 1
   },
   "metadata": {
     "name": "NVIDIA Founders Edition GeForce RTX 2080 SUPER 8GB GDDR6 Silver",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1G180-2540-000"],
-    "series": "GeForce RTX 2080 SUPER",
-    "variant": "NVIDIA"
+    "manufacturer_color": "Black / Silver",
+    "series": "Founders Edition",
+    "variant": "Super"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2080 SUPER",
@@ -28,17 +30,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1650,
   "core_boost_clock": 1815,
-  "effective_memory_clock": 15500,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
+  "effective_memory_clock": 1937,
+  "interface": "PCIe 3.0 x16",
   "color": ["GREY"],
   "length": 267,
   "tdp": 250,
   "total_slot_width": 2,
   "cooling": "2 Fans",
-  "lighting": [],
+  "lighting": ["None"],
+  "memory_bus": 256,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07W3P4PC2",
-    "walmart_sku": 836993662
+    "walmart_sku": 836993662,
+    "manufacturer_url": "http://techpowerup.com/gpu-specs/geforce-rtx-2080-super.c3439"
   }
 }

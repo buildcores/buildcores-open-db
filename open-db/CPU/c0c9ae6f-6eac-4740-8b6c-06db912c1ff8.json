@@ -2,43 +2,60 @@
   "opendb_id": "c0c9ae6f-6eac-4740-8b6c-06db912c1ff8",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4.4,
       "boost": 5.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 128
+    "l3": 128,
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR5"]
+      "maxSupport": 192,
+      "types": ["DDR5"],
+      "channels": 2
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
-    "packaging": "Boxed",
+    "packaging": "OEM/Tray",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 162
   },
   "metadata": {
-    "name": "AMD EPYC 4484PX 4.4 GHz 12-Core AM5",
+    "name": "AMD EPYC 4484PX OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-100001482WOF"],
-    "series": "AMD EPYC"
+    "series": "EPYC 4000",
+    "variant": "4484PX",
+    "releaseYear": 2024
   },
-  "series": "AMD EPYC",
+  "series": "EPYC 4000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0GLGCHXY1",
+    "newegg_sku": "9SIB5PPKMW8696",
+    "manufacturer_url": "https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4484px.html"
+  }
 }
