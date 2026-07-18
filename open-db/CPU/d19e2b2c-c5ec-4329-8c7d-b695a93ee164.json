@@ -2,43 +2,61 @@
   "opendb_id": "d19e2b2c-c5ec-4329-8c7d-b695a93ee164",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 11
+    "l3": 11,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7-7820X 3.6 GHz 8-Core",
+    "name": "Intel Core i7-7820X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I77820X"],
-    "series": "Intel Core i7"
+    "series": "Core i7 7000",
+    "variant": "7820X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 7000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B072NF4BY3",
+    "newegg_sku": "N82E16819117794",
+    "walmart_sku": 475324333,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/123767/intel-core-i77820x-xseries-processor-11m-cache-up-to-4-30-ghz/specifications.html"
+  }
 }

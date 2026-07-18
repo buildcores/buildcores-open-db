@@ -2,43 +2,60 @@
   "opendb_id": "fdc95391-09e0-4289-999b-d50433445803",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.5,
       "boost": 3.3
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 115,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2670 V2 2.5 GHz 10-Core LGA2011",
+    "name": "Intel Xeon E5-2670 v2",
     "manufacturer": "Intel",
     "part_numbers": ["BX80635E52670V2"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v2",
+    "variant": "2670 v2",
+    "releaseYear": 2013
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
+  "series": "Xeon E5 2600 v2",
+  "microarchitecture": "Ivy Bridge EP",
   "coreFamily": "Ivy Bridge-EP",
   "socket": "LGA 2011",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B00J26ZCL0",
+    "newegg_sku": "0X6-0004-003A8",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75275/intel-xeon-processor-e52670-v2-25m-cache-2-50-ghz/specifications.html"
+  }
 }

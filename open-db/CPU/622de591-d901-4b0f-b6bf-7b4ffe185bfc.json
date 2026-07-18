@@ -2,43 +2,59 @@
   "opendb_id": "622de591-d901-4b0f-b6bf-7b4ffe185bfc",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "boostClock": 800,
+      "shaderCount": 384,
+      "baseClock": 720
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
-    "tdp": 65,
+    "tdp": 45,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A 8 A8-7680 3.5 GHz 4-Core FM2+",
+    "name": "AMD A8-7680",
     "manufacturer": "AMD",
     "part_numbers": ["AD7680ACABBOX"],
-    "series": "AMD A8"
+    "series": "A-Series A8 7000",
+    "variant": "7680",
+    "releaseYear": 2018
   },
-  "series": "AMD A8",
-  "microarchitecture": "Puma+",
+  "series": "A-Series A8 7000",
+  "microarchitecture": "Excavator",
   "coreFamily": "Carrizo",
   "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {
+    "newegg_sku": "N82E16819113548",
+    "walmart_sku": 73014330936
+  }
 }
