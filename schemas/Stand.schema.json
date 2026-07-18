@@ -22,11 +22,11 @@
           "description": "Newegg product SKU"
         },
         "bestbuy_sku": {
-          "type": ["number", "null"],
+          "type": ["string", "null"],
           "description": "Best Buy product SKU"
         },
         "walmart_sku": {
-          "type": ["number", "null"],
+          "type": ["string", "null"],
           "description": "Walmart product SKU"
         },
         "adorama_sku": {
@@ -73,9 +73,9 @@
           "description": "Specific variant in the series",
           "type": ["string", "null"]
         },
-        "releaseYear": {
+        "release_year": {
           "description": "Year of release",
-          "type": ["number", "null"]
+          "type": ["integer", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],
