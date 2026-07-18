@@ -2,43 +2,61 @@
   "opendb_id": "40bb090d-7f4e-451e-99e5-fd9299a4aad7",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 32
+    "l3": 32,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 88
   },
   "metadata": {
-    "name": "AMD Ryzen 5 3600 3.6 GHz 6-Core AM4",
+    "name": "AMD Ryzen 5 3600",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000031SBX"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 3000",
+    "variant": "3600",
+    "releaseYear": 2019
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0BL92CBWG",
+    "newegg_sku": "N82E16819113569",
+    "walmart_sku": 669877096,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-5-3600.html"
+  }
 }

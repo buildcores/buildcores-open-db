@@ -2,8 +2,8 @@
   "opendb_id": "0d19c5b2-c8fc-432b-a4d4-aa31365c5261",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "efficiency": null,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 2
   },
   "clocks": {
@@ -12,12 +12,12 @@
       "boost": 0
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": null,
+    "l1": "2 × 32 KB Instruction + 2 × 32 KB Data (128 KB total)",
     "l2": 0,
     "l3": 2
   },
@@ -35,23 +35,28 @@
     },
     "tdp": 58,
     "eccSupport": false,
-    "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "includesCooler": true,
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Celeron Processor G5920",
+    "name": "Intel Celeron G5920",
     "part_numbers": ["BX80701G5920"],
-    "releaseYear": 2020
+    "releaseYear": 2020,
+    "variant": "G5920",
+    "series": "Celeron G5000",
+    "manufacturer": "Intel"
   },
-  "series": "Intel Celeron Processor G Series",
+  "series": "Celeron G5000",
   "microarchitecture": "Comet Lake",
-  "coreFamily": null,
+  "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
   "general_product_information": {
     "amazon_sku": "B086MG1C7P",
-    "newegg_sku": "9SIA2W0K0G3638",
-    "walmart_sku": 552579815
+    "newegg_sku": "N82E16819118142",
+    "walmart_sku": 552579815,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199290/intel-celeron-processor-g5920-2m-cache-3-50-ghz/specifications.html"
   }
 }

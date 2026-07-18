@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -34,7 +53,8 @@
     "part_numbers": ["Z890I Nova WiFi", "90-MXBPN0-A0UAYZ", "Z890I NOVA WIFI"],
     "variant": "Nova WiFi",
     "series": "Phantom Gaming",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2024
   },
   "socket": "LGA 1851",
   "form_factor": "Mini-ITX",
@@ -42,7 +62,7 @@
   "color": ["BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     }
@@ -51,7 +71,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -61,11 +81,6 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -78,11 +93,23 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek 8126)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "2 x Thunderbolt 4/USB4 Type-C Ports",
+    "1 x Optical SPDIF Out Port",
+    "6 x USB 3.2 Gen2 Type-A Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack",
+    "1 x Microphone Input Jack"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0DJPXWMG8",
     "newegg_sku": "N82E16813162182",
-    "walmart_sku": 13774923863
+    "walmart_sku": 13774923863,
+    "manufacturer_url": "https://pg.asrock.com/mb/Intel/Z890I%20Nova%20WiFi/index.asp#Manual"
   }
 }

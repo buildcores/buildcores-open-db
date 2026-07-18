@@ -2,45 +2,61 @@
   "opendb_id": "3af33662-8d17-4e72-bdd9-200604b9db7b",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "384 KB",
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)",
     "l2": 6,
     "l3": 96
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon"
+      "model": "AMD Radeon Graphics",
+      "baseClock": 400,
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "maxSupport": 128,
       "types": ["DDR5"],
-      "channels": null
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": true,
-    "lithography": "5nm",
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true,
-    "includesCooler": false
+    "includesCooler": false,
+    "ppt": 88,
+    "packaging": "Boxed"
   },
   "metadata": {
-    "name": "AMD Ryzen 5 7500X3D 4 GHz 6-Core AM5",
+    "name": "AMD Ryzen 5 7500X3D",
     "manufacturer": "AMD",
-    "part_numbers": [],
-    "series": "AMD Ryzen 5",
-    "releaseYear": 2025
+    "part_numbers": ["100-100001904WOF", "1001000001904WOF"],
+    "series": "Ryzen 5 7000",
+    "releaseYear": 2025,
+    "variant": "7500X3D"
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 7000",
   "microarchitecture": "Zen 4",
   "coreFamily": "Raphael",
   "socket": "AM5",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0FT8X951Z",
+    "newegg_sku": "9SIC4GSKZ90391",
+    "walmart_sku": 18898656141,
+    "manufacturer_url": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500x3d.html"
+  }
 }

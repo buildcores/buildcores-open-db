@@ -2,26 +2,121 @@
   "opendb_id": "e41f4907-c9f2-4e5b-a53e-4a5fe4b2be5e",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 2
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "GIGABYTE B850 AORUS STEALTH",
     "manufacturer": "Gigabyte",
-    "part_numbers": [],
+    "part_numbers": ["B850 AORUS STEALTH"],
     "series": "AORUS",
-    "variant": "B850 STEALTH"
+    "variant": "B850 STEALTH",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B850",
   "color": ["BLACK"],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "25110/22110/2580/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
+  "back_panel_ports": [
+    "1 x HDMI port",
+    "2 x antenna connectors",
+    "1 x USB Type-C header",
+    "2 x USB 3.2 Gen 2 Type-A ports",
+    "4 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "1 x optical S/PDIF Out connector",
+    "2 x audio jacks"
+  ],
+  "ecc_support": true,
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "raid_support": true,
+  "back_connect_connectors": true,
+  "general_product_information": {
+    "amazon_sku": "B0GDM77887",
+    "newegg_sku": "N82E16813145607",
+    "walmart_sku": 19548666864,
+    "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/B850-AORUS-STEALTH/sp"
+  }
 }

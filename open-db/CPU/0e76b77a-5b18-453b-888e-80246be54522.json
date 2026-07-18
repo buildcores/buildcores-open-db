@@ -2,43 +2,61 @@
   "opendb_id": "0e76b77a-5b18-453b-888e-80246be54522",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 8,
-    "l3": 5
+    "l3": 16.5,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
-    "includesCooler": false,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 9800X 3.8 GHz 8-Core LGA2066",
+    "name": "Intel Core i7-9800X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I79800X"],
-    "series": "Intel Core i7"
+    "series": "Core i7 X-series",
+    "variant": "9800X",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 X-series",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B07JGCSMJX",
+    "newegg_sku": "N82E16819117961",
+    "walmart_sku": 3164514913,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/189122/intel-core-i79800x-xseries-processor-16-5m-cache-up-to-4-50-ghz/specifications.html"
+  }
 }

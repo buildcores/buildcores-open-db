@@ -2,46 +2,60 @@
   "opendb_id": "7505f3bc-2762-4f9d-ac53-7877a4a4f9b5",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "lithography": "12nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 2700X",
     "manufacturer": "AMD",
     "part_numbers": ["YD270XBGAFBOX", "115931"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 2000",
+    "variant": "2700X",
+    "releaseYear": 2018
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Pinnacle Ridge",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B07B428M7F",
-    "newegg_sku": "9SIADFRH9P8141"
+    "newegg_sku": "N82E16819113499",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-7-2700x.html"
   }
 }

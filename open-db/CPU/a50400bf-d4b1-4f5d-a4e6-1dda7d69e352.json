@@ -17,13 +17,13 @@
     }
   },
   "cache": {
-    "l1": "2 x 64 KB instruction caches, 2 x 32 KB data caches",
+    "l1": "2 × 64 KB Instruction + 2 × 32 KB Data (192 KB total)",
     "l2": 1,
     "l3": 4
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 3",
+      "model": "AMD Radeon Vega 3 Graphics",
       "baseClock": 0,
       "boostClock": 1000,
       "shaderCount": 192
@@ -34,25 +34,27 @@
       "channels": 2
     },
     "tdp": 35,
-    "eccSupport": true,
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
     "name": "AMD Athlon 240GE",
     "releaseYear": 2018,
     "part_numbers": ["YD240GC6FBBOX", "YD220GC6FBBOX"],
-    "manufacturer": "AMD"
+    "manufacturer": "AMD",
+    "series": "Athlon 200GE",
+    "variant": "240GE"
   },
-  "series": "Athlon",
+  "series": "Athlon 200GE",
   "microarchitecture": "Zen",
-  "coreFamily": "23",
+  "coreFamily": "Raven Ridge",
   "socket": "AM4",
   "general_product_information": {
     "amazon_sku": "B07L9V9F6H",
-    "newegg_sku": "9SIATJ1HWY4062",
-    "walmart_sku": 596193604
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/athlon/athlon-200-series/amd-athlon-240ge.html"
   }
 }

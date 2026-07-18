@@ -2,9 +2,9 @@
   "opendb_id": "9d3d746b-03b2-48f9-86b4-565307f145fe",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 0,
+    "pcie_8_pin": 1
   },
   "video_outputs": {
     "hdmi_2_1": 0,
@@ -13,14 +13,17 @@
     "displayport_2_1a": 0,
     "displayport_1_4a": 2,
     "dvi_d": 0,
-    "vga": 0
+    "vga": 0,
+    "usb_c": 1
   },
   "metadata": {
     "name": "NVIDIA GeForce RTX 2060 Founders Edition 6GB GDDR6 Silver / Black",
     "manufacturer": "NVIDIA",
     "part_numbers": ["900-1g160-2540-000", "900-1G160-2540-000"],
     "series": "GeForce RTX 2060",
-    "variant": "NVIDIA"
+    "variant": "NVIDIA",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black / Silver"
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 2060",
@@ -28,17 +31,20 @@
   "memory_type": "GDDR6",
   "core_base_clock": 1365,
   "core_boost_clock": 1680,
-  "effective_memory_clock": 14000,
   "memory_bus": 0,
-  "interface": "PCIe x16",
+  "interface": "PCIe 3.0 x16",
   "color": ["GREY", "BLACK"],
   "length": 229,
   "tdp": 160,
   "total_slot_width": 2,
   "cooling": "2 Fans",
-  "lighting": [],
+  "lighting": ["None"],
+  "effective_memory_clock": 1750,
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
   "general_product_information": {
     "amazon_sku": "B07MW44MYL",
-    "walmart_sku": 2767451000
+    "walmart_sku": 2767451000,
+    "manufacturer_url": "https://www.techpowerup.com/gpu-specs/nvidia-geforce-rtx-2060-founders-edition.b6569"
   }
 }

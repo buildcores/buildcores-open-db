@@ -2,20 +2,21 @@
   "opendb_id": "c46ce72e-7bcc-408c-aaf9-e89a73ecef40",
   "connectors": {
     "atx_24_pin": 1,
-    "eps_8_pin": 0,
-    "pcie_12vhpwr": 0,
-    "pcie_6_plus_2_pin": 0,
     "sata": 7,
-    "molex_4_pin": 0,
-    "floppy_4_pin": 0
+    "floppy_4_pin": 0,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "molex_4_pin": 6
   },
   "metadata": {
     "name": "Asus ROG Thor P3 Gaming 1000W Fully Modular 80+ Platinum Certified",
     "manufacturer": "Asus",
-    "part_numbers": ["rog-thor-1000p3-gaming"],
+    "part_numbers": ["rog-thor-1000p3-gaming", "ROG-THOR-1000P3-GAMING"],
     "series": "ROG Thor",
     "variant": "1000W Platinum III",
-    "manufacturer_color": "Black/Silver"
+    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2024
   },
   "wattage": 1000,
   "form_factor": "ATX",
@@ -24,6 +25,13 @@
   "color": ["BLACK"],
   "length": 190,
   "fanless": false,
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["ARGB", "Display"],
+  "cybernetics_efficiency_rating": "Cybenetics Platinum",
+  "cybernetics_noise_rating": "Cybenetics A++",
+  "general_product_information": {
+    "amazon_sku": "B0FFYF6H6J",
+    "newegg_sku": "N82E16817320057",
+    "walmart_sku": 17213463941,
+    "manufacturer_url": "https://rog.asus.com/power-supply-units/rog-thor/rog-thor-1000p3-gaming/"
+  }
 }

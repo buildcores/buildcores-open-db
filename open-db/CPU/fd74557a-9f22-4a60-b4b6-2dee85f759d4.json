@@ -2,43 +2,58 @@
   "opendb_id": "fd74557a-9f22-4a60-b4b6-2dee85f759d4",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 99
+    "l3": 16,
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 64,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "lithography": "12nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 5 2600 3.4 GHz 6-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 5 2600 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["YD2600BBM6IAF"],
-    "series": "AMD Ryzen 5"
+    "series": "Ryzen 5 2000",
+    "variant": "2600",
+    "releaseYear": 2018
   },
-  "series": "AMD Ryzen 5",
+  "series": "Ryzen 5 2000",
   "microarchitecture": "Zen+",
   "coreFamily": "Pinnacle Ridge",
   "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-5-2600.html"
+  }
 }

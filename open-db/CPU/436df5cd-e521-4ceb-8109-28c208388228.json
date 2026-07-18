@@ -2,43 +2,61 @@
   "opendb_id": "436df5cd-e521-4ceb-8109-28c208388228",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 25
+    "l2": 2.5,
+    "l3": 25,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 160,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2687W V3 3.1 GHz 10-Core LGA2011-3",
+    "name": "Intel Xeon E5 2687W V3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52687V3"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "releaseYear": 2014,
+    "variant": "2687W v3"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B00NB0V10E",
+    "newegg_sku": "N82E16819117483",
+    "walmart_sku": 41868939,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/81909/intel-xeon-processor-e52687w-v3-25m-cache-3-10-ghz/specifications.html"
+  }
 }

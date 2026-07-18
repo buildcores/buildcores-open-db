@@ -2,43 +2,60 @@
   "opendb_id": "b3e855a0-64fe-48fc-88fb-0898e4deb440",
   "cores": {
     "total": 18,
-    "performance": 18,
-    "threads": 36
+    "performance": 0,
+    "threads": 36,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.3,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 45
+    "l2": 4.5,
+    "l3": 45,
+    "l1": "18 × 32 KB Instruction + 18 × 32 KB Data (1152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 145,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2697 V4 2.3 GHz 18-Core LGA2011-3",
+    "name": "Intel Xeon E5-2697 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52697V4", "SR2JV"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v4",
+    "releaseYear": 2016,
+    "variant": "2697 v4"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B01DTYQIN6",
+    "newegg_sku": "2HE-000B-003S5",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/91755/intel-xeon-processor-e52697-v4-45m-cache-2-30-ghz/specifications.html"
+  }
 }
