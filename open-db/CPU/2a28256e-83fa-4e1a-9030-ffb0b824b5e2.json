@@ -2,46 +2,61 @@
   "opendb_id": "2a28256e-83fa-4e1a-9030-ffb0b824b5e2",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.4,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E3 1231 V3 3.4 GHz 4-Core LGA1150",
+    "name": "Intel Xeon E3-1231 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80646E31231V3", "FBA_1357338"],
-    "series": "Intel Xeon E3"
+    "series": "Xeon E3 1200 v3",
+    "releaseYear": 2014,
+    "variant": "1231 v3"
   },
-  "series": "Intel Xeon E3",
-  "microarchitecture": "Haswell Refresh",
-  "coreFamily": "Haswell Refresh",
+  "series": "Xeon E3 1200 v3",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-WS",
   "socket": "LGA 1150",
   "general_product_information": {
     "amazon_sku": "B00KASFWKK",
-    "walmart_sku": 39128228
+    "newegg_sku": "N82E16819117316",
+    "walmart_sku": 39128228,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/80910/intel-xeon-processor-e31231-v3-8m-cache-3-40-ghz/specifications.html"
   }
 }

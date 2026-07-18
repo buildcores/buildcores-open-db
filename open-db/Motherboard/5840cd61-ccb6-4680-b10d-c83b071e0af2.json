@@ -8,6 +8,10 @@
   "storage_devices": {
     "sata_6_gb_s": 2
   },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2
+  },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
@@ -29,7 +33,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC897",
@@ -65,22 +69,22 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen5.0x4"
+      "interface": "PCIe 5.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x2"
+      "interface": "PCIe 4.0x2"
     }
   ],
   "onboard_ethernet": [
@@ -100,13 +104,14 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks Line in / Front Speaker / Microphone"
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "back_connect_connectors": false,
   "raid_support": true,
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0GWM7NRL8",
     "newegg_sku": "N82E16813162252",
-    "walmart_sku": 20096870877
+    "walmart_sku": 20096870877,
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/X870%20Challenger%20WiFi/index.asp#Manual"
   }
 }

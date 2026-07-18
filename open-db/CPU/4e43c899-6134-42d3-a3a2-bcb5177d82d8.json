@@ -2,46 +2,60 @@
   "opendb_id": "4e43c899-6134-42d3-a3a2-bcb5177d82d8",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.9,
       "boost": 4.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 5
+    "l3": 16.5,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 7920X 2.9 GHz 12-Core LGA2066",
+    "name": "Intel Core i9 7920X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I97920X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 7000",
+    "variant": "7920X",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 7000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
     "amazon_sku": "B0756L5T93",
-    "newegg_sku": "9SIBMM4KBT5553"
+    "newegg_sku": "N82E16819117811",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/126240/intel-core-i97920x-xseries-processor-16-5m-cache-up-to-4-30-ghz/specifications.html"
   }
 }

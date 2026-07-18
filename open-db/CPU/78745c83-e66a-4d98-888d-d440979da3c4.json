@@ -2,45 +2,61 @@
   "opendb_id": "78745c83-e66a-4d98-888d-d440979da3c4",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 1.8,
       "boost": 2.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 70,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2650L 1.8 GHz 8-Core LGA2011 OEM/Tray",
+    "name": "Intel Xeon E5-2650L OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8062107185309"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600",
+    "variant": "2650L",
+    "releaseYear": 2012
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
+  "series": "Xeon E5 2600",
+  "microarchitecture": "Sandy Bridge EP",
   "coreFamily": "Sandy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
-    "amazon_sku": "B0090YN39M"
+    "amazon_sku": "B0090YN39M",
+    "newegg_sku": "N82E16819116967",
+    "walmart_sku": 101327914,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/64585/intel-xeon-processor-e52650l-20m-cache-1-80-ghz-8-00-gts-intel-qpi/specifications.html"
   }
 }

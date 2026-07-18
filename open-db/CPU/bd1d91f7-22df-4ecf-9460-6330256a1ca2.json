@@ -2,45 +2,60 @@
   "opendb_id": "bd1d91f7-22df-4ecf-9460-6330256a1ca2",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 1.8,
       "boost": 2.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 55,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2630L V3 OEM/Tray 1.8 GHz 8-Core LGA2011-3",
+    "name": "Intel Xeon E5-2630L v3 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064401832100"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "variant": "2630L v3",
+    "releaseYear": 2014
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B00PDD2BS8"
+    "amazon_sku": "B00PDD2BS8",
+    "newegg_sku": "9SIBT5SK7A5497",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/83357/intel-xeon-processor-e52630l-v3-20m-cache-1-80-ghz/specifications.html"
   }
 }

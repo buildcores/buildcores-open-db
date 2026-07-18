@@ -2,43 +2,60 @@
   "opendb_id": "d57ff10c-517c-4e94-acba-36b52dae0898",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 3.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E3 1230 V3 3.3 GHz 4-Core LGA1150",
+    "name": "Intel Xeon E3 1230 V3 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064601467202"],
-    "series": "Intel Xeon E3"
+    "series": "Xeon E3 1200 v3",
+    "releaseYear": 2013,
+    "variant": "1230 v3"
   },
-  "series": "Intel Xeon E3",
+  "series": "Xeon E3 1200 v3",
   "microarchitecture": "Haswell",
-  "coreFamily": "Haswell",
+  "coreFamily": "Haswell-WS",
   "socket": "LGA 1150",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0GTN27ZHB",
+    "newegg_sku": "N82E16819116984",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75054/intel-xeon-processor-e31230-v3-8m-cache-3-30-ghz/specifications.html"
+  }
 }

@@ -2,27 +2,125 @@
   "opendb_id": "d00a868f-b42a-446c-9c09-16de6314171f",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 2
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "GIGABYTE X870 AORUS ELITE X3D",
     "manufacturer": "Gigabyte",
     "series": "AORUS",
     "variant": "X870 ELITE X3D",
-    "part_numbers": [],
-    "manufacturer_color": "Black"
+    "part_numbers": ["X870 AORUS ELITE X3D"],
+    "manufacturer_color": "Black",
+    "releaseYear": 2026
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870",
-  "color": [],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 8
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "25110/22110/2580/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
+  "back_panel_ports": [
+    "1 x HDMI port",
+    "1 x power button",
+    "1 x reset button",
+    "1 x Q-Flash Plus button",
+    "1 x Clear CMOS button",
+    "2 x USB4 Type-C",
+    "1 x USB Type-C (USB 3.2 Gen 2)",
+    "2 x USB 3.2 Gen 2 Type-A ports",
+    "4 x USB 3.2 Gen 1 ports",
+    "1 x USB 2.0/1.1 port",
+    "1 x RJ-45 port",
+    "2 x antenna connectors",
+    "2 x audio jacks"
+  ],
+  "ecc_support": true,
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "amazon_sku": "B0GP5Y8BXH",
+    "newegg_sku": "N82E16813145608",
+    "walmart_sku": 19626170785,
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870-AORUS-ELITE-X3D/sp"
+  }
 }

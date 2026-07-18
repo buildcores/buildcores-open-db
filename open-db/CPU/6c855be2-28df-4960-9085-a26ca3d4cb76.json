@@ -2,43 +2,61 @@
   "opendb_id": "6c855be2-28df-4960-9085-a26ca3d4cb76",
   "cores": {
     "total": 18,
-    "performance": 18,
-    "threads": 36
+    "performance": 0,
+    "threads": 36,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 18,
-    "l3": 75
+    "l3": 24.75,
+    "l1": "18 × 32 KB Instruction + 18 × 32 KB Data (1152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 256,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10980XE 3 GHz 18-Core LGA2066",
+    "name": "Intel Core i9 10980XE",
     "manufacturer": "Intel",
     "part_numbers": ["BX8069510980XE", "BX8069510920X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10980XE",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Cascade Lake",
   "coreFamily": "Cascade Lake-X",
   "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B07YP6D8RK",
+    "newegg_sku": "N82E16819118112",
+    "walmart_sku": 571286571,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/198017/intel-core-i910980xe-extreme-edition-processor-24-75m-cache-3-00-ghz/specifications.html"
+  }
 }
