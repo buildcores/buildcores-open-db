@@ -2,43 +2,60 @@
   "opendb_id": "27c44194-75c5-468f-a8f3-3847cc0c7bce",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4.1
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 10,
-    "l3": 5
+    "l3": 16.5,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 9820X 3.3 GHz 10-Core LGA2066",
+    "name": "Intel Core i9 9820X",
     "manufacturer": "Intel",
     "part_numbers": ["BX80673I99820X"],
-    "series": "Intel Core i9"
+    "series": "Core i9 9000",
+    "variant": "9820X",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 9000",
   "microarchitecture": "Skylake",
   "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B07KCCH7JL",
+    "newegg_sku": "N82E16819117332",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/189121/intel-core-i99820x-xseries-processor-16-5m-cache-up-to-4-20-ghz/specifications.html"
+  }
 }

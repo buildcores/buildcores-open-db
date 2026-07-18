@@ -2,46 +2,59 @@
   "opendb_id": "09a3f61e-39c4-4eb3-96e8-28c7b8d344d2",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.2,
       "boost": 3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 95,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2660 2.2 GHz 8-Core LGA2011 OEM/Tray",
+    "name": "Intel Xeon E5-2660 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["SR0GZ", "BX80621E52660"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600",
+    "releaseYear": 2012,
+    "variant": "2660"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
+  "series": "Xeon E5 2600",
+  "microarchitecture": "Sandy Bridge EP",
   "coreFamily": "Sandy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
     "amazon_sku": "B007H29EYC",
-    "newegg_sku": "9SIA1K6HWV5350"
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/64584/intel-xeon-processor-e52660-20m-cache-2-20-ghz-8-00-gts-intel-qpi/specifications.html"
   }
 }

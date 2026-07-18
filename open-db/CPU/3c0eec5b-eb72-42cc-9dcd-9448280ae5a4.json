@@ -2,43 +2,59 @@
   "opendb_id": "3c0eec5b-eb72-42cc-9dcd-9448280ae5a4",
   "cores": {
     "total": 14,
-    "performance": 14,
-    "threads": 28
+    "performance": 0,
+    "threads": 28,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.6,
       "boost": 3.6
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 35
+    "l2": 3.5,
+    "l3": 35,
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 145,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2697 V3 2.6 GHz 14-Core LGA2011-3",
+    "name": "Intel Xeon E5 2697 V3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52697V3"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "releaseYear": 2014,
+    "variant": "2697 v3"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {
+    "newegg_sku": "N82E16819117470",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/81059/intel-xeon-processor-e52697-v3-35m-cache-2-60-ghz/specifications.html"
+  }
 }

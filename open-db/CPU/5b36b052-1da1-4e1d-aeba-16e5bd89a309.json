@@ -2,45 +2,60 @@
   "opendb_id": "5b36b052-1da1-4e1d-aeba-16e5bd89a309",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.5,
       "boost": 3.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 3,
-    "l3": 30
+    "l3": 30,
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 2680 V3 2.5 GHz 12-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5-2680 v3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52680V3"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 2600 v3",
+    "releaseYear": 2014,
+    "variant": "2680 v3"
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 2600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B00NFA7I02"
+    "amazon_sku": "B00NFA7I02",
+    "newegg_sku": "N82E16819117473",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/81908/intel-xeon-processor-e52680-v3-30m-cache-2-50-ghz/specifications.html"
   }
 }

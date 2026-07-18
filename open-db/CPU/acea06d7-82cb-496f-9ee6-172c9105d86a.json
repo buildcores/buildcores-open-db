@@ -2,43 +2,61 @@
   "opendb_id": "acea06d7-82cb-496f-9ee6-172c9105d86a",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 9
+    "l2": 1.5,
+    "l3": 9,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 8500 3 GHz 6-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i5 8500 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403362607"],
-    "series": "Intel Core i5"
+    "series": "Core i5 8000",
+    "variant": "8500",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 8000",
   "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B07BZ2SSNF",
+    "newegg_sku": "N82E16819117882",
+    "walmart_sku": 1429031814,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/129939/intel-core-i58500-processor-9m-cache-up-to-4-10-ghz/specifications.html"
+  }
 }

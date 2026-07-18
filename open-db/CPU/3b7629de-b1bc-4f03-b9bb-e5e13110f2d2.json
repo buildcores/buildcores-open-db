@@ -2,43 +2,60 @@
   "opendb_id": "3b7629de-b1bc-4f03-b9bb-e5e13110f2d2",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon HD 8470D"
+      "model": "AMD Radeon HD 8470D",
+      "baseClock": 800,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "lithography": "32nm SOI",
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A4 Pro 7300B 3.8 GHz 2-Core FM2 OEM/Tray",
+    "name": "AMD PRO A4-7300B OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD730BOKA23HL"],
-    "series": "AMD A4"
+    "series": "PRO A4 7000",
+    "variant": "7300B",
+    "releaseYear": 2014
   },
-  "series": "AMD A4",
+  "series": "PRO A4 7000",
   "microarchitecture": "Piledriver",
-  "coreFamily": "Richland",
+  "coreFamily": "Kaveri",
   "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0DF1FYTGG",
+    "newegg_sku": "9SIADD8KVX3604",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/pro-a-series/pro-a-series-a4-apu-for-desktops/a4-pro-7300b-with-radeon-hd-8470d.html"
+  }
 }

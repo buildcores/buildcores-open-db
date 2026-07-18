@@ -8,6 +8,11 @@
   "storage_devices": {
     "sata_6_gb_s": 2
   },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2x2": 1
+  },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
@@ -45,7 +50,7 @@
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
-  "color": ["WHITE"],
+  "color": ["WHITE", "GREY"],
   "lighting": ["None"],
   "pcie_slots": [
     {
@@ -68,22 +73,22 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen5.0x4"
+      "interface": "PCIe 5.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     }
   ],
   "onboard_ethernet": [],
@@ -102,12 +107,13 @@
     "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0GWML4GVW",
     "newegg_sku": "N82E16813162250",
-    "walmart_sku": 20091869109
+    "walmart_sku": 20091869109,
+    "manufacturer_url": "https://asrock.com/mb/AMD/X870E%20Challenger%20WiFi%20White/index.asp#Support"
   }
 }

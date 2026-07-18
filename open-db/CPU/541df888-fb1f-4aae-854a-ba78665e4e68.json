@@ -2,45 +2,60 @@
   "opendb_id": "541df888-fb1f-4aae-854a-ba78665e4e68",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.6,
       "boost": 3.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 12,
-    "l3": 16
+    "l3": 16,
+    "l1": "6 × 64 KB Instruction + 12 × 16 KB Data (576 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 1024,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 115,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Opteron 6344 2.6 GHz 12-Core G34",
+    "name": "AMD Opteron 6344",
     "manufacturer": "AMD",
     "part_numbers": ["OS6344WKTCGHKWOF", "OS6344WKTCGHK"],
-    "series": "AMD Opteron"
+    "series": "Opteron 6300",
+    "variant": "6344",
+    "releaseYear": 2012
   },
-  "series": "AMD Opteron",
+  "series": "Opteron 6300",
   "microarchitecture": "Piledriver",
   "coreFamily": "Abu Dhabi",
   "socket": "G34",
   "general_product_information": {
-    "amazon_sku": "B014Q2DBTE"
+    "amazon_sku": "B014Q2DBTE",
+    "newegg_sku": "N82E16819113304",
+    "walmart_sku": 42466991
   }
 }

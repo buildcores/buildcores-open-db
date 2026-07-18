@@ -2,43 +2,59 @@
   "opendb_id": "f2f956e6-c0df-4c3e-b2ad-5c3c57e2e13b",
   "cores": {
     "total": 12,
-    "performance": 12,
-    "threads": 24
+    "performance": 0,
+    "threads": 24,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.6
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 64
+    "l3": 64,
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
       "maxSupport": 128,
-      "types": ["DDR4"]
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 105,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "ppt": 142
   },
   "metadata": {
-    "name": "AMD Ryzen 9 3900X 3.8 GHz 12-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 9 3900X OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["100-000000023"],
-    "series": "AMD Ryzen 9"
+    "series": "Ryzen 9 3000",
+    "releaseYear": 2019,
+    "variant": "3900X"
   },
-  "series": "AMD Ryzen 9",
+  "series": "Ryzen 9 3000",
   "microarchitecture": "Zen 2",
   "coreFamily": "Matisse",
   "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "newegg_sku": "9SIC4RPKRD4351",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-9-3900x.html"
+  }
 }
