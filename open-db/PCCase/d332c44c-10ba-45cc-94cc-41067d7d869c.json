@@ -1,5 +1,10 @@
 {
   "opendb_id": "d332c44c-10ba-45cc-94cc-41067d7d869c",
+  "dimensions_mm": {
+    "depth": 510,
+    "height": 485,
+    "width": 255
+  },
   "metadata": {
     "name": "HYTE X50 Astral Orange",
     "manufacturer": "HYTE",
@@ -8,10 +13,17 @@
     "part_numbers": []
   },
   "form_factor": "ATX Mid Tower",
-  "supported_motherboard_form_factors": [],
-  "color": [],
-  "supported_power_supply_form_factors": [],
+  "supported_motherboard_form_factors": ["ATX", "Mini-ITX", "Micro ATX"],
+  "color": ["ORANGE"],
+  "supported_power_supply_form_factors": ["ATX"],
   "front_usb_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["None"],
+  "side_panel": "Tempered Glass",
+  "power_supply_included": false,
+  "has_transparent_side_panel": true,
+  "max_video_card_length": 430,
+  "max_cpu_cooler_height": 170,
+  "general_product_information": {
+    "amazon_sku": "B0GSCRVTC6"
+  }
 }
