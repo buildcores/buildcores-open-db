@@ -13,7 +13,7 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0,
     "usb_4_80g": 0
@@ -30,7 +30,7 @@
   },
   "front_panel_headers": {
     "power_button": true,
-    "reset_button": false,
+    "reset_button": true,
     "power_led": true,
     "hdd_led": true
   },
@@ -112,7 +112,6 @@
   ],
   "ecc_support": true,
   "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x USB 20Gbps port (1 x USB Type-C®)",
     "3 x USB 10Gbps ports (2 x Type-A + 1 x USB Type-C®)",
@@ -127,8 +126,9 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
-  "wireless_networking": "Wi-Fi 7                              Bluetooth® v5.4",
+  "wireless_networking": "Wi-Fi 7",
   "lighting": ["RGB"],
+  "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0DPLP33YR",
     "newegg_sku": "N82E16813119703",
