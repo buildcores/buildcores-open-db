@@ -15,7 +15,8 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -24,27 +25,30 @@
     "case_fan": 3
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
-    "power_led": false,
+    "power_led": true,
     "reset_button": true,
     "hdd_led": true
   },
   "other_headers": {
-    "com_port": 1
+    "com_port": 1,
+    "temperature_sensor": 0,
+    "thunderbolt": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": " Realtek ALC1220P",
+    "chipset": "Realtek ALC1220P",
     "channels": "7.1"
   },
   "metadata": {
@@ -54,12 +58,13 @@
     "series": "TUF GAMING",
     "variant": "B850M-PLUS WIFI",
     "manufacturer_color": "Black",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2026-01-05T19:05:37.852Z"
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": ["BLACK", "RGB"],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -110,12 +115,12 @@
     "5 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 6E",
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DPLQQ7VJ",
     "newegg_sku": "N82E16813119706",
     "walmart_sku": 14954800777,
-    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850m-plus-wifi/"
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850m-plus-wifi/techspec/"
   }
 }
