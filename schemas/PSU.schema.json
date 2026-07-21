@@ -67,7 +67,7 @@
       "enum": ["Full", "Semi-Modular", "Non-Modular", null]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes the casing color",
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Includes the casing color",
       "type": ["array", "null"],
       "items": {
         "type": "string",

@@ -61,7 +61,7 @@
       "type": ["number", "null"]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array.",
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -115,10 +115,6 @@
         "683:240",
         null
       ]
-    },
-    "connectors": {
-      "description": "Available ports and connections",
-      "type": ["string", "null"]
     },
     "video_outputs": {
       "type": ["object", "null"],
@@ -180,6 +176,10 @@
           "type": ["number", "null"]
         }
       }
+    },
+    "connectors": {
+      "description": "Available ports and connections",
+      "type": ["string", "null"]
     },
     "max_brightness": {
       "description": "Maximum brightness in nits",
