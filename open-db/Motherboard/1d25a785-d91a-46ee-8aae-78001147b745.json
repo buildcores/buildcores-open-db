@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,10 +15,33 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "cpu_opt": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 1,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
@@ -29,11 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus Z690 TUF GAMING PLUS WIFI DDR5 ATX",
+    "name": "Asus TUF GAMING Z690-PLUS WIFI DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING Z690-PLUS WIFI"],
-    "series": "Z690",
-    "variant": ""
+    "series": "TUF GAMING",
+    "variant": "Z690-PLUS WIFI",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -41,88 +66,68 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ab77b27c54a042cfcac2"
-    },
-    {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ab77b27c54a042cfcac3"
+      "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ab77b27c54a042cfcac4"
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcac5"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcac6"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcac7"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcac8"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcac9"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcaca"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcacb"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab77b27c54a042cfcacc"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3ab77b27c54a042cfcacd"
+      "controller": "Intel"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)",
+    "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
+    "5 x USB 3.2 Gen 1 ports (4 x Type-A + 1 x USB Type-C®)",
+    "1 x DisplayPort",
+    "1 x HDMI® port",
+    "1 x Wi-Fi Module",
+    "1 x Intel® 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "WiFi 6E",
   "general_product_information": {
     "amazon_sku": "B09RKTL5L3",
-    "walmart_sku": 697950973
+    "walmart_sku": 697950973,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-z690-plus-wifi/techspec/"
   }
 }
