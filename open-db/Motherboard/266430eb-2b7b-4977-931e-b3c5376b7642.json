@@ -1,12 +1,12 @@
 {
   "opendb_id": "266430eb-2b7b-4977-931e-b3c5376b7642",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,13 +15,36 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -29,7 +52,7 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus X870 PRIME P WIFI AM5 DDR5 ATX",
+    "name": "Asus PRIME X870-P WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
       "PRIME X870-P WIFI",
@@ -38,8 +61,10 @@
       "90MB1IW0-M0EAY0",
       "ROG STRIX X870-I GAMING WIFI"
     ],
-    "series": "X870",
-    "variant": ""
+    "series": "PRIME",
+    "variant": "X870-P WIFI",
+    "releaseYear": 2024,
+    "manufacturer_color": "White/Black"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -47,60 +72,65 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3ab8c3722c3e205bcf94b"
+      "quantity": 3,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8c3722c3e205bcf94c"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8c3722c3e205bcf94d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8c3722c3e205bcf94e"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8c3722c3e205bcf94f"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8c3722c3e205bcf950"
+      "interface": "PCIe 3.0 x2"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab8c3722c3e205bcf951"
+      "controller": "Realtek"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x USB4® (40Gbps) ports (2 x USB Type-C®)",
+    "1 x USB 10Gbps port (1 x Type-A)",
+    "3 x USB 5Gbps ports (3 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x HDMI™ port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack™ button"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "Wifi 7",
   "general_product_information": {
     "amazon_sku": "B0DDZY6HTW",
     "newegg_sku": "N82E16813119687",
     "bestbuy_sku": 6601395,
-    "walmart_sku": 13511516518
+    "walmart_sku": 13511516518,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-x870-p-wifi/techspec/"
   }
 }

@@ -1,12 +1,12 @@
 {
   "opendb_id": "0e4789de-6b43-4746-81e3-bf13d1c40e29",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,17 +15,40 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 1,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek CODEC ALC4080",
     "channels": "7.1"
   },
   "metadata": {
@@ -37,8 +60,10 @@
       "90MB1IM0-MVAAY0",
       "ROG STRIX Z890- E GAMING WIFI"
     ],
-    "series": "ROG",
-    "variant": ""
+    "series": "ROG STRIX",
+    "variant": "Z890-E GAMING WIFI",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
@@ -46,96 +71,82 @@
   "color": ["BLACK"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ab5936a2b96d5d839b74"
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b75"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b76"
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b77"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b78"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b79"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b7a"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b7b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b7c"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b7d"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b7e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab5936a2b96d5d839b7f"
+      "interface": "PCIe 4.0 x4 & SATA"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab5936a2b96d5d839b80"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x Thunderbolt™ 4 (2 x USB Type-C®)",
+    "9 x USB 10Gbps ports (7 x Type-A + 1 x USB Type-C® + 1 x USB Type-C® with up to 30W PD Fast-charge)",
+    "3 x USB 5Gbps ports (3 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI® port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 5Gb Ethernet",
+    "2 x Gold-plated audio jacks",
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack™  button",
+    "1 x Clear CMOS button"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "Wifi 7",
   "general_product_information": {
     "amazon_sku": "B0DGWRK1PN",
     "newegg_sku": "N82E16813119692",
     "bestbuy_sku": 6601254,
-    "walmart_sku": 13568505102
+    "walmart_sku": 13568505102,
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z890-e-gaming-wifi/spec/"
   }
 }
