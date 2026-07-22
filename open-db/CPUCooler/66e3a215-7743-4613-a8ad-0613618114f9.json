@@ -8,10 +8,10 @@
     "variant": "Black",
     "releaseYear": null
   },
-  "min_fan_rpm": 2150,
-  "max_fan_rpm": null,
-  "min_noise_level": 27,
-  "max_noise_level": null,
+  "min_fan_rpm": null,
+  "max_fan_rpm": 2150,
+  "min_noise_level": null,
+  "max_noise_level": 27,
   "color": ["BLACK"],
   "height": 68,
   "cpu_sockets": [
@@ -28,10 +28,14 @@
     "LGA 2066"
   ],
   "water_cooled": true,
-  "radiator_size": null,
+  "radiator_size": 360,
   "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "fan_size": 120,
+  "fan_quantity": 3,
+  "lighting": ["ARGB"],
+  "general_product_information": {
+    "radiator_dimensions_mm": "403 x 120 x 27",
+    "pump_dimensions_mm": "78.65 x 80.7 x 68",
+    "pump_rated_speed_rpm": 6400
+  }
 }
