@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,17 +15,40 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "SupremeFX S1220A",
     "channels": "7.1"
   },
   "metadata": {
@@ -36,9 +59,10 @@
       "STRIX B550-F GAMING (WI-FI)",
       "90MB14F0-M0EAY0"
     ],
-    "series": "ROG",
-    "variant": "STRIX B550-F GAMING WIFI",
-    "manufacturer_color": "Black"
+    "series": "ROG STRIX",
+    "variant": "B550-F GAMING WIFI",
+    "manufacturer_color": "Black",
+    "releaseYear": 2020
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -47,35 +71,30 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 3,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "onboard_ethernet": [
@@ -84,14 +103,27 @@
       "controller": "Intel I225-V"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel I225-V)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "1 x BIOS FlashBack™ Button(s)",
+    "2 x USB 3.2 Gen 2  (1 x Type-A+1 x USB Type-C®)",
+    "1 x Intel® I225-V 2.5Gb Ethernet",
+    "4 x USB 3.2 Gen 1",
+    "ASUS Wi-Fi module (Wi-Fi 802.11 a/b/g/n/ac and Bluetooth v5.0)",
+    "1 x DisplayPort",
+    "1 x HDMI",
+    "2 x USB 2.0",
+    "1 x Optical S/PDIF out",
+    "5 x Audio jack(s)"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "WiFi 6",
   "general_product_information": {
     "amazon_sku": "B088VSTS9H",
     "newegg_sku": "9SIBTK0KAU9694",
-    "walmart_sku": 831690520
+    "walmart_sku": 831690520,
+    "manufacturer_url": "https://rog.asus.com/ph/motherboards/rog-strix/rog-strix-b550-f-gaming-wi-fi-model/spec/"
   }
 }
