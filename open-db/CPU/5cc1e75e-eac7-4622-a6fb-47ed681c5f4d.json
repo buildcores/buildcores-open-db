@@ -2,43 +2,61 @@
   "opendb_id": "5cc1e75e-eac7-4622-a6fb-47ed681c5f4d",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon HD 8000 Series"
+      "model": "AMD Radeon HD 8470D",
+      "baseClock": 800,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
-    "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "lithography": "32nm SOI",
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A-Series A6-6420K 4 GHz 2-Core FM2",
+    "name": "AMD A6-6420K",
     "manufacturer": "AMD",
     "part_numbers": ["AD642KOKHLBOX"],
-    "series": "AMD A6"
+    "series": "A-Series A6 6000",
+    "variant": "6420K",
+    "releaseYear": 2014
   },
-  "series": "AMD A6",
+  "series": "A-Series A6 6000",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B00ILIBI5O",
+    "newegg_sku": "N82E16819113361",
+    "walmart_sku": 39256790,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a6-series-apu-for-desktops/a6-6420k-with-radeon-hd-8470d.html"
+  }
 }

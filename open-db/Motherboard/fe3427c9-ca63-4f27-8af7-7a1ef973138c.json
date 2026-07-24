@@ -8,6 +8,10 @@
   "storage_devices": {
     "sata_6_gb_s": 4
   },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1
+  },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
@@ -22,6 +26,9 @@
     "reset_button": true,
     "hdd_led": true,
     "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -70,12 +77,12 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen5.0x4"
+      "interface": "PCIe 5.0x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     }
   ],
   "onboard_ethernet": [
@@ -94,13 +101,13 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "ecc_support": false,
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0GND1KGLX",
     "newegg_sku": "N82E16813162242",
-    "walmart_sku": 19657705082
+    "walmart_sku": 19657705082,
+    "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Challenger/index.asp#Specification"
   }
 }

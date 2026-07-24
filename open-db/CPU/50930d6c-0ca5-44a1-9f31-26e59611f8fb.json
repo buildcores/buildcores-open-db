@@ -2,45 +2,59 @@
   "opendb_id": "50930d6c-0ca5-44a1-9f31-26e59611f8fb",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 10
+    "l3": 10,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 375,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 130,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1620 3.6 GHz 4-Core LGA2011 OEM/Tray",
+    "name": "Intel Xeon E5 1620 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8062101038606"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600",
+    "variant": "1620",
+    "releaseYear": 2012
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 1600",
   "microarchitecture": "Sandy Bridge",
   "coreFamily": "Sandy Bridge-EP",
   "socket": "LGA 2011",
   "general_product_information": {
-    "amazon_sku": "B00830TQGI"
+    "amazon_sku": "B00830TQGI",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/64621/intel-xeon-processor-e51620-10m-cache-3-60-ghz-0-0-gts-intel-qpi/specifications.html"
   }
 }

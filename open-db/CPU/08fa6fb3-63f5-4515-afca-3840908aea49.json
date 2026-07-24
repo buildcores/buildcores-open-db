@@ -2,43 +2,59 @@
   "opendb_id": "08fa6fb3-63f5-4515-afca-3840908aea49",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4.4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 62,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 9320 3.7 GHz 4-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i3 9320 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403376914"],
-    "series": "Intel Core i3"
+    "series": "Core i3 9000",
+    "variant": "9320",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i3",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i3 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B07T25DTSQ",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/191793/intel-core-i39320-processor-8m-cache-up-to-4-40-ghz/specifications.html"
+  }
 }

@@ -12,13 +12,13 @@
       "boost": 4.4
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 1,
+    "l1": "14 × 32 KB Instruction + 14 × 32 KB Data (896 KB total)",
+    "l2": 14,
     "l3": 19.25
   },
   "specifications": {
@@ -36,21 +36,27 @@
     "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
-    "packaging": null,
+    "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9-7940X X-series Processor",
+    "name": "Intel Core i9 7940X",
     "part_numbers": ["BX80673I97960X"],
-    "releaseYear": 2017
+    "releaseYear": 2017,
+    "variant": "7940X",
+    "manufacturer": "Intel",
+    "series": "Core i9 7000"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake-X",
-  "coreFamily": null,
+  "series": "Core i9 7000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
   "socket": "LGA 2066",
   "general_product_information": {
-    "amazon_sku": "B075XRYMDS",
-    "newegg_sku": "9SIAVH0JF40682"
+    "amazon_sku": "B07NSYV5R7",
+    "newegg_sku": "N82E16819117834",
+    "walmart_sku": 841944474,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/126695/intel-core-i97940x-xseries-processor-19-25m-cache-up-to-4-30-ghz/specifications.html"
   }
 }

@@ -2,45 +2,61 @@
   "opendb_id": "2423fc7f-22b9-4613-a5b9-7e097571e794",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 10
+    "l3": 10,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1630 V4 3.7 GHz 4-Core LGA2011-3 OEM/Tray",
+    "name": "Intel Xeon E5 1630 V4 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8066002395300"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v4",
+    "variant": "1630 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 1600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B01HK3W99E"
+    "amazon_sku": "B01HK3W99E",
+    "newegg_sku": "9SIB33YKY19297",
+    "walmart_sku": 2204410125,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/92987/intel-xeon-processor-e51630-v4-10m-cache-3-70-ghz/specifications.html"
   }
 }

@@ -2,41 +2,54 @@
   "opendb_id": "5a83dd91-ac5a-4c36-a516-4c9a61e41189",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X2 350 3.5 GHz 2-Core FM2 OEM/Tray",
+    "name": "AMD Athlon X2 350 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD350XOKA23HL"],
-    "series": "AMD Athlon X2"
+    "series": "Athlon X2 300",
+    "variant": "350",
+    "releaseYear": 2013
   },
-  "series": "AMD Athlon X2",
+  "series": "Athlon X2 300",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",

@@ -2,43 +2,60 @@
   "opendb_id": "d6381db4-468a-419a-acfc-0fbc5e60a956",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2,
       "boost": 4.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 12
+    "l3": 12,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 630"
+      "model": "Intel HD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 9700T 2 GHz 8-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i7 9700T OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403874912"],
-    "series": "Intel Core i7"
+    "series": "Core i7 9000",
+    "variant": "9700T",
+    "releaseYear": 2019
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i7 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B07Z9QKS1K",
+    "newegg_sku": "9SIA4REK9P1386",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/191048/intel-core-i79700t-processor-12m-cache-up-to-4-30-ghz/specifications.html"
+  }
 }

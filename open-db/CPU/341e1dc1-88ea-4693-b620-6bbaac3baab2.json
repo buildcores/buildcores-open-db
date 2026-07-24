@@ -2,43 +2,61 @@
   "opendb_id": "341e1dc1-88ea-4693-b620-6bbaac3baab2",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon R7 (on-die)"
+      "model": "AMD Radeon R7 Graphics",
+      "baseClock": 757,
+      "shaderCount": 512,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A10 A10-7860k 3.6 GHz 4-Core FM2+",
+    "name": "AMD A10-7860K",
     "manufacturer": "AMD",
     "part_numbers": ["AD786KYBJCSBX"],
-    "series": "AMD A10"
+    "series": "A-Series A10 7000",
+    "variant": "7860K",
+    "releaseYear": 2016
   },
-  "series": "AMD A10",
+  "series": "A-Series A10 7000",
   "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
+  "coreFamily": "Kaveri",
   "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B01BF377W4",
+    "newegg_sku": "N82E16819113404",
+    "walmart_sku": 132880405,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a10-series-apu-for-desktops/a10-7860k-with-radeon-r7-series.html"
+  }
 }

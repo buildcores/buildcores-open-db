@@ -2,41 +2,54 @@
   "opendb_id": "4e2fbb63-b98f-4b3a-8eca-a1defdbcb970",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 64 KB Instruction + 4 × 16 KB Data (192 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 100,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X4 760K 3.8 GHz 4-Core FM2",
+    "name": "AMD Athlon X4 760K",
     "manufacturer": "AMD",
     "part_numbers": ["AD760KWOHLBOX", "AD860KXBJASBX"],
-    "series": "AMD Athlon X4"
+    "series": "Athlon X4 700",
+    "variant": "760K",
+    "releaseYear": 2013
   },
-  "series": "AMD Athlon X4",
+  "series": "Athlon X4 700",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",

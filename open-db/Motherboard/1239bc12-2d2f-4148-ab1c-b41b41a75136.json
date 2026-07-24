@@ -27,7 +27,7 @@
     "power_led": true
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -50,7 +50,7 @@
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": ["WHITE"],
+  "color": ["WHITE", "GREY"],
   "lighting": ["None"],
   "pcie_slots": [
     {
@@ -95,13 +95,14 @@
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
   "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0FJHT72ZR",
     "newegg_sku": "N82E16813162230",
     "bestbuy_sku": 11013060,
-    "walmart_sku": 17459254899
+    "walmart_sku": 17459254899,
+    "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Pro%20RS%20WiFi%20White/index.asp#Specification"
   }
 }

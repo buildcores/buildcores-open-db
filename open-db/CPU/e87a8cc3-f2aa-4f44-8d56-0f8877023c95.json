@@ -2,45 +2,59 @@
   "opendb_id": "e87a8cc3-f2aa-4f44-8d56-0f8877023c95",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.8,
       "boost": 3.3
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
-    "l2": 8,
-    "l3": 16
+    "l2": 2,
+    "l3": 8,
+    "l1": "4 × 64 KB Instruction + 8 × 16 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 256,
+      "types": ["DDR3"],
+      "channels": 4
     },
     "tdp": 115,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Opteron 6320 2.8 GHz 8-Core G34 OEM/Tray",
+    "name": "AMD Opteron 6320 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["OS6320WKT8GHK"],
-    "series": "AMD Opteron"
+    "series": "Opteron 6300",
+    "variant": "6320",
+    "releaseYear": 2012
   },
-  "series": "AMD Opteron",
+  "series": "Opteron 6300",
   "microarchitecture": "Piledriver",
   "coreFamily": "Abu Dhabi",
   "socket": "G34",
   "general_product_information": {
-    "amazon_sku": "B00B86PP1E"
+    "amazon_sku": "B00B86PP1E",
+    "newegg_sku": "N82E16819113315"
   }
 }

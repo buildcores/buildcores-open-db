@@ -2,43 +2,60 @@
   "opendb_id": "8ce055e1-4fd0-4f7b-8bc7-fa9f226e6b3d",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.2,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 20
+    "l3": 20,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "shaderCount": 0,
+      "boostClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1680 V3 OEM/Tray 3.2 GHz 8-Core LGA2011-3",
+    "name": "Intel Xeon E5 1680 V3 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064401547809"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v3",
+    "variant": "1680 v3",
+    "releaseYear": 2014
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 1600 v3",
   "microarchitecture": "Haswell",
   "coreFamily": "Haswell-EP",
   "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B00PDD1K9O",
+    "newegg_sku": "9SIB33YKY18900",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/82767/intel-xeon-processor-e51680-v3-20m-cache-3-20-ghz/specifications.html"
+  }
 }

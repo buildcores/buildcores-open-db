@@ -2,43 +2,59 @@
   "opendb_id": "cd3ac87c-a75d-48dc-a278-802ab659d14b",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.9,
       "boost": 4.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i3 10325 3.9 GHz 4-Core LGA1200",
+    "name": "Intel Core i3 10325",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110325"],
-    "series": "Intel Core i3"
+    "series": "Core i3 10000",
+    "variant": "10325",
+    "releaseYear": 2021
   },
-  "series": "Intel Core i3",
+  "series": "Core i3 10000",
   "microarchitecture": "Comet Lake",
-  "coreFamily": "Comet Lake",
+  "coreFamily": "Comet Lake-R",
   "socket": "LGA 1200",
-  "general_product_information": {}
+  "general_product_information": {
+    "newegg_sku": "N82E16819118252",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/201889/intel-core-i310325-processor-8m-cache-up-to-4-70-ghz/specifications.html"
+  }
 }

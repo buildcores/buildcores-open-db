@@ -2,43 +2,61 @@
   "opendb_id": "bdacccac-3d03-4436-8ebe-3de176024c18",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "threads": 16
+    "performance": 0,
+    "threads": 16,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 16
+    "l3": 16,
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 95,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 7 1800X 3.6 GHz 8-Core AM4",
+    "name": "AMD Ryzen 7 1800X",
     "manufacturer": "AMD",
     "part_numbers": ["YD180XBCAEMPK"],
-    "series": "AMD Ryzen 7"
+    "series": "Ryzen 7 1000",
+    "variant": "1800X",
+    "releaseYear": 2017
   },
-  "series": "AMD Ryzen 7",
+  "series": "Ryzen 7 1000",
   "microarchitecture": "Zen",
   "coreFamily": "Summit Ridge",
   "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B08QVDGLRK",
+    "newegg_sku": "N82E16819113438",
+    "walmart_sku": 55577373,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-7-1800x.html"
+  }
 }

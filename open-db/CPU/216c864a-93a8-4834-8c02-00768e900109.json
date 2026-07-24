@@ -2,43 +2,61 @@
   "opendb_id": "216c864a-93a8-4834-8c02-00768e900109",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 8
+    "performance": 0,
+    "threads": 8,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 4,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 8
+    "l3": 8,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 4600"
+      "model": "Intel HD Graphics 4600",
+      "baseClock": 350,
+      "boostClock": 1250,
+      "shaderCount": 160
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 88,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i7 4790K 4 GHz 4-Core LGA1150",
+    "name": "Intel Core i7 4790K",
     "manufacturer": "Intel",
     "part_numbers": ["BXF80646I74790K"],
-    "series": "Intel Core i7"
+    "series": "Core i7 4000",
+    "variant": "4790K",
+    "releaseYear": 2014
   },
-  "series": "Intel Core i7",
+  "series": "Core i7 4000",
   "microarchitecture": "Haswell Refresh",
-  "coreFamily": "Haswell Refresh",
+  "coreFamily": "Haswell",
   "socket": "LGA 1150",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B00KPRWAX8",
+    "newegg_sku": "N82E16819117369",
+    "walmart_sku": 39363188,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/80807/intel-core-i74790k-processor-8m-cache-up-to-4-40-ghz/specifications.html"
+  }
 }

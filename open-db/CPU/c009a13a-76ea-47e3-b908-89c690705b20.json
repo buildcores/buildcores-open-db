@@ -2,43 +2,61 @@
   "opendb_id": "c009a13a-76ea-47e3-b908-89c690705b20",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 2,
-    "l3": 4
+    "l3": 4,
+    "l1": "4 × 64 KB Instruction + 4 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon Vega 8"
+      "model": "AMD Radeon Vega 8 Graphics",
+      "boostClock": 1100,
+      "baseClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": false,
-    "packaging": "OEM/Tray",
-    "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "14nm FinFET",
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Ryzen 3 2200G 3.5 GHz 4-Core AM4",
+    "name": "AMD Ryzen 3 2200G",
     "manufacturer": "AMD",
     "part_numbers": ["YD2200C4M4MFB"],
-    "series": "AMD Ryzen 3"
+    "series": "Ryzen 3 2000",
+    "variant": "2200G",
+    "releaseYear": 2018
   },
-  "series": "AMD Ryzen 3",
+  "series": "Ryzen 3 2000",
   "microarchitecture": "Zen",
   "coreFamily": "Raven Ridge",
   "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B079D3DBNM",
+    "newegg_sku": "N82E16819113481",
+    "walmart_sku": 669827271,
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-2000-series/amd-ryzen-3-2200g.html"
+  }
 }

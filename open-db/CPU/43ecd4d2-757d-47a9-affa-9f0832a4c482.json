@@ -2,43 +2,58 @@
   "opendb_id": "43ecd4d2-757d-47a9-affa-9f0832a4c482",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.8
+    },
+    "efficiency": {
+      "boost": 0,
+      "base": 0
     }
   },
   "cache": {
     "l2": 4,
-    "l3": 0
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X4 840 3.1 GHz 4-Core FM2+ OEM/Tray",
+    "name": "AMD Athlon X4 840 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD840XYBI44JA"],
-    "series": "AMD Athlon X4"
+    "series": "Athlon X4 800",
+    "variant": "840",
+    "releaseYear": 2014
   },
-  "series": "AMD Athlon X4",
+  "series": "Athlon X4 800",
   "microarchitecture": "Steamroller",
   "coreFamily": "Kaveri",
   "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0DG4QS7VL"
+  }
 }
