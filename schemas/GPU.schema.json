@@ -98,7 +98,7 @@
       "enum": ["G-Sync", "FreeSync", "G-Sync Compatible", "None", null]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes shroud and backplate colors",
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Includes shroud and backplate colors",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -153,6 +153,18 @@
         "Passive",
         null
       ]
+    },
+    "radiator_size": {
+      "description": "External radiator size in mm (for example 120, 240, or 360) Populate this only for liquid or hybrid GPUs that include an external radiator.",
+      "type": ["number", "null"]
+    },
+    "fan_size": {
+      "description": "Size of the included external-radiator fan(s) in mm (for example 120 or 140)",
+      "type": ["number", "null"]
+    },
+    "fan_quantity": {
+      "description": "Number of fans included with the external GPU radiator",
+      "type": ["number", "null"]
     },
     "power_connectors": {
       "type": ["object", "null"],
@@ -223,7 +235,7 @@
           "type": ["number", "null"]
         },
         "usb_c": {
-          "description": "Number of USB-C (VirtualLink / USB-C Alt Mode) video outputs",
+          "description": "Number of USB-C ports",
           "type": ["number", "null"]
         },
         "dvi_d": {
