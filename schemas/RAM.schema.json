@@ -60,7 +60,7 @@
       "type": ["number", "null"]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. Includes PCB and heat spreader colors. Looks for hints of this in the product name.",
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Includes PCB and heat spreader colors. Looks for hints of this in the product name.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -79,6 +79,14 @@
           "BROWN",
           "GOLD"
         ]
+      }
+    },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
       }
     },
     "cas_latency": {
@@ -110,14 +118,6 @@
     "rgb": {
       "description": "Whether the RAM has RGB lighting",
       "type": ["boolean", "null"]
-    },
-    "lighting": {
-      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
-      "type": ["array", "null"],
-      "items": {
-        "type": "string",
-        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
-      }
     },
     "height": {
       "description": "The height of the RAM module in mm",

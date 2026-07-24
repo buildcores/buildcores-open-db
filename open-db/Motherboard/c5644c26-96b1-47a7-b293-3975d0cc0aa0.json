@@ -13,10 +13,10 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0,
-    "usb_4_80g": 1
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -25,6 +25,7 @@
     "cpu_opt": 1
   },
   "rgb_headers": {
+    "rgb_12v": 0,
     "argb_5v": 3
   },
   "front_panel_headers": {
@@ -35,7 +36,8 @@
   },
   "other_headers": {
     "temperature_sensor": 1,
-    "thunderbolt": 1
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
     "main_power": "24-pin",
@@ -46,7 +48,7 @@
     "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
@@ -58,9 +60,10 @@
       "90MB1J50-M0EAY0",
       "ROG STRIX B850-A GAMING WIFI R2"
     ],
-    "series": "ROG",
-    "variant": "STRIX B850-A GAMING WIFI",
+    "series": "ROG STRIX",
+    "variant": "B850-A GAMING WIFI",
     "manufacturer_color": "White",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2025-10-14T17:36:31.403Z"
   },
   "socket": "AM5",
@@ -69,14 +72,14 @@
   "color": ["WHITE"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "5.0",
+      "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 4
     }
   ],
   "m2_slots": [
@@ -109,7 +112,6 @@
   ],
   "ecc_support": true,
   "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x USB 20Gbps port (1 x USB Type-C®)",
     "3 x USB 10Gbps ports (2 x Type-A + 1 x USB Type-C®)",
@@ -124,13 +126,14 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
-  "wireless_networking": "Wi-Fi 7                              Bluetooth® v5.4",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 7",
+  "lighting": ["RGB"],
+  "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0DPLP33YR",
     "newegg_sku": "N82E16813119703",
     "bestbuy_sku": 6612912,
     "walmart_sku": 14970512576,
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi/spec/"
   }
 }

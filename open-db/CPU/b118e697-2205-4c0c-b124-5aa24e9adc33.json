@@ -2,43 +2,60 @@
   "opendb_id": "b118e697-2205-4c0c-b124-5aa24e9adc33",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 4.1
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 6
+    "l3": 6,
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel HD Graphics 630"
+      "model": "Intel HD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1150,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 64,
-      "types": []
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 7600 3.5 GHz 4-Core LGA1151 OEM/Tray",
+    "name": "Intel Core i5 7600 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8067702868011"],
-    "series": "Intel Core i5"
+    "series": "Core i5 7000",
+    "variant": "7600",
+    "releaseYear": 2017
   },
-  "series": "Intel Core i5",
+  "series": "Core i5 7000",
   "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
+  "coreFamily": "Kaby Lake",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B06XQ4KP9J",
+    "newegg_sku": "9SIBZW0KFS7406",
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/97150/intel-core-i57600-processor-6m-cache-up-to-4-10-ghz/specifications.html"
+  }
 }

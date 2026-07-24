@@ -73,7 +73,18 @@
       "lanes": 1
     }
   ],
-  "m2_slots": [],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 5.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0x4"
+    }
+  ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
@@ -95,6 +106,7 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
-    "amazon_sku": "B0GNCWJ2LW"
+    "amazon_sku": "B0GNCWJ2LW",
+    "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Challenger%20WiFi%20White/index.asp#Manual"
   }
 }

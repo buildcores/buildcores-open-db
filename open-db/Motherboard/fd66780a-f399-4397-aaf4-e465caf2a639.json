@@ -2,11 +2,15 @@
   "opendb_id": "fd66780a-f399-4397-aaf4-e465caf2a639",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
+    "max": 128,
+    "slots": 2
   },
   "storage_devices": {
     "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -22,6 +26,9 @@
     "reset_button": true,
     "hdd_led": true,
     "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -65,12 +72,12 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen5.0x4"
+      "interface": "PCIe 5.0x4"
     },
     {
       "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe Gen4.0x4"
+      "interface": "PCIe 4.0x4"
     }
   ],
   "onboard_ethernet": [
@@ -90,12 +97,13 @@
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
   "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0GNCQY6VY",
     "newegg_sku": "N82E16813162244",
-    "walmart_sku": 19613719646
+    "walmart_sku": 19613719646,
+    "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Rock%20WiFi/index.asp#Specification"
   }
 }

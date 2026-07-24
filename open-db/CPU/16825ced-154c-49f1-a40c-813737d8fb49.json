@@ -2,47 +2,61 @@
   "opendb_id": "16825ced-154c-49f1-a40c-813737d8fb49",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 15
+    "l2": 1.5,
+    "l3": 15,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
       "maxSupport": 1536,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 4
     },
     "tdp": 140,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E5 1650 V4 3.6 GHz 6-Core LGA2011-3",
+    "name": "Intel Xeon E5-1650 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E51650V4", "1358191"],
-    "series": "Intel Xeon E5"
+    "series": "Xeon E5 1600 v4",
+    "variant": "1650 v4",
+    "releaseYear": 2016
   },
-  "series": "Intel Xeon E5",
+  "series": "Xeon E5 1600 v4",
   "microarchitecture": "Broadwell",
   "coreFamily": "Broadwell-EP",
   "socket": "LGA 2011-3",
   "general_product_information": {
     "amazon_sku": "B01GRDS5NC",
-    "newegg_sku": "9SIADU0DE25536",
-    "walmart_sku": 52725174
+    "newegg_sku": "N82E16819117763",
+    "walmart_sku": 52725174,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/92994/intel-xeon-processor-e51650-v4-15m-cache-3-60-ghz/specifications.html"
   }
 }

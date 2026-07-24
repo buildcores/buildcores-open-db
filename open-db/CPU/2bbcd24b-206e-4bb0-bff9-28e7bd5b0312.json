@@ -2,43 +2,60 @@
   "opendb_id": "2bbcd24b-206e-4bb0-bff9-28e7bd5b0312",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 2.2,
       "boost": 3.7
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 9
+    "l2": 1.5,
+    "l3": 9,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1100,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i5 9500T 2.2 GHz 6-Core LGA1151",
+    "name": "Intel Core i5 9500T OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403362510"],
-    "series": "Intel Core i5"
+    "series": "Core i5 9000",
+    "variant": "9500T",
+    "releaseYear": 2018
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Coffee Lake Refresh",
+  "series": "Core i5 9000",
+  "microarchitecture": "Coffee Lake",
   "coreFamily": "Coffee Lake Refresh",
   "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B0C8BVJGCN",
+    "walmart_sku": 898805278,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/191052/intel-core-i59500t-processor-9m-cache-up-to-3-70-ghz/specifications.html"
+  }
 }

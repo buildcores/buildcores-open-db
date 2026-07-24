@@ -6,9 +6,9 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
-    "u2": 0
+    "u2": 0,
+    "sata_6_gb_s": 4
   },
   "usb_headers": {
     "usb_2_0": 2,
@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 4,
+    "cpu_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -42,9 +61,14 @@
   "color": ["BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
@@ -62,11 +86,6 @@
       "size": "2242-2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
@@ -78,11 +97,23 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x USB 10Gbps ports (1 x Type-A + 1 x USB Type-C)",
+    "2 x USB 10Gbps ports (1 x Type-A + 1 x USB Type-C)",
+    "3 x USB 2.0 ports (3 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0F1Z3YZN4",
     "newegg_sku": "2MG-000B-007B6",
-    "walmart_sku": 16603620989
+    "walmart_sku": 16603620989,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850-e-wifi/techspec/"
   }
 }

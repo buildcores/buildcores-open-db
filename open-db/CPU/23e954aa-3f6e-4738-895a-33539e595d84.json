@@ -2,43 +2,60 @@
   "opendb_id": "23e954aa-3f6e-4738-895a-33539e595d84",
   "cores": {
     "total": 4,
-    "performance": 4,
-    "threads": 4
+    "performance": 0,
+    "threads": 4,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.8
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 1,
-    "l3": 0
+    "l2": 2,
+    "l3": 0,
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "boostClock": 0,
+      "shaderCount": 0,
+      "baseClock": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
-    "includesCooler": false,
-    "packaging": "OEM/Tray",
+    "includesCooler": true,
+    "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD Athlon X4 845 3.5 GHz 4-Core FM2+ OEM/Tray",
+    "name": "AMD Athlon X4 845",
     "manufacturer": "AMD",
     "part_numbers": ["AD845XACI43KA"],
-    "series": "AMD Athlon X4"
+    "series": "Athlon X4 800",
+    "variant": "845",
+    "releaseYear": 2016
   },
-  "series": "AMD Athlon X4",
-  "microarchitecture": "Puma+",
+  "series": "Athlon X4 800",
+  "microarchitecture": "Excavator",
   "coreFamily": "Carrizo",
   "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B01BF376EI",
+    "newegg_sku": "N82E16819113411",
+    "walmart_sku": 131311191
+  }
 }

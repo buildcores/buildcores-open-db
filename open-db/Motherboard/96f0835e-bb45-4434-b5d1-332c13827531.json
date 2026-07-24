@@ -15,25 +15,50 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 5,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock B860 Steel Legend WiFi DDR5 ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["B860 Steel Legend WiFi", "90-MXBR3-A0UAYZ", "B860 STEEL LEGEND WIFI"],
-    "series": "B860",
-    "variant": ""
+    "series": "Steel Legend",
+    "variant": "B860 WiFi",
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
@@ -41,65 +66,67 @@
   "color": ["WHITE", "GREY"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac243722c3e205bd31ff"
+      "quantity": 1,
+      "lanes": 2
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac243722c3e205bd3200"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2230-2242",
+      "size": "2230/2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac243722c3e205bd3201"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac243722c3e205bd3202"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac243722c3e205bd3203"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac243722c3e205bd3204"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac243722c3e205bd3205"
+      "interface": "PCIe 4.0 x2"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG",
-      "_id": "69b3ac243722c3e205bd3206"
+      "controller": "Dragon RTL8125BG"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek Dragon RTL8125BG)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x Optical SPDIF Out Port",
+    "1 x Thunderbolt™ 4/USB4 Type-C Port (40 Gb/s)",
+    "2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)",
+    "4 x USB 3.2 Gen1 Ports",
+    "3 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack (Gold Audio Jack)",
+    "1 x Microphone Input Jack (Gold Audio Jack)"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "WiFi 6E",
   "general_product_information": {
     "amazon_sku": "B0DRTVYZ17",
     "newegg_sku": "N82E16813162203",
-    "walmart_sku": 15046218562
+    "walmart_sku": 15046218562,
+    "manufacturer_url": "https://www.asrock.com/MB/Intel/B860%20Steel%20Legend%20WiFi/index.asp#Specification"
   }
 }

@@ -2,43 +2,61 @@
   "opendb_id": "5fbb1479-6d3e-41bb-8007-da5f747249f5",
   "cores": {
     "total": 10,
-    "performance": 10,
-    "threads": 20
+    "performance": 0,
+    "threads": 20,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.7,
       "boost": 5.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 20
+    "l2": 2.5,
+    "l3": 20,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
     },
     "memory": {
       "maxSupport": 128,
-      "types": []
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 125,
     "eccSupport": false,
-    "includesCooler": false,
+    "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Core i9 10900K 3.7 GHz 10-Core LGA1200",
+    "name": "Intel Core i9 10900K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110900KA"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10900K",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i9",
+  "series": "Core i9 10000",
   "microarchitecture": "Comet Lake",
   "coreFamily": "Comet Lake",
   "socket": "LGA 1200",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B086MHSTVD",
+    "newegg_sku": "N82E16819118122",
+    "walmart_sku": 559488943,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199332/intel-core-i910900k-processor-20m-cache-up-to-5-30-ghz/specifications.html"
+  }
 }

@@ -2,43 +2,58 @@
   "opendb_id": "643f6223-be25-462c-b89b-9470d84a2c56",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 6
+    "performance": 0,
+    "threads": 6,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 6,
-    "l3": 8
+    "l3": 8,
+    "l1": "3 × 64 KB Instruction + 6 × 16 KB Data (288 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
     },
-    "tdp": 125,
+    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD FX FX FX-6130 3.6 GHz 6-Core AM3+ OEM/Tray",
+    "name": "AMD FX-6130 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["FD6130FRW6KGU"],
-    "series": "AMD FX"
+    "series": "FX 6000",
+    "variant": "6130",
+    "releaseYear": 2012
   },
-  "series": "AMD FX",
+  "series": "FX 6000",
   "microarchitecture": "Bulldozer",
   "coreFamily": "Zambezi",
   "socket": "AM3+",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.techpowerup.com/cpu-specs/fx-6130.c1206"
+  }
 }

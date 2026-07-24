@@ -2,43 +2,58 @@
   "opendb_id": "25eb5fd4-728d-4e7e-b59a-d67a90f2fe60",
   "cores": {
     "total": 2,
-    "performance": 2,
-    "threads": 2
+    "performance": 0,
+    "threads": 2,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.8,
       "boost": 4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
     "l2": 1,
-    "l3": 0
+    "l3": 0,
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "AMD Radeon HD 8470D"
+      "model": "AMD Radeon HD 8470D",
+      "baseClock": 800,
+      "shaderCount": 192
     },
     "memory": {
-      "maxSupport": 0,
-      "types": []
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
     },
     "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "ppt": 0
   },
   "metadata": {
-    "name": "AMD A-Series A4 7300 3.8 GHz 2-Core FM2",
+    "name": "AMD A4-7300",
     "manufacturer": "AMD",
     "part_numbers": ["AD7300OKHLBOX"],
-    "series": "AMD A4"
+    "series": "A-Series A4 7000",
+    "variant": "7300",
+    "releaseYear": 2014
   },
-  "series": "AMD A4",
+  "series": "A-Series A4 7000",
   "microarchitecture": "Piledriver",
   "coreFamily": "Richland",
   "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {
+    "amazon_sku": "B00MU00HGK",
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a4-series-apu-for-desktops/a4-7300-with-radeon-hd-8470d.html"
+  }
 }

@@ -2,46 +2,60 @@
   "opendb_id": "ad7033fb-9b2b-4a2a-9668-8c892e141feb",
   "cores": {
     "total": 6,
-    "performance": 6,
-    "threads": 12
+    "performance": 0,
+    "threads": 12,
+    "efficiency": 0
   },
   "clocks": {
     "performance": {
       "base": 3.3,
       "boost": 4.5
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
-    "l3": 12
+    "l2": 1.5,
+    "l3": 12,
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
   },
   "specifications": {
     "integratedGraphics": {
-      "model": "None"
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
     "memory": {
-      "maxSupport": 64,
-      "types": []
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
     },
     "tdp": 80,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "ppt": 0
   },
   "metadata": {
-    "name": "Intel Xeon E 2136 3.3 GHz 6-Core LGA1151 OEM/Tray",
+    "name": "Intel Xeon E 2136 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8068403654318"],
-    "series": "Intel Xeon E"
+    "series": "Xeon E 2100",
+    "variant": "2136",
+    "releaseYear": 2018
   },
-  "series": "Intel Xeon E",
+  "series": "Xeon E 2100",
   "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
+  "coreFamily": "Coffee Lake-S WS",
   "socket": "LGA 1151",
   "general_product_information": {
     "amazon_sku": "B07KHNNQWZ",
-    "walmart_sku": 160928828
+    "walmart_sku": 160928828,
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134857/intel-xeon-e2136-processor-12m-cache-up-to-4-50-ghz/specifications.html"
   }
 }

@@ -2,10 +2,47 @@
   "opendb_id": "265100d3-3431-4719-ba34-c163ae796cc2",
   "memory": {
     "ram_type": "DDR5",
-    "slots": 4
+    "slots": 4,
+    "max": 256
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "case_fan": 6
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
+  },
+  "bios_features": {
+    "clear_cmos": true,
+    "flashback": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
   },
   "metadata": {
     "name": "MSI MAG B850 TOMAHAWK WIFI",
@@ -13,16 +50,77 @@
     "series": "MAG",
     "variant": "B850 TOMAHAWK WIFI",
     "manufacturer_color": "Black",
-    "part_numbers": []
+    "part_numbers": ["MAG B850 TOMAHAWK WIFI"],
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B850",
   "color": ["BLACK"],
-  "lighting": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [],
-  "back_panel_ports": [],
-  "general_product_information": {}
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 8
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2260/ 2280/ 22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260/ 2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek 8126VB 5G LAN"
+    }
+  ],
+  "back_panel_ports": [
+    "1x Clear CMOS Button",
+    "1x Flash BIOS Button",
+    "1x HDMI port",
+    "1x USB 20Gbps Type-C port",
+    "1x USB 10Gbps Type-C port",
+    "2x USB 10Gbps Type-A ports",
+    "2x USB 5Gbps Type-A ports",
+    "4x USB 2.0 ports",
+    "1x 5G LAN (RJ45) port",
+    "2x Wi-Fi antenna connectors",
+    "2x Audio jacks",
+    "1x Optical S/PDIF Out connector"
+  ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "general_product_information": {
+    "amazon_sku": "B0G3SVRLT3",
+    "newegg_sku": "N82E16813144736",
+    "bestbuy_sku": 12724437,
+    "walmart_sku": 18656607227,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B850-TOMAHAWK-WIFI/Specification"
+  }
 }
