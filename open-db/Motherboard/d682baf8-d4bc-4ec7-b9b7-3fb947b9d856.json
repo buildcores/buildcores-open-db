@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,25 +15,50 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1,
+    "case_fan": 5
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_led": true,
+    "power_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220P",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASUS ProArt Z890-CREATOR WIFI DDR5 ATX LGA1851",
     "manufacturer": "ASUS",
     "part_numbers": ["ProArt Z890-CREATOR WIFI", "90MB1JD0-M0EAY0", "PROART Z890-CREATOR WIFI"],
-    "series": "ASUS",
-    "variant": ""
+    "series": "ProArt",
+    "variant": "Z890-CREATOR WIFI",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
@@ -41,91 +66,70 @@
   "color": ["BLACK", "GOLD"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac8275ef0cf5df019f0c"
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f0d"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f0e"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f0f"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f10"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f11"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f12"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f13"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f14"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f15"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac8275ef0cf5df019f16"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
-      "controller": "Marvell AQtion",
-      "_id": "69b3ac8275ef0cf5df019f17"
+      "controller": "Marvell AQtion"
     }
   ],
   "ecc_support": false,
-  "raid_support": false,
+  "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x 10 Gb/s Ports (Marvell AQtion)                                                    1 x 2.5 Gb/s Ports (Intel)"
+    "2 x Thunderbolt™ 5 USB Type-C® ports",
+    "1 x USB4 / Thunderbolt™ Type-C®port",
+    "6 x USB 10Gbps ports (6 x Type-A)",
+    "1 x USB 2.0 port (1 x Type-A)",
+    "1 x DisplayPort (Input only)",
+    "1 x HDMI™ port",
+    "1 x Wi-Fi module1 x Marvell® AQtion 10Gb Ethernet port",
+    "1 x Intel® 2.5Gb Ethernet port",
+    "2 x Gold-plated audio jacks",
+    "1 x BIOS FlashBack™ button"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "WiFi 7",
   "general_product_information": {
     "amazon_sku": "B0DL75T61Q",
     "newegg_sku": "N82E16813119699",
-    "walmart_sku": 13676008966
+    "walmart_sku": 13676008966,
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/proart/proart-z890-creator-wifi/techspec/"
   }
 }
