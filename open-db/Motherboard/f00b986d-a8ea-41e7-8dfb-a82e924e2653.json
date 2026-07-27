@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 4,
+    "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,7 +15,8 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -32,6 +33,11 @@
     "reset_button": true,
     "power_led": true,
     "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 0,
+    "temperature_sensor": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -58,6 +64,7 @@
     "series": "PRO",
     "variant": "B550M-VC WIFI",
     "manufacturer_color": "Black",
+    "releaseYear": 2022,
     "last_manually_spec_verified_at": "2025-10-28T20:19:38.086Z"
   },
   "socket": "AM4",
@@ -94,29 +101,29 @@
       "controller": "Realtek RTL8111HN"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
-  "back_connect_connectors": true,
+  "back_connect_connectors": false,
   "back_panel_ports": [
-    "VGA",
-    "USB3.2 Gen 2 10Gbps Type-A",
-    "Keyboard / Mouse",
-    "LAN port",
-    "WiFi/Bluetooth",
-    "Audio connector",
-    "Flash BIOS Button",
-    "DisplayPort",
-    "HDMI™",
-    "USB 2.0",
-    "USB3.2 Gen1 5Gbps Type-A"
+    "1x Flash BIOS Button",
+    "1x VGA port",
+    "1x Display port",
+    "1x HDMI port",
+    "2x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "1x PS/2 keyboard/ mouse combo port",
+    "2x USB 2.0 Type-A ports",
+    "1x LAN (RJ45) port",
+    "2x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "2x Wi-Fi Antenna connectors",
+    "3x Audio jack"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth® 5.2",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0BDCZRBD6",
     "newegg_sku": "N82E16813144548",
     "bestbuy_sku": 6629572,
     "walmart_sku": 1442417939,
-    "manufacturer_url": "https://www.msi.com/Motherboard/Pro-B550M-VC-WIFI/Overview"
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B550M-VC-WIFI/Specification"
   }
 }
