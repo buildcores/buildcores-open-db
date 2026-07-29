@@ -14,12 +14,15 @@
     "usb_2_0": 2,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0,
-    "usb_3_2_gen_1": 2
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "case_fan": 4
+    "case_fan": 4,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -31,6 +34,11 @@
     "reset_button": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "thunderbolt": 1,
+    "temperature_sensor": 0,
+    "com_port": 0
+  },
   "power_connectors": {
     "cpu_power": ["8-pin"],
     "main_power": "24-pin"
@@ -40,7 +48,7 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -48,7 +56,7 @@
     "manufacturer": "ASRock",
     "part_numbers": ["B760M Pro RS WiFi White", "B760M PRO RS WIFI WHITE", "90-MXBPW0-A0UAYAZ"],
     "series": "Pro",
-    "variant": "B760M RS WiFi White",
+    "variant": "B760M Pro RS WiFi White",
     "releaseYear": 2024,
     "manufacturer_color": "White",
     "last_manually_spec_verified_at": "2026-04-04T09:23:07.231Z"
@@ -103,14 +111,15 @@
     "1 x USB 3.2 Gen1 Type-C Port",
     "3 x USB 3.2 Gen1 Type-A Ports",
     "2 x USB 2.0 Ports",
-    "1 x RJ-45 LAN Port"
+    "1 x RJ-45 LAN Port",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DFDMS4LG",
     "newegg_sku": "N82E16813162160",
     "walmart_sku": 17423360906,
-    "manufacturer_url": "https://www.asrock.com/mb/Intel/B760M%20Pro%20RS%20WiFi%20White/index.asp#Specification"
+    "manufacturer_url": "https://www.asrock.com/mb/Intel/B760M%20Pro%20RS%20WiFi%20White/index.asp#Overview"
   }
 }
