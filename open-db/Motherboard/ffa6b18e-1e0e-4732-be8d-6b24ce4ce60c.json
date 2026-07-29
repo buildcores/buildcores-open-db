@@ -15,12 +15,14 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 6,
-    "pump": 1
+    "pump": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 2,
@@ -33,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "thunderbolt": 1
+    "thunderbolt": 1,
+    "temperature_sensor": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -63,79 +67,71 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aca7fe073ff824efddc6"
+      "lanes": 4
     },
     {
       "gen": "3.0",
       "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3aca7fe073ff824efddc7"
-    },
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aca7fe073ff824efddc8"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "22110/2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aca7fe073ff824efddc9"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aca7fe073ff824efddca"
-    },
-    {
-      "size": "2280/2260/2242 ",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aca7fe073ff824efddcb"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aca7fe073ff824efddcc"
+      "interface": "PCIe 4.0 x4 / SATA"
+    },
+    {
+      "size": "2280/2260/2242",
+      "key": "M",
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3aca7fe073ff824efddcd"
+      "controller": "Intel"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "4x USB 2.0 Type-A ports",
-    "2x USB 3.2 Gen 1 5Gbps Type-A ports",
-    "1x USB 3.2 Gen 2 10Gbps Type-A port",
-    "1x USB 3.2 Gen 2x2 20Gbps Type-C port",
-    "1x DisplayPort 1.4",
-    "1x HDMI port",
-    "1x LAN (RJ45) jack (Intel 2.5Gbps)",
-    "2x Wi-Fi Antenna connectors",
-    "6x Audio jacks",
-    "1x PS/2 port",
-    "1x Flash BIOS button"
+    "Keyboard / Mouse",
+    "DisplayPort",
+    "USB 2.0",
+    "2.5G LAN",
+    "Wi-Fi / Bluetooth",
+    "Audio Connectors",
+    "USB 2.0",
+    "HDMI™",
+    "USB 3.2 Gen 1 5Gbps (Type-A)",
+    "USB 3.2 Gen 2x2 20Gbps (Type-C)",
+    "USB 3.2 Gen 2 10Gbps (Type-A)"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B09XWR42S5",
     "newegg_sku": "N82E16813144571",
     "walmart_sku": 2412650107,
-    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z790-P-WIFI/"
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z790-P-WIFI/Specification"
   }
 }
