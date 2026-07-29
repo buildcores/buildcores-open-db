@@ -6,12 +6,17 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 4
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 2
+    "usb_3_2_gen_2x2": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -20,13 +25,19 @@
     "cpu_opt": 1
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
     "reset_button": true,
     "power_led": true,
     "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -52,7 +63,7 @@
   },
   "socket": "AM5",
   "form_factor": "ATX",
-  "color": ["BLACK", "GREY", "RGB"],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -99,9 +110,9 @@
     }
   ],
   "back_panel_ports": [
-    "2 x USB4 (40Gbps) ports (2 x USB Type-C with DP Alt mode)",
-    "11 x USB 10Gbps ports (9 x Type-A + 1 x USB Type-C + 1 x USB Type-C with up to 30W PD/PPS Fast-charge)",
-    "1 x HDMI port",
+    "2 x USB4® (40Gbps) (2 x USB Type-C® with DP Alt mode)",
+    "11 x USB 10Gbps port(s) (9 x Type-A + 1 x USB Type-C® + 1 x USB Type-C® with up to 30W PD/PPS Fast-charge)",
+    "1 x HDMI™ port",
     "1 x Wi-Fi module",
     "1 x Realtek 5Gb Ethernet port",
     "2 x Audio jacks",
@@ -110,16 +121,16 @@
     "1 x Clear CMOS button"
   ],
   "chipset": "AMD X870E",
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0GWNS77NT",
     "newegg_sku": "N82E16813119777",
     "bestbuy_sku": 6676101,
     "walmart_sku": 20175222091,
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi7-neo/gallery/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi7-neo/spec/"
   }
 }
