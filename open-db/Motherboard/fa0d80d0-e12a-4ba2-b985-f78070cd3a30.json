@@ -17,12 +17,33 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "cpu_opt": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true,
+    "reset_button": true
+  },
+  "other_headers": {
+    "thunderbolt": 1,
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -31,10 +52,10 @@
   "metadata": {
     "name": "Asus PRIME Z890-P DDR5 ATX",
     "manufacturer": "ASUS",
-    "part_numbers": ["PRIME Z890-P", "90MB1I50-M0EAY0"],
+    "part_numbers": ["PRIME Z890-P"],
     "series": "PRIME",
-    "variant": "Z890-P",
-    "manufacturer_color": "Black/Silver"
+    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2024
   },
   "socket": "LGA 1851",
   "form_factor": "ATX",
@@ -42,16 +63,21 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 4,
+      "quantity": 3,
       "lanes": 16
     }
   ],
   "m2_slots": [
     {
-      "size": "2280-22110",
+      "size": "2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -59,27 +85,12 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -93,7 +104,21 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "1 x USB 20Gbps port",
+    "1 x USB 10Gbps port",
+    "2 x USB 5Gbps ports",
+    "4 x USB 2.0 ports",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "None",
+  "general_product_information": {
+    "newegg_sku": "9SIC6VHKXC0282",
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-z890-p/helpdesk_manual?model2Name=PRIME-Z890-P"
+  }
 }

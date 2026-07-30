@@ -4,7 +4,7 @@
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
     "hdmi_2_1": 1,
@@ -18,13 +18,10 @@
   "metadata": {
     "name": "MSI GAMING TRIO PLUS GeForce RTX 5070 Ti 16GB GDDR7 Black",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "RTX 5070 Ti 16G GAMING TRIO PLUS",
-      "GEFORCE RTX 5070 Ti 16G GAMING TRIO PLUS"
-    ],
-    "variant": "TRIO PLUS",
+    "part_numbers": ["RTX 5070 Ti 16G GAMING TRIO PLUS"],
     "series": "GAMING",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
@@ -38,9 +35,13 @@
   "color": ["BLACK"],
   "length": 338,
   "tdp": 300,
-  "total_slot_width": 3,
   "cooling": "3 Fans",
   "core_count": 8960,
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["RGB"],
+  "frame_sync": "G-Sync",
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.5,
+  "general_product_information": {
+    "newegg_sku": "9SIB9ZZKRR2959"
+  }
 }
