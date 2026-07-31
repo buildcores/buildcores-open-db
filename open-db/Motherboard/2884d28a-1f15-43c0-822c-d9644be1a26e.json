@@ -6,21 +6,27 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 4
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 2
+    "usb_3_2_gen_2x2": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
-    "case_fan": 5,
+    "case_fan": 2,
     "cpu_fan": 1,
     "cpu_opt": 1,
     "pump": 2
   },
   "rgb_headers": {
-    "argb_5v": 2
+    "argb_5v": 2,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "hdd_led": true,
@@ -29,7 +35,9 @@
     "reset_button": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -48,13 +56,13 @@
     "manufacturer": "ASUS",
     "series": "ROG CROSSHAIR",
     "variant": "X870E GLACIAL",
-    "manufacturer_color": "Glacial",
+    "manufacturer_color": "White",
     "part_numbers": ["ROG CROSSHAIR X870E GLACIAL"],
     "releaseYear": 2026,
     "last_manually_spec_verified_at": "2026-04-27T14:45:31.000Z"
   },
   "chipset": "AMD X870E",
-  "color": ["WHITE", "RGB"],
+  "color": ["WHITE"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -74,16 +82,6 @@
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2230/2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 5.0 x4"
-    },
-    {
-      "size": "2230/2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 5.0 x4"
-    },
-    {
       "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
@@ -97,6 +95,16 @@
       "size": "2230/2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x2"
+    },
+    {
+      "size": "2230/2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2230/2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
     }
   ],
   "onboard_ethernet": [
@@ -110,13 +118,13 @@
     }
   ],
   "back_panel_ports": [
-    "2 x USB4 (40Gbps) ports (2 x USB Type-C)",
-    "12 x USB 10Gbps ports (8 x Type-A + 4 x USB Type-C)",
-    "1 x Wi-Fi module",
+    "2 x USB4® (40Gbps) ports (2 x USB Type-C®)",
+    "12 x USB 10Gbps ports (8 x Type-A + 4 x USB Type-C®)",
+    "1 x Wi-Fi Module",
     "2 x Realtek 10Gb Ethernet ports",
     "2 x LED-illuminated audio jacks",
     "1 x Optical S/PDIF out port",
-    "1 x BIOS FlashBack button",
+    "1 x BIOS FlashBack™  button",
     "1 x Clear CMOS button"
   ],
   "form_factor": "EATX",
@@ -124,8 +132,8 @@
   "ecc_support": true,
   "raid_support": true,
   "socket": "AM5",
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 7",
+  "lighting": ["ARGB", "Display"],
   "general_product_information": {
     "amazon_sku": "B0GKR64NY8",
     "newegg_sku": "N82E16813119769",

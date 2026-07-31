@@ -1,12 +1,12 @@
 {
   "opendb_id": "b4417995-28da-4baf-a5b1-282252a6c1c6",
   "metadata": {
-    "name": "Thermalright AXP90-X53 Air 53mm Black",
+    "name": "Thermalright AXP90-X53 42.58 CFM Air 53mm Gray",
     "manufacturer": "Thermalright",
-    "part_numbers": ["AXP90-X53 FULL BLACK"],
+    "part_numbers": ["AXP90-X53"],
     "series": "AXP90-X53",
-    "variant": "Black",
-    "releaseYear": null
+    "releaseYear": 2020,
+    "manufacturer_color": "Black"
   },
   "min_fan_rpm": 2700,
   "max_fan_rpm": null,
@@ -14,21 +14,14 @@
   "max_noise_level": null,
   "color": ["BLACK"],
   "height": 53,
-  "cpu_sockets": [
-    "AM4",
-    "AM5",
-    "LGA 1150",
-    "LGA 1151",
-    "LGA 1155",
-    "LGA 1156",
-    "LGA 1200",
-    "LGA 1700"
-  ],
-  "water_cooled": false,
+  "cpu_sockets": ["LGA 1851", "LGA 1156", "LGA 1700", "LGA 1200", "LGA 1151", "AM5", "AM4"],
+  "water_cooled": true,
   "radiator_size": null,
-  "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "fanless": true,
+  "fan_size": 95,
+  "fan_quantity": 2,
+  "lighting": ["None"],
+  "general_product_information": {
+    "manufacturer_url": "https://www.thermalright.com/product/axp90-x53/"
+  }
 }

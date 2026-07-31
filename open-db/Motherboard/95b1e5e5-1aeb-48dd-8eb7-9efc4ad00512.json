@@ -13,14 +13,16 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "case_fan": 3
+    "case_fan": 3,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 2,
@@ -32,20 +34,25 @@
     "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "thunderbolt": 0,
+    "temperature_sensor": 0,
+    "com_port": 1
+  },
   "power_connectors": {
     "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek ALC897",
+    "chipset": "Realtek ALC892/ ALC897 Codec",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI B550M PRO-VDH WIFI",
+    "name": "MSI PRO B550M PRO-VDH WIFI AM4 DDR4 Micro-ATX",
     "manufacturer": "MSI",
     "part_numbers": ["B550M PRO-VDH WIFI", "7C95-001R", "911-7C95-008"],
     "series": "PRO",
@@ -72,12 +79,12 @@
   ],
   "m2_slots": [
     {
-      "size": "2242/ 2260/ 2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242/ 2260/ 2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 3.0 x4"
     }
@@ -85,7 +92,7 @@
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111HN"
+      "controller": "Realtek 8111"
     }
   ],
   "ecc_support": true,
@@ -103,8 +110,8 @@
     "2 x Wi-Fi Antenna connectors",
     "3 x Audio jacks"
   ],
-  "wireless_networking": "Wi-FI 5 Bluetooth 4.2",
-  "lighting": [],
+  "wireless_networking": "Wifi 6",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B089D1YG11",
     "newegg_sku": "N82E16813144331",

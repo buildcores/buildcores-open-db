@@ -15,11 +15,18 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 2
+    "case_fan": 2,
+    "cpu_opt": 0,
+    "pump": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 0,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -28,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "com_port": 1
+    "com_port": 1,
+    "thunderbolt": 0,
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["4-pin"],
@@ -39,16 +48,16 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC887/897 Audio Codec",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock B450 HDV R4.0 AM4 DDR4 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["B450M-HDV R4.0", "90-MXB9N0-A0UAYZ"],
-    "series": "B450",
-    "variant": "M-HDV R4.0",
+    "variant": "B450M-HDV R4.0",
     "releaseYear": 2020,
+    "manufacturer_color": "Silver / Black",
     "last_manually_spec_verified_at": "2026-03-05T21:19:45.277Z"
   },
   "socket": "AM4",
@@ -59,29 +68,25 @@
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abdf4fd4af70a349de52"
+      "lanes": 16
     },
     {
       "gen": "2.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abdf4fd4af70a349de53"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abdf4fd4af70a349de54"
+      "interface": "PCIe Gen3 x4 / SATA3"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3abdf4fd4af70a349de55"
+      "controller": "Realtek RTL8111H"
     }
   ],
   "ecc_support": true,
@@ -97,10 +102,11 @@
     "1 x RJ-45 LAN Port with LED",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B07MWGKHR9",
     "newegg_sku": "9SIC4RPKRD3806",
-    "manufacturer_url": "https://www.asrock.com/mb/AMD/B450M-HDV%20R4.0/index.asp#Specification"
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/B450M-HDV%20R4.0/#Specification"
   }
 }

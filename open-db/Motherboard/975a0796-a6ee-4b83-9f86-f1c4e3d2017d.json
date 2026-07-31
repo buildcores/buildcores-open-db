@@ -6,19 +6,42 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 1,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": false,
@@ -34,7 +57,8 @@
     "part_numbers": ["PRIME B760-PLUS", "90MB1EF0-M0EAY0", "90MB1EF0-M1EAY0"],
     "series": "PRIME",
     "variant": "B760-PLUS",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2023
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -42,51 +66,36 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x2"
     }
   ],
   "onboard_ethernet": [
@@ -98,11 +107,24 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)",
+    "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
+    "1 x USB 3.2 Gen 1 port (1 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x DisplayPort",
+    "1 x HDMI™ port",
+    "1 x Vertical M.2 slot (Key E)",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B0C3ZP533K",
     "newegg_sku": "N82E16813119648",
-    "walmart_sku": 2683883495
+    "walmart_sku": 2683883495,
+    "manufacturer_url": "https://www.asus.com/us/motherboards-components/motherboards/prime/prime-b760-plus/techspec/"
   }
 }

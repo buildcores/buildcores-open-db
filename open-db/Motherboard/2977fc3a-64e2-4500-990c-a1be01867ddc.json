@@ -15,12 +15,13 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1,
+    "pump": 2,
     "cpu_opt": 1
   },
   "rgb_headers": {
@@ -33,16 +34,21 @@
     "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "4-pin"]
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
   "metadata": {
@@ -52,6 +58,7 @@
     "variant": "B850 ELITE WIFI7",
     "series": "AORUS",
     "manufacturer_color": "Black",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2025-09-02T20:34:28.292Z"
   },
   "socket": "AM5",
@@ -93,13 +100,12 @@
       "controller": "Realtek"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)",
-    "1 x DisplayPort (Note)",
+    "1 x DisplayPort*",
     "1 x Q-Flash Plus button",
     "4 x USB 2.0/1.1 ports",
     "1 x USB Type-C® port, with USB 3.2 Gen 2 support",
@@ -110,12 +116,12 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DQLHVQSF",
     "newegg_sku": "N82E16813145545",
     "bestbuy_sku": 6619031,
     "walmart_sku": 14930559411,
-    "manufacturer_url": "https://www.gigabyte.com/Motherboard/B850-AORUS-ELITE-WIFI7-rev-1x/sp"
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/B850-AORUS-ELITE-WIFI7-rev-1x/sp"
   }
 }
