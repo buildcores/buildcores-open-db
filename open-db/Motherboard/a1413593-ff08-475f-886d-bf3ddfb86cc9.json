@@ -13,13 +13,16 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 2
+    "case_fan": 2,
+    "cpu_opt": 0,
+    "pump": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -32,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "com_port": 1
+    "com_port": 1,
+    "temperature_sensor": 0,
+    "thunderbolt": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -47,11 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI B840 PRO B840M-B AM5 DDR5 Micro ATX",
+    "name": "MSI PRO B840M-B AM5 DDR5 Micro ATX",
     "manufacturer": "MSI",
     "part_numbers": ["PRO B840M-B", "7E76-002R", "911-7E76-002"],
-    "series": "B840",
-    "variant": "M-B",
+    "series": "PRO",
+    "variant": "B840M-B",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-11-27T18:46:27.011Z"
   },
   "socket": "AM5",
@@ -62,35 +69,30 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac35b27c54a042d02097"
+      "lanes": 16
     },
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac35b27c54a042d02098"
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac35b27c54a042d02099"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac35b27c54a042d0209a"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125D",
-      "_id": "69b3ac35b27c54a042d0209b"
+      "controller": "Realtek 8125D"
     }
   ],
   "ecc_support": false,
@@ -106,7 +108,8 @@
     "2 x USB 2.0 Type-A ports",
     "3 x Audio jacks"
   ],
-  "lighting": [],
+  "lighting": ["ARGB", "RGB"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B0FLSLQQ7K",
     "newegg_sku": "N82E16813144718",
