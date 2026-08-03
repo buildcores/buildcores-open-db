@@ -12,10 +12,11 @@
   },
   "usb_headers": {
     "usb_2_0": 3,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -24,7 +25,8 @@
     "cpu_opt": 1
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -34,7 +36,8 @@
   },
   "other_headers": {
     "thunderbolt": 1,
-    "com_port": 1
+    "com_port": 1,
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
@@ -120,8 +123,8 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0F25ML4CK",
     "newegg_sku": "N82E16813119736",

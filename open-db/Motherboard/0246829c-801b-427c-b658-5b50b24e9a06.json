@@ -12,10 +12,11 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -35,7 +36,8 @@
   },
   "other_headers": {
     "thunderbolt": 1,
-    "com_port": 1
+    "com_port": 1,
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8 pin"],
@@ -43,7 +45,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -55,7 +57,8 @@
     "part_numbers": ["PRIME B650-PLUS WIFI", "90MB1KP0-M0EAY0"],
     "series": "PRIME",
     "variant": "B650-PLUS WIFI",
-    "manufacturer_color": "Black/White",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2024,
     "last_manually_spec_verified_at": "2026-02-06T23:44:29.788Z"
   },
   "socket": "AM5",
@@ -65,8 +68,13 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -84,16 +92,6 @@
       "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
@@ -106,24 +104,33 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek)",
-    "3 x USB 10Gbps Type-A ports",
-    "2 x USB 5Gbps Type-A ports",
-    "2 x USB 2.0 Type-A ports",
+    "4 x USB 10Gbps ports (3 x Type-A + 1 x USB Type-C®)",
+    "2 x USB 5Gbps ports (2 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
     "1 x DisplayPort",
-    "1 x HDMI port",
-    "1 x Wi-Fi Module",
+    "1 x HDMITM port",
+    "1 xWi-Fi Module",
     "1 x Realtek 2.5Gb Ethernet port",
     "5 x Audio jacks",
-    "1 x Optical S/PDIF Out port",
-    "1 x BIOS FlashBack button"
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack™ button",
+    "4 x USB 10Gbps ports (3 x Type-A + 1 x USB Type-C®)",
+    "2 x USB 5Gbps ports (2 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMITM port",
+    "1 xWi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack™ button"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DGWQ128D",
     "newegg_sku": "N82E16813119700",
     "walmart_sku": 13472123585,
-    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-b650-plus-wifi/techspec/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650-plus-wifi/techspec/"
   }
 }

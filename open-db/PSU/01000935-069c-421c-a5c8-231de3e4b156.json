@@ -2,19 +2,20 @@
   "opendb_id": "01000935-069c-421c-a5c8-231de3e4b156",
   "connectors": {
     "atx_24_pin": 1,
-    "eps_8_pin": 0,
-    "pcie_12vhpwr": 0,
-    "pcie_6_plus_2_pin": 0,
     "sata": 18,
-    "molex_4_pin": 0,
-    "floppy_4_pin": 0
+    "floppy_4_pin": 0,
+    "pcie_6_plus_2_pin": 1,
+    "eps_8_pin": 3,
+    "pcie_12vhpwr": 2,
+    "molex_4_pin": 3
   },
   "metadata": {
     "name": "SeaSonic PRIME TX-1600 Noctua Edition Brown / Black 1600W Fully Modular 80+ Titanium Certified",
     "manufacturer": "SeaSonic",
     "part_numbers": ["PRIME TX-1600 Noctua Edition", "Seasonic PRIME TX-1600 Noctua Edition US"],
-    "series": "PRIME",
-    "variant": "1600W Titanium"
+    "series": "Prime TX ATX 3.1",
+    "variant": "1600W Titanium",
+    "manufacturer_color": "Noctua Edition"
   },
   "wattage": 1600,
   "form_factor": "ATX",
@@ -23,8 +24,11 @@
   "color": ["BROWN", "BLACK"],
   "length": 210,
   "fanless": false,
-  "lighting": [],
+  "lighting": ["None"],
+  "cybernetics_efficiency_rating": "Cybenetics Titanium",
+  "cybernetics_noise_rating": "Cybenetics A++",
   "general_product_information": {
-    "amazon_sku": "B0DMW5F3GG"
+    "amazon_sku": "B0DMW5F3GG",
+    "manufacturer_url": "https://seasonic.com/product/prime-tx-1600-noctua-edition/"
   }
 }

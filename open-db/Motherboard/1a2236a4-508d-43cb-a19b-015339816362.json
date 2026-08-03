@@ -15,7 +15,8 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -24,7 +25,8 @@
     "case_fan": 4
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 1
   },
   "front_panel_headers": {
     "power_button": true,
@@ -34,14 +36,15 @@
   },
   "other_headers": {
     "temperature_sensor": 1,
-    "thunderbolt": 1
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -49,11 +52,11 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus ROG STRIX B650E-F GAMING WIFI DDR5 ATX",
+    "name": "ASUS ROG STRIX B650E-F GAMING WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": ["ROG STRIX B650E-F GAMING WIFI", "90MB1BQ0-M0AAY0", "90MB1BQ0-M0EAY1"],
-    "series": "ROG",
-    "variant": "STRIX B650E-F GAMING WIFI DDR5 ATX",
+    "series": "ROG STRIX",
+    "variant": "B650E-F GAMING WIFI",
     "manufacturer_color": "Black",
     "releaseYear": 2022
   },
@@ -85,27 +88,12 @@
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
       "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -116,7 +104,7 @@
       "controller": "Intel I225-V"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
@@ -131,13 +119,13 @@
     "5 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "lighting": ["RGB"],
-  "wireless_networking": "Wifi 6E Bluetooth 5.2",
+  "lighting": ["RGB", "ARGB"],
+  "wireless_networking": "Wifi 6E",
   "general_product_information": {
     "amazon_sku": "B0BHMTYZKZ",
     "newegg_sku": "N82E16813119604",
     "bestbuy_sku": 6523721,
     "walmart_sku": 1953451145,
-    "manufacturer_url": "https://rog.asus.com/in/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model"
+    "manufacturer_url": "https://rog.asus.com/in/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/"
   }
 }
