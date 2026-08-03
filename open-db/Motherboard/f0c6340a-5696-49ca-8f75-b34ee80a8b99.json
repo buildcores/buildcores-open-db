@@ -15,12 +15,14 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 6,
-    "pump": 1
+    "pump": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "rgb_12v": 1,
@@ -31,6 +33,11 @@
     "power_led": true,
     "hdd_led": true,
     "reset_button": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -48,14 +55,16 @@
     "name": "MSI X870 GAMING PLUS WIFI AM5 DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["X870 GAMING PLUS WIFI", "7E47-004R", "X870 Gaming Plus WiFi"],
-    "variant": "X870 GAMING PLUS WIFI",
+    "variant": "X870 WIFI",
     "manufacturer_color": "Black",
+    "releaseYear": 2024,
+    "series": "GAMING PLUS",
     "last_manually_spec_verified_at": "2025-11-28T17:14:42.762Z"
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870",
-  "color": ["BLACK", "WHITE"],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -100,17 +109,22 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x Realtek®  8126 5G LAN/s Ports (Realtek 8126VB) \"RJ45 Port\"",
     "Clear CMOS Button",
-    "3 x USB 10Gbps (2 Type-A + 1 Type-C)",
-    "1 x USB 40Gbps (1 Type-C)",
-    "1 x USB 20Gbps (1 Type-C)",
-    "4 x USB 5Gbps (4 Type-A)",
-    "8 x USB 2.0",
-    "8-Channel (7.1) HD Audio with Audio Boost"
+    "USB 5Gbps Type-A",
+    "USB 10Gbps Type-A",
+    "USB 2.0",
+    "5G LAN",
+    "Wi-Fi / Bluetooth",
+    "Audio connectors",
+    "Flash BIOS Button",
+    "HDMI™",
+    "USB 40Gbps Type-C",
+    "USB 2.0",
+    "USB 20Gbps Type-C",
+    "USB 5Gbps Type-A"
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 7",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0DPY4D638",
     "newegg_sku": "N82E16813144687",
