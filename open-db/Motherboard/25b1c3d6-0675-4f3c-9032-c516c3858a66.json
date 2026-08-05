@@ -6,7 +6,7 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,15 +17,34 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
@@ -33,17 +52,23 @@
     "manufacturer": "ASRock",
     "part_numbers": ["B850M-X R2.0"],
     "variant": "B850M-X R2.0",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
-  "color": ["BLACK", "WHITE"],
+  "color": ["BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -55,21 +80,11 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -79,10 +94,27 @@
       "controller": "Realtek Dragon RTL8125BG"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
-  "lighting": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "2 x Antenna Mounting Points",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6E",
+  "general_product_information": {
+    "amazon_sku": "B0FH319HHD",
+    "newegg_sku": "N82E16813162225",
+    "bestbuy_sku": 12917473,
+    "walmart_sku": 16802516229
+  }
 }

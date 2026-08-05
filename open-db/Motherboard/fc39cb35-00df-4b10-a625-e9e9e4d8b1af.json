@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,24 +17,41 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4082",
     "channels": "7.1"
   },
   "metadata": {
     "name": "ASRock X870 Taichi Creator AM5 DDR5 ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["X870 Taichi Creator"],
-    "manufacturer_color": "White",
+    "manufacturer_color": "Black",
     "series": "TAICHI",
-    "variant": "X870 CREATOR"
+    "variant": "X870 CREATOR",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -42,16 +59,31 @@
   "color": ["BLACK", "GOLD"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -61,17 +93,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "onboard_ethernet": [
@@ -80,12 +102,30 @@
       "controller": "Aquantia AQC113CS"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x 10 Gb/s Ports (Aquantia AQC113CS)                                            1 x 5 Gb/s Ports (Realtek RTL8126)"
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x Optical SPDIF Out Port",
+    "2 x USB4 Type-C Ports",
+    "2 x USB 3.2 Gen2 Type-A Ports",
+    "6 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "2 x RJ-45 LAN Ports",
+    "1 x Clear CMOS Button",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack",
+    "1 x Microphone Input Jack"
   ],
-  "lighting": [],
-  "general_product_information": {}
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 7",
+  "general_product_information": {
+    "amazon_sku": "B0FSLVZDBP",
+    "newegg_sku": "N82E16813162237",
+    "bestbuy_sku": 12864792,
+    "walmart_sku": 17936200880,
+    "manufacturer_url": "https://static.buildcores.com/part-attachments/fc39cb35-00df-4b10-a625-e9e9e4d8b1af_X870_Taichi_Creator.pdf"
+  }
 }
