@@ -1,29 +1,42 @@
 {
   "opendb_id": "554d76ad-96a3-4a87-8cee-873722ccc620",
+  "dimensions_mm": {
+    "width": 218,
+    "height": 490,
+    "depth": 462
+  },
   "metadata": {
     "name": "Thermaltake S250 ATX Mid Tower White Tempered Glass ARGB",
     "manufacturer": "Thermaltake",
     "part_numbers": ["CA-1Y6-00M6WN-00"],
     "series": "S250",
-    "variant": ""
+    "variant": "",
+    "manufacturer_color": "Snow",
+    "releaseYear": 2024
   },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
+  "supported_motherboard_form_factors": ["EATX", "ATX", "Micro ATX", "Mini-ITX"],
   "form_factor": "ATX Mid Tower",
   "color": ["WHITE"],
   "power_supply": "None",
+  "power_supply_included": false,
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 1 Type-A",
   "max_video_card_length": 400,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 165,
+  "max_psu_length": 220,
+  "power_supply_shroud": true,
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 2,
   "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "462 x 218 x 490",
   "volume": 49.351,
-  "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "weight": 14.77,
+  "supported_power_supply_form_factors": ["ATX"],
+  "front_usb_ports": ["2x USB 3.2 Gen 1 Type-A"],
+  "lighting": ["ARGB"],
+  "general_product_information": {
+    "manufacturer_url": "https://www.thermaltake.com/s250-tg-argb-mid-tower-chassis.html"
+  }
 }
