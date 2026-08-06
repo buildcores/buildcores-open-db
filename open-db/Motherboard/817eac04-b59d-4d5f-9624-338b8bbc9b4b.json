@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,26 +15,50 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 0,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek  ALC897 Codec",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI B550 GAMING GEN3",
+    "name": "MSI B550 GAMING GEN3 AM4 DDR4 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["B550 GAMING GEN3", "7B86-050R", "911-7B86-050", "B550 Gaming GEN3"],
-    "series": "MPG",
-    "variant": "B550 GAMING GEN3",
-    "manufacturer_color": "Black"
+    "series": "GAMING",
+    "variant": "B550 GEN3",
+    "manufacturer_color": "Black",
+    "releaseYear": 2022
   },
   "socket": "AM4",
   "form_factor": "ATX",
@@ -42,26 +66,26 @@
   "color": ["BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "3.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "2.0",
       "quantity": 4,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 / SATA 6Gb/s"
     }
   ],
   "onboard_ethernet": [
@@ -73,10 +97,22 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek RTL8111H)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "1x Flash BIOS button",
+    "1x PS/2 keyboard/ mouse port",
+    "2x USB 2.0 Type-A ports",
+    "1x DVI-D port",
+    "1x HDMI™ port",
+    "2x USB 3.2 Gen1 5Gbps Type-A ports",
+    "1x LAN (RJ45) port",
+    "2x USB 3.2 Gen2 10Gbps Type-A ports",
+    "6x audio jacks"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B0BHCL4YVS",
-    "walmart_sku": 1611164941
+    "walmart_sku": 1611164941,
+    "manufacturer_url": "https://www.msi.com/Motherboard/B550-GAMING-GEN3/Specification"
   }
 }
