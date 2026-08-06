@@ -32,13 +32,16 @@
     "hdd_led": true,
     "power_led": true
   },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek ALC4082",
@@ -100,6 +103,10 @@
     {
       "speed": "10 Gb/s",
       "controller": "Aquantia AQC113CS"
+    },
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek RTL8126"
     }
   ],
   "ecc_support": true,
@@ -120,7 +127,7 @@
     "1 x Microphone Input Jack"
   ],
   "lighting": ["None"],
-  "wireless_networking": "Wifi 7",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "general_product_information": {
     "amazon_sku": "B0FSLVZDBP",
     "newegg_sku": "N82E16813162237",

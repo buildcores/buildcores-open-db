@@ -20,7 +20,7 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1
+    "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -33,7 +33,7 @@
     "power_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -65,11 +65,6 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 8
     },
     {
       "gen": "4.0",
@@ -113,5 +108,7 @@
   ],
   "lighting": ["ARGB"],
   "wireless_networking": "Wi-Fi 7",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870M-AORUS-ELITE-WIFI7-ICE"
+  }
 }
