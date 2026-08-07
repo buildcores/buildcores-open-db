@@ -1,12 +1,12 @@
 {
   "opendb_id": "62cc75e5-493a-4577-8c0f-1b11c919c96c",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,21 +15,44 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1200 Codec",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI MAG X670E TOMAHAWK WIFI DDR5 ATX",
+    "name": "MSI MAG X670E TOMAHAWK WIFI AM5 DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": [
       "MAG X670E TOMAHAWK WIFI",
@@ -39,92 +62,87 @@
       "911-7E12-03S"
     ],
     "series": "MAG",
-    "variant": ""
+    "variant": "X670E TOMAHAWK WIFI",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "socket": "AM5",
   "form_factor": "ATX",
-  "chipset": "AMD X670E",
+  "chipset": "AMD X670",
   "color": ["BLACK"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3abcbb27c54a042cff0c0"
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abcbb27c54a042cff0c1"
+      "lanes": 4
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 2
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2280-22110",
+      "size": "2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c2"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c3"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c4"
+      "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c5"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c6"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c7"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c8"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abcbb27c54a042cff0c9"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125BG",
-      "_id": "69b3abcbb27c54a042cff0ca"
+      "controller": "Realtek RTL8125BG"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "DisplayPort",
+    "USB 3.2 Gen 2 10Gbps (Type-A)",
+    "USB 3.2 Gen 2 5Gbps (Type-A)",
+    "2.5G LAN",
+    "Wi-Fi / Bluetooth",
+    "Audio Connectors",
+    "Flash BIOS Button",
+    "HDMI™",
+    "HDMI™",
+    "USB 3.2 Gen 2x2 20Gbps (Type-C)",
+    "S/PDIF-Out"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6E",
   "general_product_information": {
     "amazon_sku": "B0BYB3PGQW",
     "newegg_sku": "N82E16813144595R",
     "bestbuy_sku": 6578362,
-    "walmart_sku": 1198573240
+    "walmart_sku": 1198573240,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X670E-TOMAHAWK-WIFI/Specification"
   }
 }

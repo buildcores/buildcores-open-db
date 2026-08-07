@@ -17,12 +17,30 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "clear_cmos": false,
+    "flashback": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -33,7 +51,8 @@
     "manufacturer": "ASUS",
     "part_numbers": ["B760M-AYW PRO WIFI"],
     "variant": "B760M-AYW PRO WIFI",
-    "manufacturer_color": "Black/Silver"
+    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2023
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -72,7 +91,19 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "1 x DisplayPort",
+    "1 x HDMI",
+    "2 x USB 10Gbps Type-A",
+    "4 x USB 5Gbps Type-A",
+    "2 x USB 2.0 Type-A",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet",
+    "3 x Audio Jacks"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "WiFi 6 Bluetooth 5.3",
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/in/supportonly/b760m-ayw%20pro%20wifi/helpdesk_manual/"
+  }
 }

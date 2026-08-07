@@ -17,8 +17,27 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "case_fan": 4,
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"]
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
@@ -33,7 +52,8 @@
     "manufacturer": "ASUS",
     "part_numbers": ["B850M MAX GAMING WIFI"],
     "variant": "B850M MAX GAMING WIFI",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -48,7 +68,12 @@
     {
       "gen": "4.0",
       "quantity": 3,
-      "lanes": 16
+      "lanes": 1
+    },
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 1
     }
   ],
   "m2_slots": [
@@ -88,8 +113,9 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "WiFi 6 Bluetooth 5.3",
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b850m-max-gaming-wifi"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b850m-max-gaming-wifi/"
   }
 }

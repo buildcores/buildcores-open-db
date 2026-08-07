@@ -6,30 +6,53 @@
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "usb_headers": {
-    "usb_2_0": 0,
+    "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "cpu_opt": 0,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080 Codec",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "MSI B850 MPG B850I EDGE TI WIFI AM5 DDR5 Mini ITX",
+    "name": "MSI MPG B850I EDGE TI WIFI AM5 DDR5 Mini-ITX",
     "manufacturer": "MSI",
     "part_numbers": [
       "MPG B850I EDGE TI WIFI",
@@ -40,7 +63,8 @@
     ],
     "variant": "B850I EDGE TI WIFI",
     "series": "MPG",
-    "manufacturer_color": "White"
+    "manufacturer_color": "White / Silver",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Mini-ITX",
@@ -48,7 +72,7 @@
   "color": ["GREY"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     }
@@ -57,7 +81,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -74,12 +98,26 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek 8126)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "Clear CMOS Button",
+    "5G LAN",
+    "Wi-Fi / Bluetooth",
+    "Audio Connectors",
+    "Flash BIOS Button",
+    "HDMI™",
+    "USB 5Gbps Type-A",
+    "USB 10Gbps Type-A",
+    "USB 20Gbps Type-C",
+    "USB 10Gbps Type-A",
+    "Optical S/PDIF Out"
+  ],
+  "lighting": ["ARGB"],
+  "wireless_networking": "Wifi 7",
   "general_product_information": {
     "amazon_sku": "B096Y46DK1",
     "newegg_sku": "N82E16813144710",
     "bestbuy_sku": 6641933,
-    "walmart_sku": 17079602696
+    "walmart_sku": 17079602696,
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-B850I-EDGE-TI-WIFI/Specification"
   }
 }

@@ -15,12 +15,14 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "case_fan": 1
+    "case_fan": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 1,
@@ -33,22 +35,24 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 1,
+    "com_port": 0,
+    "thunderbolt": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
+    "flashback": false,
+    "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASUS ROG STRIX B760-I GAMING WIFI",
+    "name": "ASUS ROG STRIX B760-I GAMING WIFI LGA1700 DDR5 Mini-ITX",
     "manufacturer": "ASUS",
     "part_numbers": [
       "ROG STRIX B760-I GAMING WIFI",
@@ -56,9 +60,10 @@
       "90MB1D90-M0EAY0",
       "90MB1D90-M1EAY0"
     ],
-    "series": "ROG",
-    "variant": "STRIX B760-I GAMING WIFI",
+    "series": "ROG STRIX",
+    "variant": "B760-I GAMING WIFI",
     "manufacturer_color": "Black",
+    "releaseYear": 2023,
     "last_manually_spec_verified_at": "2025-11-24T16:39:47.294Z"
   },
   "socket": "LGA 1700",
@@ -103,12 +108,12 @@
     "1 x Intel 2.5Gb Ethernet",
     "5 x Audio jacks"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0BR8TVLPL",
     "newegg_sku": "N82E16813119621",
     "walmart_sku": 2518601502,
-    "manufacturer_url": "https://rog.asus.com/in/motherboards/rog-strix/rog-strix-b760-i-gaming-wifi-model/spec/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b760-i-gaming-wifi-model/spec/"
   }
 }

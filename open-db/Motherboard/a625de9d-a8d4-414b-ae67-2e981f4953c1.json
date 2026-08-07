@@ -6,18 +6,23 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 2
+    "sata_6_gb_s": 2,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 1
+    "usb_3_2_gen_2x2": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_4_80g": 0,
+    "usb_4": 0
   },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 1
+    "pump": 2,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -30,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "main_power": "24-pin",
@@ -45,10 +52,10 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock X870 Nova WiFi AM5 Flagship Motherboard DDR5 ATX",
+    "name": "ASROCK X870 PHANTOM GAMING NOVA WIFI AM5 DDR5 ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["90-MXBT20-A0UAYAZ", "X870 Nova WiFi", "X870 NOVA WIFI", "90-MXBT20-A0UAYZ"],
-    "variant": "X870 Nova Wifi AM5",
+    "variant": "X870 NOVA WIFI",
     "releaseYear": 2025,
     "series": "Phantom Gaming",
     "manufacturer_color": "Black",
@@ -67,7 +74,7 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 4
     }
   ],
   "m2_slots": [
@@ -84,7 +91,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe Gen 3.0 x2"
+      "interface": "SATA3 & PCIe Gen3 x2"
     },
     {
       "size": "2280",
@@ -97,28 +104,35 @@
       "interface": "PCIe Gen 4.0 x4"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "ecc_support": true,
   "raid_support": true,
   "back_panel_ports": [
+    "2 x Antenna Ports",
     "1 x HDMI Port",
     "1 x Optical SPDIF Out Port",
-    "2 x USB4 Type-C Ports (40 Gb/s)",
-    "2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)",
-    "2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s)",
+    "2 x USB4 Type-C Ports (40 Gb/s)*",
+    "2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s) (USB32_34 supports Ultra USB Power.)",
+    "3 x USB 3.2 Gen1 Type-A Ports (USB32_12 are Lightning Gaming Ports.)",
     "4 x USB 2.0 Ports",
     "1 x RJ-45 LAN Port",
     "1 x Clear CMOS Button",
     "1 x BIOS Flashback Button",
-    "1 x Line Out Jack",
-    "1 x Microphone Input Jack"
+    "1 x Line Out Jack (Gold Audio Jack)",
+    "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
-  "onboard_ethernet": [],
-  "lighting": [],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek RTL8126"
+    }
+  ],
+  "lighting": ["ARGB"],
+  "back_connect_connectors": false,
   "general_product_information": {
     "amazon_sku": "B0FN6V62CP",
     "newegg_sku": "N82E16813162232",
     "walmart_sku": 17452451825,
-    "manufacturer_url": "https://pg.asrock.com/mb/AMD/X870%20Nova%20WiFi/"
+    "manufacturer_url": "https://pg.asrock.com/mb/AMD/X870%20Nova%20WiFi/index.asp"
   }
 }
