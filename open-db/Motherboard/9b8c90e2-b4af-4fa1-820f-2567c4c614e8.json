@@ -17,11 +17,28 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -34,7 +51,8 @@
     "part_numbers": ["PRIME B650M-F"],
     "series": "PRIME",
     "variant": "B650M-F",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2024
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -54,12 +72,7 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -70,10 +83,20 @@
       "controller": "Realtek"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "2 x USB 5Gbps ports",
+    "4 x USB 2.0 ports",
+    "1 x HDMI port",
+    "1 x Realtek 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "None",
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-f/"
+  }
 }
