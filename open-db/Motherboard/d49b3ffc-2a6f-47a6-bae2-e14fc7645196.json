@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "case_fan": 3,
+    "cpu_fan": 1,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -34,7 +53,8 @@
     "part_numbers": ["PRIME B850M-A-CSM"],
     "series": "PRIME",
     "variant": "B850M-A-CSM",
-    "manufacturer_color": "Black/Silver"
+    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
@@ -42,8 +62,18 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
+      "lanes": 8
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
       "lanes": 16
     }
   ],
@@ -51,7 +81,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -59,12 +89,7 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -78,7 +103,20 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "2 x USB 10Gbps ports",
+    "2 x USB 5Gbps ports",
+    "4 x USB 2.0 ports",
+    "2 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/prime-b850m-a-csm/"
+  }
 }
