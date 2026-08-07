@@ -12,15 +12,16 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 3,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "cpu_opt": null,
+    "cpu_fan": 2,
+    "pump": 0,
+    "cpu_opt": 0,
     "case_fan": 3
   },
   "rgb_headers": {
@@ -34,14 +35,16 @@
     "hdd_led": true
   },
   "other_headers": {
-    "thunderbolt": 1
+    "thunderbolt": 0,
+    "temperature_sensor": 0,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
+    "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -49,7 +52,7 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock B850M Pro-A WiFi AM5 DDR5 Micro ATX",
+    "name": "ASRock B850M PRO-A WIFI AM5 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
       "B850M Pro-A WiFi",
@@ -58,9 +61,10 @@
       "90-MXBR90-A0UAYAZ",
       "B850M PRO-A WIFI"
     ],
-    "variant": "B850M-A WiFi",
+    "variant": "B850M -A WIFI",
     "series": "PRO",
     "manufacturer_color": "Black",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2026-02-15T13:54:59.481Z"
   },
   "socket": "AM5",
@@ -94,6 +98,11 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2230",
+      "key": "E",
+      "interface": "PCIe"
     }
   ],
   "onboard_ethernet": [
@@ -102,7 +111,7 @@
       "controller": "Realtek Dragon RTL8125BG"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
@@ -117,12 +126,12 @@
     "1 x BIOS Flashback Button",
     "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)"
   ],
-  "wireless_networking": "Wi-Fi 6E Bluetooth 5.2",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 6E",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0DS6KDMF5",
     "newegg_sku": "N82E16813162198R",
     "walmart_sku": 15159411495,
-    "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Pro-A%20WiFi/index.asp#Specification"
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/B850M%20Pro-A%20WiFi/index.asp#Specification"
   }
 }

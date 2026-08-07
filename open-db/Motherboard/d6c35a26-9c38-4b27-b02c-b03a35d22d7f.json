@@ -12,15 +12,17 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "cpu_opt": 1,
-    "case_fan": 3
+    "case_fan": 3,
+    "pump": 0
   },
   "rgb_headers": {
     "rgb_12v": 1,
@@ -33,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "com_port": 1
+    "com_port": 1,
+    "temperature_sensor": 0,
+    "thunderbolt": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -48,12 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASUS PRIME B650M-A AX II",
+    "name": "ASUS PRIME B650M-A AX II AM5 DDR5 Micro-ATX",
     "manufacturer": "ASUS",
     "part_numbers": ["PRIME B650M-A AX II", "90MB1ED0-M0EAY0", "90MB1ED0-M0AAY0"],
     "series": "PRIME",
     "variant": "B650M-A AX II",
-    "manufacturer_color": "Black",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2023,
     "last_manually_spec_verified_at": "2026-02-06T23:52:32.568Z"
   },
   "socket": "AM5",
@@ -68,23 +73,18 @@
     },
     {
       "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
+      "quantity": 3,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242/2260/2280 ",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -111,8 +111,8 @@
     "1 x BIOS FlashBack button",
     "1x PS/2 Keyboard/Mouse combo port"
   ],
-  "wireless_networking": "Wifi 6 Bluetooth 5.2",
-  "lighting": [],
+  "wireless_networking": "Wifi 6",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0BSP52VJC",
     "newegg_sku": "N82E16813119631",

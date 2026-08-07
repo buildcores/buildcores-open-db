@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -17,11 +17,30 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "case_fan": 2,
+    "cpu_opt": 1,
+    "pump": 1,
+    "cpu_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "4-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -34,13 +53,19 @@
     "part_numbers": ["TUF GAMING B850M-E WIFI"],
     "series": "TUF GAMING",
     "variant": "B850M-E WIFI",
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Black",
+    "releaseYear": 2025
   },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B850",
   "color": ["BLACK"],
   "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
     {
       "gen": "4.0",
       "quantity": 1,
@@ -56,7 +81,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -64,14 +89,9 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x2"
     }
   ],
   "onboard_ethernet": [
@@ -83,7 +103,25 @@
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "back_panel_ports": [
+    "2 x USB 10Gbps ports",
+    "2 x USB 5Gbps ports",
+    "4 x USB 2.0 ports",
+    "2 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack button",
+    "1 x PS/2 keyboard/mouse combo port"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
+  "general_product_information": {
+    "amazon_sku": "B0F6HB62B4",
+    "newegg_sku": "N82E16813119758",
+    "bestbuy_sku": 12171520,
+    "walmart_sku": 17581752057,
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850m-e-wifi/helpdesk_manual?model2Name=TUF-GAMING-B850M-E-WIFI"
+  }
 }

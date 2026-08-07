@@ -1,27 +1,50 @@
 {
   "opendb_id": "13a859c2-45e5-41ff-958e-185d473db10c",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 0,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -29,11 +52,12 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte A620 I AX DDR5 Mini ITX",
+    "name": "GIGABYTE A620I AX AM5 DDR5 MINI-ITX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["A620I AX"],
-    "series": "A620",
-    "variant": ""
+    "variant": "A620I AX",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
   "socket": "AM5",
   "form_factor": "Mini-ITX",
@@ -43,33 +67,43 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab70b27c54a042cfc80b"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab70b27c54a042cfc80c"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab70b27c54a042cfc80d"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x USB Type-C® port, with USB 3.2 Gen 1 support",
+    "1 x USB 3.2 Gen 2 Type-A port (red)",
+    "1 x USB 3.2 Gen 1 port",
+    "3 x USB 2.0/1.1 ports",
+    "1 x Q-Flash Plus button",
+    "1 x RJ-45 port",
+    "2 x SMA antenna connectors (2T2R)",
+    "3 x audio jacks"
+  ],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B0CFK3HGCL",
     "newegg_sku": "N82E16813145470",
-    "walmart_sku": 1055229137
+    "walmart_sku": 1055229137,
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/A620I-AX-rev-10/sp"
   }
 }

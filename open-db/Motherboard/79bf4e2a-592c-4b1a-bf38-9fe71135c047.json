@@ -15,12 +15,14 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
-    "pump": 1
+    "pump": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "rgb_12v": 1,
@@ -33,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -41,14 +45,14 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock B850 M-X WiFi AM5 DDR5 Micro ATX",
+    "name": "ASRock B850M-X WiFi AM5 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
       "B850M-X WiFi",
@@ -59,8 +63,9 @@
       "B850M-X WIFI R2.0",
       "90-MXBSH0-A0UAYZ"
     ],
-    "variant": "B850M-X WIFI",
-    "manufacturer_color": "Black",
+    "variant": "B850M-X WiFi",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2025-11-28T17:25:41.861Z"
   },
   "socket": "AM5",
@@ -70,8 +75,13 @@
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -89,6 +99,11 @@
       "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2230",
+      "key": "M",
+      "interface": "PCIe WiFi"
     }
   ],
   "onboard_ethernet": [
@@ -101,18 +116,18 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)",
     "2 x Antenna Ports",
     "1 x HDMI Port",
     "1 x DisplayPort 1.4",
     "1 x USB 3.2 Gen1 Type-C Port",
     "3 x USB 3.2 Gen1 Type-A Ports",
     "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "wireless_networking": "Wi-Fi 6E Bluetooth 5.2",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 6E",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0F3NDZF19",
     "newegg_sku": "N82E16813162225",

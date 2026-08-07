@@ -12,10 +12,11 @@
   },
   "usb_headers": {
     "usb_2_0": 3,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 1,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -24,7 +25,8 @@
     "pump": 1
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -33,7 +35,7 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1,
+    "temperature_sensor": 0,
     "thunderbolt": 1,
     "com_port": 1
   },
@@ -50,12 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASUS PRIME B850-PLUS WIFI",
+    "name": "ASUS PRIME B850-PLUS WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": ["PRIME B850-PLUS WIFI", "90MB1L80-M0EAY0"],
     "series": "PRIME",
     "variant": "B850-PLUS WIFI",
-    "manufacturer_color": "Black/Silver",
+    "manufacturer_color": "Black / Silver",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2026-02-16T05:45:16.928Z"
   },
   "socket": "AM5",
@@ -117,12 +120,12 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0F6H6QQVM",
     "newegg_sku": "N82E16813119752",
     "walmart_sku": 16576221280,
-    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-b850-plus-wifi/techspec/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b850-plus-wifi/techspec/"
   }
 }

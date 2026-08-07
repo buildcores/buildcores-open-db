@@ -12,15 +12,15 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_1": 3,
     "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
+    "usb_3_2_gen_2x2": 0,
     "usb_4": 0,
     "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 4,
+    "case_fan": 3,
     "pump": 1,
     "cpu_opt": 0
   },
@@ -40,7 +40,7 @@
     "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
+    "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
@@ -52,10 +52,10 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock B650 Pro RS DDR5 ATX",
+    "name": "ASROCK B650M PRO RS AM5 DDR5 MICRO-ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["B650M Pro RS", "90-MXBLP0-A0UAYZ", "B650M-PRO RS", "B650M PRO RS"],
-    "variant": "B650 Pro RS",
+    "variant": "B650M PRO RS",
     "releaseYear": 2023,
     "manufacturer_color": "Black / Silver",
     "series": "Pro RS"
@@ -74,23 +74,13 @@
       "gen": "3.0",
       "quantity": 1,
       "lanes": 4
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
-    },
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "SATA3 & PCIe 3.0 x2"
     },
     {
       "size": "2260/2280",
@@ -98,15 +88,20 @@
       "interface": "PCIe 4.0 x4"
     },
     {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x2"
+    },
+    {
       "size": "2230",
       "key": "M",
-      "interface": "PCIe WiFi module"
+      "interface": "PCIe"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG"
+      "controller": "Dragon RTL8125BG"
     }
   ],
   "ecc_support": true,
@@ -116,20 +111,20 @@
     "2 x Antenna Mounting Points",
     "1 x HDMI Port",
     "1 x DisplayPort 1.4",
-    "1 x USB 3.2 Gen2 Type-A Port (10 Gb/s) (ReDriver)",
-    "1 x USB 3.2 Gen2 Type-C Port (10 Gb/s) (ReDriver)",
+    "1 x USB 3.2 Gen2 Type-A Port (10 Gb/s)",
+    "1 x USB 3.2 Gen2 Type-C Port (10 Gb/s)",
     "2 x USB 3.2 Gen1 Ports",
-    "6 x USB 2.0 Ports",
+    "4 x USB 2.0 Ports",
     "1 x RJ-45 LAN Port",
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": ["RGB"],
+  "lighting": ["RGB", "ARGB"],
   "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B0C6HWFVNS",
     "newegg_sku": "N82E16813162130",
     "walmart_sku": 1234096291,
-    "manufacturer_url": "https://www.asrock.com/mb/AMD/B650%20Pro%20RS/index.asp#Specification"
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/B650M%20Pro%20RS/index.asp"
   }
 }
