@@ -20,7 +20,7 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1
+    "pump": 2
   },
   "rgb_headers": {
     "rgb_12v": 1,
@@ -31,6 +31,9 @@
     "reset_button": true,
     "hdd_led": true,
     "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -62,11 +65,6 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 8
     },
     {
       "gen": "3.0",

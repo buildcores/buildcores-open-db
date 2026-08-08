@@ -11,16 +11,16 @@
     "u2": 0
   },
   "usb_headers": {
-    "usb_2_0": 4,
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_2_0": 2
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 1,
-    "pump": 1
+    "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -31,6 +31,9 @@
     "reset_button": true,
     "hdd_led": true,
     "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -62,11 +65,6 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4
     },
     {
       "gen": "3.0",
