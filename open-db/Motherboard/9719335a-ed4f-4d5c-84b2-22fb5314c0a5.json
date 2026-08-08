@@ -32,6 +32,9 @@
     "hdd_led": true,
     "reset_button": true
   },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
@@ -62,11 +65,6 @@
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 8
     },
     {
       "gen": "3.0",

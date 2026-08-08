@@ -20,7 +20,8 @@
   "fan_headers": {
     "case_fan": 2,
     "cpu_fan": 1,
-    "pump": 1
+    "pump": 0,
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "rgb_12v": 2,
@@ -95,7 +96,7 @@
       "controller": "Realtek RTL8125B"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
@@ -114,6 +115,7 @@
   "lighting": ["None"],
   "wireless_networking": "Wifi 6 Bluetooth 5.1",
   "general_product_information": {
+    "amazon_sku": "B0H8MDVKLL",
     "manufacturer_url": "https://www.asus.com/us/supportonly/tuf%20gaming%20b550m-zaku%20(wi-fi)/helpdesk_manual/"
   }
 }

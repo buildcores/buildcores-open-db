@@ -32,6 +32,9 @@
     "power_led": true,
     "reset_button": true
   },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
     "main_power": "24-pin"
@@ -64,14 +67,14 @@
       "lanes": 16
     },
     {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    },
+    {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1
     }
   ],
   "m2_slots": [
