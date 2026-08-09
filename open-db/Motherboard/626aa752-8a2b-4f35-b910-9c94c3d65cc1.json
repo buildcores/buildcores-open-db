@@ -41,7 +41,7 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
@@ -64,11 +64,6 @@
       "gen": "5.0",
       "quantity": 1,
       "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 1
     },
     {
       "gen": "4.0",
@@ -99,7 +94,7 @@
       "controller": "Realtek"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [

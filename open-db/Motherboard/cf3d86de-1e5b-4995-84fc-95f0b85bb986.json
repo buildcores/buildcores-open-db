@@ -11,11 +11,11 @@
     "u2": 0
   },
   "usb_headers": {
-    "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_2_0": 3,
+    "usb_3_2_gen_2": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -69,7 +69,7 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 8
+      "lanes": 4
     },
     {
       "gen": "3.0",
@@ -96,7 +96,7 @@
   ],
   "onboard_ethernet": [
     {
-      "speed": "1 Gb/s",
+      "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
