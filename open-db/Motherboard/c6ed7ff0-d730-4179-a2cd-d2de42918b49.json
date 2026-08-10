@@ -32,6 +32,9 @@
     "reset_button": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
     "cpu_power": ["8-pin"],
     "main_power": "24-pin"
@@ -87,7 +90,7 @@
       "controller": "Realtek RTL8111EPV"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
