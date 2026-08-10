@@ -15,12 +15,14 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 3,
-    "pump": 1
+    "pump": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -32,13 +34,18 @@
     "hdd_led": true,
     "reset_button": true
   },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC1220",
@@ -54,9 +61,9 @@
       "90-MXBQU-A0UAYZ"
     ],
     "variant": "B850 WiFi",
-    "manufacturer_color": "Black/Silver",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "series": "LiveMixer",
+    "manufacturer_color": "Black / Silver",
     "last_manually_spec_verified_at": "2026-04-01T22:01:45.662Z"
   },
   "socket": "AM5",
@@ -79,7 +86,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -90,6 +97,11 @@
       "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2230",
+      "key": "E",
+      "interface": "PCIe"
     }
   ],
   "onboard_ethernet": [
@@ -112,14 +124,15 @@
     "8 x USB 2.0 Ports",
     "1 x RJ-45 LAN Port",
     "1 x BIOS Flashback Button",
-    "2 x Audio Jacks (Line Out, Microphone Input"
+    "1 x Line Out Jack (Gold Audio Jack)",
+    "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "lighting": [],
+  "lighting": ["ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DRTV5QK8",
     "newegg_sku": "N82E16813162188",
     "walmart_sku": 15172860215,
-    "manufacturer_url": "https://www.asrock.com/mb/AMD/B850%20LiveMixer%20WiFi/index.asp#Manual"
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/B850%20LiveMixer%20WiFi/index.asp#Specification"
   }
 }

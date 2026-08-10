@@ -15,11 +15,14 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 2
+    "case_fan": 2,
+    "pump": 2,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 1,
@@ -31,6 +34,11 @@
     "reset_button": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
   "power_connectors": {
     "cpu_power": ["8-pin"],
     "main_power": "24-pin"
@@ -40,15 +48,16 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC887/897 Audio Codec",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock A520 A520M-ITX/ac AM4 DDR4 Mini ITX",
+    "name": "ASRock A520M-ITX/ac AM4 DDR4 Mini-ITX",
     "manufacturer": "ASRock",
     "part_numbers": ["A520M-ITX", "ac", "90-MXBDG0-A0UAYZ", "A520M-ITX/AC"],
-    "series": "A520",
-    "variant": "M-ITX/ac",
+    "variant": "A520M-ITX/ac",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-02-19T19:24:39.705Z"
   },
   "socket": "AM4",
@@ -59,23 +68,25 @@
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abc981594acde48fae63"
+      "lanes": 16
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abc981594acde48fae64"
+      "interface": "PCIe 3.0 x4 / SATA"
+    },
+    {
+      "size": "Vertical",
+      "key": "E",
+      "interface": "PCIe"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H",
-      "_id": "69b3abc981594acde48fae65"
+      "controller": "Realtek RTL8111H"
     }
   ],
   "ecc_support": true,
@@ -92,11 +103,11 @@
     "1 x RJ-45 LAN Port",
     "3 x HD Audio Jacks (Line in / Front Speaker / Microphone)"
   ],
-  "wireless_networking": "WiFi 5  Bluetooth 4.2",
-  "lighting": [],
+  "wireless_networking": "WiFi 5",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B08G1WLVR2",
     "newegg_sku": "9SIC3U3KR34589",
-    "manufacturer_url": "https://www.asrock.com/mb/AMD/A520M-ITXac/index.asp#Specification"
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/A520M-ITXac/index.asp"
   }
 }
