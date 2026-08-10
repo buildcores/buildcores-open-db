@@ -15,12 +15,14 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 2,
-    "pump": 0
+    "pump": 0,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 1,
@@ -33,7 +35,9 @@
     "power_led": true
   },
   "other_headers": {
-    "com_port": 1
+    "com_port": 1,
+    "thunderbolt": 0,
+    "temperature_sensor": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -48,12 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte A520M S2H (rev. 1.x)",
+    "name": "GIGABYTE ULTRA DURABLE A520M S2H AM4 DDR4 MICRO-ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["A520M S2H", "GA-A520M-S2H", "GAA52MS2H-00-G"],
     "variant": "A520M S2H",
     "manufacturer_color": "Black",
-    "series": "Ultra Durable"
+    "series": "Ultra Durable",
+    "releaseYear": 2020
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
@@ -75,7 +80,7 @@
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "SATA / PCIe 3.0 x4/x2"
+      "interface": "PCIe 3.0 x4/x2 & SATA"
     }
   ],
   "onboard_ethernet": [
@@ -98,7 +103,8 @@
     "1 x Q-Flash Plus button",
     "3 x audio jacks"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B08F7HPJ4F",
     "newegg_sku": "N82E16813145240",
