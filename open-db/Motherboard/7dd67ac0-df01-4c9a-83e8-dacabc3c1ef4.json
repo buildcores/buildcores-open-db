@@ -41,7 +41,7 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": ["8-pin", "8-pin"]
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "bios_features": {
     "flashback": true,
@@ -56,12 +56,13 @@
     "manufacturer": "ASUS",
     "part_numbers": [],
     "manufacturer_color": "Black/Silver",
-    "series": "PRIME"
+    "series": "PRIME",
+    "releaseYear": 2024
   },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "onboard_ethernet": [
     {
@@ -82,7 +83,42 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "general_product_information": {}
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x2"
+    }
+  ],
+  "wireless_networking": "None",
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-x870-p/"
+  }
 }

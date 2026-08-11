@@ -1,7 +1,7 @@
 {
   "opendb_id": "914f4b3f-c5fb-4a15-ad67-2eaef401971c",
   "memory": {
-    "max": 128,
+    "max": 192,
     "ram_type": "DDR4",
     "slots": 4
   },
@@ -27,6 +27,12 @@
     "argb_5v": 2,
     "rgb_12v": 2
   },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "hdd_led": true,
+    "power_led": true
+  },
   "other_headers": {
     "thunderbolt": 2
   },
@@ -48,7 +54,8 @@
     "part_numbers": ["Z690 GAMING X DDR4"],
     "series": "GAMING",
     "manufacturer_color": "Black/Grey",
-    "variant": "Z690 X"
+    "variant": "Z690 X",
+    "releaseYear": 2021
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -108,7 +115,8 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B09J5TC4F8",
     "newegg_sku": "N82E16813145347",

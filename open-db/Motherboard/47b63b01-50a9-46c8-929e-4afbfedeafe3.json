@@ -1,0 +1,106 @@
+{
+  "opendb_id": "47b63b01-50a9-46c8-929e-4afbfedeafe3",
+  "memory": {
+    "max": 192,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 2
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "ESS ES9280AC DAC + 2 ESS ES9080",
+    "channels": "7.1"
+  },
+  "metadata": {
+    "name": "Z690 AORUS XTREME WATERFORCE (Rev. 1.0)",
+    "manufacturer": "Gigabyte",
+    "series": "AORUS",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black",
+    "part_numbers": []
+  },
+  "socket": "LGA 1700",
+  "form_factor": "EATX",
+  "chipset": "Intel Z690",
+  "color": ["BLACK"],
+  "lighting": ["ARGB", "RGB"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
+  "back_panel_ports": [
+    "1 x Q-Flash Plus button",
+    "1 x OC Ignition button",
+    "1 x Clear CMOS button",
+    "2 x SMA antenna connectors",
+    "2 x Thunderbolt  4 connectors",
+    "10 x USB 3.2 Gen 2 Type-A ports",
+    "2 x RJ-45 ports",
+    "1 x optical S/PDIF Out connector",
+    "2 x audio jacks"
+  ],
+  "onboard_ethernet": [],
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/Z690-AORUS-XTREME-WATERFORCE-rev-10"
+  }
+}
