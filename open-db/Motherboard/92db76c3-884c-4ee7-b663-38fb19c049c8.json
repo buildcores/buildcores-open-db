@@ -15,11 +15,18 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 1
+    "case_fan": 1,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 0,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -27,24 +34,28 @@
     "hdd_led": true,
     "reset_button": true
   },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
   "power_connectors": {
     "cpu_power": ["8-pin"],
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": true,
+    "flashback": false,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek ALC897",
+    "chipset": "Realtek 887/897",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock H370 M-HDV LGA1151 DDR4 Micro ATX",
+    "name": "ASRock H370M-HDV LGA1151 DDR4 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["H370M-HDV", "90-MXBF40-A0UAYZ"],
-    "series": "H370",
-    "variant": "M-HDV",
+    "variant": "H370M-HDV",
     "releaseYear": 2018,
     "manufacturer_color": "Black"
   },
@@ -80,11 +91,12 @@
     "1 x DVI-D Port",
     "1 x HDMI Port",
     "4 x USB 2.0 Ports",
-    "2 x USB 3.2 Gen1 Ports ",
+    "2 x USB 3.2 Gen1 Ports",
     "1 x RJ-45 LAN Port with LED",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "amazon_sku": "B08TV9LWGL",
     "manufacturer_url": "https://www.asrock.com/mb/Intel/H370M-HDV/index.asp#Specification"

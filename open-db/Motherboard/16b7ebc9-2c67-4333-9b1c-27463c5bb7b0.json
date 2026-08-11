@@ -12,23 +12,32 @@
   },
   "usb_headers": {
     "usb_2_0": 1,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 2
+    "case_fan": 2,
+    "pump": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
-    "argb_5v": 2
+    "argb_5v": 2,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
     "power_led": true,
     "reset_button": true,
     "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -39,16 +48,17 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek ALC 897",
+    "chipset": "Realtek ALC897 Audio Codec",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock B760I Lightning WiFi DDR5 Mini ITX",
+    "name": "ASROCK PHANTOM GAMING B760I LIGHTNING WIFI LGA1700 DDR5 MINI-ITX",
     "manufacturer": "ASRock",
     "part_numbers": ["B760I Lightning WiFi", "90-MXBNN0-A0UAYZ", "B760ILIGHTNINGWIFI"],
-    "variant": "B760I Lightning WiFi",
+    "variant": "B760I LIGHTNING WIFI",
     "series": "Phantom Gaming",
     "manufacturer_color": "Black",
+    "releaseYear": 2024,
     "last_manually_spec_verified_at": "2026-02-19T20:16:34.831Z"
   },
   "socket": "LGA 1700",
@@ -72,12 +82,17 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2230",
+      "key": "E",
+      "interface": "PCIe"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG"
+      "controller": "Dragon RTL8125BG"
     }
   ],
   "ecc_support": false,
@@ -95,8 +110,8 @@
     "1 x Line Out Jack (Gold Audio Jack)",
     "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "wireless_networking": "Wifi 6E",
+  "lighting": ["None"],
   "general_product_information": {
     "amazon_sku": "B0D3RTLS97",
     "newegg_sku": "N82E16813162157",
