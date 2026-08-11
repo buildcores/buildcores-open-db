@@ -1,20 +1,32 @@
 {
-  "opendb_id": "1e478b9c-4803-4972-aa3b-745b8b7df246",
+  "opendb_id": "987b8b10-32a8-4f41-a931-4beb6c944cbf",
   "memory": {
-    "max": 128,
+    "max": 64,
     "ram_type": "DDR4",
-    "slots": 4
+    "slots": 2
   },
   "storage_devices": {
-    "sata_6_gb_s": 4
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 1
+    "case_fan": 2,
+    "pump": 0,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 0,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -22,12 +34,17 @@
     "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 1
+  },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin"]
   },
   "bios_features": {
-    "flashback": true,
+    "flashback": false,
     "clear_cmos": false
   },
   "audio": {
@@ -35,55 +52,40 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte A520M DS3H WIFI6E",
+    "name": "Gigabyte A520M S2HP",
     "manufacturer": "Gigabyte",
-    "releaseYear": 2023,
-    "manufacturer_color": "Black",
-    "part_numbers": [],
     "series": "Ultra Durable",
-    "variant": "A520M DS3H WIFI6E"
+    "variant": "A520M S2HP",
+    "part_numbers": [],
+    "manufacturer_color": "Black/Silver"
   },
   "socket": "AM4",
   "form_factor": "Micro ATX",
   "chipset": "AMD A520",
   "color": ["BLACK"],
-  "lighting": ["None"],
-  "pcie_slots": [
+  "onboard_ethernet": [
     {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1
+      "speed": "1 Gb/s",
+      "controller": ""
     }
   ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4"
-    }
-  ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "ecc_support": true,
-  "raid_support": false,
+  "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x PS/2 keyboard/mouse port",
+    "1 x D-Sub port",
     "1 x DisplayPort",
     "1 x HDMI port",
     "4 x USB 3.2 Gen 1 ports",
-    "4 x USB 2.0/1.1 ports",
+    "2 x USB 2.0/1.1 ports",
     "1 x RJ-45 port",
-    "2 x antenna connectors (1T1R)",
     "3 x audio jacks"
   ],
-  "onboard_ethernet": [],
+  "lighting": [],
+  "pcie_slots": [],
+  "m2_slots": [],
   "general_product_information": {
-    "amazon_sku": "B0GVZCM5S7",
-    "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/A520M-DS3H-WIFI6E"
+    "manufacturer_url": "https://www.gigabyte.com/Motherboard/A520M-S2HP/sp"
   }
 }

@@ -20,11 +20,12 @@
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "cpu_opt": 1,
-    "case_fan": 1
+    "case_fan": 4,
+    "cpu_opt": 0
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 1
   },
   "front_panel_headers": {
     "power_button": true,
@@ -40,7 +41,7 @@
     "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": true,
+    "flashback": false,
     "clear_cmos": false
   },
   "audio": {
@@ -94,7 +95,7 @@
       "controller": "Realtek Dragon RTL8125BG"
     }
   ],
-  "ecc_support": true,
+  "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
@@ -110,7 +111,6 @@
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
   "lighting": ["None"],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "general_product_information": {
     "amazon_sku": "B0D2CZGTSY",
     "manufacturer_url": "https://www.asrock.com/mb/Intel/B760M%20Pro-AD4/index.asp#Overview"
