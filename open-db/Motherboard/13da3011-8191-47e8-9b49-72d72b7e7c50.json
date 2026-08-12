@@ -6,12 +6,17 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 2
+    "sata_6_gb_s": 2,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 1
+    "usb_3_2_gen_2x2": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -20,7 +25,8 @@
     "case_fan": 4
   },
   "rgb_headers": {
-    "argb_5v": 3
+    "argb_5v": 3,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -29,7 +35,9 @@
     "reset_button": true
   },
   "other_headers": {
-    "thunderbolt": 1
+    "thunderbolt": 1,
+    "temperature_sensor": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -44,16 +52,16 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASUS ROG STRIX B850-A GAMING WIFI7 NEO",
+    "name": "ASUS ROG STRIX B850-A GAMING WIFI7 NEO AM5 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": ["rog-strix-b850-a-gaming-wifi7-neo"],
-    "variant": "STRIX B850-A GAMING WIFI7 NEO",
+    "variant": "B850-A GAMING WIFI7 NEO",
     "releaseYear": 2026,
     "manufacturer_color": "White",
-    "series": "ROG",
+    "series": "ROG STRIX",
     "last_manually_spec_verified_at": "2026-04-27T14:45:31.000Z"
   },
-  "color": ["WHITE", "GREY", "RGB"],
+  "color": ["WHITE", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -89,7 +97,7 @@
   "chipset": "AMD B850",
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
@@ -109,12 +117,12 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "lighting": [],
+  "lighting": ["ARGB"],
   "general_product_information": {
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi7-neo/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi7-neo/spec/"
   }
 }
