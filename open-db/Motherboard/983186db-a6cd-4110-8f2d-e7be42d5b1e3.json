@@ -6,7 +6,7 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -15,21 +15,44 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "power_led": true,
+    "reset_button": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "cpu_power": ["8-pin", "8-pin"],
+    "main_power": "24-pin"
   },
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus ROG STRIX X670E-E GAMING WIFI DDR5 ATX",
+    "name": "ASUS ROG STRIX X670E-E GAMING WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [
       "ROG STRIX X670E-E GAMING WIFI",
@@ -37,8 +60,10 @@
       "90MB1BR0-M0AAY0",
       "90MB1BR0-M0EAY0"
     ],
-    "series": "ROG",
-    "variant": ""
+    "series": "ROG STRIX",
+    "variant": "X670E-E GAMING WIFI",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
   },
   "socket": "AM5",
   "form_factor": "ATX",
@@ -46,77 +71,65 @@
   "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
+      "gen": "5.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
       "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac2afe073ff824ef9c5b"
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c5c"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c5d"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c5e"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c5f"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c60"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c61"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c62"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac2afe073ff824ef9c63"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3ac2afe073ff824ef9c64"
+      "controller": "Intel"
     }
   ],
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel)"],
-  "lighting": [],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port (1 x Type-C®)",
+    "12 x USB 3.2 Gen 2 ports (10 x Type-A, 2 x USB Type-C®)",
+    "1 x DisplayPort",
+    "1 x HDMI® port",
+    "1 x Wi-Fi Module",
+    "1 x Intel® 2.5Gb Ethernet port",
+    "5 x Gold-plated audio jacks*",
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack™  button",
+    "1 x Clear CMOS button"
+  ],
+  "lighting": ["RGB", "ARGB", "Display"],
+  "wireless_networking": "Wifi 6E",
   "general_product_information": {
     "amazon_sku": "B0BDTHQTJV",
     "newegg_sku": "N82E16813119581",
-    "walmart_sku": 1236364323
+    "walmart_sku": 1236364323,
+    "manufacturer_url": "https://rog.asus.com/ph/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/"
   }
 }
