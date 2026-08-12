@@ -12,15 +12,15 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_3_2_gen_1": 2
   },
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "case_fan": 3
+    "case_fan": 3,
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "argb_5v": 2,
@@ -33,7 +33,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "thunderbolt": 2
+    "thunderbolt": 2,
+    "temperature_sensor": 1,
+    "com_port": 1
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
@@ -73,13 +75,8 @@
     },
     {
       "gen": "3.0",
-      "quantity": 1,
+      "quantity": 4,
       "lanes": 1
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 3
     }
   ],
   "m2_slots": [
@@ -121,7 +118,7 @@
     "3 x audio jacks"
   ],
   "lighting": ["None"],
-  "wireless_networking": "Wifi 6 Bluetooth 5.2",
+  "wireless_networking": "Intel Wireless-AC 9560 (802.11ac) + Bluetooth 5.1",
   "general_product_information": {
     "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/Z690-UD-AC-rev-10"
   }
