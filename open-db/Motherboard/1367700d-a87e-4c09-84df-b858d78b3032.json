@@ -15,18 +15,29 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 1,
-    "pump": 1
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 0,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
     "reset_button": true,
     "hdd_led": true,
     "power_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -41,11 +52,12 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "ASRock H370M-HDV/M.2",
+    "name": "ASROCK H370M-HDV/M.2 LGA1151 DDR4 MICRO-ATX",
     "manufacturer": "ASRock",
     "variant": "H370M-HDV/M.2",
     "manufacturer_color": "Black",
-    "part_numbers": ["H370M-HDV/M.2"]
+    "part_numbers": ["H370M-HDV/M.2"],
+    "releaseYear": 2018
   },
   "socket": "LGA 1151",
   "form_factor": "Micro ATX",
@@ -66,7 +78,7 @@
     {
       "size": "2260/2280",
       "key": "M",
-      "interface": "SATA / PCIe 3.0 x4"
+      "interface": "PCIe Gen3x4 & SATA3"
     }
   ],
   "back_panel_ports": [
@@ -89,7 +101,8 @@
   "raid_support": true,
   "ecc_support": false,
   "back_connect_connectors": false,
-  "lighting": [],
+  "lighting": ["None"],
+  "wireless_networking": "None",
   "general_product_information": {
     "manufacturer_url": "https://www.asrock.com/MB/Intel/H370M-HDVM.2/index.asp#Specification"
   }
