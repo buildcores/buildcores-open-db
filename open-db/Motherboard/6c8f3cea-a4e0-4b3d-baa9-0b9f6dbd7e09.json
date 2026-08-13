@@ -6,17 +6,23 @@
     "ram_type": "DDR5"
   },
   "storage_devices": {
-    "sata_6_gb_s": 4
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 1
+    "usb_3_2_gen_2x2": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_4_80g": 0,
+    "usb_4": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 4,
-    "pump": 3
+    "pump": 2,
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -29,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 2
+    "temperature_sensor": 2,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -44,12 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte X870E AORUS PRO X3D",
+    "name": "GIGABYTE X870E AORUS PRO X3D AM5 DDR5 ATX",
     "part_numbers": ["X870E AORUS PRO X3D"],
     "manufacturer": "Gigabyte",
     "variant": "X870E PRO X3D",
     "series": "AORUS",
-    "manufacturer_color": "Black/Grey",
+    "manufacturer_color": "Black",
+    "releaseYear": 2025,
     "last_manually_spec_verified_at": "2025-12-16T13:15:43.757Z"
   },
   "color": ["BLACK"],
@@ -92,7 +101,12 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "back_panel_ports": [
     "1 x HDMI port",
     "1 x reset button",
@@ -110,10 +124,12 @@
   ],
   "socket": "AM5",
   "chipset": "AMD X870E",
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wifi 7",
   "raid_support": true,
   "form_factor": "ATX",
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
+  "ecc_support": false,
+  "back_connect_connectors": false,
   "general_product_information": {
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-X3D/sp"
   }
