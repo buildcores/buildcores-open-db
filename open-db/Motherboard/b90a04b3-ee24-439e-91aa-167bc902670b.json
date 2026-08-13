@@ -12,7 +12,7 @@
   },
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0,
@@ -21,8 +21,8 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 0
+    "pump": 0,
+    "cpu_opt": 1
   },
   "rgb_headers": {
     "argb_5v": 2,
@@ -52,7 +52,7 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte B550 AORUS ELITE V2 AM4 DDR4 ATX",
+    "name": "GIGABYTE B550 AORUS ELITE V2 AM4 DDR4 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["B550 AORUS ELITE V2", "GMB55AEL2-00-G", "GA-B550-AORUS-ELITE-V2", "B550"],
     "series": "AORUS",
@@ -85,12 +85,12 @@
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2 / SATA"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 3.0 x4"
+      "interface": "PCIe 3.0 x4/x2 / SATA"
     }
   ],
   "onboard_ethernet": [
@@ -113,7 +113,7 @@
     "1 x optical S/PDIF Out connector",
     "5 x audio jacks"
   ],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB"],
   "wireless_networking": "Wifi 6E",
   "general_product_information": {
     "amazon_sku": "B08JHDL4WP",

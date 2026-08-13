@@ -6,16 +6,23 @@
     "slots": 4
   },
   "storage_devices": {
-    "sata_6_gb_s": 4
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
   },
   "usb_headers": {
     "usb_2_0": 1,
-    "usb_3_2_gen_1": 2
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4_80g": 0,
+    "usb_4": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "case_fan": 3
+    "case_fan": 3,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -28,7 +35,9 @@
     "reset_button": true
   },
   "other_headers": {
-    "com_port": 1
+    "com_port": 1,
+    "temperature_sensor": 0,
+    "thunderbolt": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -43,11 +52,11 @@
     "channels": "5.1"
   },
   "metadata": {
-    "name": "Sapphire Nitro+ B850M Wi-Fi",
+    "name": "SAPPHIRE B850 NITRO+ B850M WIFI AM5 DDR5 Micro-ATX",
     "manufacturer": "Sapphire",
     "part_numbers": ["NITRO+ B850M WIFI", "52123-01-40G"],
-    "series": "B850M",
-    "variant": "Sapphire Nitro+ Wi-Fi",
+    "series": "NITRO+",
+    "variant": "B850M WIFI",
     "releaseYear": 2025,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-04-27T14:43:35.000Z"
@@ -99,9 +108,9 @@
   "chipset": "AMD B850",
   "wireless_networking": "Wi-Fi 6 Bluetooth 5.3",
   "back_connect_connectors": false,
-  "raid_support": true,
+  "raid_support": false,
   "ecc_support": false,
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "newegg_sku": "2MG-000N-00012",
     "manufacturer_url": "https://www.sapphiretech.com/en/consumer/mb_nitro_b850m-wifi"
