@@ -11,19 +11,22 @@
     "u2": 0
   },
   "usb_headers": {
-    "usb_2_0": 1,
-    "usb_3_2_gen_1": null,
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "pump": 1,
-    "case_fan": 1
+    "case_fan": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
-    "argb_5v": 2
+    "argb_5v": 2,
+    "rgb_12v": 0
   },
   "front_panel_headers": {
     "power_button": true,
@@ -32,7 +35,9 @@
     "hdd_led": true
   },
   "other_headers": {
-    "temperature_sensor": 1
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin"],
@@ -40,19 +45,20 @@
   },
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
-    "chipset": "ROG Strix Hive II",
+    "chipset": "ESS SABRE9260Q DAC",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus ROG STRIX Z890-I GAMING WIFI DDR5 Mini ITX",
+    "name": "ASUS ROG STRIX Z890-I GAMING WIFI LGA1851 DDR5 Mini-ITX",
     "manufacturer": "ASUS",
     "part_numbers": ["ROG STRIX Z890-I GAMING WIFI", "90MB1IC0-M0EAY0", "90MB1IC0-M0EAY1"],
     "series": "ROG STRIX",
     "variant": "Z890-I GAMING WIFI",
     "manufacturer_color": "Black",
+    "releaseYear": 2024,
     "last_manually_spec_verified_at": "2025-11-28T18:30:37.992Z"
   },
   "socket": "LGA 1851",
@@ -84,7 +90,7 @@
       "controller": "Intel"
     }
   ],
-  "ecc_support": true,
+  "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
@@ -98,12 +104,12 @@
     "1 x Intel 2.5Gb Ethernet port",
     "1 x BIOS FlashBack button"
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 7",
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B0DGWTXD4L",
     "newegg_sku": "N82E16813119694",
     "walmart_sku": 14147356660,
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-z890-i-gaming-wifi/spec/"
+    "manufacturer_url": "https://rog.asus.com/ph/motherboards/rog-strix/rog-strix-z890-i-gaming-wifi/spec/"
   }
 }
