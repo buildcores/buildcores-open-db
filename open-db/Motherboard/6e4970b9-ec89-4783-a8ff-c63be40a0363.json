@@ -15,7 +15,8 @@
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "case_fan": 3,
@@ -27,8 +28,16 @@
     "argb_5v": 2,
     "rgb_12v": 2
   },
+  "front_panel_headers": {
+    "reset_button": true,
+    "power_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "other_headers": {
-    "thunderbolt": 2
+    "thunderbolt": 2,
+    "temperature_sensor": 0,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "4-pin"],
@@ -43,11 +52,13 @@
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Gigabyte Z690 AORUS ELITE AX DDR4 ATX",
+    "name": "GIGABYTE Z690 AORUS ELITE AX LGA1700 DDR4 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690 AORUS ELITE AX DDR4", "GA-Z690A-ELITE-AX DDR4", "Z690 A ELITE AX DDR4"],
     "variant": "Z690 ELITE AX",
-    "series": "AORUS"
+    "series": "AORUS",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black / Silver"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
@@ -74,7 +85,7 @@
     {
       "size": "2260/2280/22110",
       "key": "M",
-      "interface": "SATA / PCIe 4.0 x4/x2"
+      "interface": "SATA and PCIe 4.0 x4/x2"
     },
     {
       "size": "2260/2280/22110",
@@ -90,18 +101,18 @@
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Realtek 2.5GbE LAN chip"
+      "controller": "Realtek"
     }
   ],
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
-    "2 x SMA antenna connectors",
-    "1 x USB Type-C port, with USB 3.2 Gen 2x2 support",
-    "2 x USB 3.2 Gen 2 Type-A ports",
+    "1 x USB Type-C® port, with USB 3.2 Gen 2x2 support",
+    "2 x USB 3.2 Gen 2 Type-A ports (red)",
     "3 x USB 3.2 Gen 1 ports",
     "4 x USB 2.0/1.1 ports",
+    "2 x SMA antenna connectors (2T2R)",
     "1 x HDMI port",
     "1 x DisplayPort",
     "1 x RJ-45 port",
@@ -109,7 +120,7 @@
     "2 x audio jacks"
   ],
   "wireless_networking": "Wi-Fi 6",
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B09J6BWK2Z",
     "newegg_sku": "9SIBMM4K6D7511",

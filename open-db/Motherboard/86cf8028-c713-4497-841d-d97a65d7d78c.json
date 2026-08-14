@@ -15,16 +15,18 @@
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "cpu_opt": 1,
-    "pump": 1,
-    "case_fan": 2
+    "pump": 2,
+    "case_fan": 4
   },
   "rgb_headers": {
-    "argb_5v": 4
+    "argb_5v": 3,
+    "rgb_12v": 1
   },
   "front_panel_headers": {
     "power_button": true,
@@ -34,7 +36,8 @@
   },
   "other_headers": {
     "temperature_sensor": 1,
-    "thunderbolt": 1
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
     "cpu_power": ["8-pin", "8-pin"],
@@ -45,69 +48,69 @@
     "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
   "metadata": {
-    "name": "Asus Z790 ROG MAXIMUS APEX ENCORE LGA1700 DDR5 ATX",
+    "name": "ASUS Z790 ROG MAXIMUS APEX ENCORE LGA1700 DDR5 ATX",
     "manufacturer": "ASUS",
     "part_numbers": ["ROG MAXIMUS Z790 APEX ENCORE", "90MB1FX0-M0AAY0", "90MB1FX0-M0EAY0"],
-    "series": "Z790",
-    "variant": "MAXIMUS Z790 APEX ENCORE",
+    "series": "ROG MAXIMUS",
+    "variant": "Z790 APEX ENCORE",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-09-25T15:40:56.991Z"
   },
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel Z790",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "pcie_slots": [
     {
       "gen": "5.0",
       "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac127d50ea7030492309"
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "69b3ac127d50ea703049230a"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "69b3ac127d50ea703049230b"
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4 & SATA"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac127d50ea703049230c"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac127d50ea703049230d"
-    },
-    {
-      "size": "2242/2260/2280 ",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac127d50ea703049230e"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3ac127d50ea703049230f"
+      "controller": "Intel"
     }
   ],
-  "ecc_support": true,
+  "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "back_panel_ports": [
@@ -118,16 +121,16 @@
     "1 x Intel® 2.5Gb Ethernet port",
     "5 x Gold-plated audio jacks",
     "1 x Optical S/PDIF out port",
-    "1 x BIOS FlashBack™  button ",
-    "1 x Clear CMOS button ",
+    "1 x BIOS FlashBack™  button",
+    "1 x Clear CMOS button",
     "1 x PS/2 Keyboard (purple) port",
     "1 x PS/2 Mouse (green) port"
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "lighting": [],
+  "wireless_networking": "Wi-Fi 7",
+  "lighting": ["RGB", "ARGB"],
   "general_product_information": {
     "amazon_sku": "B0CJMQV8LR",
     "walmart_sku": 5202211752,
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-apex-encore/helpdesk_manual/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-apex-encore/spec/"
   }
 }

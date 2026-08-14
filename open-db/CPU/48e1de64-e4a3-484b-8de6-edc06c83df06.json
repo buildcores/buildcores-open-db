@@ -17,7 +17,7 @@
     }
   },
   "cache": {
-    "l2": 1,
+    "l2": 16,
     "l3": 64,
     "l1": "64KB (per core)"
   },
@@ -25,7 +25,8 @@
     "integratedGraphics": {
       "model": "AMD Radeon Graphics",
       "baseClock": 400,
-      "boostClock": 2200
+      "boostClock": 2200,
+      "shaderCount": 128
     },
     "memory": {
       "types": ["DDR5"],
