@@ -116,6 +116,79 @@
         }
       },
       "required": ["name"]
+    },
+    "identifiers": {
+      "type": "object",
+      "description": "Current versioned product identity snapshot used for retailer and pricing matching",
+      "required": ["version", "identifiers", "retailer_listings"],
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Monotonically increasing identity snapshot version"
+        },
+        "identifiers": {
+          "type": "array",
+          "description": "Canonical product identifiers",
+          "items": {
+            "type": "object",
+            "required": ["type", "value", "region"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["upc", "ean", "gtin", "mpn"]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "region": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "retailer_listings": {
+          "type": "array",
+          "description": "Canonical retailer product listings used for pricing",
+          "items": {
+            "type": "object",
+            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
+            "additionalProperties": false,
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pricing_enabled": {
+                "type": "boolean"
+              },
+              "excluded_source_offer_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 512
+                }
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
