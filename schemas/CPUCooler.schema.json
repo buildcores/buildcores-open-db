@@ -171,6 +171,10 @@
           "type": ["string", "null"],
           "description": "HYTE product SKU"
         },
+        "lttstore_sku": {
+          "type": ["string", "null"],
+          "description": "LTTStore product SKU"
+        },
         "manufacturer_url": {
           "type": ["string", "null"],
           "description": "Official manufacturer product URL"
@@ -218,6 +222,81 @@
         }
       },
       "required": ["name"]
+    },
+    "identifiers": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Monotonically increasing identity snapshot version"
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["upc", "ean", "gtin", "mpn"]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "region": {
+                "default": "all",
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": ["type", "value", "region"],
+            "additionalProperties": false
+          },
+          "description": "Canonical product identifiers"
+        },
+        "retailer_listings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pricing_enabled": {
+                "type": "boolean"
+              },
+              "excluded_source_offer_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 512
+                }
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            },
+            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
+            "additionalProperties": false
+          },
+          "description": "Canonical retailer product listings used for pricing"
+        }
+      },
+      "required": ["version", "identifiers", "retailer_listings"],
+      "additionalProperties": false,
+      "description": "Current versioned product identity snapshot used for retailer and pricing matching"
     }
   }
 }
