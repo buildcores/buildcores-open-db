@@ -173,6 +173,10 @@
           "type": ["string", "null"],
           "description": "HYTE product SKU"
         },
+        "lttstore_sku": {
+          "type": ["string", "null"],
+          "description": "LTTStore product SKU"
+        },
         "manufacturer_url": {
           "type": ["string", "null"],
           "description": "Official manufacturer product URL"
@@ -219,22 +223,17 @@
     },
     "identifiers": {
       "type": "object",
-      "description": "Current versioned product identity snapshot used for retailer and pricing matching",
-      "required": ["version", "identifiers", "retailer_listings"],
-      "additionalProperties": false,
       "properties": {
         "version": {
           "type": "integer",
-          "minimum": 1,
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
           "description": "Monotonically increasing identity snapshot version"
         },
         "identifiers": {
           "type": "array",
-          "description": "Canonical product identifiers",
           "items": {
             "type": "object",
-            "required": ["type", "value", "region"],
-            "additionalProperties": false,
             "properties": {
               "type": {
                 "type": "string",
@@ -245,19 +244,20 @@
                 "minLength": 1
               },
               "region": {
+                "default": "all",
                 "type": "string",
                 "minLength": 1
               }
-            }
-          }
+            },
+            "required": ["type", "value", "region"],
+            "additionalProperties": false
+          },
+          "description": "Canonical product identifiers"
         },
         "retailer_listings": {
           "type": "array",
-          "description": "Canonical retailer product listings used for pricing",
           "items": {
             "type": "object",
-            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
-            "additionalProperties": false,
             "properties": {
               "source": {
                 "type": "string",
@@ -285,10 +285,16 @@
               "verified": {
                 "type": "boolean"
               }
-            }
-          }
+            },
+            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
+            "additionalProperties": false
+          },
+          "description": "Canonical retailer product listings used for pricing"
         }
-      }
+      },
+      "required": ["version", "identifiers", "retailer_listings"],
+      "additionalProperties": false,
+      "description": "Current versioned product identity snapshot used for retailer and pricing matching"
     }
   }
 }
