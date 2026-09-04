@@ -62,6 +62,8 @@ Each component follows a standard JSON structure defined by its corresponding sc
 - Integrated graphics (if applicable)
 - Retailer SKUs
 
+For details about stable record IDs, versioned product identifiers, and the meaning of `type` in schemas and Storage records, see [OpenDB data model notes](docs/DATA_MODEL.md).
+
 ### Product Variants
 
 Many products come in multiple variants (e.g., different colors, speeds, or editions). These are grouped together using the `metadata` fields:
