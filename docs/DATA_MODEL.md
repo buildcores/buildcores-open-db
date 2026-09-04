@@ -53,3 +53,5 @@ The old top-level Storage product field `type` is deprecated and is no longer em
 ## Schema maintenance
 
 The repeated identity definition in every category schema is generated from the canonical BuildCores data model. Maintainers should regenerate and synchronize the schemas from BuildCoresBase instead of editing each generated schema by hand.
+
+The BuildCores exporter also treats each canonical category specification schema as a field allowlist. It recursively copies only declared `v2Fields` properties, including properties inside object arrays, before adding OpenDB-specific fields such as `opendb_id` and `identifiers`. Persisted database-only or removed fields are therefore omitted from the next generated seed without category-specific cleanup rules.
