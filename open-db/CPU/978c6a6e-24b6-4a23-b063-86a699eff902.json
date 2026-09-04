@@ -1,10 +1,14 @@
 {
   "opendb_id": "978c6a6e-24b6-4a23-b063-86a699eff902",
+  "series": "Core i7 9000",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
   "cores": {
     "total": 8,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)",
     "l2": 2,
-    "l3": 12,
-    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
+    "l3": 12
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i7 9700KF",
@@ -49,14 +53,188 @@
     "variant": "9700KF",
     "releaseYear": 2019
   },
-  "series": "Core i7 9000",
-  "microarchitecture": "Coffee Lake Refresh",
-  "coreFamily": "Coffee Lake Refresh",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B07MJXYX62",
-    "newegg_sku": "N82E16819118085",
-    "walmart_sku": 601258379,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/190885/intel-core-i79700kf-processor-12m-cache-up-to-4-90-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858407762",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5032037141642",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80684I79700KF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858407762",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07MJXYX62",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1870100",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1870100",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819118085",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819118085",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00006885361",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1870100",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "601258379",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

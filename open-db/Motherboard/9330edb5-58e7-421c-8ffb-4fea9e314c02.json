@@ -1,70 +1,15 @@
 {
   "opendb_id": "9330edb5-58e7-421c-8ffb-4fea9e314c02",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B650",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 10,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 2,
-    "cpu_opt": 0,
-    "pump": 0
-  },
-  "rgb_headers": {
-    "argb_5v": 2,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "Gigabyte B650M GAMING PLUS WIFI DDR5 Micro ATX",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["B650M GAMING PLUS WF", "B650M GAMING PLUS WIFI"],
-    "series": "GAMING",
-    "variant": "B650M PLUS WIFI",
-    "releaseYear": 2024,
-    "manufacturer_color": "Black / Silver",
-    "last_manually_spec_verified_at": "2025-11-13T22:02:35.153Z"
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B650",
   "color": ["GREY", "BLACK"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -89,15 +34,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 6E",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 10,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 0,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x PS/2 keyboard/mouse port",
     "1 x USB Type-C® port, with USB 3.2 Gen 1 support",
@@ -109,11 +101,289 @@
     "1 x RJ-45 port",
     "3 x audio jacks"
   ],
-  "wireless_networking": "Wi-Fi 6E",
-  "lighting": ["None"],
+  "metadata": {
+    "name": "Gigabyte B650M GAMING PLUS WIFI DDR5 Micro ATX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["B650M GAMING PLUS WF", "B650M GAMING PLUS WIFI"],
+    "series": "GAMING",
+    "variant": "B650M PLUS WIFI",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black / Silver",
+    "last_manually_spec_verified_at": "2025-11-13T22:02:35.153Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0D2V4VH2C",
-    "newegg_sku": "N82E16813145502",
     "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/B650M-GAMING-PLUS-WIFI-rev-10-11-12/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523042793",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650M GAMING PLUS WF",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650M GAMING PLUS WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523042793",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100111408",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100111408",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100111408",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100111408",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0D2V4VH2C",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306981507454",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBGB-678",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3326831",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8QV",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3326831",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "201687",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC77811",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145502",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145502",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3335794",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3335794",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3335794",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3335794",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "415967",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202501160109",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3326831",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

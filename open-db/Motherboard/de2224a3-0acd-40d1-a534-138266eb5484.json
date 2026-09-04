@@ -1,65 +1,15 @@
 {
   "opendb_id": "de2224a3-0acd-40d1-a534-138266eb5484",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B550",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "case_fan": 3
-  },
-  "rgb_headers": {
-    "argb_5v": 2,
-    "rgb_12v": 2
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC897",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "MSI B550M PRO-VDH",
-    "manufacturer": "MSI",
-    "part_numbers": ["B550M PRO-VDH", "7C95-017R", "911-7C95-017"],
-    "variant": "B550M PRO-VDH",
-    "series": "PRO",
-    "manufacturer_color": "Black",
-    "last_manually_spec_verified_at": "2026-02-20T14:01:38.632Z"
-  },
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B550",
   "color": ["BLACK"],
+  "lighting": [],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -84,15 +34,57 @@
       "interface": "PCIe 3.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Realtek 8111HN"
     }
   ],
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x PS/2 keyboard/mouse combo port",
     "2 x USB 2.0 Type-A ports",
@@ -104,11 +96,373 @@
     "3 x Audio jacks",
     "1 x Flash BIOS Button"
   ],
-  "lighting": [],
+  "metadata": {
+    "name": "MSI B550M PRO-VDH",
+    "manufacturer": "MSI",
+    "part_numbers": ["B550M PRO-VDH", "7C95-017R", "911-7C95-017"],
+    "series": "PRO",
+    "variant": "B550M PRO-VDH",
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-02-20T14:01:38.632Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0CXNK17WT",
-    "newegg_sku": "N82E16813144752",
-    "walmart_sku": 2929795924,
     "manufacturer_url": "https://www.msi.com/Motherboard/B550M-PRO-VDH"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142227213",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4526541050916",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4719072758417",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7C95-017R",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "911-7C95-017",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B550M PRO-VDH",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142227213",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1683527",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1683527",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1683527",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1683527",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CXNK17WT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306553098622",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "B550M PRO-VDH",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBMC-440",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "911-7C95-017",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD2965",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2354423",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2303-9CM",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2354423",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "911-7C95-017",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "B550M PRO-VDH",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "1471",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "1471",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02MS49",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813144752",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144752",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-MSI-03376",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21863136",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21863136",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "2891341",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "2891341",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "2891341",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "2891341",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "264801",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202012040119",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2354423",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2929795924",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

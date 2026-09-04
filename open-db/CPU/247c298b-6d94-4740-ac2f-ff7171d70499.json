@@ -1,15 +1,19 @@
 {
   "opendb_id": "247c298b-6d94-4740-ac2f-ff7171d70499",
+  "series": "Ryzen Threadripper PRO 7000",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Storm Peak",
+  "socket": "sTR5",
   "cores": {
     "total": 64,
-    "threads": 128,
     "performance": 0,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 128
   },
   "clocks": {
     "performance": {
-      "boost": 5.1,
-      "base": 3.2
+      "base": 3.2,
+      "boost": 5.1
     },
     "efficiency": {
       "base": 0,
@@ -22,24 +26,24 @@
     "l3": 256
   },
   "specifications": {
+    "tdp": 350,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "types": ["DDR5"],
-      "maxSupport": 2,
-      "channels": 8
-    },
     "eccSupport": true,
     "includesCooler": false,
-    "simultaneousMultithreading": true,
-    "tdp": 350,
-    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
     "packaging": "Boxed",
-    "ppt": 0
+    "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 2,
+      "types": ["DDR5"],
+      "channels": 8
+    }
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper PRO 7985WX",
@@ -49,15 +53,183 @@
     "variant": "7985WX",
     "releaseYear": 2023
   },
-  "series": "Ryzen Threadripper PRO 7000",
-  "socket": "sTR5",
-  "microarchitecture": "Zen 4",
-  "coreFamily": "Storm Peak",
   "general_product_information": {
-    "amazon_sku": "B0CK3BSWQY",
-    "newegg_sku": "N82E16819113809",
-    "bestbuy_sku": 12215037,
-    "walmart_sku": 17365912205,
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper-pro/amd-ryzen-threadripper-pro-7000-wx-series/amd-ryzen-threadripper-pro-7985wx.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "00730143315067",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-100000454WOF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143315067",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CK3BSWQY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12215037",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMRTRP7985WX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CPU0886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC71106",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113809",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113809",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17365912205",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

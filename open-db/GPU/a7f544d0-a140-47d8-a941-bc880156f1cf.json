@@ -1,8 +1,26 @@
 {
   "opendb_id": "a7f544d0-a140-47d8-a941-bc880156f1cf",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5060",
+  "core_count": 3840,
+  "core_base_clock": 2280,
+  "core_boost_clock": 2280,
+  "memory": 8,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 28000,
+  "memory_bus": 128,
+  "tdp": 145,
+  "interface": "PCIe x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "length": 329,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -18,27 +36,39 @@
   "metadata": {
     "name": "Gigabyte AORUS ELITE GeForce RTX 5060 8GB GDDR7 Black",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["GV-N5060AORUS E-8GD"],
-    "series": "GeForce RTX 5060",
-    "variant": "Gigabyte"
+    "part_numbers": [],
+    "series": "AORUS",
+    "variant": "Elite",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5060",
-  "memory": 8,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2280,
-  "core_boost_clock": 2280,
-  "effective_memory_clock": 28000,
-  "memory_bus": 128,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 329,
-  "tdp": 145,
-  "total_slot_width": 2,
-  "cooling": "3 Fans",
-  "core_count": 3840,
-  "lighting": [],
   "general_product_information": {
-    "newegg_sku": "N82E16814932798"
+    "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N5060AORUS-E-8GD"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GV-N5060AORUS E-8GD",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814932798",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814932798",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

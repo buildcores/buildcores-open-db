@@ -1,21 +1,11 @@
 {
   "opendb_id": "1ebe9a49-611c-4b53-9962-5b7be5046dbf",
-  "dimensions_mm": {
-    "depth": 454,
-    "width": 228,
-    "height": 588
-  },
-  "metadata": {
-    "name": "Phanteks EVOLV X2 ATX Mid Tower Black / Gold",
-    "manufacturer": "Phanteks",
-    "part_numbers": ["PH-ES524XTG_DGD01", "PH-ES524XTG_DBK01"],
-    "series": "EVOLV",
-    "variant": ""
-  },
-  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX", "EATX", "ATX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX", "EATX", "ATX"],
   "color": ["BLACK", "GOLD"],
+  "lighting": ["RGB"],
   "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
@@ -23,21 +13,328 @@
   "front_usb_ports": ["1x USB-C 3.2 Gen2x2"],
   "max_video_card_length": 380,
   "max_cpu_cooler_height": 170,
+  "max_psu_length": 250,
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 3,
-  "expansion_slots": 8,
-  "dimensions": "454 x 228 x 588",
-  "volume": 60.865,
-  "lighting": ["RGB"],
-  "power_supply_included": false,
-  "supports_rear_connecting_motherboard": true,
-  "max_psu_length": 250,
-  "weight": 31.3,
   "power_supply_shroud": false,
+  "expansion_slots": 8,
+  "supports_rear_connecting_motherboard": true,
+  "dimensions": "454 x 228 x 588",
+  "dimensions_mm": {
+    "depth": 454,
+    "width": 228,
+    "height": 588
+  },
+  "volume": 60.865,
+  "weight": 31.3,
+  "metadata": {
+    "name": "Phanteks EVOLV X2 ATX Mid Tower Black / Gold",
+    "manufacturer": "Phanteks",
+    "part_numbers": ["PH-ES524XTG_DGD01", "PH-ES524XTG_DBK01"],
+    "series": "EVOLV",
+    "variant": ""
+  },
   "general_product_information": {
-    "amazon_sku": "B086YNWFQ8",
-    "newegg_sku": "N82E16811854141",
-    "walmart_sku": 15180610256,
     "manufacturer_url": "https://phanteks.com/product/evolv-x2-black/#Specifications"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0886523303688",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PH-ES524XTG_DBK01",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PH-ES524XTG_DGD01",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "886523303688",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B086YNWFQ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55425046282622",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "PH-ES524XTG_DBK01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GEPH-194",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "PH-ES524XTGDBK01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CAS5433",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3414593",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "PH-ES524XTG_DBK01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3414593",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "PH-ES524XTGDBK01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "207628",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "PH-ES524XTG_DBK01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC83270",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "CJ01P404",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811854141",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811854141",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CAS-PHK-03323",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "80071483",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "80071483",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3416685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3416685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3416685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3416685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3414593",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15180610256",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

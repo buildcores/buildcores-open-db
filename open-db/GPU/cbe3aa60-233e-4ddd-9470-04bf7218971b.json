@@ -1,5 +1,26 @@
 {
   "opendb_id": "cbe3aa60-233e-4ddd-9470-04bf7218971b",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4080 SUPER",
+  "core_count": 10240,
+  "core_base_clock": 2290,
+  "core_boost_clock": 2550,
+  "memory": 16,
+  "memory_type": "GDDR6X",
+  "effective_memory_clock": 1438,
+  "memory_bus": 256,
+  "tdp": 320,
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "length": 304,
+  "case_expansion_slot_width": 3,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -7,42 +28,57 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
+    "hdmi_2_2": 0,
     "hdmi_2_1": 1,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
     "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
     "dvi_d": 0,
     "vga": 0
   },
   "metadata": {
-    "name": "NVIDIA Founders Edition GeForce RTX 4080 SUPER 16GB GDDR6 Black",
+    "name": "NVIDIA GeForce RTX 4080 SUPER Founders Edition 16GB GDDR6X",
     "manufacturer": "NVIDIA",
-    "part_numbers": ["900-1G136-2555-000"],
+    "part_numbers": [],
     "series": "Founders Edition",
-    "manufacturer_color": "Black",
-    "releaseYear": 2024
+    "variant": "Super",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 4080 SUPER",
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2295,
-  "core_boost_clock": 2550,
-  "effective_memory_clock": 1438,
-  "memory_bus": 256,
-  "interface": "PCIe 4.0 x16",
-  "color": ["BLACK"],
-  "length": 304,
-  "tdp": 320,
-  "total_slot_width": 3,
-  "cooling": "2 Fans",
-  "core_count": 10240,
-  "lighting": ["None"],
-  "frame_sync": "G-Sync",
-  "case_expansion_slot_width": 3,
   "general_product_information": {
-    "newegg_sku": "1FT-0004-008P3",
     "manufacturer_url": "https://www.nvidia.com/en-in/geforce/graphics-cards/40-series/rtx-4080-family/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "900-1G136-2555-000",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "1FT-0004-008P3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1FT-0004-008P3",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

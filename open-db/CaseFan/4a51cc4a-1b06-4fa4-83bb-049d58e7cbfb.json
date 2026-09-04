@@ -1,28 +1,47 @@
 {
   "opendb_id": "4a51cc4a-1b06-4fa4-83bb-049d58e7cbfb",
+  "size": 120,
+  "color": ["BLUE", "RGB"],
+  "lighting": ["ARGB"],
+  "quantity": 1,
+  "min_airflow": 57.05,
+  "min_noise_level": 25.8,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.23,
+  "flow_direction": "Standard",
+  "isOEM": false,
   "metadata": {
     "name": "Thermaltake CT120 ARGB Hydrangea Blue",
     "manufacturer": "Thermaltake",
+    "part_numbers": ["CL-F202-PL12BU-A"],
     "series": "CT120",
     "variant": "ARGB Standard Blades",
-    "manufacturer_color": "Hydrangea Blue",
-    "part_numbers": ["CL-F202-PL12BU-A"],
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "manufacturer_color": "Hydrangea Blue"
   },
-  "size": 120,
-  "pwm": true,
-  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-  "color": ["BLUE", "RGB"],
-  "isOEM": false,
-  "flow_direction": "Standard",
-  "lighting": ["ARGB"],
-  "min_airflow": 57.05,
-  "min_noise_level": 25.8,
-  "led": "Addressable RGB",
-  "controller": "None",
-  "static_pressure": 2.23,
-  "quantity": 1,
   "general_product_information": {
     "manufacturer_url": "https://www.thermaltake.com/ct120-argb-sync-pc-cooling-fan-hydrangea-blue-2-fan-pack.html#additional"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CL-F202-PL12BU-A",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC78973",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

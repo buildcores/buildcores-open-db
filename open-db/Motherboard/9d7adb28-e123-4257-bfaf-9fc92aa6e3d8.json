@@ -1,60 +1,15 @@
 {
   "opendb_id": "9d7adb28-e123-4257-bfaf-9fc92aa6e3d8",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B850",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 3
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS EX-B850M-V7-CSM",
-    "manufacturer": "ASUS",
-    "part_numbers": ["EX-B850M-V7-CSM"],
-    "variant": "B850M-V7-CSM",
-    "series": "Expedition",
-    "manufacturer_color": "Black/Red",
-    "releaseYear": 2025
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B850",
   "color": ["RED", "BLACK"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -79,15 +34,53 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "None",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x USB 10Gbps ports",
     "2 x USB 5Gbps ports",
@@ -96,9 +89,27 @@
     "1 x Realtek 5Gb Ethernet port",
     "3 x Audio jacks"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "None",
+  "metadata": {
+    "name": "ASUS EX-B850M-V7-CSM",
+    "manufacturer": "ASUS",
+    "part_numbers": ["EX-B850M-V7-CSM"],
+    "series": "Expedition",
+    "variant": "B850M-V7-CSM",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black/Red"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/ex-b850m-v7-csm/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "EX-B850M-V7-CSM",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

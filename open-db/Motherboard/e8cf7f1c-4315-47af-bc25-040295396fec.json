@@ -1,15 +1,39 @@
 {
   "opendb_id": "e8cf7f1c-4315-47af-bc25-040295396fec",
+  "socket": "LGA 1156",
+  "form_factor": "ATX",
+  "chipset": "Intel H55",
   "memory": {
     "max": 16,
     "ram_type": "DDR3",
     "slots": 4
   },
+  "color": ["BLUE", "WHITE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 0,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s"],
   "metadata": {
     "name": "Intel H55 DH55HC LGA1156 DDR3 ATX",
     "manufacturer": "Intel",
@@ -35,36 +63,16 @@
     "series": "H55",
     "variant": ""
   },
-  "socket": "LGA 1156",
-  "form_factor": "ATX",
-  "chipset": "Intel H55",
-  "color": ["BLUE", "WHITE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aca3fe073ff824efdaa3"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3aca3fe073ff824efdaa4"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3aca3fe073ff824efdaa5"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BOXDH55HC",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

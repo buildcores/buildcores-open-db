@@ -1,10 +1,14 @@
 {
   "opendb_id": "9ea982fe-1d3e-4600-b608-279496b2fedb",
+  "series": "Core i3 13000",
+  "microarchitecture": "Raptor Lake",
+  "coreFamily": "Raptor Cove",
+  "socket": "LGA 1700",
   "cores": {
     "total": 4,
     "performance": 4,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "4 × 64 KB Instruction + 4 × 48 KB Data (448 KB total)",
     "l2": 5,
-    "l3": 12,
-    "l1": "4 × 64 KB Instruction + 4 × 48 KB Data (448 KB total)"
+    "l3": 12
   },
   "specifications": {
+    "tdp": 35,
+    "ppt": 69,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 730",
       "baseClock": 300,
       "boostClock": 1500,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5", "DDR4"],
-      "channels": 2
-    },
-    "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "Intel 7",
     "simultaneousMultithreading": true,
-    "ppt": 69
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i3 13100T OEM/Tray",
@@ -49,12 +53,33 @@
     "variant": "13100T",
     "releaseYear": 2023
   },
-  "series": "Core i3 13000",
-  "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Cove",
-  "socket": "LGA 1700",
   "general_product_information": {
-    "newegg_sku": "9SIA4REKG11898",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230579/intel-core-i313100t-processor-12m-cache-up-to-4-20-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8071505092101",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIA4REKG11898",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4REKG11898",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

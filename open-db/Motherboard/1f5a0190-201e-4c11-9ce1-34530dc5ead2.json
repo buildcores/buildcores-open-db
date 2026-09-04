@@ -1,15 +1,39 @@
 {
   "opendb_id": "1f5a0190-201e-4c11-9ce1-34530dc5ead2",
+  "socket": "LGA 775",
+  "form_factor": "Micro ATX",
+  "chipset": "VIA P4M890",
   "memory": {
     "max": 4,
     "ram_type": "DDR2",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 0,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 100 Mb/s"],
   "metadata": {
     "name": "Biostar VIA P4M890 P4M890M7SE LGA775 DDR2 Micro ATX",
     "manufacturer": "Biostar",
@@ -35,36 +63,16 @@
     "series": "VIA",
     "variant": ""
   },
-  "socket": "LGA 775",
-  "form_factor": "Micro ATX",
-  "chipset": "VIA P4M890",
-  "color": [],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab80b3d0c7b56c55bd27"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ab80b3d0c7b56c55bd28"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Unknown",
-      "_id": "69b3ab80b3d0c7b56c55bd29"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 100 Mb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "P4M890M7SE",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

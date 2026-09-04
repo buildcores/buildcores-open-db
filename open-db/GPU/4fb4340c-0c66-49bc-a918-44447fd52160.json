@@ -1,40 +1,89 @@
 {
   "opendb_id": "4fb4340c-0c66-49bc-a918-44447fd52160",
+  "chipset_manufacturer": "Intel",
+  "chipset": "Arc Pro B60",
+  "core_count": 2560,
+  "core_base_clock": 2000,
+  "core_boost_clock": 2400,
+  "memory": 24,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 2375,
+  "memory_bus": 192,
+  "tdp": 200,
+  "interface": "PCIe 5.0 x8",
+  "frame_sync": "None",
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "length": 260,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "Blower",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
   "power_connectors": {
-    "pcie_8_pin": 1
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 1,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "displayport_2_1": 4
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "displayport_2_1": 4,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
-    "name": "ARKN Intel Arc Pro B60 24GB",
+    "name": "ARKN Intel Arc Pro B60 24GB GDDR6",
     "manufacturer": "ARKN",
     "part_numbers": ["8357-00128"],
     "series": "Arc Pro",
     "variant": "B60",
-    "manufacturer_color": "Black",
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "chipset_manufacturer": "Intel",
-  "chipset": "Arc Pro B60",
-  "memory": 24,
-  "memory_type": "GDDR6",
-  "tdp": 200,
-  "length": 260,
-  "color": ["BLACK"],
-  "lighting": ["None"],
-  "core_count": 2560,
-  "core_base_clock": 2000,
-  "core_boost_clock": 2400,
-  "effective_memory_clock": 2375,
-  "memory_bus": 192,
-  "frame_sync": "None",
-  "interface": "PCIe 5.0 x8",
-  "total_slot_width": 2,
-  "case_expansion_slot_width": 2,
-  "cooling": "Blower",
   "general_product_information": {
-    "newegg_sku": "N82E16814983001",
     "manufacturer_url": "https://awespartners.com/arkn-pro-b60-en/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "8357-00128",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "8885021500089",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814983001",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814983001",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

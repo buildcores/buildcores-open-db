@@ -1,74 +1,15 @@
 {
   "opendb_id": "40ca0343-5ecd-4f31-a019-1c94e315f7a9",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X870E",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "cpu_opt": 1,
-    "case_fan": 5
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 0
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC1220P",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS ROG STRIX X870E-H GAMING WIFI7 HATSUNE MIKU EDITION AM5 DDR5 ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": [
-      "rog-strix-x870e-h-gaming-wifi7-hatsune-miku-edition",
-      "ROG STRIX X870E-H GAMING WIFI7",
-      "ROG STRIX X870E-H GAMING MIKU"
-    ],
-    "variant": "X870E-H GAMING",
-    "series": "ROG STRIX",
-    "manufacturer_color": "HATSUNE MIKU EDITION",
-    "releaseYear": 2025,
-    "last_manually_spec_verified_at": "2025-11-28T22:26:31.256Z"
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD X870E",
   "color": ["BLUE", "BLACK", "PURPLE"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -103,15 +44,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 7",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220P",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x USB4® (40Gbps) ports(2 x USB Type-C®)",
     "4 x USB 10Gbps ports (3 x Type-A + 1 x USB",
@@ -126,13 +114,297 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
-  "wireless_networking": "Wi-Fi 7",
-  "lighting": ["ARGB"],
+  "metadata": {
+    "name": "ASUS ROG STRIX X870E-H GAMING WIFI7 HATSUNE MIKU EDITION AM5 DDR5 ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": [],
+    "series": "ROG",
+    "variant": "X870E-H STRIX HATSUNE MIKU EDITION",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black/Green",
+    "last_manually_spec_verified_at": "2025-11-28T22:26:31.256Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0FW5TT48Z",
-    "newegg_sku": "N82E16813119763",
-    "bestbuy_sku": 6646541,
-    "walmart_sku": 18010372742,
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870e-h-gaming-wifi7-hatsune-miku-edition/spec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291174641",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711636174640",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1MA0-MVAAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX X870E-H GAMING MIKU",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX X870E-H GAMING WIFI7",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "rog-strix-x870e-h-gaming-wifi7-hatsune-miku-edition",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291174641",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100164685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100164685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100164685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100164685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FW5TT48Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6646541",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3638259",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-A5K",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3638259",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "213693",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813119763",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119763",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3418561",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3418561",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3418561",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3418561",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "416106",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202509180095",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3638259",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "18010372742",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

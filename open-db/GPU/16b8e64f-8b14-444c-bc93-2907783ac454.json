@@ -1,5 +1,23 @@
 {
   "opendb_id": "16b8e64f-8b14-444c-bc93-2907783ac454",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5090",
+  "core_count": 21760,
+  "core_base_clock": 2017,
+  "core_boost_clock": 2407,
+  "memory": 32,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 1750,
+  "memory_bus": 512,
+  "tdp": 575,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 332,
+  "case_expansion_slot_width": 3,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 2,
@@ -25,25 +43,33 @@
     "variant": "GameRock",
     "last_manually_spec_verified_at": "2025-12-02T00:57:35.903Z"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5090",
-  "memory": 32,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2017,
-  "core_boost_clock": 2407,
-  "effective_memory_clock": 1750,
-  "memory_bus": 512,
-  "interface": "PCIe 5.0 x16",
-  "frame_sync": "G-Sync",
-  "length": 332,
-  "tdp": 575,
-  "case_expansion_slot_width": 3,
-  "total_slot_width": 4,
-  "cooling": "3 Fans",
-  "color": ["BLACK", "GREY"],
-  "core_count": 21760,
-  "lighting": [],
   "general_product_information": {
     "manufacturer_url": "https://www.palit.com/palit/vgapro.php?id=5345&lang=en&pn=NE75090019R5-GB2020G&tab=ga"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "NE75090019R5-GB2020G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "VGA7225",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "NE75090019R5-GB2020G",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

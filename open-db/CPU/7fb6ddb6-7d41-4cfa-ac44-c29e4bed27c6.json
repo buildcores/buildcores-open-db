@@ -1,10 +1,14 @@
 {
   "opendb_id": "7fb6ddb6-7d41-4cfa-ac44-c29e4bed27c6",
+  "series": "Core i9 10000",
+  "microarchitecture": "Comet Lake",
+  "coreFamily": "Comet Lake",
+  "socket": "LGA 1200",
   "cores": {
     "total": 10,
     "performance": 0,
-    "threads": 20,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 20
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)",
     "l2": 2.5,
-    "l3": 20,
-    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
+    "l3": 20
   },
   "specifications": {
+    "tdp": 125,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
       "boostClock": 1200,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 125,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i9 10900K",
@@ -49,14 +53,202 @@
     "variant": "10900K",
     "releaseYear": 2020
   },
-  "series": "Core i9 10000",
-  "microarchitecture": "Comet Lake",
-  "coreFamily": "Comet Lake",
-  "socket": "LGA 1200",
   "general_product_information": {
-    "amazon_sku": "B086MHSTVD",
-    "bestbuy_sku": 6411492,
-    "walmart_sku": 559488943,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/199332/intel-core-i910900k-processor-20m-cache-up-to-5-30-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858447638",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5032037188623",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX8070110900K",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858447638",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "adorama",
+        "channel": "us",
+        "source_product_id": "INBX8110900K",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B086MHSTVD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55479284171134",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6411492",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "IN70110900K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2291009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2291009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "13114",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2291009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "559488943",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

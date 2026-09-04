@@ -1,62 +1,15 @@
 {
   "opendb_id": "f281a0a6-8c1a-449e-8dc2-2dfc5a0d8295",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 3,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 2
-  },
-  "fan_headers": {
-    "case_fan": 4,
-    "cpu_opt": 1,
-    "pump": 2,
-    "cpu_fan": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC4082",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS ROG CROSSHAIR X870E 2006",
-    "manufacturer": "ASUS",
-    "series": "ROG CROSSHAIR",
-    "variant": "X870E 2006",
-    "releaseYear": 2026,
-    "manufacturer_color": "Black/Bronze",
-    "part_numbers": ["ROG CROSSHAIR 2006", "ROG Crosshair 2006 AM5 ATX"]
-  },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["BLACK", "ORANGE"],
-  "lighting": ["None"],
+  "lighting": ["Display", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -71,9 +24,9 @@
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2242/2260/2280/22110",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2242/2260/2280",
@@ -91,6 +44,11 @@
       "interface": "PCIe 4.0 x2"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
@@ -101,6 +59,51 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 7",
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 2,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4082",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x USB4 (40Gbps) ports (2 x USB Type-C)",
     "9 x USB 10Gbps connector (6 x Type-A + 3 x USB Type-C)",
@@ -113,13 +116,169 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "raid_support": true,
-  "back_connect_connectors": false,
+  "metadata": {
+    "name": "ASUS X870E ROG CROSSHAIR 2006 AM5 DDR5 ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": [],
+    "series": "ROG",
+    "variant": "X870E CROSSHAIR 2006",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black / Bronze"
+  },
   "general_product_information": {
-    "amazon_sku": "B0H88618WG",
-    "newegg_sku": "N82E16813119783",
-    "walmart_sku": 20283712854,
-    "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-2006/"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-2006/spec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291595705",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR 2006",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG Crosshair 2006 AM5 ATX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291595705",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H88618WG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813119783",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119783",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20283712854",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

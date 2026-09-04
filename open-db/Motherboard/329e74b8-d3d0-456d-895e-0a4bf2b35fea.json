@@ -1,69 +1,15 @@
 {
   "opendb_id": "329e74b8-d3d0-456d-895e-0a4bf2b35fea",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X670",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 4,
-    "pump": 2,
-    "cpu_opt": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "power_led": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 2,
-    "thunderbolt": 1,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "GIGABYTE X670E AORUS PRO X AM5 DDR5 ATX",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["X670E AORUS PRO X"],
-    "series": "AORUS",
-    "variant": "X670E PRO X",
-    "releaseYear": 2023,
-    "manufacturer_color": "White"
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD X670",
   "color": ["WHITE", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -103,15 +49,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 7",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2,
+    "thunderbolt": 1,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x Q-Flash Plus button",
     "2 x SMA antenna connectors (2T2R)",
@@ -123,11 +116,171 @@
     "1 x RJ-45 port",
     "3 x audio jacks"
   ],
-  "lighting": ["RGB", "ARGB"],
-  "wireless_networking": "Wifi 7",
+  "metadata": {
+    "name": "GIGABYTE X670E AORUS PRO X AM5 DDR5 ATX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["X670E AORUS PRO X"],
+    "series": "AORUS",
+    "variant": "X670E PRO X",
+    "releaseYear": 2023,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
-    "amazon_sku": "B0CN76TH9S",
-    "walmart_sku": 5202834625,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X670E-AORUS-PRO-X/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523040416",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X670E AORUS PRO X",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523040416",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CN76TH9S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIX670EARPRX",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3646XC1",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "26998",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5202834625",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

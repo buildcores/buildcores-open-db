@@ -1,47 +1,131 @@
 {
   "opendb_id": "078038c2-00fc-4f4f-b3f4-b67f9594e7d0",
-  "dimensions_mm": {
-    "width": 285,
-    "height": 450,
-    "depth": 446
-  },
-  "metadata": {
-    "name": "Asus TUF Gaming GT502 ATX Mid Tower White Tempered Glass Side Panel",
-    "manufacturer": "ASUS",
-    "part_numbers": [
-      "GT502",
-      "WHT",
-      "TG",
-      "90DC0093-B08000",
-      "90DC0093-B09000",
-      "90DC0093-B09010",
-      "GT502 TUF GAMING CASE/WHT",
-      "GT502/WHT/TG//"
-    ],
-    "series": "TUF",
-    "variant": "",
-    "last_manually_spec_verified_at": "2025-08-20T15:42:16.143Z"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["WHITE"],
+  "lighting": ["None"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "2 x USB 3.2 Gen1                                                                 1 x USB 3.2 Gen 2x2 Type C",
+  "front_usb_ports": ["1 x USB 3.2 Gen 2x2 Type C", "2 x USB 3.2 Gen1"],
   "max_video_card_length": 400,
   "max_cpu_cooler_height": 163,
+  "max_psu_length": 200,
   "internal_3_5_bays": 4,
-  "internal_2_5_bays": 0,
+  "internal_2_5_bays": 4,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": false,
   "expansion_slots": 8,
+  "riser_expansion_slots": 3,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "446 x 285 x 450",
-  "volume": 57.2,
-  "weight": 24.258,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": ["2 x USB 3.2 Gen1    ", "  1 x USB 3.2 Gen 2x2 Type C"],
-  "lighting": [],
+  "dimensions_mm": {
+    "depth": 446,
+    "width": 285,
+    "height": 450
+  },
+  "volume": 57.13,
+  "weight": 24.25,
+  "metadata": {
+    "name": "Asus TUF Gaming GT502 ATX Mid Tower White Tempered Glass Side Panel",
+    "manufacturer": "ASUS",
+    "part_numbers": [],
+    "series": "TUF Gaming GT502",
+    "variant": "",
+    "releaseYear": 2022,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2025-08-20T15:42:16.143Z"
+  },
   "general_product_information": {
-    "newegg_sku": "N82E16811173050",
-    "walmart_sku": 2919008828
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/cases/tuf-gaming/tuf-gaming-gt502/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553943000",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90DC0093-B08000",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90DC0093-B09000",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90DC0093-B09010",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GT502",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GT502 TUF GAMING CASE/WHT",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GT502/WHT/TG//",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TG",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "WHT",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553943000",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASGT502WHTTG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811173050",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811173050",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2919008828",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

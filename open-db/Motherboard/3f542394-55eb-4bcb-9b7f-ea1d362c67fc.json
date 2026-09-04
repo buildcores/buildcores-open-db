@@ -1,15 +1,61 @@
 {
   "opendb_id": "3f542394-55eb-4bcb-9b7f-ea1d362c67fc",
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -28,10 +74,10 @@
     "rgb_12v": 2
   },
   "front_panel_headers": {
+    "power_button": true,
     "reset_button": true,
     "power_led": true,
-    "hdd_led": true,
-    "power_button": true
+    "hdd_led": true
   },
   "other_headers": {
     "thunderbolt": 2
@@ -40,6 +86,9 @@
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -48,71 +97,6 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "Gigabyte Z790 AORUS ELITE AX DDR5 ATX LGA1700",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["Z790 AORUS ELITE AX"],
-    "series": "Z790",
-    "variant": "AORUS ELITE AX",
-    "releaseYear": 2024,
-    "manufacturer_color": "Black",
-    "last_manually_spec_verified_at": "2026-01-14T23:14:22.730Z"
-  },
-  "socket": "LGA 1700",
-  "form_factor": "ATX",
-  "chipset": "Intel Z790",
-  "color": ["BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab9e843b62bf624cc27a"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 4,
-      "_id": "69b3ab9e843b62bf624cc27b"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "22110/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab9e843b62bf624cc27c"
-    },
-    {
-      "size": "22110/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab9e843b62bf624cc27d"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab9e843b62bf624cc27e"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab9e843b62bf624cc27f"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab9e843b62bf624cc280"
-    }
-  ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x 2.5 Gb/s Ports (Realtek)",
     "1 x USB Type-C® port, with USB 3.2 Gen 2x2 support",
@@ -125,12 +109,359 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
-  "lighting": [],
+  "metadata": {
+    "name": "Gigabyte Z790 AORUS ELITE AX DDR5 ATX LGA1700",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["Z790 AORUS ELITE AX"],
+    "series": "Z790",
+    "variant": "AORUS ELITE AX",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-01-14T23:14:22.730Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BH9DXY38",
-    "newegg_sku": "N82E16813145417",
-    "bestbuy_sku": 6582204,
-    "walmart_sku": 1347719484,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp#sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523034002",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4719331849467",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z790 AORUS ELITE AX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523034002",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1871178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1871178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1871178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1871178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BH9DXY38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306685612414",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6582204",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIZ790ARSEAX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "Z790 AORUS ELITE AX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBGB-518",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "Z790-AO-ELITE-AX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2819887",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "Z790 AORUS ELITE AX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8L4",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2819887",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "25743",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "Z790-AO-ELITE-AX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "185731",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "Z790 AORUS ELITE AX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB01GB229",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145417",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145417",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-5BK-GI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3108981",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3108981",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3108981",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3108981",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "327403",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202210060022",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2819887",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1347719484",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

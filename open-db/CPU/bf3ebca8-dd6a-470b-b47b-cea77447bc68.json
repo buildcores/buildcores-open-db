@@ -1,10 +1,14 @@
 {
   "opendb_id": "bf3ebca8-dd6a-470b-b47b-cea77447bc68",
+  "series": "Core i5 9000",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
   "cores": {
     "total": 6,
     "performance": 0,
-    "threads": 6,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 6
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 4.1
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)",
     "l2": 1.5,
-    "l3": 9,
-    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
+    "l3": 9
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
       "boostClock": 1050,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i5 9400 OEM/Tray",
@@ -49,11 +53,26 @@
     "variant": "9400",
     "releaseYear": 2018
   },
-  "series": "Core i5 9000",
-  "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake Refresh",
-  "socket": "LGA 1151",
   "general_product_information": {
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/134898/intel-core-i59400-processor-9m-cache-up-to-4-10-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8068403875504",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "INCI59400A",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,70 +1,15 @@
 {
   "opendb_id": "808dd422-e5bc-4138-a0ae-f82fd19b1048",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD B550",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 6,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "cpu_opt": 1,
-    "pump": 1,
-    "case_fan": 3
-  },
-  "rgb_headers": {
-    "argb_5v": 1,
-    "rgb_12v": 2
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "com_port": 1,
-    "temperature_sensor": 1,
-    "thunderbolt": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC 887",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS PRIME B550-PLUS AM4 ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B550-PLUS", "90MB14U0-M0EAY0", "PRIME B550-PLUS AC-HES"],
-    "series": "PRIME",
-    "variant": "B550-PLUS",
-    "releaseYear": 2020,
-    "manufacturer_color": "Black / Silver",
-    "last_manually_spec_verified_at": "2026-03-16T10:00:56.786Z"
-  },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD B550",
   "color": ["BLACK", "WHITE"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -94,15 +39,62 @@
       "interface": "PCIe 3.0 x4 & SATA"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 6,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Realtek RTL8111H"
     }
   ],
+  "wireless_networking": "None",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC 887",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x USB 3.2 Gen 2 ports (1 x Type-A + 1 x USB Type-C)",
     "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
@@ -113,13 +105,401 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF out port"
   ],
-  "lighting": ["RGB", "ARGB"],
-  "wireless_networking": "None",
+  "metadata": {
+    "name": "ASUS PRIME B550-PLUS AM4 ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": ["PRIME B550-PLUS", "90MB14U0-M0EAY0", "PRIME B550-PLUS AC-HES"],
+    "series": "PRIME",
+    "variant": "B550-PLUS",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black / Silver",
+    "last_manually_spec_verified_at": "2026-03-16T10:00:56.786Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B089CT5GDM",
-    "newegg_sku": "N82E16813119323",
-    "bestbuy_sku": 6447947,
-    "walmart_sku": 626127369,
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b550-plus/techspec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876782347",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876782354",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0195553397162",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4718017782340",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "7861889368178",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB14U0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B550-PLUS",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B550-PLUS AC-HES",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876782347",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876782354",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553397162",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1647954",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1647954",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1647954",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1647954",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B089CT5GDM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306272964990",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6447947",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASPB550P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90MB14U0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-513",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90MB14U0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD2882",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2295489",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-9T8",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2295489",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90MB14U0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "162764",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90MB14U0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AS80",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813119323",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119323",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-6F6-AS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21003533",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21003533",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "2858697",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "2858697",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "2858697",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "2858697",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "249731",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202006150019",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2295489",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "626127369",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

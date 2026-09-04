@@ -1,5 +1,21 @@
 {
   "opendb_id": "ceedaad7-317a-43d4-8178-c9d9e9bc6760",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5080",
+  "core_count": 10752,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2617,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 0,
+  "memory_bus": 256,
+  "tdp": 360,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 300,
+  "total_slot_width": 2,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,21 +38,31 @@
     "series": "GeForce RTX 5080",
     "variant": "Inno3D"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5080",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2295,
-  "core_boost_clock": 2617,
-  "effective_memory_clock": 0,
-  "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 300,
-  "tdp": 360,
-  "total_slot_width": 2,
-  "cooling": "3 Fans",
-  "core_count": 10752,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "N50803-16D7-176068N",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "VGA7263",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC82068",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

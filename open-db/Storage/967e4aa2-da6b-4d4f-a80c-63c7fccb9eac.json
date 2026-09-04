@@ -1,5 +1,12 @@
 {
   "opendb_id": "967e4aa2-da6b-4d4f-a80c-63c7fccb9eac",
+  "capacity": 2000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "cache": null,
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Nextorage G-Series LE 2TB SSD M.2-2280 PCIe 4.0 X4 NVMe",
     "manufacturer": "Nextorage",
@@ -7,15 +14,36 @@
     "series": "G-Series",
     "variant": "2000GB"
   },
-  "capacity": 2000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "cache": null,
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-0106-00018"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GNE SYM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "NN4LE-2TB2CN",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-0106-00018",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-0106-00018",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,15 +1,50 @@
 {
   "opendb_id": "8b3e0d87-243b-43c1-9f19-88a614fe6225",
+  "socket": "AM4",
+  "form_factor": "EATX",
+  "chipset": "AMD X570",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": null,
+      "quantity": 0,
+      "lanes": 16
+    },
+    {
+      "gen": null,
+      "quantity": 0,
+      "lanes": 8
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": null,
+      "key": null,
+      "interface": null
+    },
+    {
+      "size": null,
+      "key": null,
+      "interface": null
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": null
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 4,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,55 +66,6 @@
     "chipset": "Realtek® ALC1220 CodecESS® E9018 Codec",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MEG X570 GODLIKE",
-    "manufacturer": "MSI",
-    "series": "MEG",
-    "variant": "X570 GODLIKE",
-    "releaseYear": 2022,
-    "part_numbers": ["X570GODLIKE"]
-  },
-  "socket": "AM4",
-  "form_factor": "EATX",
-  "chipset": "AMD X570",
-  "pcie_slots": [
-    {
-      "gen": null,
-      "quantity": 0,
-      "lanes": 16,
-      "_id": "69b3ac0281594acde48fc784"
-    },
-    {
-      "gen": null,
-      "quantity": 0,
-      "lanes": 8,
-      "_id": "69b3ac0281594acde48fc785"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": null,
-      "key": null,
-      "interface": null,
-      "_id": "69b3ac0281594acde48fc786"
-    },
-    {
-      "size": null,
-      "key": null,
-      "interface": null,
-      "_id": "69b3ac0281594acde48fc787"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": null,
-      "_id": "69b3ac0281594acde48fc788"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "Clear CMOS Button",
     "Wi-Fi /Bluetooth Antenna Connectors",
@@ -90,11 +79,166 @@
     "6.3mm headphone",
     "Optical S/PDIF-Out"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07T5QDRFN",
-    "newegg_sku": "9SIBMM4K740450",
-    "walmart_sku": 262362834
+  "metadata": {
+    "name": "MEG X570 GODLIKE",
+    "manufacturer": "MSI",
+    "part_numbers": ["X570GODLIKE"],
+    "series": "MEG",
+    "variant": "X570 GODLIKE",
+    "releaseYear": 2022
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142187821",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MEG X570 GODLIKE",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X570GODLIKE",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142187821",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07T5QDRFN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBMM4K740450",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBMM4K740450",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "262362834",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

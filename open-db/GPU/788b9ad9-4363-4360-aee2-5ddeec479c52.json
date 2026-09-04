@@ -1,5 +1,21 @@
 {
   "opendb_id": "788b9ad9-4363-4360-aee2-5ddeec479c52",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4060 Ti",
+  "core_count": 4352,
+  "core_base_clock": 2310,
+  "core_boost_clock": 2595,
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "tdp": 165,
+  "interface": "PCIe x16",
+  "color": ["WHITE", "BLUE"],
+  "lighting": [],
+  "length": 305,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,23 +38,31 @@
     "series": "GeForce RTX 4060 Ti",
     "variant": "Yeston"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 4060 Ti",
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2310,
-  "core_boost_clock": 2595,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE", "BLUE"],
-  "length": 305,
-  "tdp": 165,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 4352,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "1FT-007N-000B1"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RTX4060Ti-16G D6 OC SA",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "1FT-007N-000B1",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1FT-007N-000B1",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

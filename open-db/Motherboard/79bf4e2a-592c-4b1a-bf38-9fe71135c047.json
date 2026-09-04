@@ -1,77 +1,15 @@
 {
   "opendb_id": "79bf4e2a-592c-4b1a-bf38-9fe71135c047",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B850",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 2,
-    "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 0
-  },
-  "rgb_headers": {
-    "rgb_12v": 1,
-    "argb_5v": 3
-  },
-  "front_panel_headers": {
-    "power_led": true,
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC897",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASRock B850M-X WiFi AM5 DDR5 Micro ATX",
-    "manufacturer": "ASRock",
-    "part_numbers": [
-      "B850M-X WiFi",
-      "90-MXBRU-A0UAYZ",
-      "90-MXBRU0-A0UAYZ",
-      "90-MXBRU0-A0UAYAZ",
-      "B850M-X WiFi R2.0",
-      "B850M-X WIFI R2.0",
-      "90-MXBSH0-A0UAYZ"
-    ],
-    "variant": "B850M-X WiFi",
-    "manufacturer_color": "Black / Silver",
-    "releaseYear": 2025,
-    "last_manually_spec_verified_at": "2025-11-28T17:25:41.861Z"
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B850",
   "color": ["BLACK"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -106,15 +44,62 @@
       "interface": "PCIe WiFi"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek Dragon RTL8125BG"
     }
   ],
+  "wireless_networking": "Wi-Fi 6E",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x Antenna Ports",
     "1 x HDMI Port",
@@ -126,12 +111,356 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "wireless_networking": "Wi-Fi 6E",
-  "lighting": ["None"],
+  "metadata": {
+    "name": "ASRock B850M-X WiFi AM5 DDR5 Micro ATX",
+    "manufacturer": "ASRock",
+    "part_numbers": ["B850M-X WiFi R2.0", "B850M-X WIFI R2.0"],
+    "series": "Default",
+    "variant": "B850M-X WiFi",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black / Silver",
+    "last_manually_spec_verified_at": "2025-11-28T17:25:41.861Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0F3NDZF19",
-    "newegg_sku": "N82E16813162225",
-    "walmart_sku": 16802516229,
     "manufacturer_url": "https://www.asrock.com/MB/AMD/B850M-X%20WiFi/index.asp#Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711581490765",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBRU-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBRU0-A0UAYAZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBRU0-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBSH0-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B850M-X WiFi",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B850M-X WiFi R2.0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B850M-X WIFI R2.0",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "4711581490765",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100137085",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100137085",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100137085",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100137085",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F3NDZF19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56013422887294",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "B850M-X WIFI R2.0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAR-521",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3951",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3483449",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "B850M-X WIFI R2.0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3483449",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "B850M-X WIFI R2.0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AK66",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813162225",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813162225",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-ASR-05290",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21812983",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21812983",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3369641",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3369641",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3369641",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3369641",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "402773",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00022003711",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3483449",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "16802516229",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

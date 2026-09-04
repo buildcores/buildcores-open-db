@@ -1,10 +1,14 @@
 {
   "opendb_id": "844f813a-23e6-465e-8541-b3a35c792861",
+  "series": "A-Series A10 7000",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 3.8
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)",
     "l2": 4,
-    "l3": 0,
-    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon R7 Graphics",
       "baseClock": 720,
       "boostClock": 0,
       "shaderCount": 384
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A10-7700K",
@@ -49,12 +53,134 @@
     "variant": "7700K",
     "releaseYear": 2014
   },
-  "series": "A-Series A10 7000",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Kaveri",
-  "socket": "FM2+",
   "general_product_information": {
-    "amazon_sku": "B00H7Z7XA6",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a10-series-apu-for-desktops/a10-7700k-with-radeon-r7-series.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0274763860564",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD770KXBI44JA",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "274763860564",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00H7Z7XA6",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

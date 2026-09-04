@@ -1,49 +1,79 @@
 {
   "opendb_id": "6d2f43e1-5b78-484d-b220-efda15f2cdc5",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5080",
+  "core_count": 10752,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2730,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 1875,
+  "memory_bus": 256,
+  "tdp": 360,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB"],
+  "length": 357,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3.3,
+  "cooling": "3 Fans",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
     "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": 3,
+    "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0,
     "dvi_d": 0,
     "vga": 0
   },
   "metadata": {
-    "name": "MSI VANGUARD SOC GeForce RTX 5080 16 GB",
+    "name": "MSI GeForce RTX 5080 16G VANGUARD SOC GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "GeForce RTX 5080 16G VANGUARD SOC",
-      "RTX 5080 16G VANGUARD SOC",
-      "G5080-16VGS"
-    ],
+    "part_numbers": [],
     "series": "VANGUARD",
     "variant": "SOC",
+    "releaseYear": 2025,
     "manufacturer_color": "Black / Grey"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5080",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2300,
-  "core_boost_clock": 2300,
-  "effective_memory_clock": 0,
-  "memory_bus": 256,
-  "interface": "PCIe x16",
-  "frame_sync": "G-Sync",
-  "length": 357,
-  "tdp": 360,
-  "case_expansion_slot_width": 2,
-  "total_slot_width": 4,
-  "cooling": "3 Fans",
-  "color": [],
-  "core_count": 10752,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-16G-VANGUARD-SOC/Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "G5080-16VGS",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GeForce RTX 5080 16G VANGUARD SOC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RTX 5080 16G VANGUARD SOC",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

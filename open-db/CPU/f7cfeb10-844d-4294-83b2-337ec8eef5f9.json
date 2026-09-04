@@ -1,5 +1,9 @@
 {
   "opendb_id": "f7cfeb10-844d-4294-83b2-337ec8eef5f9",
+  "series": "Intel Core i5",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-S",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 6
   },
   "specifications": {
+    "tdp": 35,
     "integratedGraphics": {
       "model": "Intel HD Graphics 630"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 35,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i5 7600T 2.8 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80677I57600T"],
     "series": "Intel Core i5"
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80677I57600T",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

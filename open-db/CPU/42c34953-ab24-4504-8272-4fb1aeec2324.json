@@ -1,10 +1,14 @@
 {
   "opendb_id": "42c34953-ab24-4504-8272-4fb1aeec2324",
+  "series": "FX 9000",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Vishera",
+  "socket": "AM3+",
   "cores": {
     "total": 8,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "4 × 64 KB Instruction + 8 × 16 KB Data (384 KB total)",
     "l2": 8,
-    "l3": 8,
-    "l1": "4 × 64 KB Instruction + 8 × 16 KB Data (384 KB total)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 220,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 220,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD FX-9590 OEM/Tray",
@@ -49,11 +53,139 @@
     "variant": "9590",
     "releaseYear": 2013
   },
-  "series": "FX 9000",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Vishera",
-  "socket": "AM3+",
-  "general_product_information": {
-    "amazon_sku": "B00DGGW3MI"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0215666596563",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "FD9590FHW8KHK",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "215666596563",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00DGGW3MI",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMFD9590FWOX",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

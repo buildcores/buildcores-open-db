@@ -1,10 +1,14 @@
 {
   "opendb_id": "d6b635ef-b9db-43df-a5a0-339a87215449",
+  "series": "A-Series A10 7000",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Godavari",
+  "socket": "FM2+",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)",
     "l2": 4,
-    "l3": 0,
-    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon R7 Graphics",
       "baseClock": 866,
       "boostClock": 1029,
       "shaderCount": 512
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A10-7890K OEM/Tray",
@@ -49,12 +53,139 @@
     "variant": "7890K",
     "releaseYear": 2016
   },
-  "series": "A-Series A10 7000",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
-  "socket": "FM2+",
   "general_product_information": {
-    "amazon_sku": "B0891ZT2C5",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a10-series-apu-for-desktops/a10-7890k-with-radeon-r7-graphics.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0768444724165",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD789KXDJCHBX",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "e6fengyux2942",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "768444724165",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0891ZT2C5",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

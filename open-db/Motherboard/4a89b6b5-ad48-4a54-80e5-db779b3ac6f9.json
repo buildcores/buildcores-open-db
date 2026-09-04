@@ -1,15 +1,51 @@
 {
   "opendb_id": "4a89b6b5-ad48-4a54-80e5-db779b3ac6f9",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B850",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x2"
+    }
+  ],
   "storage_devices": {
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
-    "u2": 0,
-    "sata_6_gb_s": 4
+    "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek 8126VB"
+    }
+  ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -36,9 +72,12 @@
     "com_port": 1
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
-    "main_power": "24-pin"
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -47,52 +86,6 @@
     "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI B850 PRO B850M-A AM5 DDR5 Micro ATX",
-    "manufacturer": "MSI",
-    "part_numbers": ["PRO B850M-A"],
-    "variant": "B850M-A",
-    "series": "PRO",
-    "manufacturer_color": "Black/Silver",
-    "releaseYear": 2025
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B850",
-  "color": ["BLACK", "GREY"],
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe 5.0 x4"
-    },
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x2"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "5 Gb/s",
-      "controller": "Realtek 8126VB"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1x Flash BIOS Button",
     "1x Clear CMOS Button",
@@ -104,9 +97,27 @@
     "1x 5G LAN (RJ45) port",
     "3x audio jacks"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "metadata": {
+    "name": "MSI B850 PRO B850M-A AM5 DDR5 Micro ATX",
+    "manufacturer": "MSI",
+    "part_numbers": ["PRO B850M-A"],
+    "series": "PRO",
+    "variant": "B850M-A",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black/Silver"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B850M-A/Gallery"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "PRO B850M-A",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

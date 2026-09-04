@@ -1,5 +1,9 @@
 {
   "opendb_id": "7bf2f913-1f98-47fb-89b6-979704c62472",
+  "series": "Intel Core i5",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-S",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 6
   },
   "specifications": {
+    "tdp": 35,
     "integratedGraphics": {
       "model": "Intel HD Graphics 530"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 35,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i5 6600T 2.7 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80662I56600T"],
     "series": "Intel Core i5"
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-S",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80662I56600T",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

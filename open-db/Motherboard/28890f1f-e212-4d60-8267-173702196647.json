@@ -1,60 +1,15 @@
 {
   "opendb_id": "28890f1f-e212-4d60-8267-173702196647",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 3
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "cpu_opt": 1,
-    "case_fan": 4
-  },
-  "rgb_headers": {
-    "argb_5v": 3
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS B650EM MAX GAMING WIFI",
-    "manufacturer": "ASUS",
-    "series": "MAX GAMING",
-    "variant": "B650EM WIFI",
-    "manufacturer_color": "Black",
-    "part_numbers": ["b650em-max-gaming-wifi"],
-    "releaseYear": 2025
-  },
   "socket": "AM5",
   "form_factor": "Micro ATX",
   "chipset": "AMD B650E",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["BLACK", "GREY"],
+  "lighting": [],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -84,12 +39,53 @@
       "interface": "PCIe 4.0 x2"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Realtek 1Gb Ethernet port"
     }
   ],
+  "wireless_networking": " Wi-Fi 6 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 3
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     " 2 x USB 10Gbps ports (1 x Type-A + 1 x USB Type-C)",
     "2 x USB 5Gbps ports (2 x Type-A)",
@@ -101,12 +97,27 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "back_connect_connectors": false,
-  "ecc_support": false,
-  "raid_support": true,
-  "wireless_networking": " Wi-Fi 6 Bluetooth 5.4",
-  "lighting": [],
+  "metadata": {
+    "name": "ASUS B650EM MAX GAMING WIFI",
+    "manufacturer": "ASUS",
+    "part_numbers": ["b650em-max-gaming-wifi"],
+    "series": "MAX GAMING",
+    "variant": "B650EM WIFI",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b650em-max-gaming-wifi/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "b650em-max-gaming-wifi",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

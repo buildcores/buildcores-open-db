@@ -1,30 +1,65 @@
 {
   "opendb_id": "1ecc68a6-1ff5-4d09-a186-f017445fc3bf",
-  "metadata": {
-    "name": "Lian Li UNI Fan TL Black 140mm",
-    "manufacturer": "Lian Li",
-    "series": "UNI TL",
-    "variant": "140mm Black",
-    "releaseYear": 2023,
-    "part_numbers": ["14TL1B"],
-    "manufacturer_color": "Black",
-    "last_manually_spec_verified_at": "2026-03-19T05:29:02.201Z"
-  },
   "size": 140,
   "color": ["BLACK", "RGB"],
+  "lighting": [],
   "quantity": 1,
   "min_airflow": 103.9,
   "min_noise_level": 29,
   "pwm": true,
   "led": "Addressable RGB",
+  "connector": "Proprietary",
   "controller": "None",
   "static_pressure": 2.34,
   "flow_direction": "Standard",
   "isOEM": false,
-  "connector": "Proprietary",
-  "lighting": [],
+  "metadata": {
+    "name": "Lian Li UNI Fan TL Black 140mm",
+    "manufacturer": "Lian Li",
+    "part_numbers": ["14TL1B"],
+    "series": "UNI TL",
+    "variant": "140mm Black",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-03-19T05:29:02.201Z"
+  },
   "general_product_information": {
-    "walmart_sku": 5536366085,
     "manufacturer_url": "https://lian-li.com/product/uni-fan-tl/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353045217",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "14TL1B",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353045217",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC71691",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5536366085",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,69 +1,15 @@
 {
   "opendb_id": "b4a7cd9a-692d-4289-a9ca-f5f9a659db5d",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B650",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 6,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 0
-  },
-  "rgb_headers": {
-    "rgb_12v": 2,
-    "argb_5v": 2
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC4080 Codec",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "MSI B650M MAG MORTAR WIFI AM5 DDR5 Micro-ATX",
-    "manufacturer": "MSI",
-    "part_numbers": ["MAG B650M MORTAR WIFI", "7D76-001R", "B650M MORTAR WIFI", "B650MMOTARWIFI"],
-    "series": "MAG",
-    "variant": "B650M MORTAR WIFI",
-    "releaseYear": 2022,
-    "manufacturer_color": "Black"
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B650",
   "color": ["BLACK"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -93,15 +39,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 6,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek RTL8125B"
     }
   ],
+  "wireless_networking": "Wifi 6E",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080 Codec",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "DisplayPort 1.4",
     "2.5G LAN Port",
@@ -114,12 +107,338 @@
     "USB 3.2 Gen 2x2 20Gbps Type-C",
     "Optical S/PDIF OUT"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "Wifi 6E",
+  "metadata": {
+    "name": "MSI B650M MAG MORTAR WIFI AM5 DDR5 Micro-ATX",
+    "manufacturer": "MSI",
+    "part_numbers": ["MAG B650M MORTAR WIFI", "7D76-001R", "B650M MORTAR WIFI", "B650MMOTARWIFI"],
+    "series": "MAG",
+    "variant": "B650M MORTAR WIFI",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BHC39YG7",
-    "newegg_sku": "N82E16813144558",
-    "walmart_sku": 3601651,
     "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B650M-MORTAR-WIFI/Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142301081",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711377010207",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7D76-001R",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650M MORTAR WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650MMOTARWIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MAG B650M MORTAR WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142301081",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "adorama",
+        "channel": "us",
+        "source_product_id": "MSIB650MTRWF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1871456",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1871456",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1871456",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1871456",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BHC39YG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSB650MMRW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBMC-523",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2824303",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2303-9F2",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2824303",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "25880",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "185932",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "1509",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "1509",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC57094",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813144558",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144558",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-377-MS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3109512",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3109512",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3109512",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3109512",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "327398",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2824303",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "3601651",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

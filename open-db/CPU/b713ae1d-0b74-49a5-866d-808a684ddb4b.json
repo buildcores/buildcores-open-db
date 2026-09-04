@@ -1,5 +1,9 @@
 {
   "opendb_id": "b713ae1d-0b74-49a5-866d-808a684ddb4b",
+  "series": "AMD A6",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Godavari",
+  "socket": "FM2+",
   "cores": {
     "total": 2,
     "performance": 2,
@@ -16,19 +20,19 @@
     "l3": 0
   },
   "specifications": {
+    "tdp": 65,
     "integratedGraphics": {
       "model": "AMD Radeon R5 (on-die)"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD A 6 7470K 3.7 GHz 2-Core FM2+",
@@ -36,9 +40,16 @@
     "part_numbers": ["AD747KYBJCBOX"],
     "series": "AMD A6"
   },
-  "series": "AMD A6",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
-  "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD747KYBJCBOX",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

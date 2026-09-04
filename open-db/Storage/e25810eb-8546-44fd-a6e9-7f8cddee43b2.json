@@ -1,5 +1,11 @@
 {
   "opendb_id": "e25810eb-8546-44fd-a6e9-7f8cddee43b2",
+  "capacity": 2000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Western Digital WD Green SN3000 2TB M.2 SSD PCIe 4.0 NVMe",
     "manufacturer": "Western Digital",
@@ -7,12 +13,43 @@
     "series": "WD",
     "variant": "2000GB"
   },
-  "capacity": 2000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "WDS200T4G0E",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "WDS200T4G0E-00CPS0",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "aaawave",
+        "channel": "us",
+        "source_product_id": "51417649709377",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "SSD1925",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "WDS200T4G0E-00CPS0",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

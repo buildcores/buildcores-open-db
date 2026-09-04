@@ -1,5 +1,11 @@
 {
   "opendb_id": "5b97f251-5f4b-4c4c-9d01-d067c8ebeacd",
+  "capacity": 256,
+  "storage_type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Lexar NS100 256GB SSD 2.5\" SATA",
     "manufacturer": "Lexar",
@@ -7,12 +13,31 @@
     "series": "NS100",
     "variant": "256GB"
   },
-  "capacity": 256,
-  "type": "SSD",
-  "form_factor": "2.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "LNS100-256RB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "SSD1288",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC99310",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

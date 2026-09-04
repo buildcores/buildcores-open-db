@@ -1,10 +1,14 @@
 {
   "opendb_id": "d6381db4-468a-419a-acfc-0fbc5e60a956",
+  "series": "Core i7 9000",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
   "cores": {
     "total": 8,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)",
     "l2": 2,
-    "l3": 12,
-    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
+    "l3": 12
   },
   "specifications": {
+    "tdp": 35,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 630",
       "baseClock": 350,
       "boostClock": 1200,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 35,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i7 9700T OEM/Tray",
@@ -49,13 +53,148 @@
     "variant": "9700T",
     "releaseYear": 2019
   },
-  "series": "Core i7 9000",
-  "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake Refresh",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B07Z9QKS1K",
-    "newegg_sku": "9SIA4REK9P1386",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/191048/intel-core-i79700t-processor-12m-cache-up-to-4-30-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "8592978186579",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8068403874912",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901759656",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07Z9QKS1K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIA4REK9P1386",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4REK9P1386",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

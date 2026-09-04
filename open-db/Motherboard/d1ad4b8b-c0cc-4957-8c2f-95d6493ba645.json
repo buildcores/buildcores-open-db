@@ -1,59 +1,15 @@
 {
   "opendb_id": "d1ad4b8b-c0cc-4957-8c2f-95d6493ba645",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 3,
-    "usb_3_2_gen_1": 3
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "cpu_opt": 1,
-    "case_fan": 2
-  },
-  "rgb_headers": {
-    "argb_5v": 3
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS PRIME B760M-A II",
-    "manufacturer": "ASUS",
-    "series": "PRIME",
-    "variant": "B760M-A II",
-    "manufacturer_color": "Black/Silver",
-    "part_numbers": ["prime-b760m-a-ii"],
-    "releaseYear": 2024
-  },
   "socket": "LGA 1700",
   "form_factor": "ATX",
   "chipset": "Intel B760",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["BLACK", "GREY"],
+  "lighting": [],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -83,12 +39,51 @@
       "interface": " PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek 2.5Gb Ethernet"
     }
   ],
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 3
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x USB 10Gbps ports (2 x Type-A )",
     "4 x USB 2.0 ports (4 x Type-A)",
@@ -98,11 +93,27 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
-  "ecc_support": false,
-  "back_connect_connectors": false,
-  "raid_support": true,
-  "lighting": [],
+  "metadata": {
+    "name": "ASUS PRIME B760M-A II",
+    "manufacturer": "ASUS",
+    "part_numbers": ["prime-b760m-a-ii"],
+    "series": "PRIME",
+    "variant": "B760M-A II",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black/Silver"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-ii/techspec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "prime-b760m-a-ii",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

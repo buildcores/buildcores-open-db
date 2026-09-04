@@ -1,10 +1,14 @@
 {
   "opendb_id": "48d0ae54-1282-4393-951a-d36928cd2938",
+  "series": "A-Series A6 9000",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 2,
     "performance": 0,
-    "threads": 2,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 2
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 4
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "1 × 96 KB Instruction + 2 × 32 KB Data (160 KB total)",
     "l2": 1,
-    "l3": 0,
-    "l1": "1 × 96 KB Instruction + 2 × 32 KB Data (160 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon R5 Graphics",
       "baseClock": 1029,
       "boostClock": 0,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A6-9550 OEM/Tray",
@@ -49,11 +53,18 @@
     "variant": "9550",
     "releaseYear": 2017
   },
-  "series": "A-Series A6 9000",
-  "microarchitecture": "Excavator",
-  "coreFamily": "Bristol Ridge",
-  "socket": "AM4",
   "general_product_information": {
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a6-series-apu-for-desktops/7th-gen-a6-9550-apu.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD9550AGM23AB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

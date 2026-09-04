@@ -1,5 +1,18 @@
 {
   "opendb_id": "63da7b64-f703-4a34-ab1f-2ba3b51be199",
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 1800,
+  "min_noise_level": 14.2,
+  "max_noise_level": 25.6,
+  "color": [],
+  "lighting": [],
+  "height": 63,
+  "cpu_sockets": ["AM2", "AM3", "AM4", "AM5", "FM1", "FM2"],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
   "metadata": {
     "name": "ID-COOLING DK-03A Air RGB PWM 61.5 CFM",
     "manufacturer": "ID-COOLING",
@@ -8,18 +21,16 @@
     "variant": "",
     "releaseYear": null
   },
-  "min_fan_rpm": 500,
-  "max_fan_rpm": 1800,
-  "min_noise_level": 14.2,
-  "max_noise_level": 25.6,
-  "color": [],
-  "height": 63,
-  "cpu_sockets": ["AM2", "AM3", "AM4", "AM5", "FM1", "FM2"],
-  "water_cooled": false,
-  "radiator_size": null,
-  "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DK-03A RGB PWM",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

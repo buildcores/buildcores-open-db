@@ -1,10 +1,14 @@
 {
   "opendb_id": "0edb1176-bee6-412a-b9ba-6ccc45fa0887",
+  "series": "A-Series A10 9000",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)",
     "l2": 2,
-    "l3": 0,
-    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 35,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon R7 Graphics",
-      "boostClock": 847,
       "baseClock": 384,
+      "boostClock": 847,
       "shaderCount": 384
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 35,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A10-9700E",
@@ -49,11 +53,165 @@
     "variant": "9700E",
     "releaseYear": 2017
   },
-  "series": "A-Series A10 9000",
-  "microarchitecture": "Excavator",
-  "coreFamily": "Bristol Ridge",
-  "socket": "AM4",
-  "general_product_information": {
-    "amazon_sku": "B074BKQH87"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0818253739772",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD9700AHABBOX",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B961021",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "818253739772",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B074BKQH87",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55468874236286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1664176",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1664176",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1664176",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

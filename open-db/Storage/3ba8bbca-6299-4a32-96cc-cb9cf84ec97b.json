@@ -1,5 +1,12 @@
 {
   "opendb_id": "3ba8bbca-6299-4a32-96cc-cb9cf84ec97b",
+  "capacity": 4000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "cache": null,
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Nextorage G-Series LE 4TB SSD M.2-2280 PCIe 4.0 x4 NVMe",
     "manufacturer": "Nextorage",
@@ -7,15 +14,36 @@
     "series": "G-Series",
     "variant": "4000GB"
   },
-  "capacity": 4000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "cache": null,
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-0106-00023"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GNE SYM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "NN4LE-4TB2CN",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-0106-00023",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-0106-00023",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

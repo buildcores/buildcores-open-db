@@ -1,29 +1,54 @@
 {
   "opendb_id": "94b0a40a-251f-4079-9bfc-ffa3389234f7",
+  "size": 120,
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
+  "quantity": 6,
+  "min_airflow": 46.7,
+  "min_noise_level": 27.7,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 1.45,
+  "flow_direction": "Standard",
+  "isOEM": false,
   "metadata": {
     "name": "Darkrock F120 White 6-Pack",
     "manufacturer": "DARKROCK",
+    "part_numbers": ["DR-FAN-F120-WT X6"],
     "series": "F120",
     "variant": "6-Pack",
-    "manufacturer_color": "White",
-    "part_numbers": ["DR-FAN-F120-WT X6"],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
   },
-  "size": 120,
-  "quantity": 6,
-  "pwm": true,
-  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-  "color": ["WHITE"],
-  "lighting": ["ARGB"],
-  "isOEM": false,
-  "flow_direction": "Standard",
-  "min_airflow": 46.7,
-  "min_noise_level": 27.7,
-  "led": "Addressable RGB",
-  "static_pressure": 1.45,
-  "controller": "None",
   "general_product_information": {
-    "newegg_sku": "9SIBGX1KGN4482",
     "manufacturer_url": "https://darkrockpc.com/products/darkrock-f120-6-pack-120mm-case-fans?variant=46795268161791"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DR-FAN-F120-WT X6",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBGX1KGN4482",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBGX1KGN4482",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

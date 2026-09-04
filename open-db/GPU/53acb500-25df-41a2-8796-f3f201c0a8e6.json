@@ -1,5 +1,21 @@
 {
   "opendb_id": "53acb500-25df-41a2-8796-f3f201c0a8e6",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5070 Ti",
+  "core_count": 8960,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2452,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 0,
+  "memory_bus": 256,
+  "tdp": 300,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 300,
+  "total_slot_width": 2,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,21 +38,38 @@
     "series": "GeForce RTX 5070 Ti",
     "variant": "Inno3D"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5070 Ti",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2295,
-  "core_boost_clock": 2452,
-  "effective_memory_clock": 0,
-  "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 300,
-  "tdp": 300,
-  "total_slot_width": 2,
-  "cooling": "3 Fans",
-  "core_count": 8960,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "N507T3-16D7-176068N",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "VGA7292",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "N507T3-16D7-176068N",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC83001",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

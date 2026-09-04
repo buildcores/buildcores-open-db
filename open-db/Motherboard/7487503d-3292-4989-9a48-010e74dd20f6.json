@@ -1,58 +1,15 @@
 {
   "opendb_id": "7487503d-3292-4989-9a48-010e74dd20f6",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X870E",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 3,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 6,
-    "pump": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "power_led": true,
-    "hdd_led": true
-  },
-  "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin", "8-pin"]
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC897",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "MSI MAG X870E GAMING PLUS MAX WIFI",
-    "manufacturer": "MSI",
-    "part_numbers": ["MAG X870E GAMING PLUS MAX WIFI", "X870E GAMING PLUS MAX WIFI"],
-    "releaseYear": 2024,
-    "variant": "X870E GAMING PLUS MAX WIFI",
-    "manufacturer_color": "White",
-    "last_manually_spec_verified_at": "2026-04-27T14:43:08.000Z"
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD X870E",
   "color": ["GREY", "WHITE"],
+  "lighting": [],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -87,7 +44,48 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek 8126"
+    }
+  ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x Clear CMOS button",
     "1 x Flash BIOS button",
@@ -101,18 +99,322 @@
     "2 x Wi-Fi antenna connectors",
     "3 x Audio jacks"
   ],
-  "onboard_ethernet": [
-    {
-      "speed": "5 Gb/s",
-      "controller": "Realtek 8126"
-    }
-  ],
-  "lighting": [],
+  "metadata": {
+    "name": "MSI MAG X870E GAMING PLUS MAX WIFI",
+    "manufacturer": "MSI",
+    "part_numbers": [],
+    "series": "Default",
+    "variant": "X870E GAMING PLUS MAX WIFI",
+    "releaseYear": 2024,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2026-04-27T14:43:08.000Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0GKQMNGWP",
-    "newegg_sku": "N82E16813144740",
-    "walmart_sku": 19606917647,
-    "ibuypower_sku": "32313",
     "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X870E-GAMING-PLUS-MAX-WIFI/Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142448571",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711377406727",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MAG X870E GAMING PLUS MAX WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870E GAMING PLUS MAX WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142448571",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100198553",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100198553",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100198553",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100198553",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GKQMNGWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSMX870EGPMW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "MAG X870E GAMING PLUS MAX WIFI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3685336",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3685336",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ibuypower",
+        "channel": "us",
+        "source_product_id": "32313",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "MAG X870E GAMING PLUS MAX WIFI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "2936",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "2936",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813144740",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144740",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-MSI-08564",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21976481",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21976481",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3488398",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3488398",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3488398",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3488398",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202604200033",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3685336",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19606917647",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

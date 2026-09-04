@@ -1,9 +1,24 @@
 {
   "opendb_id": "cac9cc5a-0bea-479c-802f-a47035ba93ea",
+  "speed": 8000,
+  "ram_type": "DDR5",
+  "profile_support": ["EXPO"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 24
   },
+  "capacity": 48,
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "cas_latency": 40,
+  "timings": "40-48-48-128",
+  "voltage": 1.4,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": true,
+  "height": 44,
   "metadata": {
     "name": "G.Skill Trident Z5 Neo RGB Matte Black DDR5-8000 CL40 48GB (2x24GB)",
     "manufacturer": "G.SKILL",
@@ -12,23 +27,33 @@
     "releaseYear": 2022,
     "manufacturer_color": "Matte Black"
   },
-  "speed": 8000,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
-  "capacity": 48,
-  "color": ["BLACK"],
-  "cas_latency": 40,
-  "timings": "40-48-48-128",
-  "voltage": 1.4,
-  "ecc": "Non-ECC",
-  "registered": "Unbuffered",
-  "heat_spreader": true,
-  "rgb": true,
-  "profile_support": ["EXPO"],
-  "lighting": ["ARGB"],
-  "height": 44,
   "general_product_information": {
-    "newegg_sku": "N82E16820374636",
     "manufacturer_url": "https://www.gskill.com/product/165/390/1725939074/F5-8000J4048G24GX2-TZ5NR"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "F5-8000J4048G24GX2-TZ5NR",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820374636",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820374636",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

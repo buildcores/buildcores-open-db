@@ -1,15 +1,8 @@
 {
   "opendb_id": "0596f5eb-ff75-4581-8735-3f791c7ddfd3",
-  "metadata": {
-    "name": "ARCTIC P12 120mm White / Transparent PWM",
-    "manufacturer": "ARCTIC",
-    "part_numbers": ["ACFAN00132A"],
-    "series": "P12",
-    "manufacturer_color": "White(Transparent)",
-    "releaseYear": 2018
-  },
   "size": 120,
   "color": ["WHITE"],
+  "lighting": ["None"],
   "quantity": 1,
   "min_airflow": 56.3,
   "max_airflow": null,
@@ -22,9 +15,48 @@
   "static_pressure": 2.2,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": ["None"],
+  "metadata": {
+    "name": "ARCTIC P12 120mm White / Transparent PWM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": ["ACFAN00132A"],
+    "series": "P12",
+    "releaseYear": 2018,
+    "manufacturer_color": "White(Transparent)"
+  },
   "general_product_information": {
-    "newegg_sku": "9SIB0ASKHY9439",
     "manufacturer_url": "https://www.arctic.de/en/P12-PWM-PST/ACFAN00132A"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ACFAN00132A",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CLR3164",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIB0ASKHY9439",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB0ASKHY9439",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

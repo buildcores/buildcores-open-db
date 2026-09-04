@@ -1,10 +1,14 @@
 {
   "opendb_id": "fbdbb84d-28f7-4e7e-afca-a24a848ee5c7",
+  "series": "Core i5 4000",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
+  "socket": "LGA 1150",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 3.9
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)",
     "l2": 1,
-    "l3": 6,
-    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
+    "l3": 6
   },
   "specifications": {
+    "tdp": 84,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 4600",
       "baseClock": 350,
       "boostClock": 1200,
       "shaderCount": 160
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 84,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i5 4690 OEM/Tray",
@@ -49,13 +53,146 @@
     "variant": "4690",
     "releaseYear": 2014
   },
-  "series": "Core i5 4000",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell",
-  "socket": "LGA 1150",
   "general_product_information": {
-    "amazon_sku": "B00TO9ZD8M",
-    "walmart_sku": 344072550,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/80810/intel-core-i54690-processor-6m-cache-up-to-3-90-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0808112555070",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8064601560516",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MFG CM8064601560516",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "808112555070",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00TO9ZD8M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "344072550",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

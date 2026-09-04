@@ -1,5 +1,22 @@
 {
   "opendb_id": "20d9e947-cf07-4adf-89db-0ad914683726",
+  "chipset_manufacturer": "Intel",
+  "chipset": "Arc B580",
+  "core_base_clock": 2740,
+  "core_boost_clock": 2740,
+  "memory": 12,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 19000,
+  "memory_bus": 192,
+  "tdp": 205,
+  "interface": "PCIe 4.0 x8",
+  "frame_sync": null,
+  "color": [],
+  "lighting": [],
+  "length": 268,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
+  "cooling": "1 Fan",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 1,
@@ -18,29 +35,36 @@
   "metadata": {
     "name": "Acer Nitro Intel Arc B580 12GB Graphics Card",
     "manufacturer": "Acer",
+    "part_numbers": ["DP.Z4BWW.P01"],
     "series": "Nitro",
     "variant": "AN-B580-OCA",
-    "releaseYear": 2024,
-    "part_numbers": ["DP.Z4BWW.P01"]
+    "releaseYear": 2024
   },
-  "chipset_manufacturer": "Intel",
-  "chipset": "Arc B580",
-  "memory": 12,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2740,
-  "core_boost_clock": 2740,
-  "effective_memory_clock": 19000,
-  "memory_bus": 192,
-  "interface": "PCIe 4.0 x8",
-  "frame_sync": null,
-  "length": 268,
-  "tdp": 205,
-  "case_expansion_slot_width": 2,
-  "total_slot_width": 2,
-  "cooling": "1 Fan",
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16814553012"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DP.Z4BWW.P01",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814553012",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814553012",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

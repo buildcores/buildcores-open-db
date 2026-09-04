@@ -1,10 +1,14 @@
 {
   "opendb_id": "a8cd0239-10f5-4e57-be79-c3540e17cafc",
+  "series": "Ryzen 5 5000",
+  "microarchitecture": "Zen 3",
+  "coreFamily": "Vermeer",
+  "socket": "AM4",
   "cores": {
     "total": 6,
     "performance": 0,
-    "threads": 12,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 12
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
-    "l3": 96,
     "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)",
-    "l2": 3
+    "l2": 3,
+    "l3": 96
   },
   "specifications": {
+    "tdp": 105,
+    "ppt": 142,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
     "simultaneousMultithreading": true,
-    "ppt": 142
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD Ryzen 5 5600X3D",
@@ -49,11 +53,23 @@
     "variant": "5600X3D",
     "releaseYear": 2023
   },
-  "series": "Ryzen 5 5000",
-  "microarchitecture": "Zen 3",
-  "coreFamily": "Vermeer",
-  "socket": "AM4",
   "general_product_information": {
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "100-100001176WO",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-100001176WOF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

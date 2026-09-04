@@ -1,22 +1,16 @@
 {
   "opendb_id": "c1667f39-e3e1-424f-a845-b4546f95e2bd",
+  "speed": 6000,
+  "ram_type": "DDR5",
+  "profile_support": ["EXPO"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 32
   },
-  "metadata": {
-    "name": "G.Skill Trident Z5 Royal Neo RGB DDR5-6000 CL26 64GB (2x32GB)",
-    "manufacturer": "G.SKILL",
-    "part_numbers": ["F5-6000J2636G32GX2-TR5NG"],
-    "series": "Trident Z5 Royal Neo RGB",
-    "manufacturer_color": "Gold (Mirror Finish)",
-    "releaseYear": 2024
-  },
-  "speed": 6000,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
   "capacity": 64,
   "color": ["GOLD"],
+  "lighting": ["ARGB"],
   "cas_latency": 26,
   "timings": "26-36-36-96",
   "voltage": 1.4,
@@ -24,11 +18,42 @@
   "registered": "Unbuffered",
   "heat_spreader": true,
   "rgb": true,
-  "profile_support": ["EXPO"],
-  "lighting": ["ARGB"],
   "height": 44,
+  "metadata": {
+    "name": "G.Skill Trident Z5 Royal Neo RGB DDR5-6000 CL26 64GB (2x32GB)",
+    "manufacturer": "G.SKILL",
+    "part_numbers": ["F5-6000J2636G32GX2-TR5NG"],
+    "series": "Trident Z5 Royal Neo RGB",
+    "releaseYear": 2024,
+    "manufacturer_color": "Gold (Mirror Finish)"
+  },
   "general_product_information": {
-    "newegg_sku": "N82E16820374677",
     "manufacturer_url": "https://www.gskill.com/product/165/425/1736133034/F5-6000J2636G32GX2-TR5NG-EOL"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "F5-6000J2636G32GX2-TR5NG",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820374677",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820374677",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

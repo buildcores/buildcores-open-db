@@ -1,74 +1,15 @@
 {
   "opendb_id": "983186db-a6cd-4110-8f2d-e7be42d5b1e3",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X670E",
   "memory": {
     "max": 192,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 3,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 5,
-    "pump": 1,
-    "cpu_opt": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1,
-    "thunderbolt": 1,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC4080",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS ROG STRIX X670E-E GAMING WIFI AM5 DDR5 ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": [
-      "ROG STRIX X670E-E GAMING WIFI",
-      "STRIX X670E-E GAMING WIFI",
-      "90MB1BR0-M0AAY0",
-      "90MB1BR0-M0EAY0"
-    ],
-    "series": "ROG STRIX",
-    "variant": "X670E-E GAMING WIFI",
-    "releaseYear": 2022,
-    "manufacturer_color": "Black"
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD X670E",
   "color": ["BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB", "Display"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -103,15 +44,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 6E",
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x USB 3.2 Gen 2x2 port (1 x Type-C®)",
     "12 x USB 3.2 Gen 2 ports (10 x Type-A, 2 x USB Type-C®)",
@@ -124,12 +112,231 @@
     "1 x BIOS FlashBack™  button",
     "1 x Clear CMOS button"
   ],
-  "lighting": ["RGB", "ARGB", "Display"],
-  "wireless_networking": "Wifi 6E",
+  "metadata": {
+    "name": "ASUS ROG STRIX X670E-E GAMING WIFI AM5 DDR5 ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": [
+      "ROG STRIX X670E-E GAMING WIFI",
+      "STRIX X670E-E GAMING WIFI",
+      "90MB1BR0-M0AAY0",
+      "90MB1BR0-M0EAY0"
+    ],
+    "series": "ROG STRIX",
+    "variant": "X670E-E GAMING WIFI",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BDTHQTJV",
-    "newegg_sku": "N82E16813119581",
-    "walmart_sku": 1236364323,
     "manufacturer_url": "https://rog.asus.com/ph/motherboards/rog-strix/rog-strix-x670e-e-gaming-wifi-model/spec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553891707",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081891703",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1BR0-M0AAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1BR0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX X670E-E GAMING WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "STRIX X670E-E GAMING WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553891707",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BDTHQTJV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56997580964222",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASRSX670EGW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2800647",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2800647",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813119581",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119581",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-6J5-AS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2800647",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1236364323",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

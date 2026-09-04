@@ -1,69 +1,15 @@
 {
   "opendb_id": "ff1a2e23-c482-4cd0-821e-9cf7892577ab",
+  "socket": "AM4",
+  "form_factor": "Mini-ITX",
+  "chipset": "AMD B550",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 1,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 2,
-    "cpu_opt": 0,
-    "pump": 0
-  },
-  "rgb_headers": {
-    "argb_5v": 1,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC1220-VB codec",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "GIGABYTE AORUS B550I PRO AX AM4 DDR4 MINI-ITX",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["B550I AORUS PRO AX", "GA-B550-I-AORUS-PRO-AX", "B550I"],
-    "series": "AORUS",
-    "variant": "B550I PRO AX",
-    "releaseYear": 2020,
-    "manufacturer_color": "Black"
-  },
-  "socket": "AM4",
-  "form_factor": "Mini-ITX",
-  "chipset": "AMD B550",
   "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -83,15 +29,62 @@
       "interface": "PCIe 3.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "WiFi 6",
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 0,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220-VB codec",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x DisplayPort",
     "2 x HDMI ports",
@@ -103,12 +96,329 @@
     "2 x SMA antenna connectors (2T2R)",
     "3 x audio jacks"
   ],
-  "lighting": ["ARGB", "RGB"],
-  "wireless_networking": "WiFi 6",
+  "metadata": {
+    "name": "GIGABYTE AORUS B550I PRO AX AM4 DDR4 MINI-ITX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["B550I AORUS PRO AX", "GA-B550-I-AORUS-PRO-AX", "B550I"],
+    "series": "AORUS",
+    "variant": "B550I PRO AX",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B089TP3GQF",
-    "newegg_sku": "N82E16813145222",
-    "bestbuy_sku": 6420400,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-rev-10/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0753459204337",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0889523022986",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4719331809508",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B550I",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B550I AORUS PRO AX",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GA-B550-I-AORUS-PRO-AX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "753459204337",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523022986",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1647994",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1647994",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1647994",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1647994",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B089TP3GQF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306533241214",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6420400",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIB550IAPAX",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "GAB55IAPW-00-G",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD2896",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2295234",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8HG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2295234",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "162812",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145222",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145222",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21004682",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21004682",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "2861170",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "2861170",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "2861170",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "2861170",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "251788",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2295234",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

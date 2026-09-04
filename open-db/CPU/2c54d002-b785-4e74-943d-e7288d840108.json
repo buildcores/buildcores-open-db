@@ -1,10 +1,14 @@
 {
   "opendb_id": "2c54d002-b785-4e74-943d-e7288d840108",
+  "series": "Core i7 6000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 4
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)",
     "l2": 1,
-    "l3": 8,
-    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 530",
       "baseClock": 350,
       "boostClock": 1150,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4", "DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i7 6700 OEM/Tray",
@@ -49,13 +53,179 @@
     "variant": "6700",
     "releaseYear": 2015
   },
-  "series": "Core i7 6000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B015XEW9BA",
-    "walmart_sku": 166711535,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/88196/intel-core-i76700-processor-8m-cache-up-to-4-00-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0675901346429",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0675901376136",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8066201920103",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901346429",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901376136",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B015XEW9BA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1261886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1261886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00006885073",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1261886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "166711535",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

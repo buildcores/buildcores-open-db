@@ -1,10 +1,14 @@
 {
   "opendb_id": "53bba6ac-3ef1-4f1d-8079-9ccbedd463ef",
+  "series": "Core i5 4000",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
+  "socket": "LGA 1150",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)",
     "l2": 1,
-    "l3": 6,
-    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
+    "l3": 6
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 4600",
       "baseClock": 350,
       "boostClock": 1200,
       "shaderCount": 160
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i5 4670S OEM/Tray",
@@ -49,12 +53,33 @@
     "variant": "4670S",
     "releaseYear": 2013
   },
-  "series": "Core i5 4000",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell",
-  "socket": "LGA 1150",
   "general_product_information": {
-    "newegg_sku": "9SIADD8KVX3787",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75049/intel-core-i54670s-processor-6m-cache-up-to-3-80-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8064601465703",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIADD8KVX3787",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADD8KVX3787",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,5 +1,21 @@
 {
   "opendb_id": "898781ff-b863-4ff4-bd9f-5b114370d21a",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 6750 XT",
+  "core_count": 2560,
+  "core_base_clock": 2150,
+  "core_boost_clock": 2600,
+  "memory": 12,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "tdp": 250,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 323,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 2,
@@ -22,23 +38,31 @@
     "series": "Radeon RX 6750 XT",
     "variant": "XFX"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 6750 XT",
-  "memory": 12,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2150,
-  "core_boost_clock": 2600,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 323,
-  "tdp": 250,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 2560,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16814150887"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RX-675XYJFDE",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814150887",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814150887",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

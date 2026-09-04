@@ -1,10 +1,14 @@
 {
   "opendb_id": "643f6223-be25-462c-b89b-9470d84a2c56",
+  "series": "FX 6000",
+  "microarchitecture": "Bulldozer",
+  "coreFamily": "Zambezi",
+  "socket": "AM3+",
   "cores": {
     "total": 6,
     "performance": 0,
-    "threads": 6,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 6
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "3 × 64 KB Instruction + 6 × 16 KB Data (288 KB total)",
     "l2": 6,
-    "l3": 8,
-    "l1": "3 × 64 KB Instruction + 6 × 16 KB Data (288 KB total)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD FX-6130 OEM/Tray",
@@ -49,11 +53,18 @@
     "variant": "6130",
     "releaseYear": 2012
   },
-  "series": "FX 6000",
-  "microarchitecture": "Bulldozer",
-  "coreFamily": "Zambezi",
-  "socket": "AM3+",
   "general_product_information": {
     "manufacturer_url": "https://www.techpowerup.com/cpu-specs/fx-6130.c1206"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "FD6130FRW6KGU",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

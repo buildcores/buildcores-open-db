@@ -1,5 +1,9 @@
 {
   "opendb_id": "25aa1b27-21d2-4700-9149-491ed266e9e8",
+  "series": "Intel Core i7",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-E",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 6,
     "performance": 6,
@@ -16,19 +20,19 @@
     "l3": 15
   },
   "specifications": {
+    "tdp": 140,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80671I76850K"],
     "series": "Intel Core i7"
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Broadwell",
-  "coreFamily": "Broadwell-E",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80671I76850K",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

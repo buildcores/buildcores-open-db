@@ -1,15 +1,55 @@
 {
   "opendb_id": "6be99d2a-6012-4daf-8a20-2c5cfa51e352",
+  "socket": "LGA 1151",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B360",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242, 2260, 2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    },
+    {
+      "size": "2242, 2260, 2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x2, SATA III"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,61 +71,6 @@
     "chipset": "SupremeFX S1220A",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUS Republic of Gamers Strix B360-G Gaming LGA1151 Micro-ATX Motherboard",
-    "manufacturer": "ASUS",
-    "series": "ROG Strix",
-    "variant": "B360-G Gaming",
-    "releaseYear": 2018,
-    "part_numbers": ["STRIX B360-G GAMING", "ROG STRIX B360-G GAMING"]
-  },
-  "socket": "LGA 1151",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B360",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abf375ef0cf5df0160b4"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3abf375ef0cf5df0160b5"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3abf375ef0cf5df0160b6"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242, 2260, 2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3abf375ef0cf5df0160b7"
-    },
-    {
-      "size": "2242, 2260, 2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x2, SATA III",
-      "_id": "69b3abf375ef0cf5df0160b8"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219V",
-      "_id": "69b3abf375ef0cf5df0160b9"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2x USB-A (USB 3.1/3.2 Gen 2)",
     "2x USB-A (USB 3.0 / 3.1/3.2 Gen 1)",
@@ -94,11 +82,166 @@
     "1x Intel I219V Gigabit",
     "1x Combo"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07BP9QG2N",
-    "newegg_sku": "9SIBKYEK6R6254",
-    "walmart_sku": 393885648
+  "metadata": {
+    "name": "ASUS Republic of Gamers Strix B360-G Gaming LGA1151 Micro-ATX Motherboard",
+    "manufacturer": "ASUS",
+    "part_numbers": ["STRIX B360-G GAMING", "ROG STRIX B360-G GAMING"],
+    "series": "ROG Strix",
+    "variant": "B360-G Gaming",
+    "releaseYear": 2018
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889349975343",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX B360-G GAMING",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "STRIX B360-G GAMING",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889349975343",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07BP9QG2N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBKYEK6R6254",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBKYEK6R6254",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "393885648",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

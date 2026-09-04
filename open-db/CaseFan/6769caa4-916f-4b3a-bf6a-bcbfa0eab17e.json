@@ -1,16 +1,8 @@
 {
   "opendb_id": "6769caa4-916f-4b3a-bf6a-bcbfa0eab17e",
-  "metadata": {
-    "name": "ID-COOLING AF-125-W 120mm White PWM",
-    "manufacturer": "ID-COOLING",
-    "part_numbers": ["AF-125-W"],
-    "series": "AF",
-    "variant": "125-W",
-    "manufacturer_color": "White",
-    "releaseYear": 2025
-  },
   "size": 120,
   "color": ["WHITE"],
+  "lighting": ["None"],
   "quantity": 1,
   "min_airflow": 78.25,
   "max_airflow": null,
@@ -23,9 +15,42 @@
   "static_pressure": 2.68,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": ["None"],
+  "metadata": {
+    "name": "ID-COOLING AF-125-W 120mm White PWM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": ["AF-125-W"],
+    "series": "AF",
+    "variant": "125-W",
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
-    "newegg_sku": "9SIC5JPKVA4309",
     "manufacturer_url": "https://www.idcooling.com/product/detail?id=369&name=AF-125-W#specifications"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AF-125-W",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC5JPKVA4309",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC5JPKVA4309",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,13 +1,49 @@
 {
   "opendb_id": "6872aa7b-6c1f-41e1-a357-8f7d24ee55e0",
+  "socket": "LGA 1851",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B860",
   "memory": {
     "max": 192,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["WHITE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4
   },
+  "onboard_ethernet": [],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -24,14 +60,15 @@
   },
   "front_panel_headers": {
     "power_button": true,
+    "reset_button": true,
     "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
+    "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
+  "raid_support": true,
   "bios_features": {
     "clear_cmos": true
   },
@@ -39,51 +76,6 @@
     "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "Colorful iGame B860M Ultra V20",
-    "manufacturer": "Colorful",
-    "series": "B860M",
-    "part_numbers": [],
-    "variant": "iGame ULTRA V20",
-    "last_manually_spec_verified_at": "2025-10-28T23:48:41.378Z"
-  },
-  "socket": "LGA 1851",
-  "color": ["WHITE"],
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abd881594acde48fb589"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3abd881594acde48fb58a"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe 5.0 x4",
-      "_id": "69b3abd881594acde48fb58b"
-    },
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abd881594acde48fb58c"
-    },
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abd881594acde48fb58d"
-    }
-  ],
-  "onboard_ethernet": [],
   "back_panel_ports": [
     "4×USB 2.0 interfaces",
     "2×USB 3.2 Gen 1 Type-A interfaces",
@@ -96,12 +88,20 @@
     "1×BIOS update button",
     "1×CMOS clearing key"
   ],
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B860",
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "raid_support": true,
-  "lighting": [],
+  "metadata": {
+    "name": "Colorful iGame B860M Ultra V20",
+    "manufacturer": "Colorful",
+    "part_numbers": [],
+    "series": "B860M",
+    "variant": "iGame ULTRA V20",
+    "last_manually_spec_verified_at": "2025-10-28T23:48:41.378Z"
+  },
   "general_product_information": {
     "manufacturer_url": "https://en.colorful.cn/en/home/product?mid=84&id=ccb11f76-5299-4a20-9cbe-9527c65e4b4b"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [],
+    "retailer_listings": []
   }
 }

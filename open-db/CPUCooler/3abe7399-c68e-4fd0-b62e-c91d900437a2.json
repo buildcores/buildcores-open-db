@@ -1,14 +1,9 @@
 {
   "opendb_id": "3abe7399-c68e-4fd0-b62e-c91d900437a2",
-  "metadata": {
-    "name": "Thermalright Assassin X 120 R Digital White",
-    "manufacturer": "Thermalright",
-    "part_numbers": [],
-    "manufacturer_color": "White",
-    "releaseYear": 2024,
-    "series": "Assassin X",
-    "variant": "Digital"
-  },
+  "min_fan_rpm": 2000,
+  "min_noise_level": 29.8,
+  "color": ["WHITE"],
+  "lighting": ["None"],
   "height": 151,
   "cpu_sockets": [
     "AM5",
@@ -22,15 +17,38 @@
     "LGA 1155"
   ],
   "water_cooled": false,
-  "fan_size": 120,
-  "color": ["WHITE"],
-  "lighting": ["None"],
-  "min_fan_rpm": 2000,
-  "min_noise_level": 29.8,
   "fanless": false,
+  "fan_size": 120,
   "fan_quantity": 2,
+  "metadata": {
+    "name": "Thermalright Assassin X 120 R Digital White",
+    "manufacturer": "Thermalright",
+    "part_numbers": [],
+    "series": "Assassin X",
+    "variant": "Digital",
+    "releaseYear": 2024,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
-    "walmart_sku": 18940252951,
     "manufacturer_url": "https://www.thermalright.com/product/assassin-x-120-r-digital-white/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "upc",
+        "value": "462064739126",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "18940252951",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

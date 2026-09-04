@@ -1,5 +1,9 @@
 {
   "opendb_id": "daa867ce-12d7-4220-94d7-1e5a9d8fdcc9",
+  "series": "Intel Xeon E",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 71,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 71,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E 2134 3.5 GHz 4-Core LGA1151 OEM/Tray",
@@ -36,11 +40,18 @@
     "part_numbers": ["CM8068403654319"],
     "series": "Intel Xeon E"
   },
-  "series": "Intel Xeon E",
-  "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
-  "socket": "LGA 1151",
   "general_product_information": {
     "manufacturer_url": "asdasd"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8068403654319",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }
