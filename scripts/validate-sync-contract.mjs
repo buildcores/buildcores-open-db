@@ -51,6 +51,25 @@ function version(snapshot) {
 
 export function validateChanges(changes) {
   const errors = [];
+  const previousPaths = new Map();
+  for (const { oldPath, before } of changes) {
+    if (!before) continue;
+    if (!previousPaths.has(before.opendb_id)) previousPaths.set(before.opendb_id, []);
+    previousPaths.get(before.opendb_id).push(oldPath);
+  }
+  // Git may split a heavily edited move into D + A. Match identities across
+  // the entire diff before either one-sided operation can be skipped.
+  for (const { newPath, after } of changes) {
+    if (!after) continue;
+    const source = previousPaths
+      .get(after.opendb_id)
+      ?.find((oldPath) => oldPath.split("/")[1] !== newPath.split("/")[1]);
+    if (source) {
+      errors.push(
+        `${newPath}: same-ID category moves require review (${source}). The importer does not safely move parts between categories; a failed destination create can still be followed by deletion of the original.`,
+      );
+    }
+  }
   let deletes = 0;
   for (const { oldPath, newPath, before, after } of changes) {
     if (before && !after) {
@@ -69,9 +88,6 @@ export function validateChanges(changes) {
       continue; // The main importer treats this rename as create + delete.
     }
     if (oldPath.split("/")[1] !== newPath.split("/")[1]) {
-      errors.push(
-        `${newPath}: same-ID category moves are sent as updates to the new category, where the part may not exist.`,
-      );
       continue;
     }
     const incoming = after.identifiers;

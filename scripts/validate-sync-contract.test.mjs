@@ -161,4 +161,28 @@ test("real Git diff handles deletes/renames and unrelated successful imports can
     },
   });
   assert.equal(noChanges.count, 0);
+
+  // Keep the ID but replace enough content that Git cannot infer a rename.
+  write("open-db/Keyboard/reclassified.json", {
+    ...part(2),
+    metadata: { part_numbers: ["different-model"], description: "changed content ".repeat(300) },
+  });
+  unlinkSync(path.join(cwd, "open-db/Monitor/renamed part.json"));
+  const movedHead = commit();
+  const splitMove = catalogChanges(head, movedHead, cwd);
+  assert.equal(splitMove.length, 2);
+  assert.ok(splitMove.every((change) => !change.before || !change.after));
+  const flagged = validateChanges(splitMove);
+  assert.equal(flagged.errors.length, 1);
+  assert.match(flagged.errors[0], /same-ID category moves require review/);
+  assert.match(flagged.errors[0], /deletion of the original/);
+  assert.equal(flagged.deletes, 1);
+
+  // Independent additions/deletions must not be mistaken for a move.
+  const independent = splitMove.map((change) =>
+    change.after
+      ? { ...change, after: { ...change.after, opendb_id: "unrelated-new-id" } }
+      : change,
+  );
+  assert.deepEqual(validateChanges(independent).errors, []);
 });
