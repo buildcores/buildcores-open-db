@@ -9,18 +9,29 @@ jobs:
   validate-json:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
       contents: read
+      actions: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "24"
+
+      - name: Test repository sync preflight
+        run: node --test scripts/validate-sync-contract.test.mjs
+
+      - name: Check repository sync contract and main import status
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.sha }}
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/validate-sync-contract.mjs "$BASE_SHA" "$HEAD_SHA"
 
       - name: Install ajv-cli and ajv-formats
         run: |
