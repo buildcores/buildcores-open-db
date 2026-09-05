@@ -1,14 +1,8 @@
 {
   "opendb_id": "29200734-75bc-4536-bbda-fed7eca0c6cc",
-  "metadata": {
-    "name": "Thermaltake CT120 EX 120mm Black ARGB PWM Sync 68 CFM 3-Pack",
-    "manufacturer": "Thermaltake",
-    "part_numbers": ["CL-F181-PL12SW-A"],
-    "series": "CT120",
-    "manufacturer_color": "Black"
-  },
   "size": 120,
   "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "quantity": 3,
   "min_airflow": 68,
   "max_airflow": null,
@@ -21,8 +15,45 @@
   "static_pressure": 2.95,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": ["ARGB"],
-  "general_product_information": {
-    "newegg_sku": "13C-001H-00266"
+  "metadata": {
+    "name": "Thermaltake CT120 EX 120mm Black ARGB PWM Sync 68 CFM 3-Pack",
+    "manufacturer": "Thermaltake",
+    "part_numbers": ["CL-F181-PL12SW-A"],
+    "series": "CT120",
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CL-F181-PL12SW-A",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC77585",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "13C-001H-00266",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "13C-001H-00266",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

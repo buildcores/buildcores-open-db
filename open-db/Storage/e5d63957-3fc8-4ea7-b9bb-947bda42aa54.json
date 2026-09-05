@@ -1,5 +1,11 @@
 {
   "opendb_id": "e5d63957-3fc8-4ea7-b9bb-947bda42aa54",
+  "capacity": 256,
+  "storage_type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "XOC Nitro 256GB SSD 2.5\" SATA",
     "manufacturer": "XOC",
@@ -7,14 +13,31 @@
     "series": "Nitro",
     "variant": "256GB"
   },
-  "capacity": 256,
-  "type": "SSD",
-  "form_factor": "2.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-010T-00006"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "XCNTS256G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-010T-00006",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-010T-00006",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

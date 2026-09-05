@@ -1,10 +1,14 @@
 {
   "opendb_id": "3b7629de-b1bc-4f03-b9bb-e5e13110f2d2",
+  "series": "PRO A4 7000",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Kaveri",
+  "socket": "FM2",
   "cores": {
     "total": 2,
     "performance": 0,
-    "threads": 2,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 2
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)",
     "l2": 1,
-    "l3": 0,
-    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon HD 8470D",
       "baseClock": 800,
       "boostClock": 0,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32nm SOI",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD PRO A4-7300B OEM/Tray",
@@ -49,13 +53,143 @@
     "variant": "7300B",
     "releaseYear": 2014
   },
-  "series": "PRO A4 7000",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Kaveri",
-  "socket": "FM2",
   "general_product_information": {
-    "amazon_sku": "B0DF1FYTGG",
-    "newegg_sku": "9SIADD8KVX3604",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/pro-a-series/pro-a-series-a4-apu-for-desktops/a4-pro-7300b-with-radeon-hd-8470d.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "9104813744258",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD730BOKA23HL",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DF1FYTGG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIADD8KVX3604",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADD8KVX3604",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

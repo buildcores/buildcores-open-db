@@ -1,44 +1,84 @@
 {
   "opendb_id": "c0bdc85e-bd7e-4a1d-8e78-d1e0888bb174",
+  "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX", "ATX", "EATX"],
+  "color": ["YELLOW", "BLACK"],
+  "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["1 x USB 3.2 Gen 1 Type-A"],
+  "max_video_card_length": 420,
+  "max_cpu_cooler_height": 180,
+  "max_psu_length": 240,
+  "internal_3_5_bays": 4,
+  "internal_2_5_bays": 7,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "riser_expansion_slots": 2,
+  "supports_rear_connecting_motherboard": false,
+  "dimensions": "545 x 251 x 552",
   "dimensions_mm": {
     "depth": 545,
     "width": 251,
     "height": 552
   },
+  "volume": 75.511,
+  "weight": 23.15,
   "metadata": {
     "name": "Asus TUF Gaming GT501 Demon Slayer Edition ATX Mid Tower Yellow / Black Tempered Glass Side Panel",
     "manufacturer": "ASUS",
     "part_numbers": ["90DC0015-B48000", "TUF Gaming GT501 Demon Slayer Edition"],
     "series": "TUF GT501",
     "variant": "",
-    "manufacturer_color": "Demon Slayer Edition",
-    "releaseYear": 2018
+    "releaseYear": 2018,
+    "manufacturer_color": "Demon Slayer Edition"
   },
-  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX", "ATX", "EATX"],
-  "form_factor": "ATX Mid Tower",
-  "color": ["YELLOW", "BLACK"],
-  "power_supply": "None",
-  "side_panel": "Tempered Glass",
-  "has_transparent_side_panel": true,
-  "front_panel_usb": "USB 3.2 Gen 1 Type-A",
-  "max_video_card_length": 420,
-  "max_cpu_cooler_height": 180,
-  "internal_3_5_bays": 4,
-  "expansion_slots": 7,
-  "dimensions": "545 x 251 x 552",
-  "volume": 75.511,
-  "weight": 23.15,
-  "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": ["1 x USB 3.2 Gen 1 Type-A"],
-  "lighting": ["ARGB"],
-  "power_supply_included": false,
-  "max_psu_length": 240,
-  "power_supply_shroud": true,
-  "supports_rear_connecting_motherboard": false,
-  "internal_2_5_bays": 7,
-  "riser_expansion_slots": 2,
   "general_product_information": {
-    "newegg_sku": "N82E16811173047R",
     "manufacturer_url": "https://www.asus.com/us/motherboards-components/cases/tuf-gaming/tuf-gaming-gt501-demon-slayer-edition/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553772419",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90DC0015-B48000",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TUF Gaming GT501 Demon Slayer Edition",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553772419",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811173047R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811173047R",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

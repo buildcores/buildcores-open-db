@@ -1,9 +1,24 @@
 {
   "opendb_id": "d0ac0a02-4eb1-46b6-b3be-e746edbb6668",
+  "speed": 6400,
+  "ram_type": "DDR5",
+  "profile_support": ["XMP", "EXPO"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
+  "capacity": 32,
+  "color": ["BLACK"],
+  "lighting": [],
+  "cas_latency": 36,
+  "timings": "36-48-48-104",
+  "voltage": 1.4,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": false,
+  "height": 35,
   "metadata": {
     "name": "PNY XLR8 Gaming Black 32GB (2x16GB) DDR5 6400 CL36 Black",
     "manufacturer": "PNY",
@@ -14,24 +29,85 @@
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-04-05T14:39:38.081Z"
   },
-  "speed": 6400,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
-  "capacity": 32,
-  "color": ["BLACK"],
-  "cas_latency": 36,
-  "voltage": 1.4,
-  "ecc": "Non-ECC",
-  "registered": "Unbuffered",
-  "heat_spreader": true,
-  "rgb": false,
-  "profile_support": ["XMP", "EXPO"],
-  "timings": "36-48-48-104",
-  "height": 35,
-  "lighting": [],
   "general_product_information": {
-    "newegg_sku": "N82E16820177178",
-    "walmart_sku": 17324655546,
     "manufacturer_url": "https://www.pny.com/xlr8-gaming-ddr5-6400-mhz-desktop-memory-kit"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0751492790640",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MD32GK2D5640036XR",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "751492790640",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "PN322D56436X",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3455481",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3455481",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820177178",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820177178",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MEM-PNY-04558",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3455481",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17324655546",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

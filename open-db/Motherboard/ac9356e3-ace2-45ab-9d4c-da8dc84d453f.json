@@ -1,15 +1,34 @@
 {
   "opendb_id": "ac9356e3-ace2-45ab-9d4c-da8dc84d453f",
+  "socket": "2 x LGA 2011-3 Narrow",
+  "form_factor": "SSI EEB",
+  "chipset": "Intel C612",
   "memory": {
     "max": 1024,
     "ram_type": "DDR4",
     "slots": 16
   },
+  "color": ["GREEN", "BLUE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 6,
+      "lanes": 8
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 10,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s                                                    2 x 10 Gb/s"],
   "metadata": {
     "name": "ASRock Intel C612 EP2C612D16SM-2T Dual-CPU LGA2011-3 Narrow DDR4 SSI EEB",
     "manufacturer": "ASRock",
@@ -35,30 +58,16 @@
     "series": "Intel",
     "variant": ""
   },
-  "socket": "2 x LGA 2011-3 Narrow",
-  "form_factor": "SSI EEB",
-  "chipset": "Intel C612",
-  "color": ["GREEN", "BLUE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 6,
-      "lanes": 8,
-      "_id": "69b3ac2a36a2b96d5d83f196"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ac2a36a2b96d5d83f197"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s                                                    2 x 10 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "EP2C612D16SM-2T",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

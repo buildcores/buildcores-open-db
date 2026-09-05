@@ -1,5 +1,23 @@
 {
   "opendb_id": "0dc8dc65-87c4-4f38-b405-08b66cb27ebe",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5060 Ti 16 GB",
+  "core_count": 4608,
+  "core_base_clock": 2407,
+  "core_boost_clock": 2572,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 1750,
+  "memory_bus": 128,
+  "tdp": 180,
+  "interface": "PCIe 5.0 x8",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB"],
+  "length": 302,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3.1,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -7,20 +25,20 @@
     "pcie_12V_2x6": 1
   },
   "video_outputs": {
+    "hdmi_2_2": 0,
     "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
     "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
-    "dvi_d": 0,
-    "vga": 0,
-    "hdmi_2_1b": 1,
-    "hdmi_2_2": 0,
-    "hdmi_2_1a": 0,
     "displayport_2_1_b": 3,
     "usb_c": 0,
-    "hdmi_2_0a": 0,
-    "hdmi_2_0b": 0
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
     "name": "ASUS TUF Gaming GeForce RTX 5060 Ti 16GB GDDR7",
@@ -30,25 +48,18 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5060 Ti 16 GB",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2407,
-  "core_boost_clock": 2572,
-  "effective_memory_clock": 1750,
-  "memory_bus": 128,
-  "interface": "PCIe 5.0 x8",
-  "color": ["BLACK", "GREY"],
-  "length": 302,
-  "tdp": 180,
-  "cooling": "3 Fans",
-  "core_count": 4608,
-  "frame_sync": "G-Sync",
-  "case_expansion_slot_width": 2,
-  "total_slot_width": 3.1,
-  "lighting": ["ARGB"],
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5060ti-16g-gaming/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "TUF-RTX5060TI-16G-GAMING",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

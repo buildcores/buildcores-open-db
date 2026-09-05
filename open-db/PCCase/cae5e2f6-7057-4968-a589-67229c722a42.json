@@ -1,29 +1,52 @@
 {
   "opendb_id": "cae5e2f6-7057-4968-a589-67229c722a42",
-  "metadata": {
-    "name": "Cooler Master MasterBox NR200P Mini-ITX Desktop Black Tempered Glass Side Panel",
-    "manufacturer": "Cooler Master",
-    "part_numbers": ["MCB-NR200P-KGNN-S00"],
-    "series": "MasterBox",
-    "variant": ""
-  },
-  "supported_motherboard_form_factors": ["Mini-ITX"],
   "form_factor": "Mini ITX Tower",
+  "supported_motherboard_form_factors": ["Mini-ITX", "Mini DTX"],
   "color": ["BLACK"],
+  "lighting": ["None"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["SFX", "SFX-L"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["2 x USB 3.2 Gen 1 (USB 3.0)"],
   "max_video_card_length": 330,
-  "max_cpu_cooler_height": null,
-  "internal_3_5_bays": 2,
+  "max_cpu_cooler_height": 153,
+  "max_psu_length": 130,
+  "internal_3_5_bays": 1,
   "internal_2_5_bays": 2,
   "expansion_slots": 3,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "376 x 185 x 292",
+  "dimensions_mm": {
+    "depth": 376,
+    "width": 185,
+    "height": 292
+  },
   "volume": 20.312,
-  "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "weight": 13.07,
+  "metadata": {
+    "name": "Cooler Master MasterBox NR200P Mini-ITX Desktop Black Tempered Glass Side Panel",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [],
+    "series": "MasterBox",
+    "variant": "",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.coolermaster.com/en-global/products/masterbox-nr200p.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "MCB-NR200P-KGNN-S00",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

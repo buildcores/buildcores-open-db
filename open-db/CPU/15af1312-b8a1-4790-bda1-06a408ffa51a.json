@@ -1,10 +1,14 @@
 {
   "opendb_id": "15af1312-b8a1-4790-bda1-06a408ffa51a",
+  "series": "Core i7 6000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-S",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "4 × 64 KB (32 KB L1I + 32 KB L1D)",
     "l2": 1,
-    "l3": 8,
-    "l1": "4 × 64 KB (32 KB L1I + 32 KB L1D)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 91,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 530",
       "baseClock": 350,
       "boostClock": 1150,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4", "DDR3"],
-      "channels": 2
-    },
-    "tdp": 91,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i7 6700K",
@@ -49,14 +53,233 @@
     "variant": "6700K",
     "releaseYear": 2015
   },
-  "series": "Core i7 6000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-S",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B012M8LXQW",
-    "newegg_sku": "N82E16819117559",
-    "walmart_sku": 46583514,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/88195/intel-core-i76700k-processor-8m-cache-up-to-4-20-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0675901377959",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0722208799745",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0725407180444",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0735858301312",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0735858301619",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5032037076685",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "4512",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80662I76700K",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901377959",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "722208799745",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "725407180444",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858301312",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858301619",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B012M8LXQW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "IN6GI76700K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1290371",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1290371",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819117559",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819117559",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1290371",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "46583514",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,56 +1,67 @@
 {
   "opendb_id": "a3015752-fc76-4ce6-98c4-cf5f88a44970",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5080",
+  "core_count": 10752,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2617,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 1875,
+  "memory_bus": 256,
+  "tdp": 360,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["GREY", "BLACK"],
+  "lighting": ["None"],
+  "length": 303,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.45,
+  "cooling": "3 Fans",
   "power_connectors": {
-    "pcie_8_pin": 0,
-    "pcie_12V_2x6": 1,
     "pcie_6_pin": 0,
-    "pcie_12VHPWR": 0
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "displayport_2_1_b": 3,
-    "hdmi_2_1b": 1,
     "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
     "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1a": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 0,
+    "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "usb_c": 0,
     "dvi_d": 0,
-    "vga": 0,
-    "hdmi_2_0a": 0,
-    "hdmi_2_0b": 0
+    "vga": 0
   },
   "metadata": {
     "name": "MSI GeForce RTX 5080 16G VENTUS 3X PLUS",
     "manufacturer": "MSI",
     "part_numbers": ["G5080-16V3P"],
     "series": "VENTUS",
+    "variant": "PLUS",
     "releaseYear": 2025,
     "manufacturer_color": "Black / Silver",
-    "variant": "PLUS",
     "last_manually_spec_verified_at": "2025-10-27T23:06:43.277Z"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5080",
-  "core_count": 10752,
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2295,
-  "core_boost_clock": 2617,
-  "effective_memory_clock": 1875,
-  "memory_bus": 256,
-  "color": ["GREY", "BLACK"],
-  "frame_sync": "G-Sync",
-  "length": 303,
-  "tdp": 360,
-  "cooling": "3 Fans",
-  "interface": "PCIe 5.0 x16",
-  "total_slot_width": 2.45,
-  "case_expansion_slot_width": 2,
-  "lighting": ["None"],
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5080-16G-VENTUS-3X-PLUS/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "G5080-16V3P",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

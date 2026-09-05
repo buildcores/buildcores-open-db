@@ -1,15 +1,60 @@
 {
   "opendb_id": "d076ac8e-0c96-488e-b803-060913cb4cc6",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD B550",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 4
+    },
+    {
+      "gen": null,
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2 and SATA"
+    },
+    {
+      "size": "2242/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2"
+    },
+    {
+      "size": null,
+      "key": null,
+      "interface": "PCIe 3.0 x4/x2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,67 +76,6 @@
     "chipset": "Realtek ALC1220-VB",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "GIGABYTE B550 AORUS PRO AC (AM4 AMD/B550/ATX/Dual M.2/SATA 6Gb/s/USB 3.2 Gen 2/Intel Dual Band 802.11AC WiFi/2.5 GbE LAN/PCIe 4.0/RGB Fusion 2.0/DDR4/Gaming Motherboard)",
-    "manufacturer": "Gigabyte",
-    "series": "B550 AORUS",
-    "variant": "PRO AC",
-    "releaseYear": 2020,
-    "part_numbers": ["B550 AORUS PRO", "B550 AORUS MASTER"]
-  },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD B550",
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac68b3d0c7b56c562266"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 4,
-      "_id": "69b3ac68b3d0c7b56c562267"
-    },
-    {
-      "gen": null,
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac68b3d0c7b56c562268"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2 and SATA",
-      "_id": "69b3ac68b3d0c7b56c562269"
-    },
-    {
-      "size": "2242/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2",
-      "_id": "69b3ac68b3d0c7b56c56226a"
-    },
-    {
-      "size": null,
-      "key": null,
-      "interface": "PCIe 3.0 x4/x2",
-      "_id": "69b3ac68b3d0c7b56c56226b"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac68b3d0c7b56c56226c"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2 x SMA antenna connectors (2T2R)",
     "1 x HDMI port",
@@ -100,11 +87,166 @@
     "1 x optical S/PDIF Out connector",
     "5 x audio jacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B089FT8JLW",
-    "newegg_sku": "9SIAGBAK7S5521",
-    "walmart_sku": 670486176
+  "metadata": {
+    "name": "GIGABYTE B550 AORUS PRO AC (AM4 AMD/B550/ATX/Dual M.2/SATA 6Gb/s/USB 3.2 Gen 2/Intel Dual Band 802.11AC WiFi/2.5 GbE LAN/PCIe 4.0/RGB Fusion 2.0/DDR4/Gaming Motherboard)",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["B550 AORUS PRO", "B550 AORUS MASTER"],
+    "series": "B550 AORUS",
+    "variant": "PRO AC",
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523022894",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B550 AORUS MASTER",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B550 AORUS PRO",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523022894",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B089FT8JLW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAGBAK7S5521",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAGBAK7S5521",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "670486176",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

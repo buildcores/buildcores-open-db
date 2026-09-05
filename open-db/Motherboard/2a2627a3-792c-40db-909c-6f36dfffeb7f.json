@@ -1,15 +1,69 @@
 {
   "opendb_id": "2a2627a3-792c-40db-909c-6f36dfffeb7f",
+  "socket": "LGA 1700",
+  "form_factor": "EATX",
+  "chipset": "Intel Z690",
   "memory": {
     "max": 64,
     "ram_type": "DDR5",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "110mm",
+      "key": "M",
+      "interface": "Gen4"
+    },
+    {
+      "size": "110mm",
+      "key": "M",
+      "interface": "Gen4"
+    },
+    {
+      "size": "110mm",
+      "key": "M",
+      "interface": "Gen4"
+    },
+    {
+      "size": "32mm",
+      "key": "E",
+      "interface": "WiFi"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 1
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Intel i225V"
+    },
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Intel i225V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +74,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,78 +85,6 @@
     "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "EVGA Z690 DARK K|NGP|N",
-    "manufacturer": "EVGA",
-    "series": "DARK",
-    "variant": "K|NGP|N",
-    "releaseYear": 2022,
-    "part_numbers": ["121-AL-E699-KR"]
-  },
-  "socket": "LGA 1700",
-  "form_factor": "EATX",
-  "chipset": "Intel Z690",
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab9736a2b96d5d83b0e8"
-    },
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 8,
-      "_id": "69b3ab9736a2b96d5d83b0e9"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ab9736a2b96d5d83b0ea"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "110mm",
-      "key": "M",
-      "interface": "Gen4",
-      "_id": "69b3ab9736a2b96d5d83b0eb"
-    },
-    {
-      "size": "110mm",
-      "key": "M",
-      "interface": "Gen4",
-      "_id": "69b3ab9736a2b96d5d83b0ec"
-    },
-    {
-      "size": "110mm",
-      "key": "M",
-      "interface": "Gen4",
-      "_id": "69b3ab9736a2b96d5d83b0ed"
-    },
-    {
-      "size": "32mm",
-      "key": "E",
-      "interface": "WiFi",
-      "_id": "69b3ab9736a2b96d5d83b0ee"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Intel i225V",
-      "_id": "69b3ab9736a2b96d5d83b0ef"
-    },
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Intel i225V",
-      "_id": "69b3ab9736a2b96d5d83b0f0"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "Reset CMOS Button",
     "BIOS Update Button",
@@ -112,11 +97,161 @@
     "Optical S/PDIF Out",
     "Audio Jacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0B2BYFPRF",
-    "newegg_sku": "1JW-001N-000H1",
-    "walmart_sku": 1372962826
+  "metadata": {
+    "name": "EVGA Z690 DARK K|NGP|N",
+    "manufacturer": "EVGA",
+    "part_numbers": ["121-AL-E699-KR"],
+    "series": "DARK",
+    "variant": "K|NGP|N",
+    "releaseYear": 2022
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843368074074",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "121-AL-E699-KR",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "843368074074",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0B2BYFPRF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "1JW-001N-000H1",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1JW-001N-000H1",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1372962826",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,57 +1,15 @@
 {
   "opendb_id": "27fd14b7-2156-4bf9-8490-24b8e1cb1f66",
-  "memory": {
-    "ram_type": "DDR4",
-    "slots": 2,
-    "max": 64
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 6
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 2
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS PRIME B760M-F D4-CSM",
-    "manufacturer": "ASUS",
-    "series": "PRIME",
-    "variant": "B760M-F D4-CSM",
-    "manufacturer_color": "Black",
-    "part_numbers": ["prime-b760m-f-d4-csm"],
-    "releaseYear": 2023
-  },
+  "socket": "LGA 1700",
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
+  "memory": {
+    "max": 64,
+    "ram_type": "DDR4",
+    "slots": 2
+  },
   "color": ["BLACK", "GREY"],
+  "lighting": [],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -76,12 +34,50 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 6
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Realtek 1Gb Ethernet"
     }
   ],
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "4 x USB 5Gbps ports (4 x Type-A)",
     "2 x USB 2.0 ports (2 x Type-A)",
@@ -89,14 +85,150 @@
     "1 x Realtek 1Gb Ethernet port",
     "3 x Audio jacks"
   ],
-  "socket": "LGA 1700",
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "lighting": [],
+  "metadata": {
+    "name": "ASUS PRIME B760M-F D4-CSM",
+    "manufacturer": "ASUS",
+    "part_numbers": ["prime-b760m-f-d4-csm"],
+    "series": "PRIME",
+    "variant": "B760M-F D4-CSM",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0C7SPXV5R",
-    "walmart_sku": 17675851405,
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/prime-b760m-f-d4-csm/techspec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553984065",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "prime-b760m-f-d4-csm",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553984065",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17675851405",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,10 +1,14 @@
 {
   "opendb_id": "d8408406-f4b2-4f18-9dd2-c75b71dceea3",
+  "series": "Core i9 9000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 10,
     "performance": 0,
-    "threads": 20,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 20
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)",
     "l2": 10,
-    "l3": 19.25,
-    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
+    "l3": 19.25
   },
   "specifications": {
+    "tdp": 165,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Core i9 9900X",
@@ -49,13 +53,169 @@
     "variant": "9900X",
     "releaseYear": 2018
   },
-  "series": "Core i9 9000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
   "general_product_information": {
-    "amazon_sku": "B07L5Q7K8N",
-    "newegg_sku": "N82E16819117975",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/189124/intel-core-i99900x-xseries-processor-19-25m-cache-up-to-4-50-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0715663083924",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CD8067304126200",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "715663083924",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07L5Q7K8N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1910515",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1910515",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819117975",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819117975",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1910515",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,10 +1,14 @@
 {
   "opendb_id": "b16f5647-6509-42e3-ac3f-3f86e8d21e05",
+  "series": "Core i5 6000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "256 KB (4×32 KB L1 Data + 4×32 KB L1 Instruction)",
     "l2": 1,
-    "l3": 6,
-    "l1": "256 KB (4×32 KB L1 Data + 4×32 KB L1 Instruction)"
+    "l3": 6
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 530",
       "baseClock": 350,
       "boostClock": 1150,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4", "DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i5 6600",
@@ -49,12 +53,146 @@
     "variant": "6600",
     "releaseYear": 2015
   },
-  "series": "Core i5 6000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake",
-  "socket": "LGA 1151",
-  "general_product_information": {
-    "amazon_sku": "B010T6D39O",
-    "newegg_sku": "N82E16819117562"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "8809481921413",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80662I56600",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8066201920401",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B010T6D39O",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819117562",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819117562",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

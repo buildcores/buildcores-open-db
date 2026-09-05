@@ -1,30 +1,65 @@
 {
   "opendb_id": "07e0021d-fa28-41cc-9fd1-0d2d864000b6",
+  "size": 120,
+  "color": ["BLACK", "RGB"],
+  "lighting": [],
+  "quantity": 3,
+  "min_airflow": 90.1,
+  "min_noise_level": 33,
+  "pwm": true,
+  "led": "Addressable RGB",
+  "connector": "Proprietary",
+  "controller": "USB",
+  "static_pressure": 3.97,
+  "flow_direction": "Standard",
+  "isOEM": false,
   "metadata": {
     "name": "Lian Li UNI FAN TL 120mm Black RGB 3-Pack",
     "manufacturer": "Lian Li",
+    "part_numbers": ["12TL3B"],
     "series": "UNI TL",
     "variant": "120mm Black Pack of 3",
-    "part_numbers": ["12TL3B"],
     "releaseYear": 2023,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-03-19T09:12:56.689Z"
   },
-  "size": 120,
-  "color": ["BLACK", "RGB"],
-  "quantity": 3,
-  "pwm": true,
-  "led": "Addressable RGB",
-  "flow_direction": "Standard",
-  "isOEM": false,
-  "min_airflow": 90.1,
-  "min_noise_level": 33,
-  "connector": "Proprietary",
-  "controller": "USB",
-  "static_pressure": 3.97,
-  "lighting": [],
   "general_product_information": {
-    "walmart_sku": 5543857754,
     "manufacturer_url": "https://lian-li.com/product/uni-fan-tl/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353045118",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "12TL3B",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353045118",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "12TL3B",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5543857754",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,5 +1,9 @@
 {
   "opendb_id": "2e92a455-b6df-4dcc-9dbb-5277bf3b537b",
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-S",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 72,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 72,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E3 1270 V6 3.8 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80677E31270V6"],
     "series": "Intel Xeon E3"
   },
-  "series": "Intel Xeon E3",
-  "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80677E31270V6",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

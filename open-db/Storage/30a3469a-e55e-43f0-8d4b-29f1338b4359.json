@@ -1,5 +1,11 @@
 {
   "opendb_id": "30a3469a-e55e-43f0-8d4b-29f1338b4359",
+  "capacity": 6000,
+  "storage_type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Seagate Exos 7E10 6TB 3.5\" HDD SATA 7200RPM 512e/4Kn",
     "manufacturer": "Seagate",
@@ -7,14 +13,31 @@
     "series": "Exos",
     "variant": "6000GB"
   },
-  "capacity": 6000,
-  "type": "HDD",
-  "form_factor": "3.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "HDD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "1Z4-002P-024E8"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ST6000NM019B",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "1Z4-002P-024E8",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1Z4-002P-024E8",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

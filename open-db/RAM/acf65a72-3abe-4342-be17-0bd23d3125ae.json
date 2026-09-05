@@ -1,22 +1,16 @@
 {
   "opendb_id": "acf65a72-3abe-4342-be17-0bd23d3125ae",
+  "speed": 6800,
+  "ram_type": "DDR5",
+  "profile_support": [],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
-  "metadata": {
-    "name": "KINGBANK DDR5 Soarblade RGB UDIMM 6800MHz-16GX2 WHITE",
-    "manufacturer": "KINGBANK",
-    "part_numbers": ["K5.01.FLM5FD9401"],
-    "series": "DDR5 Soarblade",
-    "variant": "6400 CL32",
-    "last_manually_spec_verified_at": "2025-12-01T13:01:16.213Z"
-  },
-  "speed": 6800,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
   "capacity": 32,
   "color": ["WHITE"],
+  "lighting": [],
   "cas_latency": 32,
   "timings": "32-39-39-80",
   "voltage": 1.4,
@@ -25,9 +19,34 @@
   "heat_spreader": true,
   "rgb": true,
   "height": 41.8,
-  "profile_support": [],
-  "lighting": [],
+  "metadata": {
+    "name": "KINGBANK DDR5 Soarblade RGB UDIMM 6800MHz-16GX2 WHITE",
+    "manufacturer": "KINGBANK",
+    "part_numbers": ["K5.01.FLM5FD9401"],
+    "series": "DDR5 Soarblade",
+    "variant": "6400 CL32",
+    "last_manually_spec_verified_at": "2025-12-01T13:01:16.213Z"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.kingbank.com/en/h-pd-115.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "K5.01.FLM5FD9401",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC94758",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

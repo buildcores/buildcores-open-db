@@ -1,21 +1,16 @@
 {
   "opendb_id": "9704e9e1-54d9-4e63-9c5c-581da878cd3c",
+  "speed": 6600,
+  "ram_type": "DDR5",
+  "profile_support": ["XMP"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
-  "metadata": {
-    "name": "Corsair Dominator Platinum RGB Black DDR5-6600 CL32 32GB (2x16GB)",
-    "manufacturer": "Corsair",
-    "part_numbers": ["CMT32GX5M2X6600C32"],
-    "series": "Dominator Platinum",
-    "manufacturer_color": "Black"
-  },
-  "speed": 6600,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
   "capacity": 32,
   "color": ["BLACK"],
+  "lighting": [],
   "cas_latency": 32,
   "timings": "32-32-39-76",
   "voltage": null,
@@ -23,9 +18,38 @@
   "registered": "Unbuffered",
   "heat_spreader": true,
   "rgb": true,
-  "profile_support": ["XMP"],
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16820236870"
+  "metadata": {
+    "name": "Corsair Dominator Platinum RGB Black DDR5-6600 CL32 32GB (2x16GB)",
+    "manufacturer": "Corsair",
+    "part_numbers": ["CMT32GX5M2X6600C32"],
+    "series": "Dominator Platinum",
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CMT32GX5M2X6600C32",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820236870",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820236870",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

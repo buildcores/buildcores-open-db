@@ -1,10 +1,14 @@
 {
   "opendb_id": "2027bf67-9231-46ab-921d-b81868f28f9f",
+  "series": "Ryzen 9 PRO 7000",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Raphael",
+  "socket": "AM5",
   "cores": {
     "total": 12,
     "performance": 0,
-    "threads": 24,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 24
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)",
     "l2": 12,
-    "l3": 64,
-    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)"
+    "l3": 64
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 88,
     "integratedGraphics": {
       "model": "AMD Radeon Graphics",
-      "boostClock": 2200,
       "baseClock": 400,
+      "boostClock": 2200,
       "shaderCount": 128
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR5"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "TSMC 5nm FinFET, TSMC 6nm FinFET",
     "simultaneousMultithreading": true,
-    "ppt": 88
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR5"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD Ryzen 9 PRO 7945 OEM/Tray",
@@ -49,12 +53,170 @@
     "variant": "7945",
     "releaseYear": 2023
   },
-  "series": "Ryzen 9 PRO 7000",
-  "microarchitecture": "Zen 4",
-  "coreFamily": "Raphael",
-  "socket": "AM5",
   "general_product_information": {
-    "amazon_sku": "B0D1CKDQYJ",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-9-pro-7945.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143315159",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5054444544748",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "8592978464059",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "8592978465056",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-000000598",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143315159",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0D1CKDQYJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2970913",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2970913",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2970913",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

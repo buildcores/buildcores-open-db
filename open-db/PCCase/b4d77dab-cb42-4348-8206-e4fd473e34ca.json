@@ -1,48 +1,235 @@
 {
   "opendb_id": "b4d77dab-cb42-4348-8206-e4fd473e34ca",
-  "dimensions_mm": {
-    "width": 287.5,
-    "height": 446.4,
-    "depth": 447.5
-  },
-  "metadata": {
-    "name": "Lian Li O11 VISION COMPACT ATX Mid Tower Black with Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, and USB 3.2 Gen 1 Type-A",
-    "manufacturer": "Lian Li",
-    "part_numbers": [
-      "O11VPX",
-      "O11 Vision Compact Black",
-      "G99.O11VPX.00",
-      "PC-O11VPX",
-      "O11VPX Black"
-    ],
-    "series": "O11",
-    "variant": "Vision",
-    "releaseYear": 2024,
-    "last_manually_spec_verified_at": "2025-09-17T15:52:05.980Z"
-  },
+  "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "form_factor": "EATX Mid Tower",
   "color": ["BLACK"],
+  "lighting": ["None"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "1x USB 3.2 Gen 2 Type-C                                                    2x USB 3.0 Type-A",
+  "front_usb_ports": ["1x USB 3.2 Gen 2 Type-C", "2x USB 3.0 Type-A"],
   "max_video_card_length": 408,
   "max_cpu_cooler_height": 167,
+  "max_psu_length": 220,
   "internal_3_5_bays": 2,
-  "internal_2_5_bays": 2,
+  "internal_2_5_bays": 4,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": false,
   "expansion_slots": 7,
-  "dimensions": "287 x 446.4 x 447.5",
-  "volume": 57.26,
-  "weight": 25.6,
-  "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": ["1x USB 3.2 Gen 2 Type-C   ", "2x USB 3.0 Type-A"],
+  "riser_expansion_slots": 0,
   "supports_rear_connecting_motherboard": true,
-  "lighting": [],
+  "dimensions": "287 x 446.4 x 447.5",
+  "dimensions_mm": {
+    "depth": 447.5,
+    "width": 287.5,
+    "height": 446.4
+  },
+  "volume": 57.4,
+  "weight": 26.4,
+  "metadata": {
+    "name": "Lian Li O11 VISION COMPACT ATX Mid Tower Black with Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, and USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Lian Li",
+    "part_numbers": [],
+    "series": "O11 VISION",
+    "variant": "COMPACT",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2025-09-17T15:52:05.980Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0DJPV8XG3",
-    "newegg_sku": "2AM-000Z-000D8",
-    "walmart_sku": 5249629367,
-    "manufacturer_url": "https://lian-li.com/product/o11-vision/"
+    "manufacturer_url": "https://lian-li.com/product/o11-vision-compact/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353046627",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "G99.O11VPX.00",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11 Vision Compact Black",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11VPX",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11VPX Black",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PC-O11VPX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353046627",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DJPV8XG3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "LIO11VPX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "O11VPX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC78732",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "2AM-000Z-000D8",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "2AM-000Z-000D8",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5249629367",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

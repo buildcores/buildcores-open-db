@@ -1,55 +1,13 @@
 {
   "opendb_id": "ad1e11de-7049-4de2-baef-33a06ed919ed",
-  "memory": {
-    "ram_type": "DDR4",
-    "slots": 2,
-    "max": 64
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 1,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC897",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "MSI MAG B550M VECTOR WIFI",
-    "manufacturer": "MSI",
-    "series": "MAG",
-    "variant": "B550M VECTOR WIFI",
-    "manufacturer_color": "Black",
-    "part_numbers": ["MAG-B550M-VECTOR-WIFI"],
-    "releaseYear": 2020
-  },
   "socket": "AM4",
   "form_factor": "Micro ATX",
   "chipset": "AMD B550",
+  "memory": {
+    "max": 64,
+    "ram_type": "DDR4",
+    "slots": 2
+  },
   "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "pcie_slots": [
@@ -71,12 +29,49 @@
       "interface": "PCIe 4.0 x4 "
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Realtek RTL8111H"
     }
   ],
+  "wireless_networking": "Wi-FI 5 Bluetooth 4.2",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x PS/2 keyboard/ mouse combo port",
     "2 x USB 2.0 Type-A ports",
@@ -86,11 +81,27 @@
     "2 x Wi-Fi Antenna connectors",
     "3 x audio jacks"
   ],
-  "wireless_networking": "Wi-FI 5 Bluetooth 4.2",
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
+  "metadata": {
+    "name": "MSI MAG B550M VECTOR WIFI",
+    "manufacturer": "MSI",
+    "part_numbers": ["MAG-B550M-VECTOR-WIFI"],
+    "series": "MAG",
+    "variant": "B550M VECTOR WIFI",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B550M-VECTOR-WIFI/support#manual"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "MAG-B550M-VECTOR-WIFI",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

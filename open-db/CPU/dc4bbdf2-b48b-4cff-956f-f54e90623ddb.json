@@ -1,10 +1,14 @@
 {
   "opendb_id": "dc4bbdf2-b48b-4cff-956f-f54e90623ddb",
+  "series": "Ryzen Threadripper 2000",
+  "microarchitecture": "Zen+",
+  "coreFamily": "Colfax",
+  "socket": "sTR4",
   "cores": {
     "total": 16,
     "performance": 0,
-    "threads": 32,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 32
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 4.4
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "16 × 64 KB Instruction + 16 × 32 KB Data (1536 KB total)",
     "l2": 8,
-    "l3": 32,
-    "l1": "16 × 64 KB Instruction + 16 × 32 KB Data (1536 KB total)"
+    "l3": 32
   },
   "specifications": {
+    "tdp": 180,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 256,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 180,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "12 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 256,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 2950X OEM/Tray",
@@ -49,11 +53,18 @@
     "variant": "2950X",
     "releaseYear": 2018
   },
-  "series": "Ryzen Threadripper 2000",
-  "microarchitecture": "Zen+",
-  "coreFamily": "Colfax",
-  "socket": "sTR4",
   "general_product_information": {
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-2000-series/amd-ryzen-threadripper-2950x.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "YD295XA8UGAAF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

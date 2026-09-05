@@ -1,5 +1,11 @@
 {
   "opendb_id": "b7882b86-3970-4e85-9826-26605b4fc2c0",
+  "capacity": 1000,
+  "storage_type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 3.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Western Digital Caviar Green 1TB HDD 3.5\" 5400RPM SATA",
     "manufacturer": "Western Digital",
@@ -7,12 +13,48 @@
     "series": "Caviar",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "HDD",
-  "form_factor": "3.5\"",
-  "interface": "SATA 3.0 Gb/s",
-  "nvme": false,
-  "storage_type": "HDD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0900000005008",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "WD15EARS",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "715663214090",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "488211",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "488211",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "488211",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

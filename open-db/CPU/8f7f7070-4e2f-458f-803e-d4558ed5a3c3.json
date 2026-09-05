@@ -1,5 +1,9 @@
 {
   "opendb_id": "8f7f7070-4e2f-458f-803e-d4558ed5a3c3",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 14,
     "performance": 14,
@@ -16,19 +20,19 @@
     "l3": 35
   },
   "specifications": {
+    "tdp": 120,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2695 V3 2.3 GHz 14-Core LGA2011-3",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80644E52695V3"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80644E52695V3",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

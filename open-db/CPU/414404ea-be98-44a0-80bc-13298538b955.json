@@ -1,10 +1,14 @@
 {
   "opendb_id": "414404ea-be98-44a0-80bc-13298538b955",
+  "series": "Core i3 6000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-S",
+  "socket": "LGA 1151",
   "cores": {
     "total": 2,
-    "threads": 4,
     "performance": 0,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -22,23 +26,23 @@
     "l3": 4
   },
   "specifications": {
+    "tdp": 51,
     "integratedGraphics": {
       "model": "Intel HD Graphics 530",
       "baseClock": 350,
       "boostClock": 1050,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4", "DDR3"],
-      "channels": 2
-    },
-    "tdp": 51,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i3 6100",
@@ -49,14 +53,160 @@
     "releaseYear": 2015,
     "last_manually_spec_verified_at": "2026-04-04T09:56:20.014Z"
   },
-  "series": "Core i3 6000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-S",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B015VPX2EO",
-    "newegg_sku": "9SIC513KT61525",
-    "walmart_sku": 47360060,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/90729/intel-core-i36100-processor-3m-cache-3-70-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0695976822338",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "695976822338",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80662I36100",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "695976822338",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B015VPX2EO",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC513KT61525",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC513KT61525",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "47360060",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,10 +1,14 @@
 {
   "opendb_id": "891fb125-0c86-4ea2-ab5a-85bf033d8c6b",
+  "series": "E5-2600 v4",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 20,
     "performance": 0,
-    "threads": 40,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 40
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "20 × 32 KB Instruction + 20 × 32 KB Data (1280 KB total)",
     "l2": 5,
-    "l3": 50,
-    "l1": "20 × 32 KB Instruction + 20 × 32 KB Data (1280 KB total)"
+    "l3": 50
   },
   "specifications": {
+    "tdp": 135,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 1536,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 1536,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5-2698 v4 OEM/Tray",
@@ -49,12 +53,167 @@
     "variant": "E5-2698 v4",
     "releaseYear": 2016
   },
-  "series": "E5-2600 v4",
-  "microarchitecture": "Broadwell",
-  "coreFamily": "Broadwell-EP",
-  "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B01DTYQHTG",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/91753/intel-xeon-processor-e52698-v4-50m-cache-2-20-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0675901378239",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "8592978059750",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8066002024000",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901378239",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B01DTYQHTG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1418486",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1418486",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00003194163",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1418486",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

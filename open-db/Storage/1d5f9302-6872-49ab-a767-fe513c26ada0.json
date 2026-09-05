@@ -1,5 +1,11 @@
 {
   "opendb_id": "1d5f9302-6872-49ab-a767-fe513c26ada0",
+  "capacity": 8000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 5.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Samsung 9100 PRO 8TB M.2-2280 SSD PCIe 5.0 X4 NVMe",
     "manufacturer": "Samsung",
@@ -7,12 +13,41 @@
     "series": "9100",
     "variant": "8000GB"
   },
-  "capacity": 8000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 5.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MZ-VAP8T0B",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MZ-VAP8T0BW",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "SSD1878",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC90895",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

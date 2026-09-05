@@ -1,5 +1,11 @@
 {
   "opendb_id": "87dcf987-8338-46f4-a121-d1c9922ed067",
+  "capacity": 20000,
+  "storage_type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Seagate IronWolf Pro 20TB HDD 3.5\" 7200RPM SATA 6.0 Gb/s",
     "manufacturer": "Seagate",
@@ -7,12 +13,24 @@
     "series": "IronWolf",
     "variant": "20000GB"
   },
-  "capacity": 20000,
-  "type": "HDD",
-  "form_factor": "3.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "HDD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ST20000NE000",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "23305",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

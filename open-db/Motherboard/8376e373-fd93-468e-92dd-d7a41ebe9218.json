@@ -1,15 +1,56 @@
 {
   "opendb_id": "8376e373-fd93-468e-92dd-d7a41ebe9218",
+  "socket": "LGA 1700",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["WHITE", "GREY"],
+  "lighting": ["RGB", "ARGB"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -43,6 +84,9 @@
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "4-pin"]
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -51,59 +95,6 @@
     "chipset": "Realtek ALC1220 CODEC",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "GIGABYTE Z790M AORUS ELITE AX ICE LGA1700 DDR5 MICRO-ATX",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["Z790M AORUS ELITE AX ICE"],
-    "series": "AORUS",
-    "variant": "Z790M ELITE AX ICE",
-    "releaseYear": 2024,
-    "manufacturer_color": "White",
-    "last_manually_spec_verified_at": "2025-09-25T12:54:20.110Z"
-  },
-  "socket": "LGA 1700",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel Z790",
-  "color": ["WHITE", "GREY"],
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2"
-    },
-    {
-      "size": "22110/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek"
-    }
-  ],
-  "wireless_networking": "Wifi 6E",
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x USB Type-C® port, with USB 3.2 Gen 2x2 support",
     "1 x USB 3.2 Gen 2 Type-A port (red)",
@@ -116,10 +107,170 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
-  "lighting": ["RGB", "ARGB"],
+  "metadata": {
+    "name": "GIGABYTE Z790M AORUS ELITE AX ICE LGA1700 DDR5 MICRO-ATX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["Z790M AORUS ELITE AX ICE"],
+    "series": "AORUS",
+    "variant": "Z790M ELITE AX ICE",
+    "releaseYear": 2024,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2025-09-25T12:54:20.110Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0D2PK3CC1",
-    "walmart_sku": 5620371693,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z790M-AORUS-ELITE-AX-ICE/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523041857",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4719331860585",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z790M AORUS ELITE AX ICE",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523041857",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0D2PK3CC1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIZ790MAEAIC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "27002",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5620371693",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,34 +1,66 @@
 {
   "opendb_id": "4acc436e-f83a-49e5-9d4d-2cb1435df2dc",
+  "speed": 7200,
+  "ram_type": "DDR5",
+  "profile_support": ["XMP"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
+  "capacity": 32,
+  "color": ["GREY"],
+  "lighting": ["ARGB"],
+  "cas_latency": 34,
+  "timings": "34-45-45-115",
+  "voltage": 1.4,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": true,
+  "height": 44,
   "metadata": {
     "name": "G.Skill Trident Z5 Royal Silver DDR5-7200 CL34 32GB (2x16GB)",
     "manufacturer": "G.SKILL",
     "part_numbers": ["F5-7200J3445G16GX2-TR5S"],
     "series": "Trident Z5 Royal",
-    "manufacturer_color": "Silver (Mirror Finish)",
-    "releaseYear": 2024
+    "releaseYear": 2024,
+    "manufacturer_color": "Silver (Mirror Finish)"
   },
-  "speed": 7200,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
-  "capacity": 32,
-  "color": ["GREY"],
-  "cas_latency": 34,
-  "timings": "34-45-45-115",
-  "ecc": "Non-ECC",
-  "registered": "Unbuffered",
-  "heat_spreader": true,
-  "rgb": true,
-  "profile_support": ["XMP"],
-  "lighting": ["ARGB"],
-  "voltage": 1.4,
-  "height": 44,
   "general_product_information": {
-    "newegg_sku": "N82E16820374570",
     "manufacturer_url": "https://www.gskill.com/product/165/418/1716793748/F5-7200J3445G16GX2-TR5S"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "F5-7200J3445G16GX2-TR5S",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "RAM6563",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820374570",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820374570",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

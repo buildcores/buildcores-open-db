@@ -1,10 +1,14 @@
 {
   "opendb_id": "7f0f36c1-c2c5-4bb9-bc9d-e3be2999a3fc",
+  "series": "Core i7 13000",
+  "microarchitecture": "Raptor Lake",
+  "coreFamily": "Raptor Lake-S",
+  "socket": "LGA 1700",
   "cores": {
     "total": 16,
-    "threads": 24,
     "performance": 8,
-    "efficiency": 8
+    "efficiency": 8,
+    "threads": 24
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "8 × 64 KB Instruction + 8 × 48 KB Data + 8 × 64 KB Instruction + 8 × 32 KB Data (1664 KB total)",
     "l2": 24,
-    "l3": 30,
-    "l1": "8 × 64 KB Instruction + 8 × 48 KB Data + 8 × 64 KB Instruction + 8 × 32 KB Data (1664 KB total)"
+    "l3": 30
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 219,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 770",
       "baseClock": 300,
       "boostClock": 1600,
       "shaderCount": 256
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5", "DDR4"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "Intel 7",
     "simultaneousMultithreading": true,
-    "ppt": 219
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i7 13700",
@@ -49,15 +53,195 @@
     "variant": "13700",
     "releaseYear": 2023
   },
-  "series": "Core i7 13000",
-  "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Lake-S",
-  "socket": "LGA 1700",
   "general_product_information": {
-    "amazon_sku": "B0BQ6BNY56",
-    "newegg_sku": "N82E16819118427",
-    "bestbuy_sku": 6530246,
-    "walmart_sku": 2135520256,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230490/intel-core-i713700-processor-30m-cache-up-to-5-20-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858528252",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX8071513700",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "i7-13700",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858528252",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BQ6BNY56",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6530246",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "INCI713700",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2871117",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2871117",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819118427",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819118427",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2871117",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2135520256",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

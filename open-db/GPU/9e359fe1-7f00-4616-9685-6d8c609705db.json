@@ -1,5 +1,23 @@
 {
   "opendb_id": "9e359fe1-7f00-4616-9685-6d8c609705db",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5070 Ti",
+  "core_count": 8960,
+  "core_base_clock": 2295,
+  "core_boost_clock": 2572,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 1750,
+  "memory_bus": 256,
+  "tdp": 300,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB"],
+  "length": 357,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3.3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -7,54 +25,72 @@
     "pcie_12V_2x6": 1
   },
   "video_outputs": {
+    "hdmi_2_2": 0,
     "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
     "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
-    "dvi_d": 0,
-    "vga": 0,
-    "hdmi_2_1b": 1,
-    "hdmi_2_2": 0,
-    "hdmi_2_1a": 0,
     "displayport_2_1_b": 3,
     "usb_c": 0,
-    "hdmi_2_0a": 0,
-    "hdmi_2_0b": 0
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
     "name": "MSI GeForce RTX 5070 Ti 16G VANGUARD OC 16GB GDDR7",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "RTX 5070 Ti 16G VANGUARD OC",
-      "GEFORCE RTX 5070 Ti 16G VANGUARD OC",
-      "G507T-16VGC"
-    ],
+    "part_numbers": [],
     "series": "VANGUARD",
     "variant": "OC",
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5070 Ti",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2295,
-  "core_boost_clock": 2572,
-  "effective_memory_clock": 1750,
-  "memory_bus": 256,
-  "interface": "PCIe 5.0 x16",
-  "color": ["BLACK", "GREY"],
-  "length": 357,
-  "tdp": 300,
-  "total_slot_width": 3.3,
-  "cooling": "3 Fans",
-  "core_count": 8960,
-  "frame_sync": "G-Sync",
-  "case_expansion_slot_width": 2,
-  "lighting": ["ARGB"],
   "general_product_information": {
-    "walmart_sku": 15374269831,
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-VANGUARD-OC/Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "G507T-16VGC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GEFORCE RTX 5070 Ti 16G VANGUARD OC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RTX 5070 Ti 16G VANGUARD OC",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142402023",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSG507T16VGS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15374269831",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

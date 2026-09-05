@@ -1,10 +1,14 @@
 {
   "opendb_id": "107f3722-b84b-43dd-a6a8-9dfe787bf03a",
+  "series": "Athlon X4 800",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Godaveri",
+  "socket": "FM2+",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)",
     "l2": 4,
-    "l3": 0,
-    "l1": "2 × 96 KB Instruction + 4 × 16 KB Data (256 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD Athlon X4 880K",
@@ -49,12 +53,55 @@
     "variant": "880K",
     "releaseYear": 2015
   },
-  "series": "Athlon X4 800",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Godaveri",
-  "socket": "FM2+",
-  "general_product_information": {
-    "newegg_sku": "N82E16819113408",
-    "walmart_sku": 198872257
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143307765",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD880KXBJCSBX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143307765",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMA880K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113408",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113408",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "198872257",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

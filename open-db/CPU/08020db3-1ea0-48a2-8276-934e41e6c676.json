@@ -1,10 +1,14 @@
 {
   "opendb_id": "08020db3-1ea0-48a2-8276-934e41e6c676",
+  "series": "A-Series A4 6000",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
   "cores": {
     "total": 2,
     "performance": 0,
-    "threads": 2,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 2
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)",
     "l2": 1,
-    "l3": 0,
-    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon HD 8370D",
       "baseClock": 760,
-      "shaderCount": 128,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 128
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32nm SOI",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A4-6300 OEM/Tray",
@@ -49,12 +53,43 @@
     "variant": "6300",
     "releaseYear": 2013
   },
-  "series": "A-Series A4 6000",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Richland",
-  "socket": "FM2",
   "general_product_information": {
-    "newegg_sku": "N82E16819113107",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a4-series-apu-for-desktops/a4-6300-with-radeon-hd-8370d.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0993257557833",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD6300OKA23HL",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "993257557833",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113107",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113107",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

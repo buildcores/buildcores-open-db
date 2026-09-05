@@ -1,10 +1,14 @@
 {
   "opendb_id": "01c38047-7ff9-4c99-9e81-402b8aa3bb58",
+  "series": "Core i9 13000",
+  "microarchitecture": "Raptor Lake",
+  "coreFamily": "Raptor Cove / Gracemont",
+  "socket": "LGA 1700",
   "cores": {
     "total": 24,
-    "threads": 32,
     "performance": 8,
-    "efficiency": 16
+    "efficiency": 16,
+    "threads": 32
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "8 × 64 KB Instruction + 8 × 48 KB Data + 16 × 64 KB Instruction + 16 × 32 KB Data (2432 KB total)",
     "l2": 32,
-    "l3": 36,
-    "l1": "8 × 64 KB Instruction + 8 × 48 KB Data + 16 × 64 KB Instruction + 16 × 32 KB Data (2432 KB total)"
+    "l3": 36
   },
   "specifications": {
+    "tdp": 35,
+    "ppt": 106,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 770",
       "baseClock": 300,
       "boostClock": 1650,
       "shaderCount": 256
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5", "DDR4"],
-      "channels": 2
-    },
-    "tdp": 35,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "Intel 7",
     "simultaneousMultithreading": true,
-    "ppt": 106
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i9 13900T OEM/Tray",
@@ -49,12 +53,33 @@
     "variant": "13900T",
     "releaseYear": 2023
   },
-  "series": "Core i9 13000",
-  "microarchitecture": "Raptor Lake",
-  "coreFamily": "Raptor Cove / Gracemont",
-  "socket": "LGA 1700",
   "general_product_information": {
-    "newegg_sku": "9SIA4REKG24710",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/230498/intel-core-i913900t-processor-36m-cache-up-to-5-30-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8071504820403",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIA4REKG24710",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4REKG24710",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

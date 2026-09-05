@@ -1,23 +1,16 @@
 {
   "opendb_id": "64251c3b-3b18-492a-bc5d-f85b4d4636d2",
+  "speed": 8000,
+  "ram_type": "DDR5",
+  "profile_support": ["XMP", "EXPO"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
-  "metadata": {
-    "name": "Acer Predator Hera RGB 32GB (2x16GB) DDR5-8000 CL36 Silver",
-    "manufacturer": "Acer",
-    "part_numbers": ["BL.9BWWR.588", "HERA-32GB-8000-1R8-V9"],
-    "series": "Predator",
-    "variant": "8000 CL36",
-    "manufacturer_color": "Silver",
-    "releaseYear": 2024
-  },
-  "speed": 8000,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
   "capacity": 32,
   "color": ["GREY"],
+  "lighting": ["ARGB"],
   "cas_latency": 36,
   "timings": "36-48-48-126",
   "voltage": 1.45,
@@ -25,10 +18,33 @@
   "registered": "Unbuffered",
   "heat_spreader": true,
   "rgb": true,
-  "profile_support": ["XMP", "EXPO"],
-  "lighting": ["ARGB"],
   "height": 50,
+  "metadata": {
+    "name": "Acer Predator Hera RGB 32GB (2x16GB) DDR5-8000 CL36 Silver",
+    "manufacturer": "Acer",
+    "part_numbers": ["BL.9BWWR.588", "HERA-32GB-8000-1R8-V9"],
+    "series": "Predator",
+    "variant": "8000 CL36",
+    "releaseYear": 2024,
+    "manufacturer_color": "Silver"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.predatorstorage.com/products/rgb-dram/predator-hera-ddr5-rgb-memory/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BL.9BWWR.588",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "HERA-32GB-8000-1R8-V9",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

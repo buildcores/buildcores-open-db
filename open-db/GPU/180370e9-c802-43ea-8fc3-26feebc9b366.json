@@ -1,5 +1,23 @@
 {
   "opendb_id": "180370e9-c802-43ea-8fc3-26feebc9b366",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3050 6 GB",
+  "core_count": 2304,
+  "core_base_clock": 1042,
+  "core_boost_clock": 1470,
+  "memory": 6,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 1750,
+  "memory_bus": 96,
+  "tdp": 70,
+  "interface": "PCIe 4.0 x8",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
+  "length": 189,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.1,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -7,50 +25,63 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
+    "hdmi_2_2": 0,
     "hdmi_2_1": 2,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
     "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
-    "vga": 0,
-    "hdmi_2_2": 0,
-    "hdmi_2_1a": 0,
-    "hdmi_2_1b": 0,
     "displayport_2_1_b": 0,
     "usb_c": 0,
-    "hdmi_2_0a": 0,
-    "hdmi_2_0b": 0
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
     "name": "MSI GeForce RTX 3050 VENTUS 2X 6G GDDR6",
     "manufacturer": "MSI",
     "part_numbers": ["RTX 3050 VENTUS 2X 6G", "GeForce RTX 3050 VENTUS 2X 6G"],
     "series": "VENTUS",
+    "variant": "2X",
     "releaseYear": 2024,
     "manufacturer_color": "Black",
-    "variant": "2X",
     "last_manually_spec_verified_at": "2026-02-20T19:30:18.492Z"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 3050 6 GB",
-  "memory": 6,
-  "memory_type": "GDDR6",
-  "core_base_clock": 1042,
-  "core_boost_clock": 1470,
-  "effective_memory_clock": 1750,
-  "interface": "PCIe 4.0 x8",
-  "color": ["BLACK", "GREY"],
-  "length": 189,
-  "tdp": 70,
-  "total_slot_width": 2.1,
-  "cooling": "2 Fans",
-  "core_count": 2304,
-  "frame_sync": "G-Sync",
-  "case_expansion_slot_width": 2,
-  "memory_bus": 96,
-  "lighting": ["None"],
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-VENTUS-2X-6G/Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GeForce RTX 3050 VENTUS 2X 6G",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RTX 3050 VENTUS 2X 6G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "2917",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "2917",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

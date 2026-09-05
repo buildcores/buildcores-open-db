@@ -1,28 +1,39 @@
 {
   "opendb_id": "0e021c1f-2f6f-444e-a931-d68425db609f",
-  "metadata": {
-    "name": "ID-COOLING AS-140-ARGB-K Black PWM",
-    "manufacturer": "ID-COOLING",
-    "series": "AS",
-    "variant": "140-ARGB-K",
-    "part_numbers": ["AS-140-ARGB-K"],
-    "manufacturer_color": "Black",
-    "releaseYear": 2025
-  },
   "size": 140,
   "color": ["BLACK"],
   "lighting": ["ARGB"],
   "quantity": 1,
-  "pwm": true,
-  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
-  "flow_direction": "Standard",
-  "isOEM": false,
   "min_airflow": 72.2,
   "min_noise_level": 24.9,
+  "pwm": true,
   "led": "Addressable RGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
   "controller": "None",
   "static_pressure": 1.65,
+  "flow_direction": "Standard",
+  "isOEM": false,
+  "metadata": {
+    "name": "ID-COOLING AS-140-ARGB-K Black PWM",
+    "manufacturer": "ID-COOLING",
+    "part_numbers": ["AS-140-ARGB-K"],
+    "series": "AS",
+    "variant": "140-ARGB-K",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.idcooling.com/product/detail?id=521&name=AS-140-ARGB-K#gallery"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AS-140-ARGB-K",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

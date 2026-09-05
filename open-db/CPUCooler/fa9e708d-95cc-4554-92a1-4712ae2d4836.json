@@ -1,5 +1,18 @@
 {
   "opendb_id": "fa9e708d-95cc-4554-92a1-4712ae2d4836",
+  "min_fan_rpm": 1000,
+  "max_fan_rpm": 2600,
+  "min_noise_level": 24.8,
+  "max_noise_level": 33.4,
+  "color": [],
+  "lighting": [],
+  "height": 30,
+  "cpu_sockets": ["LGA 1150", "LGA 1151", "LGA 1155", "LGA 1156", "LGA 1200"],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
   "metadata": {
     "name": "Titan DC-155A915Z/RPW Air 47.6 CFM",
     "manufacturer": "Titan",
@@ -8,18 +21,21 @@
     "variant": "",
     "releaseYear": null
   },
-  "min_fan_rpm": 1000,
-  "max_fan_rpm": 2600,
-  "min_noise_level": 24.8,
-  "max_noise_level": 33.4,
-  "color": [],
-  "height": 30,
-  "cpu_sockets": ["LGA 1150", "LGA 1151", "LGA 1155", "LGA 1156", "LGA 1200"],
-  "water_cooled": false,
-  "radiator_size": null,
-  "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DC-155A915Z",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RPW",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

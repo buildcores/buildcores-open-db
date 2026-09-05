@@ -1,70 +1,15 @@
 {
   "opendb_id": "0d1590d1-2ebc-445c-aa24-5c9b7a1a2659",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD B850",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "u2": 0,
-    "sata_3_gb_s": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 1,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 0,
-    "usb_3_2_gen_2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 0
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "power_led": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "com_port": 1,
-    "temperature_sensor": 0,
-    "thunderbolt": 0
-  },
-  "power_connectors": {
-    "main_power": "24-pin",
-    "cpu_power": ["8-pin", "8-pin"]
-  },
-  "bios_features": {
-    "clear_cmos": false,
-    "flashback": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC897",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "SAPPHIRE NITRO+ B850A WIFI 7 AM5 DDR5 ATX",
-    "manufacturer": "Sapphire",
-    "part_numbers": ["NITRO+ B850A WIFI 7", "52123-03-40G"],
-    "series": "NITRO+",
-    "variant": "B850A WIFI 7",
-    "releaseYear": 2025,
-    "manufacturer_color": "Silver",
-    "last_manually_spec_verified_at": "2026-04-27T14:43:35.000Z"
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD B850",
   "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -99,7 +44,62 @@
       "interface": ""
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek RTL8125BG"
+    }
+  ],
   "wireless_networking": "Wifi 7",
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x DisplayPort",
     "1 x HDMI",
@@ -110,19 +110,277 @@
     "2 x Wi-Fi Antenna",
     "6 x Audio Jacks"
   ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125BG"
-    }
-  ],
-  "raid_support": false,
-  "lighting": ["ARGB", "RGB"],
-  "ecc_support": false,
-  "back_connect_connectors": false,
+  "metadata": {
+    "name": "SAPPHIRE NITRO+ B850A WIFI 7 AM5 DDR5 ATX",
+    "manufacturer": "Sapphire",
+    "part_numbers": ["NITRO+ B850A WIFI 7", "52123-03-40G"],
+    "series": "NITRO+",
+    "variant": "B850A WIFI 7",
+    "releaseYear": 2025,
+    "manufacturer_color": "Silver",
+    "last_manually_spec_verified_at": "2026-04-27T14:43:35.000Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0GCJQFJ7H",
-    "newegg_sku": "9SIC4CTKX57918",
     "manufacturer_url": "https://www.sapphiretech.com/en/consumer/mb_nitro_b850a-wifi7#Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4895106296930",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "52123-03-40G",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "NITRO+ B850A WIFI 7",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100146186",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100146186",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100146186",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100146186",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GCJQFJ7H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBSP-012",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3603183",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "52123-03-40G",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2317-01C",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3603183",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC4CTKX57918",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC4CTKX57918",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-SPR-05688",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21861280",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21861280",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3409130",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3409130",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3409130",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3409130",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3603183",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

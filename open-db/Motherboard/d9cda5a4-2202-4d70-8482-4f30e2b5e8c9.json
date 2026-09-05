@@ -1,15 +1,34 @@
 {
   "opendb_id": "d9cda5a4-2202-4d70-8482-4f30e2b5e8c9",
+  "socket": "LGA 1155",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel H61",
   "memory": {
     "max": 16,
     "ram_type": "DDR3",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 0,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s"],
   "metadata": {
     "name": "Jetway H61 JNF9F-H61 LGA1155 DDR3 Mini ITX",
     "manufacturer": "Jetway",
@@ -35,30 +58,16 @@
     "series": "H61",
     "variant": ""
   },
-  "socket": "LGA 1155",
-  "form_factor": "Mini-ITX",
-  "chipset": "Intel H61",
-  "color": [],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac6e36a2b96d5d8411b4"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ac6e36a2b96d5d8411b5"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "JNF9F-H61",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

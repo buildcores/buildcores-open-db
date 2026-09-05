@@ -1,5 +1,21 @@
 {
   "opendb_id": "d79ca295-eb5d-4bb6-b297-2d4b8aa77684",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 7700 XT",
+  "core_count": 3456,
+  "core_base_clock": 2171,
+  "core_boost_clock": 2599,
+  "memory": 12,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 18000,
+  "memory_bus": 0,
+  "tdp": 245,
+  "interface": "PCIe x16",
+  "color": ["WHITE", "BLUE"],
+  "lighting": [],
+  "length": 340,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,23 +38,31 @@
     "series": "Radeon RX 7700 XT",
     "variant": "Yeston"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 7700 XT",
-  "memory": 12,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2171,
-  "core_boost_clock": 2599,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE", "BLUE"],
-  "length": 340,
-  "tdp": 245,
-  "total_slot_width": 4,
-  "cooling": "3 Fans",
-  "core_count": 3456,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "27N-0042-000J0"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RX7700XT-12G SA",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "27N-0042-000J0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "27N-0042-000J0",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

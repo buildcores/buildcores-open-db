@@ -1,10 +1,14 @@
 {
   "opendb_id": "7d92d031-e565-4985-a288-89f8691bdd61",
+  "series": "Xeon E5 2600 v3",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 12,
     "performance": 0,
-    "threads": 24,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 24
   },
   "clocks": {
     "performance": {
@@ -12,49 +16,171 @@
       "boost": 3.3
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)",
     "l2": 3,
-    "l3": 30,
-    "l1": "12 × 32 KB Instruction + 12 × 32 KB Data (768 KB total)"
+    "l3": 30
   },
   "specifications": {
+    "tdp": 120,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 768,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5-2680 v3 OEM/Tray",
     "manufacturer": "Intel",
     "part_numbers": ["CM8064401439612"],
     "series": "Xeon E5 2600 v3",
-    "releaseYear": 2014,
-    "variant": "2680 v3"
+    "variant": "2680 v3",
+    "releaseYear": 2014
   },
-  "series": "Xeon E5 2600 v3",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B07RQ8YJGF",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/81908/intel-xeon-processor-e52680-v3-30m-cache-2-50-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0005272006774",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8064401439612",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "005272006774",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07RQ8YJGF",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

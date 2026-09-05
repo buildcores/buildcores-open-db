@@ -1,15 +1,28 @@
 {
   "opendb_id": "a33b114b-302f-43a4-9845-d9c15793e574",
+  "socket": "Integrated Atom",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel NM10",
   "memory": {
     "max": 2,
     "ram_type": "DDR3",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 0,
@@ -20,6 +33,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +44,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["2 x 1 Gb/s"],
   "metadata": {
     "name": "Jetway Intel NM10 JNC9C-550-LF Atom N550 DDR3 Mini ITX",
     "manufacturer": "Jetway",
@@ -35,23 +52,16 @@
     "series": "Intel",
     "variant": ""
   },
-  "socket": "Integrated Atom",
-  "form_factor": "Mini-ITX",
-  "chipset": "Intel NM10",
-  "color": [],
-  "pcie_slots": [],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ac3a4fd4af70a34a0268"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["2 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "JNC9C-550-LF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

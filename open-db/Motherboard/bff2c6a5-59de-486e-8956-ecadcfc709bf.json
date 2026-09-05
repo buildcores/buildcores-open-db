@@ -1,70 +1,15 @@
 {
   "opendb_id": "bff2c6a5-59de-486e-8956-ecadcfc709bf",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD A520",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 2,
-    "pump": 0,
-    "cpu_opt": 0
-  },
-  "rgb_headers": {
-    "rgb_12v": 1,
-    "argb_5v": 0
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "power_led": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "thunderbolt": 0,
-    "com_port": 1,
-    "temperature_sensor": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC 887",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS TUF GAMING A520M-PLUS AM4 DDR4 Micro ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": ["TUF GAMING A520M-PLUS", "90MB14Y0-M0EAY0"],
-    "series": "TUF GAMING",
-    "variant": "A520M-PLUS",
-    "releaseYear": 2020,
-    "manufacturer_color": "Black",
-    "last_manually_spec_verified_at": "2026-02-16T10:10:57.297Z"
-  },
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD A520",
   "color": ["BLACK"],
+  "lighting": ["RGB"],
   "pcie_slots": [
     {
       "gen": "3.0",
@@ -84,15 +29,62 @@
       "interface": "PCIe 3.0 x4 & SATA"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "L8200A"
     }
   ],
+  "wireless_networking": "None",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 0,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 0,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": false,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC 887",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x PS/2 Keyboard/Mouse combo port",
     "1 x DVI-D port",
@@ -104,11 +96,158 @@
     "1 x Realtek L8200A 1Gb Ethernet port",
     "3 x Audio jacks"
   ],
-  "lighting": ["RGB"],
-  "wireless_networking": "None",
+  "metadata": {
+    "name": "ASUS TUF GAMING A520M-PLUS AM4 DDR4 Micro ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": ["TUF GAMING A520M-PLUS", "90MB14Y0-M0EAY0"],
+    "series": "TUF GAMING",
+    "variant": "A520M-PLUS",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-02-16T10:10:57.297Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B08DQG9W6P",
-    "newegg_sku": "9SIC6EGM2W8744",
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-a520m-plus/techspec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4718017823661",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB14Y0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TUF GAMING A520M-PLUS",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08DQG9W6P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC6EGM2W8744",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6EGM2W8744",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

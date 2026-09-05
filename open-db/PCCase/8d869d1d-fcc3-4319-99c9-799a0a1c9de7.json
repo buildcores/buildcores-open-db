@@ -1,21 +1,9 @@
 {
   "opendb_id": "8d869d1d-fcc3-4319-99c9-799a0a1c9de7",
-  "dimensions_mm": {
-    "width": 320,
-    "height": 470,
-    "depth": 470
-  },
-  "metadata": {
-    "name": "HYTE Gundam Wing Y70 Touch Infinite ATX Mid Tower White / Gold with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
-    "manufacturer": "HYTE",
-    "part_numbers": ["CS-HYTE-Y70TTI-GWING"],
-    "series": "Y70 Touch Infinite",
-    "variant": "Gundam Wing",
-    "last_manually_spec_verified_at": "2026-01-08T19:56:59.988Z"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "color": ["WHITE", "GOLD", "BLUE"],
+  "lighting": [],
   "power_supply": "None",
   "supported_power_supply_form_factors": [],
   "side_panel": "Tempered Glass",
@@ -26,15 +14,45 @@
   "max_cpu_cooler_height": 180,
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 4,
+  "power_supply_shroud": true,
   "expansion_slots": 7,
+  "riser_expansion_slots": 4,
   "dimensions": "470 x 320 x 470",
+  "dimensions_mm": {
+    "depth": 470,
+    "width": 320,
+    "height": 470
+  },
   "volume": 70.688,
   "weight": 24.91224,
-  "power_supply_shroud": true,
-  "riser_expansion_slots": 4,
-  "lighting": [],
+  "metadata": {
+    "name": "HYTE Gundam Wing Y70 Touch Infinite ATX Mid Tower White / Gold with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+    "manufacturer": "HYTE",
+    "part_numbers": ["CS-HYTE-Y70TTI-GWING"],
+    "series": "Y70 Touch Infinite",
+    "variant": "Gundam Wing",
+    "last_manually_spec_verified_at": "2026-01-08T19:56:59.988Z"
+  },
   "general_product_information": {
-    "hyte_sku": "CS-HYTE-Y70TTI-GWING",
     "manufacturer_url": "https://hyte.com/store/gundam-wing-y70tti/cs-hyte-y70tti-gwing?srsltid=AfmBOord7U4IWNsiOUToF5asILzXmg0kfeVs2urBXN9p5-BZcoIaY9N0"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CS-HYTE-Y70TTI-GWING",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "hyte",
+        "channel": "us",
+        "source_product_id": "CS-HYTE-Y70TTI-GWING",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

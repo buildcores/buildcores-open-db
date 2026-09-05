@@ -1,15 +1,39 @@
 {
   "opendb_id": "6888c393-1d6d-482f-b7b7-e010949dcd15",
+  "socket": "LGA 2011",
+  "form_factor": "EATX",
+  "chipset": "Intel C606",
   "memory": {
     "max": 64,
     "ram_type": "DDR3",
     "slots": 8
   },
+  "color": ["BLACK", "BLUE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 4,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 2,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 1,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["2 x 1 Gb/s"],
   "metadata": {
     "name": "Gigabyte Intel C606 GA-X79S-UP5-WIFI LGA2011 DDR3 EATX",
     "manufacturer": "Gigabyte",
@@ -35,36 +63,16 @@
     "series": "Intel",
     "variant": ""
   },
-  "socket": "LGA 2011",
-  "form_factor": "EATX",
-  "chipset": "Intel C606",
-  "color": ["BLACK", "BLUE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3abda36a2b96d5d83cb24"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abda36a2b96d5d83cb25"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3abda36a2b96d5d83cb26"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["2 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GA-X79S-UP5-WIFI",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,59 +1,13 @@
 {
   "opendb_id": "e6d55b4b-9b6e-4051-a37c-caf030c3ef20",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2
-  },
-  "fan_headers": {
-    "pump": 1,
-    "cpu_fan": 2,
-    "case_fan": 3
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true,
-    "power_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC897",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "AsRock B850M Challenger WiFi",
-    "manufacturer": "ASRock",
-    "series": "Challenger",
-    "variant": "B850M Challenger WiFi",
-    "manufacturer_color": "Black",
-    "part_numbers": [],
-    "releaseYear": 2025
-  },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD B850",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["BLACK"],
   "lighting": ["None"],
   "pcie_slots": [
@@ -85,12 +39,53 @@
       "interface": "PCIe 4.0x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Dragon"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC897",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x Antenna Ports",
     "2 x Antenna Mounting Points",
@@ -101,12 +96,29 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
+  "metadata": {
+    "name": "AsRock B850M Challenger WiFi",
+    "manufacturer": "ASRock",
+    "part_numbers": [],
+    "series": "Challenger",
+    "variant": "B850M Challenger WiFi",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "walmart_sku": 19594923673,
     "manufacturer_url": "https://asrock.com/mb/AMD/B850M%20Challenger%20WiFi/index.asp#Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [],
+    "retailer_listings": [
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19594923673",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

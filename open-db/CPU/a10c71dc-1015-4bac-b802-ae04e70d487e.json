@@ -1,10 +1,14 @@
 {
   "opendb_id": "a10c71dc-1015-4bac-b802-ae04e70d487e",
+  "series": "FX 4000",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Vishera",
+  "socket": "AM3+",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,41 +21,48 @@
     }
   },
   "cache": {
+    "l1": "2 × 64 KB Instruction + 4 × 16 KB Data (192 KB total)",
     "l2": 4,
-    "l3": 4,
-    "l1": "2 × 64 KB Instruction + 4 × 16 KB Data (192 KB total)"
+    "l3": 4
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD FX-4320 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["FD4320WMW4MHK"],
     "series": "FX 4000",
-    "releaseYear": 2012,
-    "variant": "4320"
+    "variant": "4320",
+    "releaseYear": 2012
   },
-  "series": "FX 4000",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Vishera",
-  "socket": "AM3+",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "FD4320WMW4MHK",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

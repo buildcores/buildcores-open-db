@@ -1,62 +1,15 @@
 {
   "opendb_id": "91a4a664-875d-4ea4-b69f-3d3a903a8a32",
+  "socket": "AM5",
+  "form_factor": "Mini-ITX",
+  "chipset": "AMD X870",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
-  "storage_devices": {
-    "sata_6_gb_s": 2
-  },
-  "usb_headers": {
-    "usb_2_0": 1,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2x2": 1
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "case_fan": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC4080"
-  },
-  "metadata": {
-    "name": "MSI MPG X870I EDGE TI EVO WIFI",
-    "part_numbers": [
-      "MPG X870I EDGE TI EVO WIFI",
-      "MPG X870I Edge TI EVO",
-      "MPG X870I Edge TI EVO WiFi",
-      "911-7E50-001"
-    ],
-    "manufacturer": "MSI",
-    "variant": "EDGE TI EVO WIFI",
-    "releaseYear": 2026,
-    "manufacturer_color": "White",
-    "series": "MPG",
-    "last_manually_spec_verified_at": "2026-04-27T14:43:08.000Z"
-  },
-  "socket": "AM5",
-  "form_factor": "Mini-ITX",
-  "chipset": "AMD X870",
   "color": ["WHITE", "GREY"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -66,27 +19,60 @@
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 2
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek 8126"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x Clear CMOS button",
     "1 x Flash BIOS button",
@@ -99,14 +85,360 @@
     "2 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "raid_support": true,
-  "lighting": [],
+  "metadata": {
+    "name": "MSI MPG X870I EDGE TI EVO WIFI",
+    "manufacturer": "MSI",
+    "part_numbers": [],
+    "series": "MPG",
+    "variant": "X870I EDGE TI EVO WIFI",
+    "releaseYear": 2026,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2026-04-27T14:43:08.000Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0FZDBM1BL",
-    "newegg_sku": "N82E16813144731",
-    "bestbuy_sku": 12202132,
-    "walmart_sku": 5135399307,
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870I-EDGE-TI-EVO-WIFI/Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142447246",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711377401463",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "911-7E50-001",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG X870I Edge TI EVO",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG X870I Edge TI EVO WiFi",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG X870I EDGE TI EVO WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142447246",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100175282",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100175282",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100175282",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100175282",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FZDBM1BL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56888396513662",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12202132",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSMX87IETEVW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "MPG X870I EDGE TI EVO WIFI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3645695",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2303-9JG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3645695",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "MPG X870I EDGE TI EVO WIFI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "2883",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "2883",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02MS154",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813144731",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144731",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-MSI-07094",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21848866",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21848866",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3434143",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3434143",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3434143",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3434143",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "417863",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202511170064",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3645695",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5135399307",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

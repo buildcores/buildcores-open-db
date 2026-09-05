@@ -1,19 +1,15 @@
 {
   "opendb_id": "0c34a641-5aa4-4c63-adca-b42841f458fc",
-  "metadata": {
-    "name": "Silverstone RVX01 ATX Mid Tower Black / Red Window Side Panel",
-    "manufacturer": "Silverstone",
-    "part_numbers": ["SST-RVX01BR-W", "RVX01BR-W"],
-    "series": "RVX01",
-    "variant": ""
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["BLACK", "RED"],
+  "lighting": [],
   "power_supply": "None",
+  "supported_power_supply_form_factors": [],
   "side_panel": "Acrylic",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": [],
   "max_video_card_length": 347,
   "max_cpu_cooler_height": null,
   "internal_3_5_bays": 4,
@@ -22,10 +18,43 @@
   "dimensions": "",
   "volume": null,
   "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16811163348"
+  "metadata": {
+    "name": "Silverstone RVX01 ATX Mid Tower Black / Red Window Side Panel",
+    "manufacturer": "Silverstone",
+    "part_numbers": ["SST-RVX01BR-W", "RVX01BR-W"],
+    "series": "RVX01",
+    "variant": ""
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RVX01BR-W",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "SST-RVX01BR-W",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811163348",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811163348",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

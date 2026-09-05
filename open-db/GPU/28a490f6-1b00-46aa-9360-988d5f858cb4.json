@@ -1,5 +1,21 @@
 {
   "opendb_id": "28a490f6-1b00-46aa-9360-988d5f858cb4",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5070",
+  "core_count": 6144,
+  "core_base_clock": 2325,
+  "core_boost_clock": 2542,
+  "memory": 12,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 0,
+  "memory_bus": 192,
+  "tdp": 250,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 250,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,21 +38,31 @@
     "series": "GeForce RTX 5070",
     "variant": "Inno3D"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5070",
-  "memory": 12,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2325,
-  "core_boost_clock": 2542,
-  "effective_memory_clock": 0,
-  "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 250,
-  "tdp": 250,
-  "total_slot_width": 2,
-  "cooling": "2 Fans",
-  "core_count": 6144,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "N50702-12D7X-195064N",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "VGA7297",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC83005",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

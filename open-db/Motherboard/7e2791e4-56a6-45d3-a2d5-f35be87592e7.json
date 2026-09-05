@@ -1,15 +1,39 @@
 {
   "opendb_id": "7e2791e4-56a6-45d3-a2d5-f35be87592e7",
+  "socket": "LGA 775",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel G41",
   "memory": {
     "max": 8,
     "ram_type": "DDR3",
     "slots": 2
   },
+  "color": ["BLACK", "RED"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 2,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 0,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 100 Mb/s"],
   "metadata": {
     "name": "Biostar Intel G41 G41D3C LGA775 DDR3 Micro ATX",
     "manufacturer": "Biostar",
@@ -35,36 +63,16 @@
     "series": "Intel",
     "variant": ""
   },
-  "socket": "LGA 775",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel G41",
-  "color": ["BLACK", "RED"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac0c744e69396d55f1ed"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac0c744e69396d55f1ee"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Unknown",
-      "_id": "69b3ac0c744e69396d55f1ef"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 100 Mb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "G41D3C",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,15 +1,50 @@
 {
   "opendb_id": "40e2c4cb-542c-418d-8430-424063ec340c",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B650",
   "memory": {
     "max": 96,
     "ram_type": "DDR5",
     "slots": 2
   },
+  "color": ["WHITE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "E",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [],
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +66,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": [],
   "metadata": {
     "name": "MAXSUN B650M Challenger WIFI ICE AM5 DDR5 Micro ATX",
     "manufacturer": "MAXSUN",
@@ -35,49 +74,29 @@
     "series": "B650M",
     "variant": ""
   },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B650",
-  "color": ["WHITE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aba575ef0cf5df013d96"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3aba575ef0cf5df013d97"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba575ef0cf5df013d98"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba575ef0cf5df013d99"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba575ef0cf5df013d9a"
-    }
-  ],
-  "onboard_ethernet": [],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "Challenger B650M WIFI ICE",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MS-CH-B650M-WIFI-ICE",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC82816",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

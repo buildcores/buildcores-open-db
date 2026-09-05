@@ -1,5 +1,9 @@
 {
   "opendb_id": "a0b0d13b-626c-4dd2-a253-5ddbd67dba37",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 10,
     "performance": 10,
@@ -16,19 +20,19 @@
     "l3": 25
   },
   "specifications": {
+    "tdp": 160,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 160,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2687W V3 3.1 GHz 10-Core LGA2011-3 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8064401613502"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8064401613502",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

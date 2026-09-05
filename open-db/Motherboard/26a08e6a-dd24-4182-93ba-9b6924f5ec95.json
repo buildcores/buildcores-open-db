@@ -1,62 +1,15 @@
 {
   "opendb_id": "26a08e6a-dd24-4182-93ba-9b6924f5ec95",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD B850",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 2,
-    "case_fan": 3,
-    "pump": 0
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true,
-    "power_led": true
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC1220",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASRock B850 Challenger WiFi White DDR5 ATX",
-    "manufacturer": "ASRock",
-    "part_numbers": ["B850 Challenger WiFi White"],
-    "variant": "B850 WIFI",
-    "series": "Challenger",
-    "manufacturer_color": "White",
-    "releaseYear": 2025
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD B850",
   "color": ["WHITE"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -86,15 +39,55 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek Dragon RTL8125BG"
     }
   ],
+  "wireless_networking": "WiFi 6 Bluetooth 5.3",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x Antenna Ports",
     "1 x HDMI Port",
@@ -106,9 +99,27 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "WiFi 6 Bluetooth 5.3",
+  "metadata": {
+    "name": "ASRock B850 Challenger WiFi White DDR5 ATX",
+    "manufacturer": "ASRock",
+    "part_numbers": ["B850 Challenger WiFi White"],
+    "series": "Challenger",
+    "variant": "B850 WIFI",
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
     "manufacturer_url": "https://asrock.com/mb/AMD/B850%20Challenger%20WiFi%20White/index.asp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "B850 Challenger WiFi White",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

@@ -1,65 +1,15 @@
 {
   "opendb_id": "2bba370f-72e3-41b6-af97-7b4679e9ad8d",
+  "socket": "AM5",
+  "form_factor": "EATX",
+  "chipset": "AMD X870E",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 2,
-    "pump": 2,
-    "cpu_opt": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 2
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "power_led": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1
-  },
-  "power_connectors": {
-    "main_power": "24-Pin",
-    "cpu_power": ["8 pin", "8 pin"]
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": null,
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "Asus X870E ROG CROSSHAIR EXTREME AM5 DDR5 EATX",
-    "manufacturer": "ASUS",
-    "part_numbers": ["ROG CROSSHAIR X870E EXTREME", "90MB1LB0-MVAAY0", "90MB1LB0-M0EAY0"],
-    "variant": "X870E EXETREME",
-    "series": "ROG CROSSHAIR",
-    "manufacturer_color": "Black",
-    "last_manually_spec_verified_at": "2026-02-21T05:22:09.622Z"
-  },
-  "socket": "AM5",
-  "form_factor": "EATX",
-  "chipset": "AMD X870E",
   "color": ["BLACK", "GREY"],
+  "lighting": ["Display", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -94,30 +44,455 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek"
+    },
+    {
+      "speed": "10 Gb/s",
+      "controller": "Marvell AQtion"
     }
   ],
-  "wireless_networking": "Wi-Fi 7                             Bluetooth® v5.4",
+  "wireless_networking": "Wifi 7",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-Pin",
+    "cpu_power": ["8 pin", "8 pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4082",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
-    "Ports 2 x USB4® (40Gbps) ports (2 x USB Type-C®)",
+    "2 x USB4® (40Gbps) ports (2 x USB Type-C®)",
     "10 x USB 10Gbps ports (8 x Type-A + 2 x USB Type-C®)",
     "1 x HDMITM port",
     "1 x Wi-Fi Module",
     "1 x Realtek 5Gb Ethernet port",
+    "1 x Marvell® AQtion 10Gb Ethernet port",
     "2 x LED-illuminated audio jacks",
-    "1 x Optical S/PDIF out port"
+    "1 x Optical S/PDIF out port",
+    "1 x BIOS FlashBack™  button",
+    "1 x Clear CMOS button"
   ],
-  "lighting": ["Display"],
+  "metadata": {
+    "name": "ASUS X870E ROG CROSSHAIR EXTREME AM5 DDR5 EATX",
+    "manufacturer": "ASUS",
+    "part_numbers": ["ROG CROSSHAIR X870E EXTREME"],
+    "series": "ROG",
+    "variant": "X870E CROSSHAIR EXTREME",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-02-21T05:22:09.622Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0F8PSWNMV",
-    "newegg_sku": "N82E16813119738",
-    "walmart_sku": 16641614052,
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/spec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0197105984967",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711387984963",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1LB0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1LB0-MVAAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E EXTREME",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105984967",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100121871",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100121871",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100121871",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100121871",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F8PSWNMV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55459629793662",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASRCHX870EEX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90MB1LB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-835",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90MB1LB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3896",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3470789",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-A4A",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3470789",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90MB1LB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "210462",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90MB1LB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC85827",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AS195",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813119738",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119738",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-ASU-05121",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21797623",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21797623",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3366022",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3366022",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3366022",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3366022",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "403821",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00013319609",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "167463",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3470789",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "16641614052",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

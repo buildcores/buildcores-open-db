@@ -1,10 +1,14 @@
 {
   "opendb_id": "622de591-d901-4b0f-b6bf-7b4ffe185bfc",
+  "series": "A-Series A8 7000",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Carrizo",
+  "socket": "FM2+",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)",
     "l2": 2,
-    "l3": 0,
-    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 45,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon R7 Graphics",
+      "baseClock": 720,
       "boostClock": 800,
-      "shaderCount": 384,
-      "baseClock": 720
+      "shaderCount": 384
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 45,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A8-7680",
@@ -49,12 +53,48 @@
     "variant": "7680",
     "releaseYear": 2018
   },
-  "series": "A-Series A8 7000",
-  "microarchitecture": "Excavator",
-  "coreFamily": "Carrizo",
-  "socket": "FM2+",
-  "general_product_information": {
-    "newegg_sku": "N82E16819113548",
-    "walmart_sku": 73014330936
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143309363",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD7680ACABBOX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143309363",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113548",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113548",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "73014330936",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

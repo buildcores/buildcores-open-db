@@ -1,10 +1,14 @@
 {
   "opendb_id": "cf60f167-fee9-48fc-a3c3-91a1c3af275e",
+  "series": "Ryzen Threadripper 3000",
+  "microarchitecture": "Zen 2",
+  "coreFamily": "Castle Peak",
+  "socket": "sTRX4",
   "cores": {
     "total": 64,
     "performance": 0,
-    "threads": 128,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 128
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "32 KB instruction + 32 KB data per core (64 KB L1 per core)",
     "l2": 32,
-    "l3": 256,
-    "l1": "32 KB instruction + 32 KB data per core (64 KB L1 per core)"
+    "l3": 256
   },
   "specifications": {
+    "tdp": 280,
+    "ppt": 280,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 256,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 280,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "TSMC 7nm FinFET, 12nm (Globalfoundries)",
     "simultaneousMultithreading": true,
-    "ppt": 280
+    "memory": {
+      "maxSupport": 256,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 3990X",
@@ -49,14 +53,171 @@
     "variant": "3990X",
     "releaseYear": 2020
   },
-  "series": "Ryzen Threadripper 3000",
-  "microarchitecture": "Zen 2",
-  "coreFamily": "Castle Peak",
-  "socket": "sTRX4",
   "general_product_information": {
-    "amazon_sku": "B0815SBQ9W",
-    "newegg_sku": "N82E16819113620",
-    "bestbuy_sku": 6404153,
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-3000-series/amd-ryzen-threadripper-3990x.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "100-100000163WOF",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AMD Ryzen Threadripper 3990X",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0815SBQ9W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6404153",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2223587",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2223587",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113620",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113620",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2223587",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

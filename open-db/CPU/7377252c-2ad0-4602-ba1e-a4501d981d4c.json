@@ -1,5 +1,9 @@
 {
   "opendb_id": "7377252c-2ad0-4602-ba1e-a4501d981d4c",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Ivy Bridge",
+  "coreFamily": "Ivy Bridge-EP",
+  "socket": "LGA 2011",
   "cores": {
     "total": 6,
     "performance": 6,
@@ -16,19 +20,19 @@
     "l3": 15
   },
   "specifications": {
+    "tdp": 80,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 80,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2630 V2 2.6 GHz 6-Core LGA2011 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8063501288100"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Ivy Bridge",
-  "coreFamily": "Ivy Bridge-EP",
-  "socket": "LGA 2011",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8063501288100",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

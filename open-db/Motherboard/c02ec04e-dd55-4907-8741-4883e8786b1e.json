@@ -1,15 +1,60 @@
 {
   "opendb_id": "c02ec04e-dd55-4907-8741-4883e8786b1e",
+  "socket": "TR4",
+  "form_factor": "EATX",
+  "chipset": "AMD X399",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 4,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 8
+    },
+    {
+      "gen": "2.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": null,
+      "key": "M",
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
+    },
+    {
+      "size": null,
+      "key": "M",
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
+    },
+    {
+      "size": null,
+      "key": "M",
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I211"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 4,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,67 +76,6 @@
     "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI X399 Gaming Pro Carbon AC",
-    "manufacturer": "MSI",
-    "series": "PERFORMANCE GAMING",
-    "variant": null,
-    "releaseYear": 2017,
-    "part_numbers": ["X399 GAMING PRO CARBON AC"]
-  },
-  "socket": "TR4",
-  "form_factor": "EATX",
-  "chipset": "AMD X399",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3ac5c3f8fd0c825de4d47"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 8,
-      "_id": "69b3ac5c3f8fd0c825de4d48"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac5c3f8fd0c825de4d49"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": null,
-      "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "69b3ac5c3f8fd0c825de4d4a"
-    },
-    {
-      "size": null,
-      "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "69b3ac5c3f8fd0c825de4d4b"
-    },
-    {
-      "size": null,
-      "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "69b3ac5c3f8fd0c825de4d4c"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I211",
-      "_id": "69b3ac5c3f8fd0c825de4d4d"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "PS/2",
     "RJ45",
@@ -98,11 +85,166 @@
     "S/PDIF Out",
     "Audio Ports"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B074DHQR9N",
-    "newegg_sku": "9SIBMWSK380704",
-    "walmart_sku": 622089044
+  "metadata": {
+    "name": "MSI X399 Gaming Pro Carbon AC",
+    "manufacturer": "MSI",
+    "part_numbers": ["X399 GAMING PRO CARBON AC"],
+    "series": "PERFORMANCE GAMING",
+    "variant": null,
+    "releaseYear": 2017
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142151051",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X399 GAMING PRO CARB",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X399 GAMING PRO CARBON AC",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142151051",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B074DHQR9N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBMWSK380704",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBMWSK380704",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "622089044",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

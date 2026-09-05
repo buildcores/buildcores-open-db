@@ -1,5 +1,23 @@
 {
   "opendb_id": "1fa72c48-d662-42ee-a270-bdee6d34b72c",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3080 10 GB",
+  "core_count": 8704,
+  "core_base_clock": 1440,
+  "core_boost_clock": 1740,
+  "memory": 10,
+  "memory_type": "GDDR6X",
+  "effective_memory_clock": 19000,
+  "memory_bus": 320,
+  "tdp": 320,
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": null,
+  "color": ["BLACK"],
+  "lighting": [],
+  "length": 300,
+  "case_expansion_slot_width": 2.7,
+  "total_slot_width": 2.7,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 2,
@@ -18,30 +36,72 @@
   "metadata": {
     "name": "ASUS TUF Gaming NVIDIA GeForce RTX 3080 TUF-RTX3080-10G-GAMING Video Card",
     "manufacturer": "ASUS",
+    "part_numbers": ["TUF-RTX3060-O12G-GAM", "TUF-RTX3080-10G-GAMING"],
     "series": "TUF Gaming",
     "variant": null,
-    "releaseYear": 2020,
-    "part_numbers": ["TUF-RTX3060-O12G-GAM", "TUF-RTX3080-10G-GAMING"]
+    "releaseYear": 2020
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 3080 10 GB",
-  "memory": 10,
-  "memory_type": "GDDR6X",
-  "core_base_clock": 1440,
-  "core_boost_clock": 1740,
-  "effective_memory_clock": 19000,
-  "memory_bus": 320,
-  "interface": "PCIe 4.0 x16",
-  "frame_sync": null,
-  "length": 300,
-  "tdp": 320,
-  "case_expansion_slot_width": 2.7,
-  "total_slot_width": 2.7,
-  "cooling": "3 Fans",
-  "color": ["BLACK"],
-  "core_count": 8704,
-  "lighting": [],
-  "general_product_information": {
-    "bestbuy_sku": 6460666
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553050258",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TUF-RTX3060-O12G-GAM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TUF-RTX3080-10G-GAMING",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553050258",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6460666",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASTR3060O12G",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2542070",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2542070",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2542070",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

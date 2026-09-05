@@ -1,38 +1,100 @@
 {
   "opendb_id": "dcd9c5c2-5dd3-49f1-adc4-4b80c6ce989e",
-  "dimensions_mm": {
-    "width": 238,
-    "height": 503,
-    "depth": 482
-  },
-  "metadata": {
-    "name": "Lian Li LANCOOL 217 ATX Mid Tower Black / Brown with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
-    "manufacturer": "Lian Li",
-    "part_numbers": ["LAN217X", "PC-LAN217X"],
-    "series": "LANCOOL",
-    "variant": "217 (Black with Walnut)",
-    "last_manually_spec_verified_at": "2025-09-24T04:13:08.414Z"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX", "SSI EEB"],
   "color": ["BLACK", "BROWN"],
+  "lighting": ["None"],
   "power_supply": "None",
-  "supported_power_supply_form_factors": [],
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "2 x USB 3.0                                                                                   1 x USB Type-C",
-  "front_usb_ports": ["2 x USB 3.0 ", " 1 x USB Type-C"],
+  "front_usb_ports": ["2 x USB 3.0", "1 x USB Type-C"],
   "max_video_card_length": 380,
   "max_cpu_cooler_height": 180,
-  "internal_3_5_bays": 1,
-  "internal_2_5_bays": 3,
+  "max_psu_length": 220,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 5,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": true,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": true,
   "dimensions": "482 x 238 x 503",
-  "volume": 57.702,
+  "dimensions_mm": {
+    "depth": 482,
+    "width": 238,
+    "height": 503
+  },
+  "volume": 57.7,
   "weight": 23.1,
-  "lighting": [],
+  "metadata": {
+    "name": "Lian Li LANCOOL 217 ATX Mid Tower Black / Brown with Tempered Glass Side Panel",
+    "manufacturer": "Lian Li",
+    "part_numbers": [],
+    "series": "LANCOOL 217",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black / Brown",
+    "last_manually_spec_verified_at": "2025-09-24T04:13:08.414Z"
+  },
   "general_product_information": {
-    "walmart_sku": 16449420486,
     "manufacturer_url": "https://lian-li.com/product/lancool-217/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353046597",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "LAN217X",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PC-LAN217X",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353046597",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CAS5549",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "LAN217X",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC86407",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "16449420486",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

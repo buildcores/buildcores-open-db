@@ -1,10 +1,14 @@
 {
   "opendb_id": "d75e09af-2936-4948-a778-afce5f7eb432",
+  "series": "Opteron 6300",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Abu Dhabi",
+  "socket": "G34",
   "cores": {
     "total": 16,
     "performance": 0,
-    "threads": 16,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 16
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 3.3
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "8 × 64 KB Instruction + 16 × 16 KB Data (768 KB total)",
     "l2": 16,
-    "l3": 16,
-    "l1": "8 × 64 KB Instruction + 16 × 16 KB Data (768 KB total)"
+    "l3": 16
   },
   "specifications": {
+    "tdp": 115,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 384,
-      "types": ["DDR3"],
-      "channels": 4
-    },
-    "tdp": 115,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "AMD Opteron 6378",
@@ -49,11 +53,36 @@
     "variant": "6378",
     "releaseYear": 2012
   },
-  "series": "Opteron 6300",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Abu Dhabi",
-  "socket": "G34",
-  "general_product_information": {
-    "newegg_sku": "N82E16819113320"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "6409685942904",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "OS6378WKTGGHKWOF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113320",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113320",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

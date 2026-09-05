@@ -1,16 +1,8 @@
 {
   "opendb_id": "ad854ddc-5502-4ab6-b6df-16f70eddf8ff",
-  "metadata": {
-    "name": "ARCTIC P12 PST 120mm Black RGB PWM",
-    "manufacturer": "ARCTIC",
-    "part_numbers": ["ACFAN00186A"],
-    "series": "P12",
-    "manufacturer_color": "Black",
-    "variant": "PST",
-    "releaseYear": 2021
-  },
   "size": 120,
   "color": ["BLACK"],
+  "lighting": ["RGB"],
   "quantity": 1,
   "min_airflow": 48.8,
   "max_airflow": null,
@@ -23,8 +15,27 @@
   "static_pressure": 1.85,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": ["RGB"],
+  "metadata": {
+    "name": "ARCTIC P12 PST 120mm Black RGB PWM",
+    "manufacturer": "ARCTIC",
+    "part_numbers": ["ACFAN00186A"],
+    "series": "P12",
+    "variant": "PST",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.arctic.de/en/P12-PWM-PST-RGB/ACFAN00186A"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ACFAN00186A",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

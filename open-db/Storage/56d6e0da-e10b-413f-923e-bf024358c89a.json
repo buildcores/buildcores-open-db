@@ -1,5 +1,11 @@
 {
   "opendb_id": "56d6e0da-e10b-413f-923e-bf024358c89a",
+  "capacity": 4000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KingSpec XF 4 TB M.2-2280 PCIe 4.0 X4 NVME",
     "manufacturer": "KingSpec",
@@ -7,14 +13,31 @@
     "series": "XF",
     "variant": "4000GB"
   },
-  "capacity": 4000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-000D-00193"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "XF-4TB-2280",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-000D-00193",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-000D-00193",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

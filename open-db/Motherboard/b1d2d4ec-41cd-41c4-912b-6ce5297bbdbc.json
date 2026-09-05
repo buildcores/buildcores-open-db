@@ -1,15 +1,65 @@
 {
   "opendb_id": "b1d2d4ec-41cd-41c4-912b-6ce5297bbdbc",
+  "socket": "sTRX4",
+  "form_factor": "XL ATX",
+  "chipset": "AMD TRX40",
   "memory": {
     "max": 256,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 8
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4, PCIe 4.0 x2, SATA"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4, PCIe 4.0 x2, SATA"
+    },
+    {
+      "size": "22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4, PCIe 4.0 x2, SATA"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4, PCIe 4.0 x2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": null,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 4,
@@ -20,6 +70,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,73 +81,6 @@
     "chipset": "Realtek ALC1220-VB",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "Gigabyte TRX40 DESIGNARE XL ATX sTRX4",
-    "manufacturer": "Gigabyte",
-    "series": "TRX40 DESIGNARE",
-    "variant": "XL-ATX",
-    "releaseYear": 2019,
-    "part_numbers": ["TRX40 DESIGNARE", "889523020401"]
-  },
-  "socket": "sTRX4",
-  "form_factor": "XL ATX",
-  "chipset": "AMD TRX40",
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac3f744e69396d56093d"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 8,
-      "_id": "69b3ac3f744e69396d56093e"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac3f744e69396d56093f"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4, PCIe 4.0 x2, SATA",
-      "_id": "69b3ac3f744e69396d560940"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4, PCIe 4.0 x2, SATA",
-      "_id": "69b3ac3f744e69396d560941"
-    },
-    {
-      "size": "22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4, PCIe 4.0 x2, SATA",
-      "_id": "69b3ac3f744e69396d560942"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4, PCIe 4.0 x2",
-      "_id": "69b3ac3f744e69396d560943"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3ac3f744e69396d560944"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1x USB-C (USB 3.1/3.2 Gen 2)",
     "5x USB-A (USB 3.1/3.2 Gen 2)",
@@ -102,11 +88,166 @@
     "5x 1/8\" / 3.5 mm",
     "1x S/PDIF"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B081YW31GR",
-    "newegg_sku": "9SIAMU8K4F8333",
-    "walmart_sku": 252159391
+  "metadata": {
+    "name": "Gigabyte TRX40 DESIGNARE XL ATX sTRX4",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["TRX40 DESIGNARE", "889523020401"],
+    "series": "TRX40 DESIGNARE",
+    "variant": "XL-ATX",
+    "releaseYear": 2019
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523020401",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "889523020401",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TRX40 DESIGNARE",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523020401",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B081YW31GR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAMU8K4F8333",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAMU8K4F8333",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "252159391",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

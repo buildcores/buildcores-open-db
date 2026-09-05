@@ -1,10 +1,14 @@
 {
   "opendb_id": "6afef332-8827-4395-aab4-da636e15e414",
+  "series": "Core i9 9000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 14,
     "performance": 0,
-    "threads": 28,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 28
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "14 × 32 KB Instruction Cache + 14 × 32 KB Data Cache",
     "l2": 14,
-    "l3": 19.25,
-    "l1": "14 × 32 KB Instruction Cache + 14 × 32 KB Data Cache"
+    "l3": 19.25
   },
   "specifications": {
+    "tdp": 165,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Core i9 9940X",
@@ -49,12 +53,139 @@
     "variant": "9940X",
     "releaseYear": 2018
   },
-  "series": "Core i9 9000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
   "general_product_information": {
-    "amazon_sku": "B07LDB72CB",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/189125/intel-core-i99940x-xseries-processor-19-25m-cache-up-to-4-50-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0675901725170",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80673I99940X",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "I9-9940X",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901725170",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07LDB72CB",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

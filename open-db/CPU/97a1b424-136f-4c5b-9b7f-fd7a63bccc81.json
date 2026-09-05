@@ -1,5 +1,9 @@
 {
   "opendb_id": "97a1b424-136f-4c5b-9b7f-fd7a63bccc81",
+  "series": "Intel Core i9",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 12,
     "performance": 12,
@@ -16,19 +20,19 @@
     "l3": 25
   },
   "specifications": {
+    "tdp": 165,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
-    "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i9 9920X 3.5 GHz 12-Core LGA2066 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CD8067304126300"],
     "series": "Intel Core i9"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CD8067304126300",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

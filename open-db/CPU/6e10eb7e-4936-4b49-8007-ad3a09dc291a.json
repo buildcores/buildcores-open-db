@@ -1,5 +1,9 @@
 {
   "opendb_id": "6e10eb7e-4936-4b49-8007-ad3a09dc291a",
+  "series": "AMD A4",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
   "cores": {
     "total": 2,
     "performance": 2,
@@ -16,19 +20,19 @@
     "l3": 0
   },
   "specifications": {
+    "tdp": 65,
     "integratedGraphics": {
       "model": "AMD Radeon HD 8370D"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD A4 6320 3.8 GHz 2-Core FM2",
@@ -36,9 +40,16 @@
     "part_numbers": ["AD6320OKHLBOX"],
     "series": "AMD A4"
   },
-  "series": "AMD A4",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Richland",
-  "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD6320OKHLBOX",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,41 +1,70 @@
 {
   "opendb_id": "e13a2675-8e27-4c89-94a2-2762319a5217",
-  "power_connectors": {
-    "pcie_8_pin": 2
-  },
-  "video_outputs": {
-    "hdmi_2_1": 2,
-    "displayport_2_1": 2,
-    "displayport_2_1a": 2,
-    "displayport_2_1_b": 0
-  },
-  "metadata": {
-    "name": "Gigabyte GAMING Radeon RX 9070 16GB GDDR6 Black",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["GV-R9070GAMING-16GD"],
-    "series": "Radeon RX 9070",
-    "variant": "Gaming 16GB",
-    "last_manually_spec_verified_at": "2026-01-25T20:35:59.106Z"
-  },
   "chipset_manufacturer": "AMD",
   "chipset": "Radeon RX 9070",
   "core_count": 3584,
+  "core_base_clock": 1440,
+  "core_boost_clock": 2700,
   "memory": 16,
   "memory_type": "GDDR6",
-  "core_base_clock": 1300,
-  "core_boost_clock": 2520,
   "effective_memory_clock": 2518,
   "memory_bus": 256,
-  "interface": "PCIe 5.0 x16",
-  "color": ["BLACK"],
-  "length": 288,
   "tdp": 220,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
+  "interface": "PCIe 5.0 x16",
   "frame_sync": "FreeSync",
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "length": 288,
   "case_expansion_slot_width": 2,
-  "lighting": [],
+  "total_slot_width": 2.5,
+  "cooling": "3 Fans",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 0
+  },
+  "video_outputs": {
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 2,
+    "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 2,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
+  },
+  "metadata": {
+    "name": "Gigabyte Radeon RX 9070 GAMING OC 16G GDDR6",
+    "manufacturer": "Gigabyte",
+    "part_numbers": [],
+    "series": "GAMING",
+    "variant": "OC",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-01-25T20:35:59.106Z"
+  },
   "general_product_information": {
-    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-R9070GAMING-OC-16GD/"
+    "manufacturer_url": "https://www.gigabyte.com/Graphics-Card/GV-R9070GAMING-OC-16GD/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GV-R9070GAMING-16GD",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

@@ -1,15 +1,45 @@
 {
   "opendb_id": "5b35165c-8b91-4295-bb82-53571180ad1d",
+  "socket": "LGA 1151",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel H370",
   "memory": {
     "max": 32,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2230/2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe Gen3 x4 & SATA3"
+    },
+    {
+      "size": "2230",
+      "key": "E",
+      "interface": null
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219-V, Intel I211-AT"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -20,6 +50,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,50 +61,6 @@
     "chipset": "Realtek ALC892",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASRock H370M-ITX/ac LGA 1151 (300 Series) Intel H370 HDMI SATA 6Gb/s USB 3.1 Mini ITX Intel Motherboard",
-    "manufacturer": "ASRock",
-    "part_numbers": ["H370M-ITX/AC"],
-    "series": null,
-    "variant": null,
-    "releaseYear": 2018
-  },
-  "socket": "LGA 1151",
-  "form_factor": "Mini-ITX",
-  "chipset": "Intel H370",
-  "color": [],
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abbdb3d0c7b56c55d78c"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2230/2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe Gen3 x4 & SATA3",
-      "_id": "69b3abbdb3d0c7b56c55d78d"
-    },
-    {
-      "size": "2230",
-      "key": "E",
-      "interface": null,
-      "_id": "69b3abbdb3d0c7b56c55d78e"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219-V, Intel I211-AT",
-      "_id": "69b3abbdb3d0c7b56c55d78f"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2 x Antenna Ports",
     "1 x PS/2 Mouse/Keyboard Port",
@@ -83,8 +72,147 @@
     "2 x RJ-45 LAN Ports",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07BMV3X6N"
+  "metadata": {
+    "name": "ASRock H370M-ITX/ac LGA 1151 (300 Series) Intel H370 HDMI SATA 6Gb/s USB 3.1 Mini ITX Intel Motherboard",
+    "manufacturer": "ASRock",
+    "part_numbers": ["H370M-ITX/AC"],
+    "series": null,
+    "variant": null,
+    "releaseYear": 2018
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4717677335125",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "H370M-ITX/AC",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889349854907",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07BMV3X6N",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55308708249982",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,5 +1,9 @@
 {
   "opendb_id": "b096b381-c81d-46bc-b2f7-ec0f8a600bf1",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 15
   },
   "specifications": {
+    "tdp": 135,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2637 V3 OEM/Tray 3.5 GHz 4-Core LGA2011-3",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8064401724101"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8064401724101",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

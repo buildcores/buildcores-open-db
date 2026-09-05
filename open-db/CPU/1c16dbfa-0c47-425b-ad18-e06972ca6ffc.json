@@ -1,10 +1,14 @@
 {
   "opendb_id": "1c16dbfa-0c47-425b-ad18-e06972ca6ffc",
+  "series": "A-Series A12 9000",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)",
     "l2": 2,
-    "l3": 0,
-    "l1": "2 × 96 KB Instruction + 4 × 32 KB Data (320 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon R7 Graphics",
-      "boostClock": 1108,
       "baseClock": 0,
+      "boostClock": 1108,
       "shaderCount": 512
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A12-9800",
@@ -49,13 +53,148 @@
     "variant": "9800",
     "releaseYear": 2017
   },
-  "series": "A-Series A12 9000",
-  "microarchitecture": "Excavator",
-  "coreFamily": "Bristol Ridge",
-  "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "B074BGGL6L",
-    "newegg_sku": "9SIA4RE8171828",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a12-series-apu-for-desktops/7th-gen-a12-9800-apu.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143308557",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD9800AUABBOX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143308557",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B074BGGL6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIA4RE8171828",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4RE8171828",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

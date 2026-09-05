@@ -1,15 +1,45 @@
 {
   "opendb_id": "3a4c0a80-b327-49bc-a348-0c0fc3cecaa8",
+  "socket": "LGA 1151",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel Z370",
   "memory": {
     "max": 32,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 6,
     "usb_3_2_gen_1": 4,
@@ -20,6 +50,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,49 +61,6 @@
     "chipset": "SupremeFX S1220A",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "Asus ROG Strix Z370-I Gaming",
-    "manufacturer": "ASUS",
-    "series": "ROG Strix",
-    "variant": "Z370-I",
-    "releaseYear": 2018,
-    "part_numbers": ["Strix Z370-I Gaming"]
-  },
-  "socket": "LGA 1151",
-  "form_factor": "Mini-ITX",
-  "chipset": "Intel Z370",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aba3b3d0c7b56c55cdf0"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3aba3b3d0c7b56c55cdf1"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3aba3b3d0c7b56c55cdf2"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3aba3b3d0c7b56c55cdf3"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "USB 3.0 Type-A",
     "USB 3.0 Type-C",
@@ -80,11 +70,161 @@
     "Intel Gigabit Ethernet",
     "2x2 802.11ac Wi-Fi"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B075RJ16BQ",
-    "newegg_sku": "9SIBPUTJYT6510",
-    "walmart_sku": 915510114
+  "metadata": {
+    "name": "Asus ROG Strix Z370-I Gaming",
+    "manufacturer": "ASUS",
+    "part_numbers": ["Strix Z370-I Gaming"],
+    "series": "ROG Strix",
+    "variant": "Z370-I",
+    "releaseYear": 2018
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889349854662",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Strix Z370-I Gaming",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889349854662",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B075RJ16BQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBPUTJYT6510",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBPUTJYT6510",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "915510114",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

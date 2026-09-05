@@ -1,9 +1,23 @@
 {
   "opendb_id": "82f596bf-b15d-4860-a965-dc5c2fa8fbfd",
+  "speed": 6000,
+  "ram_type": "DDR5",
+  "profile_support": [],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 32
   },
+  "capacity": 64,
+  "color": ["WHITE"],
+  "lighting": [],
+  "cas_latency": 30,
+  "timings": "30-38-38-96",
+  "voltage": 1.35,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": true,
+  "height": 38.5,
   "metadata": {
     "name": "Silicon Power DDR5 64GB (2x32GB) Zenith 6000MHz CL30 WHITE",
     "manufacturer": "Silicon Power",
@@ -12,22 +26,33 @@
     "variant": "6000 CL30",
     "last_manually_spec_verified_at": "2025-11-11T20:26:00.725Z"
   },
-  "speed": 6000,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
-  "capacity": 64,
-  "color": ["WHITE"],
-  "cas_latency": 30,
-  "timings": "30-38-38-96",
-  "voltage": 1.35,
-  "ecc": "Non-ECC",
-  "registered": "Unbuffered",
-  "heat_spreader": true,
-  "height": 38.5,
-  "profile_support": [],
-  "lighting": [],
   "general_product_information": {
-    "newegg_sku": "9SIBDGPK7E6530",
     "manufacturer_url": "https://www.silicon-power.com/product-detail/XPOWER_Zenith_DDR5_Gaming_UDIMM/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "SU064GXLWU60AFDGSW",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBDGPK7E6530",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBDGPK7E6530",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

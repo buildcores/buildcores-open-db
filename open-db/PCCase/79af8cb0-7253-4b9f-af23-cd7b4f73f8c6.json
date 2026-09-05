@@ -1,10 +1,28 @@
 {
   "opendb_id": "79af8cb0-7253-4b9f-af23-cd7b4f73f8c6",
+  "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
+  "color": ["BLACK"],
+  "lighting": [],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB3.0 x 2",
+  "front_usb_ports": ["USB3.0 x 2"],
+  "max_video_card_length": 376,
+  "max_cpu_cooler_height": 159,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "expansion_slots": 7,
+  "dimensions": "432 x 211 x 480",
   "dimensions_mm": {
+    "depth": 432,
     "width": 211,
-    "height": 480,
-    "depth": 432
+    "height": 480
   },
+  "volume": 43.753,
+  "weight": 12.69863,
   "metadata": {
     "name": "Aerocool Playa ATX Mid Tower Black Tempered Glass Side Panel, USB 3.2 Gen 1 Type-A Front Panel",
     "manufacturer": "AeroCool",
@@ -13,25 +31,57 @@
     "variant": "",
     "last_manually_spec_verified_at": "2025-09-25T18:53:54.845Z"
   },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
-  "form_factor": "ATX Mid Tower",
-  "color": ["BLACK"],
-  "power_supply": "None",
-  "side_panel": "Tempered Glass",
-  "has_transparent_side_panel": true,
-  "front_panel_usb": "USB3.0 x 2",
-  "max_video_card_length": 376,
-  "max_cpu_cooler_height": 159,
-  "internal_3_5_bays": 2,
-  "internal_2_5_bays": 2,
-  "expansion_slots": 7,
-  "dimensions": "432 x 211 x 480",
-  "volume": 43.753,
-  "weight": 12.69863,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": ["USB3.0 x 2"],
-  "lighting": [],
   "general_product_information": {
     "manufacturer_url": "https://aerocool.io/product/playa/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4718009152175",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ACCM-PB09133.11AER-PLAYA-BKACCM-PB09013.11",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ACCS-PQ05014.11",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1900228",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1900228",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "199764",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1900228",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,10 +1,14 @@
 {
   "opendb_id": "1151b654-7094-41ab-8988-1d37db091a4b",
+  "series": "FX 6000",
+  "microarchitecture": "Bulldozer",
+  "coreFamily": "Zambezi",
+  "socket": "AM3+",
   "cores": {
     "total": 6,
     "performance": 0,
-    "threads": 6,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 6
   },
   "clocks": {
     "performance": {
@@ -17,44 +21,173 @@
     }
   },
   "cache": {
+    "l1": "3 × 64 KB Instruction + 6 × 16 KB Data (288 KB total)",
     "l2": 6,
-    "l3": 8,
-    "l1": "3 × 64 KB Instruction + 6 × 16 KB Data (288 KB total)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 95,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD FX-6120 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["FD6120WMW6KGU", "FX-6120"],
     "series": "FX 6000",
-    "releaseYear": 2012,
-    "variant": "6120"
+    "variant": "6120",
+    "releaseYear": 2012
   },
-  "series": "FX 6000",
-  "microarchitecture": "Bulldozer",
-  "coreFamily": "Zambezi",
-  "socket": "AM3+",
-  "general_product_information": {
-    "amazon_sku": "B00NVO5Q38",
-    "newegg_sku": "9SIC3VHKU65421"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "FD6120WMW6KGU",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "FX-6120",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00NVO5Q38",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC3VHKU65421",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC3VHKU65421",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

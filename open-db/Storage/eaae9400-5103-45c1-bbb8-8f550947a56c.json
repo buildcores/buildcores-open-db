@@ -1,5 +1,11 @@
 {
   "opendb_id": "eaae9400-5103-45c1-bbb8-8f550947a56c",
+  "capacity": 1000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Verbatim Vi7000G 1TB SSD M.2-2280 PCIe 4.0 NVMe",
     "manufacturer": "Verbatim",
@@ -7,14 +13,31 @@
     "series": "Vi7000G",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-002W-000E0"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "49367",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-002W-000E0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-002W-000E0",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

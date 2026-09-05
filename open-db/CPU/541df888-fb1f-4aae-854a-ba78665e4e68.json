@@ -1,10 +1,14 @@
 {
   "opendb_id": "541df888-fb1f-4aae-854a-ba78665e4e68",
+  "series": "Opteron 6300",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Abu Dhabi",
+  "socket": "G34",
   "cores": {
     "total": 12,
     "performance": 0,
-    "threads": 12,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 12
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "6 × 64 KB Instruction + 12 × 16 KB Data (576 KB total)",
     "l2": 12,
-    "l3": 16,
-    "l1": "6 × 64 KB Instruction + 12 × 16 KB Data (576 KB total)"
+    "l3": 16
   },
   "specifications": {
+    "tdp": 115,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 1024,
-      "types": ["DDR3"],
-      "channels": 4
-    },
-    "tdp": 115,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 1024,
+      "types": ["DDR3"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "AMD Opteron 6344",
@@ -49,13 +53,170 @@
     "variant": "6344",
     "releaseYear": 2012
   },
-  "series": "Opteron 6300",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Abu Dhabi",
-  "socket": "G34",
-  "general_product_information": {
-    "amazon_sku": "B014Q2DBTE",
-    "newegg_sku": "N82E16819113304",
-    "walmart_sku": 42466991
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0012304898016",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "8592978083533",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "OS6344WKTCGHK",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "OS6344WKTCGHKWOF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "012304898016",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B014Q2DBTE",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMOS6344WKTC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113304",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113304",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "42466991",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

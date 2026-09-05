@@ -1,8 +1,25 @@
 {
   "opendb_id": "2854560e-e0ad-4575-bf69-e580aefd76a8",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 7900 GRE",
+  "core_count": 5120,
+  "core_base_clock": 1705,
+  "core_boost_clock": 2395,
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 18000,
+  "memory_bus": 0,
+  "tdp": 260,
+  "interface": "PCIe x16",
+  "color": ["WHITE"],
+  "lighting": ["None"],
+  "length": 337,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -21,23 +38,21 @@
     "part_numbers": ["RX-79GMAIRW9"],
     "series": "Quicksilver",
     "variant": "Magnetic Air",
+    "releaseYear": 2024,
     "manufacturer_color": "Arctic White"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 7900 GRE",
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 1705,
-  "core_boost_clock": 2395,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["WHITE", "RED"],
-  "length": 337,
-  "tdp": 260,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 5120,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.techpowerup.com/gpu-specs/xfx-quicksilver-rx-7900-xt.b12208"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RX-79GMAIRW9",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }
