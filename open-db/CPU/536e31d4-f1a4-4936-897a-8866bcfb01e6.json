@@ -1,10 +1,14 @@
 {
   "opendb_id": "536e31d4-f1a4-4936-897a-8866bcfb01e6",
+  "series": "Core i9 14000",
+  "microarchitecture": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove / Gracemont",
+  "socket": "LGA 1700",
   "cores": {
     "total": 24,
-    "threads": 32,
     "performance": 8,
-    "efficiency": 16
+    "efficiency": 16,
+    "threads": 32
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "80KB per P-core, 96KB per E-core",
     "l2": 32,
-    "l3": 36,
-    "l1": "80KB per P-core, 96KB per E-core"
+    "l3": 36
   },
   "specifications": {
+    "tdp": 125,
+    "ppt": 253,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5", "DDR4"],
-      "channels": 2
-    },
-    "tdp": 125,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "Intel 7",
     "simultaneousMultithreading": true,
-    "ppt": 253
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i9-14900KF",
@@ -49,14 +53,411 @@
     "variant": "14900KF",
     "releaseYear": 2023
   },
-  "series": "Core i9 14000",
-  "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Cove / Gracemont",
-  "socket": "LGA 1700",
   "general_product_information": {
-    "amazon_sku": "B0CGJDBCTK",
-    "newegg_sku": "N82E16819118464",
-    "walmart_sku": 5092025604,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/236787/intel-core-i9-processor-14900kf-36m-cache-up-to-6-00-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858546980",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0735858546997",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5032037278546",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5032037278553",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX8071514900KF",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Core™ i9-14900KF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858546980",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858546997",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "aaawave",
+        "channel": "us",
+        "source_product_id": "51842972680513",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100009772",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100009772",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100009772",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100009772",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CGJDBCTK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306323198334",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "IN80715149KF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "BX8071514900KF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "HPIT-809",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "BX8071514900KF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CPU0880",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3043132",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "BX8071514900KF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2002-5GF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3043132",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "25856",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "BX8071514900KF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "195761",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "BX8071514900KF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC69341",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "CP01IN178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819118464",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819118464",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "PRO-INT-00799",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "80071171",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "80071171",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3195722",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3195722",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3195722",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3195722",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "350016",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202309200085",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "140157",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3043132",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "slg-store",
+        "channel": "it",
+        "source_product_id": "5U9RBX8071514900KF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5092025604",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,16 +1,8 @@
 {
   "opendb_id": "bab717a8-f156-4058-b2f0-7e8ebb2f09d0",
-  "metadata": {
-    "name": "ARCTIC P14 Max 140mm Black PWM 5-Pack",
-    "manufacturer": "ARCTIC",
-    "part_numbers": ["ACFAN00290A"],
-    "series": "P14",
-    "variant": "MAX",
-    "manufacturer_color": "Black",
-    "releaseYear": 2024
-  },
   "size": 140,
   "color": ["BLACK"],
+  "lighting": ["None"],
   "quantity": 5,
   "min_airflow": 95,
   "max_airflow": null,
@@ -22,9 +14,49 @@
   "static_pressure": 4.18,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": ["None"],
+  "metadata": {
+    "name": "ARCTIC P14 Max 140mm Black PWM 5-Pack",
+    "manufacturer": "ARCTIC",
+    "part_numbers": ["ACFAN00290A"],
+    "series": "P14",
+    "variant": "MAX",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "newegg_sku": "9SIB0ASKN94391",
     "manufacturer_url": "https://www.arctic.de/en/P14-Max-Black/ACFAN00290A"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ACFAN00290A",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "ACFAN00290A",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIB0ASKN94391",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB0ASKN94391",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

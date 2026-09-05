@@ -1,10 +1,14 @@
 {
   "opendb_id": "c0c9ae6f-6eac-4740-8b6c-06db912c1ff8",
+  "series": "EPYC 4000",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Raphael",
+  "socket": "AM5",
   "cores": {
     "total": 12,
     "performance": 0,
-    "threads": 24,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 24
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)",
     "l2": 12,
-    "l3": 128,
-    "l1": "12 × 64 KB Instruction + 12 × 32 KB Data (1152 KB total)"
+    "l3": 128
   },
   "specifications": {
+    "tdp": 120,
+    "ppt": 162,
     "integratedGraphics": {
       "model": "AMD Radeon Graphics",
       "baseClock": 400,
       "boostClock": 2200,
       "shaderCount": 128
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"],
-      "channels": 2
-    },
-    "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "5 nm",
     "simultaneousMultithreading": true,
-    "ppt": 162
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD EPYC 4484PX OEM/Tray",
@@ -49,13 +53,197 @@
     "variant": "4484PX",
     "releaseYear": 2024
   },
-  "series": "EPYC 4000",
-  "microarchitecture": "Zen 4",
-  "coreFamily": "Raphael",
-  "socket": "AM5",
   "general_product_information": {
-    "amazon_sku": "B0GLGCHXY1",
-    "newegg_sku": "9SIB5PPKMW8696",
     "manufacturer_url": "https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4484px.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "5904273388276",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "8592978592578",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-100001482WOF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GLGCHXY1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "100-000001482",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3213552",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2003-02C",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3213552",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "100-000001482",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIB5PPKMW8696",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB5PPKMW8696",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "PRO-AMD-08672",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3213552",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,5 +1,11 @@
 {
   "opendb_id": "7cbb212a-d46d-4339-90b0-ac451f5975bc",
+  "capacity": 1000,
+  "storage_type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Lexar NS100 1TB SSD 2.5\" SATA",
     "manufacturer": "Lexar",
@@ -7,12 +13,38 @@
     "series": "NS100",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "SSD",
-  "form_factor": "2.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "LNS100-1TRB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "SSD1290",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "21766",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC31778",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

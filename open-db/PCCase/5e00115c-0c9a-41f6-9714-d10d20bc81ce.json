@@ -1,10 +1,28 @@
 {
   "opendb_id": "5e00115c-0c9a-41f6-9714-d10d20bc81ce",
+  "form_factor": "ATX Full Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
+  "color": ["WHITE"],
+  "lighting": [],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": ["ATX"],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-CUSB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["4x USB 3.0", "1x USB Type C"],
+  "max_video_card_length": 460,
+  "max_cpu_cooler_height": 167,
+  "internal_3_5_bays": 4,
+  "internal_2_5_bays": 3,
+  "expansion_slots": 8,
+  "dimensions": "304 x 532 x 522",
   "dimensions_mm": {
+    "depth": 522,
     "width": 304,
-    "height": 532,
-    "depth": 522
+    "height": 532
   },
+  "volume": 84.406,
+  "weight": 37,
   "metadata": {
     "name": "Lian Li O11 Dynamic EVO XL ATX Full Tower White Tempered Glass, USB 3.2 Gen 2 Type-CUSB 3.2 Gen 1 Type-A",
     "manufacturer": "Lian Li",
@@ -12,23 +30,31 @@
     "series": "O11",
     "variant": ""
   },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "form_factor": "ATX Full Tower",
-  "color": ["WHITE"],
-  "power_supply": "None",
-  "side_panel": "Tempered Glass",
-  "has_transparent_side_panel": true,
-  "front_panel_usb": "USB 3.2 Gen 2 Type-CUSB 3.2 Gen 1 Type-A",
-  "max_video_card_length": 460,
-  "max_cpu_cooler_height": 167,
-  "internal_3_5_bays": 4,
-  "internal_2_5_bays": 3,
-  "expansion_slots": 8,
-  "dimensions": "304 x 532 x 522",
-  "volume": 84.406,
-  "weight": 37,
-  "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": ["4x USB 3.0", "1x USB Type C"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "O11DEXL-W",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CAS5607",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "O11DEXL-W",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

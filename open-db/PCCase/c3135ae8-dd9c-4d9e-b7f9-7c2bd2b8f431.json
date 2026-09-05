@@ -1,35 +1,54 @@
 {
   "opendb_id": "c3135ae8-dd9c-4d9e-b7f9-7c2bd2b8f431",
-  "dimensions_mm": {
-    "width": 288,
-    "height": 471,
-    "depth": 473
-  },
-  "metadata": {
-    "name": "Thermaltake View 380 XL WS ARGB Mid Tower Chassis Wood Edition Matcha",
-    "manufacturer": "Thermaltake",
-    "series": "View",
-    "variant": "380 XL",
-    "part_numbers": ["CA-11E-00MEWN-WS"],
-    "last_manually_spec_verified_at": "2025-11-07T14:44:51.660Z"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["GREEN"],
-  "supports_rear_connecting_motherboard": true,
+  "lighting": [],
   "supported_power_supply_form_factors": [],
-  "front_usb_ports": ["1x USB 3.2 Gen 2 Type-C", "2x USB 3.0"],
   "side_panel": "Tempered Glass",
+  "front_usb_ports": ["1x USB 3.2 Gen 2 Type-C", "2x USB 3.0"],
   "max_video_card_length": 420,
   "max_cpu_cooler_height": 160,
   "internal_3_5_bays": 1,
   "internal_2_5_bays": 2,
   "expansion_slots": 8,
+  "supports_rear_connecting_motherboard": true,
   "dimensions": "473 x 288 x 471",
+  "dimensions_mm": {
+    "depth": 473,
+    "width": 288,
+    "height": 471
+  },
   "volume": 63.619,
   "weight": 15.28,
-  "lighting": [],
+  "metadata": {
+    "name": "Thermaltake View 380 XL WS ARGB Mid Tower Chassis Wood Edition Matcha",
+    "manufacturer": "Thermaltake",
+    "part_numbers": ["CA-11E-00MEWN-WS"],
+    "series": "View",
+    "variant": "380 XL",
+    "last_manually_spec_verified_at": "2025-11-07T14:44:51.660Z"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.thermaltake.com/view-380-xl-ws-argb-matcha-green-mid-tower-chassis.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CA-11E-00MEWN-WS",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC91662",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

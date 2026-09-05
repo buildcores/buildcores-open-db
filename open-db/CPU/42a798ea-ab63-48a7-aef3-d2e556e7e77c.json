@@ -1,5 +1,9 @@
 {
   "opendb_id": "42a798ea-ab63-48a7-aef3-d2e556e7e77c",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Sandy Bridge",
+  "coreFamily": "Sandy Bridge-EP",
+  "socket": "LGA 2011",
   "cores": {
     "total": 8,
     "performance": 8,
@@ -16,19 +20,19 @@
     "l3": 20
   },
   "specifications": {
+    "tdp": 95,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 95,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2660 2.2 GHz 8-Core LGA2011",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80621E52660"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
-  "coreFamily": "Sandy Bridge-EP",
-  "socket": "LGA 2011",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80621E52660",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

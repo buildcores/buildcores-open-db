@@ -1,15 +1,55 @@
 {
   "opendb_id": "89a64a82-94a1-42a8-9deb-0d8419470187",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B450",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242",
+      "key": "M",
+      "interface": "PCIe Gen3 x4 32Gb/s"
+    },
+    {
+      "size": "2230/2242/2260/2280",
+      "key": "M",
+      "interface": "SATA3 6.0 Gb/s"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek RTL8111H"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,61 +71,6 @@
     "chipset": "Realtek ALC892/897",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASRock B450M Steel Legend",
-    "manufacturer": "ASRock",
-    "series": "Steel Legend",
-    "variant": null,
-    "releaseYear": 2020,
-    "part_numbers": ["B450 STEEL LEGEND", "B450 Steel Legend", "B450M Steel Legend"]
-  },
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B450",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac223f8fd0c825de30f8"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac223f8fd0c825de30f9"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac223f8fd0c825de30fa"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242",
-      "key": "M",
-      "interface": "PCIe Gen3 x4 32Gb/s",
-      "_id": "69b3ac223f8fd0c825de30fb"
-    },
-    {
-      "size": "2230/2242/2260/2280",
-      "key": "M",
-      "interface": "SATA3 6.0 Gb/s",
-      "_id": "69b3ac223f8fd0c825de30fc"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H",
-      "_id": "69b3ac223f8fd0c825de30fd"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x PS/2 Mouse/Keyboard Port",
     "1 x HDMI Port",
@@ -95,10 +83,190 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07MV7LR1B",
-    "newegg_sku": "9SIAYB7J9F3226"
+  "metadata": {
+    "name": "ASRock B450M Steel Legend",
+    "manufacturer": "ASRock",
+    "part_numbers": ["B450 STEEL LEGEND", "B450 Steel Legend", "B450M Steel Legend"],
+    "series": "Steel Legend",
+    "variant": null,
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4717677338065",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450 Steel Legend",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450 STEEL LEGEND",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450M Steel Legend",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X570 GAM PRO CA WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523011904",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07MV7LR1B",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1975639",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1975639",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAYB7J9F3226",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAYB7J9F3226",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1975639",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

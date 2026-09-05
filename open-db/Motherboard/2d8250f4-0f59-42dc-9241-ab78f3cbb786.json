@@ -1,15 +1,55 @@
 {
   "opendb_id": "2d8250f4-0f59-42dc-9241-ab78f3cbb786",
+  "socket": "LGA 1200",
+  "form_factor": "ATX",
+  "chipset": "Intel Z490",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 3,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe Gen4x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe Gen3 x4"
+    },
+    {
+      "size": "2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe Gen3 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Dragon RTL8125BG"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,61 +71,6 @@
     "chipset": "Realtek ALC1200",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASRock Z490 Steel Legend LGA 1200 ATX Intel Motherboard",
-    "manufacturer": "ASRock",
-    "series": "Steel Legend",
-    "variant": null,
-    "releaseYear": 2020,
-    "part_numbers": ["Z490 Steel Legend"]
-  },
-  "socket": "LGA 1200",
-  "form_factor": "ATX",
-  "chipset": "Intel Z490",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ab84fe073ff824ef5a18"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 3,
-      "lanes": 1,
-      "_id": "69b3ab84fe073ff824ef5a19"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe Gen4x4",
-      "_id": "69b3ab84fe073ff824ef5a1a"
-    },
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe Gen3 x4",
-      "_id": "69b3ab84fe073ff824ef5a1b"
-    },
-    {
-      "size": "2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe Gen3 x4",
-      "_id": "69b3ab84fe073ff824ef5a1c"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Dragon RTL8125BG",
-      "_id": "69b3ab84fe073ff824ef5a1d"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2 x Antenna Mounting Points",
     "1 x PS/2 Mouse/Keyboard Port",
@@ -96,10 +84,159 @@
     "1 x RJ-45 LAN Port with LED",
     "HD Audio Jacks: Rear Speaker / Central / Bass / Line in / Front Speaker / Microphone (Gold Audio Jacks)"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B087TFWLWS",
-    "newegg_sku": "9SIA639HE98894"
+  "metadata": {
+    "name": "ASRock Z490 Steel Legend LGA 1200 ATX Intel Motherboard",
+    "manufacturer": "ASRock",
+    "part_numbers": ["Z490 Steel Legend"],
+    "series": "Steel Legend",
+    "variant": null,
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710483931024",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X570 TOMAHAWK WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z490 Steel Legend",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523021316",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B087TFWLWS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIA639HE98894",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA639HE98894",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

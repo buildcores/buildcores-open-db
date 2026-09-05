@@ -1,15 +1,55 @@
 {
   "opendb_id": "f1a29c04-40ca-4332-b4cb-8e298baa0b19",
+  "socket": "LGA 1200",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel H410",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242",
+      "key": "M",
+      "interface": "PCIE 3.0 x4"
+    },
+    {
+      "size": "2260",
+      "key": "M",
+      "interface": "PCIE 3.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIE 3.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek RTL8111H"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 6,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,61 +71,6 @@
     "chipset": "Realtek ALC887/897",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUS PRIME H410M-E",
-    "manufacturer": "ASUS",
-    "series": "PRIME",
-    "variant": "H410M-E",
-    "releaseYear": 2023,
-    "part_numbers": ["PRIME H410M-E"]
-  },
-  "socket": "LGA 1200",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel H410",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac9e3722c3e205bd6ba0"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac9e3722c3e205bd6ba1"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242",
-      "key": "M",
-      "interface": "PCIE 3.0 x4",
-      "_id": "69b3ac9e3722c3e205bd6ba2"
-    },
-    {
-      "size": "2260",
-      "key": "M",
-      "interface": "PCIE 3.0 x4",
-      "_id": "69b3ac9e3722c3e205bd6ba3"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIE 3.0 x4",
-      "_id": "69b3ac9e3722c3e205bd6ba4"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek RTL8111H",
-      "_id": "69b3ac9e3722c3e205bd6ba5"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "PS/2 keyboard (purple)",
     "PS/2 mouse (green)",
@@ -93,11 +81,161 @@
     "USB 2.0",
     "Audio jack(s)"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B087M5DFJJ",
-    "newegg_sku": "9SIASGMJVR9074",
-    "walmart_sku": 679391919
+  "metadata": {
+    "name": "ASUS PRIME H410M-E",
+    "manufacturer": "ASUS",
+    "part_numbers": ["PRIME H410M-E"],
+    "series": "PRIME",
+    "variant": "H410M-E",
+    "releaseYear": 2023
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876721940",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME H410M-E",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876721940",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B087M5DFJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIASGMJVR9074",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIASGMJVR9074",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "679391919",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

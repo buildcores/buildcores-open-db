@@ -1,67 +1,15 @@
 {
   "opendb_id": "fa0d80d0-e12a-4ba2-b985-f78070cd3a30",
+  "socket": "LGA 1851",
+  "form_factor": "ATX",
+  "chipset": "Intel Z890",
   "memory": {
     "max": 192,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 4,
-    "cpu_opt": 1,
-    "pump": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "thunderbolt": 1,
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "Asus PRIME Z890-P DDR5 ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": ["PRIME Z890-P"],
-    "series": "PRIME",
-    "manufacturer_color": "Black/Silver",
-    "releaseYear": 2024,
-    "variant": "Z890-P"
-  },
-  "socket": "LGA 1851",
-  "form_factor": "ATX",
-  "chipset": "Intel Z890",
   "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -96,15 +44,60 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "None",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x USB 20Gbps port",
     "1 x USB 10Gbps port",
@@ -116,10 +109,49 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "None",
+  "metadata": {
+    "name": "Asus PRIME Z890-P DDR5 ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": ["PRIME Z890-P"],
+    "series": "PRIME",
+    "variant": "Z890-P",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black/Silver"
+  },
   "general_product_information": {
-    "newegg_sku": "9SIC6VHKXC0282",
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/prime/prime-z890-p/helpdesk_manual?model2Name=PRIME-Z890-P"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "PRIME Z890-P",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "28116",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC6VHKXC0282",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6VHKXC0282",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

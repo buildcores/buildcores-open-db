@@ -1,5 +1,21 @@
 {
   "opendb_id": "2b0951e7-3eed-40a0-a2c0-fa94f81824a1",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 4070 Ti",
+  "core_count": 7680,
+  "core_base_clock": 2310,
+  "core_boost_clock": 2625,
+  "memory": 12,
+  "memory_type": "GDDR6X",
+  "effective_memory_clock": 0,
+  "memory_bus": 0,
+  "tdp": 285,
+  "interface": "PCIe x16",
+  "color": ["BLACK"],
+  "lighting": [],
+  "length": 307,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,23 +38,36 @@
     "series": "GeForce RTX 4070 Ti",
     "variant": "MSI"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 4070 Ti",
-  "memory": 12,
-  "memory_type": "GDDR6X",
-  "core_base_clock": 2310,
-  "core_boost_clock": 2625,
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 307,
-  "tdp": 285,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 7680,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16814137865"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GeForce RTX 4070 Ti GAMING SLIM 12G",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RTX 4070 Ti GAMING SLIM 12G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814137865",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814137865",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

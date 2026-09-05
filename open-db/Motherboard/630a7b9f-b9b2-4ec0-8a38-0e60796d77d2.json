@@ -1,15 +1,39 @@
 {
   "opendb_id": "630a7b9f-b9b2-4ec0-8a38-0e60796d77d2",
+  "socket": "AM2+",
+  "form_factor": "Micro ATX",
+  "chipset": "NVIDIA GeForce 6100",
   "memory": {
     "max": 4,
     "ram_type": "DDR2",
     "slots": 2
   },
+  "color": ["BLACK", "YELLOW"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 0,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 100 Mb/s"],
   "metadata": {
     "name": "Foxconn NVIDIA GeForce 6100 M61PMV AM2+/AM2 DDR2 Micro ATX",
     "manufacturer": "Foxconn",
@@ -35,36 +63,16 @@
     "series": "NVIDIA",
     "variant": ""
   },
-  "socket": "AM2+",
-  "form_factor": "Micro ATX",
-  "chipset": "NVIDIA GeForce 6100",
-  "color": ["BLACK", "YELLOW"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abcdfe073ff824ef74b7"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abcdfe073ff824ef74b8"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Unknown",
-      "_id": "69b3abcdfe073ff824ef74b9"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 100 Mb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "M61PMV",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

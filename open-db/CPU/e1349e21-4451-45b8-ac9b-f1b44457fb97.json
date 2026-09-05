@@ -1,10 +1,14 @@
 {
   "opendb_id": "e1349e21-4451-45b8-ac9b-f1b44457fb97",
+  "series": "Core i5 4000",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell",
+  "socket": "LGA 1150",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "256 KB total (4 cores × 32 KB Instruction + 32 KB Data per core)",
     "l2": 1,
-    "l3": 6,
-    "l1": "256 KB total (4 cores × 32 KB Instruction + 32 KB Data per core)"
+    "l3": 6
   },
   "specifications": {
+    "tdp": 84,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 4600",
       "baseClock": 350,
       "boostClock": 1100,
       "shaderCount": 160
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 84,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "22 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i5 4460",
@@ -49,13 +53,172 @@
     "variant": "4460",
     "releaseYear": 2014
   },
-  "series": "Core i5 4000",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell",
-  "socket": "LGA 1150",
   "general_product_information": {
-    "amazon_sku": "B00JIJUBAS",
-    "walmart_sku": 39148163,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/80817/intel-core-i54460-processor-6m-cache-up-to-3-40-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0807030513087",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0809385683651",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80646I54460",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "807030513087",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "809385683651",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00JIJUBAS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1050218",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1050218",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1050218",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "39148163",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

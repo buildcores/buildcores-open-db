@@ -1,5 +1,13 @@
 {
   "opendb_id": "e7673ba7-a142-4b99-8677-8f003934c967",
+  "wattage": 1300,
+  "form_factor": "ATX",
+  "efficiency_rating": "80+ Titanium",
+  "modular": "Full",
+  "color": ["BLACK", "BLUE"],
+  "lighting": [],
+  "length": 180,
+  "fanless": false,
   "connectors": {
     "atx_24_pin": 1,
     "eps_8_pin": 0,
@@ -16,15 +24,31 @@
     "series": "Strider",
     "variant": "1300W Titanium"
   },
-  "wattage": 1300,
-  "form_factor": "ATX",
-  "efficiency_rating": "80+ Titanium",
-  "modular": "Full",
-  "color": ["BLACK", "BLUE"],
-  "length": 180,
-  "fanless": false,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16817256195"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "SST-ST1300-TI",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16817256195",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16817256195",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

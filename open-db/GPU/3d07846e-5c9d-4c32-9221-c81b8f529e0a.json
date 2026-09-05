@@ -1,38 +1,68 @@
 {
   "opendb_id": "3d07846e-5c9d-4c32-9221-c81b8f529e0a",
-  "power_connectors": {
-    "pcie_12VHPWR": 1
-  },
-  "video_outputs": {
-    "displayport_2_1_b": 4
-  },
-  "metadata": {
-    "name": "NVIDIA RTX PRO 5000 Blackwell 72GB",
-    "manufacturer": "NVIDIA",
-    "part_numbers": ["rtx-pro-5000-blackwell"],
-    "releaseYear": 2025,
-    "manufacturer_color": "Black",
-    "series": "RTX PRO Blackwell 5000"
-  },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "RTX PRO 5000 72GB Blackwell",
-  "memory": 72,
-  "memory_type": "GDDR7",
-  "tdp": 300,
-  "length": 266.7,
-  "color": ["BLACK"],
-  "lighting": ["None"],
   "core_count": 14080,
   "core_base_clock": 1740,
   "core_boost_clock": 2377,
+  "memory": 72,
+  "memory_type": "GDDR7",
   "effective_memory_clock": 1750,
-  "memory_bus": 514,
+  "memory_bus": 384,
+  "tdp": 300,
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "length": 266.7,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "Blower",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 1,
+    "pcie_12V_2x6": 0
+  },
+  "video_outputs": {
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
+    "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 4,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
+  },
+  "metadata": {
+    "name": "NVIDIA RTX PRO 5000 72GB Blackwell GDDR7",
+    "manufacturer": "NVIDIA",
+    "part_numbers": [],
+    "series": "RTX PRO Blackwell 5000",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.nvidia.com/en-in/products/workstations/professional-desktop-gpus/rtx-pro-5000/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "rtx-pro-5000-blackwell",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

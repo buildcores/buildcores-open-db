@@ -1,10 +1,14 @@
 {
   "opendb_id": "c315b361-a062-410e-9108-de12a2e800d0",
+  "series": "EPYC 4004",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Raphael",
+  "socket": "AM5",
   "cores": {
     "total": 8,
     "performance": 0,
-    "threads": 16,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 16
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 5.4
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)",
     "l2": 8,
-    "l3": 32,
-    "l1": "6 × 64 KB Instruction + 6 × 32 KB Data (576 KB total)"
+    "l3": 32
   },
   "specifications": {
+    "tdp": 105,
+    "ppt": 142,
     "integratedGraphics": {
       "model": "AMD Radeon Graphics",
       "baseClock": 400,
       "boostClock": 2200,
       "shaderCount": 128
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5"],
-      "channels": 2
-    },
-    "tdp": 105,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
     "simultaneousMultithreading": true,
-    "ppt": 142
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD EPYC 4364P",
@@ -49,14 +53,202 @@
     "variant": "4364P",
     "releaseYear": 2024
   },
-  "series": "EPYC 4004",
-  "microarchitecture": "Zen 4",
-  "coreFamily": "Raphael",
-  "socket": "AM5",
   "general_product_information": {
-    "amazon_sku": "B0FT8525TF",
-    "newegg_sku": "N82E16819113833",
-    "walmart_sku": 6531321746,
     "manufacturer_url": "https://www.amd.com/en/products/processors/server/epyc/4004-series/amd-epyc-4364p.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143316804",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-100001477WOF",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "4364P",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143316804",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FT8525TF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55308953223550",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3194615",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2003-02F",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3194615",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "203231",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113833",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113833",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3194615",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "6531321746",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

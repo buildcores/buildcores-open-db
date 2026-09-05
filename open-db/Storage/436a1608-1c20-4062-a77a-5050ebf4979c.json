@@ -1,5 +1,12 @@
 {
   "opendb_id": "436a1608-1c20-4062-a77a-5050ebf4979c",
+  "capacity": 30000,
+  "storage_type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "cache": 512,
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Seagate IronWolf Pro 30TB HDD 3.5\" 7200RPM SATA 6.0 Gb/s",
     "manufacturer": "Seagate",
@@ -7,13 +14,24 @@
     "series": "IronWolf",
     "variant": "30000GB"
   },
-  "capacity": 30000,
-  "type": "HDD",
-  "form_factor": "3.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "cache": 512,
-  "nvme": false,
-  "storage_type": "HDD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ST30000NT011",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC87492",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

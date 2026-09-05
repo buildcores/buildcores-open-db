@@ -1,65 +1,15 @@
 {
   "opendb_id": "09cd6dc9-a9d1-4088-92bc-85595b7520b6",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_3_2_gen_1": 2,
-    "usb_2_0": 2,
-    "usb_3_2_gen_2x2": 2
-  },
-  "fan_headers": {
-    "case_fan": 5,
-    "cpu_fan": 1,
-    "pump": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true,
-    "power_led": true
-  },
-  "other_headers": {
-    "com_port": 1,
-    "temperature_sensor": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC4080",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "MSI MPG X870E CARBON MAX WIFI",
-    "manufacturer": "MSI",
-    "series": "MPG",
-    "variant": "X870E CARBON MAX WIFI",
-    "manufacturer_color": "Black",
-    "part_numbers": [
-      "MPG-X870E-CARBON-MAX-WIFI",
-      "MPG X870E CARBON WIFI",
-      "MPG X870E CARBON MAX WIFI"
-    ],
-    "releaseYear": 2026
-  },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["RGB", "BLACK"],
+  "lighting": ["RGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -99,6 +49,9 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
@@ -109,6 +62,45 @@
       "controller": "Realtek 8126"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2x2": 2
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2x USB 10Gbps Type A ports (From X870E Chipset)",
     "4x USB 10Gbps Type A ports (From RTS5420)",
@@ -123,17 +115,234 @@
     "2x audio jacks",
     "1x Optical S/PDIF Out connector"
   ],
-  "lighting": ["RGB"],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
+  "metadata": {
+    "name": "MSI MPG X870E CARBON MAX WIFI",
+    "manufacturer": "MSI",
+    "part_numbers": [
+      "MPG-X870E-CARBON-MAX-WIFI",
+      "MPG X870E CARBON WIFI",
+      "MPG X870E CARBON MAX WIFI"
+    ],
+    "series": "MPG",
+    "variant": "X870E CARBON MAX WIFI",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0GT76P75L",
-    "newegg_sku": "N82E16813144666",
-    "bestbuy_sku": 6604429,
-    "walmart_sku": 12730015477,
-    "ibuypower_sku": "29601",
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-MAX-WIFI/Gallery"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142451267",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG X870E CARBON MAX WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG X870E CARBON WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG-X870E-CARBON-MAX-WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142382219",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GT76P75L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6604429",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSX870ECRBW7",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3715",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "MPG X870E CARBON WIFI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ibuypower",
+        "channel": "us",
+        "source_product_id": "29601",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "2314",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "2314",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC77950",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813144666",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144666",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "12730015477",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

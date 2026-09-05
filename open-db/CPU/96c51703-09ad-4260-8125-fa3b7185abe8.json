@@ -1,10 +1,14 @@
 {
   "opendb_id": "96c51703-09ad-4260-8125-fa3b7185abe8",
+  "series": "Xeon E5 2600 v4",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 6,
     "performance": 0,
-    "threads": 12,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 12
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)",
     "l2": 1.5,
-    "l3": 20,
-    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
+    "l3": 20
   },
   "specifications": {
+    "tdp": 135,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 1536,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 135,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 1536,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5-2643 v4",
@@ -49,14 +53,208 @@
     "variant": "E5-2643 v4",
     "releaseYear": 2016
   },
-  "series": "Xeon E5 2600 v4",
-  "microarchitecture": "Broadwell",
-  "coreFamily": "Broadwell-EP",
-  "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B01DZG2O6S",
-    "newegg_sku": "N82E16819117658",
-    "walmart_sku": 176217369,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/92989/intel-xeon-processor-e52643-v4-20m-cache-3-40-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0675901388184",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0800953326789",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4065734032037",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4065734032051",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "8592978057848",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8066002041500",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "675901388184",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "800953326789",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B01DZG2O6S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "HET9U17AA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1418524",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1418524",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819117658",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819117658",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1418524",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "176217369",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

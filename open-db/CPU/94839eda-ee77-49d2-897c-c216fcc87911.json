@@ -1,10 +1,14 @@
 {
   "opendb_id": "94839eda-ee77-49d2-897c-c216fcc87911",
+  "series": "Xeon E3-1200 v3",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-WS",
+  "socket": "LGA 1150",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -12,34 +16,34 @@
       "boost": 3.7
     },
     "efficiency": {
-      "boost": 0,
-      "base": 0
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)",
     "l2": 1,
-    "l3": 8,
-    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 80,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 32,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 80,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "22 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Xeon E3-1230 v3",
@@ -49,13 +53,160 @@
     "variant": "E3-1230 v3",
     "releaseYear": 2013
   },
-  "series": "Xeon E3-1200 v3",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-WS",
-  "socket": "LGA 1150",
   "general_product_information": {
-    "amazon_sku": "B00D697PEG",
-    "newegg_sku": "N82E16819116984",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/75054/intel-xeon-processor-e31230-v3-8m-cache-3-30-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858259705",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4053162447332",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80646E31230V3",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858259705",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00D697PEG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "INE31230",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819116984",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819116984",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

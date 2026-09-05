@@ -1,15 +1,45 @@
 {
   "opendb_id": "5e5d4d9a-fbfb-48e5-8d35-73a716da7f6b",
+  "socket": "LGA 1151",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B360",
   "memory": {
     "max": 32,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219-V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 2,
@@ -20,6 +50,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": null,
     "clear_cmos": null
@@ -28,49 +61,6 @@
     "chipset": "Realtek ALC887",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI PERFORMANCE GAMING B360M GAMING PLUS",
-    "manufacturer": "MSI",
-    "series": "PERFORMANCE GAMING",
-    "variant": "B360M GAMING PLUS",
-    "releaseYear": 2019,
-    "part_numbers": ["B360M GAMING PLUS", "N82E16813144157R"]
-  },
-  "socket": "LGA 1151",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B360",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abcdb3d0c7b56c55dde6"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3abcdb3d0c7b56c55dde7"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "69b3abcdb3d0c7b56c55dde8"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219-V",
-      "_id": "69b3abcdb3d0c7b56c55dde9"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x PS/2 keyboard/mouse port",
     "1 x VGA",
@@ -81,11 +71,166 @@
     "1 x USB 3.1 Gen1 (SuperSpeed USB) port (Type-C)",
     "2 x USB 2.0 (High-speed USB) ports (Type-A)"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07CBKLK2M",
-    "newegg_sku": "9SIAYKAJVZ8958",
-    "walmart_sku": 831208299
+  "metadata": {
+    "name": "MSI PERFORMANCE GAMING B360M GAMING PLUS",
+    "manufacturer": "MSI",
+    "part_numbers": ["B360M GAMING PLUS", "N82E16813144157R"],
+    "series": "PERFORMANCE GAMING",
+    "variant": "B360M GAMING PLUS",
+    "releaseYear": 2019
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142160237",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B360M GAMING PLUS",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "N82E16813144157R",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142160237",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07CBKLK2M",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAYKAJVZ8958",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAYKAJVZ8958",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "831208299",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

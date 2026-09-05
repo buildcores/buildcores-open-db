@@ -1,15 +1,19 @@
 {
   "opendb_id": "6c6e1256-9fe2-4499-9e75-f0e4b09b169c",
+  "series": "Core i9 13000",
+  "microarchitecture": "Raptor Lake Refresh",
+  "coreFamily": "Raptor Cove / Gracemont",
+  "socket": "LGA 1700",
   "cores": {
     "total": 24,
-    "threads": 32,
     "performance": 8,
-    "efficiency": 16
+    "efficiency": 16,
+    "threads": 32
   },
   "clocks": {
     "performance": {
-      "boost": 6,
-      "base": 3.2
+      "base": 3.2,
+      "boost": 6
     },
     "efficiency": {
       "base": 2.4,
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "80KB per P-core, 96KB per E-core",
     "l2": 32,
-    "l3": 36,
-    "l1": "80KB per P-core, 96KB per E-core"
+    "l3": 36
   },
   "specifications": {
+    "tdp": 150,
+    "ppt": 253,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 770",
       "baseClock": 300,
       "boostClock": 1.65,
       "shaderCount": 256
     },
-    "memory": {
-      "maxSupport": 192,
-      "types": ["DDR5", "DDR4"],
-      "channels": 2
-    },
-    "tdp": 150,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "Intel 7",
     "simultaneousMultithreading": true,
-    "ppt": 253
+    "memory": {
+      "maxSupport": 192,
+      "types": ["DDR5", "DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i9 13900KS",
@@ -49,14 +53,275 @@
     "variant": "13900KS",
     "releaseYear": 2023
   },
-  "series": "Core i9 13000",
-  "microarchitecture": "Raptor Lake Refresh",
-  "coreFamily": "Raptor Cove / Gracemont",
-  "socket": "LGA 1700",
   "general_product_information": {
-    "amazon_sku": "B0BPXCRWB2",
-    "newegg_sku": "N82E16819118446",
-    "walmart_sku": 2261657429,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/232167/intel-core-i913900ks-processor-36m-cache-up-to-6-00-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858530477",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0735858530491",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX8071513900KS",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "i9-13900KS",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "INTEL CORE I9 13900KS",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858530491",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1882187",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1882187",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1882187",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1882187",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BPXCRWB2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "57036329615742",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "INCI913900KS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CPU0819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2876997",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2002-5EW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2876997",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "CP01IN175",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819118446",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819118446",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CP-6BF-IN",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "348316",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00006885071",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2876997",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2261657429",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,58 +1,353 @@
 {
   "opendb_id": "cf1d6e8d-5dcb-4def-8619-0c896519700a",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070 XT",
+  "core_count": 4096,
+  "core_base_clock": 1660,
+  "core_boost_clock": 2970,
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 2518,
+  "memory_bus": 256,
+  "tdp": 304,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "FreeSync",
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "length": 290,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
+    "pcie_8_pin": 2,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0,
-    "pcie_8_pin": 2
+    "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "displayport_2_1a": 3,
-    "displayport_2_1_b": 0,
-    "vga": 0,
     "hdmi_2_2": 0,
-    "dvi_d": 0,
-    "displayport_1_4a": 0,
-    "displayport_2_1": 0,
-    "hdmi_2_0": 0,
     "hdmi_2_1": 0,
-    "hdmi_2_1b": 1,
     "hdmi_2_1a": 0,
-    "usb_c": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_0": 0,
     "hdmi_2_0a": 0,
-    "hdmi_2_0b": 0
+    "hdmi_2_0b": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 3,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
   },
   "metadata": {
     "name": "ASRock AMD Radeon RX 9070 XT Challenger 16GB",
     "manufacturer": "ASRock",
-    "series": "Challenger ",
+    "part_numbers": ["RX9070XT CL 16G"],
+    "series": "Challenger",
     "releaseYear": 2025,
-    "part_numbers": ["RX9070XT CL 16G", "90-GA61ZZ-00UANZ", "90-GA61ZZ-00UANF"],
-    "manufacturer_color": "Black ",
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-12-31T16:51:11.239Z"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 9070 XT",
-  "core_count": 4096,
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 1660,
-  "core_boost_clock": 2970,
-  "effective_memory_clock": 2518,
-  "memory_bus": 256,
-  "interface": "PCIe 5.0 x16",
-  "color": ["BLACK"],
-  "frame_sync": "FreeSync",
-  "length": 290,
-  "tdp": 304,
-  "case_expansion_slot_width": 2,
-  "cooling": "3 Fans",
-  "total_slot_width": 3,
-  "lighting": ["ARGB"],
   "general_product_information": {
-    "amazon_sku": "B0FSSYTD49",
-    "newegg_sku": "N82E16814930145",
-    "walmart_sku": 18094505334,
     "manufacturer_url": "https://asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Challenger%2016GB/index.asp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710483942761",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-GA61ZZ-00UANF",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-GA61ZZ-00UANZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RX9070XT CL 16G",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "4710483942761",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100175538",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100175538",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100175538",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100175538",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FSSYTD49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90-GA61ZZ-00UANF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3646658",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2E33-01R",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3646658",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "32599",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90-GA61ZZ-00UANF",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "TG02AK38",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814930145",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814930145",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "GRA-ASR-08979",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21862556",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21862556",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3432178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3432178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3432178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3432178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "415978",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3646658",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "18094505334",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

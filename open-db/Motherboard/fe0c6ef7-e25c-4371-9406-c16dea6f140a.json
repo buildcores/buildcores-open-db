@@ -1,67 +1,13 @@
 {
   "opendb_id": "fe0c6ef7-e25c-4371-9406-c16dea6f140a",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 2,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2x2": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "case_fan": 4,
-    "cpu_opt": 0
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 0
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC4080",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "MSI MPG B850M EDGE TI MAX WIFI",
-    "manufacturer": "MSI",
-    "series": "MPG",
-    "variant": "B850M EDGE TI MAX WIFI",
-    "manufacturer_color": "White",
-    "part_numbers": [],
-    "releaseYear": 2026
-  },
   "socket": "AM5",
+  "form_factor": "Micro ATX",
   "chipset": "AMD B850",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["WHITE", "BLACK"],
   "lighting": ["ARGB", "None"],
   "pcie_slots": [
@@ -93,12 +39,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 2,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 + Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": false,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x HDMI 2.1",
     "4 x USB 10Gbps Type-A",
@@ -111,12 +107,21 @@
     "1 x Clear CMOS button",
     "1 x Flash BIOS button"
   ],
-  "ecc_support": true,
-  "wireless_networking": "Wi-Fi 7 + Bluetooth 5.4",
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "form_factor": "Micro ATX",
+  "metadata": {
+    "name": "MSI MPG B850M EDGE TI MAX WIFI",
+    "manufacturer": "MSI",
+    "part_numbers": [],
+    "series": "MPG",
+    "variant": "B850M EDGE TI MAX WIFI",
+    "releaseYear": 2026,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-B850M-EDGE-TI-MAX-WIFI/support"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [],
+    "retailer_listings": []
   }
 }

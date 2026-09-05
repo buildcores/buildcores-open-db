@@ -1,5 +1,20 @@
 {
   "opendb_id": "97a6e0f7-f051-4c3d-92c1-47e8ac5af540",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 5600 XT",
+  "core_base_clock": 1130,
+  "core_boost_clock": 1560,
+  "memory": 6,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 12000,
+  "memory_bus": 0,
+  "tdp": 150,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 231,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 1,
@@ -22,20 +37,21 @@
     "series": "Radeon RX 5600 XT",
     "variant": "MSI"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 5600 XT",
-  "memory": 6,
-  "memory_type": "GDDR6",
-  "core_base_clock": 1130,
-  "core_boost_clock": 1560,
-  "effective_memory_clock": 12000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 231,
-  "tdp": 150,
-  "total_slot_width": 3,
-  "cooling": "2 Fans",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RADEON RX 5600 XT MECH",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RX 5600 XT MECH",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

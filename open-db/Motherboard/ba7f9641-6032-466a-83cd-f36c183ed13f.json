@@ -1,26 +1,74 @@
 {
   "opendb_id": "ba7f9641-6032-466a-83cd-f36c183ed13f",
+  "socket": "LGA 1700",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B760",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": ["GREY", "BLACK"],
+  "lighting": ["RGB", "ARGB"],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2230",
+      "key": "E",
+      "interface": "PCIe / Intel CNVio/CNVio2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek RTL8125BG"
+    }
+  ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 4,
-    "pump": 1
+    "pump": 1,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -28,83 +76,30 @@
   },
   "front_panel_headers": {
     "power_button": true,
+    "reset_button": true,
     "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
+    "hdd_led": true
   },
   "other_headers": {
-    "thunderbolt": 1
+    "temperature_sensor": 0,
+    "thunderbolt": 1,
+    "com_port": 0
   },
   "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
-    "flashback": true,
+    "flashback": false,
     "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASRock B760M Pro RS/D4 WiFi DDR4 Micro ATX",
-    "manufacturer": "ASRock",
-    "part_numbers": ["90-MXBKZ0-A0UAYZ", "B760M PRO RS/D4 WIFI"],
-    "series": "Pro",
-    "variant": "B760M RS/D4 WiFi",
-    "releaseYear": 2023,
-    "manufacturer_color": "Black/White",
-    "last_manually_spec_verified_at": "2026-04-09T23:04:12.249Z"
-  },
-  "socket": "LGA 1700",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B760",
-  "color": ["GREY", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac44c0db8dfe4bc768b8"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac44c0db8dfe4bc768b9"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69d82d5ddedae263c818aa9d"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac44c0db8dfe4bc768ba"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac44c0db8dfe4bc768bb"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125BG",
-      "_id": "69b3ac44c0db8dfe4bc768be"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2 x Antenna Ports",
     "1 x PS/2 Mouse/Keyboard Port",
@@ -116,11 +111,193 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "metadata": {
+    "name": "ASRock B760M PRO RS/D4 WiFi LGA1700 DDR4 Micro ATX",
+    "manufacturer": "ASRock",
+    "part_numbers": ["90-MXBKZ0-A0UAYZ", "B760M PRO RS/D4 WIFI"],
+    "series": "Pro",
+    "variant": "B760M RS/D4 WiFi",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black / Silver",
+    "last_manually_spec_verified_at": "2026-04-09T23:04:12.249Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BRNLMMZM",
-    "newegg_sku": "N82E16813162109",
-    "manufacturer_url": "https://www.asrock.com/mb/Intel/B760M%20Pro%20RSD4%20WiFi"
+    "manufacturer_url": "https://www.asrock.com/mb/Intel/B760M%20Pro%20RSD4%20wifi/index.asp#Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710483941719",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBKZ0-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760M PRO RS/D4 WIFI",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BRNLMMZM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55340933153150",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90-MXBKZ0-A0UAYZ",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2873082",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2873082",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813162109",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813162109",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2873082",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

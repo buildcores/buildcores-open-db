@@ -1,5 +1,9 @@
 {
   "opendb_id": "50d672fd-cb38-42d1-9b4f-4e5de11d2065",
+  "series": "AMD Ryzen 7",
+  "microarchitecture": "Zen",
+  "coreFamily": "Summit Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 8,
     "performance": 8,
@@ -16,19 +20,19 @@
     "l3": 16
   },
   "specifications": {
+    "tdp": 95,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": ["DDR4"]
+    }
   },
   "metadata": {
     "name": "AMD Ryzen 7 1800X 3.6 GHz 8-Core AM4 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["YD180XBCM88AE"],
     "series": "AMD Ryzen 7"
   },
-  "series": "AMD Ryzen 7",
-  "microarchitecture": "Zen",
-  "coreFamily": "Summit Ridge",
-  "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "YD180XBCM88AE",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

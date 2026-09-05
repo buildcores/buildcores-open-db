@@ -1,38 +1,417 @@
 {
   "opendb_id": "b5e6c25d-a8df-4eb4-8cbd-8abf12b3d783",
-  "dimensions_mm": {
-    "width": 307,
-    "height": 698,
-    "depth": 698
-  },
-  "metadata": {
-    "name": "Corsair 9000D RGB AIRFLOW ATX Full Tower White Tempered Glass",
-    "manufacturer": "Corsair",
-    "part_numbers": ["CC-9011274-WW"],
-    "series": "9000D",
-    "variant": "RGB AIRFLOW (White)",
-    "last_manually_spec_verified_at": "2025-09-24T04:01:54.536Z"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "form_factor": "ATX Full Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX", "SSI EEB"],
   "color": ["WHITE"],
+  "lighting": ["RGB"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "4x USB 3.2 Gen 1 Type-A                                       2x USB 3.2 Gen 1 Type-C",
-  "max_video_card_length": 400,
+  "front_usb_ports": ["4x USB 3.2 Gen 1 Type-A", "2x USB 3.2 Gen 1 Type-C"],
+  "max_video_card_length": 580,
   "max_cpu_cooler_height": 180,
+  "max_psu_length": 225,
   "internal_3_5_bays": 5,
   "internal_2_5_bays": 6,
-  "expansion_slots": 8,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": true,
+  "expansion_slots": 10,
+  "riser_expansion_slots": 4,
+  "supports_rear_connecting_motherboard": true,
   "dimensions": "698 x 307 x 698",
-  "volume": 149.572,
-  "weight": 82.474932,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": ["4x USB 3.2 Gen 1 Type-A ", "  2x USB 3.2 Gen 1 Type-C "],
-  "lighting": [],
+  "dimensions_mm": {
+    "depth": 698,
+    "width": 307,
+    "height": 698
+  },
+  "volume": 149.57,
+  "weight": 82.47,
+  "metadata": {
+    "name": "Corsair 9000D RGB AIRFLOW ATX Full Tower White Tempered Glass",
+    "manufacturer": "Corsair",
+    "part_numbers": [],
+    "series": "9000D",
+    "releaseYear": 2024,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2025-09-24T04:01:54.536Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0D9KHFZ58",
     "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011274-ww/9000d-rgb-airflow-super-full-tower-pc-case-cc-9011274-ww"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840006682189",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CC-9011274-WW",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006682189",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100064503",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100064503",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100064503",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100064503",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0D9KHFZ58",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306339647870",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "CO9000DAFWH",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GECS-194",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3332194",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "ca",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "de",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "es",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "fr",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "it",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "uk",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "corsair",
+        "channel": "us",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2A24-05Y",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3332194",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "207216",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "CC-9011274-WW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC82408",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "CJ01CO119",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CAS-CRS-02997",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21636891",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21636891",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3289360",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3289360",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3289360",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3289360",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "411837",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202502200058",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "151078",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3332194",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

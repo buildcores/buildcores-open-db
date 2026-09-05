@@ -1,10 +1,14 @@
 {
   "opendb_id": "d19e2b2c-c5ec-4329-8c7d-b695a93ee164",
+  "series": "Core i7 7000",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 8,
     "performance": 0,
-    "threads": 16,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 16
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)",
     "l2": 8,
-    "l3": 11,
-    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)"
+    "l3": 11
   },
   "specifications": {
+    "tdp": 140,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Core i7-7820X",
@@ -49,14 +53,162 @@
     "variant": "7820X",
     "releaseYear": 2017
   },
-  "series": "Core i7 7000",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
   "general_product_information": {
-    "amazon_sku": "B072NF4BY3",
-    "newegg_sku": "N82E16819117794",
-    "walmart_sku": 475324333,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/123767/intel-core-i77820x-xseries-processor-11m-cache-up-to-4-30-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858344128",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80673I77820X",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858344128",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B072NF4BY3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "INCI77820X",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819117794",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819117794",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "475324333",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

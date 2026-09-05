@@ -1,54 +1,15 @@
 {
   "opendb_id": "e1b56571-d8ca-4ea5-ae4e-f7b59d8a7d5a",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD A520",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_3_2_gen_1": 1,
-    "usb_2_0": 2
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 2
-  },
-  "rgb_headers": {
-    "argb_5v": 1,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "Gigabyte A520M S2H (Rev. 1.x)",
-    "manufacturer": "Gigabyte",
-    "variant": "A520M S2H (Rev. 1.x)",
-    "manufacturer_color": "Black",
-    "part_numbers": ["A520M-S2H-rev-1x", "A520M S2H", "GAA52MS2H-00-G"],
-    "releaseYear": 2023,
-    "series": "Ultra Durable",
-    "last_manually_spec_verified_at": "2026-04-19T07:28:04.832Z"
-  },
   "color": ["GREY", "BLACK"],
+  "lighting": [],
   "pcie_slots": [
     {
       "gen": "3.0",
@@ -68,12 +29,48 @@
       "interface": "PCIe 3.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
       "controller": "Realtek GbE LAN chip"
     }
   ],
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x PS/2 keyboard/mouse port",
     "1 x D-Sub port",
@@ -85,17 +82,327 @@
     "1 x Q-Flash Plus button",
     "3 x audio jacks"
   ],
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD A520",
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "lighting": [],
+  "metadata": {
+    "name": "Gigabyte A520M S2H (Rev. 1.x)",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["A520M-S2H-rev-1x", "A520M S2H", "GAA52MS2H-00-G"],
+    "series": "Ultra Durable",
+    "variant": "A520M S2H (Rev. 1.x)",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black",
+    "last_manually_spec_verified_at": "2026-04-19T07:28:04.832Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B08F7HPJ4F",
-    "newegg_sku": "N82E16813145240",
-    "walmart_sku": 593846537,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/A520M-S2H-rev-1x"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523023594",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4719331809720",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "A520M S2H",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "A520M-S2H-rev-1x",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GAA52MS2H-00-G",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523023594",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1665381",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1665381",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1665381",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1665381",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08F7HPJ4F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306540450174",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "A520M S2H",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD2921",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2354350",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8H6",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2354350",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "21449",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "A520M S2H",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02GB83",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145240",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145240",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21035167",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21035167",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "2927274",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "2927274",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "2927274",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "2927274",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "255331",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2354350",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "593846537",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

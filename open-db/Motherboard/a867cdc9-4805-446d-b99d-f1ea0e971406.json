@@ -1,65 +1,15 @@
 {
   "opendb_id": "a867cdc9-4805-446d-b99d-f1ea0e971406",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD X870",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_3_gb_s": 0,
-    "u2": 0,
-    "sata_6_gb_s": 2
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 3,
-    "pump": 2
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true,
-    "power_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC1220",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "Gigabyte X870M AORUS ELITE WIFI7 DDR5 Micro ATX",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["X870M AORUS ELITE WIFI7"],
-    "variant": "X870M ELITE WIFI7",
-    "series": "AORUS",
-    "manufacturer_color": "Black",
-    "releaseYear": 2025
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD X870",
   "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -84,15 +34,58 @@
       "interface": "PCIe 4.0 x2"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 2,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x Clear CMOS button",
     "1 x Q-Flash Plus button",
@@ -106,10 +99,49 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
-  "lighting": ["ARGB"],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "metadata": {
+    "name": "Gigabyte X870M AORUS ELITE WIFI7 DDR5 Micro ATX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["X870M AORUS ELITE WIFI7"],
+    "series": "AORUS",
+    "variant": "X870M ELITE WIFI7",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "newegg_sku": "9SIC80CM2V6676",
     "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/X870M-AORUS-ELITE-WIFI7/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "X870M AORUS ELITE WIFI7",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC97328",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIC80CM2V6676",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC80CM2V6676",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

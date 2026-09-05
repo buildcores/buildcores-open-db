@@ -1,65 +1,15 @@
 {
   "opendb_id": "fc39cb35-00df-4b10-a625-e9e9e4d8b1af",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD X870",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 3,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 2,
-    "case_fan": 4,
-    "pump": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true,
-    "power_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC4082",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASRock X870 Taichi Creator AM5 DDR5 ATX",
-    "manufacturer": "ASRock",
-    "part_numbers": ["X870 Taichi Creator", "X870 TAICHI CREATOR"],
-    "manufacturer_color": "Black",
-    "series": "TAICHI",
-    "variant": "X870 CREATOR",
-    "releaseYear": 2025
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD X870",
   "color": ["BLACK", "GOLD"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -99,6 +49,11 @@
       "interface": "PCIe 3.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
@@ -109,9 +64,47 @@
       "controller": "Realtek RTL8126"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 3,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC4082",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x Antenna Ports",
     "1 x HDMI Port",
@@ -126,13 +119,225 @@
     "1 x Line Out Jack",
     "1 x Microphone Input Jack"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "metadata": {
+    "name": "ASRock X870 Taichi Creator AM5 DDR5 ATX",
+    "manufacturer": "ASRock",
+    "part_numbers": ["X870 Taichi Creator", "X870 TAICHI CREATOR", "90-MXBTE0-A0UAYZ"],
+    "series": "TAICHI",
+    "variant": "X870 CREATOR",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0FSLVZDBP",
-    "newegg_sku": "N82E16813162237",
-    "bestbuy_sku": 12864792,
-    "walmart_sku": 17936200880,
     "manufacturer_url": "https://static.buildcores.com/part-attachments/fc39cb35-00df-4b10-a625-e9e9e4d8b1af_X870_Taichi_Creator.pdf"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711581492066",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 Taichi Creator",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 TAICHI CREATOR",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "4711581492066",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FSLVZDBP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12864792",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3618579",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3618579",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813162237",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813162237",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3442191",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3442191",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3442191",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3442191",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3618579",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17936200880",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

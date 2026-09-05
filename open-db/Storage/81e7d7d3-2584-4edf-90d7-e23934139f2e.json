@@ -1,5 +1,11 @@
 {
   "opendb_id": "81e7d7d3-2584-4edf-90d7-e23934139f2e",
+  "capacity": 1000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 5.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KIOXIA EXCERIA PLUS G4 1TB SSD M.2 PCIe 5.0 X4 NVMe",
     "manufacturer": "KIOXIA",
@@ -7,12 +13,31 @@
     "series": "EXCERIA",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 5.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "LVD10Z001TG8",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "SSD1884",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "LVD10Z001TG8",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

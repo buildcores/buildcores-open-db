@@ -1,10 +1,14 @@
 {
   "opendb_id": "f0a97d97-78c0-4794-8dba-7d5f5e8917d8",
+  "series": "A-Series A10 6000",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 4,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 4
   },
   "clocks": {
     "performance": {
@@ -17,43 +21,50 @@
     }
   },
   "cache": {
+    "l1": "2 × 64 KB Instruction + 4 × 16 KB Data (192 KB total)",
     "l2": 4,
-    "l3": 0,
-    "l1": "2 × 64 KB Instruction + 4 × 16 KB Data (192 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 45,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon HD 8670D",
+      "baseClock": 0,
       "boostClock": 844,
-      "shaderCount": 384,
-      "baseClock": 0
+      "shaderCount": 384
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 45,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32nm SOI",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A-Series A10 6800B",
     "manufacturer": "AMD",
     "part_numbers": ["AD680BWOA44HL"],
     "series": "A-Series A10 6000",
-    "releaseYear": 2013,
-    "variant": "6800B"
+    "variant": "6800B",
+    "releaseYear": 2013
   },
-  "series": "A-Series A10 6000",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Richland",
-  "socket": "FM2",
   "general_product_information": {
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/business-class---quad-core-a10-series-apu-for-desktops/a10-6800b-with-radeon-hd-8670d.html#amd_support_product_spec"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD680BWOA44HL",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

@@ -1,40 +1,359 @@
 {
   "opendb_id": "2874da7b-f735-4910-9da9-258c72d5c9ba",
-  "metadata": {
-    "name": "Lian Li O11 Air Mini ATX Mid Tower Case",
-    "manufacturer": "Lian Li",
-    "part_numbers": [
-      "O11AMWO11AMW-MINIO11 AIR MINI WHITE",
-      "O11AMX",
-      "O11AIRMINIBLACK",
-      "O11 AIR MINI BLACK",
-      "G99.011AMX.00"
-    ],
-    "series": "LIAN LI O11",
-    "variant": "Black"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "form_factor": "ATX Mid Tower",
-  "color": [],
-  "power_supply": null,
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "power_supply": "None",
   "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["2 X USB 3.0", "1 X USB 3.1 Type-c"],
   "max_video_card_length": 362,
   "max_cpu_cooler_height": 170,
-  "internal_3_5_bays": 4,
-  "internal_2_5_bays": 2,
+  "max_psu_length": 200,
+  "internal_3_5_bays": 3,
+  "internal_2_5_bays": 6,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": false,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "400 mm x 288 mm x 384 mm",
-  "volume": 44.237,
-  "weight": 21.6,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
+  "dimensions_mm": {
+    "depth": 400,
+    "width": 288,
+    "height": 384
+  },
+  "volume": 44.24,
+  "weight": 18.74,
+  "metadata": {
+    "name": "Lian Li O11 Air Mini ATX Mid Tower Case",
+    "manufacturer": "Lian Li",
+    "part_numbers": [],
+    "series": "O11 Air Mini",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B09DS85DYC",
-    "newegg_sku": "2AM-000Z-00080",
-    "walmart_sku": 157377317
+    "manufacturer_url": "https://lian-li.com/product/o11-air-mini/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4718466010681",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "G99.011AMX.00",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11 AIR MINI BLACK",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11AIRMINIBLACK",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11AMWO11AMW-MINIO11 AIR MINI WHITE",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "O11AMX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353041561",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "adorama",
+        "channel": "us",
+        "source_product_id": "LIO11AMX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100055700",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100055700",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100055700",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100055700",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09DS85DYC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55425023738238",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GELI-869",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "O11AMX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2600079",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "O11 AIR MINI BLACK",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2600079",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "O11AMX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "174875",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "CJ01LI19",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "2AM-000Z-00080",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "2AM-000Z-00080",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CA-79J-LL",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3029204",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3029204",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3029204",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3029204",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202112080022",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2600079",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "157377317",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

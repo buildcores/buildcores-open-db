@@ -1,10 +1,14 @@
 {
   "opendb_id": "25eb5fd4-728d-4e7e-b59a-d67a90f2fe60",
+  "series": "A-Series A4 7000",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
   "cores": {
     "total": 2,
     "performance": 0,
-    "threads": 2,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 2
   },
   "clocks": {
     "performance": {
@@ -17,28 +21,28 @@
     }
   },
   "cache": {
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)",
     "l2": 1,
-    "l3": 0,
-    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "AMD Radeon HD 8470D",
       "baseClock": 800,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "32 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD A4-7300",
@@ -48,12 +52,141 @@
     "variant": "7300",
     "releaseYear": 2014
   },
-  "series": "A-Series A4 7000",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Richland",
-  "socket": "FM2",
   "general_product_information": {
-    "amazon_sku": "B00MU00HGK",
     "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a4-series-apu-for-desktops/a4-7300-with-radeon-hd-8470d.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730886472041",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD7300OKHLBOX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730886472041",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00MU00HGK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMAD7300OKHL",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

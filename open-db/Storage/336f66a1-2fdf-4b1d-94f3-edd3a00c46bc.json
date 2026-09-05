@@ -1,5 +1,11 @@
 {
   "opendb_id": "336f66a1-2fdf-4b1d-94f3-edd3a00c46bc",
+  "capacity": 2000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 5.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "PNY CS2150 2TB M.2-2280 SSD PCIe 5.0 X4 NVMe",
     "manufacturer": "PNY",
@@ -7,14 +13,31 @@
     "series": "CS2150",
     "variant": "2000GB"
   },
-  "capacity": 2000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 5.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16820177170"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "M280CS2150-2TB-TB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820177170",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820177170",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

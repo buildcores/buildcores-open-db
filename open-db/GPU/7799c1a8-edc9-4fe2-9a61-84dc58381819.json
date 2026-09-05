@@ -1,39 +1,73 @@
 {
   "opendb_id": "7799c1a8-edc9-4fe2-9a61-84dc58381819",
-  "power_connectors": {
-    "pcie_12V_2x6": 1
-  },
-  "video_outputs": {
-    "hdmi_2_1b": 1,
-    "displayport_2_1_b": 3
-  },
-  "metadata": {
-    "name": "PNY GeForce RTX 5080 Slim Dual Fan",
-    "manufacturer": "PNY",
-    "variant": "Slim Dual Fan",
-    "manufacturer_color": "Black",
-    "part_numbers": ["VCG508016DFSXPB1"],
-    "releaseYear": 2026
-  },
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "tdp": 360,
-  "length": 300,
-  "color": ["BLACK"],
-  "lighting": ["None"],
   "core_count": 10752,
   "core_base_clock": 2295,
   "core_boost_clock": 2617,
+  "memory": 16,
+  "memory_type": "GDDR7",
   "effective_memory_clock": 1875,
   "memory_bus": 256,
+  "tdp": 360,
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "length": 300,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
+  "power_connectors": {
+    "pcie_6_pin": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 0,
+    "pcie_12V_2x6": 1
+  },
+  "video_outputs": {
+    "hdmi_2_2": 0,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 1,
+    "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
+    "displayport_2_1": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
+    "usb_c": 0,
+    "dvi_d": 0,
+    "vga": 0
+  },
+  "metadata": {
+    "name": "PNY GeForce RTX 5080 16GB Slim Dual-Fan GDDR7",
+    "manufacturer": "PNY",
+    "part_numbers": [],
+    "series": "Slim Dual Fan",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.pny.com/geforce-rtx-5080-slim-models?sku=VCG508016DFSXPB1"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "VCG508016DFSXPB1",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "751492812120",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
   }
 }

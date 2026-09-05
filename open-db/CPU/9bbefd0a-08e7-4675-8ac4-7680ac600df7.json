@@ -1,10 +1,14 @@
 {
   "opendb_id": "9bbefd0a-08e7-4675-8ac4-7680ac600df7",
+  "series": "Athlon X2 400",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
   "cores": {
     "total": 2,
     "performance": 0,
-    "threads": 2,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 2
   },
   "clocks": {
     "performance": {
@@ -17,41 +21,53 @@
     }
   },
   "cache": {
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)",
     "l2": 1,
-    "l3": 0,
-    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)"
+    "l3": 0
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
-      "shaderCount": 0,
-      "boostClock": 0
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR3"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD Athlon X2 450 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD450XYBI23JA"],
     "series": "Athlon X2 400",
-    "releaseYear": 2014,
-    "variant": "450"
+    "variant": "450",
+    "releaseYear": 2014
   },
-  "series": "Athlon X2 400",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Kaveri",
-  "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "8024963893747",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD450XYBI23JA",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,10 +1,14 @@
 {
   "opendb_id": "b3e855a0-64fe-48fc-88fb-0898e4deb440",
+  "series": "Xeon E5 2600 v4",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 18,
     "performance": 0,
-    "threads": 36,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 36
   },
   "clocks": {
     "performance": {
@@ -17,45 +21,185 @@
     }
   },
   "cache": {
+    "l1": "18 × 32 KB Instruction + 18 × 32 KB Data (1152 KB total)",
     "l2": 4.5,
-    "l3": 45,
-    "l1": "18 × 32 KB Instruction + 18 × 32 KB Data (1152 KB total)"
+    "l3": 45
   },
   "specifications": {
+    "tdp": 145,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 1536,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 145,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 1536,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5-2697 v4",
     "manufacturer": "Intel",
     "part_numbers": ["BX80660E52697V4", "SR2JV"],
     "series": "Xeon E5 2600 v4",
-    "releaseYear": 2016,
-    "variant": "2697 v4"
+    "variant": "2697 v4",
+    "releaseYear": 2016
   },
-  "series": "Xeon E5 2600 v4",
-  "microarchitecture": "Broadwell",
-  "coreFamily": "Broadwell-EP",
-  "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B01DTYQIN6",
-    "newegg_sku": "2HE-000B-003S5",
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/91755/intel-xeon-processor-e52697-v4-45m-cache-2-30-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0759767134748",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80660E52697V4",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "SR2JV",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "759767134748",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B01DTYQIN6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "2HE-000B-003S5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "2HE-000B-003S5",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

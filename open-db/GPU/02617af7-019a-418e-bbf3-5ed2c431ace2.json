@@ -1,5 +1,20 @@
 {
   "opendb_id": "02617af7-019a-418e-bbf3-5ed2c431ace2",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 580",
+  "core_base_clock": 1257,
+  "core_boost_clock": 1366,
+  "memory": 4,
+  "memory_type": "GDDR5",
+  "effective_memory_clock": 4096,
+  "memory_bus": 0,
+  "tdp": 225,
+  "interface": "PCIe x16",
+  "color": ["BLACK"],
+  "lighting": [],
+  "length": 230,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 1,
@@ -22,20 +37,21 @@
     "series": "Radeon RX 580",
     "variant": "Sapphire"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 580",
-  "memory": 4,
-  "memory_type": "GDDR5",
-  "core_base_clock": 1257,
-  "core_boost_clock": 1366,
-  "effective_memory_clock": 4096,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 230,
-  "tdp": 225,
-  "total_slot_width": 2,
-  "cooling": "2 Fans",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "100411P4GOCL",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "11265-09-20G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

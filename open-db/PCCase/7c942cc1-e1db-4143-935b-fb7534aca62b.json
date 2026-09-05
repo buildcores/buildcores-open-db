@@ -1,47 +1,413 @@
 {
   "opendb_id": "7c942cc1-e1db-4143-935b-fb7534aca62b",
+  "form_factor": "EATX Full Tower",
+  "supported_motherboard_form_factors": ["EATX", "ATX", "Micro ATX", "Mini-ITX"],
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "4 x USB 3.2Gen1                              1 x USB 3.2 Gen2 Type C                              1 x USB 3.2 Gen 2x2 Type C",
+  "front_usb_ports": [
+    "4 x USB 3.2Gen1",
+    "1 x USB 3.2 Gen2 Type C",
+    "1 x USB 4.0 Type C or 1 x USB 3.2 Gen 2x2 Type C"
+  ],
+  "max_video_card_length": 460,
+  "max_cpu_cooler_height": 190,
+  "max_psu_length": 240,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 7,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": true,
+  "expansion_slots": 9,
+  "riser_expansion_slots": 3,
+  "supports_rear_connecting_motherboard": false,
+  "dimensions": "268 x 639 x 659",
   "dimensions_mm": {
+    "depth": 639,
     "width": 268,
-    "height": 659,
-    "depth": 639
+    "height": 659
   },
+  "volume": 113,
+  "weight": 45.86,
   "metadata": {
     "name": "ASUS ROG Hyperion GR701 Tempered Glass eATX Full Tower Computer Case - Black",
     "manufacturer": "ASUS",
-    "part_numbers": ["GR701/BK/PWMFAN", "554998", "GR701 ROG HYPERION", "90DC00F0-B39000"],
-    "series": "ROG Hyperion",
-    "variant": "Black",
+    "part_numbers": [],
+    "series": "ROG Hyperion GR701",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-09-25T00:41:59.343Z"
   },
-  "supported_motherboard_form_factors": ["EATX", "ATX", "Micro ATX", "Mini-ITX"],
-  "form_factor": "EATX Full Tower",
-  "power_supply": "None",
-  "power_supply_included": false,
-  "side_panel": "Tempered Glass",
-  "has_transparent_side_panel": true,
-  "front_panel_usb": "4 x USB 3.2Gen1                              1 x USB 3.2 Gen2 Type C                              1 x USB 3.2 Gen 2x2 Type C           ",
-  "max_video_card_length": 460,
-  "max_cpu_cooler_height": 190,
-  "internal_3_5_bays": 2,
-  "internal_2_5_bays": 5,
-  "expansion_slots": 9,
-  "dimensions": "268 x 639 x 659",
-  "volume": 120.434,
-  "weight": 45.86,
-  "color": ["BLACK"],
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [
-    "4 x USB 3.2Gen1 ",
-    "1 x USB 3.2 Gen2 Type C",
-    " 1 x USB 3.2 Gen 2x2 Type C "
-  ],
-  "riser_expansion_slots": 3,
-  "power_supply_shroud": true,
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0BW21WZNG",
-    "newegg_sku": "N82E16811173052",
-    "walmart_sku": 1501428130,
     "manufacturer_url": "https://rog.asus.com/cases/rog-hyperion-gr701-model/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553982771",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081982784",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "554998",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90DC00F0-B39000",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GR701 ROG HYPERION",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GR701/BK/PWMFAN",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553982771",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1902941",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1902941",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1902941",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1902941",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BW21WZNG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56841369125246",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASRHGR701BK",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90DC00F0-B39000",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GEAS-027",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90DC00F0-B39000",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CAS4706",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2905415",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2A28-01F",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2905415",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90DC00F0-B39000",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "191155",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90DC00F0-B39000",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC62092",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "CJ01AS15",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811173052",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811173052",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CA-06D-AS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21292851",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21292851",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3137054",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3137054",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3137054",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3137054",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "332922",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00001102565",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2905415",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1501428130",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,46 +1,102 @@
 {
   "opendb_id": "c805eb9f-660f-4c1f-99c9-47d94cf88af2",
+  "chipset_manufacturer": "Intel",
+  "chipset": "Arc B580",
+  "core_count": 2560,
+  "core_base_clock": 2670,
+  "core_boost_clock": 2670,
+  "memory": 12,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 2375,
+  "memory_bus": 192,
+  "tdp": 190,
+  "interface": "PCIe 4.0 x8",
+  "frame_sync": "None",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
+  "length": 260,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.5,
+  "cooling": "2 Fans",
+  "radiator_size": 0,
+  "fan_size": 0,
+  "fan_quantity": 0,
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
+    "hdmi_2_2": 0,
     "hdmi_2_1": 1,
+    "hdmi_2_1a": 0,
+    "hdmi_2_1b": 0,
     "hdmi_2_0": 0,
+    "hdmi_2_0a": 0,
+    "hdmi_2_0b": 0,
     "displayport_2_1": 3,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 0,
+    "usb_c": 0,
     "dvi_d": 0,
     "vga": 0
   },
   "metadata": {
-    "name": "ONIX ODYSSEY Arc B580 12GB GDDR6 Black / Silver",
+    "name": "ONIX ODYSSEY Arc B580 12GB GDDR6",
     "manufacturer": "ONIX",
-    "part_numbers": ["8346-00178"],
-    "series": "Arc B580",
-    "variant": "ONIX"
+    "part_numbers": [],
+    "series": "ODYSSEY",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black / Silver"
   },
-  "chipset_manufacturer": "Intel",
-  "chipset": "Arc B580",
-  "memory": 12,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2670,
-  "core_boost_clock": 2670,
-  "effective_memory_clock": 0,
-  "memory_bus": 192,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 260,
-  "tdp": 190,
-  "total_slot_width": 3,
-  "cooling": "2 Fans",
-  "core_count": 2560,
-  "lighting": [],
   "general_product_information": {
-    "newegg_sku": "N82E16814987001",
-    "bestbuy_sku": 11019330,
-    "walmart_sku": 15041351748
+    "manufacturer_url": "https://onixsys.com/onix-odyssey-intel-arc-b580-gddr6-12gb-en/#SPECS"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "8346-00178",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "8885021500010",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11019330",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814987001",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814987001",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15041351748",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

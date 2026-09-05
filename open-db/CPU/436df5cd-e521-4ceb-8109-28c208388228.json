@@ -1,10 +1,14 @@
 {
   "opendb_id": "436df5cd-e521-4ceb-8109-28c208388228",
+  "series": "Xeon E5 2600 v3",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 10,
     "performance": 0,
-    "threads": 20,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 20
   },
   "clocks": {
     "performance": {
@@ -17,46 +21,187 @@
     }
   },
   "cache": {
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)",
     "l2": 2.5,
-    "l3": 25,
-    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)"
+    "l3": 25
   },
   "specifications": {
+    "tdp": 160,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 768,
-      "types": ["DDR4"],
-      "channels": 4
-    },
-    "tdp": 160,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "22 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 768,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2687W V3",
     "manufacturer": "Intel",
     "part_numbers": ["BX80644E52687V3"],
     "series": "Xeon E5 2600 v3",
-    "releaseYear": 2014,
-    "variant": "2687W v3"
+    "variant": "2687W v3",
+    "releaseYear": 2014
   },
-  "series": "Xeon E5 2600 v3",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
   "general_product_information": {
-    "amazon_sku": "B00NB0V10E",
-    "newegg_sku": "N82E16819117483",
-    "walmart_sku": 41868939,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/81909/intel-xeon-processor-e52687w-v3-25m-cache-3-10-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858283489",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80644E52687V3",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858283489",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00NB0V10E",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819117483",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819117483",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "41868939",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,5 +1,21 @@
 {
   "opendb_id": "3a1d8886-ea46-49fc-b815-6ad9b4452bf7",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070 XT",
+  "core_count": 4096,
+  "core_base_clock": 2070,
+  "core_boost_clock": 2700,
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 20000,
+  "memory_bus": 256,
+  "tdp": 304,
+  "interface": "PCIe x16",
+  "color": ["WHITE", "BLUE"],
+  "lighting": [],
+  "length": 342,
+  "total_slot_width": 4,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,23 +38,31 @@
     "series": "Radeon RX 9070 XT",
     "variant": "Yeston"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 9070 XT",
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2070,
-  "core_boost_clock": 2700,
-  "effective_memory_clock": 20000,
-  "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["WHITE", "BLUE"],
-  "length": 342,
-  "tdp": 304,
-  "total_slot_width": 4,
-  "cooling": "3 Fans",
-  "core_count": 4096,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "27N-0042-000J3"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RX9070XT-16GD6-OC-SA",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "27N-0042-000J3",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "27N-0042-000J3",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

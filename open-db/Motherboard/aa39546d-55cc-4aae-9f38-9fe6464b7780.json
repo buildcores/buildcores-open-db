@@ -1,65 +1,15 @@
 {
   "opendb_id": "aa39546d-55cc-4aae-9f38-9fe6464b7780",
+  "socket": "LGA 1851",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel Z890",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
-  "storage_devices": {
-    "sata_6_gb_s": 2,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 1,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 1,
-    "pump": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 2
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1,
-    "thunderbolt": 2
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASRock Z890I Nova WiFi",
-    "manufacturer": "ASRock",
-    "part_numbers": ["Z890I Nova WiFi", "90-MXBPN0-A0UAYZ", "Z890I NOVA WIFI"],
-    "variant": "Nova WiFi",
-    "series": "Phantom Gaming",
-    "manufacturer_color": "Black",
-    "releaseYear": 2024
-  },
-  "socket": "LGA 1851",
-  "form_factor": "Mini-ITX",
-  "chipset": "Intel Z890",
   "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -81,18 +31,65 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "SATA3 6.0 Gb/s & PCIe Gen4x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 2,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek 8126"
     }
   ],
+  "wireless_networking": "Wi-Fi 7",
+  "usb_headers": {
+    "usb_2_0": 1,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 0
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC4082",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x Antenna Ports",
     "1 x HDMI Port",
@@ -104,12 +101,326 @@
     "1 x Line Out Jack",
     "1 x Microphone Input Jack"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "metadata": {
+    "name": "ASRock Phantom Gaming Z890I NOVA WiFi LGA1851 DDR5 Mini-ITX",
+    "manufacturer": "ASRock",
+    "part_numbers": ["Z890I Nova WiFi"],
+    "series": "Phantom Gaming",
+    "variant": "Z890I NOVA WiFi",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0DJPXWMG8",
-    "newegg_sku": "N82E16813162182",
-    "walmart_sku": 13774923863,
-    "manufacturer_url": "https://pg.asrock.com/mb/Intel/Z890I%20Nova%20WiFi/index.asp#Manual"
+    "manufacturer_url": "https://pg.asrock.com/mb/Intel/Z890I%20Nova%20WiFi/index.asp#Specification"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "04710483949739",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710483949739",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBPN0-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890I Nova WiFi",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890I NOVA WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "4710483949739",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100082574",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100082574",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100082574",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100082574",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DJPXWMG8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56172429738366",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAR-504",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3331215",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2310-1M2",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3331215",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "207050",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813162182",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813162182",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-ASR-03367",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21654423",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21654423",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3301928",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3301928",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3301928",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3301928",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "390718",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202410100074",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "152517",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3331215",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "13774923863",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

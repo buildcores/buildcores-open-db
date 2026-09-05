@@ -5,8 +5,41 @@
     "manufacturer": "HP",
     "part_numbers": ["M02-0234", "6613695"]
   },
-  "general_product_information": {
-    "bestbuy_sku": 6613695,
-    "walmart_sku": 18397823950
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "6613695",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "M02-0234",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "198990141213",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6613695",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "18397823950",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

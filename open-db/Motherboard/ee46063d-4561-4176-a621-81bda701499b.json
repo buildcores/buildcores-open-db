@@ -1,69 +1,15 @@
 {
   "opendb_id": "ee46063d-4561-4176-a621-81bda701499b",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B650",
   "memory": {
     "max": 192,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_6_gb_s": 4,
-    "sata_3_gb_s": 0,
-    "u2": 0
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 3,
-    "cpu_opt": 1,
-    "pump": 0
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "reset_button": true,
-    "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0,
-    "thunderbolt": 0,
-    "com_port": 1
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS PRIME B650M-A WIFI II-CSM AM5 DDR5 Micro-ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": ["PRIME B650M-A WIFI II", "CSM", "90MB1EG0-M0EAY0"],
-    "series": "PRIME",
-    "variant": "B650M-A WIFI II-CSM",
-    "manufacturer_color": "Black / Silver",
-    "releaseYear": 2022
-  },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B650",
   "color": ["BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -88,15 +34,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "WiFi 6",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 0,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
     "2 x USB 3.2 Gen 1 ports (2 x Type-A)",
@@ -110,10 +103,354 @@
     "1 x BIOS FlashBack™ button",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
-  "lighting": ["None"],
-  "wireless_networking": "WiFi 6",
+  "metadata": {
+    "name": "ASUS PRIME B650M-A WIFI II-CSM AM5 DDR5 Micro-ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": ["PRIME B650M-A WIFI II", "CSM", "90MB1EG0-M0EAY0"],
+    "series": "PRIME",
+    "variant": "B650M-A WIFI II-CSM",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black / Silver"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BSVDKRKN",
     "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/csm/prime-b650m-a-wifi-ii-csm/techspec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0197105034990",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711387034934",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1EG0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CSM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B650M-A WIFI II",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105034990",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1903987",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1903987",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1903987",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1903987",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BSVDKRKN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306306781566",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90MB1EG0-M0EAY0-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-696",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90MB1EG0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3475",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2880144",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "PRIME B650M-A WIFI II",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-A00",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2880144",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90MB1EG0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "195109",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90MB1EG0-M0EAY0-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AS145",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-6K6-AS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21306886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21306886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3144712",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3144712",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3144712",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3144712",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "332726",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202303010180",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "133363",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2880144",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

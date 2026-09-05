@@ -1,5 +1,18 @@
 {
   "opendb_id": "12c7b2a3-7d05-43d3-9344-6f23516f610b",
+  "min_fan_rpm": 600,
+  "max_fan_rpm": 2500,
+  "min_noise_level": 14,
+  "max_noise_level": 33,
+  "color": ["GREY", "BLACK"],
+  "lighting": [],
+  "height": 47,
+  "cpu_sockets": ["AM4", "AM5", "LGA 1150", "LGA 1151", "LGA 1155", "LGA 1156", "LGA 1200"],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
   "metadata": {
     "name": "ID-COOLING IS-47K Air 47mm 44.3 CFM Silver / Black",
     "manufacturer": "ID-COOLING",
@@ -8,18 +21,16 @@
     "variant": "Silver / Black",
     "releaseYear": null
   },
-  "min_fan_rpm": 600,
-  "max_fan_rpm": 2500,
-  "min_noise_level": 14,
-  "max_noise_level": 33,
-  "color": ["GREY", "BLACK"],
-  "height": 47,
-  "cpu_sockets": ["AM4", "AM5", "LGA 1150", "LGA 1151", "LGA 1155", "LGA 1156", "LGA 1200"],
-  "water_cooled": false,
-  "radiator_size": null,
-  "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "IS-47K",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

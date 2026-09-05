@@ -1,19 +1,15 @@
 {
   "opendb_id": "123db36b-a11a-46ac-8bbc-edbc552dc672",
-  "metadata": {
-    "name": "In Win Alice ATX Mid Tower Gray / Black",
-    "manufacturer": "InWin",
-    "part_numbers": ["IW-ALICE-GRY", "ALICE.GREY", "1ACFAT--000020"],
-    "series": "Alice",
-    "variant": ""
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["GREY", "BLACK"],
+  "lighting": [],
   "power_supply": "None",
+  "supported_power_supply_form_factors": [],
   "side_panel": "Solid",
   "has_transparent_side_panel": false,
   "front_panel_usb": "None",
+  "front_usb_ports": [],
   "max_video_card_length": 300,
   "max_cpu_cooler_height": null,
   "internal_3_5_bays": 1,
@@ -22,8 +18,33 @@
   "dimensions": "",
   "volume": null,
   "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
-  "general_product_information": {}
+  "metadata": {
+    "name": "In Win Alice ATX Mid Tower Gray / Black",
+    "manufacturer": "InWin",
+    "part_numbers": ["IW-ALICE-GRY", "ALICE.GREY", "1ACFAT--000020"],
+    "series": "Alice",
+    "variant": ""
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "1ACFAT--000020",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ALICE.GREY",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "IW-ALICE-GRY",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

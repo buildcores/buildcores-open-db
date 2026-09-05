@@ -1,5 +1,23 @@
 {
   "opendb_id": "17f8a5e0-6c8b-4e29-9d95-1317aa1b59e8",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3060 12 GB",
+  "core_count": 3584,
+  "core_base_clock": 1320,
+  "core_boost_clock": 1867,
+  "memory": 12,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 1875,
+  "memory_bus": 192,
+  "tdp": 170,
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["RGB", "BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB"],
+  "length": 324,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_8_pin": 2
   },
@@ -10,32 +28,39 @@
   "metadata": {
     "name": "MSI GeForce RTX 3060 GAMING Z TRIO 12GB",
     "manufacturer": "MSI",
-    "series": "GAMING",
-    "manufacturer_color": "Black / Grey",
     "part_numbers": ["RTX-3060-GAMING-Z-TRIO-12G"],
+    "series": "GAMING",
+    "variant": "Z TRIO",
     "releaseYear": 2021,
-    "variant": "Z TRIO"
+    "manufacturer_color": "Black / Grey"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 3060 12 GB",
-  "core_count": 3584,
-  "core_base_clock": 1320,
-  "memory": 12,
-  "memory_type": "GDDR6",
-  "tdp": 170,
-  "length": 324,
-  "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
-  "color": ["RGB", "BLACK", "GREY"],
-  "lighting": ["RGB", "ARGB"],
-  "core_boost_clock": 1867,
-  "effective_memory_clock": 1875,
-  "memory_bus": 192,
-  "interface": "PCIe 4.0 x16",
-  "frame_sync": "G-Sync",
-  "cooling": "3 Fans",
   "general_product_information": {
-    "newegg_sku": "9SIB4VJKBM6715",
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-GAMING-Z-TRIO-12G/Overview"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RTX-3060-GAMING-Z-TRIO-12G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIB4VJKBM6715",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB4VJKBM6715",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,69 +1,15 @@
 {
   "opendb_id": "5d9ca123-84ec-4335-b528-8d9b1e2ae1ec",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD B650",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_3_gb_s": 0,
-    "u2": 0,
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 1,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 1
-  },
-  "rgb_headers": {
-    "argb_5v": 2,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "temperature_sensor": 0,
-    "thunderbolt": 0,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "GIGABYTE B650E AORUS STEALTH ICE AM5 DDR5 ATX",
-    "manufacturer": "Gigabyte",
-    "part_numbers": ["B650E AORUS STEALTH ICE", "B650E A STEALTH ICE"],
-    "series": "AORUS",
-    "variant": "B650E STEALTH ICE",
-    "releaseYear": 2024,
-    "manufacturer_color": "White",
-    "last_manually_spec_verified_at": "2026-03-16T12:22:42.099Z"
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
   "color": ["WHITE", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -88,15 +34,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 7",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 0,
+    "usb_3_2_gen_2x2": 1,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": true,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x Q-Flash Plus button.",
     "2 x SMA antenna connectors (2T2R)",
@@ -108,11 +101,289 @@
     "1 x RJ-45 port",
     "3 x audio jacks"
   ],
-  "wireless_networking": "Wi-Fi 7",
-  "lighting": ["RGB", "ARGB"],
-  "chipset": "AMD B650",
+  "metadata": {
+    "name": "GIGABYTE B650E AORUS STEALTH ICE AM5 DDR5 ATX",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["B650E AORUS STEALTH ICE", "B650E A STEALTH ICE"],
+    "series": "AORUS",
+    "variant": "B650E STEALTH ICE",
+    "releaseYear": 2024,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2026-03-16T12:22:42.099Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0DBQDPLKJ",
     "manufacturer_url": "https://www.techpowerup.com/324344/the-b650e-aorus-stealth-ice-is-gigabytes-first-motherboard-for-amd-cpus-with-its-connectors-on-the-back"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331863777",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650E A STEALTH ICE",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650E AORUS ELITE X ICE",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B650E AORUS STEALTH ICE",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100070484",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100070484",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100070484",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100070484",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DBQDPLKJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "57210906345854",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBGB-627",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3245751",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8P5",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3245751",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "203930",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC82686",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21642385",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21642385",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3295009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3295009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3295009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3295009",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "380454",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202407300070",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3245751",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

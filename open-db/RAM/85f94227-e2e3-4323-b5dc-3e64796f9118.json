@@ -1,22 +1,16 @@
 {
   "opendb_id": "85f94227-e2e3-4323-b5dc-3e64796f9118",
+  "speed": 7600,
+  "ram_type": "DDR5",
+  "profile_support": ["XMP"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
-  "metadata": {
-    "name": "G.Skill Trident Z5 Silver DDR5-7600 CL36 32GB (2x16GB)",
-    "manufacturer": "G.SKILL",
-    "part_numbers": ["F5-7600J3646G16GX2-TR5S"],
-    "series": "Trident Z5 Royal Neo RGB",
-    "manufacturer_color": "Silver (Mirror Finish)",
-    "releaseYear": 2021
-  },
-  "speed": 7600,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
   "capacity": 32,
   "color": ["GREY"],
+  "lighting": ["ARGB"],
   "cas_latency": 36,
   "timings": "36-46-46-121",
   "voltage": 1.4,
@@ -24,11 +18,42 @@
   "registered": "Unbuffered",
   "heat_spreader": true,
   "rgb": true,
-  "profile_support": ["XMP"],
-  "lighting": ["ARGB"],
   "height": 44,
+  "metadata": {
+    "name": "G.Skill Trident Z5 Silver DDR5-7600 CL36 32GB (2x16GB)",
+    "manufacturer": "G.SKILL",
+    "part_numbers": ["F5-7600J3646G16GX2-TR5S"],
+    "series": "Trident Z5 Royal Neo RGB",
+    "releaseYear": 2021,
+    "manufacturer_color": "Silver (Mirror Finish)"
+  },
   "general_product_information": {
-    "newegg_sku": "N82E16820374572",
     "manufacturer_url": "https://www.gskill.com/product/165/418/1716793648/F5-7600J3646G16GX2-TR5S"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "F5-7600J3646G16GX2-TR5S",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820374572",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820374572",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

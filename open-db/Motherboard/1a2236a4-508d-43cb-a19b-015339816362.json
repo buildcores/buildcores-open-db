@@ -1,69 +1,15 @@
 {
   "opendb_id": "1a2236a4-508d-43cb-a19b-015339816362",
+  "socket": "AM5",
+  "form_factor": "ATX",
+  "chipset": "AMD B650E",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 4
   },
-  "storage_devices": {
-    "sata_3_gb_s": 0,
-    "u2": 0,
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
-    "usb_4": 0,
-    "usb_4_80g": 0
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "pump": 1,
-    "cpu_opt": 1,
-    "case_fan": 4
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "power_led": true,
-    "hdd_led": true,
-    "reset_button": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1,
-    "thunderbolt": 1,
-    "com_port": 0
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "4-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": false
-  },
-  "audio": {
-    "chipset": "Realtek ALC4080",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "ASUS ROG STRIX B650E-F GAMING WIFI AM5 DDR5 ATX",
-    "manufacturer": "ASUS",
-    "part_numbers": ["ROG STRIX B650E-F GAMING WIFI", "90MB1BQ0-M0AAY0", "90MB1BQ0-M0EAY1"],
-    "series": "ROG STRIX",
-    "variant": "B650E-F GAMING WIFI",
-    "manufacturer_color": "Black",
-    "releaseYear": 2022
-  },
-  "socket": "AM5",
-  "form_factor": "ATX",
-  "chipset": "AMD B650E",
   "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -98,15 +44,62 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4,
+    "sata_3_gb_s": 0,
+    "u2": 0
+  },
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel I225-V"
     }
   ],
+  "wireless_networking": "Wifi 6E",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_2x2": 0,
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 0
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
   "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": false
+  },
+  "audio": {
+    "chipset": "Realtek ALC4080",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C",
     "3 x USB 3.2 Gen 2 ports (2 x Type-A + 1 x USB Type-C)",
@@ -119,13 +112,368 @@
     "5 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
-  "lighting": ["RGB", "ARGB"],
-  "wireless_networking": "Wifi 6E",
+  "metadata": {
+    "name": "ASUS ROG STRIX B650E-F GAMING WIFI AM5 DDR5 ATX",
+    "manufacturer": "ASUS",
+    "part_numbers": ["90MB1BQ0-M0EAY1"],
+    "series": "ROG",
+    "variant": "STRIX B650E-F GAMING WIFI",
+    "releaseYear": 2022,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BHMTYZKZ",
-    "newegg_sku": "N82E16813119604",
-    "bestbuy_sku": 6523721,
-    "walmart_sku": 1953451145,
     "manufacturer_url": "https://rog.asus.com/in/motherboards/rog-strix/rog-strix-b650e-f-gaming-wifi-model/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553944038",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081944034",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1BQ0-M0AAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1BQ0-M0EAY1",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX B650E-F GAMING WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553944038",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100055309",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100055309",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100055309",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100055309",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BHMTYZKZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306302521726",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6523721",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASROGB650EF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90MB1BQ0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-658",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90MB1BQ0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3371",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2824307",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-9YK",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2824307",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "27261",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90MB1BQ0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "185528",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90MB1BQ0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AS134",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813119604",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119604",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-6JX-AS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3109179",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3109179",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3109179",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3109179",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "327655",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202504220056",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2824307",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1953451145",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

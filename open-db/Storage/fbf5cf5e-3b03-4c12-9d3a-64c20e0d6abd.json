@@ -1,5 +1,11 @@
 {
   "opendb_id": "fbf5cf5e-3b03-4c12-9d3a-64c20e0d6abd",
+  "capacity": 256,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2242",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KingSpec NXM 256GB SSD M.2-2242 PCIe 3.0 x4 NVMe",
     "manufacturer": "KingSpec",
@@ -7,14 +13,36 @@
     "series": "NXM",
     "variant": "256GB"
   },
-  "capacity": 256,
-  "type": "SSD",
-  "form_factor": "M.2-2242",
-  "interface": "M.2 PCIe 3.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-000D-00164"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "NXM-256",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "NXM-256 2242",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-000D-00164",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-000D-00164",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

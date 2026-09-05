@@ -1,5 +1,9 @@
 {
   "opendb_id": "e4d7a46e-b403-43a3-96cd-ed0b963077a3",
+  "series": "Intel Xeon E",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 71,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 71,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E 2124 3.3 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80684E2124"],
     "series": "Intel Xeon E"
   },
-  "series": "Intel Xeon E",
-  "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80684E2124",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,60 +1,13 @@
 {
   "opendb_id": "01d8591a-1ea5-4e88-9901-5b49d03f05ed",
-  "memory": {
-    "ram_type": "DDR5",
-    "slots": 4,
-    "max": 256
-  },
-  "storage_devices": {
-    "sata_6_gb_s": 4
-  },
-  "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2x2": 1
-  },
-  "fan_headers": {
-    "cpu_fan": 1,
-    "case_fan": 4,
-    "pump": 3
-  },
-  "rgb_headers": {
-    "argb_5v": 3,
-    "rgb_12v": 1
-  },
-  "front_panel_headers": {
-    "power_button": true,
-    "reset_button": true,
-    "hdd_led": true,
-    "power_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 2
-  },
-  "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
-  },
-  "bios_features": {
-    "flashback": true,
-    "clear_cmos": true
-  },
-  "audio": {
-    "chipset": "Realtek ALC1220",
-    "channels": "7.1"
-  },
-  "metadata": {
-    "name": "GIGABYTE X870E EAGLE X3D WIFI7",
-    "manufacturer": "Gigabyte",
-    "series": "EAGLE",
-    "variant": "X870E EAGLE X3D WIFI7",
-    "manufacturer_color": "Black/Grey",
-    "part_numbers": ["X870E EAGLE X3D WIFI7"],
-    "releaseYear": 2025
-  },
   "socket": "AM5",
   "form_factor": "ATX",
   "chipset": "AMD X870E",
+  "memory": {
+    "max": 256,
+    "ram_type": "DDR5",
+    "slots": 4
+  },
   "color": ["BLACK"],
   "lighting": ["None"],
   "pcie_slots": [
@@ -96,12 +49,54 @@
       "interface": "PCIe 4.0 x4"
     }
   ],
+  "storage_devices": {
+    "sata_6_gb_s": 4
+  },
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "usb_headers": {
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_2x2": 1
+  },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
+  "bios_features": {
+    "flashback": true,
+    "clear_cmos": true
+  },
+  "audio": {
+    "chipset": "Realtek ALC1220",
+    "channels": "7.1"
+  },
   "back_panel_ports": [
     "1 x HDMI port",
     "1 x reset button",
@@ -116,15 +111,185 @@
     "2 x antenna connectors",
     "2 x audio jacks"
   ],
-  "ecc_support": false,
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
-  "back_connect_connectors": false,
-  "raid_support": true,
+  "metadata": {
+    "name": "GIGABYTE X870E EAGLE X3D WIFI7",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["X870E EAGLE X3D WIFI7"],
+    "series": "EAGLE",
+    "variant": "X870E EAGLE X3D WIFI7",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black/Grey"
+  },
   "general_product_information": {
-    "amazon_sku": "B0GQGBLY4J",
-    "newegg_sku": "N82E16813145614",
-    "bestbuy_sku": 12520409,
-    "walmart_sku": 19725354259,
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-EAGLE-WIFI7/sp"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523056844",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870E EAGLE X3D WIFI7",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523056844",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GQGBLY4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12520409",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3991",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "X870E EAGLE X3D WIFI7",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145614",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145614",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19725354259",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

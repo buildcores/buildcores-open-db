@@ -1,5 +1,9 @@
 {
   "opendb_id": "bb27044e-0b30-4e45-b56e-27932e97cab9",
+  "series": "Intel Core i5",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 6
   },
   "specifications": {
+    "tdp": 112,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 112,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i5 7640X 4 GHz 4-Core LGA2066",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80677I57640X"],
     "series": "Intel Core i5"
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80677I57640X",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

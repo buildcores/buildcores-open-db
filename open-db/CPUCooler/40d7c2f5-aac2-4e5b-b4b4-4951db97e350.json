@@ -1,5 +1,18 @@
 {
   "opendb_id": "40d7c2f5-aac2-4e5b-b4b4-4951db97e350",
+  "min_fan_rpm": 1000,
+  "max_fan_rpm": 7000,
+  "min_noise_level": 21.5,
+  "max_noise_level": 59.14,
+  "color": [],
+  "lighting": [],
+  "height": 28,
+  "cpu_sockets": ["LGA 2011"],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
   "metadata": {
     "name": "Dynatron R25 Air 28mm 22.28 CFM Ball Bearing",
     "manufacturer": "Dynatron",
@@ -8,20 +21,39 @@
     "variant": "",
     "releaseYear": null
   },
-  "min_fan_rpm": 1000,
-  "max_fan_rpm": 7000,
-  "min_noise_level": 21.5,
-  "max_noise_level": 59.14,
-  "color": [],
-  "height": 28,
-  "cpu_sockets": ["LGA 2011"],
-  "water_cooled": false,
-  "radiator_size": null,
-  "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {
-    "walmart_sku": 172638010
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0855700013269",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "88885252",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "R25",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "855700013269",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "172638010",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

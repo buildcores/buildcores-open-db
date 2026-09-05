@@ -1,10 +1,14 @@
 {
   "opendb_id": "c94676f9-71ba-4fde-aab0-e6227ae80965",
+  "series": "Core i5 8000",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 6,
     "performance": 0,
-    "threads": 6,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 6
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)",
     "l2": 1.5,
-    "l3": 9,
-    "l1": "6 × 32 KB Instruction + 6 × 32 KB Data (384 KB total)"
+    "l3": 9
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel UHD Graphics 630",
       "baseClock": 350,
       "boostClock": 1050,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
     "simultaneousMultithreading": false,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i5 8400",
@@ -49,13 +53,141 @@
     "variant": "8400",
     "releaseYear": 2017
   },
-  "series": "Core i5 8000",
-  "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B0DCZCB4WL",
-    "walmart_sku": 867590268,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/126687/intel-core-i58400-processor-9m-cache-up-to-4-00-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0715663070986",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM8068403358811",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "715663070986",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DCZCB4WL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "867590268",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

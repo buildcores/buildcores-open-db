@@ -1,5 +1,23 @@
 {
   "opendb_id": "28ea2ddb-69f7-4465-aa1e-4822d50b2cc9",
+  "chipset_manufacturer": "Intel",
+  "chipset": "Arc A750",
+  "core_count": 3584,
+  "core_base_clock": 2200,
+  "core_boost_clock": 2200,
+  "memory": 8,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 16000,
+  "memory_bus": 0,
+  "tdp": 225,
+  "interface": "PCIe x16",
+  "frame_sync": null,
+  "color": [],
+  "lighting": [],
+  "length": 267,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,25 +40,38 @@
     "series": "Arc A750",
     "variant": "ASRock"
   },
-  "chipset_manufacturer": "Intel",
-  "chipset": "Arc A750",
-  "memory": 8,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2200,
-  "core_boost_clock": 2200,
-  "effective_memory_clock": 16000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "frame_sync": null,
-  "length": 267,
-  "tdp": 225,
-  "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
-  "cooling": "2 Fans",
-  "color": [],
-  "core_count": 3584,
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16814930130"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "A750 CL SE 8GO",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "A750 CL SE 8GO",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16814930130",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16814930130",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

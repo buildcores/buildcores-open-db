@@ -1,10 +1,14 @@
 {
   "opendb_id": "52fdaf26-948d-4f20-97bd-13ba298abac5",
+  "series": "Core i7 7000",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 0,
-    "threads": 8,
-    "efficiency": 0
+    "efficiency": 0,
+    "threads": 8
   },
   "clocks": {
     "performance": {
@@ -17,29 +21,29 @@
     }
   },
   "cache": {
+    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)",
     "l2": 1,
-    "l3": 8,
-    "l1": "4 × 32 KB Instruction + 4 × 32 KB Data (256 KB total)"
+    "l3": 8
   },
   "specifications": {
+    "tdp": 35,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "Intel HD Graphics 630",
       "baseClock": 350,
       "boostClock": 1150,
       "shaderCount": 192
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": ["DDR4", "DDR3"],
-      "channels": 2
-    },
-    "tdp": 35,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
     "simultaneousMultithreading": true,
-    "ppt": 0
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4", "DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "Intel Core i7 7700T",
@@ -49,13 +53,141 @@
     "variant": "7700T",
     "releaseYear": 2017
   },
-  "series": "Core i7 7000",
-  "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake",
-  "socket": "LGA 1151",
   "general_product_information": {
-    "amazon_sku": "B01MS73UK2",
-    "walmart_sku": 699482642,
     "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/97122/intel-core-i77700t-processor-8m-cache-up-to-3-80-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0735858327879",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX80677I77700T",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "735858327879",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B01MS73UK2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "699482642",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }
