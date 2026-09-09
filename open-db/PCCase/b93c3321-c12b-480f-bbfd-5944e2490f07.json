@@ -43,7 +43,7 @@
     "manufacturer_url": "https://www.darkflash.com/product/dy460"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -51,9 +51,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0850077978609",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "DY460",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DY460",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -64,8 +74,28 @@
         "type": "upc",
         "value": "850077978609",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "850077978609",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FP23QM2Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC135M2R9138",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

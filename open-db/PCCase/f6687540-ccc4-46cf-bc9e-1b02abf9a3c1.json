@@ -2,8 +2,8 @@
   "opendb_id": "f6687540-ccc4-46cf-bc9e-1b02abf9a3c1",
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
-  "color": ["BLACK", "RGB"],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "power_supply": "None",
   "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
@@ -15,6 +15,8 @@
   "max_psu_length": 220,
   "internal_3_5_bays": 3,
   "internal_2_5_bays": 3,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
   "power_supply_shroud": true,
   "expansion_slots": 7,
   "riser_expansion_slots": 2,
@@ -29,10 +31,9 @@
   "metadata": {
     "name": "SAMA S40 Mid Tower ATX PC Case",
     "manufacturer": "SAMA",
-    "part_numbers": ["S40-BKAPA4X1-GL", "S40 Black"],
+    "part_numbers": [],
     "series": "S40",
-    "variant": "Black",
-    "releaseYear": 2024,
+    "releaseYear": 2023,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-04-09T20:21:17.887Z"
   },
@@ -40,11 +41,16 @@
     "manufacturer_url": "https://www.samagears.com/s40/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "6930788450930",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "6930788450947",
         "region": "all"
       },
       {
