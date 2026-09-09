@@ -1,10 +1,18 @@
 {
   "opendb_id": "c3abcc0f-4acb-45b8-a5f0-361744903be6",
   "form_factor": "ATX Full Tower",
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
+  "supported_motherboard_form_factors": [
+    "ATX",
+    "Micro ATX",
+    "Mini-ITX",
+    "EATX",
+    "SSI EEB",
+    "SSI CEB"
+  ],
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
@@ -12,26 +20,34 @@
   "front_usb_ports": ["1 x USB Type-C 20 Gbps", "2 x USB Type-A 5 Gbps"],
   "max_video_card_length": 512,
   "max_cpu_cooler_height": 182,
+  "max_psu_length": 230,
   "internal_3_5_bays": 2,
-  "internal_2_5_bays": 1,
+  "internal_2_5_bays": 4,
+  "power_supply_shroud": true,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "575 x 245 x 515",
   "dimensions_mm": {
     "depth": 575,
     "width": 245,
     "height": 515
   },
-  "volume": 72.551,
-  "weight": 25.1327,
+  "volume": 71.29,
+  "weight": 25.13,
   "metadata": {
     "name": "Fractal Design Meshify 3 XL Ambience Pro RGB ATX Full Tower White Tempered Glass",
     "manufacturer": "Fractal Design",
-    "part_numbers": ["FD-C-MES3X-05"],
+    "part_numbers": [],
     "series": "Meshify 3 XL",
-    "variant": "",
+    "variant": "Ambience Pro RGB",
+    "releaseYear": 2025,
+    "manufacturer_color": "White",
     "last_manually_spec_verified_at": "2025-09-05T21:16:52.308Z"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/meshify-series/meshify-3-xl/meshify-3-xl-ambience-pro-rgb-white-tg-clear-tint/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
