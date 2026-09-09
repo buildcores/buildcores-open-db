@@ -3,32 +3,66 @@
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["RED", "BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "power_supply": "None",
-  "supported_power_supply_form_factors": [],
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 1 Type-C                                                    USB 3.2 Gen 1 Type-A",
-  "front_usb_ports": [],
+  "front_usb_ports": ["USB 3.0 x2", "Type-C x1"],
   "max_video_card_length": 420,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 175,
+  "max_psu_length": 185,
   "internal_3_5_bays": 5,
-  "internal_2_5_bays": 3,
+  "internal_2_5_bays": 8,
+  "power_supply_shroud": false,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "475 x 300 x 442",
-  "volume": 62.985,
-  "weight": null,
-  "metadata": {
-    "name": "Montech KING 95 ATX Mid Tower Red / Black Tempered Glass Side Panel",
-    "manufacturer": "MONTECH",
-    "part_numbers": ["KING 95 (Red)", "KING95R"],
-    "series": "KING",
-    "variant": ""
+  "dimensions_mm": {
+    "depth": 475,
+    "width": 300,
+    "height": 442
   },
-  "general_product_information": {},
+  "volume": 63,
+  "weight": 19.4,
+  "metadata": {
+    "name": "Montech KING 95 ATX Mid Tower Red Tempered Glass Side Panel",
+    "manufacturer": "MONTECH",
+    "part_numbers": [],
+    "series": "KING 95",
+    "variant": "",
+    "releaseYear": 2023,
+    "manufacturer_color": "Red"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.montechpc.com/king-95"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710562740943",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562741940",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562742947",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562743944",
+        "region": "all"
+      },
       {
         "type": "mpn",
         "value": "KING 95 (Red)",
@@ -40,6 +74,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5248216199",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
