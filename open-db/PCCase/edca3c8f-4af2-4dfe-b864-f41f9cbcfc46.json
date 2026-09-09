@@ -3,45 +3,46 @@
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["BLUE", "BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "power_supply": "None",
-  "supported_power_supply_form_factors": [],
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "1x USB Type-C                                                    2x USB 3.0 Type-A",
-  "front_usb_ports": ["1x USB Type-C     ", "2x USB 3.0 Type-A"],
+  "front_usb_ports": ["1x USB Type-C", "2x USB 3.0 Type-A"],
   "max_video_card_length": 420,
   "max_cpu_cooler_height": 175,
+  "max_psu_length": 185,
   "internal_3_5_bays": 5,
   "internal_2_5_bays": 8,
+  "power_supply_shroud": false,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "475 x 300 x 442",
   "dimensions_mm": {
     "depth": 475,
     "width": 300,
     "height": 442
   },
-  "volume": 62.985,
-  "weight": 26.080686,
+  "volume": 63,
+  "weight": 26.1,
   "metadata": {
-    "name": "Montech KING 95 PRO ATX Mid Tower Blue / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A",
+    "name": "Montech KING 95 PRO ATX Mid Tower Prussian Blue with Tempered Glass Side Panel",
     "manufacturer": "MONTECH",
-    "part_numbers": [
-      "KING 95 PRO (Blue)",
-      "KING95PROP",
-      "KING 95 PRO (PB)",
-      "KING 95 PRO (Prussian blue)",
-      "KING 95 PRO BLUE US"
-    ],
-    "series": "KING",
-    "variant": "95 PRO Blue",
+    "part_numbers": [],
+    "series": "KING 95",
+    "variant": "PRO",
+    "releaseYear": 2023,
+    "manufacturer_color": "Prussian Blue",
     "last_manually_spec_verified_at": "2025-09-17T15:16:23.831Z"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.montechpc.com/king-95-pro"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,7 +51,22 @@
       },
       {
         "type": "ean",
+        "value": "4710562744941",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562745948",
+        "region": "all"
+      },
+      {
+        "type": "ean",
         "value": "4710562746945",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562747942",
         "region": "all"
       },
       {
@@ -272,7 +288,7 @@
         "channel": "us",
         "source_product_id": "N82E16811970007",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -328,7 +344,7 @@
         "channel": "us",
         "source_product_id": "5199279212",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

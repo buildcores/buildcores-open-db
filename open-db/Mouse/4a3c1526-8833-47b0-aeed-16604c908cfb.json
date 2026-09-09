@@ -1,8 +1,14 @@
 {
   "opendb_id": "4a3c1526-8833-47b0-aeed-16604c908cfb",
   "weight": 53,
+  "dimensions": {
+    "length": 124.3,
+    "width": 66.8,
+    "height": 38.2
+  },
   "size": "Medium",
-  "connectivity": ["Wired"],
+  "shape": "Ambidextrous",
+  "connectivity": ["Wired USB-A", "Wired"],
   "sensor": "HyperX 26K Sensor",
   "max_dpi": 26000,
   "polling_rate": 8000,
@@ -10,19 +16,22 @@
   "switches": "HyperX switches",
   "onboard_memory": true,
   "rgb": true,
-  "lighting": ["RGB"],
-  "grip_types": [],
+  "lighting": ["ARGB"],
+  "grip_types": ["Claw", "Palm", "Fingertip"],
   "silent_clicks": false,
   "metadata": {
-    "name": "HP HyperX Pulsefire Haste 2 Wired Optical Gaming Mouse",
+    "name": "HP HyperX Pulsefire Haste 2 Wired Optical Gaming Mouse Black",
     "manufacturer": "HyperX",
     "part_numbers": [],
     "series": "Haste 2",
-    "variant": "Wired Black"
+    "variant": "Wired Black",
+    "releaseYear": 2023
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://row.hyperx.com/products/hyperx-pulsefire-haste-2-gaming-mouse"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -214,7 +223,7 @@
         "channel": "us",
         "source_product_id": "0TP-00TS-000H3",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
