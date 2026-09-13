@@ -19,9 +19,9 @@ Audited the [NZXT product feed](https://nzxt.com/pages/xml-feed) against the pub
 
 ## Changes delivered
 
-**41 new OpenDB files** in this PR, plus one C1000 identity correction. The original checkout needed 25 additional exports of products already live in BuildCores; those files are already present on the latest upstream `main` and are not changed in this PR. New products use UUID v4. Manufacturer URLs and supported specifications are included. All 42 changed component files passed category JSON Schema validation, recursive allowed-field checks, and UUID/filename checks. The audit preserves the original live/catalog baseline; `pr_action` records the final scope against upstream commit `eec0df175504ebd15f0f3e3a8249a18a22f00940`.
+**41 new OpenDB files** in this additions-only PR. The original checkout needed 25 additional exports of products already live in BuildCores; those files are already present on the latest upstream `main` and are not changed in this PR. New products use UUID v4. Manufacturer URLs and supported specifications are included. All 41 added component files passed category JSON Schema validation, recursive allowed-field checks, and UUID/filename checks. The audit preserves the original live/catalog baseline; `pr_action` records the final scope against upstream commit `70a6d4044f12b8394292937e4a8f8ad6d4ba8467`.
 
-The existing C1000 file incorrectly included the `PA-0G3BB-US` Gold Core SKU alongside older revisions. Removed that alias from both metadata and the canonical identity snapshot, preserving the snapshot version and all other identifiers/retailer mappings, and created a separate C1000 Gold Core entry. Other duplicate and conflicting records are listed below for review. No catalog records were deleted.
+The existing C1000 file incorrectly includes the `PA-0G3BB-US` Gold Core SKU alongside older revisions. A separate C1000 Gold Core entry is added, but the legacy alias correction is deferred: the repository requires a confirmed import baseline for existing identity edits, and the legacy record has none. This PR preserves the existing snapshot and records the conflict for follow-up. Use the Core’s unique feed UPC `810074849210` to disambiguate it; MPN alone also hits the incorrect legacy alias. Other duplicate/conflicting records are listed below.
 
 **Live image update:** [NZXT N9 Z890 Black](https://www.buildcores.com/products/Motherboard/otisqsz55/NZXT-Z890-N9-LGA1851-DDR5-ATX) now has one main image and five black-variant gallery images. The editor review contained only `image` and `multi_image` changes, and the public API independently returned the saved URLs. The public product page visibly renders the new gallery. Existing pictures on other matched records were preserved.
 
@@ -106,7 +106,7 @@ F240X, F280X and F360X are integrated single-frame fan assemblies. Their officia
 
 - **H7 Flow Black / RGB Black:** `044572aa-2cb1-4b2a-b42d-e3554cc27309` claims both non-RGB and RGB MPNs despite its non-RGB name. The dedicated RGB record was used for RGB coverage.
 - **Kraken Plus / Elite:** `e10a2e74-8683-4045-8af3-5c40f8df8c04` claims the Elite 360 MPN despite its Plus name. The dedicated Elite record was used. The live Core 240 record also claims a Plus 240 alias; dedicated records were used.
-- **C1000:** live data still combines 2022/2024/Core part numbers. The OpenDB alias repair is pending merge; the remaining older revision conflict warrants a separate spec audit.
+- **C1000:** live data still combines 2022/2024/Core part numbers. The legacy alias repair is deferred until its import baseline can be reconciled; use Core UPC `810074849210` for exact matching. Older revision conflicts also warrant a separate spec audit.
 - **Other duplicate SKU records:** F120Q Black (2024), C850 Gold ATX 3.1 Black, C1200 Gold ATX 3.1 White, and H7 Flow Black have multiple records. Their IDs are retained in the CSV; this audit does not deduplicate them.
 
 ## Existing NZXT inventory and scope
@@ -125,4 +125,4 @@ This is an official Standard catalog audit. Temp and community collections were 
 - [Image URL verification](image-health.json)
 - [Feed specification evidence](feed-spec-evidence.json)
 - [Verified live image change](live-image-change.json)
-- [OpenDB edit backup](opendb-backups.json)
+- [Legacy C1000 snapshot for follow-up](opendb-backups.json)

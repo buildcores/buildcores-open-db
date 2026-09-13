@@ -2782,7 +2782,8 @@
       "resolved_image_url": "https://cdn.shopify.com/s/files/1/1986/9305/files/Etail_C1000GoldCore_Carousel_Hero_EN.png?v=1758743805",
       "notes": [
         "Conflicting MPN alias rejected: fa04b07e-26d0-4d0b-8dce-483c68018950",
-        "OpenDB files prepared: open-db/PSU/725c0fc9-770f-46e0-b77f-7e3f7952ed59.json"
+        "OpenDB files prepared: open-db/PSU/725c0fc9-770f-46e0-b77f-7e3f7952ed59.json",
+        "Legacy C1000 alias repair deferred; existing record unchanged. Match Core by unique feed UPC 810074849210 and exact specifications; PA-0G3BB-US also appears in the legacy record."
       ],
       "feed_gtin": "810074849210",
       "gtin_checksum_valid": true,
@@ -3885,7 +3886,14 @@
       "eligible_for_addition": true
     }
   ],
-  "pr_base_commit": "eec0df175504ebd15f0f3e3a8249a18a22f00940",
+  "pr_base_commit": "70a6d4044f12b8394292937e4a8f8ad6d4ba8467",
   "canonical_identifier_policy": "MPN on all 41 new records; 17 non-shared feed GTINs stored as UPCs. 11 shared GTIN assignments across four product families are evidence only; 13 variants have no feed GTIN.",
-  "addition_policy": "Require a usable exact MPN or GTIN and exclude retail product bundles. Complete assembled PCs remain eligible as PrebuiltDesktop records, per user instruction. Integrated single-frame fans and standard installation accessories are standalone products."
+  "addition_policy": "Require a usable exact MPN or GTIN and exclude retail product bundles. Complete assembled PCs remain eligible as PrebuiltDesktop records, per user instruction. Integrated single-frame fans and standard installation accessories are standalone products.",
+  "deferred_catalog_corrections": [
+    {
+      "opendb_id": "fa04b07e-26d0-4d0b-8dce-483c68018950",
+      "mpn": "PA-0G3BB-US",
+      "reason": "Legacy C1000 record incorrectly claims Core MPN; existing identity edit requires a confirmed import baseline. This additions-only PR leaves the legacy snapshot unchanged. New Core UPC 810074849210 disambiguates the new product."
+    }
+  ]
 }
