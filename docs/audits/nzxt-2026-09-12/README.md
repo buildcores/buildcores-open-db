@@ -33,6 +33,12 @@ OpenDB schemas do not expose image fields. New product image URLs are therefore 
 
 All 41 have an MPN stored in their OpenDB entry and a verified working primary image in the image manifest. 28 have a nonempty feed GTIN; 13 do not. All 28 supplied GTINs pass the check-digit test, which confirms syntax rather than ownership. MXP700, MMP400, and MXL900 each reuse one GTIN across all three colors, and Player Three Prime uses the same GTIN for black and white. Use exact MPN as the primary variant match; do not treat those shared GTINs as unique color identifiers. The latest upstream schemas support canonical product identifiers. All 41 new records include canonical MPNs; the 17 variants with non-shared feed GTINs also include those values as UPC identifiers. The 11 shared-GTIN assignments are preserved in the audit/manifest but omitted from canonical identifiers to avoid ambiguous variant matches. No retailer mappings are invented. All feed GTINs and resolved image URLs are retained in the audit/manifest; image fields are not supported by OpenDB.
 
+## Bundle review
+
+Reviewed all 41 additions against official NZXT manufacturer titles, product types, descriptions and exact variant SKUs. **No retail product bundles were found.** The final PR retains 32 standalone products and 9 complete Player PCs, which remain eligible as PrebuiltDesktop entries per the user’s instruction. Every added variant has an exact canonical MPN and verified primary image URL.
+
+F240X, F280X and F360X are integrated single-frame fan assemblies. Their official box contents list one assembly and installation accessories; the Control Hub is sold separately. H2 Flow includes its normal preinstalled fans and riser cable as part of the standard case SKU. These are standalone products rather than retail product bundles. See [bundle review](bundle-review.json) for every candidate’s classification.
+
 ## Missing products added
 
 ### PCCase (1 variants)
@@ -111,6 +117,7 @@ This is an official Standard catalog audit. Temp and community collections were 
 
 ## Files
 
+- [Bundle review](bundle-review.json)
 - [Full variant audit (CSV)](audit.csv)
 - [Machine-readable audit](audit.json)
 - [Existing NZXT inventory](existing-nzxt-inventory.csv)
