@@ -100,6 +100,11 @@ F240X, F280X and F360X are integrated single-frame fan assemblies. Their officia
 - Player Three Prime | Prebuilt Gaming PCs | Black — `PB1-3PRU101-BL`
 - Player Three Prime | Prebuilt Gaming PCs | White — `PB1-3PRU101-WH`
 
+## PR review corrections
+
+- F120X and F140X, black and white: corrected `connector` to the official `PWM 4-pin, NZXT 4-pin RGB, 5 V ARGB`; the NZXT 8-pin connector applies to the integrated F240X/F280X/F360X assemblies.
+- N9 Z890 White: corrected the secondary expansion slot to one PCIe 4.0 x16 physical slot operating at x2.
+
 ## Records needing review
 
 - **ASUS ROG Azoth, black/white:** NZXT store SKUs `BK-M701PBL-AU0` and `BK-M701PWH-AU0` do not identify switches or regional keyboard layout. The image-less live family record `xojs4xv3t` combines several manufacturer SKUs and colors. Preserved that family’s existing OpenDB UUID and flagged its pictures for review; assigning a single color could misrepresent part of the combined record. Existing switch-specific Azoth records already have images.
