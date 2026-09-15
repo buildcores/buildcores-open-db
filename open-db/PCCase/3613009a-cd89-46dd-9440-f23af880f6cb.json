@@ -2,23 +2,97 @@
   "opendb_id": "3613009a-cd89-46dd-9440-f23af880f6cb",
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "color": [],
+  "color": ["BLACK"],
   "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_usb_ports": [
+    "1 x USB Type-A 5Gbps",
+    "1 x USB Type-C 5Gbps",
+    "1 x Audio/Microphone Combo Jack"
+  ],
   "max_video_card_length": 412,
   "max_cpu_cooler_height": 172,
+  "max_psu_length": 190,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 3,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": false,
+  "dimensions_mm": {
+    "depth": 434,
+    "width": 297,
+    "height": 441
+  },
+  "volume": 57,
+  "weight": 21.3,
   "metadata": {
     "name": "Fractal Design Pop 2 Vision Black RGB",
     "manufacturer": "Fractal Design",
     "part_numbers": [],
     "series": "Pop 2 Vision",
+    "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/pop-series/pop-2-vision/pop-2-vision-black-rgb/#specifications"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276112165",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340172712169",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-C-POV2A-02",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "843276112165",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FV352BCT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12640383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811352257",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20074370786",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

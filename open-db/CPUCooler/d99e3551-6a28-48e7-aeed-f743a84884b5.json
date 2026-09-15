@@ -1,22 +1,46 @@
 {
   "opendb_id": "d99e3551-6a28-48e7-aeed-f743a84884b5",
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "BROWN"],
+  "lighting": ["None"],
   "height": 70,
   "cpu_sockets": ["AM5", "AM4", "LGA 1954", "LGA 1851", "LGA 1700"],
   "water_cooled": true,
   "radiator_size": 360,
+  "fanless": false,
   "fan_size": 120,
+  "fan_quantity": 3,
   "metadata": {
     "name": "Noctua NL-LC1-36 AIO 360mm",
     "manufacturer": "Noctua",
     "part_numbers": [],
-    "series": "NL-LC1"
+    "series": "NL-LC1",
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.noctua.at/en/products/nl-lc1-36/specifications"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "9010018000559",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "NL-LC1-36",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H2B8C4X4",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
