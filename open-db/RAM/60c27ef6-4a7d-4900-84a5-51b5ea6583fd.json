@@ -2,7 +2,7 @@
   "opendb_id": "60c27ef6-4a7d-4900-84a5-51b5ea6583fd",
   "speed": 6000,
   "ram_type": "DDR5",
-  "profile_support": [],
+  "profile_support": ["XMP"],
   "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
@@ -10,22 +10,34 @@
   },
   "capacity": 32,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "cas_latency": 48,
   "timings": "48-48-48",
   "voltage": 1.25,
   "ecc": "Non-ECC",
   "registered": "Unbuffered",
+  "heat_spreader": true,
+  "rgb": true,
+  "height": 45.5,
   "metadata": {
     "name": "ADATA XPG NOVAKEY DDR5-6000 32GB (2x16GB) CL48 Black",
     "manufacturer": "ADATA",
     "part_numbers": [],
-    "series": "XPG NOVAKEY"
+    "series": "XPG NOVAKEY",
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.xpg.com/in/xpg/computer-memory-novakey-rgb-ddr5-memory?tab=gallery"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AX5U6000C4816G-DCNKRBK",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }
