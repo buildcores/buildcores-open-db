@@ -1,11 +1,16 @@
 {
   "opendb_id": "1de5cd54-f792-4b1d-8cfa-bb5b626dce5b",
   "size": 120,
-  "color": [],
-  "lighting": ["ARGB"],
+  "color": ["WHITE"],
+  "lighting": ["ARGB", "RGB"],
   "quantity": 1,
+  "min_airflow": 71,
+  "min_noise_level": 29,
   "pwm": true,
+  "led": "Addressable RGB",
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.6,
   "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
@@ -14,6 +19,7 @@
     "part_numbers": [],
     "series": "DAWN",
     "variant": "Pro",
+    "releaseYear": 2025,
     "manufacturer_color": "White"
   },
   "general_product_information": {},

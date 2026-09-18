@@ -1,11 +1,16 @@
 {
   "opendb_id": "6f04a5b7-ab8a-4b94-a5d2-122ff139ea77",
   "size": 120,
-  "color": [],
-  "lighting": ["ARGB"],
+  "color": ["WHITE"],
+  "lighting": ["ARGB", "RGB"],
   "quantity": 1,
+  "min_airflow": 71,
+  "min_noise_level": 29,
   "pwm": true,
+  "led": "Addressable RGB",
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.6,
   "flow_direction": "Reverse",
   "isOEM": false,
   "metadata": {
@@ -14,12 +19,27 @@
     "part_numbers": [],
     "series": "DAWN",
     "variant": "Pro",
+    "releaseYear": 2025,
     "manufacturer_color": "White"
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DAWNPRO-W-1Pac-R-OSK-US",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F38DL6FD",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

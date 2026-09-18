@@ -2,7 +2,7 @@
   "opendb_id": "48cf129c-6983-4c8f-bc03-84c1d0325439",
   "size": 120,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB", "RGB"],
   "quantity": 3,
   "min_airflow": 71,
   "max_airflow": null,
@@ -21,12 +21,41 @@
     "part_numbers": [],
     "series": "DAWN",
     "variant": "Default",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://asiahorse.store/products/asiahorse-dawn-120mm-uni-fan-forward-reverse-blade-design-low-noise-precision-hdb-bearings-high-performance-uni-pc-fan-modular-daisy-chain"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DAWN",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "DAWN-B-3P-R-US-2",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F9FH1GF4",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC14KKNC5985",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
