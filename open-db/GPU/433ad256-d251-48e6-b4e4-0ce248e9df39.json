@@ -10,11 +10,14 @@
   "effective_memory_clock": 1750,
   "memory_bus": 256,
   "tdp": 300,
-  "color": [],
-  "lighting": [],
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "length": 329,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2.7,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_12V_2x6": 1
   },
@@ -31,10 +34,45 @@
     "releaseYear": 2025,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5070ti-16g-btf-white/"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711636126151",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90YV0N60-M0NA00",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09BJQNJ9Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC4WSKY84147",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17529553398",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
