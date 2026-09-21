@@ -20,6 +20,7 @@
   ],
   "water_cooled": true,
   "radiator_size": 360,
+  "fanless": false,
   "fan_size": 120,
   "fan_quantity": 3,
   "metadata": {
@@ -36,14 +37,51 @@
     "manufacturer_url": "https://www.thermalright.com/product/wonder-vision-360-turbo-argb-white/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0739538427224",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "Wonder Vision 360 Turbo ARGB White",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "WV360 T ARGB WHITE-D2",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "739538427224",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FQ5L3D4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBVHXM0T2302",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "8104421209",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }
