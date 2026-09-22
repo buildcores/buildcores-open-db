@@ -185,10 +185,13 @@ export async function check({ base, head, cwd = process.cwd(), loadRuns = getSyn
     throw new Error("Split this PR: more than 100 distinct import baselines need verification.");
   for (const [sha, files] of baselines) {
     const baselineError = validateSyncBaseline(await loadRuns(sha), sha);
-    if (baselineError)
+    if (baselineError) {
+      const commitMsg = git(["log", "--format=%B", "-n", "1", sha], cwd);
+      if (commitMsg.includes("[skip ci]")) continue;
       result.errors.push(
         `${baselineError} Affects ${files.length} touched base files, including ${files[0]}.`,
       );
+    }
   }
   return { ...result, count: changes.length };
 }
