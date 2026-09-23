@@ -7,18 +7,20 @@
   "core_boost_clock": 3320,
   "memory": 16,
   "memory_type": "GDDR6",
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 2518,
   "memory_bus": 128,
   "tdp": 160,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "FreeSync",
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 320,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -37,18 +39,65 @@
     "part_numbers": [],
     "series": "Mercury",
     "variant": "OC",
+    "releaseYear": 2025,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.xfxforce.com/shop/xfx-mercury-amd-radeon-rx-9060xt-oc-gaming-edition-16gb"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840191503450",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RX-96TMERCBA",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RX-96TMERCBA",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840191503450",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F812K9T5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12927934",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAD2CKGK7282",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19136907560",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -5,6 +5,8 @@ import { pathToFileURL } from "node:url";
 const CATALOG_PATH = /^open-db\/[^/]+\/[^/]+\.json$/;
 const SYNC_WORKFLOW = "on-commit-to-main.yaml";
 const REPOSITORY = "buildcores/buildcores-open-db";
+const DATABASE_EXPORT_MESSAGE =
+  /^\[skip ci\] Automated opendb sync - \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
 
 function git(args, cwd) {
   return execFileSync("git", args, { cwd, encoding: "utf8", maxBuffer: 32 * 1024 * 1024 });
@@ -118,12 +120,34 @@ export function validateChanges(changes) {
   return { errors, deletes };
 }
 
-export function validateSyncBaseline(runs, sha) {
+function isDatabaseExport(sha, cwd) {
+  const [authorName, authorEmail, committerName, committerEmail, message] = git(
+    ["show", "-s", "--format=%an%x00%ae%x00%cn%x00%ce%x00%B", sha],
+    cwd,
+  )
+    .trimEnd()
+    .split("\0");
+  // Matches BuildCoresBase's push_open_db_seed.ts producer. These unsigned
+  // fields are a convention, not authentication: only inspect trusted base
+  // history selected below, never the PR head's claim to be an export.
+  return (
+    authorName === "BuildCores Bot" &&
+    authorEmail === "bot@buildcores.com" &&
+    committerName === authorName &&
+    committerEmail === authorEmail &&
+    DATABASE_EXPORT_MESSAGE.test(message)
+  );
+}
+
+export function validateSyncBaseline(runs, sha, databaseExport = false) {
   if (!Array.isArray(runs)) throw new Error("GitHub returned an invalid workflow-run response.");
   const matching = runs
     .filter((run) => run.head_sha === sha && run.event === "push" && run.head_branch === "main")
     .sort((a, b) => b.id - a.id);
   const latest = matching[0];
+  // DB -> repo exports intentionally skip the reverse API import. Only its
+  // absence is expected; an actual failed/pending run must still block.
+  if (!latest && databaseExport) return null;
   if (!latest || latest.status !== "completed" || latest.conclusion !== "success") {
     const state = latest ? `${latest.status}/${latest.conclusion ?? "pending"}` : "missing";
     return `Main API sync for ${sha.slice(0, 12)} is ${state}. Repository presence and identity versions are not a confirmed sync baseline. Resolve the failed/pending main sync before merging catalog changes (including deletes).`;
@@ -168,8 +192,9 @@ export async function check({ base, head, cwd = process.cwd(), loadRuns = getSyn
   const changes = catalogChanges(base, head, cwd);
   if (changes.length === 0) return { errors: [], deletes: 0, count: 0 };
   const result = validateChanges(changes);
-  // Check the import that established each touched file, not just the newest
-  // workflow: a successful unrelated import must not hide a failed creation.
+  // Check the import or DB export that established each touched file, not just
+  // the newest workflow: an unrelated success must not hide a failed creation.
+  // CI supplies base from github.event.pull_request.base.sha on main.
   const baselines = new Map();
   for (const change of changes) {
     if (!change.before) continue;
@@ -184,7 +209,11 @@ export async function check({ base, head, cwd = process.cwd(), loadRuns = getSyn
   if (baselines.size > 100)
     throw new Error("Split this PR: more than 100 distinct import baselines need verification.");
   for (const [sha, files] of baselines) {
-    const baselineError = validateSyncBaseline(await loadRuns(sha), sha);
+    const baselineError = validateSyncBaseline(
+      await loadRuns(sha),
+      sha,
+      isDatabaseExport(sha, cwd),
+    );
     if (baselineError)
       result.errors.push(
         `${baselineError} Affects ${files.length} touched base files, including ${files[0]}.`,
