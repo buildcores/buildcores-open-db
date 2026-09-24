@@ -4,7 +4,7 @@
   "form_factor": "ATX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 192,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 4
   },
@@ -13,13 +13,18 @@
   "pcie_slots": [
     {
       "gen": "5.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 8
     }
   ],
   "m2_slots": [
@@ -50,7 +55,7 @@
       "controller": "Intel"
     }
   ],
-  "wireless_networking": "Wifi 6E",
+  "wireless_networking": "Wifi 6E Bluetooth 5.2",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -61,7 +66,7 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 4,
-    "pump": 1,
+    "pump": 2,
     "cpu_opt": 1
   },
   "rgb_headers": {
@@ -76,7 +81,7 @@
   },
   "other_headers": {
     "temperature_sensor": 1,
-    "thunderbolt": 2
+    "thunderbolt": 0
   },
   "power_connectors": {
     "main_power": "24-pin",
@@ -110,7 +115,7 @@
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "Z790",
-    "variant": "",
+    "variant": "ROG MAXIMUS HERO",
     "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
@@ -118,7 +123,7 @@
     "manufacturer_url": "https://rog.asus.com/in/motherboards/rog-maximus/rog-maximus-z790-hero-model/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -260,13 +265,6 @@
         "verified": false
       },
       {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6523718",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "ASROGMZ790H",
@@ -306,7 +304,7 @@
         "channel": "us",
         "source_product_id": "N82E16813119597",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
@@ -347,13 +345,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "2819894",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "1228750820",
         "pricing_enabled": true,
         "verified": false
       }

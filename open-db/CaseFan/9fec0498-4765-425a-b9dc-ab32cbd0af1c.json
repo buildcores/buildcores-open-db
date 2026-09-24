@@ -2,17 +2,17 @@
   "opendb_id": "9fec0498-4765-425a-b9dc-ab32cbd0af1c",
   "size": 120,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "quantity": 3,
-  "min_airflow": 64.05,
+  "min_airflow": 65.4,
   "max_airflow": null,
-  "min_noise_level": 28.5,
+  "min_noise_level": 32,
   "max_noise_level": null,
   "pwm": true,
   "led": "Addressable RGB",
-  "connector": "4-pin PWM",
+  "connector": "4-pin PWM + 3-12V PWM to SATA",
   "controller": "USB",
-  "static_pressure": 2.44,
+  "static_pressure": 2.19,
   "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
@@ -20,10 +20,12 @@
     "manufacturer": "Lian Li",
     "part_numbers": [],
     "series": "UNI FAN SL",
-    "variant": "WIRELESS",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/uni-fan-sl-wireless/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
