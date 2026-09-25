@@ -1,26 +1,33 @@
 {
   "opendb_id": "cf92235e-4086-4192-869c-4e5654b17045",
-  "switch": null,
+  "switch": "LEOBOG Reaper Switch",
   "switch_type": "Linear",
   "size": "75%",
+  "layout": "ANSI",
   "hot_swappable": true,
   "backlighting": "RGB",
-  "lighting": [],
-  "features": [],
+  "features": ["Screen", "Knob"],
   "connectivity": ["Wireless 2.4GHz", "Wired USB-A"],
+  "keycap_material": "PBT Plastic",
+  "frame_material": "ABS plastic",
+  "polling_rate": 1000,
+  "battery_capacity": 4000,
   "metadata": {
     "name": "AULA F75 MAX Black",
     "manufacturer": "EPOMAKER",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://aulagear.com/products/aula-f75-max?variant=42756857528416"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "F75 MAX",
-        "region": "all"
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -126,6 +133,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0DPWX3WTL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAN1MKNU6112",
         "pricing_enabled": true,
         "verified": true
       }

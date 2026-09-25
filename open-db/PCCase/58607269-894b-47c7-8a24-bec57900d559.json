@@ -43,14 +43,44 @@
     "manufacturer_url": "https://www.darkflash.com/product/dk352atx"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0850077978135",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "DK352 Black",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DK352P",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "850077978135",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FPF6Q1B6",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC135KJ71937",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

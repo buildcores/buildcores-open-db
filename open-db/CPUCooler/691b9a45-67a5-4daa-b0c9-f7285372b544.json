@@ -3,7 +3,7 @@
   "min_fan_rpm": 3000,
   "min_noise_level": 44.7,
   "color": ["WHITE"],
-  "lighting": ["Display"],
+  "lighting": ["Display", "ARGB"],
   "height": 107,
   "cpu_sockets": [
     "AM5",
@@ -20,27 +20,68 @@
   ],
   "water_cooled": true,
   "radiator_size": 360,
+  "fanless": false,
   "fan_size": 120,
   "fan_quantity": 3,
   "metadata": {
     "name": "Thermalright Wonder Vision 360 Turbo ARGB White",
     "manufacturer": "Thermalright",
-    "part_numbers": ["Wonder Vision 360 Turbo ARGB White"],
-    "variant": "360mm White",
+    "part_numbers": [],
+    "series": "Wonder Vision",
+    "variant": "Turbo",
+    "releaseYear": 2025,
+    "manufacturer_color": "White",
     "last_manually_spec_verified_at": "2026-01-04T03:53:03.391Z"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.thermalright.com/product/wonder-vision-360-turbo-argb-white/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0739538427224",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "Wonder Vision 360 Turbo ARGB White",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "WV360 T ARGB WHITE-D2",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "739538427224",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FQ5L3D4J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBVHXM0T2302",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "8104421209",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

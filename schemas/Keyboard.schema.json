@@ -39,6 +39,11 @@
       "description": "Custom size if not in the standard enum",
       "type": ["string", "null"]
     },
+    "layout": {
+      "description": "The physical key layout standard of the keyboard",
+      "type": ["string", "null"],
+      "enum": ["ANSI", "ISO", null]
+    },
     "hot_swappable": {
       "description": "Whether switches can be replaced without soldering",
       "type": ["boolean", "null"]
@@ -46,15 +51,7 @@
     "backlighting": {
       "description": "The type of lighting on the keyboard",
       "type": ["string", "null"],
-      "enum": ["RGB", "Single Color", "None", null]
-    },
-    "lighting": {
-      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
-      "type": ["array", "null"],
-      "items": {
-        "type": "string",
-        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
-      }
+      "enum": ["RGB", "Single Color", "Multicolor", "None", null]
     },
     "features": {
       "description": "Notable keyboard features (e.g., knob, low profile, split, screen, silent)",
@@ -65,15 +62,15 @@
       }
     },
     "connectivity": {
-      "description": "How the keyboard connects to the computer",
+      "description": "How the keyboard connects to the computer. For wired connections, use the connector at the computer end: a USB-C to USB-A cable is Wired USB-A when USB-A plugs into the computer, regardless of the connector on the keyboard.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
-        "enum": ["Wired", "Wired USB-A", "Wired USB-C", "Wireless 2.4GHz", "Bluetooth"]
+        "enum": ["Wired USB-A", "Wired USB-C", "Wireless 2.4GHz", "Bluetooth"]
       }
     },
     "keycap_material": {
-      "description": "The material used for the keycaps (e.g., ABS, PBT)",
+      "description": "The material used for the keycaps. Select ABS or PBT, or enter another material.",
       "type": ["string", "null"]
     },
     "frame_material": {

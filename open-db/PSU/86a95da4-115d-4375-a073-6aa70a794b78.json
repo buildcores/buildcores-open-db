@@ -4,19 +4,77 @@
   "form_factor": "ATX",
   "efficiency_rating": "80+ Gold",
   "modular": "Full",
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "length": 140,
+  "fanless": true,
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 5,
+    "sata": 2,
+    "molex_4_pin": 1
+  },
   "metadata": {
     "name": "Thermaltake Toughpower GT 1000W Black",
     "manufacturer": "Thermaltake",
     "part_numbers": [],
-    "series": "Toughpower",
+    "series": "Toughpower GT",
+    "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.thermaltake.com/toughpower-gt-1000w.html"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840480304034",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "PS-TPT-1000FNFAGU-3",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840480304034",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FK3826VH",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6665529",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16817153475",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17499320901",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

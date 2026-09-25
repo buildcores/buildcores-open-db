@@ -7,48 +7,75 @@
   "core_boost_clock": 2655,
   "memory": 32,
   "memory_type": "GDDR7",
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 1750,
   "memory_bus": 512,
   "tdp": 575,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "lighting": [],
-  "length": 246,
-  "total_slot_width": 2,
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "WHITE"],
+  "lighting": ["ARGB"],
+  "length": 245,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 3,
   "cooling": "Water Cooled",
+  "radiator_size": 360,
+  "fan_size": 120,
+  "fan_quantity": 3,
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_1b": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
+    "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
+    "displayport_2_1_b": 3,
     "dvi_d": 0,
     "vga": 0
   },
   "metadata": {
     "name": "Gigabyte GeForce RTX 5090 AORUS XTREME WATERFORCE 32GB GDDR7 Black",
     "manufacturer": "Gigabyte",
-    "part_numbers": ["GV-N5090AORUSX W-32GD"],
-    "series": "GeForce RTX 5090",
-    "variant": "Gigabyte"
+    "part_numbers": [],
+    "series": "AORUS",
+    "variant": "XTREME WATERFORCE",
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N5090AORUSX-W-32GD/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331355968",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "GV-N5090AORUSX W-32GD",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GV-N5090AORUSX W-32GD",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DVCB114L",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "ccl",
         "channel": "uk",
@@ -69,6 +96,13 @@
         "source_product_id": "AC82180",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAGBAM3E0236",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

@@ -1,20 +1,64 @@
 {
   "opendb_id": "048ccde6-f299-4dc5-8158-ae181633d077",
   "weight": 39,
+  "dimensions": {
+    "length": 120,
+    "width": 63,
+    "height": 38
+  },
   "size": "Medium",
-  "connectivity": ["Wired", "Wireless 2.4GHz"],
+  "shape": "Ambidextrous",
+  "connectivity": ["Wireless 2.4GHz", "Wired USB-C"],
+  "sensor": "PixArt PAW3950",
   "max_dpi": 32000,
-  "lighting": [],
-  "grip_types": [],
+  "polling_rate": 8000,
+  "buttons": 6,
+  "switches": "Optical Switches",
+  "onboard_memory": true,
+  "rgb": false,
+  "lighting": ["None"],
+  "battery_life": 65,
+  "battery_type": "Rechargeable",
+  "grip_types": ["Fingertip", "Claw"],
+  "silent_clicks": false,
   "metadata": {
     "name": "Pulsar X2 CrazyLight Medium Forest Mouse",
     "manufacturer": "Pulsar",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.pulsar.gg/products/x2-crazylight-gaming-mouse-1?srsltid=AfmBOorEDFNgH8qNDOF4qQSkuDr-5Jl_FpeKz9YiPr1CbCXu2l_WNUce&variant=48287318704382"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "8800304255180",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "PX2CL213",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GZG2WFW7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC4B5KZ94927",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
