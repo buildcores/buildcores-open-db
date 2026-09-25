@@ -1,11 +1,16 @@
 {
   "opendb_id": "6f04a5b7-ab8a-4b94-a5d2-122ff139ea77",
   "size": 120,
-  "color": [],
-  "lighting": ["ARGB"],
+  "color": ["WHITE"],
+  "lighting": ["ARGB", "RGB"],
   "quantity": 1,
+  "min_airflow": 71,
+  "min_noise_level": 29,
   "pwm": true,
+  "led": "Addressable RGB",
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
+  "static_pressure": 2.6,
   "flow_direction": "Reverse",
   "isOEM": false,
   "metadata": {
@@ -14,12 +19,29 @@
     "part_numbers": [],
     "series": "DAWN",
     "variant": "Pro",
+    "releaseYear": 2025,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.amazon.com/AsiaHorse-1850RPM-Precision-Bearings-Performance/dp/B0F38DL6FD/ref=sr_1_2_sspa?crid=1C5KWSEAASKNT&dib=eyJ2IjoiMSJ9.iMdseKzejFJrHiRJnA53cOYKdwRy0fJNJ7CEuXOIk6CVfm9JVGYQ-3g0zRCpZt5j9siymw7QGwFTDcYfPv2_0lRGFQv0g_hLa1BWKThyq7Sxg--_b9eDPV9jykcV5jxQmxfl8JMQr2-UoqwHFpwdRtxHW_DApifOh9Nvth-rvHlmlxQ4VohNHZBfGo0nyJCVmhtS9Hcn-y1Y_qLRzA8AsM7IwADG79hDugrKlcNtd5SptQsA7YzJf2rFn5nSy51LCAVIzFOVLmMPIz4e8wWO3mWXFE-zzZhLl8BwcLubB48.beS-xa6MfPFjrvw3CAXfurDYgNX2--_r6gjmgeCzt_E&dib_tag=se&keywords=dawn%2Bpro&qid=1789742786&s=industrial&sprefix=dawn%2Bp%2Cindustrial%2C323&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DAWNPRO-W-1Pac-R-OSK-US",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F38DL6FD",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
