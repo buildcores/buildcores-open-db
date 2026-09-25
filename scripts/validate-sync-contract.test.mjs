@@ -14,6 +14,44 @@ import {
 
 const SHA = "a".repeat(40);
 const FILE = "open-db/Monitor/part.json";
+const DATABASE_EXPORT = {
+  message: "[skip ci] Automated opendb sync - 2026-09-22T12:22:35.551Z",
+  authorName: "BuildCores Bot",
+  authorEmail: "bot@buildcores.com",
+};
+
+function repository() {
+  const cwd = mkdtempSync(path.join(tmpdir(), "opendb-sync-test-"));
+  const git = (...args) => execFileSync("git", args, { cwd, encoding: "utf8" }).trim();
+  const write = (file, value) => {
+    mkdirSync(path.dirname(path.join(cwd, file)), { recursive: true });
+    writeFileSync(path.join(cwd, file), JSON.stringify(value));
+  };
+  const commit = ({
+    message = "fixture",
+    authorName = "Test",
+    authorEmail = "test@example.invalid",
+    committerName = authorName,
+    committerEmail = authorEmail,
+  } = {}) => {
+    git("add", ".");
+    git(
+      "-c",
+      `user.name=${committerName}`,
+      "-c",
+      `user.email=${committerEmail}`,
+      "commit",
+      "--author",
+      `${authorName} <${authorEmail}>`,
+      "-qm",
+      message,
+    );
+    return git("rev-parse", "HEAD");
+  };
+  git("init", "-q");
+  return { cwd, git, write, commit };
+}
+
 function part(version = 1) {
   return {
     opendb_id: "part",
@@ -107,26 +145,7 @@ test("GitHub lookup is a bounded read of the fixed workflow and fails closed", a
 });
 
 test("real Git diff handles deletes/renames and unrelated successful imports cannot hide failed creates", async () => {
-  const cwd = mkdtempSync(path.join(tmpdir(), "opendb-sync-test-"));
-  const git = (...args) => execFileSync("git", args, { cwd, encoding: "utf8" }).trim();
-  const write = (file, value) => {
-    mkdirSync(path.dirname(path.join(cwd, file)), { recursive: true });
-    writeFileSync(path.join(cwd, file), JSON.stringify(value));
-  };
-  const commit = () => {
-    git("add", ".");
-    git(
-      "-c",
-      "user.name=Test",
-      "-c",
-      "user.email=test@example.invalid",
-      "commit",
-      "-qm",
-      "fixture",
-    );
-    return git("rev-parse", "HEAD");
-  };
-  git("init", "-q");
+  const { cwd, write, commit } = repository();
   write(FILE, part(2));
   write("open-db/Monitor/delete me.json", { ...part(), opendb_id: "deleted" });
   const catalogBase = commit();
@@ -186,3 +205,75 @@ test("real Git diff handles deletes/renames and unrelated successful imports can
   );
   assert.deepEqual(validateChanges(independent).errors, []);
 });
+
+test("database exports establish update/delete baselines without a reverse import", async () => {
+  const { cwd, write, commit } = repository();
+  const deleted = "open-db/Monitor/deleted.json";
+  write(FILE, part(2));
+  write(deleted, { ...part(), opendb_id: "deleted" });
+  const exported = commit(DATABASE_EXPORT);
+  write("notes.json", {});
+  const base = commit();
+  write(FILE, { ...part(2), description: "updated" });
+  unlinkSync(path.join(cwd, deleted));
+  const head = commit();
+  const lookups = [];
+  const result = await check({
+    base,
+    head,
+    cwd,
+    loadRuns: async (sha) => {
+      lookups.push(sha);
+      return [];
+    },
+  });
+  assert.deepEqual(lookups, [exported]);
+  assert.deepEqual(result, { errors: [], deletes: 1, count: 2 });
+
+  // A known failed/pending import must still block, even for an export commit.
+  for (const runs of [[run(exported, "failure")], [run(exported, null, "in_progress")]]) {
+    const blocked = await check({ base, head, cwd, loadRuns: async () => runs });
+    assert.equal(blocked.errors.length, 1);
+    assert.match(blocked.errors[0], /not a confirmed sync baseline/);
+  }
+  await assert.rejects(check({ base, head, cwd, loadRuns: async () => ({}) }), /invalid/);
+  await assert.rejects(
+    check({
+      base,
+      head,
+      cwd,
+      loadRuns: async () => {
+        throw new Error("offline");
+      },
+    }),
+    /offline/,
+  );
+
+  // An export baseline does not excuse a stale incoming identity version.
+  write(FILE, part(1));
+  const staleHead = commit();
+  const stale = await check({ base, head: staleHead, cwd, loadRuns: async () => [] });
+  assert.equal(stale.errors.length, 1);
+  assert.match(stale.errors[0], /identity version differs from base/);
+});
+
+for (const [label, metadata] of [
+  ["ordinary skip marker", { ...DATABASE_EXPORT, message: "[skip ci] manual catalog update" }],
+  ["export message alone", { message: DATABASE_EXPORT.message }],
+  ["different author name", { ...DATABASE_EXPORT, authorName: "Contributor" }],
+  ["different author email", { ...DATABASE_EXPORT, authorEmail: "test@example.invalid" }],
+  ["different committer name", { ...DATABASE_EXPORT, committerName: "Contributor" }],
+  ["different committer email", { ...DATABASE_EXPORT, committerEmail: "test@example.invalid" }],
+  ["extra commit text", { ...DATABASE_EXPORT, message: `${DATABASE_EXPORT.message}\nmanual edit` }],
+]) {
+  test(`${label} cannot excuse a missing import, even with an export-looking PR head`, async () => {
+    const { cwd, write, commit } = repository();
+    write(FILE, part());
+    const base = commit(metadata);
+    unlinkSync(path.join(cwd, FILE));
+    const head = commit(DATABASE_EXPORT);
+    const result = await check({ base, head, cwd, loadRuns: async () => [] });
+    assert.equal(result.errors.length, 1);
+    assert.match(result.errors[0], /Main API sync .* is missing/);
+  });
+}
