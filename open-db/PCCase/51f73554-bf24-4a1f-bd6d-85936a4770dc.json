@@ -3,8 +3,9 @@
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "color": ["BLACK", "GOLD"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
@@ -12,9 +13,13 @@
   "front_usb_ports": ["2x USB 3.0", "1x USB 3.1 Type-C"],
   "max_video_card_length": 455.7,
   "max_cpu_cooler_height": 167,
+  "max_psu_length": 220,
   "internal_3_5_bays": 4,
-  "internal_2_5_bays": 2,
+  "internal_2_5_bays": 8,
+  "power_supply_shroud": false,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "290 x 471 x 478",
   "dimensions_mm": {
     "depth": 478,
@@ -22,17 +27,19 @@
     "height": 471
   },
   "volume": 65.29,
-  "weight": 37,
+  "weight": 44.1,
   "metadata": {
     "name": "Lian Li O11D EVO RGB Automobili Lamborghini ATX Mid Tower Black / Gold Tempered Glass",
     "manufacturer": "Lian Li",
     "part_numbers": [],
-    "series": "O11D",
-    "variant": "EVO RGB Lamborghini Edition",
-    "manufacturer_color": "Black/Gold",
+    "variant": "Automobili Lamborghini Edition",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black / Gold",
     "last_manually_spec_verified_at": "2025-08-20T14:31:19.021Z"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/o11dergbl/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

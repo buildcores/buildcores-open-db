@@ -7,13 +7,15 @@
   "core_boost_clock": 2610,
   "memory": 8,
   "memory_type": "GDDR6",
-  "effective_memory_clock": 17000,
-  "memory_bus": 0,
+  "effective_memory_clock": 2125,
+  "memory_bus": 128,
   "tdp": 115,
-  "interface": "PCIe x16",
-  "color": ["GREEN", "BLACK"],
-  "lighting": [],
+  "interface": "PCIe 4.0 x8",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "RED"],
+  "lighting": ["ARGB"],
   "length": 247,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "power_connectors": {
@@ -32,16 +34,19 @@
     "vga": 0
   },
   "metadata": {
-    "name": "MSI Gaming X NV Edition GeForce RTX 4060 8GB GDDR6 Green / Black",
+    "name": "MSI GeForce RTX 4060 GAMING X 8G MLG",
     "manufacturer": "MSI",
     "part_numbers": [],
-    "series": "GAMING X",
-    "variant": "NV Edition",
-    "manufacturer_color": "Black / Green"
+    "series": "GAMING",
+    "variant": "X MLG",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black / Red"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-GAMING-X-8G-MLG"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -49,6 +54,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBTK0KD30809",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
