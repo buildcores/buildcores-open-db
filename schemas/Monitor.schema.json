@@ -3,33 +3,84 @@
   "type": ["object", "null"],
   "title": "Monitor Schema",
   "description": "Schema for Monitor components",
-  "required": ["metadata"],
+  "required": ["metadata", "screen_size"],
   "properties": {
     "opendb_id": {
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
     "screen_size": {
-      "description": "Screen size in inches",
-      "type": ["number", "null"]
+      "description": "Manufacturer-published diagonal measurement of the viewable screen area for this exact monitor variant, in inches, measured corner to corner. Do not substitute panel width or overall chassis width.",
+      "type": "number"
     },
     "resolution": {
-      "description": "Resolution of the monitor",
+      "description": "Physical panel native resolution, even when the monitor advertises a lower-resolution high-refresh alternate mode. Accepted input timings do not belong here.",
       "type": ["object", "null"],
       "properties": {
         "horizontalRes": {
-          "description": "Horizontal resolution in pixels",
+          "description": "Horizontal pixel count of the physical panel's native resolution. Legacy partial pairs remain accepted during rollout.",
           "type": ["number", "null"]
         },
         "verticalRes": {
-          "description": "Vertical resolution in pixels",
+          "description": "Vertical pixel count of the physical panel's native resolution. Legacy partial pairs remain accepted during rollout.",
           "type": ["number", "null"]
         }
       }
     },
     "refresh_rate": {
-      "description": "Maximum refresh rate in Hz",
+      "description": "Highest verified refresh rate in Hz at the physical panel native resolution above, not the highest rate at any alternate resolution.",
       "type": ["number", "null"]
+    },
+    "native_refresh_activation": {
+      "description": "Published activation method when the maximum native-resolution refresh requires a manual mode switch or overclock.",
+      "type": ["string", "null"],
+      "enum": ["automatic", "manual_mode_switch", "overclock", null]
+    },
+    "alternate_display_modes": {
+      "description": "Separately advertised rendered resolution-and-refresh modes. Do not enter accepted input timings or infer paired modes from family marketing.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "Separately advertised rendered mode. Do not use accepted input timings or duplicate the native-resolution maximum.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-generated row identifier. It is assigned on save and is not entered by reviewers.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "resolution": {
+            "description": "Exact rendered resolution of this separately advertised alternate operating mode.",
+            "type": ["object", "null"],
+            "properties": {
+              "horizontalRes": {
+                "description": "Horizontal pixel count for this exact resolution claim; must be a positive integer.",
+                "type": ["integer", "null"],
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "verticalRes": {
+                "description": "Vertical pixel count for this exact resolution claim; must be a positive integer.",
+                "type": ["integer", "null"],
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": ["horizontalRes", "verticalRes"]
+          },
+          "refresh_rate": {
+            "description": "Positive refresh rate in Hz paired with this exact alternate resolution.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "activation": {
+            "description": "Published activation method for this alternate mode, when stated.",
+            "type": ["string", "null"],
+            "enum": ["automatic", "manual_mode_switch", "overclock", null]
+          }
+        },
+        "required": ["resolution", "refresh_rate"]
+      }
     },
     "panel_type": {
       "description": "Type of panel (IPS, VA, TN, OLED, etc.)",
@@ -117,6 +168,7 @@
       ]
     },
     "video_outputs": {
+      "description": "Legacy monitor video-port counts retained for migration. The old field does not reliably establish whether a port is an input or pass-through output.",
       "type": ["object", "null"],
       "properties": {
         "hdmi_2_2": {
@@ -178,8 +230,447 @@
       }
     },
     "connectors": {
-      "description": "Available ports and connections",
+      "description": "Legacy raw mixed connector text retained for migration. It may contain video inputs, pass-through outputs, USB data ports, audio, or networking, so treat it only as unverified candidates and never as direction or mode evidence.",
       "type": ["string", "null"]
+    },
+    "display_inputs": {
+      "description": "Confirmed video input groups that receive video into this exact monitor from a GPU, laptop, console, or other source. Do not enter pass-through outputs, ordinary USB data ports, audio ports, networking ports, or unverified legacy connector text.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One group of physically identical video-capable ports on the exact product configuration.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-generated port ID used to attach DQ evidence to its mode claims. Reviewers do not enter it.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "connector": {
+            "description": "Physical connector type for this group of otherwise identical video-capable ports.",
+            "type": ["string", "null"],
+            "enum": [
+              "hdmi",
+              "displayport",
+              "mini_displayport",
+              "usb_c",
+              "dvi_d",
+              "vga",
+              "other",
+              null
+            ]
+          },
+          "count": {
+            "description": "Number of identical ports in this group; omit when the official count is unknown.",
+            "type": ["integer", "null"],
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "version_label": {
+            "description": "Manufacturer's exact connector or protocol version label. A version label alone never proves a display mode.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "video_signal": {
+            "description": "Confirmed video signal carried by this port group. It must be known before the group is used for compatibility.",
+            "type": ["string", "null"],
+            "enum": ["hdmi", "displayport", "dvi", "vga", null]
+          },
+          "transport": {
+            "description": "Published native, DisplayPort Alt Mode, Thunderbolt, or USB4 transport for this group.",
+            "type": ["string", "null"],
+            "enum": ["native", "dp_alt_mode", "thunderbolt", "usb4", null]
+          },
+          "connector_label": {
+            "description": "Manufacturer's connector name; required when connector is other.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "graphics_route": {
+            "description": "Published discrete, integrated, or switchable graphics route for an output group; omit rather than guessing.",
+            "type": ["string", "null"],
+            "enum": ["discrete", "integrated", "switchable", null]
+          },
+          "mode_claims": {
+            "description": "Official resolution-and-refresh claims for this exact port group. Leave unset when unknown; do not infer modes from connector version.",
+            "minItems": 1,
+            "type": ["array", "null"],
+            "items": {
+              "description": "One sourced resolution-and-refresh claim for the containing port group.",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "description": "Stable system-generated claim ID used to attach DQ evidence to this claim. Reviewers do not enter it.",
+                  "type": ["string", "null"],
+                  "minLength": 1
+                },
+                "resolution": {
+                  "description": "Exact resolution carried by this port for this individual sourced claim.",
+                  "type": ["object", "null"],
+                  "properties": {
+                    "horizontalRes": {
+                      "description": "Horizontal pixel count for this exact resolution claim; must be a positive integer.",
+                      "type": ["integer", "null"],
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "verticalRes": {
+                      "description": "Vertical pixel count for this exact resolution claim; must be a positive integer.",
+                      "type": ["integer", "null"],
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": ["horizontalRes", "verticalRes"]
+                },
+                "refresh_rate": {
+                  "description": "Positive refresh rate in Hz for this exact port-and-resolution claim.",
+                  "type": ["number", "null"],
+                  "exclusiveMinimum": 0
+                },
+                "claim": {
+                  "description": "Use supported for a listed timing. Use maximum_at_resolution only when an official source states the ceiling.",
+                  "type": ["string", "null"],
+                  "enum": ["supported", "maximum_at_resolution", null]
+                },
+                "dsc": {
+                  "description": "Whether DSC is explicitly required or explicitly not required for this exact claim.",
+                  "type": ["string", "null"],
+                  "enum": ["required", "not_required", null]
+                },
+                "hdr": {
+                  "description": "Explicit HDR support condition for this exact claim.",
+                  "type": ["string", "null"],
+                  "enum": ["supported", "not_supported", null]
+                },
+                "conditions": {
+                  "description": "Unusual official restrictions for this exact claim. Preserve as source context; do not parse as a compatibility rule.",
+                  "type": ["string", "null"],
+                  "minLength": 1
+                }
+              },
+              "required": ["resolution", "refresh_rate", "claim"]
+            }
+          }
+        },
+        "required": ["connector"]
+      }
+    },
+    "display_outputs": {
+      "description": "Confirmed pass-through video output groups that send video out of this exact monitor to another display, such as DisplayPort Out for daisy chaining. Ordinary HDMI, DisplayPort, or USB-C inputs belong in Display Inputs.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One group of physically identical video-capable ports on the exact product configuration.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-generated port ID used to attach DQ evidence to its mode claims. Reviewers do not enter it.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "connector": {
+            "description": "Physical connector type for this group of otherwise identical video-capable ports.",
+            "type": ["string", "null"],
+            "enum": [
+              "hdmi",
+              "displayport",
+              "mini_displayport",
+              "usb_c",
+              "dvi_d",
+              "vga",
+              "other",
+              null
+            ]
+          },
+          "count": {
+            "description": "Number of identical ports in this group; omit when the official count is unknown.",
+            "type": ["integer", "null"],
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "version_label": {
+            "description": "Manufacturer's exact connector or protocol version label. A version label alone never proves a display mode.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "video_signal": {
+            "description": "Confirmed video signal carried by this port group. It must be known before the group is used for compatibility.",
+            "type": ["string", "null"],
+            "enum": ["hdmi", "displayport", "dvi", "vga", null]
+          },
+          "transport": {
+            "description": "Published native, DisplayPort Alt Mode, Thunderbolt, or USB4 transport for this group.",
+            "type": ["string", "null"],
+            "enum": ["native", "dp_alt_mode", "thunderbolt", "usb4", null]
+          },
+          "connector_label": {
+            "description": "Manufacturer's connector name; required when connector is other.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "graphics_route": {
+            "description": "Published discrete, integrated, or switchable graphics route for an output group; omit rather than guessing.",
+            "type": ["string", "null"],
+            "enum": ["discrete", "integrated", "switchable", null]
+          },
+          "mode_claims": {
+            "description": "Official resolution-and-refresh claims for this exact port group. Leave unset when unknown; do not infer modes from connector version.",
+            "minItems": 1,
+            "type": ["array", "null"],
+            "items": {
+              "description": "One sourced resolution-and-refresh claim for the containing port group.",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "description": "Stable system-generated claim ID used to attach DQ evidence to this claim. Reviewers do not enter it.",
+                  "type": ["string", "null"],
+                  "minLength": 1
+                },
+                "resolution": {
+                  "description": "Exact resolution carried by this port for this individual sourced claim.",
+                  "type": ["object", "null"],
+                  "properties": {
+                    "horizontalRes": {
+                      "description": "Horizontal pixel count for this exact resolution claim; must be a positive integer.",
+                      "type": ["integer", "null"],
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "verticalRes": {
+                      "description": "Vertical pixel count for this exact resolution claim; must be a positive integer.",
+                      "type": ["integer", "null"],
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": ["horizontalRes", "verticalRes"]
+                },
+                "refresh_rate": {
+                  "description": "Positive refresh rate in Hz for this exact port-and-resolution claim.",
+                  "type": ["number", "null"],
+                  "exclusiveMinimum": 0
+                },
+                "claim": {
+                  "description": "Use supported for a listed timing. Use maximum_at_resolution only when an official source states the ceiling.",
+                  "type": ["string", "null"],
+                  "enum": ["supported", "maximum_at_resolution", null]
+                },
+                "dsc": {
+                  "description": "Whether DSC is explicitly required or explicitly not required for this exact claim.",
+                  "type": ["string", "null"],
+                  "enum": ["required", "not_required", null]
+                },
+                "hdr": {
+                  "description": "Explicit HDR support condition for this exact claim.",
+                  "type": ["string", "null"],
+                  "enum": ["supported", "not_supported", null]
+                },
+                "conditions": {
+                  "description": "Unusual official restrictions for this exact claim. Preserve as source context; do not parse as a compatibility rule.",
+                  "type": ["string", "null"],
+                  "minLength": 1
+                }
+              },
+              "required": ["resolution", "refresh_rate", "claim"]
+            }
+          }
+        },
+        "required": ["connector"]
+      }
+    },
+    "vesa_mounting": {
+      "description": "Explicit VESA support and each published pattern and installation path for this exact monitor configuration.",
+      "type": ["object", "null"],
+      "properties": {
+        "support": {
+          "description": "Explicit manufacturer evidence that VESA mounting is supported or not supported.",
+          "type": ["string", "null"],
+          "enum": ["yes", "no", null]
+        },
+        "options": {
+          "description": "Published VESA options; different patterns or installation paths are separate rows.",
+          "minItems": 1,
+          "type": ["array", "null"],
+          "items": {
+            "description": "One distinct VESA pattern and installation path for this exact monitor configuration.",
+            "type": "object",
+            "properties": {
+              "id": {
+                "description": "Stable system-generated row identifier. It is assigned on save and is not entered by reviewers.",
+                "type": ["string", "null"],
+                "minLength": 1
+              },
+              "pattern": {
+                "description": "Published VESA hole pattern for this exact mounting path. Select Other only when the official pattern is not listed.",
+                "type": ["string", "null"],
+                "enum": ["75x75", "100x100", "100x200", "200x100", "200x200", "other", null]
+              },
+              "custom_pattern_mm": {
+                "description": "Exact published horizontal and vertical VESA hole spacing in mm when pattern is Other; do not infer dimensions.",
+                "type": ["object", "null"],
+                "properties": {
+                  "width_mm": {
+                    "description": "Published horizontal VESA mounting-hole spacing in mm; do not infer certification.",
+                    "type": ["integer", "null"],
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "height_mm": {
+                    "description": "Published vertical VESA mounting-hole spacing in mm; do not infer certification.",
+                    "type": ["integer", "null"],
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": ["width_mm", "height_mm"]
+              },
+              "mounted_weight_kg": {
+                "description": "Published mounted weight in kg for this exact monitor and attachment configuration.",
+                "type": ["number", "null"],
+                "exclusiveMinimum": 0
+              },
+              "installation": {
+                "description": "Published installation path for this exact VESA option; never default unknown to direct.",
+                "type": ["string", "null"],
+                "enum": [
+                  "direct",
+                  "included_manufacturer_attachment",
+                  "separate_manufacturer_attachment",
+                  null
+                ]
+              },
+              "attachment": {
+                "description": "Optional details for the proprietary attachment used by this mounting option. The installation field indicates whether it is included or must be obtained separately.",
+                "type": ["object", "null"],
+                "properties": {
+                  "hardware_description": {
+                    "description": "Manufacturer-published description of the proprietary attachment used for this mounting option, including a third-party brand when applicable.",
+                    "type": ["string", "null"],
+                    "minLength": 1
+                  },
+                  "part_number": {
+                    "description": "Published part number for the exact proprietary attachment, when available.",
+                    "type": ["string", "null"],
+                    "minLength": 1
+                  },
+                  "weight_kg": {
+                    "description": "Attachment mass in kg only when explicitly published for this exact attachment.",
+                    "type": ["number", "null"],
+                    "exclusiveMinimum": 0
+                  }
+                }
+              }
+            },
+            "required": ["pattern"]
+          }
+        }
+      },
+      "required": ["support"]
+    },
+    "dimensions_with_stand_mm": {
+      "description": "Published assembled monitor dimensions with the included stand installed, in mm.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Published assembled product width in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "description": "Published fixed or nominal assembled product height in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_min": {
+          "description": "Minimum published adjustable assembled height in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_max": {
+          "description": "Maximum published adjustable assembled height in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Published assembled product depth in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "dimensions_without_stand_mm": {
+      "description": "Published monitor dimensions without the included stand, in mm.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Published assembled product width in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "description": "Published fixed or nominal assembled product height in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_min": {
+          "description": "Minimum published adjustable assembled height in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_max": {
+          "description": "Maximum published adjustable assembled height in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Published assembled product depth in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "weight": {
+      "description": "Published unpackaged monitor weights for this exact configuration, in kg.",
+      "type": ["object", "null"],
+      "properties": {
+        "with_stand_kg": {
+          "description": "Published assembled monitor weight with the included stand installed, in kg; exclude packaging.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "without_stand_kg": {
+          "description": "Published monitor weight without the included stand, in kg; exclude packaging.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "power_consumption": {
+      "description": "Manufacturer-published power consumption for this exact monitor configuration.",
+      "type": ["object", "null"],
+      "properties": {
+        "typical_w": {
+          "description": "Manufacturer-labelled typical power consumption in W for this exact monitor configuration.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "manufacturer_max_w": {
+          "description": "Manufacturer-labelled maximum power consumption in W. Preserve whether the figure includes USB power delivery in the note.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "explicitly_reported_peak_w": {
+          "description": "Peak power consumption in W only when the official source explicitly labels the value as peak.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "note": {
+          "description": "Official measurement conditions or USB power-delivery inclusion relevant to the structured power values.",
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      }
     },
     "max_brightness": {
       "description": "Maximum brightness in nits",
@@ -269,7 +760,7 @@
           "type": ["string", "null"]
         },
         "variant": {
-          "description": "Specific variant in the series",
+          "description": "Specific variant in the series Use the manufacturer's exact sold variant identifier whenever screen size, panel technology, port inventory, included stand, or VESA attachment path differs within the model family. Do not combine specifications from sibling configurations.",
           "type": ["string", "null"]
         },
         "releaseYear": {

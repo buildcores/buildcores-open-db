@@ -9,6 +9,75 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "display_mount_kind": {
+      "description": "Whether this exact product is a monitor arm, monitor stand, or wall mount.",
+      "type": ["string", "null"],
+      "enum": ["monitor_arm", "monitor_stand", "wall_mount", null]
+    },
+    "display_mount_vesa_patterns": {
+      "description": "Published VESA plate patterns supported by this exact stand or arm configuration.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "Published horizontal and vertical VESA mounting-hole spacing in mm.",
+        "type": "object",
+        "properties": {
+          "width_mm": {
+            "description": "Published horizontal VESA mounting-hole spacing in mm; do not infer certification.",
+            "type": ["integer", "null"],
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "height_mm": {
+            "description": "Published vertical VESA mounting-hole spacing in mm; do not infer certification.",
+            "type": ["integer", "null"],
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": ["width_mm", "height_mm"]
+      }
+    },
+    "min_supported_display_weight_kg": {
+      "description": "Published minimum supported display weight in kg for this exact mount configuration.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "max_supported_display_weight_kg": {
+      "description": "Published maximum supported display weight in kg for this exact mount configuration.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "supported_display_count": {
+      "description": "Published positive number of displays supported by this exact mount configuration.",
+      "type": ["integer", "null"],
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991
+    },
+    "host_attachment_methods": {
+      "description": "Published host attachment methods included with this exact stand or arm configuration.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["desk_clamp", "grommet", "wall", "freestanding"]
+      }
+    },
+    "min_clamp_thickness_mm": {
+      "description": "Published minimum supported desk thickness in mm for the included clamp.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "max_clamp_thickness_mm": {
+      "description": "Published maximum supported desk thickness in mm for the included clamp.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "general_product_information": {
       "type": ["object", "null"],
       "description": "General product information and retailer SKUs",

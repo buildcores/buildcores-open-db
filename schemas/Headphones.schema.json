@@ -32,8 +32,9 @@
       "enum": ["Over-Ear", "On-Ear", "In-Ear", "Earbuds", null]
     },
     "weight": {
-      "description": "Headphone weight in grams",
-      "type": ["number", "null"]
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
     },
     "frame_material": {
       "description": "Primary frame/chassis material",
