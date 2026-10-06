@@ -113,9 +113,9 @@ We cannot provide price data or retailer-specific data due to restrictions.
 
 ## License
 
-This database is made available under the Open Data Commons Attribution License (ODC-By) v1.0.
+New data added to OpenDB is made available under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA)](LICENSE.txt).
 
-You are free:
+For noncommercial use, you are free:
 
 - To share: To copy, distribute and use the database.
 - To create: To produce works from the database.
@@ -123,6 +123,8 @@ You are free:
 
 As long as you:
 
-- Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the license. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database.
+- Attribute: Credit BuildCores OpenDB, keep the license notices, link to the license, and say what you changed.
+- Noncommercial: Commercial use requires a separate license and written approval from BuildCores for data we can license.
+- ShareAlike: If you publicly share a modified database, use CC BY-NC-SA 4.0 or another license allowed by its ShareAlike terms.
 
-For more information, see [opendatacommons.org/licenses/by/1-0](https://opendatacommons.org/licenses/by/1-0/).
+For commercial use, [request a license](docs/licensing/README.md#commercial-requests). Existing permissions remain valid. See [NOTICE.md](NOTICE.md) for details about which data uses this license.

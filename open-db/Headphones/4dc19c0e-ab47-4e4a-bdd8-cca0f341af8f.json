@@ -7,7 +7,7 @@
   "ear_cup_type": "Over-Ear",
   "weight": 322,
   "frame_material": "Aluminum",
-  "ear_pad_material": ["Leatherette", "Silicone", "Memory Foam"],
+  "ear_pad_material": ["Leatherette", "Memory Foam"],
   "connection_types": ["Wireless 2.4GHz"],
   "battery_life": 300,
   "charging_port": "USB-C",
@@ -15,8 +15,8 @@
   "latency": 21,
   "has_microphone": true,
   "microphone_type": "Detachable Boom",
-  "noise_cancellation_mic": false,
-  "features": ["Multi-Device Pairing"],
+  "noise_cancellation_mic": true,
+  "features": ["Multi-Device Pairing", "Spatial Audio", "EQ Customization"],
   "use_cases": ["Gaming", "Casual"],
   "platforms": ["PC", "Console", "Mobile"],
   "lighting": ["None"],
@@ -32,8 +32,46 @@
     "manufacturer_url": "https://row.hyperx.com/products/hyperx-cloud-alpha-wireless"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0196188046036",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "4P5D4AA",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "196188046036",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09TRW57WB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIVFEUKJN2756",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "553448134",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

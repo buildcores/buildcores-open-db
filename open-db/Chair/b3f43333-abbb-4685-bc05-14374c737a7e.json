@@ -1,14 +1,60 @@
 {
   "opendb_id": "b3f43333-abbb-4685-bc05-14374c737a7e",
+  "seat_height_range_mm": {
+    "min": 500,
+    "max": 610
+  },
+  "seat_dimensions_mm": {
+    "width": 520,
+    "depth": 70.14
+  },
+  "dimensions_mm": {
+    "width": 580,
+    "depth": 860,
+    "height_min": 1320,
+    "height_max": 1430
+  },
+  "base_diameter_mm": 580,
+  "max_user_weight_kg": 181,
+  "seat_surface_materials": ["Fabric"],
+  "backrest_surface_materials": ["Fabric"],
+  "armrest_adjustability": "HeightAdjustable",
+  "lumbar_support": "Adjustable",
   "metadata": {
     "name": "LiberNovo Maxis Manual Graphite Ergonomic Chair",
     "manufacturer": "LiberNovo",
-    "part_numbers": []
+    "part_numbers": [],
+    "series": "Maxis",
+    "variant": "Grahpite - Manual",
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://libernovo.com/products/libernovo-maxis-dynamic-ergonomic-chair"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "Maxis Manual",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H889YKC7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13112220",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
