@@ -9,21 +9,83 @@
   "panel_type": "OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1": 1
+  },
   "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 2.1",
+  "display_inputs": [
+    {
+      "id": "d8bb254c-2b90-4a84-ae08-a671adfcb9d9",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "b0e20a6c-b7cd-4c5e-9938-f083726ba79a",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "c8dd4f56-af82-47c5-97db-e2f1e27e32f3",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.08,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 605,
+    "height": 464.8,
+    "height_min": 464.8,
+    "height_max": 574.8,
+    "depth": 251.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 605,
+    "height": 352,
+    "height_min": 352,
+    "height_max": 352,
+    "depth": 45
+  },
+  "weight": {
+    "with_stand_kg": 9.3,
+    "without_stand_kg": 5.08
+  },
+  "power_consumption": {
+    "typical_w": 45,
+    "manufacturer_max_w": 150,
+    "explicitly_reported_peak_w": 150
+  },
   "max_brightness": 275,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "LG UltraGear 27\" 1440p 480Hz OLED Monitor",
     "manufacturer": "LG",
     "part_numbers": ["27GX790A-B", "LG 27GX790A-B", "27GX790A-B.AUS", "27GX790A-B.AEU", "27GX790A"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.lg.com/in/monitors/ultragear-gaming-oled-monitors/27gx790a-b/?srsltid=AU7gw4VnUZsqrbVhhzBWlpetba7uwgZkM92W2pmbdWHJHmf_pUKYsAAh"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -2,24 +2,95 @@
   "opendb_id": "bcf0b1d2-4c74-439d-b818-61c1e0bcfd82",
   "form_factor": "EATX Full Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "color": [],
-  "lighting": [],
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_usb_ports": ["2 x USB 3.2 Gen 2x2 Type C", "4 x USB 3.2 Gen Type-A"],
   "max_video_card_length": 400,
   "max_cpu_cooler_height": 180,
+  "max_psu_length": 200,
+  "internal_3_5_bays": 1,
+  "internal_2_5_bays": 2,
+  "power_supply_shroud": true,
+  "expansion_slots": 8,
+  "riser_expansion_slots": 2,
+  "supports_rear_connecting_motherboard": true,
+  "dimensions_mm": {
+    "depth": 583.9,
+    "width": 248.3,
+    "height": 618.7
+  },
+  "volume": 89.8,
+  "weight": 35.23,
   "metadata": {
     "name": "ASUS ROG Cronox White",
     "manufacturer": "Asus",
     "part_numbers": [],
     "series": "ROG Cronox",
     "variant": "Default",
+    "releaseYear": 2026,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/cases/rog-cronox/gallery/"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291504264",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG CRONOX GR801 CURVE TG SCREEN WHITE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ROGCRONOXGR801CURVETGWH",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "199291504264",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H31JXLKW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13058655",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811173084",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20869566798",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

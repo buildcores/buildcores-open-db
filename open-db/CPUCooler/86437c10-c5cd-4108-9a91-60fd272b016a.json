@@ -2,7 +2,7 @@
   "opendb_id": "86437c10-c5cd-4108-9a91-60fd272b016a",
   "min_fan_rpm": 2000,
   "max_fan_rpm": null,
-  "min_noise_level": 22.1,
+  "min_noise_level": 29.8,
   "max_noise_level": null,
   "color": ["BLACK"],
   "lighting": ["Display"],
@@ -24,27 +24,56 @@
   "radiator_size": 240,
   "fanless": false,
   "fan_size": 120,
-  "fan_quantity": null,
+  "fan_quantity": 2,
   "metadata": {
     "name": "Thermalright Frozen Warframe Water 240mm Black",
     "manufacturer": "Thermalright",
     "part_numbers": ["Frozen Warframe 240 BLACK"],
     "series": "Frozen Warframe",
     "variant": "Default",
-    "releaseYear": null,
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.thermalright.com/product/frozen-warframe-240-black/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0755225217091",
+        "region": "uk"
+      },
       {
         "type": "mpn",
         "value": "Frozen Warframe 240 BLACK",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "FW240 BLACK",
+        "region": "uk"
+      },
+      {
+        "type": "mpn",
+        "value": "FW240 BLACK D6-Y",
+        "region": "uk"
+      },
+      {
+        "type": "upc",
+        "value": "755225217091",
+        "region": "uk"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CYLBSVLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "computer-orbit",
         "channel": "uk",
