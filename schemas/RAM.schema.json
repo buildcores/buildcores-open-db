@@ -9,6 +9,11 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "speed": {
       "description": "The speed of the RAM in MHz (e.g., 6000, 3200). Looks for hints of this in the product name.",
       "type": ["number", "null"]

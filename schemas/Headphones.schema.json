@@ -32,8 +32,9 @@
       "enum": ["Over-Ear", "On-Ear", "In-Ear", "Earbuds", null]
     },
     "weight": {
-      "description": "Headphone weight in grams",
-      "type": ["number", "null"]
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
     },
     "frame_material": {
       "description": "Primary frame/chassis material",
@@ -49,7 +50,7 @@
       }
     },
     "connection_types": {
-      "description": "Supported connection types",
+      "description": "How audio reaches the headphones. For wired audio, choose the connector at the audio-source end (computer, phone, or console): a USB-C-to-USB-A audio cable is Wired USB-A Audio when USB-A plugs into the source. A charging-only cable is not wired audio; a USB receiver is a wireless connection, regardless of its USB plug. Multiple values indicate alternative audio paths, not guaranteed simultaneous mixing. Plain USB-C and USB-A are legacy values; use the named Wired USB audio values for new claims.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -58,6 +59,9 @@
           "Wired 6.35mm",
           "Wired 2.5mm Balanced",
           "Wired 4.4mm Balanced",
+          "Wired USB-C Audio",
+          "Wired USB-A Audio",
+          "Wired Lightning Audio",
           "USB-C",
           "USB-A",
           "Bluetooth",
@@ -67,20 +71,63 @@
       }
     },
     "battery_life": {
-      "description": "Battery life in hours",
+      "description": "Manufacturer-stated maximum listening time in hours on one headset or earbud charge, excluding charging-case recharges, talk time, and standby time. Retain ANC, lighting, connection, and test conditions in source evidence; audit legacy values before using them under this definition.",
       "type": ["number", "null"]
+    },
+    "battery_life_with_case": {
+      "description": "Manufacturer-stated total listening hours from the earbuds plus recharges from the charging case included with this exact SKU. Includes the first earbud charge; do not add independently stated numbers, use talk time, or record case-only extra hours.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
     },
     "bluetooth_version": {
       "description": "Bluetooth version (e.g., 5.3)",
       "type": ["string", "null"]
     },
     "charging_port": {
-      "description": "Charging interface type",
+      "description": "Legacy singular charging interface retained during migration. Record verified new charging inputs under Charging Methods; this old value does not prove that other methods are absent.",
       "type": ["string", "null"],
       "enum": ["USB-C", "Micro-USB", "Lightning", "Wireless Qi", null]
     },
+    "charging_methods": {
+      "description": "Documented supported external charging inputs for this exact sold configuration. Multiple methods may charge different targets. None is exclusive and requires affirmative evidence; leave the field empty when evidence is missing. Compatibility with a charger does not mean it is included.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One manufacturer-documented external charging method for this exact sold configuration.",
+        "type": "object",
+        "properties": {
+          "method": {
+            "description": "Verified supported external charging input for the exact sold headset, included case, or removable battery. For wired inputs, name the connector on the charged item, not the plug at the power source. None needs affirmative evidence.",
+            "type": ["string", "null"],
+            "enum": [
+              "None",
+              "USB-C",
+              "Micro-USB",
+              "Lightning",
+              "Qi",
+              "Qi2",
+              "MagSafe Charger",
+              "Apple Watch Charger",
+              "Proprietary Charging Interface",
+              null
+            ]
+          },
+          "target": {
+            "description": "Which item receives power from this external charging method: the headset, its included charging case, or a removable battery. Leave empty only when method is None.",
+            "type": ["string", "null"],
+            "enum": ["Headset", "Included Charging Case", "Removable Battery", null]
+          },
+          "system_name": {
+            "description": "Exact manufacturer-named system for Proprietary Charging Interface, such as a magnetic cable or dock. Do not enter a system name for standard USB, Lightning, Qi, Qi2, MagSafe Charger, or Apple Watch Charger.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["method"]
+      }
+    },
     "wireless_range": {
-      "description": "Wireless range in feet/meters",
+      "description": "One manufacturer-advertised wireless audio range in metres for a documented path. Convert feet only from a known source; retain the path and line-of-sight/test conditions in evidence. Existing values have ambiguous units and require audit before display as metres or use in filters.",
       "type": ["number", "null"]
     },
     "latency": {

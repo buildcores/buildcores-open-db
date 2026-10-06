@@ -9,6 +9,110 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight. Use one complete mousepad for the exact sold size and design, excluding packaging.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "dimensions_mm": {
+      "description": "Published physical dimensions in millimeters for the exact sold pad or mat. Convert official units; leave unknown measurements empty.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Published left-to-right width of this exact sold mat in millimeters.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Published front-to-back depth of this exact sold mat in millimeters.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "description": "Published assembled mat thickness in millimeters; do not use packaging height or add another thickness field.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "surface_material": {
+      "description": "Published mouse-contact surface material. Normally select one. Select multiple only when the same sold mat is reversible and its different usable sides have different materials; do not list internal layers or bundled replacement inserts.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["Fabric", "Glass", "Plastic", "Metal", "Leather", "Leatherette", "Other"]
+      }
+    },
+    "surface_material_other": {
+      "description": "Exact manufacturer material name when Surface Material includes Other; Other means a known material outside the enum, never unknown.",
+      "type": ["string", "null"]
+    },
+    "base_material": {
+      "description": "Published material of the underside or grip layer touching the desk, not the mouse-contact surface or an internal core. Leave empty when only a generic non-slip claim is given.",
+      "type": ["string", "null"],
+      "enum": ["Rubber", "Silicone", "Foam", "Fabric", "Other", null]
+    },
+    "base_material_other": {
+      "description": "Exact manufacturer material name when Base Material is Other; Other means a known material outside the enum, never unknown.",
+      "type": ["string", "null"]
+    },
+    "surface_type": {
+      "description": "Manufacturer's explicit Soft, Hard, or Hybrid surface classification for this exact sold mat. Do not infer from material, appearance, or speed/control marketing copy.",
+      "type": ["string", "null"],
+      "enum": ["Soft", "Hard", "Hybrid", null]
+    },
+    "wireless_power_methods": {
+      "description": "Wireless charging or direct device power provided by this exact sold mat/base: Qi, Qi2, or a named proprietary system. None needs affirmative evidence and cannot appear with another method. A replacement cloth pad or separately sold charger does not qualify.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One sourced wireless power method provided by this exact sold mousepad or desk mat.",
+        "type": "object",
+        "properties": {
+          "method": {
+            "description": "Published wireless power method provided by this exact sold mat or base. None requires affirmative evidence; do not infer Qi or Qi2 from a MagSafe-compatible claim.",
+            "type": ["string", "null"],
+            "enum": ["None", "Qi", "Qi2", "Proprietary Wireless Power", null]
+          },
+          "system_name": {
+            "description": "Manufacturer's exact named system, required for Proprietary Wireless Power (for example Apple Made for MagSafe or Logitech POWERPLAY 2). Leave empty for Qi, Qi2, and None.",
+            "type": ["string", "null"]
+          }
+        },
+        "required": ["method"]
+      }
+    },
+    "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Record sourced or unambiguous visible physical colors of this exact mat for broad color lookup. A black mat with Galaxy artwork may include Black; put the official Galaxy name in Design / Colorway. Color does not mean plain or predominantly that color.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
+        ]
+      }
+    },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white. Record hardware illumination only, not printed art or reflective colors. Select None only with affirmative evidence.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
+      }
+    },
     "general_product_information": {
       "type": ["object", "null"],
       "description": "General product information and retailer SKUs",
@@ -74,12 +178,16 @@
           "type": ["string", "null"]
         },
         "variant": {
-          "description": "Specific variant in the series",
+          "description": "Manufacturer's marketed size label for this exact sold mat, such as L or XXL. Do not guess a label from dimensions or combine it with the artwork name.",
           "type": ["string", "null"]
         },
         "releaseYear": {
           "description": "Year of release",
           "type": ["number", "null"]
+        },
+        "manufacturer_color": {
+          "description": "Manufacturer's exact marketed colorway, print, or artwork name for this SKU, such as Galaxy or Neon. Keep this distinct from broad physical Colors and from the marketed size in Size Variant.",
+          "type": ["string", "null"]
         },
         "last_manually_spec_verified_at": {
           "type": ["string", "null"],
