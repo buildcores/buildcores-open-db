@@ -8,13 +8,71 @@
   "refresh_rate": 240,
   "panel_type": "VA",
   "response_time": 1,
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "32:9",
-  "connectors": "3 x HDMI 2.1                                                    1 x DisplayPort 2.1",
+  "video_outputs": {
+    "hdmi_2_1": 3,
+    "displayport_2_1": 1
+  },
+  "connectors": "3 x HDMI 2.1                                                      1 x DisplayPort 2.1",
+  "display_inputs": [
+    {
+      "id": "fc29bc64-a065-4e4f-8ba3-b9ec570207fc",
+      "connector": "hdmi",
+      "count": 3,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "3714eae2-736b-4dd1-a1e2-a14621aa0aa0",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "47e6c605-2c2b-4de3-953b-8cfdf79a8e55",
+        "pattern": "100x100",
+        "mounted_weight_kg": 15.4,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1433,
+    "height": 557,
+    "height_min": 557,
+    "height_max": 693,
+    "depth": 420
+  },
+  "dimensions_without_stand_mm": {
+    "width": 1433,
+    "height": 538,
+    "height_min": 538,
+    "height_max": 538,
+    "depth": 207
+  },
+  "weight": {
+    "with_stand_kg": 19,
+    "without_stand_kg": 15.4
+  },
+  "power_consumption": {
+    "typical_w": 300,
+    "manufacturer_max_w": 300,
+    "explicitly_reported_peak_w": 300
+  },
   "max_brightness": 1000,
-  "hdr": "",
+  "hdr": "DisplayHDR 1000",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung Odyssey Neo G95NC 57\" 7680 x 2160 240Hz VA Curved Monitor",
@@ -27,9 +85,13 @@
       "Odyssey Neo G95NC"
     ],
     "series": "",
-    "variant": ""
+    "variant": "",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/in/monitors/gaming/odyssey-neo-g9-g95nc-57-inch-240hz-curved-dual-uhd-ls57cg950nwxxl/?srsltid=AU7gw4WHMOgjS7SIxRxnnjI7Flm5wIFr5YDtD78ooYbW7G8J_c0Ic0Ig"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
