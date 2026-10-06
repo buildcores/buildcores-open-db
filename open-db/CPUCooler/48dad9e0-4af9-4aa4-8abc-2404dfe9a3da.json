@@ -7,22 +7,12 @@
   "color": ["BLACK"],
   "lighting": ["ARGB", "Display"],
   "height": 69,
-  "cpu_sockets": [
-    "AM4",
-    "AM5",
-    "LGA 1150",
-    "LGA 1151",
-    "LGA 1155",
-    "LGA 1156",
-    "LGA 1200",
-    "LGA 1700",
-    "LGA 1851"
-  ],
+  "cpu_sockets": ["AM4", "AM5", "LGA 1700", "LGA 1851"],
   "water_cooled": true,
   "radiator_size": 360,
   "fanless": false,
   "fan_size": 120,
-  "fan_quantity": null,
+  "fan_quantity": 3,
   "metadata": {
     "name": "Lian Li Hydroshift II LCD-C TL 90.1 CFM Water 360mm Black",
     "manufacturer": "Lian Li",
@@ -32,16 +22,26 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/hydroshift-ii/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
-        "value": "GHS2LCD36TB                                                    G89.GHS2LCD36TB.00",
+        "value": "LL-HS2-LCD-360TL-BK",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FDWRZZ4T",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

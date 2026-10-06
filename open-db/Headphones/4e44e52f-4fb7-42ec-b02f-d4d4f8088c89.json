@@ -1,22 +1,81 @@
 {
   "opendb_id": "4e44e52f-4fb7-42ec-b02f-d4d4f8088c89",
+  "driver_size": 40,
+  "frequency_response_low": 20,
+  "frequency_response_high": 22000,
   "headphone_type": "Open-Back",
-  "ear_pad_material": [],
+  "ear_cup_type": "Over-Ear",
+  "weight": 260,
+  "frame_material": "Plastic",
+  "ear_pad_material": ["Memory Foam"],
   "connection_types": ["USB-C", "USB-A", "Bluetooth"],
+  "battery_life": 40,
+  "bluetooth_version": "5.3",
+  "charging_port": "USB-C",
+  "wireless_range": 30,
+  "latency": 15,
   "has_microphone": true,
-  "features": [],
-  "use_cases": [],
-  "platforms": [],
-  "lighting": [],
+  "microphone_type": "Detachable Boom",
+  "noise_cancellation_mic": true,
+  "features": ["Multi-Device Pairing"],
+  "use_cases": ["Gaming", "Casual"],
+  "platforms": ["PC", "Mobile", "Console"],
+  "lighting": ["None"],
   "metadata": {
     "name": "SteelSeries Arctis Nova 3X Wireless White for Xbox",
     "manufacturer": "SteelSeries",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2025
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810052988467",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "61690",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810052988467",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F9548L67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6626311",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16826249292",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17661016939",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
