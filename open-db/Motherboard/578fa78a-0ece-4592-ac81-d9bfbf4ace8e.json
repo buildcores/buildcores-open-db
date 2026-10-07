@@ -26,27 +26,22 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x2 & SATA3 6.0 Gb/s"
+    },
+    {
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "size": "2230",
+      "key": "E",
+      "interface": "PCIe WiFi/BT"
     }
   ],
   "storage_devices": {
@@ -74,7 +69,7 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
