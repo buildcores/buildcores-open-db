@@ -1,39 +1,41 @@
 {
   "opendb_id": "1e9792e7-4ac2-42a1-b72f-ab3c2d55bdc5",
+  "weight": 760,
   "min_fan_rpm": 650,
   "max_fan_rpm": 1800,
   "min_noise_level": 8,
   "max_noise_level": 27,
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "height": 154,
   "cpu_sockets": [
-    "AM2",
-    "AM3",
-    "AM4",
-    "FM1",
-    "FM2",
-    "LGA 1150",
+    "LGA 1200",
+    "LGA 2066",
+    "LGA 2011-3",
+    "LGA 2011",
     "LGA 1151",
+    "LGA 1150",
     "LGA 1155",
     "LGA 1156",
-    "LGA 1200",
-    "LGA 2011",
-    "LGA 2066",
-    "FM2+",
+    "LGA 1366",
+    "LGA 775",
+    "AM4",
     "AM3+",
-    "AM2+"
+    "AM3",
+    "AM2+",
+    "AM2",
+    "FM2+",
+    "FM2",
+    "FM1"
   ],
   "water_cooled": false,
-  "radiator_size": 0,
   "fanless": false,
   "fan_size": 120,
   "fan_quantity": 1,
   "metadata": {
-    "name": "Cooler Master Hyper 212 EVO V2 Air 154mm 62 CFM ARGB",
+    "name": "Cooler Master Hyper 212 EVO V2 Air 154mm 62 CFM",
     "manufacturer": "Cooler Master",
     "part_numbers": [],
-    "series": "Hyper 212",
     "variant": "EVO V2 ARGB",
     "releaseYear": 2020,
     "manufacturer_color": "Black / Silver"
@@ -42,14 +44,37 @@
     "manufacturer_url": "https://legacy.coolermaster.com/pt-br/products/hyper-212-evo-v2/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0884102095795",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RR-2V2E-18PK-R2",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RR-2V2E-18PK-R2",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "884102095795",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09KYDY9HB",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

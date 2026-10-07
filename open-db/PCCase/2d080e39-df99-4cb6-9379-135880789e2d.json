@@ -2,24 +2,87 @@
   "opendb_id": "2d080e39-df99-4cb6-9379-135880789e2d",
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_usb_ports": ["2 x USB 3.2 Gen 1 Type-A", "1 x USB 3.2 Gen 2x2 Type-C"],
   "max_video_card_length": 425,
   "max_cpu_cooler_height": 173,
+  "max_psu_length": 253,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 4,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": true,
+  "dimensions_mm": {
+    "depth": 495,
+    "width": 229,
+    "height": 515
+  },
+  "volume": 55.4,
+  "weight": 22.05,
   "metadata": {
     "name": "Fractal Design Summit Black TG Light Tint",
     "manufacturer": "Fractal Design",
     "part_numbers": [],
     "series": "Summit",
+    "variant": "Light Tint",
     "releaseYear": 2026,
-    "manufacturer_color": "Black TG Light Tint"
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/summit-series/summit/summit-black-tg-light-tint/#specifications"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276112721",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340172712725",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-C-SUM1A-05",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "843276112721",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FV343VQN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811352267",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20844423946",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -2,12 +2,29 @@
   "opendb_id": "6cbba468-e914-4bd1-8fa7-aac1a26cb843",
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_usb_ports": ["1 x USB 3.2 Gen 2x2 Type C", "2 x USB 3.2 Gen1"],
   "max_video_card_length": 420,
   "max_cpu_cooler_height": 175,
+  "max_psu_length": 200,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 3,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": false,
+  "dimensions_mm": {
+    "depth": 535,
+    "width": 240,
+    "height": 450
+  },
+  "volume": 57.8,
+  "weight": 24.25,
   "metadata": {
     "name": "ASUS Prime AP304 Black ARGB",
     "manufacturer": "ASUS",
@@ -16,10 +33,60 @@
     "variant": "ARGB",
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/cases/prime/asus-prime-ap304-argb/"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291559608",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "0199291559639",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME AP304 TG ARGB BLACK",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "199291559608",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "199291559639",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H7FZY8GW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811173089",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20888700396",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

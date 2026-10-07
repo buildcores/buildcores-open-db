@@ -9,6 +9,94 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "fixture_kind": {
+      "description": "Primary marketed kind of the exact sold fixture. A light panel mounted on a desk is still a Light Panel. Use Other only for a known kind outside the list, with fixture_kind_other.",
+      "type": ["string", "null"],
+      "enum": [
+        "Desk Lamp",
+        "Floor Lamp",
+        "Monitor Light Bar",
+        "Standing Light Bar",
+        "Light Panel",
+        "Ring Light",
+        "LED Strip",
+        "Bulb",
+        "Other",
+        null
+      ]
+    },
+    "fixture_kind_other": {
+      "description": "Exact manufacturer description of the fixture kind when Fixture Kind is Other.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Record only the visible physical housing or fixture color of the exact sold SKU. Do not use RGB for emitted light, and do not infer a color from a suggested bulb.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
+        ]
+      }
+    },
+    "white_light_mode": {
+      "description": "White light from an emitter included in the sold SKU. Fixed White is one documented white temperature, even if dimmable. Tunable White can select warmer and cooler whites. Leave unknown for an unlit fixture sold without a bulb or undocumented output.",
+      "type": ["string", "null"],
+      "enum": ["Fixed White", "Tunable White", null]
+    },
+    "colored_light_mode": {
+      "description": "Color capability of the included light assembly. No Colored Light needs affirmative white-only evidence. Multiple Colors at Once means different zones or segments can show different colors simultaneously; it does not promise individually addressable LEDs.",
+      "type": ["string", "null"],
+      "enum": [
+        "No Colored Light",
+        "Fixed Color",
+        "One Color at a Time",
+        "Multiple Colors at Once",
+        null
+      ]
+    },
+    "white_color_temperature_k": {
+      "description": "Official white color temperature of the included emitter in Kelvin. Fixed White uses one sourced temperature stored as equal endpoints; Tunable White uses the published minimum and maximum. Never derive values from photos, RGB marketing, or a suggested bulb.",
+      "type": ["object", "null"],
+      "properties": {
+        "min": {
+          "description": "Lowest manufacturer-stated white color temperature of the included emitter, in Kelvin.",
+          "type": ["integer", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        },
+        "max": {
+          "description": "Highest manufacturer-stated white color temperature of the included emitter, in Kelvin. For Fixed White, this must equal the minimum.",
+          "type": ["integer", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        }
+      },
+      "required": ["min", "max"]
+    },
+    "max_power_consumption_w": {
+      "description": "Manufacturer-stated maximum actual electrical draw in watts for the exact sold light system. Exclude light output, adapter capacity, incandescent-equivalent wattage, and the bulb wattage limit of an unlit fixture.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "general_product_information": {
       "type": ["object", "null"],
       "description": "General product information and retailer SKUs",
