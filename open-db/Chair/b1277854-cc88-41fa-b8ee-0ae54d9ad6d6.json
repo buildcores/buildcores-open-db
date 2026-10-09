@@ -1,22 +1,69 @@
 {
   "opendb_id": "b1277854-cc88-41fa-b8ee-0ae54d9ad6d6",
+  "seat_dimensions_mm": {
+    "width": 545
+  },
+  "dimensions_mm": {
+    "width": 700,
+    "depth": 700,
+    "height_min": 1255
+  },
+  "max_user_weight_kg": 136,
+  "weight_kg": 22.82,
+  "seat_surface_materials": ["Fabric"],
+  "backrest_surface_materials": ["Fabric"],
+  "armrest_adjustability": "MultiDirectional",
+  "lumbar_support": "Fixed",
   "metadata": {
     "name": "Razer Iskur V2 X - Black / Green - Fabric",
     "manufacturer": "Razer",
     "part_numbers": ["RZ38-05310100-R3G1"],
     "series": "Iskur V2 X",
-    "variant": "Black / Green - Fabric"
+    "variant": "Black / Green - Fabric",
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.razer.com/gaming-chairs/razer-iskur-v2-x?srsltid=AU7gw4U3w90xLDV80g323zHenNcDWQQHxaOdLhC9U--LI7bT5XucxIyB"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840272915547",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RZ38-05310100-R3G1",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ38-05310100-R3UA",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840272915547",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DP5SY554",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "12331823",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
