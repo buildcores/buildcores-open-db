@@ -39,12 +39,17 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
         "value": "0810074843645",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0810074843645",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -57,9 +62,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CC-H51FW-R1",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "810074843645",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "810074843645",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -173,7 +188,7 @@
         "channel": "us",
         "source_product_id": "6541419",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "caseking",
@@ -209,6 +224,13 @@
         "source_product_id": "2930258",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADFRK4A4527",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -257,7 +279,7 @@
         "channel": "us",
         "source_product_id": "3253859802",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

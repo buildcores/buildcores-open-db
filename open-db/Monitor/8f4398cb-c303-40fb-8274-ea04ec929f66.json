@@ -6,6 +6,7 @@
     "verticalRes": 1440
   },
   "refresh_rate": 360,
+  "native_refresh_activation": "automatic",
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK", "RGB"],
@@ -18,6 +19,92 @@
     "usb_c": 1
   },
   "connectors": "1 x DisplayPort 2.1                                              2 x HDMI (v2.1)                                                  1 x USB-C",
+  "display_inputs": [
+    {
+      "id": "fd523c71-c8ab-4f01-9962-46a1961e9f08",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "04029bd1-e3b6-4ef1-a423-31da5da14439",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 360,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "fc5dce6d-d1b4-4767-baf9-02c3b37b171f",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "e56948aa-4cad-49f5-956b-2221ba65c8b1",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "01b07c1e-3f96-46e5-aeb5-bb9d1ed16d6a",
+      "connector": "usb_c",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "db6fb1ab-ad17-4249-958a-5c3a62eda30e",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 360,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d73242c3-50a7-4a58-8582-b0fceabda266",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.6,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 812.8,
+    "height": 562.7,
+    "depth": 276.1
+  },
+  "dimensions_without_stand_mm": {
+    "width": 812.8,
+    "height": 373.3,
+    "depth": 107.9
+  },
+  "weight": {
+    "with_stand_kg": 8.3,
+    "without_stand_kg": 5.6
+  },
+  "power_consumption": {
+    "typical_w": 85
+  },
   "max_brightness": 1300,
   "hdr": "VESA DisplayHDR 500 True Black",
   "adaptive_sync": "G-Sync",

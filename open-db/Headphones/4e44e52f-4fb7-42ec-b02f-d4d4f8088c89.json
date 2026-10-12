@@ -10,8 +10,15 @@
   "ear_pad_material": ["Memory Foam"],
   "connection_types": ["USB-C", "USB-A", "Bluetooth"],
   "battery_life": 40,
+  "battery_life_with_case": 40,
   "bluetooth_version": "5.3",
   "charging_port": "USB-C",
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
   "wireless_range": 30,
   "latency": 15,
   "has_microphone": true,
