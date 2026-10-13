@@ -1,44 +1,50 @@
 {
   "opendb_id": "e8c6b3a1-534d-42c5-9e54-66ac7a27a963",
+  "weight": 569,
   "min_fan_rpm": 600,
   "max_fan_rpm": 2000,
   "min_noise_level": 9,
   "max_noise_level": 36,
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "height": 159,
   "cpu_sockets": [
-    "AM2",
-    "AM3",
     "AM4",
-    "FM1",
+    "AM3+",
+    "AM3",
+    "AM2+",
+    "AM2",
+    "FM2+",
     "FM2",
-    "LGA 1150",
-    "LGA 1151",
-    "LGA 1155",
-    "LGA 1156",
-    "LGA 1200",
-    "LGA 1366",
-    "LGA 2011",
+    "FM1",
     "LGA 2066",
-    "LGA 775"
+    "LGA 2011-3",
+    "LGA 2011",
+    "LGA 1366",
+    "LGA 1200",
+    "LGA 1156",
+    "LGA 1155",
+    "LGA 1151",
+    "LGA 1150"
   ],
   "water_cooled": false,
-  "radiator_size": null,
   "fanless": false,
   "fan_size": 120,
-  "fan_quantity": null,
+  "fan_quantity": 1,
   "metadata": {
-    "name": "Cooler Master Hyper 212 EVO Air 159mm 82.9 CFM Sleeve Bearing",
+    "name": "Cooler Master Hyper 212 EVO Air 159mm 82.9 CFM Sleeve Bearing Black / Silver",
     "manufacturer": "Cooler Master",
     "part_numbers": [],
     "series": "Hyper 212",
     "variant": "EVO",
-    "releaseYear": null
+    "releaseYear": 2011,
+    "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://legacy.coolermaster.com/en-global/products/hyper-212-evo/?tab=tech_spec"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -177,16 +183,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIB39GK364113",
+        "source_product_id": "N82E16835103099",
         "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "23142475",
-        "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

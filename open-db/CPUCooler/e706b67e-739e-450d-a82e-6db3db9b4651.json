@@ -8,12 +8,9 @@
   "lighting": ["ARGB"],
   "height": 53,
   "cpu_sockets": [
-    "AM2",
     "AM3",
     "AM4",
     "AM5",
-    "FM1",
-    "FM2",
     "LGA 1150",
     "LGA 1151",
     "LGA 1155",
@@ -28,19 +25,20 @@
   "radiator_size": 360,
   "fanless": false,
   "fan_size": 120,
-  "fan_quantity": null,
+  "fan_quantity": 3,
   "metadata": {
     "name": "Montech HyperFlow Water 360mm ARGB Black",
     "manufacturer": "Montech",
     "part_numbers": ["HyperFlow ARGB 360 Black", "HyperFlow ARGB 360", "HYPERFLOW ARGB 360 BLACK"],
     "series": "HyperFlow",
-    "variant": "Default",
-    "releaseYear": null,
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.montechpc.com/hyperflow-argb-360"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -203,6 +201,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12341918",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "WASE-872",
@@ -263,7 +268,7 @@
         "channel": "us",
         "source_product_id": "N82E16835988004",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -326,7 +331,7 @@
         "channel": "us",
         "source_product_id": "6446850398",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

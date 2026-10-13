@@ -7,23 +7,75 @@
   },
   "refresh_rate": 170,
   "panel_type": "IPS",
-  "response_time": 0,
+  "response_time": 0.5,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 2
+  },
   "connectors": "2 x HDMI                                                    1 x DisplayPort",
+  "display_inputs": [
+    {
+      "id": "4c6f9f7e-e892-4d84-88e9-064aa064a2ed",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "de139364-cb54-4981-8a2b-e3003e284a4f",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.5,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 615,
+    "height": 422,
+    "height_min": 422,
+    "height_max": 531,
+    "depth": 226
+  },
+  "dimensions_without_stand_mm": {
+    "width": 615,
+    "height": 367,
+    "height_min": 367,
+    "height_max": 367,
+    "depth": 42.2
+  },
+  "weight": {
+    "with_stand_kg": 5.2,
+    "without_stand_kg": 3.5
+  },
+  "power_consumption": {
+    "typical_w": 48,
+    "manufacturer_max_w": 48,
+    "explicitly_reported_peak_w": 48
+  },
   "max_brightness": 350,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR 400",
   "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Gigabyte M27Q 27\" 1440p 170Hz IPS Monitor",
     "manufacturer": "Gigabyte",
     "part_numbers": ["M27Q", "M27Q-SA", "M27Q-EK", "20VM0-M27QBA-1EKR"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2020,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Monitor/M27Q-rev-10/sp"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

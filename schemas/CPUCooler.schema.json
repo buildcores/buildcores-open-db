@@ -9,6 +9,11 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "min_fan_rpm": {
       "description": "Min value of the fan's rotational speed in RPM. If constant, fill in min_fan_rpm and ignore max_fan_rpm",
       "type": ["number", "null"]

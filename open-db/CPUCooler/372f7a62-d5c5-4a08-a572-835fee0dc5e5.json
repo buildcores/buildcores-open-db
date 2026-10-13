@@ -1,9 +1,8 @@
 {
   "opendb_id": "372f7a62-d5c5-4a08-a572-835fee0dc5e5",
-  "min_fan_rpm": 450,
-  "max_fan_rpm": 1850,
-  "min_noise_level": 16.8,
-  "max_noise_level": 23.9,
+  "weight": 530,
+  "min_fan_rpm": 1850,
+  "min_noise_level": 23.9,
   "color": ["GREY", "WHITE", "GOLD"],
   "lighting": ["None"],
   "height": 77,
@@ -20,9 +19,8 @@
     "LGA 1954"
   ],
   "water_cooled": false,
-  "radiator_size": 0,
   "fanless": false,
-  "fan_size": 77,
+  "fan_size": 120,
   "fan_quantity": 1,
   "metadata": {
     "name": "Noctua NH-L12Sx77 Air 77mm Silver / Beige",
@@ -35,7 +33,7 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -232,13 +230,6 @@
       {
         "source": "newegg",
         "channel": "ca",
-        "source_product_id": "13C-0005-00349",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
         "source_product_id": "13C-0005-00349",
         "pricing_enabled": true,
         "verified": false

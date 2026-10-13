@@ -1,17 +1,39 @@
 {
   "opendb_id": "f2abaa97-d0cc-4c05-97f1-9088f6c299cb",
-  "connectivity": ["Bluetooth", "Wireless 2.4GHz", "Wired"],
+  "weight": 88,
+  "dimensions": {
+    "length": 124,
+    "width": 64,
+    "height": 39
+  },
+  "size": "Medium",
+  "shape": "Ambidextrous",
+  "connectivity": ["Bluetooth", "Wireless 2.4GHz", "Wired USB-C"],
+  "sensor": "Pixart PAW3395",
+  "max_dpi": 26000,
+  "polling_rate": 4000,
+  "buttons": 5,
+  "switches": "Mechanical Switches",
+  "onboard_memory": true,
   "rgb": true,
-  "lighting": [],
-  "grip_types": [],
+  "lighting": ["RGB", "ARGB"],
+  "battery_life": 146,
+  "battery_type": "Rechargeable",
+  "grip_types": ["Claw", "Fingertip", "Palm"],
+  "silent_clicks": false,
   "metadata": {
     "name": "GravaStar Mercury M1 Pro Gaming Mouse, Lightweight Magnesium Alloy, 26,000 DPI, PAW3395DM Sensor, 5 Programmable Buttons, Support Wired/2.4GHz/BT, Up to 200 Hours Battery Life (Battle-Yellow)",
     "manufacturer": "GravaStar",
-    "part_numbers": ["Mercury M1 Pro"]
+    "part_numbers": [],
+    "series": "Mercury M1 Pro",
+    "variant": "Battle Worn Yellow",
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gravastar.com/products/mercury-m1-pro-wireless-gaming-mouse?srsltid=AU7gw4Uz6M_xWohsCpUtXaNqKQMQ3g67mycCVrkoVJFGsOwfulXOwmSq"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -131,6 +153,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12816846",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "3693676",
@@ -143,6 +172,13 @@
         "source_product_id": "3693676",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBP4YKT87014",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "skinflint",

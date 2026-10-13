@@ -1,9 +1,10 @@
 {
   "opendb_id": "b9fcf2dd-939f-4e88-862d-e676eacca499",
+  "weight": 1000,
   "min_fan_rpm": 2100,
   "max_fan_rpm": null,
-  "min_noise_level": 34,
-  "max_noise_level": null,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
   "color": ["WHITE"],
   "lighting": ["ARGB"],
   "height": 69,
@@ -12,18 +13,20 @@
   "radiator_size": 240,
   "fanless": false,
   "fan_size": 120,
-  "fan_quantity": null,
+  "fan_quantity": 2,
   "metadata": {
     "name": "Corsair NAUTILUS Water 240mm RS ARGB White",
     "manufacturer": "Corsair",
     "part_numbers": [],
     "series": "NAUTILUS RS",
-    "releaseYear": null,
+    "releaseYear": 2024,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.corsair.com/us/en/p/cpu-coolers/cw-9060094-ww/nautilus-240-rs-argb-liquid-cpu-cooler-white-cw-9060094-ww?srsltid=AU7gw4W7YVcy3rQNhJWWdLvBVYp9BiygNNafmUWHosuwQzY4JcWiPQWE"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -181,6 +184,13 @@
         "source_product_id": "55306348888446",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11082010",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -341,7 +351,7 @@
         "channel": "us",
         "source_product_id": "N82E16835181475",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -425,7 +435,7 @@
         "channel": "us",
         "source_product_id": "13892012823",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

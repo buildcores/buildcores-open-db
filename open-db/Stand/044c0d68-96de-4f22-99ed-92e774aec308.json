@@ -1,14 +1,68 @@
 {
   "opendb_id": "044c0d68-96de-4f22-99ed-92e774aec308",
+  "weight": 5000,
+  "display_mount_kind": "monitor_arm",
+  "display_mount_vesa_patterns": [
+    {
+      "width_mm": 75,
+      "height_mm": 75
+    },
+    {
+      "width_mm": 100,
+      "height_mm": 100
+    }
+  ],
+  "min_supported_display_weight_kg": 1.99,
+  "max_supported_display_weight_kg": 8.98,
+  "supported_display_count": 2,
+  "host_attachment_methods": ["grommet", "desk_clamp"],
+  "min_clamp_thickness_mm": 14.98,
+  "max_clamp_thickness_mm": 89.96,
   "metadata": {
     "name": "HUANUO HNDS6 Dual Monitor Mount Black",
     "manufacturer": "HUANUO",
-    "part_numbers": []
+    "part_numbers": [],
+    "series": "HNDS6",
+    "variant": "Dual Monitor",
+    "releaseYear": 2021
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.huanuo.com/products/hnds6-dual-monitor-mount-for-13-32-screens"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810145633601",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "HNDS6",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810145633601",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07T5SY43L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC7HVM5P2500",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

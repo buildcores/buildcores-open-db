@@ -1,14 +1,15 @@
 {
   "opendb_id": "3c04f11a-caea-4c91-b84f-3eee5711dc83",
-  "min_fan_rpm": 1600,
-  "max_fan_rpm": 3200,
-  "min_noise_level": 28,
+  "min_fan_rpm": 200,
+  "max_fan_rpm": 2100,
+  "min_noise_level": 30,
   "color": ["WHITE"],
   "lighting": ["ARGB", "Display"],
   "height": 62,
   "cpu_sockets": ["AM4", "AM5", "LGA 1700", "LGA 1851"],
   "water_cooled": true,
   "radiator_size": 360,
+  "fanless": false,
   "fan_size": 120,
   "fan_quantity": 3,
   "metadata": {
@@ -25,7 +26,7 @@
     "manufacturer_url": "https://lian-li.com/product/hydroshift-ii-lcd-s/?cn-reloaded=1"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -155,6 +156,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12790398",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "WASE-997",
@@ -214,13 +222,6 @@
         "source": "scan-computer",
         "channel": "uk",
         "source_product_id": "163854",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "19512661361",
         "pricing_enabled": true,
         "verified": false
       }

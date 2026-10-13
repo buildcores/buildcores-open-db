@@ -1,21 +1,62 @@
 {
   "opendb_id": "35ea7403-74ba-4680-b892-e8659f46912e",
-  "switch_type": "Linear",
+  "switch": "Dual Swap TMR Analog / Mechanical Switches",
+  "switch_type": "Magnetic",
   "size": "75%",
+  "size_other": "98%",
   "layout": "ANSI",
+  "hot_swappable": true,
   "backlighting": "RGB",
   "features": ["Knob"],
-  "connectivity": ["Wired USB-C"],
+  "connectivity": ["Wired USB-C", "Wired USB-A"],
+  "keycap_material": "Double-shot PBT",
+  "frame_material": "Plastic",
+  "polling_rate": 8000,
   "metadata": {
-    "name": "Logitech G512 x 75 Keyboard",
+    "name": "Logitech G512 x 75 Keyboard (Linear)",
     "manufacturer": "Logitech",
     "part_numbers": [],
-    "series": "G512"
+    "series": "G512",
+    "variant": "X 75(Linear) Black",
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-us/shop/p/g512-x-75-gaming-keyboard"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0097855208972",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "920-013927",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "097855208972",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GNZQ5Y1D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16823126773",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

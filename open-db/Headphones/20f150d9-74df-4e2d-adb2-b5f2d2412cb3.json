@@ -1,22 +1,84 @@
 {
   "opendb_id": "20f150d9-74df-4e2d-adb2-b5f2d2412cb3",
+  "driver_size": 90,
+  "frequency_response_low": 10,
+  "frequency_response_high": 50000,
   "headphone_type": "Closed-Back",
-  "ear_pad_material": [],
+  "ear_cup_type": "Over-Ear",
+  "weight": 560,
+  "frame_material": "Aluminum",
+  "ear_pad_material": ["Memory Foam"],
   "connection_types": ["Wired 3.5mm", "USB-C", "Bluetooth", "Wireless 2.4GHz"],
+  "battery_life": 40,
+  "bluetooth_version": "5.3",
+  "charging_port": "USB-C",
+  "wireless_range": 45,
+  "latency": 15,
   "has_microphone": true,
-  "features": [],
-  "use_cases": [],
-  "platforms": [],
-  "lighting": [],
+  "microphone_type": "Detachable Boom",
+  "noise_cancellation_mic": true,
+  "features": [
+    "ANC",
+    "Ambient Mode",
+    "Multi-Device Pairing",
+    "Spatial Audio",
+    "EQ Customization",
+    "App Support",
+    "Dolby Atmos"
+  ],
+  "use_cases": ["Audiophile", "Gaming", "Casual"],
+  "platforms": ["PC", "Mobile", "Console"],
+  "lighting": ["None"],
   "metadata": {
     "name": "Audeze Maxwell 2 ANC Wireless Gaming Headset PlayStation",
     "manufacturer": "Audeze",
-    "part_numbers": []
+    "part_numbers": [],
+    "series": "Maxwell",
+    "variant": "2 ANC - Playstation",
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.audeze.com/products/maxwell-2-anc-wireless-gaming-headset?srsltid=AU7gw4X9OoL6JNHmHeObX3TJYiya_0zrgx1gHcf_EUbarMQQmNZN4Xnq"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0819343015646",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "208-MW-1130-01",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "208-MW-1130-31",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "819343015646",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H8VW5LMW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13021191",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

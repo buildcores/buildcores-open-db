@@ -1,9 +1,10 @@
 {
   "opendb_id": "a0c780df-ee0e-4b86-9cc6-8313c2bd8e04",
+  "weight": 2000,
   "min_fan_rpm": 2100,
   "max_fan_rpm": null,
-  "min_noise_level": 34,
-  "max_noise_level": null,
+  "min_noise_level": 10,
+  "max_noise_level": 36,
   "color": ["WHITE"],
   "lighting": ["ARGB"],
   "height": 69,
@@ -12,18 +13,18 @@
   "radiator_size": 360,
   "fanless": false,
   "fan_size": 120,
-  "fan_quantity": null,
+  "fan_quantity": 3,
   "metadata": {
     "name": "Corsair NAUTILUS Water 360mm RS ARGB 74.37 CFM White",
     "manufacturer": "Corsair",
     "part_numbers": [],
     "series": "NAUTILUS RS",
-    "releaseYear": null,
+    "releaseYear": 2024,
     "manufacturer_color": "White"
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -183,6 +184,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11079089",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "CON360RSAW",
@@ -334,7 +342,7 @@
         "channel": "us",
         "source_product_id": "N82E16835181476",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -404,7 +412,7 @@
         "channel": "us",
         "source_product_id": "14199361670",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

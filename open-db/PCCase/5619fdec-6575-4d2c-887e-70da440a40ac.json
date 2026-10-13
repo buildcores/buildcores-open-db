@@ -39,7 +39,7 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -52,6 +52,11 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "5056547202341",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CA-H52FW-01",
         "region": "all"
@@ -60,6 +65,11 @@
         "type": "mpn",
         "value": "CC-H51FW-01",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CC-H51FW-R1",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -178,7 +188,7 @@
         "channel": "us",
         "source_product_id": "6522034",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -214,6 +224,13 @@
         "source_product_id": "24956",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811146343",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "proshop",
@@ -255,7 +272,7 @@
         "channel": "us",
         "source_product_id": "1366519486",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -8,7 +8,7 @@
   "refresh_rate": 240,
   "panel_type": "QD-OLED",
   "response_time": 0.03,
-  "color": ["BLACK", "RGB"],
+  "color": ["BLACK"],
   "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
@@ -18,6 +18,78 @@
     "usb_c": 1
   },
   "connectors": "2 x HDMI 2.1                                                      1 x DisplayPort 2.1                                                    1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "0fcf5ef9-0e4f-46bb-8af6-14cb7161dd8d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "b48b6dee-2e77-4bbf-870d-a96ce58e11ef",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "supported"
+        }
+      ]
+    },
+    {
+      "id": "1cd8843b-5cd9-4b25-94f6-180577f2bfb7",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "9a6e2fa1-30af-4763-bab8-e8c33d93df6d",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ac9db800-5af3-4a78-887b-b600b27a5d71",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.97,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609,
+    "height": 538.5,
+    "depth": 274
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609,
+    "height": 363,
+    "depth": 78
+  },
+  "weight": {
+    "with_stand_kg": 7.62,
+    "without_stand_kg": 4.97
+  },
+  "power_consumption": {
+    "typical_w": 30,
+    "manufacturer_max_w": 220,
+    "explicitly_reported_peak_w": 220
+  },
   "max_brightness": 1000,
   "hdr": "DisplayHDR 400 True Black",
   "adaptive_sync": "FreeSync Premium Pro",

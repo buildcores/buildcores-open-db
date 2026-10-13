@@ -1,8 +1,9 @@
 {
   "opendb_id": "dbc6ecf2-839d-4fcb-9086-78ab477867b0",
+  "weight": 1.56,
   "min_fan_rpm": 800,
   "max_fan_rpm": 2650,
-  "max_noise_level": 39.6,
+  "min_noise_level": 39.6,
   "color": ["BLACK"],
   "lighting": ["ARGB", "Display"],
   "height": 123,
@@ -23,7 +24,7 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -164,14 +165,14 @@
         "channel": "us",
         "source_product_id": "13C-0024-000D8",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "17944300217",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -8,7 +8,7 @@
   "refresh_rate": 240,
   "panel_type": "QD-OLED",
   "response_time": 0.03,
-  "color": ["BLACK"],
+  "color": ["BLUE", "BLACK"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
@@ -17,6 +17,60 @@
     "displayport_1_4a": 1
   },
   "connectors": "1 x DisplayPort 1.4                                                    2 x HDMI 2.1",
+  "display_inputs": [
+    {
+      "id": "2a557e68-c7d7-415f-ad09-e66feb120504",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "c285e3d2-1ff4-4ad6-b701-43525bfb5394",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "7ccb596d-60b6-4e16-8ee4-42866aa28ffe",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.3,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609.5,
+    "height": 516,
+    "height_min": 406,
+    "height_max": 516,
+    "depth": 210
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609.5,
+    "height": 355.6,
+    "height_min": 355.6,
+    "height_max": 355.6,
+    "depth": 72.6
+  },
+  "weight": {
+    "with_stand_kg": 6.26,
+    "without_stand_kg": 4.3
+  },
+  "power_consumption": {
+    "typical_w": 39.4,
+    "manufacturer_max_w": 190,
+    "explicitly_reported_peak_w": 190
+  },
   "max_brightness": 1000,
   "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",
