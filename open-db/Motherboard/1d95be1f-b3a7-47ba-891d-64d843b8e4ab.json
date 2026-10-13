@@ -107,6 +107,48 @@
     "2x Wi-Fi Antenna connectors",
     "3x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "7c1f4fb2-6365-44bb-81e4-89cb38c9522a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "44f74c47-272f-4856-9f9a-c785455a55b6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "26f65066-3834-4244-874a-e80254e89b2c",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d7d6858b-0f27-4cac-8695-2c0d72b8b6ea",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI X870E PRO-P WIFI DDR5 ATX",
     "manufacturer": "MSI",
