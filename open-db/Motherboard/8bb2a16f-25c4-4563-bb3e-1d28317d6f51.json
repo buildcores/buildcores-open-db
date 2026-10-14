@@ -19,7 +19,7 @@
     {
       "gen": "4.0",
       "quantity": 1,
-      "lanes": 16
+      "lanes": 4
     }
   ],
   "m2_slots": [
@@ -63,21 +63,26 @@
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek Dragon RTL8125BG"
+    },
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek RTL8126"
     }
   ],
-  "wireless_networking": "Wi-Fi 7",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
   },
   "fan_headers": {
     "cpu_fan": 2,
     "case_fan": 4,
-    "pump": 1,
-    "cpu_opt": 1
+    "pump": 2,
+    "cpu_opt": 0
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -89,6 +94,10 @@
     "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "temperature_sensor": 3,
+    "thunderbolt": 0
+  },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
@@ -98,7 +107,7 @@
   "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -117,6 +126,48 @@
     "1 x BIOS Flashback Button",
     "1 x Line Out Jack",
     "1 x Microphone Input Jack"
+  ],
+  "display_outputs": [
+    {
+      "id": "750ddacf-f146-4b97-8f6f-4af948f5a28d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bd719ae8-e5a0-45e8-8ed0-a8bc11b23191",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "389dd728-7f1d-4847-b71b-945ac201796d",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "Thunderbolt 4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e0b1891-3bc6-47d1-bc3a-120db701c7ad",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASRock Z890 Taichi",
