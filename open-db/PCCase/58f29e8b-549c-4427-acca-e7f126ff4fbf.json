@@ -41,7 +41,7 @@
     "manufacturer_url": "https://www.thermaltake.com/view-270-tg-argb-snow-mid-tower-chassis.html"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -49,9 +49,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711475643819",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CA-1Y7-00M6WN-00",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CA-1Y7-00M6WN-00",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -221,7 +231,7 @@
         "channel": "us",
         "source_product_id": "N82E16811133536",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -283,6 +293,13 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "3127564",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5369637178",
         "pricing_enabled": true,
         "verified": false
       }

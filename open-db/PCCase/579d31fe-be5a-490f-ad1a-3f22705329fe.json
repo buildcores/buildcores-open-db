@@ -41,15 +41,32 @@
     "manufacturer_url": "https://www.thermaltake.com/view-270-tg-argb-matcha-green-mid-tower-chassis.html"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711475643826",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "CA-1Y7-00MEWN-00",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CA-1Y7-00MEWN-00Ÿ",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CW6DTP65",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "newegg",
         "channel": "ca",
@@ -62,7 +79,7 @@
         "channel": "us",
         "source_product_id": "N82E16811133538",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

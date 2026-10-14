@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.bequiet.com/en/case/5323"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,9 +50,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4260052191811",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "BG075",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BG075",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -251,6 +261,13 @@
         "source_product_id": "BG075",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811734014",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "overclockers",
