@@ -1,0 +1,38 @@
+{
+  "opendb_id": "f9fba7c1-b151-4304-a4f8-804702afa3b7",
+  "connectivity_type": ["USB-A", "XLR"],
+  "on_device_ports": [
+    {
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "USB audio and operating power. The manufacturer documents a USB-A host connection; a suitable data cable is required."
+    },
+    {
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"],
+      "conditions": "Requires a separately purchased XLR cable and audio interface or mixer. RGB, mute and microphone function controls are inactive in XLR mode."
+    },
+    {
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "Headphone monitoring through the microphone requires USB mode."
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "lighting": ["RGB"],
+  "metadata": {
+    "name": "FIFINE AmpliGame AM8 USB/XLR Dynamic Microphone",
+    "manufacturer": "FIFINE",
+    "part_numbers": [],
+    "series": "AmpliGame"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://fifinemicrophone.com/products/fifine-ampligame-am8-microphone"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [],
+    "retailer_listings": []
+  }
+}
