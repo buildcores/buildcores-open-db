@@ -1,0 +1,64 @@
+{
+  "opendb_id": "dca4d1ad-4662-41be-aaad-f25633f9fc66",
+  "weight": 1287,
+  "connectivity_type": ["USB-C"],
+  "on_device_ports": [
+    {
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Uses USB bus power; original MV6 includes a 1 m USB-C to USB-C cable."
+    },
+    {
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "Latency-free headphone monitoring while connected through USB-C."
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control"],
+  "digital_capture_mode_claims": [
+    {
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "sample_rate_khz": 44.1,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "sample_rate_khz": 44.1,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    }
+  ],
+  "metadata": {
+    "name": "Shure MV6 USB Gaming Microphone",
+    "manufacturer": "Shure",
+    "part_numbers": ["MV6"]
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.shure.com/en-US/docs/guide/MV6"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "MV6",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
+}
