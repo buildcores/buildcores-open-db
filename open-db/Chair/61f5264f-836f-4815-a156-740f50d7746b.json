@@ -1,19 +1,72 @@
 {
   "opendb_id": "61f5264f-836f-4815-a156-740f50d7746b",
+  "seat_height_range_mm": {
+    "min": 397,
+    "max": 508
+  },
+  "seat_dimensions_mm": {
+    "width": 489,
+    "depth": 438
+  },
+  "dimensions_mm": {
+    "width": 665,
+    "depth": 665,
+    "height_min": 994,
+    "height_max": 1105
+  },
   "max_user_weight_kg": 159,
-  "seat_surface_materials": ["Fabric"],
-  "backrest_surface_materials": ["Fabric"],
+  "weight_kg": 13.1542,
+  "seat_surface_materials": ["Mesh"],
+  "backrest_surface_materials": ["Mesh"],
+  "armrest_adjustability": "MultiDirectional",
   "metadata": {
     "name": "Steelcase Karman",
     "manufacturer": "Steelcase",
-    "series": "Karman"
+    "series": "Karman",
+    "releaseYear": 2023
   },
   "general_product_information": {
     "manufacturer_url": "https://www.steelcase.com/products/office-chairs/steelcase-karman/"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0724274003801",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "78500f5a-7a1d-4c8b-af8f-66385a66ebc2",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "SX7K1HG70JQMPCXRJ3",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "724274003801",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CSHVBTND",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6590145",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
