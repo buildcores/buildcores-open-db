@@ -1,6 +1,13 @@
 {
   "opendb_id": "15cbea51-1c98-4d0b-ad00-274432a75f3d",
+  "driver_size": 40,
+  "frequency_response_low": 20,
+  "frequency_response_high": 20,
+  "headphone_type": "Closed-Back",
+  "ear_cup_type": "Over-Ear",
   "weight": 386.2,
+  "frame_material": "Steel",
+  "ear_pad_material": ["Fabric", "Memory Foam"],
   "connection_types": ["Bluetooth", "Wired USB-C Audio"],
   "battery_life": 20,
   "bluetooth_version": "5.3",
@@ -10,9 +17,14 @@
       "target": "Headset"
     }
   ],
+  "wireless_range": 10,
   "has_microphone": true,
   "microphone_type": "Built-In",
-  "features": ["ANC", "Ambient Mode", "Spatial Audio"],
+  "noise_cancellation_mic": true,
+  "features": ["ANC", "Ambient Mode", "Spatial Audio", "Dolby Atmos", "Multi-Device Pairing"],
+  "use_cases": ["Casual"],
+  "platforms": ["PC", "Mobile"],
+  "lighting": ["None"],
   "metadata": {
     "name": "Apple AirPods Max 2",
     "manufacturer": "Apple",
@@ -24,8 +36,53 @@
     "manufacturer_url": "https://support.apple.com/en-us/126620"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195951039305",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MHWM4AM/A",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "195951039305",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GSS72GZJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6550083",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "APAPMAX2BLU",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1M9VFFJTR8E7",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

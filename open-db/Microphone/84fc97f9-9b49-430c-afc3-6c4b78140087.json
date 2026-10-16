@@ -4,11 +4,13 @@
   "connectivity_type": ["USB-C"],
   "on_device_ports": [
     {
+      "id": "940b702d-8e0c-4892-97a9-bb1a1b7acab6",
       "connector": "USB-C",
       "roles": ["Audio to Host", "Operating Power Input"],
       "conditions": "Supplied SC29 USB-C to USB-C cable carries audio and USB bus power."
     },
     {
+      "id": "8f623d2d-d0a7-411d-8769-9d0c81aee3d0",
       "connector": "3.5 mm",
       "roles": ["Headphone Monitor Output"],
       "conditions": "Supports zero-latency headphone monitoring. Volume and mix knobs control monitoring; RODE Connect disables the physical mix knob and sets it fully clockwise."
@@ -17,6 +19,7 @@
   "polar_pattern": ["Cardioid"],
   "digital_capture_mode_claims": [
     {
+      "id": "9b620fe1-1a9f-4036-bb19-73929cae4c44",
       "sample_rate_khz": 48,
       "bit_depth_bits": 24,
       "digital_output_path": "USB Audio",

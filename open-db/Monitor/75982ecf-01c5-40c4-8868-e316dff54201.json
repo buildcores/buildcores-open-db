@@ -6,37 +6,155 @@
     "verticalRes": 2880
   },
   "refresh_rate": 60,
+  "panel_type": "IPS",
+  "color": ["GREY"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "display_inputs": [
     {
+      "id": "b391b830-7951-47f9-a9c1-41f20f2d916a",
       "connector": "usb_c",
       "count": 1,
       "version_label": "Thunderbolt 5",
-      "transport": "thunderbolt"
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "3f3edcb5-3058-4b91-a059-c13f7e34bbe4",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
     }
   ],
   "display_outputs": [
     {
+      "id": "902656d3-ef5a-4524-b991-2cfe8b907b37",
       "connector": "usb_c",
       "count": 1,
       "version_label": "Thunderbolt 5",
-      "transport": "thunderbolt"
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "5195456e-b96a-496d-acda-85266bb64af5",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
     }
   ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "b0496e86-4d4c-4b72-971c-f4c6889898c5",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.5,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Direct (The mounting module accepts standard third-party universal flat VESA brackets natively with standard metric machine plate fasteners)",
+          "weight_kg": 5.5
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 623,
+    "height": 583,
+    "height_min": 479,
+    "height_max": 583,
+    "depth": 207
+  },
+  "dimensions_without_stand_mm": {
+    "width": 623,
+    "height": 362,
+    "depth": 31
+  },
+  "weight": {
+    "with_stand_kg": 6.3,
+    "without_stand_kg": 5.5
+  },
+  "power_consumption": {
+    "typical_w": 33,
+    "manufacturer_max_w": 145,
+    "note": "Maximum power draw accounts for the 5K panel set to 600 nits brightness, the onboard six-speaker hardware array running at high volumes, and the full 96W upstream Power Delivery system actively charging a host computer over the primary Thunderbolt 5 interface."
+  },
   "max_brightness": 600,
   "metadata": {
     "name": "Apple Studio Display (2026)",
     "manufacturer": "Apple",
     "series": "Studio Display",
     "variant": "2026",
-    "releaseYear": 2026
+    "releaseYear": 2026,
+    "manufacturer_color": "Silver"
   },
   "general_product_information": {
     "manufacturer_url": "https://support.apple.com/en-us/126324"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195950528794",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MFEW4LL/A",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "195950528794",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GR1KYLPY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "MFEW4LL/A",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "APMFEW4LLA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19641524886",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

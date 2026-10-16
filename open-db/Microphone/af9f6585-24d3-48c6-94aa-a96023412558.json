@@ -1,19 +1,47 @@
 {
   "opendb_id": "af9f6585-24d3-48c6-94aa-a96023412558",
+  "weight": 765.4,
   "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "cbd9e271-15f4-4f6f-b4f0-082e387e6556",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
   "polar_pattern": ["Cardioid"],
   "features": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "564982c5-4e73-49a1-a616-4fae3f0a4bd4",
+      "basis": "Microphone Body",
+      "width_mm": 62.5,
+      "depth_mm": 197,
+      "height_mm": 149
+    },
+    {
+      "id": "fafea768-5093-41c2-ad26-cd2738178276",
+      "basis": "Included Stand Assembly",
+      "width_mm": 96,
+      "depth_mm": 189.7,
+      "height_mm": 148
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Shure SM7B Dynamic Studio Microphone",
     "manufacturer": "Shure",
     "part_numbers": ["SM7B", "sm7b"],
     "series": "SM7B",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2001
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.shure.com/en-US/products/microphones/sm7b?variant=SM7B&design=JTdCJTIyYmFzZU1vZGVsJTIyJTNBJTIyJTIyJTJDJTIyY29sb3JzJTIyJTNBJTdCJTIyYm9keSUyMiUzQSUyMmdsYW1vdXItZ2xvc3MlMjIlMkMlMjJyaW5nJTIyJTNBJTIybWludC1nbG9zcyUyMiUyQyUyMnRpZ2h0ZW5pbmctbnV0cyUyMiUzQSUyMm9yaWdpbmFsJTIyJTJDJTIyeW9rZSUyMiUzQSUyMmRpYW1vbmQtZ2xvc3MlMjIlMkMlMjJtb3VudGluZy1udXQlMjIlM0ElMjJvcmlnaW5hbCUyMiUyQyUyMmJhY2stY292ZXIlMjIlM0ElMjJvcmlnaW5hbCUyMiU3RCUyQyUyMmVuZ3JhdmluZ3MlMjIlM0ElN0IlN0QlN0Q%3D"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -22,8 +50,23 @@
       },
       {
         "type": "ean",
+        "value": "0042406088879",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "0716053675859",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "9331375437223",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "9331375437223",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -32,13 +75,33 @@
       },
       {
         "type": "mpn",
+        "value": "sm7b",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "SM7B",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "SM7B",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "042406088879",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "042406088879",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "716053675859",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -152,7 +215,7 @@
         "channel": "us",
         "source_product_id": "9135241",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -181,6 +244,13 @@
         "source_product_id": "318326",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0UK-0006-00011",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -236,7 +306,7 @@
         "channel": "us",
         "source_product_id": "48849909",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
