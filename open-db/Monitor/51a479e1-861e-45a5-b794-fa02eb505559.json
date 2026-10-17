@@ -17,6 +17,54 @@
     "displayport_1_4a": 1
   },
   "connectors": "2 x HDMI                                                           1 x DisplayPort",
+  "display_inputs": [
+    {
+      "id": "d222a4b8-2014-4577-9548-11d8f4240e78",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "54b8e133-5660-4c84-b11c-8b994d23cc35",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "f0347fae-1a5c-46e6-bab4-4654027d9914",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.34,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611,
+    "height": 497.6,
+    "depth": 200.4
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611,
+    "height": 497.6,
+    "depth": 58.8
+  },
+  "weight": {
+    "with_stand_kg": 6.68,
+    "without_stand_kg": 4.34
+  },
+  "power_consumption": {
+    "typical_w": 21.4,
+    "manufacturer_max_w": 65,
+    "explicitly_reported_peak_w": 65
+  },
   "max_brightness": 350,
   "hdr": "VESA DisplayHDR 400",
   "adaptive_sync": "G-Sync Compatible",
@@ -27,7 +75,9 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/ae/monitors/gaming/odyssey-g7-g70d-32-inch-144hz-1ms-4k-uhd-ls32dg702emxue/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
