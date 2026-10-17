@@ -1,5 +1,59 @@
 {
   "opendb_id": "b16a0169-6a00-47df-ab4d-49eb2e2ba37e",
+  "weight": 1910,
+  "color": ["PINK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "e407277e-ab03-42a5-9766-b49cdd390481",
+      "role": "Speaker",
+      "component_label": "Speaker",
+      "quantity": 2,
+      "dimensions_mm": {
+        "width": 105.918,
+        "height": 130.048,
+        "depth": 104.902,
+        "diameter": 70.14
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "0c2160d0-c90f-4c91-af74-a36a65c200d9",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "18f7f766-62ae-4862-b901-a9cdc16c4a71",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN (3.5)",
+      "source_side_connector": "3.5mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "bd578b2f-5f87-4be5-a0ce-61d13604ec72",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type A",
+      "source_side_connector": "USB Type A",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "41a69f82-9c49-451c-a648-52477c03081e",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "0f2ee6e9-36cd-4d96-b5ee-16673dd6308e",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Speaker",
+      "connector": "DC Barrel IN"
+    }
+  ],
   "lighting": ["RGB"],
   "metadata": {
     "name": "Edifier G2000 Pink 32W PC Computer Speakers",

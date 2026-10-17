@@ -18,6 +18,46 @@
     "usb_c": 1
   },
   "connectors": "1 DisplayPort 1.4, 2 HDMI 2.1, 1 USB 5Gbps Type-B upstream, 1 USB 5Gbps Type-A downstream, 1 USB-C 5Gbps downstream",
+  "display_inputs": [
+    {
+      "id": "3f6996c9-9c52-40b0-958d-dbe7c19b79aa",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "424460a0-b23b-438f-afaa-77a77e96344d",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.09,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 814,
+    "height": 445,
+    "depth": 232
+  },
+  "dimensions_without_stand_mm": {
+    "width": 814,
+    "height": 445,
+    "depth": 111.3
+  },
+  "weight": {
+    "with_stand_kg": 8.14,
+    "without_stand_kg": 5.09
+  },
+  "power_consumption": {
+    "typical_w": 36.7,
+    "manufacturer_max_w": 190,
+    "explicitly_reported_peak_w": 190
+  },
   "max_brightness": 1000,
   "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",

@@ -1,5 +1,67 @@
 {
   "opendb_id": "10f8c994-2815-4bdc-ae43-d286bd1c3cd5",
+  "weight": 2000,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BLUE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "e7c0986c-ee20-4d53-9d99-297d5aed131d",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    },
+    {
+      "id": "06d76189-d2ce-4728-9914-89cf83769ac7",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "831bfdf2-7864-4c4e-89f9-747653ee0e05",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "31ce8c7e-017b-4798-84ab-fcdd528e287b",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA Line Level",
+      "source_side_connector": "3.5 mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "fcc793ef-96bb-4f40-8e36-8e86a025cd0e",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type C",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "24 bit/96 kHz"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "331c4a5d-a2d9-4d10-bd42-2da97537bd7f",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "conditions": "24V/2.5A"
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Kanto ORA Indigo",
