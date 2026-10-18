@@ -1,5 +1,24 @@
 {
   "opendb_id": "3572acf3-6ab0-4ba1-85f6-2daf66faddbf",
+  "seat_height_range_mm": {
+    "min": 475,
+    "max": 595
+  },
+  "seat_dimensions_mm": {
+    "width": 435,
+    "depth": 460
+  },
+  "dimensions_mm": {
+    "height_min": 475,
+    "height_max": 595
+  },
+  "base_diameter_mm": 700,
+  "max_user_weight_kg": 125,
+  "weight_kg": 26.4,
+  "seat_surface_materials": ["Fabric"],
+  "backrest_surface_materials": ["Fabric"],
+  "armrest_adjustability": "MultiDirectional",
+  "lumbar_support": "Adjustable",
   "metadata": {
     "name": "Fractal Refine Fabric Light",
     "manufacturer": "Fractal Design",
@@ -12,8 +31,37 @@
     "manufacturer_url": "https://www.fractal-design.com/products/chairs/refine-series/refine/refine-fabric-light/"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276106737",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340172706731",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-CH-RE1F-02",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "843276106737",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CSYXYX39",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
