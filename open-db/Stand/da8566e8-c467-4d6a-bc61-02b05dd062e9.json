@@ -1,5 +1,6 @@
 {
   "opendb_id": "da8566e8-c467-4d6a-bc61-02b05dd062e9",
+  "weight": 3800,
   "display_mount_kind": "monitor_arm",
   "display_mount_vesa_patterns": [
     {
@@ -13,18 +14,59 @@
   ],
   "min_supported_display_weight_kg": 1.8,
   "max_supported_display_weight_kg": 10,
+  "max_total_display_weight_kg": 10,
   "supported_display_count": 1,
+  "host_attachment_methods": ["desk_clamp", "grommet"],
+  "min_clamp_thickness_mm": 10,
+  "max_clamp_thickness_mm": 60,
   "metadata": {
     "name": "Ergotron LX Pro Desk Monitor Arm",
     "manufacturer": "Ergotron",
-    "series": "LX Pro"
+    "series": "LX Pro",
+    "releaseYear": 2024
   },
   "general_product_information": {
     "manufacturer_url": "https://www.ergotron.com/en-au/products/product-details/45-682"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0698833092714",
+        "region": "us"
+      },
+      {
+        "type": "gtin",
+        "value": "00698833091588",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "98-731-292",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "698833092714",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DWGWZRM2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15701120648",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

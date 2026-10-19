@@ -1,6 +1,5 @@
 {
   "opendb_id": "84fc97f9-9b49-430c-afc3-6c4b78140087",
-  "weight": 540,
   "connectivity_type": ["USB-C"],
   "on_device_ports": [
     {
@@ -13,7 +12,7 @@
       "id": "8f623d2d-d0a7-411d-8769-9d0c81aee3d0",
       "connector": "3.5 mm",
       "roles": ["Headphone Monitor Output"],
-      "conditions": "Supports zero-latency headphone monitoring. Volume and mix knobs control monitoring; RODE Connect disables the physical mix knob and sets it fully clockwise."
+      "conditions": "Zero-latency audio monitoring with mix tracking."
     }
   ],
   "polar_pattern": ["Cardioid"],
@@ -23,10 +22,20 @@
       "sample_rate_khz": 48,
       "bit_depth_bits": 24,
       "digital_output_path": "USB Audio",
-      "claim": "supported"
+      "claim": "maximum"
     }
   ],
   "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "2b912a26-21c8-4196-a05a-cf556a0a9e36",
+      "basis": "Microphone Body",
+      "width_mm": 62,
+      "depth_mm": 50,
+      "height_mm": 184
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "RODE NT-USB+ Professional USB Microphone",
     "manufacturer": "RODE",
@@ -37,14 +46,41 @@
     "manufacturer_url": "https://rode.com/en-us/products/nt-usb-plus?variant_sku=NTUSBPLUS"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "NTUSBPLUS",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "698813009893",
+        "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00MMKQOEM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6VHKXB5505",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2334185697",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

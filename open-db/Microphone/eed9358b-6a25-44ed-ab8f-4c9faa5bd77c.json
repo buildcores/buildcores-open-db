@@ -1,17 +1,55 @@
 {
   "opendb_id": "eed9358b-6a25-44ed-ab8f-4c9faa5bd77c",
-  "connectivity_type": ["USB-C", "USB-A"],
+  "weight": 368,
+  "connectivity_type": ["USB-A"],
+  "on_device_ports": [
+    {
+      "id": "882f3c33-a712-4ad1-a6ae-46637a17d8b8",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes 2m USB-C to USB-A host cable"
+    }
+  ],
   "polar_pattern": ["Cardioid"],
-  "features": ["Mute Button"],
-  "lighting": [],
+  "features": ["On-Device Mute Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "65317ee6-4997-47a3-8ded-d99376a070d2",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "2e44d2fb-8a4f-4c87-85e0-fccec937e590",
+      "sample_rate_khz": 96,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "7d81cf3e-2a5e-405b-8f5a-4293866b3b37",
+      "basis": "Included Stand Assembly",
+      "width_mm": 53,
+      "depth_mm": 53,
+      "height_mm": 152
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "HyperX SoloCast 2 USB Condenser Microphone - Black",
     "manufacturer": "HyperX",
-    "part_numbers": ["AR0A0AA"]
+    "part_numbers": ["AR0A0AA"],
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://row.hyperx.com/products/hyperx-solocast-2-gaming-usb-condenser-microphone"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -19,14 +57,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0198701525790",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "AR0A0AA",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "AR0A0AA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "198701525790",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "198701525790",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -140,7 +193,7 @@
         "channel": "us",
         "source_product_id": "6642761",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "cenowarka",
@@ -217,7 +270,7 @@
         "channel": "us",
         "source_product_id": "17761407116",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
