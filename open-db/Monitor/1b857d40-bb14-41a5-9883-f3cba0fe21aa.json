@@ -6,9 +6,10 @@
     "verticalRes": 1440
   },
   "refresh_rate": 180,
+  "native_refresh_activation": "automatic",
   "panel_type": "IPS",
   "response_time": 1,
-  "color": ["BLACK"],
+  "color": ["GREY"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
@@ -21,14 +22,6 @@
   "display_inputs": [
     {
       "id": "a4ba91b6-98a3-4e31-a994-b198e42f7c08",
-      "connector": "hdmi",
-      "count": 1,
-      "version_label": "2.0",
-      "video_signal": "hdmi",
-      "transport": "native"
-    },
-    {
-      "id": "adbc9347-8c3b-4519-8055-7bc3ef686cfb",
       "connector": "displayport",
       "count": 1,
       "version_label": "1.4",
@@ -36,10 +29,20 @@
       "transport": "native"
     },
     {
+      "id": "adbc9347-8c3b-4519-8055-7bc3ef686cfb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
       "id": "d72b7c0e-95d1-43ea-94da-65f9a785e73f",
       "connector": "usb_c",
       "count": 1,
-      "transport": "native"
+      "version_label": "1.4",
+      "transport": "native",
+      "graphics_route": "discrete"
     }
   ],
   "vesa_mounting": {
@@ -49,27 +52,28 @@
         "id": "30c3fd8c-194c-49e6-a005-d9f9e5ff9ec8",
         "pattern": "100x100",
         "mounted_weight_kg": 3.93,
-        "installation": "included_manufacturer_attachment"
+        "installation": "separate_manufacturer_attachment"
       }
     ]
   },
   "dimensions_with_stand_mm": {
-    "width": 614.8,
+    "width": 614.81,
     "height": 512.9,
-    "depth": 218.8
+    "height_min": 392.88,
+    "height_max": 512.88,
+    "depth": 218.82
   },
   "dimensions_without_stand_mm": {
-    "width": 614.8,
-    "height": 512.9,
-    "depth": 60.1
+    "width": 614.81,
+    "height": 367.08,
+    "depth": 60.12
   },
   "weight": {
     "with_stand_kg": 6.61,
     "without_stand_kg": 3.93
   },
   "power_consumption": {
-    "typical_w": 231,
-    "manufacturer_max_w": 65
+    "typical_w": 23.1
   },
   "max_brightness": 400,
   "hdr": "HDR10",
@@ -78,8 +82,8 @@
     "name": "Asus ROG Strix XG27ACS 27\" 1440p 180Hz IPS Monitor",
     "manufacturer": "ASUS",
     "part_numbers": [],
-    "series": "ROG Strix",
-    "variant": "XG27ACS",
+    "series": "ROG",
+    "variant": "Strix XG27ACS",
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },

@@ -6,10 +6,22 @@
     "verticalRes": 2160
   },
   "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
+  "alternate_display_modes": [
+    {
+      "id": "28bbfafa-29b1-47ca-b4b0-407947b17eb2",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "refresh_rate": 480,
+      "activation": "manual_mode_switch"
+    }
+  ],
   "panel_type": "WOLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": ["RGB"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
@@ -39,7 +51,7 @@
       "id": "65067b5f-dc45-4a80-b025-4db53dc80b8a",
       "connector": "usb_c",
       "count": 1,
-      "transport": "native"
+      "transport": "dp_alt_mode"
     }
   ],
   "vesa_mounting": {
@@ -48,14 +60,19 @@
       {
         "id": "5fa43cae-50ce-4209-ac91-60b655441fa2",
         "pattern": "100x100",
-        "mounted_weight_kg": 7.3,
-        "installation": "included_manufacturer_attachment"
+        "mounted_weight_kg": 4.6,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "ROG Wall Mount Kit"
+        }
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 714,
     "height": 579,
+    "height_min": 499,
+    "height_max": 579,
     "depth": 274
   },
   "dimensions_without_stand_mm": {
@@ -64,12 +81,11 @@
     "depth": 71
   },
   "weight": {
-    "with_stand_kg": 12.3,
-    "without_stand_kg": 7.3
+    "with_stand_kg": 7.3,
+    "without_stand_kg": 4.5
   },
   "power_consumption": {
-    "typical_w": 42,
-    "manufacturer_max_w": 280
+    "manufacturer_max_w": 44
   },
   "max_brightness": 1300,
   "hdr": "VESA DisplayHDR True Black 400",
@@ -78,8 +94,8 @@
     "name": "Asus ROG Swift OLED PG32UCDP 31.5\" 4K 240Hz WOLED Monitor",
     "manufacturer": "ASUS",
     "part_numbers": ["90LM0A50-B013B0", "ROG Swift OLED PG32UCDP", "PG32UCDP", "90LM0A50-B01370"],
-    "series": "",
-    "variant": "Black",
+    "series": "ROG",
+    "variant": "Swift OLED PG32UCDP",
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
