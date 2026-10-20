@@ -6,6 +6,7 @@
     "verticalRes": 2880
   },
   "refresh_rate": 165,
+  "native_refresh_activation": "manual_mode_switch",
   "alternate_display_modes": [
     {
       "id": "e32b005c-8768-4581-a382-256445ebceea",
@@ -20,8 +21,15 @@
   "panel_type": "Mini LED IPS",
   "response_time": 1,
   "color": ["BLACK"],
+  "lighting": ["RGB"],
   "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1": 1,
+    "usb_c": 1
+  },
+  "connectors": "2x HDMI 2.1, 1x DisplayPort 2.1 (UHBR20), 1x USB Type-C Upstream (DisplayPort Alt Mode / 90W Power Delivery / Data), 2x USB 3.2 Gen 1 Type-A Downstream, 1x 4-Pole 3.5mm Headphone Jack (Audio+Mic with DTS Headphone:X)",
   "display_inputs": [
     {
       "id": "96611bba-4158-4867-92cb-eab3a3cac1a0",
@@ -29,7 +37,8 @@
       "count": 2,
       "version_label": "2.1",
       "video_signal": "hdmi",
-      "transport": "native"
+      "transport": "native",
+      "graphics_route": "discrete"
     },
     {
       "id": "d5b5c7b9-76e5-455f-be08-54eff5429636",
@@ -37,12 +46,27 @@
       "count": 1,
       "version_label": "2.1 (UHBR 20)",
       "video_signal": "displayport",
-      "transport": "native"
+      "transport": "native",
+      "graphics_route": "discrete"
     },
     {
       "id": "f2b216f7-6eee-4124-a8b0-03d089c67925",
       "connector": "usb_c",
-      "count": 1
+      "count": 1,
+      "version_label": "USB-C Upstream (90W Power Delivery)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete"
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "0d04fad7-8679-4dd7-919b-a5eb02070536",
+      "connector": "other",
+      "count": 1,
+      "version_label": "4-Pole Stereo Audio Output",
+      "transport": "native",
+      "connector_label": "3.5mm Headphone Jack (with DTS Headphone:X support)"
     }
   ],
   "vesa_mounting": {
@@ -50,7 +74,12 @@
     "options": [
       {
         "id": "4066ab13-3f58-4f00-8dd1-07a684f65779",
-        "pattern": "100x100"
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.7,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Compatible with standard M4 machine screws."
+        }
       }
     ]
   },
@@ -68,6 +97,10 @@
     "with_stand_kg": 8.5,
     "without_stand_kg": 5.7
   },
+  "power_consumption": {
+    "typical_w": 47,
+    "note": "This monitor features a high-capacity external power supply adapter. Its integration framework includes an advanced upstream USB-C port equipped to handle up to 90W of continuous Power Delivery to power a paired laptop host. While operating under standard standby, sleep, or power-save modes, total system draw is less than 0.5W, falling to less than 0.3W when the monitor is toggled to DC Off."
+  },
   "max_brightness": 1250,
   "hdr": "VESA DisplayHDR 1000",
   "adaptive_sync": "FreeSync Premium",
@@ -75,14 +108,60 @@
     "name": "LG UltraGear evo 27GM950B-B",
     "manufacturer": "LG",
     "series": "UltraGear evo",
+    "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.lg.com/uk/monitors/gaming-monitor/27gm950b-b/"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195174147726",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "27GM950B-B.AUS",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "195174147726",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GVPJ1DHG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6670047",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824026527",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20318704729",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

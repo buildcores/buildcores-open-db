@@ -8,8 +8,15 @@
   "refresh_rate": 70,
   "panel_type": "IPS",
   "response_time": 5,
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 4
+  },
+  "connectors": "2x HDMI 2.1, 1x Thunderbolt 4 Upstream (96W PD / DisplayPort Alt Mode / Data), 1x Thunderbolt 4 Downstream (15W PD / Daisy-Chain Out), 1x USB-C Upstream (35W PD / DisplayPort Alt Mode / Data), 1x USB-C Downstream (USB 3.2 Gen 2 / 10Gbps / 15W PD), 2x USB Type-A Downstream (USB 3.2 Gen 2 / 10Gbps / 7.5W), 1x 3.5mm Audio Headphone Jack",
   "display_inputs": [
     {
       "id": "4624d59f-f766-4b17-a3b2-e772fb47242e",
@@ -31,8 +38,17 @@
       "id": "5a608590-d7bd-4908-8e42-61d0eaeee7fb",
       "connector": "usb_c",
       "count": 1,
+      "version_label": "USB 3.2 Gen 2 / 35W Power Delivery",
       "video_signal": "displayport",
       "transport": "dp_alt_mode"
+    },
+    {
+      "id": "0bb2e212-0b5d-4717-9460-19305a1b781f",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 (Downstream / Daisy-Chain Out)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt"
     }
   ],
   "display_outputs": [
@@ -42,7 +58,8 @@
       "count": 1,
       "version_label": "Thunderbolt 4",
       "video_signal": "displayport",
-      "transport": "thunderbolt"
+      "transport": "thunderbolt",
+      "graphics_route": "discrete"
     }
   ],
   "vesa_mounting": {
@@ -50,7 +67,13 @@
     "options": [
       {
         "id": "a2c8e77a-b9a8-42f7-b027-f26be4192773",
-        "pattern": "100x100"
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.7,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Requires standard industry M4 x 10 mm machine screws to fasten the VESA mount plate directly into the rear chassis holes.",
+          "weight_kg": 8.64
+        }
       }
     ]
   },
@@ -70,21 +93,71 @@
     "without_stand_kg": 5.7
   },
   "power_consumption": {
-    "manufacturer_max_w": 280
+    "typical_w": 29,
+    "manufacturer_max_w": 280,
+    "note": "Maximum power consumption value includes total hardware power delivery allocation across upstream lanes, supporting up to 96W power delivery on the primary host Thunderbolt 4 link and up to 35W power delivery on the secondary USB-C connection."
   },
   "max_brightness": 450,
   "hdr": "HDR10; VESA DisplayHDR 400",
+  "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "BenQ MA270S",
     "manufacturer": "BenQ",
-    "series": "MA270S"
+    "series": "MA270S",
+    "releaseYear": 2026,
+    "manufacturer_color": "Silver and Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.benq.com/en-us/monitor/ma-series-for-macbook/ma270s/spec.html"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840046052768",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MA270S",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840046052768",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GD8QFJLG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6675755",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0JC-002S-002D9",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20306503774",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

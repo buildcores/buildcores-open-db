@@ -9,27 +9,23 @@
   "native_refresh_activation": "overclock",
   "panel_type": "Mini LED IPS",
   "mprt_response_time": 1,
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 2
+  },
+  "connectors": "2x HDMI 2.0, 1x DisplayPort 1.4, 1x USB 2.0 Type-A (Firmware Upgrades Only), 1x 3.5 mm Audio Out",
   "display_inputs": [
     {
       "id": "901663ab-b12e-469b-a68c-888245e9c566",
       "connector": "hdmi",
       "count": 2,
-      "version_label": "2.0",
+      "version_label": "HDMI 2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "mode_claims": [
-        {
-          "id": "320c4400-358d-4ac4-9913-3a44576008b2",
-          "resolution": {
-            "horizontalRes": 2560,
-            "verticalRes": 1440
-          },
-          "refresh_rate": 144,
-          "claim": "supported"
-        }
-      ]
+      "graphics_route": "discrete"
     },
     {
       "id": "e0b4b7a1-836d-47f2-8fc1-33c7b81508ca",
@@ -38,17 +34,17 @@
       "version_label": "1.4",
       "video_signal": "displayport",
       "transport": "native",
-      "mode_claims": [
-        {
-          "id": "c17418ef-fd55-410c-b38e-3681a319dd0c",
-          "resolution": {
-            "horizontalRes": 2560,
-            "verticalRes": 1440
-          },
-          "refresh_rate": 200,
-          "claim": "supported"
-        }
-      ]
+      "graphics_route": "discrete"
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "574a37bd-6a28-43e5-b27f-2dd6b9c36331",
+      "connector": "other",
+      "count": 1,
+      "version_label": "Analog Audio Pass-through",
+      "transport": "native",
+      "connector_label": "3.5mm Headphone Jack"
     }
   ],
   "vesa_mounting": {
@@ -56,7 +52,12 @@
     "options": [
       {
         "id": "c5a83fbb-65d8-4e62-8401-c87c14603bf4",
-        "pattern": "100x100"
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.8,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Compatible with standard M4 x 10 mm machine screws inside the rear interface recess."
+        }
       }
     ]
   },
@@ -70,25 +71,60 @@
     "height": 364,
     "depth": 72
   },
+  "weight": {
+    "with_stand_kg": 6.55
+  },
+  "power_consumption": {
+    "typical_w": 120
+  },
   "max_brightness": 1000,
   "hdr": "HDR1000",
   "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "KTC M27T6S",
-    "manufacturer": "KTC"
+    "manufacturer": "KTC",
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
   },
   "general_product_information": {
     "manufacturer_url": "https://us.ktcplay.com/products/27-inch-200hz-hdr1000-miniled-gaming-monitor"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "M27T6S",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "M27T6S",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GX29CGZK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12974667",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20118770895",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

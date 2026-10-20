@@ -9,28 +9,113 @@
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": [],
-  "viewing_angle": "178° H x 178° V",
+  "lighting": ["RGB"],
+  "viewing_angle": "78°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 2.1                                                    1 x USB Type-C",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1a": 1,
+    "usb_c": 1
+  },
+  "connectors": "2 x HDMI 2.1 1 x DisplayPort 2.1a (UHBR20) 1 x USB Type-C (DP Alt Mode, 98W PD)",
+  "display_inputs": [
+    {
+      "id": "2c8fa0e8-d70a-4011-be0e-fee1b27ae7d7",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "f90a51a2-aa2b-4b4c-9cad-a37200d72f81",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 2.1a (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "824ac47c-3215-4a5d-9a40-ff7eb39cb0b1",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C Upstream (98W Power Delivery)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete"
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "31f51568-b5c2-408d-a9d5-7b88810f5a71",
+      "connector": "other",
+      "count": 1,
+      "version_label": "Analog Audio Pass-through",
+      "transport": "native",
+      "connector_label": "3.5mm Headphone Jack"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "fb467431-f458-4d97-9e00-c8fd738e36c2",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.4,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Compatible with the four included VESA wall mount standoff screws provided in the box or standard third-party M4 hardware bolts."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 610,
+    "height": 422,
+    "depth": 242
+  },
+  "dimensions_without_stand_mm": {
+    "width": 610,
+    "height": 356,
+    "depth": 69
+  },
+  "weight": {
+    "with_stand_kg": 8.1,
+    "without_stand_kg": 5.4
+  },
+  "power_consumption": {
+    "typical_w": 33,
+    "manufacturer_max_w": 230,
+    "note": "This monitor features a highly efficient internal power board handling direct power inputs of 100~240V, 50/60Hz. The upstream USB-C video input port supports integrated USB Power Delivery capable of routing up to 98W of continuous charging power to a connected laptop host. Standard standby mode consumes 0.5W, and system Off mode draws 0.3W."
+  },
   "max_brightness": 1000,
-  "hdr": "",
-  "adaptive_sync": "FreeSync",
+  "hdr": "VESA DisplayHDR True Black 400, HDR10",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "MSI MPG 272URX 27\" 4K 240Hz QD-OLED Monitor",
     "manufacturer": "MSI",
     "part_numbers": ["MPG 272URX QD-OLED", "9S6-3CD79A-017", "500778738A1", "9S6-3CD79A-018"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Monitor/MPG-272URX-QD-OLED/Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142388471",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142388471",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -58,9 +143,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MPG 272URX QD-OLED",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142388471",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142388471",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -181,7 +276,7 @@
         "channel": "us",
         "source_product_id": "6623962",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -251,7 +346,7 @@
         "channel": "us",
         "source_product_id": "N82E16824475467",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -328,7 +423,7 @@
         "channel": "us",
         "source_product_id": "15162259334",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
