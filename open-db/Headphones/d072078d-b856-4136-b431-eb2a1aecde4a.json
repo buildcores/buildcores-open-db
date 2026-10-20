@@ -8,10 +8,16 @@
   "weight": 320,
   "frame_material": "Plastic",
   "ear_pad_material": ["Memory Foam"],
-  "connection_types": ["USB-A", "Bluetooth", "Wireless 2.4GHz", "USB-C"],
+  "connection_types": ["Wireless 2.4GHz", "Bluetooth"],
   "battery_life": 70,
   "bluetooth_version": "5.2",
   "charging_port": "USB-C",
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
   "wireless_range": 20,
   "latency": 15,
   "has_microphone": true,
@@ -19,7 +25,7 @@
   "noise_cancellation_mic": true,
   "features": ["ANC"],
   "use_cases": ["Gaming", "Casual"],
-  "platforms": ["Mobile", "PC", "Console"],
+  "platforms": ["PC", "Console", "Mobile"],
   "lighting": ["None"],
   "metadata": {
     "name": "Razer BlackShark V2 Pro (2023) Closed-Back Gaming Headset",
@@ -29,36 +35,28 @@
       "RZ04-04530100-R3U1",
       "RZ04-04530100-R3M1"
     ],
+    "series": "BlackShark",
+    "variant": "V2 Pro (2023 Edition) - Black",
     "releaseYear": 2023
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840272901625",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "RZ04-04530100-R3M1",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "RZ04-04530100-R3U1",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "RZ04-04530100-R3U1                                                    RZ04-04530100-R3M1                                                    RZ04-04530100",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "840272901625",
-        "region": "all"
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -191,7 +189,7 @@
       {
         "source": "amazon",
         "channel": "us",
-        "source_product_id": "B0D41DGRY2",
+        "source_product_id": "B0BY1FXC9N",
         "pricing_enabled": true,
         "verified": true
       },
@@ -341,13 +339,6 @@
         "source_product_id": "2939825",
         "pricing_enabled": true,
         "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "1278691914",
-        "pricing_enabled": true,
-        "verified": true
       }
     ]
   }
