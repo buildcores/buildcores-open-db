@@ -2,22 +2,22 @@
   "opendb_id": "526c190d-5f73-4e3e-bfd7-5cf34de43e4f",
   "weight": 106,
   "dimensions": {
-    "length": 131,
-    "width": 79,
-    "height": 41
+    "length": 131.4,
+    "width": 79.2,
+    "height": 41.1
   },
   "shape": "Ergonomic",
   "handedness": "Right-handed",
-  "connectivity": ["Wireless 2.4GHz"],
+  "connectivity": ["Wireless 2.4GHz", "Wired USB-A"],
   "sensor": "HERO 44K sensor",
-  "max_dpi": 25600,
+  "max_dpi": 44000,
   "polling_rate": 1000,
   "buttons": 13,
   "switches": "LIGHTFORCE Hybrid Optical-Mechanical Switches",
   "switch_type": "Hybrid",
   "onboard_memory": true,
   "lighting": ["ARGB", "RGB"],
-  "battery_life": 120,
+  "battery_life": 130,
   "battery_type": "Rechargeable",
   "grip_types": ["Claw", "Palm", "Fingertip"],
   "silent_clicks": false,
@@ -31,7 +31,7 @@
     "manufacturer_url": "https://www.logitechg.com/en-in/shop/p/g502-x-plus-wireless-lightforce.910-006173"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -39,14 +39,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855167002",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "910-006169",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "910-006169",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855167002",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855167002",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -160,7 +175,7 @@
         "channel": "us",
         "source_product_id": "6512123",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "logitech-g",
@@ -223,14 +238,14 @@
         "channel": "us",
         "source_product_id": "N82E16826197559",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "1633127025",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
