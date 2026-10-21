@@ -8,15 +8,11 @@
     "width": 435,
     "depth": 460
   },
-  "dimensions_mm": {
-    "height_min": 475,
-    "height_max": 595
-  },
   "base_diameter_mm": 700,
   "max_user_weight_kg": 125,
-  "weight_kg": 26.4,
-  "seat_surface_materials": ["Fabric"],
-  "backrest_surface_materials": ["Fabric"],
+  "weight_kg": 25.8,
+  "seat_surface_materials": ["Other"],
+  "backrest_surface_materials": ["Other"],
   "armrest_adjustability": "MultiDirectional",
   "lumbar_support": "Adjustable",
   "metadata": {
@@ -31,15 +27,43 @@
     "manufacturer_url": "https://www.fractal-design.com/products/chairs/refine-series/refine/refine-alcantara-dark/"
   },
   "identifiers": {
-    "version": 2,
-    "identifiers": [],
+    "version": 5,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276106768",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340172706762",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-CH-RE1A-01",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "843276106768",
+        "region": "us"
+      }
+    ],
     "retailer_listings": [
       {
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0CWPHD5FK",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "9590367331",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }
