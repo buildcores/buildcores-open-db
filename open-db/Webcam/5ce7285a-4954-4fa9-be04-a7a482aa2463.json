@@ -1,10 +1,43 @@
 {
   "opendb_id": "5ce7285a-4954-4fa9-be04-a7a482aa2463",
+  "weight": 121,
   "resolution": "1080p",
   "resolution_other": "720p",
   "frame_rate": "30fps",
   "frame_rate_other": "60fps, 30fps",
-  "connectivity_type": ["Wired USB-C"],
+  "capture_mode_claims": [
+    {
+      "id": "f7ddbe89-786e-4f2e-80d6-972366321ebb",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "maximum_at_resolution",
+      "conditions": "Supports HDR (RightLight 4 with HDR); requires at least 2GB RAM for 1080p video streaming."
+    },
+    {
+      "id": "337ad21a-d766-4c9e-a556-f80744d69eeb",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "Supports high-frame-rate tracking; requires a minimum of 1GB RAM for streaming 720p."
+    },
+    {
+      "id": "c2406076-4199-4c03-b402-975b85354640",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "Standard web conferencing mode for platforms like Google Meet."
+    }
+  ],
+  "connectivity_type": ["Wired USB-C", "Wired"],
   "lighting": ["None"],
   "metadata": {
     "name": "Logitech Brio 500 1080p Webcam with Privacy Cover - Graphite",
@@ -12,7 +45,9 @@
     "part_numbers": ["960-001493", "6520150"],
     "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-ph/shop/p/brio-500-webcam.960-001423"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

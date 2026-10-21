@@ -8,15 +8,18 @@
   },
   "size": "Small",
   "shape": "Ambidextrous",
+  "handedness": "Right-handed",
   "connectivity": ["Wired USB-C", "Wireless 2.4GHz", "Wired USB-A"],
   "sensor": "Pixart PAW3370",
   "max_dpi": 26000,
   "polling_rate": 1000,
   "buttons": 6,
   "switches": "Kailh GO Optical Switches",
+  "switch_type": "Optical",
   "onboard_memory": true,
   "rgb": false,
   "lighting": ["None"],
+  "battery_life": 60,
   "battery_type": "Rechargeable",
   "grip_types": ["Claw", "Palm", "Fingertip"],
   "silent_clicks": false,
@@ -25,13 +28,14 @@
     "manufacturer": "ENDGAME GEAR",
     "part_numbers": [],
     "series": "OP1",
-    "variant": "we - White"
+    "variant": "we - White",
+    "releaseYear": 2023
   },
   "general_product_information": {
-    "manufacturer_url": "https://endgamegear.com/products/op1we-gaming-mouse?srsltid=AfmBOoqc2dVhrwSjilJKxafxVOCrlhBH28LcufHn2LdNYvhQ7Tx2rdJ3"
+    "manufacturer_url": "https://endgamegear.com/products/op1we-gaming-mouse?srsltid=AfmBOoqc2dVhrwSjilJKxafxVOCrlhBH28LcufHn2LdNYvhQ7Tx2rdJ3&variant=45743506096348"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -39,9 +43,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4251442509088",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "EGG-OP1WE-WHT",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "EGG-OP1WE-WHT",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -156,6 +170,13 @@
         "source_product_id": "55425050902910",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "ca",
+        "source_product_id": "17969742",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "caseking",
