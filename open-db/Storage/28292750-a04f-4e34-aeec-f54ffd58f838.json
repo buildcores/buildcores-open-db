@@ -1,5 +1,11 @@
 {
   "opendb_id": "28292750-a04f-4e34-aeec-f54ffd58f838",
+  "capacity": 2000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 5.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "PNY CS3150 RGB 2TB M.2-2280 SSD PCIe 5.0 NVMe",
     "manufacturer": "PNY",
@@ -7,14 +13,31 @@
     "series": "CS3150",
     "variant": "2000GB"
   },
-  "capacity": 2000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 5.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16820177174"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "M280CS3150XHS-2TB-RB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820177174",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820177174",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

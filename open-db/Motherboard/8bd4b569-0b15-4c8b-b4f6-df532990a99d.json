@@ -1,15 +1,55 @@
 {
   "opendb_id": "8bd4b569-0b15-4c8b-b4f6-df532990a99d",
+  "socket": "LGA 1851",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel Z890",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["GREY", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2580-25110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +71,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
   "metadata": {
     "name": "Gigabyte Z890M GAMING X DDR5 Micro ATX",
     "manufacturer": "Gigabyte",
@@ -35,59 +79,342 @@
     "series": "Z890M",
     "variant": ""
   },
-  "socket": "LGA 1851",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel Z890",
-  "color": ["GREY", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac0b843b62bf624ce867"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac0b843b62bf624ce868"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac0b843b62bf624ce869"
-    },
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac0b843b62bf624ce86a"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac0b843b62bf624ce86b"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac0b843b62bf624ce86c"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0DK7KXTK3",
-    "newegg_sku": "N82E16813145533",
-    "walmart_sku": 15457459347
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331865160",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890M GAMING X",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523045411",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100082518",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100082518",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100082518",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100082518",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DK7KXTK3",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306961813886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIZ890MGMNGX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "Z890M GAMING X",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBGB-641",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3777",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3328860",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "Z890M GAMING X",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8PV",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3328860",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "207001",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "Z890M GAMING X",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB01GB296",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145533",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145533",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-GIG-03491",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21654385",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21654385",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3295184",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3295184",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3295184",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3295184",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "389418",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202410090024",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "152555",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3328860",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15457459347",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

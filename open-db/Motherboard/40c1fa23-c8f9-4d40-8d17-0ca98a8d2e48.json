@@ -1,15 +1,39 @@
 {
   "opendb_id": "40c1fa23-c8f9-4d40-8d17-0ca98a8d2e48",
+  "socket": "AM3",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD 760G",
   "memory": {
     "max": 8,
     "ram_type": "DDR2",
     "slots": 2
   },
+  "color": ["RGB"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 0,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 100 Mb/s Ports"],
   "metadata": {
     "name": "ASRock AMD 760G A780LM-S AM3/AM2+/AM2 DDR2 Micro ATX",
     "manufacturer": "ASRock",
@@ -35,38 +63,127 @@
     "series": "AMD",
     "variant": ""
   },
-  "socket": "AM3",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD 760G",
-  "color": ["RGB"],
-  "pcie_slots": [
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aba31698c62132087fd4"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3aba31698c62132087fd5"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Unknown",
-      "_id": "69b3aba31698c62132087fd6"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 100 Mb/s Ports"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B002RA6CQM"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711140876351",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "A780LM-S",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B002RA6CQM",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

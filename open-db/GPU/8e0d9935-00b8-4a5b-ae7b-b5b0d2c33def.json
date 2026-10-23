@@ -1,5 +1,21 @@
 {
   "opendb_id": "8e0d9935-00b8-4a5b-ae7b-b5b0d2c33def",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 6950 XT",
+  "core_count": 5120,
+  "core_base_clock": 1890,
+  "core_boost_clock": 2495,
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 18000,
+  "memory_bus": 0,
+  "tdp": 335,
+  "interface": "PCIe x16",
+  "color": ["GREEN", "BLACK"],
+  "lighting": [],
+  "length": 332,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 3,
@@ -22,21 +38,48 @@
     "series": "Radeon RX 6950 XT",
     "variant": "ASRock"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 6950 XT",
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 1890,
-  "core_boost_clock": 2495,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["GREEN", "BLACK"],
-  "length": 332,
-  "tdp": 335,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 5120,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710483933998",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RX6900XT OCF 16G",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RX6950XT OCF 16G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2510736",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2510736",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2510736",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

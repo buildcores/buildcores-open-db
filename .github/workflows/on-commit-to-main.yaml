@@ -13,11 +13,29 @@ jobs:
   detect-json-changes:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    permissions:
+      contents: read
+      actions: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Validate sync contract and resolve explicit create retries
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          : > /tmp/create_retry_files.txt
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            node scripts/validate-sync-contract.mjs "$(git rev-parse HEAD~1)" "$(git rev-parse HEAD)" --create-retries-file /tmp/create_retry_files.txt
+          fi
 
       - name: Get file changes
         id: file-changes
@@ -109,7 +127,11 @@ jobs:
 
           while IFS= read -r file; do
             [ -z "$file" ] && continue
-            printf 'update\t%s\n' "$file" >> "$QUEUE_FILE"
+            if grep -Fqx -- "$file" /tmp/create_retry_files.txt; then
+              printf 'create\t%s\n' "$file" >> "$QUEUE_FILE"
+            else
+              printf 'update\t%s\n' "$file" >> "$QUEUE_FILE"
+            fi
           done < /tmp/modified_files.txt
 
           while IFS= read -r file; do

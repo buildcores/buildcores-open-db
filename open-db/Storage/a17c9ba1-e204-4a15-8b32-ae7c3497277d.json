@@ -1,5 +1,11 @@
 {
   "opendb_id": "a17c9ba1-e204-4a15-8b32-ae7c3497277d",
+  "capacity": 2000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2242",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KingSpec XG7000 2TB M.2-2242 SSD PCIe 4.0 X4 NVMe",
     "manufacturer": "KingSpec",
@@ -7,14 +13,31 @@
     "series": "XG7000",
     "variant": "2000GB"
   },
-  "capacity": 2000,
-  "type": "SSD",
-  "form_factor": "M.2-2242",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-000D-00185"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "XG7000-2TB 2242",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-000D-00185",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-000D-00185",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

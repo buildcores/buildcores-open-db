@@ -1,16 +1,208 @@
 {
   "opendb_id": "3785e011-d839-42f4-a454-ffac88010c45",
+  "connectivity_type": ["USB-A"],
+  "on_device_ports": [
+    {
+      "id": "40afe5e3-26ef-4180-87bb-571756ab4d87",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"]
+    },
+    {
+      "id": "fc54e3d2-ec00-486c-8d30-b9c36a3563b1",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Supercardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "ff4287e8-8f2c-424b-a0a2-dd3f64abfd08",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "8407b5eb-fc9d-4ab9-b085-664a1e8629d0",
+      "sample_rate_khz": 96,
+      "bit_depth_bits": 32,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["WHITE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "04767022-b11b-4d1c-b28c-534d2bb0aafb",
+      "basis": "Included Stand Assembly",
+      "width_mm": 90,
+      "depth_mm": 90,
+      "height_mm": 213
+    }
+  ],
+  "lighting": ["RGB"],
   "metadata": {
     "name": "Razer Seiren V3 Chroma RGB USB Microphone - White",
     "manufacturer": "Razer",
-    "part_numbers": ["RZ19-05060200-R3U1"]
+    "part_numbers": ["RZ19-05060200-R3U1", "RZ19-05060200-R3M1"],
+    "releaseYear": 2024
   },
-  "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Cardioid"],
-  "features": ["Mute Button", "RGB Lighting"],
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0CTJ5F2FB",
-    "bestbuy_sku": 6578692
+    "manufacturer_url": "https://www.razer.com/streaming-microphones/razer-seiren-v3-chroma?srsltid=AU7gw4W4JgGMqUv3Q-BKIxwB98g8ut1ouF50HirDynWsgXHQhIZC36H4"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840272914212",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840272914212",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ19-05060200-R3M1",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ19-05060200-R3U1",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ19-05060200-R3U1",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840272914212",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840272914212",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CTJ5F2FB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6578692",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

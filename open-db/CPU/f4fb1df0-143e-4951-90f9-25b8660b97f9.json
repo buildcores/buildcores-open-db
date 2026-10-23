@@ -1,5 +1,9 @@
 {
   "opendb_id": "f4fb1df0-143e-4951-90f9-25b8660b97f9",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 14,
     "performance": 14,
@@ -16,19 +20,19 @@
     "l3": 35
   },
   "specifications": {
+    "tdp": 65,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 1536,
-      "types": []
-    },
-    "tdp": 65,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 1536,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2650L V4 1.7 GHz 14-Core LGA2011-3",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8066002033006"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Broadwell",
-  "coreFamily": "Broadwell-EP",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8066002033006",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

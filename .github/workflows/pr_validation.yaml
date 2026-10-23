@@ -9,18 +9,29 @@ jobs:
   validate-json:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
       contents: read
+      actions: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "24"
+
+      - name: Test repository sync preflight
+        run: node --test scripts/validate-sync-contract.test.mjs
+
+      - name: Check repository sync contract and main import status
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.sha }}
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/validate-sync-contract.mjs "$BASE_SHA" "$HEAD_SHA"
 
       - name: Install ajv-cli and ajv-formats
         run: |
@@ -40,10 +51,10 @@ jobs:
 
           git diff --name-status origin/${{ github.base_ref }} ${{ github.sha }} > /tmp/pr_changes.txt || true
 
-          awk '$1 == "A" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/added_files.txt
-          awk '$1 == "M" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/modified_files.txt
-          awk '$1 == "D" && $2 ~ /\.json$/ && $2 !~ /\.schema\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/deleted_files.txt
-          awk '$1 ~ /^R[0-9]+$/ && $3 ~ /\.json$/ && $3 !~ /\.schema\.json$/ { print $2 "\t" $3 }' /tmp/pr_changes.txt > /tmp/renamed_files.tsv
+          awk '$1 == "A" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/added_files.txt
+          awk '$1 == "M" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/modified_files.txt
+          awk '$1 == "D" && $2 ~ /^open-db\/.*\.json$/ { print $2 }' /tmp/pr_changes.txt > /tmp/deleted_files.txt
+          awk '$1 ~ /^R[0-9]+$/ && $3 ~ /^open-db\/.*\.json$/ { print $2 "\t" $3 }' /tmp/pr_changes.txt > /tmp/renamed_files.tsv
 
           # Combine added and modified files
           cat /tmp/added_files.txt /tmp/modified_files.txt > /tmp/changed_files.txt

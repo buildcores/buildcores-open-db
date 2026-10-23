@@ -1,5 +1,21 @@
 {
   "opendb_id": "935287d5-86c4-4433-be2b-a9ac7898c8ce",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 3080 10 GB",
+  "core_count": 0,
+  "core_base_clock": 1710,
+  "core_boost_clock": 1800,
+  "memory": 10,
+  "memory_type": "GDDR6X",
+  "effective_memory_clock": 19000,
+  "memory_bus": 0,
+  "tdp": 320,
+  "interface": "PCIe x16",
+  "color": ["GREY", "BLACK"],
+  "lighting": [],
+  "length": 320,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 2,
@@ -26,21 +42,26 @@
     "series": "GeForce RTX 3080 10GB LHR",
     "variant": "Gigabyte"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 3080 10 GB",
-  "memory": 10,
-  "memory_type": "GDDR6X",
-  "core_base_clock": 1710,
-  "core_boost_clock": 1800,
-  "effective_memory_clock": 19000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["GREY", "BLACK"],
-  "length": 320,
-  "tdp": 320,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 0,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GV-N3080VISION OC-10GD (rev. 2.0)",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GV-N3080VISION OC-10GD REV2",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GV-N3080VISION OC-10GD Rev2.0",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

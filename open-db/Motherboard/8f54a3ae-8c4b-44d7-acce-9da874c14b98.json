@@ -1,15 +1,90 @@
 {
   "opendb_id": "8f54a3ae-8c4b-44d7-acce-9da874c14b98",
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 192,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["GREY", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "E",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek RTL8125BG"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +95,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +106,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
   "metadata": {
     "name": "ASRock Z790 Steel Legend WiFi DDR5 ATX",
     "manufacturer": "ASRock",
@@ -35,100 +114,286 @@
     "series": "Z790",
     "variant": ""
   },
-  "socket": "LGA 1700",
-  "form_factor": "ATX",
-  "chipset": "Intel Z790",
-  "color": ["GREY", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac1d1698c6213208b24e"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b24f"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b250"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b251"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b252"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b253"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b254"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b255"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b256"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b257"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b258"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac1d1698c6213208b259"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125BG",
-      "_id": "69b3ac1d1698c6213208b25a"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0BJF1RS19",
-    "newegg_sku": "N82E16813162090"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710483940859",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBKD0-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z790 STEEL LEGEND WIFI",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1875238",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1875238",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1875238",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1875238",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BJF1RS19",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306303242622",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "Z790 STEEL LEGEND WIFI-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAR-417",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90-MXBKD0-A0UAYZ",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2820206",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2310-1L3",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2820206",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "90-MXBKD0-A0UAYZ",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "Z790 STEEL LEGEND WIFI-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813162090",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813162090",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3136462",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3136462",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3136462",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3136462",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "326604",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "140680",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2820206",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

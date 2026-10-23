@@ -1,5 +1,9 @@
 {
   "opendb_id": "38a5507d-8a19-4894-a2bd-33afc1148a0d",
+  "series": "Intel Core i9",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 16,
     "performance": 16,
@@ -16,19 +20,19 @@
     "l3": 22
   },
   "specifications": {
+    "tdp": 165,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
-    "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i9 7960X 2.8 GHz 16-Core LGA2066 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CD8067303734802"],
     "series": "Intel Core i9"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CD8067303734802",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

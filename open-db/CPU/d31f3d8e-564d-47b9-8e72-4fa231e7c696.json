@@ -1,5 +1,9 @@
 {
   "opendb_id": "d31f3d8e-564d-47b9-8e72-4fa231e7c696",
+  "series": "AMD Opteron",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Abu Dhabi",
+  "socket": "G34",
   "cores": {
     "total": 16,
     "performance": 16,
@@ -16,19 +20,19 @@
     "l3": 16
   },
   "specifications": {
+    "tdp": 115,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 115,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD Opteron 6378 2.4 GHz 16-Core G34 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["OS6378WKTGGHK"],
     "series": "AMD Opteron"
   },
-  "series": "AMD Opteron",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Abu Dhabi",
-  "socket": "G34",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "OS6378WKTGGHK",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

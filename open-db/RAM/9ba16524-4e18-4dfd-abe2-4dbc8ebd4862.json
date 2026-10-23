@@ -1,9 +1,22 @@
 {
   "opendb_id": "9ba16524-4e18-4dfd-abe2-4dbc8ebd4862",
+  "speed": 5600,
+  "ram_type": "DDR5",
+  "profile_support": [],
+  "form_factor": "262-pin SO-DIMM",
   "modules": {
     "quantity": 1,
     "capacity_gb": 8
   },
+  "capacity": 8,
+  "color": ["BLACK"],
+  "lighting": [],
+  "cas_latency": 46,
+  "voltage": null,
+  "ecc": "Non-ECC",
+  "registered": "Unbuffered",
+  "heat_spreader": false,
+  "rgb": false,
   "metadata": {
     "name": "Crucial CT8G56C46S5 Black SODIMM DDR5-5600 CL46 8GB (1x8GB)",
     "manufacturer": "Crucial",
@@ -11,20 +24,38 @@
     "series": "CT8G56C46S5",
     "variant": "5600 CL46"
   },
-  "speed": 5600,
-  "ram_type": "DDR5",
-  "form_factor": "262-pin SO-DIMM",
-  "capacity": 8,
-  "color": ["BLACK"],
-  "cas_latency": 46,
-  "voltage": null,
-  "ecc": "Non-ECC",
-  "registered": "Unbuffered",
-  "heat_spreader": false,
-  "rgb": false,
-  "profile_support": [],
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16820156353"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CT8G56C46S5",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "RAM6358",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820156353",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820156353",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

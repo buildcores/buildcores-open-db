@@ -1,15 +1,55 @@
 {
   "opendb_id": "83b20b6a-42b5-4b35-b2d5-d2fea031a7e6",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B840",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["GREY", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 4,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +71,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
   "metadata": {
     "name": "Asus B840M MAX GAMING AX AM5 DDR5 Micro ATX",
     "manufacturer": "ASUS",
@@ -35,55 +79,16 @@
     "series": "B840M",
     "variant": ""
   },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B840",
-  "color": ["GREY", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3ac014fd4af70a349ea6d"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac014fd4af70a349ea6e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac014fd4af70a349ea6f"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac014fd4af70a349ea70"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac014fd4af70a349ea71"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac014fd4af70a349ea72"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "B840M MAX GAMING AX",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

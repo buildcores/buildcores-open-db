@@ -1,15 +1,75 @@
 {
   "opendb_id": "e440b88c-aea6-4a76-a60b-569344e309ae",
+  "socket": "LGA 1851",
+  "form_factor": "ATX",
+  "chipset": "Intel Z890",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["WHITE", "GREY"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2580-25110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2580-25110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +80,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +91,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek)"],
   "metadata": {
     "name": "Gigabyte Z890 AORUS PRO ICE WIFI DDR5 ATX",
     "manufacturer": "Gigabyte",
@@ -35,84 +99,321 @@
     "series": "Z890",
     "variant": ""
   },
-  "socket": "LGA 1851",
-  "form_factor": "ATX",
-  "chipset": "Intel Z890",
-  "color": ["WHITE", "GREY"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac874fd4af70a34a259d"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a259e"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a259f"
-    },
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a25a0"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a25a1"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a25a2"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a25a3"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a25a4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac874fd4af70a34a25a5"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac874fd4af70a34a25a6"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0DJP8NFWP",
-    "newegg_sku": "N82E16813145524",
-    "bestbuy_sku": 6604422,
-    "walmart_sku": 13535621627
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523045084",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890 AORUS PRO ICE",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523045084",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100082499",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100082499",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100082499",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100082499",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DJP8NFWP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306961650046",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6604422",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIZ890ARSPRO",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "Z890 AORUS PRO ICE",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBGB-630",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "Z890-AO-PRO-ICE",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3327998",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2305-8PK",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3327998",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "27851",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "206987",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "Z890 AORUS PRO ICE",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145524",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145524",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MOT-GIG-03483",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3295175",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3295175",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3295175",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3295175",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "389647",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202410090017",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3327998",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "13535621627",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

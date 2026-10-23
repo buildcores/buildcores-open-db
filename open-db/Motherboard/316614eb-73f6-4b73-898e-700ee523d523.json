@@ -1,15 +1,50 @@
 {
   "opendb_id": "316614eb-73f6-4b73-898e-700ee523d523",
+  "socket": "LGA 2066",
+  "form_factor": "ATX",
+  "chipset": "Intel X299",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 4,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": null,
+      "key": null,
+      "interface": "PCIe 3.0 x4, SATA III"
+    },
+    {
+      "size": null,
+      "key": null,
+      "interface": "PCIe 3.0 x4, SATA III"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 1
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Intel I219-V Gigabit LAN"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,55 +66,6 @@
     "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI X299 RAIDER LGA2066 ATX Motherboard",
-    "manufacturer": "MSI",
-    "series": "X299 RAIDER",
-    "variant": null,
-    "releaseYear": 2017,
-    "part_numbers": ["X299 RAIDER"]
-  },
-  "socket": "LGA 2066",
-  "form_factor": "ATX",
-  "chipset": "Intel X299",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3ab8ece32fbd088830983"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ab8ece32fbd088830984"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": null,
-      "key": null,
-      "interface": "PCIe 3.0 x4, SATA III",
-      "_id": "69b3ab8ece32fbd088830985"
-    },
-    {
-      "size": null,
-      "key": null,
-      "interface": "PCIe 3.0 x4, SATA III",
-      "_id": "69b3ab8ece32fbd088830986"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Intel I219-V Gigabit LAN",
-      "_id": "69b3ab8ece32fbd088830987"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "USB 3.1 / USB 3.2 Gen 1 Type-A",
     "USB 2.0 Type-A",
@@ -87,11 +76,161 @@
     "Ethernet",
     "PS/2"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B071G3JNJL",
-    "newegg_sku": "9SIAYKAJV38506",
-    "walmart_sku": 208662678
+  "metadata": {
+    "name": "MSI X299 RAIDER LGA2066 ATX Motherboard",
+    "manufacturer": "MSI",
+    "part_numbers": ["X299 RAIDER"],
+    "series": "X299 RAIDER",
+    "variant": null,
+    "releaseYear": 2017
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142148662",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X299 RAIDER",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142148662",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B071G3JNJL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAYKAJV38506",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAYKAJV38506",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "208662678",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

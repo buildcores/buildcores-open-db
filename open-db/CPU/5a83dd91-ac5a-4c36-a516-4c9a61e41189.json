@@ -1,44 +1,68 @@
 {
   "opendb_id": "5a83dd91-ac5a-4c36-a516-4c9a61e41189",
+  "series": "Athlon X2 300",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Richland",
+  "socket": "FM2",
   "cores": {
     "total": 2,
-    "performance": 2,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 2
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "1 × 64 KB Instruction + 2 × 16 KB Data (96 KB total)",
     "l2": 1,
     "l3": 0
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "None"
-    },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
     "tdp": 65,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
+    },
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
-    "name": "AMD Athlon X2 350 3.5 GHz 2-Core FM2 OEM/Tray",
+    "name": "AMD Athlon X2 350 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["AD350XOKA23HL"],
-    "series": "AMD Athlon X2"
+    "series": "Athlon X2 300",
+    "variant": "350",
+    "releaseYear": 2013
   },
-  "series": "AMD Athlon X2",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Richland",
-  "socket": "FM2",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD350XOKA23HL",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

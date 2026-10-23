@@ -1,5 +1,9 @@
 {
   "opendb_id": "cd030ee7-8539-4b8a-8fa8-1738ad51e50b",
+  "series": "Ryzen Threadripper",
+  "microarchitecture": "Zen 4",
+  "coreFamily": "Storm Peak",
+  "socket": "sTR5",
   "cores": {
     "total": 32,
     "performance": 0,
@@ -22,36 +26,28 @@
     "l3": 128
   },
   "specifications": {
+    "tdp": 350,
     "integratedGraphics": {
       "model": "None",
       "baseClock": 0,
       "boostClock": 0,
       "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": 1,
-      "types": ["DDR5"],
-      "channels": 4
-    },
-    "tdp": 350,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "5 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 1,
+      "types": ["DDR5"],
+      "channels": 4
+    }
   },
   "metadata": {
     "name": "AMD Ryzen Threadripper 7970X",
     "part_numbers": ["AMD Ryzen™ Threadripper™ 7970X", "100-100001351WOF"],
     "releaseYear": 0
   },
-  "series": "Ryzen Threadripper",
-  "microarchitecture": "Zen 4",
-  "coreFamily": "Storm Peak",
-  "socket": "sTR5",
-  "general_product_information": {
-    "amazon_sku": "B0CK2W3WFP",
-    "newegg_sku": "N82E16819113806",
-    "walmart_sku": 5177043337
-  }
+  "general_product_information": {}
 }

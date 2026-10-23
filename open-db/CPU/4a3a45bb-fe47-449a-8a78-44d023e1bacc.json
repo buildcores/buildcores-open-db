@@ -1,5 +1,9 @@
 {
   "opendb_id": "4a3a45bb-fe47-449a-8a78-44d023e1bacc",
+  "series": "AMD Athlon X4",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Godavari",
+  "socket": "FM2+",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 0
   },
   "specifications": {
+    "tdp": 95,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD Athlon X4 880K 4 GHz 4-Core FM2+ OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["AD880KXBI44JC"],
     "series": "AMD Athlon X4"
   },
-  "series": "AMD Athlon X4",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
-  "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD880KXBI44JC",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

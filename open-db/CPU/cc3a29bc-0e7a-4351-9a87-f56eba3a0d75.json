@@ -1,57 +1,235 @@
 {
   "opendb_id": "cc3a29bc-0e7a-4351-9a87-f56eba3a0d75",
+  "series": "Ryzen 7 1000",
+  "microarchitecture": "Zen",
+  "coreFamily": "Summit Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 8,
-    "performance": 8,
+    "performance": 0,
     "efficiency": 0,
     "threads": 16
   },
   "clocks": {
     "performance": {
-      "base": 3000,
-      "boost": 3700
+      "base": 3,
+      "boost": 3.7
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "768KB",
-    "l2": 4096,
-    "l3": 16384
+    "l1": "8 × 64 KB Instruction + 8 × 32 KB Data (768 KB total)",
+    "l2": 4,
+    "l3": 16
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 0,
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": null,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 65,
-    "eccSupport": false,
+    "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD Ryzen 7 1700",
+    "manufacturer": "AMD",
     "part_numbers": ["YD1700BBAEBOX"],
+    "series": "Ryzen 7 1000",
+    "variant": "1700",
     "releaseYear": 2017
   },
-  "series": "Ryzen 7 1st Gen",
-  "microarchitecture": "Zen",
-  "coreFamily": "Summit Ridge",
-  "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "B06WP5YCX6",
-    "newegg_sku": "9SIA4RE9NS1916",
-    "walmart_sku": 55577371
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-7-1700.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143308328",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "YD1700BBAEBOX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143308328",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B06WP5YCX6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "1582201",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "1582201",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113428",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113428",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00003189346",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "1582201",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "55577371",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

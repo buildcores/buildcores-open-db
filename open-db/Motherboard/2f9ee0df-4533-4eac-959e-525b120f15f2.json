@@ -1,15 +1,39 @@
 {
   "opendb_id": "2f9ee0df-4533-4eac-959e-525b120f15f2",
+  "socket": "LGA 2011",
+  "form_factor": "EATX",
+  "chipset": "Intel X79",
   "memory": {
     "max": 128,
     "ram_type": "DDR3",
     "slots": 8
   },
+  "color": ["BLACK", "RED"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 4,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 1,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s"],
   "metadata": {
     "name": "Asus X79 Rampage IV Black Edition DDR3 EATX",
     "manufacturer": "ASUS",
@@ -35,38 +63,142 @@
     "series": "X79",
     "variant": ""
   },
-  "socket": "LGA 2011",
-  "form_factor": "EATX",
-  "chipset": "Intel X79",
-  "color": ["BLACK", "RED"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3ab96b3d0c7b56c55c925"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ab96b3d0c7b56c55c926"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ab96b3d0c7b56c55c927"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B00GIZ3APS"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0637039259620",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Rampage IV Black Edition",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RAMPAGE IV BLACK EDITION",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RAMPAGEIV-BLACK",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "886227631674",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00GIZ3APS",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

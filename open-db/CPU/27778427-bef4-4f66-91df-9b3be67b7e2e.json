@@ -1,47 +1,219 @@
 {
   "opendb_id": "27778427-bef4-4f66-91df-9b3be67b7e2e",
+  "series": "A6-7000",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
   "cores": {
     "total": 2,
-    "performance": 2,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 2
   },
   "clocks": {
     "performance": {
       "base": 3.5,
       "boost": 3.9
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "2 × 32 KB Instruction + 2 × 32 KB Data (64 KB total)",
     "l2": 1,
     "l3": 0
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "AMD Radeon R5 (on-die)"
-    },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
     "tdp": 65,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "AMD Radeon R5 Graphics",
+      "baseClock": 0,
+      "boostClock": 758,
+      "shaderCount": 256
+    },
     "eccSupport": false,
-    "includesCooler": true,
+    "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 32,
+      "types": ["DDR3"],
+      "channels": 2
+    }
   },
   "metadata": {
-    "name": "AMD A6 A6-7400K 3.5 GHz 2-Core FM2+",
+    "name": "AMD A6-7400K",
     "manufacturer": "AMD",
     "part_numbers": ["AD740KYBJABOX"],
-    "series": "AMD A6"
+    "series": "A6-7000",
+    "variant": "A6-7400K",
+    "releaseYear": 2014
   },
-  "series": "AMD A6",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Kaveri",
-  "socket": "FM2+",
   "general_product_information": {
-    "amazon_sku": "B00LUH17XG",
-    "walmart_sku": 39520847
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/a-series/a6-series-apu-for-desktops/a6-7400k-with-radeon-r5-series.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143304948",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5269692783126",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AD740KYBJABOX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143304948",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B00LUH17XG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMAD740KYBJA",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113370",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113370",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "39520847",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

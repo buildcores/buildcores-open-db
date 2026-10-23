@@ -1,15 +1,60 @@
 {
   "opendb_id": "0a8ea08c-3f4a-4904-981a-cd80a55fa607",
+  "socket": "LGA 1151",
+  "form_factor": "ATX",
+  "chipset": "Intel Z370",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": ["BLACK", "RED"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +76,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s"],
   "metadata": {
     "name": "Gigabyte Z370 AORUS GAMING WIFI (rev. 1.0) DDR4 ATX",
     "manufacturer": "Gigabyte",
@@ -35,63 +84,137 @@
     "series": "Z370",
     "variant": ""
   },
-  "socket": "LGA 1151",
-  "form_factor": "ATX",
-  "chipset": "Intel Z370",
-  "color": ["BLACK", "RED"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ab713722c3e205bcf159"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 1,
-      "_id": "69b3ab713722c3e205bcf15a"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab713722c3e205bcf15b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab713722c3e205bcf15c"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab713722c3e205bcf15d"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab713722c3e205bcf15e"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ab713722c3e205bcf15f"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B077R97JPN"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523011751",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z370 AORUS GAMING WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z370 AORUS GAMING WIFI (rev. 1.0)",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523011751",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B077R97JPN",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

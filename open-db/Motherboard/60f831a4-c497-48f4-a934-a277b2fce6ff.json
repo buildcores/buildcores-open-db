@@ -1,15 +1,60 @@
 {
   "opendb_id": "60f831a4-c497-48f4-a934-a277b2fce6ff",
+  "socket": "LGA 2066",
+  "form_factor": "ATX",
+  "chipset": "Intel X299",
   "memory": {
     "max": 256,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 4,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219-V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +76,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s (Intel I219-V)"],
   "metadata": {
     "name": "MSI X299 TOMAHAWK AC LGA2066 DDR4 ATX",
     "manufacturer": "MSI",
@@ -35,61 +84,21 @@
     "series": "X299",
     "variant": ""
   },
-  "socket": "LGA 2066",
-  "form_factor": "ATX",
-  "chipset": "Intel X299",
-  "color": ["BLACK", "GREY"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3abc0fe073ff824ef6fa0"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3abc0fe073ff824ef6fa1"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abc0fe073ff824ef6fa2"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abc0fe073ff824ef6fa3"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abc0fe073ff824ef6fa4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abc0fe073ff824ef6fa5"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219-V",
-      "_id": "69b3abc0fe073ff824ef6fa6"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s (Intel I219-V)"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "7B05-002R",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X299 TOMAHAWK AC",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

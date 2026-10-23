@@ -1,15 +1,60 @@
 {
   "opendb_id": "350db230-d8f0-45ff-865f-4d52c7435a9e",
+  "socket": "LGA 1200",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B560",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": ["GREY", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219-V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +76,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s (Intel I219-V)"],
   "metadata": {
     "name": "Asus B560 PRIME B560M-K LGA1200 DDR4 Micro ATX",
     "manufacturer": "ASUS",
@@ -35,61 +84,21 @@
     "series": "B560",
     "variant": ""
   },
-  "socket": "LGA 1200",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B560",
-  "color": ["GREY", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3aba64fd4af70a349c755"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3aba64fd4af70a349c756"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba64fd4af70a349c757"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba64fd4af70a349c758"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba64fd4af70a349c759"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aba64fd4af70a349c75a"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219-V",
-      "_id": "69b3aba64fd4af70a349c75b"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s (Intel I219-V)"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "90MB16S0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B560M-K",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

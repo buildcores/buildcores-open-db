@@ -1,5 +1,9 @@
 {
   "opendb_id": "bbd9ce5b-e78d-45ab-90ec-e993c71832dc",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Haswell",
+  "coreFamily": "Haswell-EP",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 12,
     "performance": 12,
@@ -16,19 +20,19 @@
     "l3": 30
   },
   "specifications": {
+    "tdp": 120,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 120,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2685 V3 2.6 GHz 12-Core LGA2011-3 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8064401684201"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Haswell",
-  "coreFamily": "Haswell-EP",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8064401684201",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

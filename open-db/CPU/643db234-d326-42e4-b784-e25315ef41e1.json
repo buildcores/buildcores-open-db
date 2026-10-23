@@ -1,5 +1,9 @@
 {
   "opendb_id": "643db234-d326-42e4-b784-e25315ef41e1",
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-S",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 72,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 72,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E3 1240 V6 3.7 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80677E31240V6"],
     "series": "Intel Xeon E3"
   },
-  "series": "Intel Xeon E3",
-  "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-S",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80677E31240V6",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

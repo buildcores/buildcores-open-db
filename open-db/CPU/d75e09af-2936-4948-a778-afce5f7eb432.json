@@ -1,44 +1,88 @@
 {
   "opendb_id": "d75e09af-2936-4948-a778-afce5f7eb432",
+  "series": "Opteron 6300",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Abu Dhabi",
+  "socket": "G34",
   "cores": {
     "total": 16,
-    "performance": 16,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 16
   },
   "clocks": {
     "performance": {
       "base": 2.4,
       "boost": 3.3
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "8 × 64 KB Instruction + 16 × 16 KB Data (768 KB total)",
     "l2": 16,
     "l3": 16
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "None"
-    },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
     "tdp": 115,
-    "eccSupport": false,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
+    },
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 384,
+      "types": ["DDR3"],
+      "channels": 4
+    }
   },
   "metadata": {
-    "name": "AMD Opteron 6378 2.4 GHz 16-Core G34",
+    "name": "AMD Opteron 6378",
     "manufacturer": "AMD",
     "part_numbers": ["OS6378WKTGGHKWOF"],
-    "series": "AMD Opteron"
+    "series": "Opteron 6300",
+    "variant": "6378",
+    "releaseYear": 2012
   },
-  "series": "AMD Opteron",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Abu Dhabi",
-  "socket": "G34",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "6409685942904",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "OS6378WKTGGHKWOF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113320",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113320",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

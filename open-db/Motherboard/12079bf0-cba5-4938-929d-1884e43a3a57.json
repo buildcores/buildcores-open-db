@@ -1,15 +1,55 @@
 {
   "opendb_id": "12079bf0-cba5-4938-929d-1884e43a3a57",
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel B660",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": ["BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 5,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2260-2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +71,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
   "metadata": {
     "name": "Gigabyte B660 DS3H LGA1700 DDR4 ATX",
     "manufacturer": "Gigabyte",
@@ -35,57 +79,160 @@
     "series": "B660",
     "variant": ""
   },
-  "socket": "LGA 1700",
-  "form_factor": "ATX",
-  "chipset": "Intel B660",
-  "color": ["BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 5,
-      "lanes": 16,
-      "_id": "69b3ab6975ef0cf5df011a48"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab6975ef0cf5df011a49"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab6975ef0cf5df011a4a"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab6975ef0cf5df011a4b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab6975ef0cf5df011a4c"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab6975ef0cf5df011a4d"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B09RJMJ3G6"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331834999",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "9MB66DS34-00",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B660 DS3H DDR4",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09RJMJ3G6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2661685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2661685",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB01GB212",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2661685",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

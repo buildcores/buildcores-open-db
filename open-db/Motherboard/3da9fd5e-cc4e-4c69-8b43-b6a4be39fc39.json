@@ -1,15 +1,50 @@
 {
   "opendb_id": "3da9fd5e-cc4e-4c69-8b43-b6a4be39fc39",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B450",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": null,
+      "key": "M",
+      "interface": "PCIe 3.0 x4 & SATA"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Realtek LAN"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 2,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": false
@@ -28,56 +66,6 @@
     "chipset": "Realtek ALC 887",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "TUF GAMING B450M-PLUS II",
-    "manufacturer": "ASUS",
-    "part_numbers": ["90MB1620-M0AAY0"],
-    "series": "TUF GAMING",
-    "variant": null,
-    "releaseYear": 2020
-  },
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B450",
-  "color": [],
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abb2744e69396d55de57"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3abb2744e69396d55de58"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abb2744e69396d55de59"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": null,
-      "key": "M",
-      "interface": "PCIe 3.0 x4 & SATA",
-      "_id": "69b3abb2744e69396d55de5a"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Realtek LAN",
-      "_id": "69b3abb2744e69396d55de5b"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2 x USB 2.0",
     "BIOS FlashBack™ button",
@@ -89,10 +77,292 @@
     "2 x USB 3.2 Gen 1",
     "3 x Audio jacks"
   ],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B08KGXBNLR",
-    "newegg_sku": "9SIAD6HJKZ4953",
-    "walmart_sku": 558790379
+  "metadata": {
+    "name": "TUF GAMING B450M-PLUS II",
+    "manufacturer": "ASUS",
+    "part_numbers": ["90MB1620-M0AAY0"],
+    "series": "TUF GAMING",
+    "variant": null,
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876927199",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1620-M0AAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "TUF GAM B450M-PLUSII",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876927199",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "adorama",
+        "channel": "us",
+        "source_product_id": "AS90MB1620M0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1676819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1676819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1676819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1676819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08KGXBNLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306278895998",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90MB1620-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-523",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2394198",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-9UV",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2394198",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90MB1620-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAD6HJKZ4953",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAD6HJKZ4953",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "2888862",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "2888862",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "2888862",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "2888862",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "260456",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2394198",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "558790379",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

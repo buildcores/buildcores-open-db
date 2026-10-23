@@ -1,5 +1,9 @@
 {
   "opendb_id": "d1637479-7ebd-497c-b976-37b6af116db9",
+  "series": "AMD Opteron",
+  "microarchitecture": "Piledriver",
+  "coreFamily": "Abu Dhabi",
+  "socket": "G34",
   "cores": {
     "total": 8,
     "performance": 8,
@@ -16,19 +20,19 @@
     "l3": 16
   },
   "specifications": {
+    "tdp": 115,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 115,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "32 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD Opteron 6328 3.2 GHz 8-Core G34",
@@ -36,9 +40,16 @@
     "part_numbers": ["OS6328WKT8GHKWOF"],
     "series": "AMD Opteron"
   },
-  "series": "AMD Opteron",
-  "microarchitecture": "Piledriver",
-  "coreFamily": "Abu Dhabi",
-  "socket": "G34",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "OS6328WKT8GHKWOF",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

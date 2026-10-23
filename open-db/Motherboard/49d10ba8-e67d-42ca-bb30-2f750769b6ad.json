@@ -1,15 +1,34 @@
 {
   "opendb_id": "49d10ba8-e67d-42ca-bb30-2f750769b6ad",
+  "socket": "LGA 2011-3",
+  "form_factor": "ATX",
+  "chipset": "Intel C612",
   "memory": {
     "max": 256,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": ["BLUE", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 13,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["3 x 1 Gb/s"],
   "metadata": {
     "name": "Gigabyte C612 MW50-SV0 LGA2011-3 DDR4 ATX",
     "manufacturer": "Gigabyte",
@@ -35,30 +58,16 @@
     "series": "C612",
     "variant": ""
   },
-  "socket": "LGA 2011-3",
-  "form_factor": "ATX",
-  "chipset": "Intel C612",
-  "color": ["BLUE", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3abb136a2b96d5d83b9a7"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3abb136a2b96d5d83b9a8"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["3 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "MW50-SV0",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

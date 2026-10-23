@@ -1,5 +1,9 @@
 {
   "opendb_id": "09c6c21d-b450-4656-b8f7-11f31d20d131",
+  "series": "Intel Core i7",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 8,
     "performance": 8,
@@ -16,19 +20,19 @@
     "l3": 11
   },
   "specifications": {
+    "tdp": 140,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
-    "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i7 7820X 3.6 GHz 8-Core LGA2066",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80673I77820X"],
     "series": "Intel Core i7"
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80673I77820X",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,15 +1,55 @@
 {
   "opendb_id": "aa00b6de-374f-4efd-911c-cb06a47ad03b",
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": ["BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280-22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +71,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
   "metadata": {
     "name": "Gigabyte Z790 S (rev. 1.0) DDR4 ATX",
     "manufacturer": "Gigabyte",
@@ -35,55 +79,16 @@
     "series": "Z790",
     "variant": ""
   },
-  "socket": "LGA 1700",
-  "form_factor": "ATX",
-  "chipset": "Intel Z790",
-  "color": ["BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac42c0db8dfe4bc76864"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac42c0db8dfe4bc76865"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac42c0db8dfe4bc76866"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac42c0db8dfe4bc76867"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac42c0db8dfe4bc76868"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac42c0db8dfe4bc76869"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "Z790 S DDR4 (rev. 1.0)",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,15 +1,34 @@
 {
   "opendb_id": "e7de4693-004d-4589-a2b7-ccbc285d4905",
+  "socket": "LGA 1150",
+  "form_factor": "Mini-ITX",
+  "chipset": "Intel Q87",
   "memory": {
     "max": 16,
     "ram_type": "DDR3",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 5,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["2 x 1 Gb/s"],
   "metadata": {
     "name": "Jetway Q87 JNF9J-Q87 LGA1150 DDR3 Mini ITX",
     "manufacturer": "Jetway",
@@ -35,30 +58,16 @@
     "series": "Q87",
     "variant": ""
   },
-  "socket": "LGA 1150",
-  "form_factor": "Mini-ITX",
-  "chipset": "Intel Q87",
-  "color": [],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac9fb27c54a042d053b2"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ac9fb27c54a042d053b3"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["2 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "JNF9J-Q87",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

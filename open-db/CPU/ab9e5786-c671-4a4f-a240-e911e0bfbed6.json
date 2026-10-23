@@ -1,53 +1,193 @@
 {
   "opendb_id": "ab9e5786-c671-4a4f-a240-e911e0bfbed6",
+  "series": "Ryzen 7 4000",
+  "microarchitecture": "Zen 2",
+  "coreFamily": "Renoir",
+  "socket": "AM4",
   "cores": {
     "total": 8,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 16
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 4.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "512 KB",
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)",
     "l2": 4,
     "l3": 8
   },
   "specifications": {
+    "tdp": 65,
+    "ppt": 88,
     "integratedGraphics": {
-      "model": "AMD Radeon",
-      "baseClock": 2100,
+      "model": "AMD Radeon Graphics",
+      "baseClock": 0,
+      "boostClock": 2100,
       "shaderCount": 512
     },
+    "eccSupport": true,
+    "includesCooler": true,
+    "packaging": "Boxed",
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
     "memory": {
       "maxSupport": 128,
       "types": ["DDR4"],
       "channels": 2
-    },
-    "tdp": 65,
-    "ppt": 88,
-    "eccSupport": true,
-    "includesCooler": true,
-    "packaging": "Boxed",
-    "lithography": "7 nm",
-    "simultaneousMultithreading": true
+    }
   },
   "metadata": {
     "name": "AMD Ryzen 7 PRO 4750G",
     "manufacturer": "AMD",
     "part_numbers": ["100-100000145MPK"],
-    "series": "AMD Ryzen 7",
-    "variant": "PRO 4750G",
+    "series": "Ryzen 7 4000",
+    "variant": "4750G",
     "releaseYear": 2020
   },
-  "series": "AMD Ryzen 7",
-  "microarchitecture": "Zen 2",
-  "coreFamily": "Renoir",
-  "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "a",
-    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html#amd_support_product_spec"
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0634218742751",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-100000145MPK",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "634218742751",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08XYTM5QS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "a",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

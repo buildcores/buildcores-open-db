@@ -1,5 +1,21 @@
 {
   "opendb_id": "05f9f232-7a0c-436f-8045-ef858b221808",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 9070 XT",
+  "core_count": 4096,
+  "core_base_clock": 2400,
+  "core_boost_clock": 3100,
+  "memory": 16,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 0,
+  "memory_bus": 256,
+  "tdp": 340,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 297,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,21 +38,29 @@
     "series": "Radeon RX 9070 XT",
     "variant": "Acer"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 9070 XT",
-  "memory": 16,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2400,
-  "core_boost_clock": 3100,
-  "effective_memory_clock": 0,
-  "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 297,
-  "tdp": 340,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 4096,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DP.Z4FWW.P01",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PB-RX9070XT-SOC",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "acer",
+        "channel": "fr",
+        "source_product_id": "DP.Z4FWW.P01",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

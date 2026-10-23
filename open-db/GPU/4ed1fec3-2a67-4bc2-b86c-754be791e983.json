@@ -1,5 +1,21 @@
 {
   "opendb_id": "4ed1fec3-2a67-4bc2-b86c-754be791e983",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 6500 XT",
+  "core_count": 1024,
+  "core_base_clock": 2310,
+  "core_boost_clock": 2855,
+  "memory": 8,
+  "memory_type": "GDDR6",
+  "effective_memory_clock": 18000,
+  "memory_bus": 0,
+  "tdp": 130,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "RED"],
+  "lighting": [],
+  "length": 194,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 1,
@@ -22,21 +38,16 @@
     "series": "Radeon RX 6500 XT",
     "variant": "Sapphire"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 6500 XT",
-  "memory": 8,
-  "memory_type": "GDDR6",
-  "core_base_clock": 2310,
-  "core_boost_clock": 2855,
-  "effective_memory_clock": 18000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "RED"],
-  "length": 194,
-  "tdp": 130,
-  "total_slot_width": 2,
-  "cooling": "2 Fans",
-  "core_count": 1024,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "11314-03-20G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

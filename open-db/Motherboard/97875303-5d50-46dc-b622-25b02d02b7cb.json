@@ -1,25 +1,93 @@
 {
   "opendb_id": "97875303-5d50-46dc-b622-25b02d02b7cb",
+  "socket": "TR4",
+  "form_factor": "ATX",
+  "chipset": "AMD X399",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB"],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 4,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 3.0 x4, SATA"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4, SATA"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 1
   },
+  "onboard_ethernet": [
+    {
+      "speed": "10 Gb/s",
+      "controller": "ROG AREION"
+    },
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel i211AT"
+    }
+  ],
+  "wireless_networking": "Wi-Fi 802.11ad + 802.11ac + Bluetooth 4.1",
   "usb_headers": {
-    "usb_2_0": 2,
+    "usb_2_0": 1,
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 2,
+    "cpu_opt": 1
   },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin", "4-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,77 +96,166 @@
     "chipset": "ROG SupremeFX High Definition Audio CODEC S1220",
     "channels": "7.1"
   },
+  "back_panel_ports": [
+    "1 x Clear CMOS Button",
+    "1 x ASUS Wi-Fi GO",
+    "8 x USB 3.1 Gen 1 ports",
+    "1 x USB 3.1 Gen 2 Type-A port",
+    "1 x USB 3.1 Gen 2 Type-C port",
+    "1x LAN (RJ-45) port",
+    "5 x LED-illuminated audio jacks"
+  ],
   "metadata": {
     "name": "ASUS Republic of Gamers Zenith Extreme TR4 Extended ATX Motherboard",
     "manufacturer": "ASUS",
+    "part_numbers": ["ROG ZENITH EXTREME"],
     "series": "ROG Zenith",
     "variant": "Extreme",
     "releaseYear": 2017,
-    "part_numbers": ["ROG ZENITH EXTREME"]
+    "manufacturer_color": "Black"
   },
-  "socket": "TR4",
-  "form_factor": "ATX",
-  "chipset": "AMD X399",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3ac28fe073ff824ef9b5a"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac28fe073ff824ef9b5b"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac28fe073ff824ef9b5c"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 3.0 x4, SATA",
-      "_id": "69b3ac28fe073ff824ef9b5d"
-    },
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4, SATA",
-      "_id": "69b3ac28fe073ff824ef9b5e"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "10 Gb/s",
-      "controller": "ROG AREION",
-      "_id": "69b3ac28fe073ff824ef9b5f"
-    },
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel i211AT",
-      "_id": "69b3ac28fe073ff824ef9b60"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": [
-    "1 x LAN (RJ45)",
-    "1 x USB 3.1 Gen 2 Type-A",
-    "1 x USB 3.1 Gen 2 Type-C",
-    "5 x Audio Jacks",
-    "8 x USB 3.1 Gen 1 Type-A"
-  ],
-  "color": [],
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0748K1F99",
-    "newegg_sku": "9SIBKZPK3U3433"
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-zenith/rog-zenith-extreme-model"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889349799451",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG ZENITH EXTREME",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889349799451",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0748K1F99",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBKZPK3U3433",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBKZPK3U3433",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

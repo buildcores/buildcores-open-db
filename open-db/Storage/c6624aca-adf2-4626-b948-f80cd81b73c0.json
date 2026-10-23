@@ -1,5 +1,11 @@
 {
   "opendb_id": "c6624aca-adf2-4626-b948-f80cd81b73c0",
+  "capacity": 128,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2242",
+  "interface": "M.2 PCIe 3.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KingSpec NXM 128GB SSD M.2-2242 PCIe 3.0 X4 NVMe",
     "manufacturer": "KingSpec",
@@ -7,14 +13,36 @@
     "series": "NXM",
     "variant": "128GB"
   },
-  "capacity": 128,
-  "type": "SSD",
-  "form_factor": "M.2-2242",
-  "interface": "M.2 PCIe 3.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-000D-00162"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "NXM-128",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "NXM-128 2242",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-000D-00162",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-000D-00162",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

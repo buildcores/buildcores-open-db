@@ -1,15 +1,50 @@
 {
   "opendb_id": "bcb6e0fd-d4a8-4a3f-8e3d-39d7b45169e6",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD A520",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": ["GREEN", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +66,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
   "metadata": {
     "name": "Asus AMD A520 PRO A520M-C II/CSM AM4 DDR4 Micro ATX",
     "manufacturer": "ASUS",
@@ -42,53 +81,295 @@
     "series": "AMD",
     "variant": ""
   },
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD A520",
-  "color": ["GREEN", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac4eb3d0c7b56c561665"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac4eb3d0c7b56c561666"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac4eb3d0c7b56c561667"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac4eb3d0c7b56c561668"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac4eb3d0c7b56c561669"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0979QCJXK",
-    "newegg_sku": "2MG-000B-003T9",
-    "walmart_sku": 432029752
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553250092",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081250098",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB18F0-M0AAYC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB18F0-M0EAYC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CSM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRO A520M-C II",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRO A520M-C II-CSM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRO A520M-C II/CSM",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553250092",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100020034",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100020034",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100020034",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100020034",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0979QCJXK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306305274238",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASPA520MC2CS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-710",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2932819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-A54",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2932819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "2MG-000B-003T9",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "2MG-000B-003T9",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3171795",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3171795",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3171795",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3171795",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "368010",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2932819",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "432029752",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

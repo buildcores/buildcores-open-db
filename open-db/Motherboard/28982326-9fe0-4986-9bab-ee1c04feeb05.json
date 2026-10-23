@@ -1,15 +1,50 @@
 {
   "opendb_id": "28982326-9fe0-4986-9bab-ee1c04feeb05",
+  "socket": "LGA 1200",
+  "form_factor": "ATX",
+  "chipset": "Intel B460",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "Gen3 x4"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "Gen3 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Dragon RTL8125BG"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,55 +66,6 @@
     "chipset": "Realtek ALC1200",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASROCK B460 STEEL LEGEND Supports 10th Gen Intel® Core™ Processors(Socket 1200) motherboard",
-    "manufacturer": "ASRock",
-    "series": "B460 STEEL LEGEND",
-    "variant": null,
-    "releaseYear": 2020,
-    "part_numbers": ["B460 STEEL LEGEND"]
-  },
-  "socket": "LGA 1200",
-  "form_factor": "ATX",
-  "chipset": "Intel B460",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ab924fd4af70a349c3c0"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ab924fd4af70a349c3c1"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "Gen3 x4",
-      "_id": "69b3ab924fd4af70a349c3c2"
-    },
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "Gen3 x4",
-      "_id": "69b3ab924fd4af70a349c3c3"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Dragon RTL8125BG",
-      "_id": "69b3ab924fd4af70a349c3c4"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "Antenna Bracket",
     "PS/2 Mouse/Keyboard Port",
@@ -89,9 +78,163 @@
     "RJ-45 LAN Port with LED",
     "HD Audio Jacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B088ZS6S7T"
+  "metadata": {
+    "name": "ASROCK B460 STEEL LEGEND Supports 10th Gen Intel® Core™ Processors(Socket 1200) motherboard",
+    "manufacturer": "ASRock",
+    "part_numbers": ["B460 STEEL LEGEND"],
+    "series": "B460 STEEL LEGEND",
+    "variant": null,
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710483931284",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B460 STEEL LEGEND",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B088ZS6S7T",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2306028",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2306028",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00004884749",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2306028",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

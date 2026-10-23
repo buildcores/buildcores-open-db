@@ -1,44 +1,88 @@
 {
   "opendb_id": "3b94f58c-7070-4a76-9b47-3a9685286621",
+  "series": "Ryzen Threadripper 2000",
+  "microarchitecture": "Zen+",
+  "coreFamily": "Colfax",
+  "socket": "sTR4",
   "cores": {
     "total": 32,
-    "performance": 32,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 64
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "32 × 64 KB Instruction + 32 × 32 KB Data (3072 KB total)",
     "l2": 16,
     "l3": 64
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "None"
-    },
-    "memory": {
-      "maxSupport": 1024,
-      "types": []
-    },
     "tdp": 250,
-    "eccSupport": true,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
+    },
+    "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 1024,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
-    "name": "AMD Threadripper Threadripper 2990WX 3 GHz 32-Core sTR4 OEM/Tray",
+    "name": "AMD Ryzen Threadripper 2990WX OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["YD299XAZUIHAF"],
-    "series": "AMD Threadripper"
+    "series": "Ryzen Threadripper 2000",
+    "variant": "2990WX",
+    "releaseYear": 2018
   },
-  "series": "AMD Threadripper",
-  "microarchitecture": "Zen+",
-  "coreFamily": "Colfax",
-  "socket": "TR4",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-2000-series/amd-ryzen-threadripper-2990wx.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0818246439764",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "YD299XAZUIHAF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "818246439764",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMRT29990WX",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

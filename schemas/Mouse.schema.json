@@ -10,8 +10,9 @@
       "description": "Unique identifier for the document (UUID v4)"
     },
     "weight": {
-      "description": "Weight of the mouse in grams",
-      "type": ["number", "null"]
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight. Use the mouse's standard usable configuration for the exact variant.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
     },
     "dimensions": {
       "description": "Mouse dimensions",
@@ -32,17 +33,22 @@
       }
     },
     "size": {
-      "description": "Physical size category (Small, Medium, Large)",
+      "description": "Legacy subjective size category. Keep existing values during migration; do not populate for new mice because there are no stable size thresholds.",
       "type": ["string", "null"],
       "enum": ["Small", "Medium", "Large", null]
     },
     "shape": {
-      "description": "Mouse shape type (Ergonomic or Ambidextrous)",
+      "description": "Physical shell shape: Symmetrical, Ergonomic, or Vertical. Shape does not determine which hand can use every control; record that in Handedness. Ambidextrous is retained only for existing records pending migration; do not select it for new data.",
       "type": ["string", "null"],
-      "enum": ["Ergonomic", "Ambidextrous", null]
+      "enum": ["Symmetrical", "Ergonomic", "Vertical", "Ambidextrous", null]
+    },
+    "handedness": {
+      "description": "Which hand can use the mouse's intended controls for the exact model: Right-handed, Left-handed, or Ambidextrous. A symmetrical shell alone does not prove ambidextrous controls.",
+      "type": ["string", "null"],
+      "enum": ["Right-handed", "Left-handed", "Ambidextrous", null]
     },
     "connectivity": {
-      "description": "Connection types supported by this mouse (can have multiple, e.g., Wired + Wireless)",
+      "description": "How the mouse sends input to the computer. For wired data, choose the connector at the computer end: a USB-C-to-USB-A cable is Wired USB-A when USB-A plugs into the computer. A charging-only cable does not count as wired; a USB receiver is Wireless 2.4GHz. Generic Wired is retained only for existing records and must not be selected for new data.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -58,7 +64,7 @@
       "type": ["number", "null"]
     },
     "polling_rate": {
-      "description": "Polling rate in Hz (e.g., 1000, 2000, 4000, 8000)",
+      "description": "Highest officially supported polling rate in Hz for this exact mouse. Keep any receiver, accessory, or mode condition in the source evidence; do not add a second rate or infer one from a related SKU.",
       "type": ["number", "null"]
     },
     "buttons": {
@@ -66,16 +72,29 @@
       "type": ["number", "null"]
     },
     "switches": {
-      "description": "Switch type (e.g., 'Optical', 'Mechanical', 'Kailh GM 8.0')",
+      "description": "Manufacturer's exact main-button switch model, such as Kailh GM 8.0; use Switch Type for the actuation technology.",
       "type": ["string", "null"]
+    },
+    "switch_type": {
+      "description": "Main-button switch actuation technology: Mechanical, Optical, Hybrid, or Inductive. Leave empty when the exact technology is not sourced; use Switches for the named switch model.",
+      "type": ["string", "null"],
+      "enum": ["Mechanical", "Optical", "Hybrid", "Inductive", null]
     },
     "onboard_memory": {
       "description": "Whether the mouse has onboard memory for storing profiles",
       "type": ["boolean", "null"]
     },
     "rgb": {
-      "description": "Whether the mouse has RGB lighting",
+      "description": "Legacy RGB flag retained for old records. Use Lighting for new data; do not populate this duplicate field.",
       "type": ["boolean", "null"]
+    },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white. Record the mouse's actual lighting capabilities. Select None only with affirmative evidence.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
+      }
     },
     "battery_life": {
       "description": "Battery life in hours (for wireless mice)",
@@ -87,7 +106,7 @@
       "enum": ["Rechargeable", "AA", "AAA", null]
     },
     "grip_types": {
-      "description": "Supported grip styles (Palm, Claw, Fingertip)",
+      "description": "Manufacturer-recommended grip styles for the exact mouse: Palm, Claw, or Fingertip. Do not infer from shell shape or dimensions.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -129,6 +148,10 @@
         "hyte_sku": {
           "type": ["string", "null"],
           "description": "HYTE product SKU"
+        },
+        "lttstore_sku": {
+          "type": ["string", "null"],
+          "description": "LTTStore product SKU"
         },
         "manufacturer_url": {
           "type": ["string", "null"],
@@ -173,6 +196,81 @@
         }
       },
       "required": ["name"]
+    },
+    "identifiers": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Monotonically increasing identity snapshot version"
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["upc", "ean", "gtin", "mpn"]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "region": {
+                "default": "all",
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": ["type", "value", "region"],
+            "additionalProperties": false
+          },
+          "description": "Canonical product identifiers"
+        },
+        "retailer_listings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pricing_enabled": {
+                "type": "boolean"
+              },
+              "excluded_source_offer_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 512
+                }
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            },
+            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
+            "additionalProperties": false
+          },
+          "description": "Canonical retailer product listings used for pricing"
+        }
+      },
+      "required": ["version", "identifiers", "retailer_listings"],
+      "additionalProperties": false,
+      "description": "Current versioned product identity snapshot used for retailer and pricing matching"
     }
   }
 }

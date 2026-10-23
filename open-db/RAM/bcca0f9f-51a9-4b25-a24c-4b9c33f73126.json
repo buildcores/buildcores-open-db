@@ -1,30 +1,56 @@
 {
   "opendb_id": "bcca0f9f-51a9-4b25-a24c-4b9c33f73126",
+  "speed": 6000,
+  "ram_type": "DDR5",
+  "profile_support": ["XMP", "EXPO"],
+  "form_factor": "288-pin DIMM",
   "modules": {
     "quantity": 2,
     "capacity_gb": 16
   },
-  "metadata": {
-    "name": "Silicon Power XPOWER Pulse Gaming Black / White DDR5-6000 CL30 32GB (2x16GB)",
-    "manufacturer": "Silicon Power",
-    "part_numbers": ["SP032GXLWU60AFDJ"],
-    "series": "XPOWER",
-    "variant": "6000 CL30"
-  },
-  "speed": 6000,
-  "ram_type": "DDR5",
-  "form_factor": "288-pin DIMM",
   "capacity": 32,
   "color": ["BLACK", "WHITE"],
+  "lighting": ["None"],
   "cas_latency": 30,
+  "timings": "30-38-38-96",
   "voltage": null,
   "ecc": "Non-ECC",
   "registered": "Unbuffered",
   "heat_spreader": true,
   "rgb": false,
-  "profile_support": [],
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16820301530"
+  "metadata": {
+    "name": "Silicon Power XPOWER Pulse Gaming Black / White DDR5-6000 CL30 32GB (2x16GB)",
+    "manufacturer": "Silicon Power",
+    "part_numbers": ["SP032GXLWU60AFDJ"],
+    "series": "XPOWER Pulse",
+    "variant": "Default",
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "SP032GXLWU60AFDJ",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16820301530",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16820301530",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

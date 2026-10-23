@@ -1,5 +1,9 @@
 {
   "opendb_id": "287b108d-79e7-4ccc-8a28-55c0e294469e",
+  "series": "Intel Core i5",
+  "microarchitecture": "Haswell Refresh",
+  "coreFamily": "Haswell Refresh",
+  "socket": "LGA 1150",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 6
   },
   "specifications": {
+    "tdp": 88,
     "integratedGraphics": {
       "model": "Intel HD Graphics 4600"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 88,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "22 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i5 4690K 3.5 GHz 4-Core LGA1150",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8064601710803"],
     "series": "Intel Core i5"
   },
-  "series": "Intel Core i5",
-  "microarchitecture": "Haswell Refresh",
-  "coreFamily": "Haswell Refresh",
-  "socket": "LGA 1150",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8064601710803",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

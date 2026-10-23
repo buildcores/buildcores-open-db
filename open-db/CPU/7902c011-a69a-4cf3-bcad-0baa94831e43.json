@@ -1,5 +1,9 @@
 {
   "opendb_id": "7902c011-a69a-4cf3-bcad-0baa94831e43",
+  "series": "Intel Core i7",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 8,
     "performance": 8,
@@ -16,19 +20,19 @@
     "l3": 5
   },
   "specifications": {
+    "tdp": 165,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
-    "tdp": 165,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i7 9800X 3.8 GHz 8-Core LGA2066 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CD8067304126100"],
     "series": "Intel Core i7"
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CD8067304126100",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,10 +1,28 @@
 {
   "opendb_id": "fc379730-54b8-4771-872c-31e6cdec720c",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5070 Ti",
+  "core_count": 8960,
+  "core_base_clock": 2300,
+  "core_boost_clock": 2467,
+  "memory": 16,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 28000,
+  "memory_bus": 256,
+  "tdp": 300,
+  "interface": "PCIe x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK"],
+  "lighting": ["RGB"],
+  "length": 338,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2.5,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
-    "pcie_12V_2x6": 0
+    "pcie_12V_2x6": 1
   },
   "video_outputs": {
     "hdmi_2_1": 1,
@@ -18,28 +36,36 @@
   "metadata": {
     "name": "MSI GAMING TRIO PLUS GeForce RTX 5070 Ti 16GB GDDR7 Black",
     "manufacturer": "MSI",
-    "part_numbers": [
-      "RTX 5070 Ti 16G GAMING TRIO PLUS",
-      "GEFORCE RTX 5070 Ti 16G GAMING TRIO PLUS"
-    ],
-    "series": "GeForce RTX 5070 Ti",
-    "variant": "MSI"
+    "part_numbers": ["RTX 5070 Ti 16G GAMING TRIO PLUS"],
+    "series": "GAMING",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5070 Ti",
-  "memory": 16,
-  "memory_type": "GDDR7",
-  "core_base_clock": 2300,
-  "core_boost_clock": 2467,
-  "effective_memory_clock": 28000,
-  "memory_bus": 256,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 338,
-  "tdp": 300,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 8960,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RTX 5070 Ti 16G GAMING TRIO PLUS",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIB9ZZKRR2959",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB9ZZKRR2959",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

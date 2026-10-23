@@ -1,5 +1,22 @@
 {
   "opendb_id": "2013e583-36c4-4dcb-b348-4344f3350b1c",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce GT 710",
+  "core_base_clock": 954,
+  "core_boost_clock": 954,
+  "memory": 2,
+  "memory_type": "DDR3",
+  "effective_memory_clock": 1600,
+  "memory_bus": 0,
+  "tdp": 19,
+  "interface": "PCIe x16",
+  "frame_sync": null,
+  "color": [],
+  "lighting": [],
+  "length": 145,
+  "case_expansion_slot_width": 1,
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,24 +39,31 @@
     "series": "GeForce GT 710",
     "variant": "MSI"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce GT 710",
-  "memory": 2,
-  "memory_type": "DDR3",
-  "core_base_clock": 954,
-  "core_boost_clock": 954,
-  "effective_memory_clock": 1600,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "frame_sync": null,
-  "length": 145,
-  "tdp": 19,
-  "case_expansion_slot_width": 1,
-  "total_slot_width": 1,
-  "cooling": "1 Fan",
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "1FT-0009-00157"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "G7102D3P",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "1FT-0009-00157",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1FT-0009-00157",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

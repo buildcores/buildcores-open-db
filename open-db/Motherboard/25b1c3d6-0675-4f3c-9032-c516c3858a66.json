@@ -1,15 +1,56 @@
 {
   "opendb_id": "25b1c3d6-0675-4f3c-9032-c516c3858a66",
+  "socket": "AM5",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD B850",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek Dragon RTL8125BG"
+    }
+  ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -17,79 +58,359 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
   },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "2 x Antenna Mounting Points",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
   "metadata": {
     "name": "ASRock B850 M-X R2.0 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["B850M-X R2.0"],
-    "series": "B850",
-    "variant": ""
+    "series": "Default",
+    "variant": "B850M-X R2.0",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "socket": "AM5",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD B850",
-  "color": ["BLACK", "WHITE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ab8a3722c3e205bcf90f"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ab8a3722c3e205bcf910"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8a3722c3e205bcf911"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8a3722c3e205bcf912"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8a3722c3e205bcf913"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ab8a3722c3e205bcf914"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek Dragon RTL8125BG",
-      "_id": "69b3ab8a3722c3e205bcf915"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/B850M-X%20R2.0/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711581490758",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBSG0-A0UAYZ",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B850M-X R2.0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B850M-X WiFi R2.0",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "4711581490765",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100138011",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100138011",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100138011",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100138011",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FH319HHD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56131442409854",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12917473",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "B850M-X R2.0-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3950",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "B850M-X R2.0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "31586",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "B850M-X R2.0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AK89",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813162225",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813162225",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21812982",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21812982",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3369640",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3369640",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3369640",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3369640",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "402772",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00022003956",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "16802516229",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

@@ -1,15 +1,39 @@
 {
   "opendb_id": "0bbd33ca-9658-4001-b444-42095b03c375",
+  "socket": "LGA 775",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel G41",
   "memory": {
     "max": 8,
     "ram_type": "DDR2",
     "slots": 2
   },
+  "color": ["BLUE", "WHITE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": null,
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 0,
@@ -20,6 +44,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +55,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 100 Mb/s"],
   "metadata": {
     "name": "ASRock G41 M-S DDR2 Micro ATX",
     "manufacturer": "ASRock",
@@ -35,38 +63,127 @@
     "series": "G41",
     "variant": ""
   },
-  "socket": "LGA 775",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel G41",
-  "color": ["BLUE", "WHITE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab753f8fd0c825dde726"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ab753f8fd0c825dde727"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": null,
-      "controller": "Unknown",
-      "_id": "69b3ab753f8fd0c825dde728"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 100 Mb/s"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B000TZR4W8"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711140874906",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "G41M-S",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B000TZR4W8",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

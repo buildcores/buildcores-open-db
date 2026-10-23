@@ -1,5 +1,21 @@
 {
   "opendb_id": "3f90b030-8918-4f03-9587-430110917b23",
+  "chipset_manufacturer": "NVIDIA",
+  "chipset": "GeForce RTX 5090",
+  "core_count": 21760,
+  "core_base_clock": 1635,
+  "core_boost_clock": 2400,
+  "memory": 32,
+  "memory_type": "GDDR7",
+  "effective_memory_clock": 0,
+  "memory_bus": 512,
+  "tdp": 575,
+  "interface": "PCIe x16",
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "length": 333,
+  "total_slot_width": 3,
+  "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -22,21 +38,24 @@
     "series": "GeForce RTX 5090",
     "variant": "Inno3D"
   },
-  "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 5090",
-  "memory": 32,
-  "memory_type": "GDDR7",
-  "core_base_clock": 1635,
-  "core_boost_clock": 2400,
-  "effective_memory_clock": 0,
-  "memory_bus": 512,
-  "interface": "PCIe x16",
-  "color": ["BLACK", "GREY"],
-  "length": 333,
-  "tdp": 575,
-  "total_slot_width": 3,
-  "cooling": "3 Fans",
-  "core_count": 21760,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "N50903-32D7-17593928",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "VGA7283",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

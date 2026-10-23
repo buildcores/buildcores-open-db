@@ -9,12 +9,17 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "size": {
       "description": "The fan size in mm (e.g., 120)",
       "type": ["number", "null"]
     },
     "color": {
-      "description": "The color(s) of this product. Each color of the product should be included in the array. The color of the fan frame and blades.",
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. The color of the fan frame and blades.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
@@ -33,6 +38,14 @@
           "BROWN",
           "GOLD"
         ]
+      }
+    },
+    "lighting": {
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["RGB", "ARGB", "Multicolor", "Fixed", "None", "Display", "Fixed Color Display"]
       }
     },
     "quantity": {
@@ -132,6 +145,10 @@
           "type": ["string", "null"],
           "description": "HYTE product SKU"
         },
+        "lttstore_sku": {
+          "type": ["string", "null"],
+          "description": "LTTStore product SKU"
+        },
         "manufacturer_url": {
           "type": ["string", "null"],
           "description": "Official manufacturer product URL"
@@ -179,6 +196,81 @@
         }
       },
       "required": ["name"]
+    },
+    "identifiers": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Monotonically increasing identity snapshot version"
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["upc", "ean", "gtin", "mpn"]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "region": {
+                "default": "all",
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": ["type", "value", "region"],
+            "additionalProperties": false
+          },
+          "description": "Canonical product identifiers"
+        },
+        "retailer_listings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pricing_enabled": {
+                "type": "boolean"
+              },
+              "excluded_source_offer_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 512
+                }
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            },
+            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
+            "additionalProperties": false
+          },
+          "description": "Canonical retailer product listings used for pricing"
+        }
+      },
+      "required": ["version", "identifiers", "retailer_listings"],
+      "additionalProperties": false,
+      "description": "Current versioned product identity snapshot used for retailer and pricing matching"
     }
   }
 }

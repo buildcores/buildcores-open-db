@@ -1,15 +1,50 @@
 {
   "opendb_id": "f72f0a16-8eb5-4f38-bebf-70824e1d44bc",
+  "socket": "TR4",
+  "form_factor": "ATX",
+  "chipset": "AMD X399",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 4,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen3 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen3 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen3 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel i211AT"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,55 +66,6 @@
     "chipset": "ALC1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "X399 AORUS PRO",
-    "manufacturer": "Gigabyte",
-    "series": "AORUS",
-    "variant": "PRO",
-    "releaseYear": 2017,
-    "part_numbers": ["X399 AORUS PRO"]
-  },
-  "socket": "TR4",
-  "form_factor": "ATX",
-  "chipset": "AMD X399",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 4,
-      "lanes": 16,
-      "_id": "69b3acb736a2b96d5d84314e"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe Gen3 x4",
-      "_id": "69b3acb736a2b96d5d84314f"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe Gen3 x4",
-      "_id": "69b3acb736a2b96d5d843150"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe Gen3 x4",
-      "_id": "69b3acb736a2b96d5d843151"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel i211AT",
-      "_id": "69b3acb736a2b96d5d843152"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "USB 3.1 Gen2 (Type-C + Type-A)",
     "USB 3.1 Gen1",
@@ -85,11 +74,161 @@
     "S/PDIF Out",
     "Antenna connectors"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07K8SJPMB",
-    "newegg_sku": "N82E16813145109",
-    "walmart_sku": 564489245
+  "metadata": {
+    "name": "X399 AORUS PRO",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["X399 AORUS PRO"],
+    "series": "AORUS",
+    "variant": "PRO",
+    "releaseYear": 2017
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523015582",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X399 AORUS PRO",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523015582",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07K8SJPMB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145109",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145109",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "564489245",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

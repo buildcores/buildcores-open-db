@@ -1,0 +1,159 @@
+{
+  "opendb_id": "12a289e6-4273-4356-9296-3ea69097cd02",
+  "screen_size": 28.5,
+  "resolution": {
+    "horizontalRes": 2560,
+    "verticalRes": 1440
+  },
+  "refresh_rate": 540,
+  "native_refresh_activation": "automatic",
+  "panel_type": "OLED",
+  "response_time": 0.02,
+  "color": ["BLACK"],
+  "lighting": ["RGB", "Display"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1": 1,
+    "displayport_2_1a": 1
+  },
+  "display_inputs": [
+    {
+      "id": "0d8386b9-c781-424d-bfe2-c074fc2a2c27",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "4f3ae2ea-005e-4a23-8c84-8ecb3a2c2635",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 540,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "80f15e07-8e25-4117-9e4c-53ce36ff257c",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "2d582516-b20c-4e69-a4a7-4bd7f427891a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d70e0c73-99c3-466a-9118-b7b96f5197da",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.54,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 605.62,
+    "height_min": 437.88,
+    "height_max": 547.88,
+    "depth": 273.63
+  },
+  "dimensions_without_stand_mm": {
+    "width": 605.62,
+    "height": 369.4,
+    "height_min": 355,
+    "height_max": 355,
+    "depth": 63.17
+  },
+  "weight": {
+    "with_stand_kg": 7.04,
+    "without_stand_kg": 4.54
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 42,
+    "explicitly_reported_peak_w": 55,
+    "note": "Power On: < 42W measuring a screen brightness of 200 nits without audio/USB/card reader connections."
+  },
+  "max_brightness": 1500,
+  "hdr": "VESA DisplayHDR 500 True Black",
+  "adaptive_sync": "G-Sync Compatible",
+  "metadata": {
+    "name": "ASUS ROG Swift OLED PG27AQWP-G Edition 20",
+    "manufacturer": "ASUS",
+    "part_numbers": [],
+    "series": "ROG",
+    "variant": "Swift OLED PG27AQWP-G Edition 20",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg27aqwp-g-edition-20/spec/"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291407985",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "PG27AQWP-G",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "199291407985",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H3Z2PZNF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6678442",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824281415",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20915323843",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

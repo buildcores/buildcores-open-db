@@ -1,5 +1,9 @@
 {
   "opendb_id": "2aee2c99-b1b1-4a64-bdca-e6b3584ae4f7",
+  "series": "AMD A6",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Kaveri",
+  "socket": "FM2+",
   "cores": {
     "total": 2,
     "performance": 2,
@@ -16,19 +20,19 @@
     "l3": 0
   },
   "specifications": {
+    "tdp": 65,
     "integratedGraphics": {
       "model": "AMD Radeon R5 (on-die)"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD A 6 7400K 3.5 GHz 2-Core FM2+ OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["AD740KYBI23JA"],
     "series": "AMD A6"
   },
-  "series": "AMD A6",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Kaveri",
-  "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD740KYBI23JA",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

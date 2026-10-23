@@ -1,15 +1,55 @@
 {
   "opendb_id": "6609d629-967f-4053-b38b-16ce0edf24ab",
+  "socket": "LGA 1851",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel Z890",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["WHITE", "GREY"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2580-25110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +71,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
   "metadata": {
     "name": "Gigabyte Z890M AORUS ELITE WIFI7 ICE DDR5 Micro ATX",
     "manufacturer": "Gigabyte",
@@ -35,59 +79,179 @@
     "series": "Z890M",
     "variant": ""
   },
-  "socket": "LGA 1851",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel Z890",
-  "color": ["WHITE", "GREY"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3abe5843b62bf624cddc4"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abe5843b62bf624cddc5"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abe5843b62bf624cddc6"
-    },
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abe5843b62bf624cddc7"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3abe5843b62bf624cddc8"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3abe5843b62bf624cddc9"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0DJP8Q6JK",
-    "newegg_sku": "N82E16813145532",
-    "walmart_sku": 13534267254
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523045633",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890M A ELITE WF7 ICE",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890M AORUS ELITE WIFI7 ICE",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523045633",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DJP8Q6JK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIZ890MAELTW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3780",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "Z890M AORUS ELITE WIFI7 ICE",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145532",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145532",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "13534267254",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

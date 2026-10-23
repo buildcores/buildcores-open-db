@@ -1,15 +1,40 @@
 {
   "opendb_id": "c84abe70-f175-4239-a011-96c11a825dea",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD X570",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe4.0x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 0,
     "usb_3_2_gen_1": 0,
@@ -20,6 +45,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,49 +56,188 @@
     "chipset": "RealtekALC1200",
     "channels": "7.1"
   },
+  "back_panel_ports": ["HDMI", "USB", "Audio"],
   "metadata": {
     "name": "MSI MAG X570 Tomahawk WiFi",
     "manufacturer": "MSI",
+    "part_numbers": ["MAG X570 Tomahawk WiFi"],
     "series": "MAG X570 Tomahawk",
     "variant": "WiFi",
-    "releaseYear": 2020,
-    "part_numbers": ["MAG X570 Tomahawk WiFi"]
+    "releaseYear": 2020
   },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD X570",
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac6d4fd4af70a34a19cf"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe4.0x4",
-      "_id": "69b3ac6d4fd4af70a34a19d0"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac6d4fd4af70a34a19d1"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["HDMI", "USB", "Audio"],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B0892R8PDJ",
-    "newegg_sku": "9SIBMM4K740452",
-    "walmart_sku": 376682464
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142212912",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MAG X570 Tomahawk WiFi",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X570 TOMAHAWK WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142212912",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0892R8PDJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2283303",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2283303",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBMM4K740452",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBMM4K740452",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2283303",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "376682464",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

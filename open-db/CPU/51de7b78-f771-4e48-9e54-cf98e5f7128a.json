@@ -1,5 +1,9 @@
 {
   "opendb_id": "51de7b78-f771-4e48-9e54-cf98e5f7128a",
+  "series": "AMD A8",
+  "microarchitecture": "Steamroller",
+  "coreFamily": "Godavari",
+  "socket": "FM2+",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 0
   },
   "specifications": {
+    "tdp": 95,
     "integratedGraphics": {
       "model": "AMD Radeon R7 (on-die)"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 95,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "AMD A-Series A8 7670K 3.6 GHz 4-Core FM2+",
@@ -36,9 +40,16 @@
     "part_numbers": ["AD767KXBJCBOX"],
     "series": "AMD A8"
   },
-  "series": "AMD A8",
-  "microarchitecture": "Steamroller",
-  "coreFamily": "Godavari",
-  "socket": "FM2+",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD767KXBJCBOX",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

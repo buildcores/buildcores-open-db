@@ -1,15 +1,50 @@
 {
   "opendb_id": "801eb740-a55f-4970-9edb-5166cd78e4b4",
+  "socket": "LGA 1151",
+  "form_factor": "ATX",
+  "chipset": "Intel Z270",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": ["BROWN", "BLACK"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 4,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 0,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +66,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s Ports"],
   "metadata": {
     "name": "MSI Z270 A PRO LGA1151 DDR4 ATX",
     "manufacturer": "MSI",
@@ -35,53 +74,158 @@
     "series": "Z270",
     "variant": ""
   },
-  "socket": "LGA 1151",
-  "form_factor": "ATX",
-  "chipset": "Intel Z270",
-  "color": ["BROWN", "BLACK"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac17c0db8dfe4bc752af"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 4,
-      "lanes": 1,
-      "_id": "69b3ac17c0db8dfe4bc752b0"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac17c0db8dfe4bc752b1"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac17c0db8dfe4bc752b2"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ac17c0db8dfe4bc752b3"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s Ports"],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B01MR31OZ8",
-    "newegg_sku": "9SIAPH8K9E6786",
-    "walmart_sku": 568401529
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142140994",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7A71-001R",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z270-A PRO",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142140994",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B01MR31OZ8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAPH8K9E6786",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAPH8K9E6786",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "568401529",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

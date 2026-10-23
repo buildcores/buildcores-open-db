@@ -1,15 +1,60 @@
 {
   "opendb_id": "6e48b59f-feee-4754-bde2-c740700a067a",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD X570",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2"
+    },
+    {
+      "size": "2242/2280/22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4/x2"
+    },
+    {
+      "size": "2242/2280/22110",
+      "key": "M",
+      "interface": "SATA and PCIe 4.0 x4/x2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Intel"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,67 +76,6 @@
     "chipset": "Realtek ALC1220-VB",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "GIGABYTE X570S AORUS MASTER",
-    "manufacturer": "Gigabyte",
-    "series": "X570S AORUS MASTER",
-    "variant": "rev 1.0",
-    "releaseYear": 2021,
-    "part_numbers": ["X570S AORUS MASTER"]
-  },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD X570",
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3abd83722c3e205bd16db"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3abd83722c3e205bd16dc"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3abd83722c3e205bd16dd"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2",
-      "_id": "69b3abd83722c3e205bd16de"
-    },
-    {
-      "size": "2242/2280/22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4/x2",
-      "_id": "69b3abd83722c3e205bd16df"
-    },
-    {
-      "size": "2242/2280/22110",
-      "key": "M",
-      "interface": "SATA and PCIe 4.0 x4/x2",
-      "_id": "69b3abd83722c3e205bd16e0"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3abd83722c3e205bd16e1"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x Q-Flash Plus button",
     "1 x Clear CMOS button",
@@ -101,11 +88,168 @@
     "1 x optical S/PDIF Out connector",
     "5 x audio jacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B083HZ796V",
-    "newegg_sku": "N82E16813145331",
-    "walmart_sku": 818832118
+  "metadata": {
+    "name": "GIGABYTE X570S AORUS MASTER",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["X570S AORUS MASTER"],
+    "series": "X570S AORUS MASTER",
+    "variant": "rev 1.0",
+    "releaseYear": 2021
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523028735",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X570S AORUS MASTER",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523028735",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B083HZ796V",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "GIX570SARSMS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813145331",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813145331",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "818832118",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

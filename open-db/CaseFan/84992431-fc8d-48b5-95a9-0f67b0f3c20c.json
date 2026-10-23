@@ -1,22 +1,33 @@
 {
   "opendb_id": "84992431-fc8d-48b5-95a9-0f67b0f3c20c",
-  "metadata": {
-    "name": "Thermalright TL-C12W-S V2 120mm White PWM Addressable RGB",
-    "manufacturer": "Thermalright",
-    "part_numbers": []
-  },
   "size": 120,
   "color": ["WHITE"],
+  "lighting": ["ARGB", "RGB"],
   "quantity": 1,
-  "max_airflow": 66.17,
-  "max_noise_level": 25.6,
+  "min_airflow": 66.17,
+  "min_noise_level": 25.6,
+  "pwm": true,
   "led": "Addressable RGB",
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "None",
   "static_pressure": 1.53,
   "flow_direction": "Standard",
   "isOEM": false,
-  "lighting": [],
+  "metadata": {
+    "name": "Thermalright TL-C12W-S V2 120mm White PWM Addressable RGB",
+    "manufacturer": "Thermalright",
+    "part_numbers": [],
+    "series": "TL-C12",
+    "variant": "TL-C12W-S V2",
+    "releaseYear": 2023,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
-    "manufacturer_url": "https://www.thermalright.com/product/tl-c12w-s/"
+    "manufacturer_url": "http://thermalright.com/product/tl-c12w-s/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [],
+    "retailer_listings": []
   }
 }

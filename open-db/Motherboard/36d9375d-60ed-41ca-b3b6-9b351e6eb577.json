@@ -1,15 +1,34 @@
 {
   "opendb_id": "36d9375d-60ed-41ca-b3b6-9b351e6eb577",
+  "socket": "LGA 1150",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel Q87",
   "memory": {
     "max": 32,
     "ram_type": "DDR3",
     "slots": 4
   },
+  "color": ["BLACK", "GOLD"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 1,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s"],
   "metadata": {
     "name": "Asus Q87 Q87M-E/CSM LGA1150 DDR3 Micro ATX",
     "manufacturer": "ASUS",
@@ -35,30 +58,21 @@
     "series": "Q87",
     "variant": ""
   },
-  "socket": "LGA 1150",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel Q87",
-  "color": ["BLACK", "GOLD"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3abaece32fbd0888316cc"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3abaece32fbd0888316cd"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CSM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Q87M-E",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,14 +1,9 @@
 {
   "opendb_id": "b5a4dd9a-c2d7-4852-abd1-5d6068a0fde7",
-  "metadata": {
-    "name": "Silverstone FLP01 HTPC White with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
-    "manufacturer": "Silverstone",
-    "part_numbers": ["SST-FLP01W"],
-    "series": "FLP01",
-    "variant": ""
-  },
   "form_factor": "HTPC",
+  "supported_motherboard_form_factors": ["Mini-ITX"],
   "color": ["WHITE"],
+  "lighting": [],
   "power_supply": "None",
   "supported_power_supply_form_factors": [],
   "side_panel": "Solid",
@@ -23,7 +18,38 @@
   "dimensions": "362 x 440 x 170",
   "volume": 27.078,
   "weight": null,
-  "supported_motherboard_form_factors": ["Mini-ITX"],
-  "lighting": [],
-  "general_product_information": {}
+  "metadata": {
+    "name": "Silverstone FLP01 HTPC White with USB 3.2 Gen 2 Type-C and USB 3.2 Gen 1 Type-A",
+    "manufacturer": "Silverstone",
+    "part_numbers": ["SST-FLP01W"],
+    "series": "FLP01",
+    "variant": ""
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "SST-FLP01W",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "CAS5435",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC96415",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

@@ -1,46 +1,202 @@
 {
   "opendb_id": "d282c5c7-eeb1-4082-aa63-b582afc15062",
+  "series": "Core i9 10000",
+  "microarchitecture": "Comet Lake",
+  "coreFamily": "Comet Lake",
+  "socket": "LGA 1200",
   "cores": {
     "total": 10,
-    "performance": 10,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 20
   },
   "clocks": {
     "performance": {
       "base": 3.6,
       "boost": 5.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l2": 5,
+    "l1": "10 × 32 KB Instruction + 10 × 32 KB Data (640 KB total)",
+    "l2": 2.5,
     "l3": 20
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "Intel UHD Graphics 630"
-    },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
     "tdp": 125,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "Intel UHD Graphics 630",
+      "baseClock": 350,
+      "boostClock": 1200,
+      "shaderCount": 192
+    },
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
-    "name": "Intel Core i9 10850KA Avengers Limited Edition 3.6 GHz 10-Core LGA1200",
+    "name": "Intel Core i9-10850K",
     "manufacturer": "Intel",
     "part_numbers": ["BX8070110850KA"],
-    "series": "Intel Core i9"
+    "series": "Core i9 10000",
+    "variant": "10850K",
+    "releaseYear": 2020
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Comet Lake",
-  "coreFamily": "Comet Lake",
-  "socket": "LGA 1200",
   "general_product_information": {
-    "amazon_sku": "B08DRN56BK"
+    "manufacturer_url": "https://www.intel.com/content/www/us/en/products/sku/205904/intel-core-i910850k-processor-20m-cache-up-to-5-20-ghz/specifications.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "5032037198929",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BX8070110850KA",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08DRN56BK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819118177",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819118177",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17059466754",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

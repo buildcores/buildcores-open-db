@@ -1,5 +1,11 @@
 {
   "opendb_id": "5521979a-6df6-4216-b04f-aa753a48f0f0",
+  "capacity": 8000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Nextorage NEM-PA 8TB SSD M.2 PCIe 4.0 NVMe",
     "manufacturer": "Nextorage",
@@ -7,14 +13,31 @@
     "series": "NEM-PA",
     "variant": "8000GB"
   },
-  "capacity": 8000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-0106-00016"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "NEM-PA8TB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-0106-00016",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-0106-00016",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,16 +1,325 @@
 {
   "opendb_id": "be2e37f7-f6f2-4643-9d23-282b8d3a0e12",
+  "weight": 345,
+  "connectivity_type": ["USB-C", "USB-A"],
+  "on_device_ports": [
+    {
+      "id": "0e5131a0-741f-49b3-a02c-ad6b81076ec2",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes 3m USB-C cable and USB-A adapter"
+    },
+    {
+      "id": "c0bbb79b-3a96-4f1e-9732-a97e30e843cc",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "Zero-latency audio monitoring and mix tracking"
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "0d3d374d-4111-4ace-aa71-f1878eb3e305",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "b4d5d786-e78e-4316-b4dc-12e8cf7146a8",
+      "sample_rate_khz": 192,
+      "bit_depth_bits": 32,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "3e052bc6-e9db-46a9-bdc3-755db25dbe42",
+      "basis": "Microphone Body",
+      "width_mm": 53.98,
+      "depth_mm": 54,
+      "height_mm": 212.73
+    },
+    {
+      "id": "31d5a95b-7ccc-4d38-bbe5-fefcb994f69e",
+      "basis": "Included Stand Assembly",
+      "width_mm": 127,
+      "depth_mm": 127,
+      "height_mm": 279
+    }
+  ],
+  "lighting": ["ARGB"],
   "metadata": {
     "name": "HyperX QuadCast 2 S USB-C Microphone Black",
     "manufacturer": "HyperX",
-    "part_numbers": ["9A273AA"]
+    "part_numbers": ["9A273AA"],
+    "releaseYear": 2024
   },
-  "connectivity_type": ["USB-C"],
-  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Multi-Pattern"],
-  "features": ["Mute Button", "RGB Lighting"],
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0DG9X4WHW",
-    "walmart_sku": 13677361485
+    "manufacturer_url": "https://hyperx.com/products/hyperx-quadcast-2-s-usb-microphone"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0197961186741",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197961186741",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "9A273AA",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "9A273AA",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "197961186741",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197961186741",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DG9X4WHW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11006258",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "HY9A273AA",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "9A273AA",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3344445",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "4Y13-006",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3344445",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "9A273AA",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "mwave",
+        "channel": "au",
+        "source_product_id": "AC96858",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "MC01HX05",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3356630",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3356630",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3356630",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3356630",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "404126",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "MKR00008396787",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3344445",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "13677361485",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

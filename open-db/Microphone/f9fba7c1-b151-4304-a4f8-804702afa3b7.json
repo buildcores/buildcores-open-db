@@ -1,0 +1,117 @@
+{
+  "opendb_id": "f9fba7c1-b151-4304-a4f8-804702afa3b7",
+  "connectivity_type": ["USB-A", "XLR"],
+  "on_device_ports": [
+    {
+      "id": "47b9c629-d3d7-476f-9d7d-9ea24792b12a",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes USB-C to USB-A cable"
+    },
+    {
+      "id": "acf3689e-e49a-48d0-baad-5e7cc69351f2",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"],
+      "conditions": "XLR cable not included; disables onboard buttons and RGB"
+    },
+    {
+      "id": "8f4b11f7-a613-4f8b-817b-e79eb49f2f19",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "USB connection required for monitoring path"
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "307349d1-d733-4e5b-9afc-770aeb8e3c68",
+      "sample_rate_khz": 44.1,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "4af63628-5cd2-422e-ac9b-df5569ac103e",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "d49397e7-2512-4c4f-8ed7-a7f068cc9118",
+      "basis": "Included Stand Assembly",
+      "width_mm": 106,
+      "depth_mm": 106,
+      "height_mm": 244
+    },
+    {
+      "id": "c290695e-7bb3-4741-9784-86f34402ab65",
+      "basis": "Microphone Body",
+      "width_mm": 95,
+      "depth_mm": 56,
+      "height_mm": 165
+    }
+  ],
+  "lighting": ["RGB"],
+  "metadata": {
+    "name": "FIFINE AmpliGame AM8 Black with Black Foam Windscreen",
+    "manufacturer": "FIFINE",
+    "series": "AmpliGame",
+    "releaseYear": 2022
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://fifinemicrophone.com/products/fifine-ampligame-am8-microphone"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0850035565797",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ABCD2216AM8",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AM8",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "850035565797",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BMFQP2ZZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6601911",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5425060529",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

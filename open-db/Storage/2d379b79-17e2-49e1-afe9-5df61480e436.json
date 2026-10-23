@@ -1,5 +1,11 @@
 {
   "opendb_id": "2d379b79-17e2-49e1-afe9-5df61480e436",
+  "capacity": 12000,
+  "storage_type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Seagate SkyHawk AI 12TB HDD 3.5\" SATA",
     "manufacturer": "Seagate",
@@ -7,14 +13,38 @@
     "series": "SkyHawk",
     "variant": "12000GB"
   },
-  "capacity": 12000,
-  "type": "HDD",
-  "form_factor": "3.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "HDD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "N82E16822184902"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "ST12000VE001",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "21503",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16822184902",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16822184902",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

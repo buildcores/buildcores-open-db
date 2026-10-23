@@ -1,32 +1,247 @@
 {
   "opendb_id": "e63c0ec1-4f9f-43dc-a5fa-e46f643362a7",
-  "metadata": {
-    "name": "Lian Li V3000 PLUS GGF Edition ATX Full Tower White",
-    "manufacturer": "Lian Li",
-    "part_numbers": ["V3000PW", "G99.V3000PW.00"],
-    "series": "V3000",
-    "variant": ""
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "form_factor": "ATX Full Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX", "SFX-L", "SFX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["4 x USB 3.0", "2 x USB Type C"],
   "max_video_card_length": 589,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 198,
+  "max_psu_length": 220,
   "internal_3_5_bays": 8,
-  "internal_2_5_bays": 8,
+  "internal_2_5_bays": 16,
+  "external_3_5_bays": 0,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": true,
   "expansion_slots": 8,
+  "riser_expansion_slots": 3,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "678.5 x 279 x 674",
-  "volume": 127.589,
-  "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
+  "dimensions_mm": {
+    "depth": 678.5,
+    "width": 279,
+    "height": 674
+  },
+  "volume": 127.6,
+  "weight": 72.75,
+  "metadata": {
+    "name": "Lian Li V3000 PLUS GGF Edition ATX Full Tower White",
+    "manufacturer": "Lian Li",
+    "part_numbers": [],
+    "series": "V3000",
+    "variant": "GGF Edition",
+    "releaseYear": 2023,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
-    "amazon_sku": "B0C137TW8F",
-    "walmart_sku": 1246659714
+    "manufacturer_url": "https://lian-li.com/product/v3000-plus/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4718466013231",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "G99.V3000PW.00",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "V3000PW",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353044074",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0C137TW8F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55425020952958",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GELI-925",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "V3000PW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2944540",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2944540",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "V3000PW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "189974",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CA-7BK-LL",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2944540",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1246659714",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

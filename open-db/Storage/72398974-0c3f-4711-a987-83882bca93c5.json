@@ -1,5 +1,11 @@
 {
   "opendb_id": "72398974-0c3f-4711-a987-83882bca93c5",
+  "capacity": 1000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KingSpec XF 1TB SSD M.2-2280 PCIe 4.0 X4 NVMe",
     "manufacturer": "KingSpec",
@@ -7,14 +13,36 @@
     "series": "XF",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-000D-00153"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "XF-1TB-2280",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "XF-2280-1TB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-000D-00153",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-000D-00153",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

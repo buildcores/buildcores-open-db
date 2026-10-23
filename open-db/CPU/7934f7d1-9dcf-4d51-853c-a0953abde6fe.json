@@ -1,5 +1,9 @@
 {
   "opendb_id": "7934f7d1-9dcf-4d51-853c-a0953abde6fe",
+  "series": "Intel Core i7",
+  "microarchitecture": "Kaby Lake",
+  "coreFamily": "Kaby Lake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 112,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 112,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80677I77740X"],
     "series": "Intel Core i7"
   },
-  "series": "Intel Core i7",
-  "microarchitecture": "Kaby Lake",
-  "coreFamily": "Kaby Lake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80677I77740X",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

@@ -1,15 +1,55 @@
 {
   "opendb_id": "1e3a5b6b-4170-440d-89fa-89684a5fbbc6",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD B450",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "2.0",
+      "quantity": 3,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/ 2260 /2280",
+      "key": "M",
+      "interface": "PCIe 2.0 x4"
+    },
+    {
+      "size": "2242/ 2260 /2280/ 22110",
+      "key": "M",
+      "interface": "PCIe 3.0 x4 and SATA 6Gb/s"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel® I211AT"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 2,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,61 +71,6 @@
     "chipset": "Realtek® ALC1220 Codec",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "B450 GAMING PRO CARBON AC",
-    "manufacturer": "MSI",
-    "series": "GAMING PRO CARBON",
-    "variant": null,
-    "releaseYear": 2018,
-    "part_numbers": ["B450 GAMING PRO CARBON AC"]
-  },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD B450",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab7bb27c54a042cfcc27"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ab7bb27c54a042cfcc28"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 3,
-      "lanes": 1,
-      "_id": "69b3ab7bb27c54a042cfcc29"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/ 2260 /2280",
-      "key": "M",
-      "interface": "PCIe 2.0 x4",
-      "_id": "69b3ab7bb27c54a042cfcc2a"
-    },
-    {
-      "size": "2242/ 2260 /2280/ 22110",
-      "key": "M",
-      "interface": "PCIe 3.0 x4 and SATA 6Gb/s",
-      "_id": "69b3ab7bb27c54a042cfcc2b"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel® I211AT",
-      "_id": "69b3ab7bb27c54a042cfcc2c"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "PS/2 Combo Port",
     "DisplayPort",
@@ -96,11 +84,166 @@
     "USB 3.1 Gen2 Type-A + C",
     "Optical S/PDIF OUT"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07F85YKLJ",
-    "newegg_sku": "9SIBWH3K9T9098",
-    "walmart_sku": 310815300
+  "metadata": {
+    "name": "B450 GAMING PRO CARBON AC",
+    "manufacturer": "MSI",
+    "part_numbers": ["B450 GAMING PRO CARBON AC"],
+    "series": "GAMING PRO CARBON",
+    "variant": null,
+    "releaseYear": 2018
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142168073",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450 GAM PRO CAR AC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450 GAMING PRO CARBON AC",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142168073",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07F85YKLJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBWH3K9T9098",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBWH3K9T9098",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "310815300",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

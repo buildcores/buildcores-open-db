@@ -1,44 +1,186 @@
 {
   "opendb_id": "d86a9762-f320-42c7-bfa0-dd92f41d286c",
+  "series": "Ryzen 3 1000",
+  "microarchitecture": "Zen",
+  "coreFamily": "Summit Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 4,
-    "performance": 4,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 4
   },
   "clocks": {
     "performance": {
       "base": 3.1,
       "boost": 3.4
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "4 × 64 KB Instruction + 4 × 32 KB Data (384 KB total)",
     "l2": 2,
     "l3": 8
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "None"
-    },
-    "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
-    },
     "tdp": 65,
-    "eccSupport": false,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
+    },
+    "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
-    "lithography": "12 nm",
-    "simultaneousMultithreading": false
+    "lithography": "14nm",
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 64,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
-    "name": "AMD Ryzen 3 1200 (12nm) 3.1 GHz 4-Core AM4 OEM/Tray",
+    "name": "AMD Ryzen 3 1200 OEM/Tray",
     "manufacturer": "AMD",
     "part_numbers": ["YD1200BBM4KAF"],
-    "series": "AMD Ryzen 3"
+    "series": "Ryzen 3 1000",
+    "variant": "1200",
+    "releaseYear": 2017
   },
-  "series": "AMD Ryzen 3",
-  "microarchitecture": "Zen+",
-  "coreFamily": "Pinnacle Ridge",
-  "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-1000-series/amd-ryzen-3-1200.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0999569435302",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "YD1200BBM4KAF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "999569435302",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0741DN383",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

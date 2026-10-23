@@ -1,15 +1,40 @@
 {
   "opendb_id": "0d5e7461-8412-4388-9997-b916a154db5d",
+  "socket": "AM4",
+  "form_factor": "Micro ATX",
+  "chipset": "AMD A320",
   "memory": {
     "max": 32,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "22110",
+      "key": null,
+      "interface": "NVMe PCIe 3.0 x4 & SATA Mode"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 0,
     "usb_3_2_gen_1": 0,
@@ -20,6 +45,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,49 +56,169 @@
     "chipset": "N/A",
     "channels": null
   },
+  "back_panel_ports": [],
   "metadata": {
     "name": "Gigabyte GA-A320M-S2H Micro ATX AM4",
     "manufacturer": "Gigabyte",
+    "part_numbers": ["GA-A320M-S2H"],
     "series": "GA-A320M",
     "variant": "rev 2.0",
-    "releaseYear": 2022,
-    "part_numbers": ["GA-A320M-S2H"]
+    "releaseYear": 2022
   },
-  "socket": "AM4",
-  "form_factor": "Micro ATX",
-  "chipset": "AMD A320",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab56ce32fbd08882f180"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "22110",
-      "key": null,
-      "interface": "NVMe PCIe 3.0 x4 & SATA Mode",
-      "_id": "69b3ab56ce32fbd08882f181"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ab56ce32fbd08882f182"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
-  "back_panel_ports": [],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B079NYQQJJ",
-    "newegg_sku": "9SIAGKCFUE1960",
-    "walmart_sku": 291984057
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523011904",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GA-A320M-S2H",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523011904",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B079NYQQJJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "14335",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAGKCFUE1960",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAGKCFUE1960",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "291984057",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

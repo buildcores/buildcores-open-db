@@ -1,0 +1,510 @@
+{
+  "opendb_id": "17f12c5b-f531-45c1-8351-4d32d191811f",
+  "screen_size": 31.5,
+  "resolution": {
+    "horizontalRes": 3840,
+    "verticalRes": 2160
+  },
+  "refresh_rate": 240,
+  "panel_type": "WOLED",
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1,
+    "usb_c": 1
+  },
+  "connectors": "2 x HDMI                                                           1 x DisplayPort",
+  "display_inputs": [
+    {
+      "id": "3e943f42-0ad7-433a-9f15-a09d19dd3373",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "cf763f45-bcda-4b5e-88cd-dd741cb55189",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Requires a full-bandwidth HDMI 2.1 Fixed Rate Link (FRL) source hardware configuration."
+        },
+        {
+          "id": "5bb7591e-0663-4d0d-81a4-59463dced29a",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 480,
+          "claim": "supported",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Requires changing the monitor's OSD setting or hotkey configuration to activate Frame Rate Boost mode."
+        }
+      ]
+    },
+    {
+      "id": "e053eab9-492b-4119-a4cf-17a370b1a266",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "61577417-5ccc-4378-b2e8-a2c1a7b48f2e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Requires a host graphics card supporting Display Stream Compression (DSC) protocol streams."
+        },
+        {
+          "id": "1aa38d85-a4ed-4cca-b40e-6fc15d474ab0",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 480,
+          "claim": "supported",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Requires enabling the integrated Frame Rate Boost hardware toggle layer."
+        }
+      ]
+    },
+    {
+      "id": "9d1bc159-0dc0-4038-bf8a-007d27e2293b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C (15W PD)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "db4e01d2-54b8-4743-9d08-f2f3039fc312",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Requires a host system supporting DP Alt Mode over USB-C alongside standard DSC capabilities. Provides 15W upstream power routing."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "1b8711f0-811a-4666-96b7-8eaa9b7b734d",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.5,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Type M4 screws (10 mm depth) (The standard metric sizing limit built into the structural back housing).",
+          "weight_kg": 6.6
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 714,
+    "height": 561,
+    "height_min": 502,
+    "height_max": 582,
+    "depth": 188
+  },
+  "dimensions_without_stand_mm": {
+    "width": 714,
+    "height": 493,
+    "depth": 71
+  },
+  "weight": {
+    "with_stand_kg": 6.6,
+    "without_stand_kg": 4.5
+  },
+  "power_consumption": {
+    "typical_w": 44,
+    "manufacturer_max_w": 59,
+    "note": "The manufacturer-reported typical standard work mode power draw is 44 W. The maximum 59 W calculation accounts for the simultaneous inclusion of full 15W USB Power Delivery allocation via the upstream Type-C Alt Mode interface."
+  },
+  "max_brightness": 1300,
+  "hdr": "DisplayHDR 400 True Black",
+  "adaptive_sync": "FreeSync Premium Pro",
+  "metadata": {
+    "name": "ASUS ROG Strix OLED XG32UCWMG",
+    "manufacturer": "ASUS",
+    "part_numbers": ["ROG Strix OLED XG32UCWMG", "XG32UCWMG", "90LM0BW0-B01371"],
+    "series": "ROG Strix OLED",
+    "variant": "XG32UCWMG",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/in/monitors/27-to-31-5-inches/rog-strix-oled-xg32ucwmg/spec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291007208",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711636007191",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90LM0BW0-B01371",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG Strix OLED XG32UCWMG",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "XG32UCWMG",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291007208",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100142907",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100142907",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100142907",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100142907",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F732KMQQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "56276079116670",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12574433",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASXG32UCWMG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "XG32UCWMG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "TFAS-301",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MON9783",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3547933",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "6135-0P9",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3547933",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "213106",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "XG32UCWMG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "MO32AS58",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16824281378",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824281378",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MON-ASU-06118",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21821642",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21821642",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3417589",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3417589",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3417589",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3417589",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "412838",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202508180015",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3547933",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "18094155974",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

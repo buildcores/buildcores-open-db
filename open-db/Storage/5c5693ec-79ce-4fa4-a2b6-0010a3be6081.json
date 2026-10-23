@@ -1,5 +1,11 @@
 {
   "opendb_id": "5c5693ec-79ce-4fa4-a2b6-0010a3be6081",
+  "capacity": 250,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Samsung 980 Pro 250GB M.2-2280 SSD PCIe 4.0 NVMe",
     "manufacturer": "Samsung",
@@ -7,12 +13,34 @@
     "series": "980",
     "variant": "250GB"
   },
-  "capacity": 250,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MZ-V8P250B",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MZ-V8P250BW",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "SSD1302",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

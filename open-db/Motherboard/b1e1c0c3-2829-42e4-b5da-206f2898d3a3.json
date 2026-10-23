@@ -1,15 +1,54 @@
 {
   "opendb_id": "b1e1c0c3-2829-42e4-b5da-206f2898d3a3",
+  "socket": "LGA 2066",
+  "form_factor": "EATX",
+  "chipset": "Intel X299",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 3,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242",
+      "key": "M",
+      "interface": "PCIe3.0x4"
+    },
+    {
+      "size": "2280",
+      "key": null,
+      "interface": "PCIe3.0x4,SATA"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 1
   },
+  "onboard_ethernet": [
+    {
+      "speed": "10 Gb/s",
+      "controller": "AquantiaAQC-107"
+    },
+    {
+      "speed": "1 Gb/s",
+      "controller": "IntelI219-V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 0,
     "usb_3_2_gen_1": 0,
@@ -20,6 +59,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,71 +70,177 @@
     "chipset": "SupremeFXS1220,ESS®SABRE9018Q2C",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUSROG RampageVI ExtremeOmega",
-    "manufacturer": "ASUS",
-    "series": "ROG RAMPAGE",
-    "variant": "VI ExtremeOmega",
-    "releaseYear": 2019,
-    "part_numbers": ["ROG RAMPAGE VI EXTREME OMEGA", "RMPGVIEXTROMEGA"]
-  },
-  "socket": "LGA 2066",
-  "form_factor": "EATX",
-  "chipset": "Intel X299",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3ac3f744e69396d560959"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac3f744e69396d56095a"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242",
-      "key": "M",
-      "interface": "PCIe3.0x4",
-      "_id": "69b3ac3f744e69396d56095b"
-    },
-    {
-      "size": "2280",
-      "key": null,
-      "interface": "PCIe3.0x4,SATA",
-      "_id": "69b3ac3f744e69396d56095c"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "10 Gb/s",
-      "controller": "AquantiaAQC-107",
-      "_id": "69b3ac3f744e69396d56095d"
-    },
-    {
-      "speed": "1 Gb/s",
-      "controller": "IntelI219-V",
-      "_id": "69b3ac3f744e69396d56095e"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "USB3.1 Gen2 Ports-TypeAand TypeC",
     "Aquantia 10Gbps LAN",
     "Intel gigabit LAN",
     "802.11acWi-Fi"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07MBJ6N9D",
-    "newegg_sku": "9SIBTK0KAS3916",
-    "walmart_sku": 742358801
+  "metadata": {
+    "name": "ASUSROG RampageVI ExtremeOmega",
+    "manufacturer": "ASUS",
+    "part_numbers": ["ROG RAMPAGE VI EXTREME OMEGA", "RMPGVIEXTROMEGA"],
+    "series": "ROG RAMPAGE",
+    "variant": "VI ExtremeOmega",
+    "releaseYear": 2019
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4718017225656",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RAMPAGE VI EXTREME O",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RMPGVIEXTROMEGA",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG RAMPAGE VI EXTREME OMEGA",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876225653",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07MBJ6N9D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBTK0KAS3916",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBTK0KAS3916",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "742358801",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,15 +1,257 @@
 {
   "opendb_id": "8e17e10b-5ec9-4dae-a14d-0b1d8036f620",
-  "metadata": {
-    "part_numbers": ["20MAB9901-wt", "10MAB9911"],
-    "name": "Elgato Wave:3 White & Wave Mic Arm LP",
-    "manufacturer": "Elgato"
-  },
-  "connectivity_type": ["USB-A", "USB-C"],
-  "features": ["Gain Control", "Mute Button"],
+  "weight": 280,
+  "connectivity_type": ["USB-A"],
+  "on_device_ports": [
+    {
+      "id": "912a989b-0c34-45af-bffc-8c52128c51df",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"]
+    },
+    {
+      "id": "1597b194-dd28-448d-9410-5b835b2adad3",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
   "polar_pattern": ["Cardioid"],
-  "lighting": [],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "171834e8-eee0-4b57-806b-95a2e0e1dfbc",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "f1ca445f-04fe-4965-837a-6493bc7891cd",
+      "sample_rate_khz": 96,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["WHITE", "BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "296aefdd-4488-4dac-9ee6-1f65a959bdd3",
+      "basis": "Microphone Body",
+      "width_mm": 66,
+      "depth_mm": 40,
+      "height_mm": 153
+    },
+    {
+      "id": "3c43d8e6-3f91-48ea-bd2a-a7f7550e808a",
+      "basis": "Included Stand Assembly",
+      "width_mm": 100,
+      "depth_mm": 100,
+      "height_mm": 213
+    }
+  ],
+  "lighting": ["None"],
+  "metadata": {
+    "name": "Elgato Wave:3 White & Wave Mic Arm LP",
+    "manufacturer": "Elgato",
+    "part_numbers": ["20MAB9901-wt", "10MAB9911"],
+    "releaseYear": 2021
+  },
   "general_product_information": {
     "manufacturer_url": "https://www.elgato.com/us/en/p/wave-3-white"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840006659921",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "10MAB9911",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "20MAB9901-wt",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006659921",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CFM8TN67",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "EL3PMICW",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2870573",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2870573",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "207763",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3175656",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3175656",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3175656",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3175656",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2870573",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

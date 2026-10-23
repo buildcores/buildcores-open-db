@@ -1,41 +1,361 @@
 {
   "opendb_id": "09fcde51-6af5-4b38-8f4e-eb3b9c020e52",
-  "dimensions_mm": {
-    "width": 290,
-    "height": 495,
-    "depth": 466
-  },
-  "metadata": {
-    "name": "NZXT H9 Flow ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C, USB 3.2 Gen 1 Type-A Front Panel",
-    "manufacturer": "NZXT",
-    "part_numbers": ["CM-H91FW-01"],
-    "series": "H9",
-    "variant": "h9 flow 2023",
-    "last_manually_spec_verified_at": "2025-09-17T15:32:35.948Z"
-  },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "color": ["WHITE"],
+  "lighting": ["None"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "1x USB 3.2 Gen 2x2 Type-C                                                    2x USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["1x USB 3.2 Gen 2x2 Type-C", "2x USB 3.2 Gen 1 Type-A"],
   "max_video_card_length": 435,
   "max_cpu_cooler_height": 165,
+  "max_psu_length": 200,
   "internal_3_5_bays": 2,
-  "internal_2_5_bays": 4,
+  "internal_2_5_bays": 6,
+  "power_supply_shroud": false,
   "expansion_slots": 7,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": true,
   "dimensions": "466 x 290 x 495",
-  "volume": 66.894,
-  "weight": 26.67593,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": ["1x USB 3.2 Gen 2x2 Type-C   ", "2x USB 3.2 Gen 1 Type-A"],
-  "lighting": [],
+  "dimensions_mm": {
+    "depth": 481,
+    "width": 315,
+    "height": 506
+  },
+  "volume": 76.7,
+  "weight": 27.5,
+  "metadata": {
+    "name": "NZXT H9 Flow ATX Mid Tower White with Tempered Glass Side Panel",
+    "manufacturer": "NZXT",
+    "part_numbers": [],
+    "series": "H9",
+    "variant": "Flow",
+    "releaseYear": 2023,
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2025-09-17T15:32:35.948Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B0BG1GQKKY",
-    "newegg_sku": "N82E16811146346R",
-    "bestbuy_sku": 6529623,
-    "walmart_sku": 2426149412,
-    "manufacturer_url": "https://nzxt.com/en-intl/products/h9-flow-2023"
+    "manufacturer_url": "https://nzxt.com/en-intl/products/h9-flow?srsltid=AfmBOoqi3ONjH-IU0GQRrxEyC7RcLDcbw5QFZHq5BXdJ1p_8glX34HkQ&bt=0"
+  },
+  "identifiers": {
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810074842495",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0810074842495",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "CM-H91FW-01",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CM-H91FW-01",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810074842495",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "810074842495",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "adorama",
+        "channel": "us",
+        "source_product_id": "NZCMH91FW01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1863960",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1863960",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1863960",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1863960",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BG1GQKKY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55308651757950",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6529623",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "NZCMH91FW01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GENZ-216",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "CM-H91FW-01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2876963",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "CM-H91FW-01",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2A42-019",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2876963",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811146346R",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBKJJKEA4578",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "CA-1BF-NX",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3125024",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3125024",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3125024",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3125024",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "405738",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202210200026",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2876963",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2426149412",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

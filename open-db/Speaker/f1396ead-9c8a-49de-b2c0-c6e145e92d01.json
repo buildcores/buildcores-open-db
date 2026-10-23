@@ -1,0 +1,111 @@
+{
+  "opendb_id": "f1396ead-9c8a-49de-b2c0-c6e145e92d01",
+  "weight": 2000,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["GREEN"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "3e8fedb9-4bca-4c3f-afe6-3e40f031706f",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    },
+    {
+      "id": "60a63773-790d-410f-9209-a4ea013d569c",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "3f0fed3e-e83b-4abd-9c3a-b9582fe7f86a",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "485a2ea3-d50f-45f8-b28c-53bdea293f84",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA Line Level",
+      "source_side_connector": "3.5 mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "a2678390-ffef-4db5-979d-293e3f34d6e3",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type C",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "24 bit/96 kHz"
+    },
+    {
+      "id": "f15573c4-b079-41e7-9f9f-ee85eac896b5",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "ce601bc6-f176-4d56-97fe-fc0185bde61a",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "conditions": "24V/2.5A"
+    }
+  ],
+  "lighting": ["None"],
+  "metadata": {
+    "name": "Kanto ORA Moss",
+    "manufacturer": "Kanto",
+    "part_numbers": [],
+    "series": "KANTO ORA",
+    "variant": "MOSS",
+    "releaseYear": 2023
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://kantoaudio.com/powered-speakers/ora/"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0800152722832",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ORAMN",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "800152722832",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DSQSZ7V9",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

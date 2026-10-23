@@ -1,5 +1,9 @@
 {
   "opendb_id": "eabc2ad4-eb1b-4f10-b613-a15219a79c80",
+  "series": "Intel Xeon E",
+  "microarchitecture": "Coffee Lake Refresh",
+  "coreFamily": "Coffee Lake Refresh",
+  "socket": "LGA 1151",
   "cores": {
     "total": 6,
     "performance": 6,
@@ -16,19 +20,19 @@
     "l3": 12
   },
   "specifications": {
+    "tdp": 80,
     "integratedGraphics": {
       "model": "Intel HD Graphics P630"
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
-    "tdp": 80,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E 2276G 3.8 GHz 6-Core LGA1151 (OEM/Tray)",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8068404227703"],
     "series": "Intel Xeon E"
   },
-  "series": "Intel Xeon E",
-  "microarchitecture": "Coffee Lake Refresh",
-  "coreFamily": "Coffee Lake Refresh",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8068404227703",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

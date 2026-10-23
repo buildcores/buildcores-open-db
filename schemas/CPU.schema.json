@@ -9,6 +9,11 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "series": {
       "description": "The normalized CPU family bucket the product belongs to (e.g., Ryzen 7 9000, Core i7 14000, Core Ultra 5 200)",
       "type": ["string", "null"]
@@ -35,10 +40,12 @@
         "FM2+",
         "FM2",
         "FM1",
+        "sWRX8",
         "sTR5",
         "sTRX4",
         "sTR4",
         "TR4",
+        "LGA 1954",
         "LGA 1851",
         "LGA 1700",
         "LGA 1200",
@@ -54,11 +61,14 @@
         "LGA 1366",
         "LGA 1356",
         "LGA 775",
+        "LGA 7529",
+        "LGA 4710",
         "LGA 4677",
         "LGA 4189",
         "LGA 3647",
         "LGA 1121",
         "G34",
+        "SP6",
         "SP5",
         "SP3",
         "2 x LGA 2011",
@@ -252,6 +262,10 @@
           "type": ["string", "null"],
           "description": "HYTE product SKU"
         },
+        "lttstore_sku": {
+          "type": ["string", "null"],
+          "description": "LTTStore product SKU"
+        },
         "manufacturer_url": {
           "type": ["string", "null"],
           "description": "Official manufacturer product URL"
@@ -295,6 +309,81 @@
         }
       },
       "required": ["name"]
+    },
+    "identifiers": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991,
+          "description": "Monotonically increasing identity snapshot version"
+        },
+        "identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["upc", "ean", "gtin", "mpn"]
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "region": {
+                "default": "all",
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": ["type", "value", "region"],
+            "additionalProperties": false
+          },
+          "description": "Canonical product identifiers"
+        },
+        "retailer_listings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "channel": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pricing_enabled": {
+                "type": "boolean"
+              },
+              "excluded_source_offer_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 512
+                }
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            },
+            "required": ["source", "channel", "source_product_id", "pricing_enabled", "verified"],
+            "additionalProperties": false
+          },
+          "description": "Canonical retailer product listings used for pricing"
+        }
+      },
+      "required": ["version", "identifiers", "retailer_listings"],
+      "additionalProperties": false,
+      "description": "Current versioned product identity snapshot used for retailer and pricing matching"
     }
   }
 }

@@ -1,5 +1,36 @@
 {
   "opendb_id": "b3266d2d-ffc2-4623-ac96-6d392fa77cd4",
+  "min_fan_rpm": 2500,
+  "min_noise_level": 39.9,
+  "color": ["BLACK"],
+  "lighting": ["ARGB", "Display"],
+  "height": 94,
+  "cpu_sockets": [
+    "SP3",
+    "AM4",
+    "AM3+",
+    "AM3",
+    "AM2+",
+    "AM2",
+    "FM2+",
+    "FM2",
+    "FM1",
+    "TR4",
+    "sTRX4",
+    "LGA 1200",
+    "LGA 1151",
+    "LGA 1150",
+    "LGA 1155",
+    "LGA 1156",
+    "LGA 2066",
+    "LGA 2011-3",
+    "LGA 2011"
+  ],
+  "water_cooled": true,
+  "radiator_size": 360,
+  "fanless": false,
+  "fan_size": 120,
+  "fan_quantity": 3,
   "metadata": {
     "name": "MSI MPG CORELIQUID K360 Water 360mm 77.4 CFM Black",
     "manufacturer": "MSI",
@@ -7,50 +38,153 @@
       "MPG CORELIQUID K360                                                    9S6-6A0321-016                                                    CLK360",
       "MPG CoreLiquid K360"
     ],
-    "series": "MPG Coreliquid K series",
-    "variant": "360mm Black",
-    "releaseYear": null,
+    "series": "MPG CORELIQUID K",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-01-19T20:33:04.813Z"
   },
-  "min_fan_rpm": 0,
-  "max_fan_rpm": 2500,
-  "min_noise_level": 0,
-  "max_noise_level": 39,
-  "color": ["BLACK"],
-  "height": null,
-  "cpu_sockets": [
-    "AM2",
-    "AM3",
-    "AM4",
-    "AM5",
-    "FM1",
-    "FM2",
-    "LGA 1150",
-    "LGA 1151",
-    "LGA 1155",
-    "LGA 1156",
-    "LGA 1200",
-    "LGA 1700",
-    "LGA 1851",
-    "LGA 2011",
-    "LGA 2066",
-    "sTR4",
-    "sTRX4",
-    "AM3+",
-    "AM2+",
-    "AM1",
-    "FM2+",
-    "LGA 2011-3",
-    "SP3"
-  ],
-  "water_cooled": true,
-  "radiator_size": 360,
-  "fanless": false,
-  "fan_size": 120,
-  "fan_quantity": 3,
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B08XKDWHSB",
-    "manufacturer_url": "https://www.msi.com/Liquid-Cooling/MPG-CORELIQUID-K360/Specification"
+    "manufacturer_url": "https://us.msi.com/Liquid-Cooling/MPG-CORELIQUID-K360/Specification"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142245194",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG CoreLiquid K360",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG CORELIQUID K360                                                    9S6-6A0321-016                                                    CLK360",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08XKDWHSB",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16835846017",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "968307019",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,15 +1,34 @@
 {
   "opendb_id": "549a8ece-1eef-4c38-9245-7fba81ef8265",
+  "socket": "LGA 2011",
+  "form_factor": "SSI CEB",
+  "chipset": "Intel X79",
   "memory": {
     "max": 64,
     "ram_type": "DDR3",
     "slots": 8
   },
+  "color": ["BLACK", "BLUE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 7,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["2 x 1 Gb/s"],
   "metadata": {
     "name": "Asus Intel X79 P9X79-E WS LGA2011 DDR3 SSI CEB",
     "manufacturer": "ASUS",
@@ -35,30 +58,21 @@
     "series": "Intel",
     "variant": ""
   },
-  "socket": "LGA 2011",
-  "form_factor": "SSI CEB",
-  "chipset": "Intel X79",
-  "color": ["BLACK", "BLUE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 7,
-      "lanes": 16,
-      "_id": "69b3abbe1698c621320889f7"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3abbe1698c621320889f8"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["2 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "90SB03C0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P9X79-E WS",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

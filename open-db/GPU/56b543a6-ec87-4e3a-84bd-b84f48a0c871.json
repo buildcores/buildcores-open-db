@@ -1,5 +1,20 @@
 {
   "opendb_id": "56b543a6-ec87-4e3a-84bd-b84f48a0c871",
+  "chipset_manufacturer": "AMD",
+  "chipset": "Radeon RX 570",
+  "core_base_clock": 1168,
+  "core_boost_clock": 1284,
+  "memory": 4,
+  "memory_type": "GDDR5",
+  "effective_memory_clock": 7000,
+  "memory_bus": 0,
+  "tdp": 180,
+  "interface": "PCIe x16",
+  "color": ["BLACK"],
+  "lighting": [],
+  "length": 230,
+  "total_slot_width": 2,
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 1,
@@ -22,20 +37,21 @@
     "series": "Radeon RX 570",
     "variant": "Sapphire"
   },
-  "chipset_manufacturer": "AMD",
-  "chipset": "Radeon RX 570",
-  "memory": 4,
-  "memory_type": "GDDR5",
-  "core_base_clock": 1168,
-  "core_boost_clock": 1284,
-  "effective_memory_clock": 7000,
-  "memory_bus": 0,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "length": 230,
-  "tdp": 180,
-  "total_slot_width": 2,
-  "cooling": "2 Fans",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "100412P4GOCL",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "11266-04-20G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

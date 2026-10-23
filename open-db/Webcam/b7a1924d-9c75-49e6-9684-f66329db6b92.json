@@ -1,11 +1,275 @@
 {
   "opendb_id": "b7a1924d-9c75-49e6-9684-f66329db6b92",
+  "weight": 80,
+  "resolution": "1080p",
+  "resolution_other": "720p, 540p",
+  "frame_rate": "60fps",
+  "frame_rate_other": "60fps, 30fps",
+  "capture_mode_claims": [
+    {
+      "id": "7299ec2c-cb7b-47bc-9d65-49c88b6bf0dd",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "MJPG format"
+    },
+    {
+      "id": "106e62b5-d422-41ea-887c-3be606a29daa",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "MJPG format, HDR supported"
+    },
+    {
+      "id": "d1aa587a-2874-4a56-8351-e800d672d45c",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "supported",
+      "conditions": "MJPG format"
+    },
+    {
+      "id": "4d2636c6-d770-444c-a283-e9b4f8d5c6b8",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "MJPG format"
+    },
+    {
+      "id": "8938d9a5-f741-4858-ae25-2225f1daf880",
+      "resolution": {
+        "horizontalRes": 960,
+        "verticalRes": 540
+      },
+      "frame_rate_fps": 60,
+      "claim": "supported",
+      "conditions": "MJPG format"
+    },
+    {
+      "id": "6f620e5c-a59c-4e92-adc2-f91828f6dc8c",
+      "resolution": {
+        "horizontalRes": 960,
+        "verticalRes": 540
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "MJPG format"
+    }
+  ],
+  "connectivity_type": ["Wired", "Wired USB-C"],
+  "lighting": ["None"],
   "metadata": {
     "name": "Elgato Facecam Neo 1080p 720p Webcam",
     "manufacturer": "Elgato",
-    "part_numbers": ["10WAE9901"]
+    "part_numbers": ["10WAE9901"],
+    "releaseYear": 2024
   },
-  "connectivity_type": [],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/facecam-neo?srsltid=AU7gw4V3uIWWvDtmSCwC1m0oVZ0RWl8RHkjGfhk6cJoQxwhT4yG9M3bH"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840006673477",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840006673477",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "2220009297494",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "10WAE9901",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "10WAE9901",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "20WAE9901",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840006673477",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006673477",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CVYHHDLD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6587471",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ELFNEO",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3178258",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3178258",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "216261",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3178258",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

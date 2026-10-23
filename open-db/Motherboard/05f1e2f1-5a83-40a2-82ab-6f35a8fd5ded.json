@@ -1,15 +1,55 @@
 {
   "opendb_id": "05f1e2f1-5a83-40a2-82ab-6f35a8fd5ded",
+  "socket": "LGA 1200",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B460",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "SATA and PCIe x4/x2"
+    },
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "SATA and PCIe x4/x2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel GbE LAN"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,61 +71,6 @@
     "chipset": "Realtek ALC1200",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "B460M D3H",
-    "manufacturer": "Gigabyte",
-    "series": null,
-    "variant": "rev. 1.0",
-    "releaseYear": 2020,
-    "part_numbers": ["B460M D3H"]
-  },
-  "socket": "LGA 1200",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B460",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab57744e69396d55bc7f"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ab57744e69396d55bc80"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ab57744e69396d55bc81"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "SATA and PCIe x4/x2",
-      "_id": "69b3ab57744e69396d55bc82"
-    },
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "SATA and PCIe x4/x2",
-      "_id": "69b3ab57744e69396d55bc83"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel GbE LAN",
-      "_id": "69b3ab57744e69396d55bc84"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x PS/2 keyboard/mouse port",
     "1 x D-Sub port",
@@ -95,11 +83,161 @@
     "1 x RJ-45 port",
     "6 x audio jacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B08933PCGT",
-    "newegg_sku": "9SIAZF8FSB4658",
-    "walmart_sku": 203063975
+  "metadata": {
+    "name": "B460M D3H",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["B460M D3H"],
+    "series": null,
+    "variant": "rev. 1.0",
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523022023",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B460M D3H",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523022023",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08933PCGT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAZF8FSB4658",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAZF8FSB4658",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "203063975",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

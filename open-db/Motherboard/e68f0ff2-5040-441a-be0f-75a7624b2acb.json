@@ -1,15 +1,50 @@
 {
   "opendb_id": "e68f0ff2-5040-441a-be0f-75a7624b2acb",
+  "socket": "LGA 1151",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel Z170",
   "memory": {
     "max": 64,
     "ram_type": "DDR3",
     "slots": 4
   },
+  "color": ["BLACK", "GOLD"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242-2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +66,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["1 x 1 Gb/s"],
   "metadata": {
     "name": "Asus Z170 Z170M-E D3 LGA1151 DDR3 Micro ATX",
     "manufacturer": "ASUS",
@@ -35,49 +74,16 @@
     "series": "Z170",
     "variant": ""
   },
-  "socket": "LGA 1151",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel Z170",
-  "color": ["BLACK", "GOLD"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac99ce32fbd088838cff"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac99ce32fbd088838d00"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac99ce32fbd088838d01"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac99ce32fbd088838d02"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3ac99ce32fbd088838d03"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["1 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "Z170M-E D3",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

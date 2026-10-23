@@ -1,11 +1,258 @@
 {
   "opendb_id": "eb1ad3e3-a854-42ac-816b-c487f94537e6",
+  "weight": 90,
+  "resolution_other": "720p, 540p",
+  "frame_rate_other": "60fps, 30fps",
+  "capture_mode_claims": [
+    {
+      "id": "585d705d-0104-4e38-958f-88bbe193072b",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "USB 3.0 / USB 3.2 Gen 1 required for uncompressed stream; supports SDR & HDR modes."
+    },
+    {
+      "id": "a10fe597-e5e0-4007-838e-27e97672e03f",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "USB 3.0 or USB 2.0 (USB 2.0 uses compressed MJPEG); supports SDR & HDR modes"
+    },
+    {
+      "id": "438e554c-4283-4a21-94f5-c9afe3b5c67a",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 120,
+      "claim": "maximum_at_resolution",
+      "conditions": "USB 3.0 / USB 3.2 Gen 1 required for uncompressed 120fps stream."
+    },
+    {
+      "id": "147279cb-e84e-426a-b61f-7be505ea5b7d",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "supported",
+      "conditions": "USB 3.0 or USB 2.0 (MJPEG format); supports SDR & HDR modes."
+    },
+    {
+      "id": "f59ef158-513e-414b-80da-a8ee99fafda7",
+      "resolution": {
+        "horizontalRes": 960,
+        "verticalRes": 540
+      },
+      "frame_rate_fps": 120,
+      "claim": "maximum_at_resolution",
+      "conditions": "USB 3.0 / USB 3.2 Gen 1 required for uncompressed 120fps stream."
+    }
+  ],
+  "connectivity_type": ["Wired", "Wired USB-C", "Wired USB-A"],
+  "lighting": ["None"],
   "metadata": {
     "name": "Elgato Facecam MK.2 1080p 720p Webcam",
     "manufacturer": "Elgato",
-    "part_numbers": ["10WAC9901"]
+    "part_numbers": ["10WAC9901"],
+    "releaseYear": 2024
   },
-  "connectivity_type": [],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/facecam-mk2?srsltid=AU7gw4UZ-wljb8tF5JiuxNw-Xa9rLcLG_rrolCAqcmqSOjjlkTnOnhwZ"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840006669227",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840006669227",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "10WAC9901",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "10WAC9901",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "20WAC9901",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840006669227",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006669227",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CW1S7XP5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6578877",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ELFCMK2",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3162924",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3162924",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3162924",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "9383223099",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

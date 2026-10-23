@@ -1,15 +1,40 @@
 {
   "opendb_id": "bd060a32-54ed-49c3-89e2-be20ef4898d5",
+  "socket": "AM4",
+  "form_factor": "Mini-ITX",
+  "chipset": "AMD B450",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek 8111H"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -20,6 +45,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": true
@@ -28,43 +56,6 @@
     "chipset": "Realtek ALC887",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI B450I GAMING PLUS AC",
-    "manufacturer": "MSI",
-    "series": "B450I GAMING PLUS",
-    "variant": "AC",
-    "releaseYear": 2018,
-    "part_numbers": ["B450I GAMING PLUS AC", "B450I-GAMING-PLUS-AC"]
-  },
-  "socket": "AM4",
-  "form_factor": "Mini-ITX",
-  "chipset": "AMD B450",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac503722c3e205bd49e6"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3ac503722c3e205bd49e7"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek 8111H",
-      "_id": "69b3ac503722c3e205bd49e8"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "USB 2.0",
     "DisplayPort",
@@ -75,11 +66,166 @@
     "HDMI",
     "USB 3.1 Gen1"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07F83RY49",
-    "newegg_sku": "9SIB11NK2D2113",
-    "walmart_sku": 997292686
+  "metadata": {
+    "name": "MSI B450I GAMING PLUS AC",
+    "manufacturer": "MSI",
+    "part_numbers": ["B450I GAMING PLUS AC", "B450I-GAMING-PLUS-AC"],
+    "series": "B450I GAMING PLUS",
+    "variant": "AC",
+    "releaseYear": 2018
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142168066",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450I GAMING PLUS AC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450I-GAMING-PLUS-AC",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142168066",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07F83RY49",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIB11NK2D2113",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB11NK2D2113",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "997292686",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

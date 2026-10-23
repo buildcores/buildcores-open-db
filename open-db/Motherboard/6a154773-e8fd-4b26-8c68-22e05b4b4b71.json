@@ -1,15 +1,70 @@
 {
   "opendb_id": "6a154773-e8fd-4b26-8c68-22e05b4b4b71",
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 128,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen4x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe Gen5x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe Gen4x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe Gen4x4"
+    },
+    {
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe Gen4x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Killer E3100G"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +75,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,80 +86,6 @@
     "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASRock MB Z790 PG Riptide R",
-    "manufacturer": "ASRock",
-    "part_numbers": ["ROG STRIX B650E-E GAMING WIFI", "90MB1BB0-M0EAY0"],
-    "series": "Riptide R",
-    "variant": null,
-    "releaseYear": 2022
-  },
-  "socket": "LGA 1700",
-  "form_factor": "ATX",
-  "chipset": "Intel Z790",
-  "color": [],
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3abe3ce32fbd088833176"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3abe3ce32fbd088833177"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abe3ce32fbd088833178"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe Gen4x4",
-      "_id": "69b3abe3ce32fbd088833179"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe Gen5x4",
-      "_id": "69b3abe3ce32fbd08883317a"
-    },
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe Gen4x4",
-      "_id": "69b3abe3ce32fbd08883317b"
-    },
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe Gen4x4",
-      "_id": "69b3abe3ce32fbd08883317c"
-    },
-    {
-      "size": "2260/2280",
-      "key": "M",
-      "interface": "PCIe Gen4x4",
-      "_id": "69b3abe3ce32fbd08883317d"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Killer E3100G",
-      "_id": "69b3abe3ce32fbd08883317e"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2 x Antenna Mounting Points",
     "1 x HDMI Port",
@@ -113,6 +97,234 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
-  "lighting": [],
-  "general_product_information": {}
+  "metadata": {
+    "name": "ASRock MB Z790 PG Riptide R",
+    "manufacturer": "ASRock",
+    "part_numbers": ["ROG STRIX B650E-E GAMING WIFI", "90MB1BB0-M0EAY0"],
+    "series": "Riptide R",
+    "variant": null,
+    "releaseYear": 2022
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553906203",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081906209",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1BB0-M0EAY0",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX B650E-E GAMING WIFI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553906203",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "1870276",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "1870276",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "1870276",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "1870276",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55306302357886",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "90MB1BB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "MBAS-657",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "90MB1BB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "MBD3370",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2824306",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "2301-9YJ",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2824306",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "gigantec",
+        "channel": "es",
+        "source_product_id": "28346",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "185800",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "90MB1BB0-M0EAY0",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "PB02AS133",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "MB-6JW-AS",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21244526",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21244526",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3109178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3109178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3109178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3109178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "327483",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202210070063",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "129784",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2824306",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

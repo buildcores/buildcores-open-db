@@ -1,31 +1,458 @@
 {
   "opendb_id": "0dda92b3-ced7-4428-9137-8175e15d759d",
+  "screen_size": 26.5,
   "resolution": {
     "horizontalRes": 3840,
     "verticalRes": 2160
   },
-  "metadata": {
-    "name": "Asus ROG Swift OLED PG27UCDM 26.5\" 4K 240Hz QD-OLED Monitor",
-    "manufacturer": "Asus",
-    "part_numbers": ["90LM0B30-B019B1", "PG27UCDM", "90LM0B30-B01971", "ROG Swift OLED PG27UCDM"],
-    "series": "",
-    "variant": "Black"
-  },
-  "screen_size": 26.5,
   "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 2.1                                                    1 x USB Type-C",
-  "hdr": "",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1": 1,
+    "usb_c": 1
+  },
+  "connectors": "2 x HDMI 2.1                                                      1 x DisplayPort 2.1                                                    1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "0fcf5ef9-0e4f-46bb-8af6-14cb7161dd8d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "b48b6dee-2e77-4bbf-870d-a96ce58e11ef",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1cd8843b-5cd9-4b25-94f6-180577f2bfb7",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "9a6e2fa1-30af-4763-bab8-e8c33d93df6d",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1ca10231-7988-4c4d-ab91-d02b002f8a50",
+      "connector": "usb_c",
+      "count": 1,
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "2afcef8c-d07e-410f-82dc-f85325563fe4",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ac9db800-5af3-4a78-887b-b600b27a5d71",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.97,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "ROG Wall Mount Kit"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 610.3,
+    "height": 538.5,
+    "height_min": 439.5,
+    "height_max": 549.5,
+    "depth": 218.8
+  },
+  "dimensions_without_stand_mm": {
+    "width": 610.3,
+    "height": 369.2,
+    "depth": 70.5
+  },
+  "weight": {
+    "with_stand_kg": 7.62,
+    "without_stand_kg": 5
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 80
+  },
+  "max_brightness": 1000,
+  "hdr": "DisplayHDR 400 True Black",
   "adaptive_sync": "FreeSync Premium Pro",
-  "lighting": [],
+  "metadata": {
+    "name": "Asus ROG Swift OLED PG27UCDM 26.5\" 4K 240Hz QD-OLED Monitor",
+    "manufacturer": "ASUS",
+    "part_numbers": ["ROG Swift OLED PG27UCDM", "90LM0B30-B01971", "PG27UCDM"],
+    "series": "ROG Swift OLED",
+    "variant": "Swift OLED PG27UCDM",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0DM6SHQTN",
-    "newegg_sku": "N82E16824281348",
-    "bestbuy_sku": 6616978,
-    "walmart_sku": 15158864131
+    "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg27acdms/spec/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0197105815193",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711387815236",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90LM0B30-B01971",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PG27UCDM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG Swift OLED PG27UCDM",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105815193",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "alternate",
+        "channel": "de",
+        "source_product_id": "100105369",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "es",
+        "source_product_id": "100105369",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "fr",
+        "source_product_id": "100105369",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "alternate",
+        "channel": "it",
+        "source_product_id": "100105369",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DM6SHQTN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "back-to-the-office",
+        "channel": "uk",
+        "source_product_id": "55459716661630",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6616978",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASPG27UCDM",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "box",
+        "channel": "uk",
+        "source_product_id": "PG27UCDM-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "TFAS-292",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "3381072",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cyberport",
+        "channel": "de",
+        "source_product_id": "6135-0N3",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "3381072",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "208882",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "laptop-outlet",
+        "channel": "uk",
+        "source_product_id": "PG27UCDM-AG",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "neobyte",
+        "channel": "es",
+        "source_product_id": "MO27AS178",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16824281348",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824281348",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21754517",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21754517",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3346959",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3346959",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3346959",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3346959",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "quzo",
+        "channel": "uk",
+        "source_product_id": "399074",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202502170040",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "3381072",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15158864131",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

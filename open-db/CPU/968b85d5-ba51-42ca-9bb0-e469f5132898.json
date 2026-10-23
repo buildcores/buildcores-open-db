@@ -1,5 +1,9 @@
 {
   "opendb_id": "968b85d5-ba51-42ca-9bb0-e469f5132898",
+  "series": "Intel Xeon E5",
+  "microarchitecture": "Sandy Bridge",
+  "coreFamily": "Sandy Bridge-EP",
+  "socket": "LGA 2011",
   "cores": {
     "total": 8,
     "performance": 8,
@@ -16,19 +20,19 @@
     "l3": 20
   },
   "specifications": {
+    "tdp": 115,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 115,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "OEM/Tray",
     "lithography": "32 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E5 2665 2.4 GHz 8-Core LGA2011 OEM/Tray",
@@ -36,9 +40,16 @@
     "part_numbers": ["CM8062101143101"],
     "series": "Intel Xeon E5"
   },
-  "series": "Intel Xeon E5",
-  "microarchitecture": "Sandy Bridge",
-  "coreFamily": "Sandy Bridge-EP",
-  "socket": "LGA 2011",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CM8062101143101",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

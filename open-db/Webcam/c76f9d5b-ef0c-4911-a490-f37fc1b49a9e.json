@@ -1,14 +1,280 @@
 {
   "opendb_id": "c76f9d5b-ef0c-4911-a490-f37fc1b49a9e",
+  "weight": 222,
+  "capture_mode_claims": [
+    {
+      "id": "92842940-e493-43ea-990f-c5809724f6d6",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "Requires a direct, high-bandwidth USB-C 3.1 Gen 1 port connection for full uncompressed 60fps output."
+    },
+    {
+      "id": "3906b29d-410f-4c2b-8403-0ad3e662e6d6",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "Compatible across both USB-C 3.1 and fallback USB-C 2.0 interface constraints."
+    },
+    {
+      "id": "62c0a831-d0f7-488d-90a5-9ec681e5ed45",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "Optimized for fast-motion streaming applications over standard HD canvas dimensions."
+    },
+    {
+      "id": "8570738b-2e14-415d-898d-f86bc436e535",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "Standard bandwidth profile for universal application streaming compatibility."
+    },
+    {
+      "id": "3db493a1-268b-43cf-bdf5-ca16ef107b6c",
+      "resolution": {
+        "horizontalRes": 960,
+        "verticalRes": 540
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "High-frame-rate fallback config for constrained cellular or processing environments."
+    },
+    {
+      "id": "efa88194-e21c-479c-b798-dc63b4806b7d",
+      "resolution": {
+        "horizontalRes": 848,
+        "verticalRes": 480
+      },
+      "frame_rate_fps": 60,
+      "claim": "supported",
+      "conditions": "Optimized for low-bandwidth portrait/landscape social networking streaming layers."
+    }
+  ],
+  "connectivity_type": ["Wired", "Wired USB-C"],
+  "lighting": ["None"],
   "metadata": {
+    "name": "Logitech StreamCam Webcam Graphite",
+    "manufacturer": "Logitech",
     "part_numbers": ["960-001286"],
-    "name": "Logitech StreamCam Webcam",
-    "manufacturer": "Logitech for Creators"
+    "releaseYear": 2020
   },
-  "connectivity_type": [],
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B07TZT4Q89",
-    "walmart_sku": 685677893
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/streamcam.960-001286"
+  },
+  "identifiers": {
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0097855153241",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "6920377911300",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "6920377911300",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "960-001286",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "960-001286",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "097855153241",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855153241",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07TZT4Q89",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "logitech",
+        "channel": "ca",
+        "source_product_id": "960-001286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "logitech",
+        "channel": "fr",
+        "source_product_id": "960-001286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "logitech",
+        "channel": "it",
+        "source_product_id": "960-001286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "logitech",
+        "channel": "nl",
+        "source_product_id": "960-001286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "logitech",
+        "channel": "uk",
+        "source_product_id": "960-001286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "logitech",
+        "channel": "us",
+        "source_product_id": "960-001286",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4A0KBR5131",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "685677893",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,12 +1,209 @@
 {
   "opendb_id": "0e748efa-4b56-4739-bf99-352015843009",
+  "weight": 2000,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["RED"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "e624da9e-e8e2-4f83-9b83-bcd0178294f0",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    },
+    {
+      "id": "2ae7184f-c4b8-473b-aaff-758c1109c74c",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "4a881f0d-1c0b-4745-8fab-c130a6bea3b2",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "56ed8ae7-2a02-4b44-93cd-d38d10e5b8ee",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA Line Level",
+      "source_side_connector": "3.5 mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "45dc6643-3335-467e-857d-0a327c5585b5",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type C",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "24 bit/96 kHz"
+    },
+    {
+      "id": "58d03aa1-692b-4422-a6a5-10542abed5da",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "f8eaa729-a3ba-4a8a-96ec-25152e77c942",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "conditions": "24V/2.5A"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Kanto ORA 2.0 100W Speaker System",
+    "name": "Kanto ORA Matte Red",
     "manufacturer": "Kanto",
-    "part_numbers": ["ORAMR"]
+    "part_numbers": [],
+    "series": "KANTO ORA",
+    "variant": "MATTER RED",
+    "releaseYear": 2023
   },
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B0DFMYSR1Y"
+    "manufacturer_url": "https://kantoaudio.com/powered-speakers/ora/"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0800152722245",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ORAMR",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "800152722245",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DFMYSR1Y",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

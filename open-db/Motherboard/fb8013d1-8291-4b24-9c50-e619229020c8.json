@@ -1,15 +1,60 @@
 {
   "opendb_id": "fb8013d1-8291-4b24-9c50-e619229020c8",
+  "socket": "LGA 1151",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B365",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2230",
+      "key": "M",
+      "interface": "PCIeGen3x4/SATA3"
+    },
+    {
+      "size": "2242",
+      "key": "M",
+      "interface": "PCIeGen3x4/SATA3"
+    },
+    {
+      "size": "2260",
+      "key": "M",
+      "interface": "PCIeGen3x4/SATA3"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIeGen3x4/SATA3"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "IntelI219-V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +65,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,72 +76,148 @@
     "chipset": "RealtekALC887",
     "channels": "7.1"
   },
+  "back_panel_ports": ["PS/2", "D-Sub", "DVI-D", "HDMI", "USB2.0", "USB3.1Gen1", "RJ-45"],
   "metadata": {
     "name": "ASRockB365M-HDV",
     "manufacturer": "ASRock",
+    "part_numbers": ["B365M-HDV"],
     "series": "B365M",
     "variant": "HDV",
-    "releaseYear": 2019,
-    "part_numbers": ["B365M-HDV"]
+    "releaseYear": 2019
   },
-  "socket": "LGA 1151",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B365",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3acb0843b62bf624d3428"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3acb0843b62bf624d3429"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2230",
-      "key": "M",
-      "interface": "PCIeGen3x4/SATA3",
-      "_id": "69b3acb0843b62bf624d342a"
-    },
-    {
-      "size": "2242",
-      "key": "M",
-      "interface": "PCIeGen3x4/SATA3",
-      "_id": "69b3acb0843b62bf624d342b"
-    },
-    {
-      "size": "2260",
-      "key": "M",
-      "interface": "PCIeGen3x4/SATA3",
-      "_id": "69b3acb0843b62bf624d342c"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIeGen3x4/SATA3",
-      "_id": "69b3acb0843b62bf624d342d"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "IntelI219-V",
-      "_id": "69b3acb0843b62bf624d342e"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["PS/2", "D-Sub", "DVI-D", "HDMI", "USB2.0", "USB3.1Gen1", "RJ-45"],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07RTXH3PG",
-    "bestbuy_sku": 6409176
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4717677338157",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B365M-HDV",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523017203",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07RTXH3PG",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6409176",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

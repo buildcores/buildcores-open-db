@@ -1,15 +1,50 @@
 {
   "opendb_id": "837a5946-806b-4cfc-818c-6a9af443f1f9",
+  "socket": "LGA 1151v2",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel B365",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    },
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 3.0 x4, SATA3"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,55 +66,6 @@
     "chipset": "Realtek ALC1200",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASRock B365M Phantom Gaming 4",
-    "manufacturer": "ASRock",
-    "series": "Phantom Gaming",
-    "variant": null,
-    "releaseYear": 2019,
-    "part_numbers": ["B365 PHANTOM GAMING 4"]
-  },
-  "socket": "LGA 1151v2",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel B365",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3abfe3f8fd0c825de1cd8"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3abfe3f8fd0c825de1cd9"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3abfe3f8fd0c825de1cda"
-    },
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 3.0 x4, SATA3",
-      "_id": "69b3abfe3f8fd0c825de1cdb"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219V",
-      "_id": "69b3abfe3f8fd0c825de1cdc"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x PS/2 Mouse/Keyboard Port",
     "1 x HDMI Port",
@@ -88,10 +77,147 @@
     "1 x RJ-45 LAN Port with LED (ACT/LINK LED and SPEED LED)",
     "HD Audio Jacks: Rear Speaker / Central / Bass / Line in / Front Speaker / Microphone (Gold Audio Jacks)"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07MWH3Z5F",
-    "bestbuy_sku": 6409176
+  "metadata": {
+    "name": "ASRock B365M Phantom Gaming 4",
+    "manufacturer": "ASRock",
+    "part_numbers": ["B365 PHANTOM GAMING 4"],
+    "series": "Phantom Gaming",
+    "variant": null,
+    "releaseYear": 2019
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4717677338034",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B365 PHANTOM GAMING 4",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523017203",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07MWH3Z5F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6409176",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,0 +1,118 @@
+{
+  "opendb_id": "5c843639-eae8-416c-a18f-6c6134f73528",
+  "weight": 2000,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["GREY", "BROWN"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "6002723a-ec48-411e-a250-cce49df6ccf1",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    },
+    {
+      "id": "4ca4d104-0aaf-49b7-82d5-fa8cf6dc9641",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 1000,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 175,
+        "depth": 141
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "85f79838-f061-408b-addf-1527215aceda",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "88cb217c-0784-4172-9378-2e33fdbc5737",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA Line Level",
+      "source_side_connector": "3.5 mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "8789328b-f4bf-4939-8a8c-cddc28c5ef4a",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type C",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "24 bit/96 kHz"
+    },
+    {
+      "id": "7a345b5b-14e2-46a8-8551-5a3bb2df2d37",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "cd43e754-4513-42e8-abe0-2941292fb56e",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "conditions": "24V/2.5A"
+    }
+  ],
+  "lighting": ["None"],
+  "metadata": {
+    "name": "Kanto ORA Moon",
+    "manufacturer": "Kanto",
+    "part_numbers": [],
+    "series": "KANTO ORA",
+    "variant": "MOON",
+    "releaseYear": 2023
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://kantoaudio.com/powered-speakers/ora/"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0800152722801",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ORAME",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "800152722801",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DSR9HFD6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBT4YKF39228",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

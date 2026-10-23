@@ -1,5 +1,11 @@
 {
   "opendb_id": "790bfb0b-7181-43a3-a1f9-424110061f8b",
+  "capacity": 1000,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "Nextorage G-Series LE 1TB SSD M.2-2280 PCIe 4.0 X4 NVME",
     "manufacturer": "Nextorage",
@@ -7,14 +13,36 @@
     "series": "G-Series",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-0106-00017"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GNE SYM",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "NN4LE-1TB2CN",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-0106-00017",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-0106-00017",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

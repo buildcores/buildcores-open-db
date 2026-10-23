@@ -1,5 +1,9 @@
 {
   "opendb_id": "a1f1291c-5477-4a75-969c-cdda9ff681a1",
+  "series": "Intel Core i9",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-X",
+  "socket": "LGA 2066",
   "cores": {
     "total": 10,
     "performance": 10,
@@ -16,19 +20,19 @@
     "l3": 75
   },
   "specifications": {
+    "tdp": 140,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 128,
-      "types": []
-    },
-    "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i9 7900X 3.3 GHz 10-Core LGA2066",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80673I97900X"],
     "series": "Intel Core i9"
   },
-  "series": "Intel Core i9",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-X",
-  "socket": "LGA 2066",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80673I97900X",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

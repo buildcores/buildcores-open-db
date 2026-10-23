@@ -1,5 +1,9 @@
 {
   "opendb_id": "02d39666-7470-44e0-ab3a-0e7a1d24ebd6",
+  "series": "Intel Core i7 Extreme",
+  "microarchitecture": "Broadwell",
+  "coreFamily": "Broadwell-E",
+  "socket": "LGA 2011-3",
   "cores": {
     "total": 10,
     "performance": 10,
@@ -16,19 +20,19 @@
     "l3": 25
   },
   "specifications": {
+    "tdp": 140,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": []
-    },
-    "tdp": 140,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 0,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Core i7 Extreme 6950X 3 GHz 10-Core LGA2011-3",
@@ -36,9 +40,16 @@
     "part_numbers": ["BXC80671I76950X"],
     "series": "Intel Core i7 Extreme"
   },
-  "series": "Intel Core i7 Extreme",
-  "microarchitecture": "Broadwell",
-  "coreFamily": "Broadwell-E",
-  "socket": "LGA 2011-3",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BXC80671I76950X",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

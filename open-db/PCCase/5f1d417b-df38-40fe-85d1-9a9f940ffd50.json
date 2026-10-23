@@ -1,31 +1,70 @@
 {
   "opendb_id": "5f1d417b-df38-40fe-85d1-9a9f940ffd50",
-  "metadata": {
-    "name": "Cooler Master MasterBox Q300L White Micro ATX Tower Acrylic Side Panel",
-    "manufacturer": "Cooler Master",
-    "part_numbers": ["MCB-Q300L-WANN-S00"],
-    "series": "MasterBox",
-    "variant": ""
-  },
-  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX"],
   "form_factor": "Micro ATX Mini Tower",
+  "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX"],
   "color": ["WHITE"],
+  "lighting": ["None"],
   "power_supply": "None",
+  "power_supply_included": false,
+  "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Acrylic",
   "has_transparent_side_panel": true,
   "front_panel_usb": "USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["2x USB 3.0"],
   "max_video_card_length": 360,
-  "max_cpu_cooler_height": null,
+  "max_cpu_cooler_height": 160,
+  "max_psu_length": 160,
   "internal_3_5_bays": 1,
   "internal_2_5_bays": 2,
+  "external_5_25_bays": 0,
+  "power_supply_shroud": false,
   "expansion_slots": 4,
+  "riser_expansion_slots": 0,
+  "supports_rear_connecting_motherboard": false,
   "dimensions": "387 x 230 x 378",
-  "volume": 33.646,
-  "weight": null,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": [],
-  "lighting": [],
+  "dimensions_mm": {
+    "depth": 387,
+    "width": 230,
+    "height": 381
+  },
+  "volume": 33.6,
+  "weight": 8.16,
+  "metadata": {
+    "name": "Cooler Master MasterBox Q300L White Micro ATX Tower Acrylic Side Panel",
+    "manufacturer": "Cooler Master",
+    "part_numbers": [],
+    "series": "MasterBox Q300L",
+    "variant": "",
+    "releaseYear": 2018,
+    "manufacturer_color": "White"
+  },
   "general_product_information": {
-    "newegg_sku": "N82E16811119441"
+    "manufacturer_url": "https://www.coolermaster.com/en-global/products/masterbox-q300l.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "MCB-Q300L-WANN-S00",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16811119441",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811119441",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

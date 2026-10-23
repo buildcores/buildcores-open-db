@@ -1,5 +1,9 @@
 {
   "opendb_id": "062aeba2-c739-4fb9-b623-d6f319b89cb1",
+  "series": "Intel Xeon E3",
+  "microarchitecture": "Skylake",
+  "coreFamily": "Skylake-H",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 80,
     "integratedGraphics": {
       "model": "Intel HD Graphics P530"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 80,
     "eccSupport": true,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E3 1275 V5 3.6 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80662E31275V5"],
     "series": "Intel Xeon E3"
   },
-  "series": "Intel Xeon E3",
-  "microarchitecture": "Skylake",
-  "coreFamily": "Skylake-H",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80662E31275V5",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

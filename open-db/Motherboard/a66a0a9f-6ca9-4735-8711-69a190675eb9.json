@@ -1,15 +1,55 @@
 {
   "opendb_id": "a66a0a9f-6ca9-4735-8711-69a190675eb9",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD B350",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 1
+    },
+    {
+      "gen": "2.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "SATA and PCIe x4/x2"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 2,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,61 +71,6 @@
     "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "GA-AB350-Gaming 3 (rev. 1.x)",
-    "manufacturer": "Gigabyte",
-    "series": null,
-    "variant": "1.x",
-    "releaseYear": 2017,
-    "part_numbers": ["GA-AB350-Gaming 3"]
-  },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD B350",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac2a75ef0cf5df017156"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac2a75ef0cf5df017157"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac2a75ef0cf5df017158"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac2a75ef0cf5df017159"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "SATA and PCIe x4/x2",
-      "_id": "69b3ac2a75ef0cf5df01715a"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac2a75ef0cf5df01715b"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "PS/2 keyboard/mouse port",
     "DVI-D port",
@@ -94,11 +82,166 @@
     "1 x optical S/PDIF Out connector",
     "5 x audio jacks (Center/Subwoofer Speaker Out, Rear Speaker Out, Line In, Line Out, Mic In)"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B06VWHXK94",
-    "newegg_sku": "9SIBWH3KBC8938",
-    "walmart_sku": 335065984
+  "metadata": {
+    "name": "GA-AB350-Gaming 3 (rev. 1.x)",
+    "manufacturer": "Gigabyte",
+    "part_numbers": ["GA-AB350-Gaming 3"],
+    "series": null,
+    "variant": "1.x",
+    "releaseYear": 2017
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0889523009093",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GA-AB350-Gaming 3",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GA-AB350-GAMING 3",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523009093",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B06VWHXK94",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBWH3KBC8938",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBWH3KBC8938",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "335065984",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

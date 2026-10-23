@@ -1,15 +1,40 @@
 {
   "opendb_id": "81fcc99d-5f16-4cc8-8bb7-91af5ea95d07",
+  "socket": "LGA 1200",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel H410",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe4.0x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 0,
     "usb_3_2_gen_1": 0,
@@ -20,6 +45,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,43 +56,6 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUSPrimeH410M-A/CSM",
-    "manufacturer": "ASUS",
-    "series": "PRIME",
-    "variant": "H410M-A/CSM",
-    "releaseYear": 2022,
-    "part_numbers": ["PRIME H410M-A/CSM", "90MB13G0-MVAAYC"]
-  },
-  "socket": "LGA 1200",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel H410",
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac1fb3d0c7b56c55fd83"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe4.0x4",
-      "_id": "69b3ac1fb3d0c7b56c55fd84"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek",
-      "_id": "69b3ac1fb3d0c7b56c55fd85"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "PS/2",
     "D-Sub",
@@ -74,10 +65,159 @@
     "2xUSB2.0",
     "3xAudioJacks"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B087M3KRMY",
-    "newegg_sku": "9SIAGBAJCG4562"
+  "metadata": {
+    "name": "ASUSPrimeH410M-A/CSM",
+    "manufacturer": "ASUS",
+    "part_numbers": ["PRIME H410M-A/CSM", "90MB13G0-MVAAYC"],
+    "series": "PRIME",
+    "variant": "H410M-A/CSM",
+    "releaseYear": 2022
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876715437",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB13G0-MVAAYC",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME H410M-A/CSM",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876715437",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B087M3KRMY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAGBAJCG4562",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAGBAJCG4562",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

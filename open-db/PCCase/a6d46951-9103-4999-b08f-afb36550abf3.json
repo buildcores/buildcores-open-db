@@ -1,10 +1,30 @@
 {
   "opendb_id": "a6d46951-9103-4999-b08f-afb36550abf3",
+  "form_factor": "ATX Mid Tower",
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
+  "color": ["BLUE", "BLACK"],
+  "lighting": [],
+  "power_supply": "None",
+  "supported_power_supply_form_factors": [],
+  "side_panel": "Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
+  "front_usb_ports": ["1x USB-C 3.2 Gen 2        ", "2x USB-A 3.2 Gen 1"],
+  "max_video_card_length": 422,
+  "max_cpu_cooler_height": 180,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 4,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "riser_expansion_slots": 4,
+  "dimensions": "470 x 320 x 470",
   "dimensions_mm": {
+    "depth": 470,
     "width": 320,
-    "height": 470,
-    "depth": 470
+    "height": 470
   },
+  "volume": 70.688,
+  "weight": 24.4,
   "metadata": {
     "name": "HYTE Y70 Hoshimachi Suisei Edition ATX Mid Tower Blue / Black Tempered Glass Side Panel, USB 3.2 Gen 2 Type-C, USB 3.2 Gen 1 Type-A",
     "manufacturer": "HYTE",
@@ -13,28 +33,26 @@
     "manufacturer_color": "Hoshimachi Suisei Edition",
     "last_manually_spec_verified_at": "2026-01-08T20:36:50.017Z"
   },
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "form_factor": "ATX Mid Tower",
-  "color": ["BLUE", "BLACK"],
-  "power_supply": "None",
-  "side_panel": "Tempered Glass",
-  "has_transparent_side_panel": true,
-  "front_panel_usb": "USB 3.2 Gen 2 Type-C                                                    USB 3.2 Gen 1 Type-A",
-  "max_video_card_length": 422,
-  "max_cpu_cooler_height": 180,
-  "internal_3_5_bays": 2,
-  "internal_2_5_bays": 4,
-  "expansion_slots": 7,
-  "dimensions": "470 x 320 x 470",
-  "volume": 70.688,
-  "weight": 24.4,
-  "supported_power_supply_form_factors": [],
-  "front_usb_ports": ["1x USB-C 3.2 Gen 2        ", "2x USB-A 3.2 Gen 1"],
-  "riser_expansion_slots": 4,
-  "power_supply_shroud": true,
-  "lighting": [],
   "general_product_information": {
-    "hyte_sku": "CS-HYTE-Y70-SUISEI",
     "manufacturer_url": "https://hyte.com/store/hoshimachi-suisei-y70/cs-hyte-y70-suisei?zCountry=IN"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "CS-HYTE-Y70-SUISEI",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "hyte",
+        "channel": "us",
+        "source_product_id": "CS-HYTE-Y70-SUISEI",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

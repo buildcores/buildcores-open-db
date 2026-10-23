@@ -1,15 +1,55 @@
 {
   "opendb_id": "9e614e16-ea83-4c52-939f-01a23bb7ba7e",
+  "socket": "LGA 1200",
+  "form_factor": "Micro ATX",
+  "chipset": "Intel H510",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 2
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242",
+      "key": "M",
+      "interface": "PCIe3.0x4"
+    },
+    {
+      "size": "2260",
+      "key": "M",
+      "interface": "PCIe3.0x4"
+    },
+    {
+      "size": "2280",
+      "key": "M",
+      "interface": "PCIe3.0x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "IntelI219-V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +60,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,61 +71,6 @@
     "chipset": "RealtekALC897/887",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUSPRIMEH510M-E",
-    "manufacturer": "ASUS",
-    "series": "PRIME",
-    "variant": "H510M-E",
-    "releaseYear": 2023,
-    "part_numbers": ["H510M-E", "PRIME H510M-E", "PRIMEH510M-E"]
-  },
-  "socket": "LGA 1200",
-  "form_factor": "Micro ATX",
-  "chipset": "Intel H510",
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac2afe073ff824ef9c28"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1,
-      "_id": "69b3ac2afe073ff824ef9c29"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242",
-      "key": "M",
-      "interface": "PCIe3.0x4",
-      "_id": "69b3ac2afe073ff824ef9c2a"
-    },
-    {
-      "size": "2260",
-      "key": "M",
-      "interface": "PCIe3.0x4",
-      "_id": "69b3ac2afe073ff824ef9c2b"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe3.0x4",
-      "_id": "69b3ac2afe073ff824ef9c2c"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "IntelI219-V",
-      "_id": "69b3ac2afe073ff824ef9c2d"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "2xUSB3.2Gen1ports(2xType-A)",
     "2xUSB2.0ports(2xType-A)",
@@ -94,11 +82,171 @@
     "1xPS/2Keyboard(purple)port",
     "1xPS/2Mouse(green)port"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B08WRX47LN",
-    "newegg_sku": "9SIBTK0KAU9767",
-    "walmart_sku": 1570134247
+  "metadata": {
+    "name": "ASUSPRIMEH510M-E",
+    "manufacturer": "ASUS",
+    "part_numbers": ["H510M-E", "PRIME H510M-E", "PRIMEH510M-E"],
+    "series": "PRIME",
+    "variant": "H510M-E",
+    "releaseYear": 2023
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553127769",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "H510M-E",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME H510M-E",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIMEH510M-E",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553127769",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08WRX47LN",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBTK0KAU9767",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBTK0KAU9767",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1570134247",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

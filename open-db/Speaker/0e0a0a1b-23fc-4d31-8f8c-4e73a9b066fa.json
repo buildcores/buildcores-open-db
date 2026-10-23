@@ -1,14 +1,354 @@
 {
   "opendb_id": "0e0a0a1b-23fc-4d31-8f8c-4e73a9b066fa",
+  "weight": 4500,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "4d95db68-fa02-473e-87af-d01a631aca5d",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 2.25,
+      "dimensions_mm": {
+        "width": 140,
+        "height": 228,
+        "depth": 197.5
+      }
+    },
+    {
+      "id": "1afc9cae-4733-4074-97c6-6bfd3318204c",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 2.25,
+      "dimensions_mm": {
+        "width": 140,
+        "height": 228,
+        "depth": 184
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "audio_input_paths": [
+    {
+      "id": "0b7e65ad-ccc5-4f7a-b391-f66156029dee",
+      "method": "6.35 mm TRS",
+      "speaker_side_connector": "TRS balanced input",
+      "source_side_connector": "6.5 mm TRS",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "013930c3-beb9-42e8-81eb-ef65d2b909cd",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA unbalanced input",
+      "source_side_connector": "RCA Analog",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "99d15c7d-9838-45cf-ae12-112c48dd47c2",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN",
+      "source_side_connector": "3.5 mm Analog Stereo"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "22b4d00d-381a-42fc-b228-e63890ce48db",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Edifier MR4 2.0 Channel 42 W Speaker System",
+    "name": "Edifier MR4 White",
     "manufacturer": "Edifier",
-    "part_numbers": ["MR4-White", "MR4w", "MR4-WT", "MR4-WHITE"]
+    "part_numbers": [],
+    "series": "MR4",
+    "variant": "White",
+    "releaseYear": 2021
   },
-  "lighting": [],
   "general_product_information": {
-    "amazon_sku": "B09FXG9BLR",
-    "bestbuy_sku": 6506626,
-    "walmart_sku": 741083566
+    "manufacturer_url": "https://www.edifier.com/global/p/studio-monitors/mr4"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0875674005855",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "6923520269105",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MR4-WT",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "875674005855",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09FXG9BLR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6506626",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "EDMR4WH",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "de",
+        "source_product_id": "GASW-343",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "caseking",
+        "channel": "es",
+        "source_product_id": "MR4-BLANCO",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2750969",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "MR4-WHITE",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2750969",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "globaldata",
+        "channel": "pt",
+        "source_product_id": "MR4-BLANCO",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "193679",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0S6-0051-000Z1",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0S6-0051-000Z1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "overclockers",
+        "channel": "uk",
+        "source_product_id": "SP-05Q-ER",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "ie",
+        "source_product_id": "21306699",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "paradigit",
+        "channel": "nl",
+        "source_product_id": "21306699",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "de",
+        "source_product_id": "3240321",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "fi",
+        "source_product_id": "3240321",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "nl",
+        "source_product_id": "3240321",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "proshop",
+        "channel": "pl",
+        "source_product_id": "3240321",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "ruedecommerce",
+        "channel": "fr",
+        "source_product_id": "AR202309070064",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2750969",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "741083566",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

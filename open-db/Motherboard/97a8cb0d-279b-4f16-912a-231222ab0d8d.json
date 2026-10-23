@@ -1,15 +1,59 @@
 {
   "opendb_id": "97a8cb0d-279b-4f16-912a-231222ab0d8d",
+  "socket": "LGA 1151",
+  "form_factor": "EATX",
+  "chipset": "Intel Z390",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242, 2260, 2280",
+      "key": "M",
+      "interface": "PCIe 3.0 x4, SATA III"
+    },
+    {
+      "size": "2242, 2260, 2280, 22110",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "5 Gb/s",
+      "controller": "Aquantia AQC-111C"
+    },
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I219V"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 4,
@@ -20,6 +64,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,66 +75,6 @@
     "chipset": "ROG SupremeFX S1220 (8-Channel)",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUS ROG MAXIMUS XI EXTREME",
-    "manufacturer": "ASUS",
-    "series": "ROG MAXIMUS XI",
-    "variant": "Extreme",
-    "releaseYear": 2018,
-    "part_numbers": ["ROG Maximus XI Extreme", "ROG MAXIMUS XI EXTREME"]
-  },
-  "socket": "LGA 1151",
-  "form_factor": "EATX",
-  "chipset": "Intel Z390",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ac28843b62bf624cf2f2"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac28843b62bf624cf2f3"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac28843b62bf624cf2f4"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242, 2260, 2280",
-      "key": "M",
-      "interface": "PCIe 3.0 x4, SATA III",
-      "_id": "69b3ac28843b62bf624cf2f5"
-    },
-    {
-      "size": "2242, 2260, 2280, 22110",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3ac28843b62bf624cf2f6"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "5 Gb/s",
-      "controller": "Aquantia AQC-111C",
-      "_id": "69b3ac28843b62bf624cf2f7"
-    },
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I219V",
-      "_id": "69b3ac28843b62bf624cf2f8"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1x USB-C (USB 3.1/3.2 Gen 2)",
     "3x USB-A (USB 3.1/3.2 Gen 2)",
@@ -97,11 +84,171 @@
     "1x S/PDIF",
     "2x Connector"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07JVGGXNL",
-    "newegg_sku": "9SIBWH3KA18096",
-    "walmart_sku": 417240025
+  "metadata": {
+    "name": "ASUS ROG MAXIMUS XI EXTREME",
+    "manufacturer": "ASUS",
+    "part_numbers": ["ROG Maximus XI Extreme", "ROG MAXIMUS XI EXTREME"],
+    "series": "ROG MAXIMUS XI",
+    "variant": "Extreme",
+    "releaseYear": 2018
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876122860",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Maximus XI Extreme",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG Maximus XI Extreme",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG MAXIMUS XI EXTREME",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876122860",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07JVGGXNL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBWH3KA18096",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBWH3KA18096",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "417240025",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,5 +1,18 @@
 {
   "opendb_id": "0e454a2c-d515-43b4-8de7-ccf32ab22c53",
+  "min_fan_rpm": 500,
+  "max_fan_rpm": 2000,
+  "min_noise_level": 13.8,
+  "max_noise_level": 31.2,
+  "color": ["BLACK", "GREY"],
+  "lighting": [],
+  "height": 64,
+  "cpu_sockets": ["AM4", "LGA 1150", "LGA 1151", "LGA 1155", "LGA 1156", "LGA 1200"],
+  "water_cooled": false,
+  "radiator_size": null,
+  "fanless": false,
+  "fan_size": null,
+  "fan_quantity": null,
   "metadata": {
     "name": "ID-COOLING IS-60 EVO ARGB Air 54.6 CFM 64mm Black / Silver",
     "manufacturer": "ID-COOLING",
@@ -8,18 +21,16 @@
     "variant": "Black / Silver",
     "releaseYear": null
   },
-  "min_fan_rpm": 500,
-  "max_fan_rpm": 2000,
-  "min_noise_level": 13.8,
-  "max_noise_level": 31.2,
-  "color": ["BLACK", "GREY"],
-  "height": 64,
-  "cpu_sockets": ["AM4", "LGA 1150", "LGA 1151", "LGA 1155", "LGA 1156", "LGA 1200"],
-  "water_cooled": false,
-  "radiator_size": null,
-  "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "IS-60 EVO ARGB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

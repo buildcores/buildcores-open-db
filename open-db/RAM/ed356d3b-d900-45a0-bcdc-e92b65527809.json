@@ -1,28 +1,41 @@
 {
   "opendb_id": "ed356d3b-d900-45a0-bcdc-e92b65527809",
-  "modules": {
-    "quantity": 1,
-    "capacity_gb": 2
-  },
-  "metadata": {
-    "name": "TEAMGROUP T-Force Delta RGB DDR5-5600 CL36 2GB (1x2GB)",
-    "manufacturer": "TEAMGROUP",
-    "part_numbers": ["FF3D532G5600HC36B01"],
-    "series": "T-Force",
-    "variant": "5600 CL36"
-  },
   "speed": 5600,
   "ram_type": "DDR5",
+  "profile_support": [],
   "form_factor": "288-pin DIMM",
-  "capacity": 2,
+  "modules": {
+    "quantity": 1,
+    "capacity_gb": 32
+  },
+  "capacity": 32,
   "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "cas_latency": 36,
+  "timings": "36-36-36-76",
   "voltage": null,
   "ecc": "Non-ECC",
   "registered": "Unbuffered",
   "heat_spreader": true,
   "rgb": true,
-  "profile_support": [],
-  "lighting": [],
-  "general_product_information": {}
+  "metadata": {
+    "name": "TEAMGROUP T-Force Delta RGB Black DDR5-5600 CL36 32GB (1x32GB)",
+    "manufacturer": "TEAMGROUP",
+    "part_numbers": ["FF3D532G5600HC36B01"],
+    "series": "T-Force Delta RGB",
+    "variant": "5600 CL36",
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "FF3D532G5600HC36B01",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

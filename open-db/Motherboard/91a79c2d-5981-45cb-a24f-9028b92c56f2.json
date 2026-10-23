@@ -1,15 +1,71 @@
 {
   "opendb_id": "91a79c2d-5981-45cb-a24f-9028b92c56f2",
+  "socket": "LGA 1700",
+  "form_factor": "ATX",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
+  "color": ["GREY", "BLACK", "WHITE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "5.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "22110/2280/2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280/2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280/2260/2242",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280/2260/2242",
+      "key": "E",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280/2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 7,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Intel"
+    }
+  ],
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -19,8 +75,8 @@
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "pump": 1,
-    "case_fan": 6
+    "case_fan": 6,
+    "pump": 1
   },
   "rgb_headers": {
     "argb_5v": 3,
@@ -28,14 +84,17 @@
   },
   "front_panel_headers": {
     "power_button": true,
-    "power_led": true,
     "reset_button": true,
+    "power_led": true,
     "hdd_led": true
   },
   "power_connectors": {
-    "cpu_power": ["8-pin", "8-pin"],
-    "main_power": "24-pin"
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -44,81 +103,6 @@
     "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI MPG Z790 EDGE WIFI DDR5 ATX",
-    "manufacturer": "MSI",
-    "part_numbers": ["MPG Z790 EDGE WIFI", "7D91-008R", "911-7D91-011", "Z790EDGEWI"],
-    "series": "MPG",
-    "variant": "Z790 EDGE WIFI",
-    "manufacturer_color": "White",
-    "last_manually_spec_verified_at": "2026-02-25T18:20:26.451Z"
-  },
-  "socket": "LGA 1700",
-  "form_factor": "ATX",
-  "chipset": "Intel Z790",
-  "color": ["GREY", "BLACK", "WHITE"],
-  "pcie_slots": [
-    {
-      "gen": "5.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ac267d50ea7030493258"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3ac267d50ea7030493259"
-    },
-    {
-      "gen": "3.0",
-      "quantity": 1,
-      "lanes": 1,
-      "_id": "69b3ac267d50ea703049325a"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "22110/2280/2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac267d50ea703049325b"
-    },
-    {
-      "size": "2280/2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac267d50ea703049325c"
-    },
-    {
-      "size": "2280/2260/2242",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac267d50ea703049325d"
-    },
-    {
-      "size": "2280/2260/2242",
-      "key": "E",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac267d50ea703049325e"
-    },
-    {
-      "size": "2280/2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3ac267d50ea703049325f"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Intel",
-      "_id": "69b3ac267d50ea7030493260"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x DisplayPort 1.4",
     "1 x HDMI 2.1 port",
@@ -133,13 +117,240 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
-  "lighting": [],
+  "metadata": {
+    "name": "MSI MPG Z790 EDGE WIFI DDR5 ATX",
+    "manufacturer": "MSI",
+    "part_numbers": ["MPG Z790 EDGE WIFI", "7D91-008R", "911-7D91-011", "Z790EDGEWI"],
+    "series": "MPG",
+    "variant": "Z790 EDGE WIFI",
+    "manufacturer_color": "White",
+    "last_manually_spec_verified_at": "2026-02-25T18:20:26.451Z"
+  },
   "general_product_information": {
-    "amazon_sku": "B09YLL91V6",
-    "newegg_sku": "N82E16813144564",
-    "bestbuy_sku": 6532231,
-    "walmart_sku": 1164037715,
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-Z790-EDGE-WIFI/"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142288245",
+        "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711377023283",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7D91-008R",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "911-7D91-011",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG Z790 EDGE WIFI",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z790EDGEWI",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142288245",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09YLL91V6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6532231",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSZ790EDGEWI",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2819921",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2819921",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "jimms-pc",
+        "channel": "fi",
+        "source_product_id": "185735",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "msi",
+        "channel": "de",
+        "source_product_id": "1489",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "msi",
+        "channel": "us",
+        "source_product_id": "1489",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16813144564",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144564",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2819921",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1164037715",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

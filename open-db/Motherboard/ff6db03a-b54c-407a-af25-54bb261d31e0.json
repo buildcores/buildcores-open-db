@@ -1,15 +1,59 @@
 {
   "opendb_id": "ff6db03a-b54c-407a-af25-54bb261d31e0",
+  "socket": "sTRX4",
+  "form_factor": "ATX",
+  "chipset": "AMD TRX40",
   "memory": {
     "max": 256,
     "ram_type": "DDR4",
     "slots": 8
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242, 2260, 2280, 22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2242, 2260, 2280, 22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4, SATA"
+    },
+    {
+      "size": "2242, 2260, 2280, 22110",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Realtek RTL8125-CG"
+    },
+    {
+      "speed": "1 Gb/s",
+      "controller": "Intel I211-AT"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 4,
@@ -20,6 +64,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,66 +75,6 @@
     "chipset": "ROG SupremeFX S1220",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "ASUS ROG STRIX TRX40-XE GAMING sTRX4 AMD TRX40 SATA 6Gb/s ATX AMD Motherboard",
-    "manufacturer": "ASUS",
-    "series": "ROG STRIX",
-    "variant": "XE GAMING",
-    "releaseYear": 2020,
-    "part_numbers": ["ROG STRIX TRX40-E GAMING", "9SIVJAHKA18222"]
-  },
-  "socket": "sTRX4",
-  "form_factor": "ATX",
-  "chipset": "AMD TRX40",
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 3,
-      "lanes": 16,
-      "_id": "69b3aca64fd4af70a34a2f22"
-    },
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 4,
-      "_id": "69b3aca64fd4af70a34a2f23"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242, 2260, 2280, 22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aca64fd4af70a34a2f24"
-    },
-    {
-      "size": "2242, 2260, 2280, 22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4, SATA",
-      "_id": "69b3aca64fd4af70a34a2f25"
-    },
-    {
-      "size": "2242, 2260, 2280, 22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4",
-      "_id": "69b3aca64fd4af70a34a2f26"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125-CG",
-      "_id": "69b3aca64fd4af70a34a2f27"
-    },
-    {
-      "speed": "1 Gb/s",
-      "controller": "Intel I211-AT",
-      "_id": "69b3aca64fd4af70a34a2f28"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": true,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "1 x LAN (RJ45) port(s)",
     "8 x USB 3.2 Gen 2 (7 x Type-A + 1 x Type-C)",
@@ -97,12 +84,178 @@
     "1 x Anti-surge 2.5G LAN (RJ45) port",
     "1 x USB BIOS FlashBack Button(s)"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B08165D9R7",
-    "newegg_sku": "9SIBTK0K936841",
-    "bestbuy_sku": 6400894,
-    "walmart_sku": 875809385
+  "metadata": {
+    "name": "ASUS ROG STRIX TRX40-XE GAMING sTRX4 AMD TRX40 SATA 6Gb/s ATX AMD Motherboard",
+    "manufacturer": "ASUS",
+    "part_numbers": ["ROG STRIX TRX40-E GAMING", "9SIVJAHKA18222"],
+    "series": "ROG STRIX",
+    "variant": "XE GAMING",
+    "releaseYear": 2020
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876537107",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "9SIVJAHKA18222",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG STRIX TRX40-E GAMING",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "STRIX TRX40-E GAMING",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876537107",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08165D9R7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6400894",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIBTK0K936841",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBTK0K936841",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "875809385",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

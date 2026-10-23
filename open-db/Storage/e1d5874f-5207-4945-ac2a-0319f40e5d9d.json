@@ -1,5 +1,11 @@
 {
   "opendb_id": "e1d5874f-5207-4945-ac2a-0319f40e5d9d",
+  "capacity": 512,
+  "storage_type": "SSD",
+  "form_factor": "M.2-2280",
+  "interface": "M.2 PCIe 4.0 x4",
+  "nvme": true,
+  "lighting": [],
   "metadata": {
     "name": "KingSpec XG7000 512GB SSD M.2-2280 PCIe 4.0 X4 NVMe",
     "manufacturer": "KingSpec",
@@ -7,14 +13,31 @@
     "series": "XG7000",
     "variant": "512GB"
   },
-  "capacity": 512,
-  "type": "SSD",
-  "form_factor": "M.2-2280",
-  "interface": "M.2 PCIe 4.0 x4",
-  "nvme": true,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-000D-00173"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "XG 7000-512GB",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-000D-00173",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-000D-00173",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

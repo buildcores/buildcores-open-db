@@ -1,5 +1,9 @@
 {
   "opendb_id": "2cfe7cca-79ec-4c25-be93-14494bf171cd",
+  "series": "Intel Xeon E",
+  "microarchitecture": "Coffee Lake",
+  "coreFamily": "Coffee Lake",
+  "socket": "LGA 1151",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 8
   },
   "specifications": {
+    "tdp": 71,
     "integratedGraphics": {
       "model": "Intel HD Graphics P630"
     },
-    "memory": {
-      "maxSupport": 64,
-      "types": []
-    },
-    "tdp": 71,
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "14 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 64,
+      "types": []
+    }
   },
   "metadata": {
     "name": "Intel Xeon E 2174G 3.8 GHz 4-Core LGA1151",
@@ -36,9 +40,16 @@
     "part_numbers": ["BX80684E2174G"],
     "series": "Intel Xeon E"
   },
-  "series": "Intel Xeon E",
-  "microarchitecture": "Coffee Lake",
-  "coreFamily": "Coffee Lake",
-  "socket": "LGA 1151",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "BX80684E2174G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

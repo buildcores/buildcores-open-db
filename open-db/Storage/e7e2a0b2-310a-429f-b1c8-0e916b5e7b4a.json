@@ -1,5 +1,11 @@
 {
   "opendb_id": "e7e2a0b2-310a-429f-b1c8-0e916b5e7b4a",
+  "capacity": 1000,
+  "storage_type": "HDD",
+  "form_factor": "3.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "Western Digital WD Blue 1TB 3.5\" HDD 5400RPM SATA 6.0 Gb/s",
     "manufacturer": "Western Digital",
@@ -7,12 +13,24 @@
     "series": "WD",
     "variant": "1000GB"
   },
-  "capacity": 1000,
-  "type": "HDD",
-  "form_factor": "3.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "HDD",
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "WD10EARZ",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "ccl",
+        "channel": "uk",
+        "source_product_id": "HDD3947",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

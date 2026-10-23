@@ -1,15 +1,34 @@
 {
   "opendb_id": "734b7173-1441-4e79-af4d-4f9ec552acec",
+  "socket": "Integrated Atom",
+  "form_factor": "Mini-ITX",
+  "chipset": "CPU Integrated",
   "memory": {
     "max": 64,
     "ram_type": "DDR3",
     "slots": 4
   },
+  "color": ["WHITE", "BLUE"],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 8
+    }
+  ],
+  "m2_slots": [],
   "storage_devices": {
     "sata_6_gb_s": 8,
     "sata_3_gb_s": 4,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Unknown"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 0,
@@ -20,6 +39,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": true,
+  "raid_support": true,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
     "clear_cmos": false
@@ -28,6 +50,7 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
+  "back_panel_ports": ["2 x 1 Gb/s"],
   "metadata": {
     "name": "ASRock Atom C2750 C2750D4I DDR3 Mini ITX",
     "manufacturer": "ASRock",
@@ -35,30 +58,16 @@
     "series": "Atom",
     "variant": ""
   },
-  "socket": "Integrated Atom",
-  "form_factor": "Mini-ITX",
-  "chipset": "CPU Integrated",
-  "color": ["WHITE", "BLUE"],
-  "pcie_slots": [
-    {
-      "gen": "4.0",
-      "quantity": 1,
-      "lanes": 8,
-      "_id": "69b3abf3fe073ff824ef84ec"
-    }
-  ],
-  "m2_slots": [],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Unknown",
-      "_id": "69b3abf3fe073ff824ef84ed"
-    }
-  ],
-  "ecc_support": true,
-  "raid_support": true,
-  "back_connect_connectors": false,
-  "back_panel_ports": ["2 x 1 Gb/s"],
-  "lighting": [],
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "C2750D4I",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

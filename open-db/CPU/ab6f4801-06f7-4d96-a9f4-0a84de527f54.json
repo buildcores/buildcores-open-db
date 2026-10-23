@@ -1,57 +1,240 @@
 {
   "opendb_id": "ab6f4801-06f7-4d96-a9f4-0a84de527f54",
+  "series": "Ryzen 7 3000",
+  "microarchitecture": "Zen 2",
+  "coreFamily": "Matisse 2",
+  "socket": "AM4",
   "cores": {
     "total": 8,
-    "performance": 8,
-    "efficiency": null,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 16
   },
   "clocks": {
     "performance": {
-      "base": 3800,
-      "boost": 4700
+      "base": 3.9,
+      "boost": 4.7
     },
     "efficiency": {
-      "base": null,
-      "boost": null
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
-    "l1": "64 KB (per core)",
-    "l2": 512,
+    "l1": "8 × 32 KB Instruction + 8 × 32 KB Data (512 KB total)",
+    "l2": 4,
     "l3": 32
   },
   "specifications": {
+    "tdp": 105,
+    "ppt": 142,
     "integratedGraphics": {
       "model": "None",
-      "baseClock": null,
-      "boostClock": null,
-      "shaderCount": null
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
     },
-    "memory": {
-      "maxSupport": null,
-      "types": ["DDR4"],
-      "channels": 2
-    },
-    "tdp": 105,
     "eccSupport": false,
     "includesCooler": false,
     "packaging": "Boxed",
-    "lithography": "7nm",
-    "simultaneousMultithreading": true
+    "lithography": "TSMC 7nm FinFET",
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 128,
+      "types": ["DDR4"],
+      "channels": 2
+    }
   },
   "metadata": {
     "name": "AMD Ryzen 7 3800XT",
+    "manufacturer": "AMD",
     "part_numbers": ["AMD Ryzen 7 3800XT", "100-100000279WOF"],
+    "series": "Ryzen 7 3000",
+    "variant": "3800XT",
     "releaseYear": 2020
   },
-  "series": "AMD Ryzen 7",
-  "microarchitecture": "Zen 2",
-  "coreFamily": "Matisse 2",
-  "socket": "AM4",
   "general_product_information": {
-    "amazon_sku": "B089WCXZJC",
-    "newegg_sku": "9SIASGMK7V2811",
-    "bestbuy_sku": 6422511
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-7-3800xt.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143312264",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "100-100000279WOF",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AMD Ryzen 7 3800XT",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143312264",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B089WCXZJC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6422511",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMR73800XT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "cenowarka",
+        "channel": "pl",
+        "source_product_id": "2308894",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "geizhals",
+        "channel": "de",
+        "source_product_id": "2308894",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113652",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113652",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "skinflint",
+        "channel": "uk",
+        "source_product_id": "2308894",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

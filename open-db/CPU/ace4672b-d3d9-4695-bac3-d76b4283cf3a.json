@@ -1,44 +1,214 @@
 {
   "opendb_id": "ace4672b-d3d9-4695-bac3-d76b4283cf3a",
+  "series": "Ryzen Threadripper 2000",
+  "microarchitecture": "Zen+",
+  "coreFamily": "Colfax",
+  "socket": "sTR4",
   "cores": {
     "total": 32,
-    "performance": 32,
+    "performance": 0,
+    "efficiency": 0,
     "threads": 64
   },
   "clocks": {
     "performance": {
       "base": 3,
       "boost": 4.2
+    },
+    "efficiency": {
+      "base": 0,
+      "boost": 0
     }
   },
   "cache": {
+    "l1": "32 × 64 KB Instruction + 32 × 32 KB Data (3072 KB total)",
     "l2": 16,
     "l3": 64
   },
   "specifications": {
-    "integratedGraphics": {
-      "model": "None"
-    },
-    "memory": {
-      "maxSupport": 1024,
-      "types": []
-    },
     "tdp": 250,
+    "ppt": 0,
+    "integratedGraphics": {
+      "model": "None",
+      "baseClock": 0,
+      "boostClock": 0,
+      "shaderCount": 0
+    },
     "eccSupport": true,
     "includesCooler": false,
     "packaging": "Boxed",
     "lithography": "12 nm",
-    "simultaneousMultithreading": true
+    "simultaneousMultithreading": true,
+    "memory": {
+      "maxSupport": 2048,
+      "types": ["DDR4"],
+      "channels": 4
+    }
   },
   "metadata": {
-    "name": "AMD Threadripper 2990 WX 3.0 GHz 32-Core sTR4",
+    "name": "AMD Ryzen Threadripper 2990WX",
     "manufacturer": "AMD",
     "part_numbers": ["YD299XAZAFWOF"],
-    "series": "AMD Threadripper"
+    "series": "Ryzen Threadripper 2000",
+    "variant": "2990WX",
+    "releaseYear": 2018
   },
-  "series": "AMD Threadripper",
-  "microarchitecture": "Zen+",
-  "coreFamily": "Colfax",
-  "socket": "TR4",
-  "general_product_information": {}
+  "general_product_information": {
+    "manufacturer_url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-threadripper/ryzen-threadripper-2000-series/amd-ryzen-threadripper-2990wx.html"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0730143309288",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "YD299XAZAFWOF",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "730143309288",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07G25SD1P",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "AMRT29990WX",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "N82E16819113541",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16819113541",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "511419014",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
 }

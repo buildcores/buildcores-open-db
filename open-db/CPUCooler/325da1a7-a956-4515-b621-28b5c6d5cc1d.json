@@ -1,19 +1,12 @@
 {
   "opendb_id": "325da1a7-a956-4515-b621-28b5c6d5cc1d",
-  "metadata": {
-    "name": "Thermalright Frozen Warframe ARGB 88.7 CFM Water 420mm Black",
-    "manufacturer": "Thermalright",
-    "part_numbers": ["Frozen Warframe 420 BLACK ARGB"],
-    "series": "Frozen",
-    "variant": "Black",
-    "releaseYear": null
-  },
   "min_fan_rpm": 1750,
   "max_fan_rpm": null,
   "min_noise_level": 29.8,
   "max_noise_level": null,
   "color": ["BLACK"],
-  "height": null,
+  "lighting": ["ARGB", "Display"],
+  "height": 60,
   "cpu_sockets": [
     "AM4",
     "AM5",
@@ -30,8 +23,58 @@
   "water_cooled": true,
   "radiator_size": 420,
   "fanless": false,
-  "fan_size": null,
-  "fan_quantity": null,
-  "lighting": [],
-  "general_product_information": {}
+  "fan_size": 140,
+  "fan_quantity": 3,
+  "metadata": {
+    "name": "Thermalright Frozen Warframe ARGB 88.7 CFM Water 420mm Black",
+    "manufacturer": "Thermalright",
+    "part_numbers": ["Frozen Warframe 420 BLACK ARGB"],
+    "series": "Frozen Warframe",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.thermalright.com/product/frozen-warframe-420-black-argb/"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0814256017367",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FROWAR42-BK",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "Frozen Warframe 420 BLACK ARGB",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "814256017367",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DVBKGWLL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "computer-orbit",
+        "channel": "uk",
+        "source_product_id": "Frozen Warframe 420 BLACK ARGB",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
+  }
 }

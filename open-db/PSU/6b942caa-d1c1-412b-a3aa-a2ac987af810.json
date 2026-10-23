@@ -1,30 +1,82 @@
 {
   "opendb_id": "6b942caa-d1c1-412b-a3aa-a2ac987af810",
-  "connectors": {
-    "atx_24_pin": 1,
-    "eps_8_pin": 0,
-    "pcie_12vhpwr": 0,
-    "pcie_6_plus_2_pin": 0,
-    "sata": 6,
-    "molex_4_pin": 0,
-    "floppy_4_pin": 0
-  },
-  "metadata": {
-    "name": "Thermaltake Toughpower GT 850W Fully Modular 80+ Gold Certified",
-    "manufacturer": "Thermaltake",
-    "part_numbers": ["PS-TPT-0850FNFAGE-3"],
-    "series": "Toughpower",
-    "variant": "850W Gold"
-  },
   "wattage": 850,
   "form_factor": "ATX",
   "efficiency_rating": "80+ Gold",
   "modular": "Full",
-  "color": ["BROWN"],
+  "color": ["BLACK"],
+  "lighting": ["None"],
   "length": 140,
-  "fanless": false,
-  "lighting": [],
+  "fanless": true,
+  "connectors": {
+    "atx_24_pin": 1,
+    "eps_8_pin": 2,
+    "pcie_12vhpwr": 1,
+    "pcie_6_plus_2_pin": 4,
+    "sata": 6,
+    "molex_4_pin": 4,
+    "floppy_4_pin": 0
+  },
+  "metadata": {
+    "name": "Thermaltake Toughpower GT 850W Black",
+    "manufacturer": "Thermaltake",
+    "part_numbers": [],
+    "series": "Toughpower GT",
+    "variant": "850W Gold",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
+  },
   "general_product_information": {
-    "amazon_sku": "B0DCZJSJ7Z"
+    "manufacturer_url": "https://www.thermaltake.com/toughpower-gt-850w-atx31.html"
+  },
+  "identifiers": {
+    "version": 4,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0841163097465",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "PS-TPT-0850FNFAGU-3",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "841163097465",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DJ6DGHCP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6665522",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1HU-0014-006W8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "13663709069",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

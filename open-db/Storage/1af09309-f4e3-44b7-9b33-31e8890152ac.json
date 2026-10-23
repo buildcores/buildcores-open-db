@@ -1,5 +1,11 @@
 {
   "opendb_id": "1af09309-f4e3-44b7-9b33-31e8890152ac",
+  "capacity": 512,
+  "storage_type": "SSD",
+  "form_factor": "2.5\"",
+  "interface": "SATA 6.0 Gb/s",
+  "nvme": false,
+  "lighting": [],
   "metadata": {
     "name": "XOC Nitro 512GB SSD 2.5\" SATA",
     "manufacturer": "XOC",
@@ -7,14 +13,31 @@
     "series": "Nitro",
     "variant": "512GB"
   },
-  "capacity": 512,
-  "type": "SSD",
-  "form_factor": "2.5\"",
-  "interface": "SATA 6.0 Gb/s",
-  "nvme": false,
-  "storage_type": "SSD",
-  "lighting": [],
-  "general_product_information": {
-    "newegg_sku": "0D9-010T-00005"
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "XCNTS512G",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "0D9-010T-00005",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0D9-010T-00005",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

@@ -1,5 +1,9 @@
 {
   "opendb_id": "60e91901-71e2-42f8-a245-f3a1be627151",
+  "series": "AMD Athlon X4",
+  "microarchitecture": "Excavator",
+  "coreFamily": "Bristol Ridge",
+  "socket": "AM4",
   "cores": {
     "total": 4,
     "performance": 4,
@@ -16,19 +20,19 @@
     "l3": 0
   },
   "specifications": {
+    "tdp": 65,
     "integratedGraphics": {
       "model": "None"
     },
-    "memory": {
-      "maxSupport": 0,
-      "types": ["DDR4"]
-    },
-    "tdp": 65,
     "eccSupport": false,
     "includesCooler": true,
     "packaging": "Boxed",
     "lithography": "28 nm",
-    "simultaneousMultithreading": false
+    "simultaneousMultithreading": false,
+    "memory": {
+      "maxSupport": 0,
+      "types": ["DDR4"]
+    }
   },
   "metadata": {
     "name": "AMD Athlon X4 970 3.8 GHz 4-Core AM4",
@@ -36,9 +40,16 @@
     "part_numbers": ["AD970XAUABBOX"],
     "series": "AMD Athlon X4"
   },
-  "series": "AMD Athlon X4",
-  "microarchitecture": "Excavator",
-  "coreFamily": "Bristol Ridge",
-  "socket": "AM4",
-  "general_product_information": {}
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "AD970XAUABBOX",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": []
+  }
 }

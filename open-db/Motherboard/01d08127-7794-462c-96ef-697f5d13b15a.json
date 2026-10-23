@@ -1,15 +1,50 @@
 {
   "opendb_id": "01d08127-7794-462c-96ef-697f5d13b15a",
+  "socket": "AM4",
+  "form_factor": "ATX",
+  "chipset": "AMD B450",
   "memory": {
     "max": 64,
     "ram_type": "DDR4",
     "slots": 4
   },
+  "color": [],
+  "lighting": [],
+  "pcie_slots": [
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "2.0",
+      "quantity": 4,
+      "lanes": 1
+    }
+  ],
+  "m2_slots": [
+    {
+      "size": "2242/2260/2280/22110",
+      "key": "M",
+      "interface": "PCIe 3.0 x4"
+    }
+  ],
   "storage_devices": {
     "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s",
+      "controller": "Realtek 8111H"
+    }
+  ],
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -20,6 +55,9 @@
   "power_connectors": {
     "cpu_power": []
   },
+  "ecc_support": false,
+  "raid_support": false,
+  "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -28,55 +66,6 @@
     "chipset": "Realtek ALC892/ALC897 Codec",
     "channels": "7.1"
   },
-  "metadata": {
-    "name": "MSI B450-A PRO MAX",
-    "manufacturer": "MSI",
-    "series": "B450-A PRO MAX",
-    "variant": null,
-    "releaseYear": 2019,
-    "part_numbers": ["B450APROMAX", "B450-A PRO MAX"]
-  },
-  "socket": "AM4",
-  "form_factor": "ATX",
-  "chipset": "AMD B450",
-  "pcie_slots": [
-    {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 16,
-      "_id": "69b3ab574fd4af70a349aa1b"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 1,
-      "lanes": 16,
-      "_id": "69b3ab574fd4af70a349aa1c"
-    },
-    {
-      "gen": "2.0",
-      "quantity": 4,
-      "lanes": 1,
-      "_id": "69b3ab574fd4af70a349aa1d"
-    }
-  ],
-  "m2_slots": [
-    {
-      "size": "2242/2260/2280/22110",
-      "key": "M",
-      "interface": "PCIe 3.0 x4",
-      "_id": "69b3ab574fd4af70a349aa1e"
-    }
-  ],
-  "onboard_ethernet": [
-    {
-      "speed": "1 Gb/s",
-      "controller": "Realtek 8111H",
-      "_id": "69b3ab574fd4af70a349aa1f"
-    }
-  ],
-  "ecc_support": false,
-  "raid_support": false,
-  "back_connect_connectors": false,
   "back_panel_ports": [
     "Flash BIOS Button",
     "PS/2 Combo Port",
@@ -89,11 +78,166 @@
     "HDMI™ Port",
     "USB 3.2 Gen2"
   ],
-  "color": [],
-  "lighting": [],
-  "general_product_information": {
-    "amazon_sku": "B07XPZMKQ6",
-    "newegg_sku": "9SIAD6HK5V6955",
-    "walmart_sku": 528347300
+  "metadata": {
+    "name": "MSI B450-A PRO MAX",
+    "manufacturer": "MSI",
+    "part_numbers": ["B450APROMAX", "B450-A PRO MAX"],
+    "series": "B450-A PRO MAX",
+    "variant": null,
+    "releaseYear": 2019
+  },
+  "general_product_information": {},
+  "identifiers": {
+    "version": 1,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142194447",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450-A PRO MAX",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B450APROMAX",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142194447",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "au",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "be",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "es",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "fr",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "ie",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "it",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "jp",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "nl",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "pl",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "se",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07XPZMKQ6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "ca",
+        "source_product_id": "9SIAD6HK5V6955",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAD6HK5V6955",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "528347300",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }
