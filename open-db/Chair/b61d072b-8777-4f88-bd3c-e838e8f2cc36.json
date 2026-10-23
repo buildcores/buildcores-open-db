@@ -9,9 +9,10 @@
     "depth": 500
   },
   "dimensions_mm": {
-    "width": 850,
-    "depth": 390,
-    "height_max": 710
+    "width": 580,
+    "depth": 500,
+    "height_min": 1220,
+    "height_max": 1320
   },
   "base_diameter_mm": 700,
   "max_user_weight_kg": 120,
@@ -30,7 +31,7 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/gaming-chairs/cf-9010068-ww/tc500-luxe-gaming-chair-sherwood-cf-9010068-ww"
   },
   "identifiers": {
-    "version": 2,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -43,9 +44,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840006678465",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CF-9010068-WW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CF-9010068-WW",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -56,6 +67,11 @@
         "type": "upc",
         "value": "840006678465",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006678465",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -198,6 +214,13 @@
         "source_product_id": "57664867860862",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12331803",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",
