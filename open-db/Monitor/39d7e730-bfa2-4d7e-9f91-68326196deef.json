@@ -6,11 +6,108 @@
     "verticalRes": 2160
   },
   "refresh_rate": 120,
+  "alternate_display_modes": [
+    {
+      "id": "500f0085-ebf2-4b6b-990c-540f55d839d3",
+      "resolution": {
+        "horizontalRes": 3840,
+        "verticalRes": 2160
+      },
+      "refresh_rate": 120,
+      "activation": "automatic"
+    }
+  ],
   "panel_type": "VA",
-  "color": ["BLACK"],
+  "response_time": 8,
+  "color": ["BLACK", "WHITE"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 x HDMI ports (HDCP 1.4 and 2.2) (Supports up to UHD 3840 x 2160, 120 Hz, FRL, HDR, VRR as per specified in HDMI 2.1) 1 x DisplayPort 1.4 (HDCP 1.4 and 2.2) (Supports up to UHD 3840 x 2160 120 Hz, HDR, VRR)",
+  "display_inputs": [
+    {
+      "id": "94a04c52-fdb1-4449-ac04-07c64bfb267a",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "131cb11b-031b-4020-9704-0468c71abefb",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "81596f88-5cc2-404f-9b3d-b49292d9c703",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "f753f5fe-818e-454a-9b0d-aae5feafecfd",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "6a1045ca-7cae-4763-ab08-1e429ed40dfa",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.97,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "VESA mounting holes (100 mm x 100 mm - behind attached VESA cover)"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 712.54,
+    "height_min": 445.74,
+    "height_max": 545.74,
+    "depth": 221.84
+  },
+  "dimensions_without_stand_mm": {
+    "width": 712.54,
+    "height": 412.77,
+    "depth": 61.36
+  },
+  "weight": {
+    "with_stand_kg": 8.77,
+    "without_stand_kg": 5.97
+  },
+  "power_consumption": {
+    "typical_w": 32,
+    "manufacturer_max_w": 85,
+    "note": "85 W max power consumption represents maximum power with max luminance and contrast."
+  },
+  "max_brightness": 300,
+  "hdr": "HDR10",
+  "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Dell 32 Plus 4K Monitor - S3225QS",
     "manufacturer": "Dell",
@@ -18,14 +115,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-32-plus-4k-monitor-s3225qs/s3225qs_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116485131",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116485131",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -39,13 +143,28 @@
       },
       {
         "type": "mpn",
+        "value": "F06FR",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S3225QS",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S3225QS",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116485131",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116485131",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -158,6 +277,13 @@
         "source": "bestbuy",
         "channel": "us",
         "source_product_id": "6619489",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBKFRKJD9044",
         "pricing_enabled": true,
         "verified": true
       },

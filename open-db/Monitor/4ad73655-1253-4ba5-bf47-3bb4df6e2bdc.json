@@ -10,11 +10,93 @@
   "response_time": 1,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
   "connectors": "1 x HDMI 2.1                                                    1 x DisplayPort 1.4",
+  "display_inputs": [
+    {
+      "id": "419ccc9d-d0e5-49b7-8685-86b1bd21e416",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "6c3a5dc0-db8a-460e-a588-7fd673d49468",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 180,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "HDCP 1.4 & 2.3; DSC required for the specified maximum mode; HDR and VRR supported"
+        }
+      ]
+    },
+    {
+      "id": "561613a7-6df5-43ee-bee5-947e8112173d",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "4b64297b-2abd-4fa8-b581-9c9d131d99cc",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 180,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDCP 1.4 & 2.3; FRL transport; 10-bit color and VRR supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "5ec95c54-ec85-4750-a962-427b60eff00f",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.57,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 805.45,
+    "height": 554.69,
+    "height_min": 444.69,
+    "height_max": 554.69,
+    "depth": 232
+  },
+  "dimensions_without_stand_mm": {
+    "width": 805.45,
+    "height": 360.85,
+    "depth": 132.46
+  },
+  "weight": {
+    "with_stand_kg": 9.51,
+    "without_stand_kg": 6.57
+  },
+  "power_consumption": {
+    "typical_w": 32,
+    "manufacturer_max_w": 85,
+    "note": "On-mode power consumption: 32 W, as defined by EU 2019/2021 and EU 2019/2013. Maximum power consumption: 85 W at maximum brightness and contrast with maximum power loading on all USB ports. Energy Star measured on-mode power (Pon): 31 W."
+  },
   "max_brightness": 400,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR 400",
   "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Dell Alienware AW3425DWM 34\" 1440p 180Hz VA Curved Monitor",
@@ -25,14 +107,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-au/shop/alienware-34-gaming-monitor-aw3425dwm/apd/210-bqqn/monitors-monitor-accessories"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116492740",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116492740",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -45,9 +134,24 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "AW3425DWM",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "J8PCC",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116492740",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116492740",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -153,6 +257,20 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0DZL719V1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19480154",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA8X5KPM2157",
         "pricing_enabled": true,
         "verified": true
       },
