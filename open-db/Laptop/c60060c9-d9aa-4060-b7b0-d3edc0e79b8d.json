@@ -1,11 +1,41 @@
 {
   "opendb_id": "c60060c9-d9aa-4060-b7b0-d3edc0e79b8d",
+  "weight": 1550,
+  "display_outputs": [
+    {
+      "id": "efa5789d-034f-4c74-997f-38df80798189",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "thunderbolt"
+    },
+    {
+      "id": "47de0ac8-acf7-4459-a863-ea7fea2db6c0",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode"
+    },
+    {
+      "id": "3724259a-11be-4e21-a828-802d3e494833",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "Dell 14 Plus Laptop",
     "manufacturer": "Dell",
-    "part_numbers": ["dell db14250 laptop", "dell-db14250-laptop"]
+    "part_numbers": ["dell db14250 laptop", "dell-db14250-laptop"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/laptop-computers/spd/dellplus14laptopdb14250"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

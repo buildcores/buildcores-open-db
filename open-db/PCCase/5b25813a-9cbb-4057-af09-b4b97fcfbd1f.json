@@ -3,14 +3,14 @@
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["Micro ATX", "Mini-ITX", "ATX", "EATX"],
   "color": ["BLACK"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB"],
   "power_supply": "None",
   "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "2 x USB 3.1 Gen1",
-  "front_usb_ports": ["2 x USB 3.1 Gen 1 Type-A"],
+  "front_usb_ports": ["2 x USB 3.2 Gen 1 Type-A"],
   "max_video_card_length": 420,
   "max_cpu_cooler_height": 180,
   "max_psu_length": 240,
@@ -26,7 +26,7 @@
     "width": 251,
     "height": 552
   },
-  "volume": 75.511,
+  "volume": 75.51,
   "weight": 23.15,
   "metadata": {
     "name": "Asus TUF Gaming GT501 ATX Mid Tower Black / Gray with Tempered Glass Side Panel",
@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/cases/tuf-gaming/tuf-gaming-gt501/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876104996",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876104996",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -70,9 +75,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "GT501/GRY/WITH HANDLE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876104996",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876104996",
+        "region": "us"
       }
     ],
     "retailer_listings": [
