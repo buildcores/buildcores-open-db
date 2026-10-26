@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.montechpc.com/sky-two"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,19 +50,19 @@
         "region": "all"
       },
       {
-        "type": "mpn",
+        "type": "ean",
         "value": "4710562747423",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "SKY TWO (W",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "SKY TWO (WHITE)",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "SKY TWO (WHITE)",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -217,6 +217,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "10920269",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-008",
@@ -257,6 +264,13 @@
         "source_product_id": "CJ01M515",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "2AM-00CN-00055R",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -320,6 +334,13 @@
         "source_product_id": "2867380",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "3708661993",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

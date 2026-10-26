@@ -109,6 +109,48 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "14631727-9d5f-484a-b22f-a495177ade52",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "82149c86-b721-4b58-93ff-c711adbc965e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "a78d8a61-8a55-429c-a905-d8066cf24375",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e1c9f692-61e5-4c12-80c7-ecf4ca05f523",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ProArt B850-CREATOR WIFI NEO",
     "manufacturer": "ASUS",

@@ -9,6 +9,369 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Manufacturer-published net weight in grams of the complete sold speaker system, including its included audio and control components. Do not use shipping weight or one enclosure's weight as the kit total; leave unset when only per-component weights are known.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "speaker_product_kind": {
+      "description": "Primary marketed kind of the exact sold SKU as a whole. A soundbar kit remains Soundbar; a system sold primarily as separate surround enclosures is Surround Kit.",
+      "type": ["string", "null"],
+      "enum": [
+        "Tabletop/Bookshelf",
+        "Soundbar",
+        "Portable",
+        "Floorstanding",
+        "Architectural",
+        "Center Channel",
+        "Subwoofer",
+        "Surround Kit",
+        "Other",
+        null
+      ]
+    },
+    "speaker_product_kind_other": {
+      "description": "Exact manufacturer-described product kind when Speaker Product Kind is Other.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Visible physical finish colors of the exact sold speaker system. Use lighting for RGB illumination; keep exact marketed finish in the product name or variant.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
+        ]
+      }
+    },
+    "amplification": {
+      "description": "Whether the sold system includes the amplification needed for its speakers or requires a separately obtained external amplifier. A powered-left/passive-right pair has Amplification Included.",
+      "type": ["string", "null"],
+      "enum": ["Amplification Included", "External Amplifier Required", null]
+    },
+    "included_components": {
+      "description": "Physical audio/control components in this exact purchased kit. Group only identical components, give each row its per-unit measurements, and exclude separately purchased accessories, drivers, cables, batteries, and manuals.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One physical component type included in the exact sold speaker kit; quantities and measurements are per component.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "role": {
+            "description": "Physical role of this included enclosure or control component in the exact sold kit; drivers, cables, batteries, and manuals are not separate rows.",
+            "type": ["string", "null"],
+            "enum": [
+              "Speaker",
+              "Satellite",
+              "Subwoofer",
+              "Soundbar",
+              "Amplifier",
+              "Control Unit",
+              "Other",
+              null
+            ]
+          },
+          "component_label": {
+            "description": "Source-backed name distinguishing this included component, such as Center Channel or Wireless Remote. Required when role is Other.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "quantity": {
+            "description": "Positive count of identical included physical components represented by this row.",
+            "type": ["integer", "null"],
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "weight_g": {
+            "description": "Manufacturer-published net weight in grams of one component in this row, not the row total, full kit, or shipping package.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "dimensions_mm": {
+            "description": "Published dimensions in mm of one physical component, not the whole kit or packaging.",
+            "type": ["object", "null"],
+            "properties": {
+              "width": {
+                "description": "Published width of one component in mm.",
+                "type": ["number", "null"],
+                "exclusiveMinimum": 0
+              },
+              "height": {
+                "description": "Published height of one component in mm.",
+                "type": ["number", "null"],
+                "exclusiveMinimum": 0
+              },
+              "depth": {
+                "description": "Published depth of one component in mm.",
+                "type": ["number", "null"],
+                "exclusiveMinimum": 0
+              },
+              "diameter": {
+                "description": "Published diameter of one round component in mm.",
+                "type": ["number", "null"],
+                "exclusiveMinimum": 0
+              }
+            }
+          },
+          "nominal_impedance_ohms": {
+            "description": "Manufacturer-published nominal impedance in ohms of this passive speaker component. This alone does not prove amplifier compatibility.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "conditions": {
+            "description": "Source-backed qualification for the count, weight, dimensions, or impedance of this specific component.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["role", "quantity"]
+      }
+    },
+    "channel_configuration_claims": {
+      "description": "Exact channel labels for the sold system, with discrete versus virtualized basis. Do not infer the count or placement of physical enclosures.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One exact marketed channel claim; channel numbers do not count physical enclosures.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "channel_label": {
+            "description": "Manufacturer's exact channel-configuration label, such as 2.0, 2.1, or 5.1.2.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "basis": {
+            "description": "Discrete for documented separate audio channels, Virtualized for software/processing claims, or Unspecified when the source does not say which.",
+            "type": ["string", "null"],
+            "enum": ["Discrete", "Virtualized", "Unspecified", null]
+          },
+          "conditions": {
+            "description": "Official mode, input, or other condition for this exact channel claim.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["channel_label", "basis"]
+      }
+    },
+    "audio_input_paths": {
+      "description": "Verified external audio inputs to the exact sold speaker system. Do not include internal kit cables, power-only USB ports, or unsupported wireless radios.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One verified external audio entry path into the exact sold speaker system; not an internal kit connection.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "method": {
+            "description": "Verified way external audio enters the sold speaker system. Internal wiring between included cabinets, USB power-only ports, and a radio without playback support are not audio input paths.",
+            "type": ["string", "null"],
+            "enum": [
+              "3.5 mm Analog Stereo",
+              "Six-Channel Direct Analog",
+              "RCA Analog",
+              "USB Digital Audio",
+              "Bluetooth Audio",
+              "Optical",
+              "Coaxial",
+              "HDMI ARC",
+              "HDMI eARC",
+              "HDMI Input",
+              "6.35 mm TRS",
+              "XLR",
+              "Wi-Fi Streaming",
+              "Speaker Wire",
+              "Other",
+              null
+            ]
+          },
+          "method_other": {
+            "description": "Exact published external audio-input method when Method is Other.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "speaker_side_connector": {
+            "description": "Published connector on the speaker system or included control/compute component that receives external audio; omit for wireless paths.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "source_side_connector": {
+            "description": "Published connector at the audio source end of the documented usable cable or adapter, when known.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "adapter_requirement": {
+            "description": "Whether this input works directly, needs an included adapter, or needs a separately obtained adapter. Leave unset if inclusion or requirement is unknown.",
+            "type": ["string", "null"],
+            "enum": ["Direct", "Included Adapter", "Separate Adapter", null]
+          },
+          "wifi_protocol": {
+            "description": "Officially named Wi-Fi audio playback protocol, such as AirPlay 2 or Spotify Connect; a Wi-Fi radio alone is insufficient.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "conditions": {
+            "description": "Published prerequisites or limits for this input, including an included cable when relevant.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["method"]
+      }
+    },
+    "operating_power_sources": {
+      "description": "Verified ways the sold audio system operates, separate from audio input and battery charging. Remote-control batteries do not count.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One verified power source that operates audio in the exact sold system; charging alone is not operating power.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "source": {
+            "description": "Power that operates audio playback for the sold system: AC mains/adapter, USB power, or battery. Do not count an optional remote's batteries or a charging-only connection.",
+            "type": ["string", "null"],
+            "enum": ["AC Mains/Adapter", "USB Power", "Battery", null]
+          },
+          "powered_component": {
+            "description": "Which included speaker-system component receives this operating power, when published.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "connector": {
+            "description": "Published connector for this operating power input, when applicable and known.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "conditions": {
+            "description": "Published operating-power conditions for this exact system and mode.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["source"]
+      }
+    },
+    "battery_runtime_claims": {
+      "description": "Manufacturer-published active-use runtime claims for a battery-powered speaker system; not standby time.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One source-backed battery runtime claim for active use of the sold speaker system; not standby time.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "hours": {
+            "description": "Positive manufacturer-stated runtime in hours for this exact battery-powered speaker system and use.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "use": {
+            "description": "Audio Playback or another manufacturer-described active use; standby time is not playback runtime.",
+            "type": ["string", "null"],
+            "enum": ["Audio Playback", "Other", null]
+          },
+          "use_other": {
+            "description": "Manufacturer's exact active use when Runtime Use is Other; do not use this to store standby hours as playback.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "qualifier": {
+            "description": "Preserve whether the manufacturer says Up To, Approximate, or an unqualified Stated runtime.",
+            "type": ["string", "null"],
+            "enum": ["Up To", "Approximate", "Stated", null]
+          },
+          "conditions": {
+            "description": "Manufacturer-stated volume, lighting, connection, or other test conditions for this exact runtime claim.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["hours", "use", "qualifier"]
+      }
+    },
+    "charging_inputs": {
+      "description": "Inputs that charge an included battery in this exact sold speaker system; not a USB output used to charge another device.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One documented external input used to charge a battery in the sold speaker system.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "method": {
+            "description": "Verified input that charges a battery in the exact sold speaker system; a USB output for charging a phone is not a speaker charging input.",
+            "type": ["string", "null"],
+            "enum": [
+              "USB-C",
+              "Micro-USB",
+              "DC Barrel",
+              "AC Mains/Adapter",
+              "Qi",
+              "Qi2",
+              "Proprietary Charging Interface",
+              "Other",
+              null
+            ]
+          },
+          "method_details": {
+            "description": "Exact manufacturer name or connector when Charging Input Method is Proprietary Charging Interface or Other.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "target": {
+            "description": "Included battery-powered speaker component or battery that receives this charging input.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "conditions": {
+            "description": "Manufacturer-stated charger, input-power, or operating-mode conditions for this charging input.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["method", "target"]
+      }
+    },
     "lighting": {
       "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
       "type": ["array", "null"],

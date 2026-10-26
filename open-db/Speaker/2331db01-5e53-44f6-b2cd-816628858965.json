@@ -3,36 +3,61 @@
   "weight": 3090,
   "speaker_product_kind": "Tabletop/Bookshelf",
   "color": ["BLACK"],
+  "amplification": "Amplification Included",
   "included_components": [
     {
       "id": "be9882a5-2b88-4e07-be4f-68280ead05df",
       "role": "Speaker",
-      "quantity": 2,
+      "component_label": "Active Speaker",
+      "quantity": 1,
       "weight_g": 1500,
       "dimensions_mm": {
         "width": 127.5,
         "height": 193,
         "depth": 142
       }
+    },
+    {
+      "id": "5916df85-d848-4ad4-bb99-ad5f201142ee",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 1500,
+      "dimensions_mm": {
+        "width": 112,
+        "height": 193,
+        "depth": 142
+      }
     }
   ],
+  "included_audio_unit_count": 2,
   "audio_input_paths": [
     {
       "id": "1bbe76b1-2f37-4212-b0be-089a2d3caf18",
       "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX In",
       "source_side_connector": "3.5mm",
       "adapter_requirement": "Included Adapter"
     },
     {
       "id": "feeb55f6-9388-4ffb-9fca-fe8119c8389a",
       "method": "USB Digital Audio",
-      "source_side_connector": "USB-A",
+      "speaker_side_connector": "USB Type - A",
+      "source_side_connector": "USB Type - A",
       "adapter_requirement": "Included Adapter"
     },
     {
       "id": "64f5aaad-4358-41fd-8a32-535edbe066ec",
       "method": "Bluetooth Audio",
       "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "06db7eb2-8eab-49d6-b60e-f93cd4bd20a8",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "connector": "Double Barrel"
     }
   ],
   "lighting": ["RGB"],

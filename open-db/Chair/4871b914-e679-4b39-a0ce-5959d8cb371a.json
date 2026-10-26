@@ -1,5 +1,24 @@
 {
   "opendb_id": "4871b914-e679-4b39-a0ce-5959d8cb371a",
+  "seat_height_range_mm": {
+    "min": 480,
+    "max": 580
+  },
+  "seat_dimensions_mm": {
+    "width": 370,
+    "depth": 500
+  },
+  "dimensions_mm": {
+    "height_min": 1250,
+    "height_max": 1350
+  },
+  "base_diameter_mm": 700,
+  "max_user_weight_kg": 113.4,
+  "weight_kg": 40.5,
+  "seat_surface_materials": ["Synthetic Leather"],
+  "backrest_surface_materials": ["Synthetic Leather"],
+  "armrest_adjustability": "NoArmrests",
+  "lumbar_support": "Fixed",
   "metadata": {
     "name": "GTPLAYER Footrest Series GT800A - RED",
     "manufacturer": "GTPLAYER",
@@ -8,9 +27,11 @@
     "variant": "Red",
     "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://gtplayer.com/products/gt800a?variant=42686737809488"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -131,6 +152,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0FFGSFKBQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "gtplayer",
+        "channel": "eu",
+        "source_product_id": "42123423449268",
         "pricing_enabled": true,
         "verified": true
       }

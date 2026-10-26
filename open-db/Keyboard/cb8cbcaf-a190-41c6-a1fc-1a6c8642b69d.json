@@ -1,19 +1,28 @@
 {
   "opendb_id": "cb8cbcaf-a190-41c6-a1fc-1a6c8642b69d",
-  "switch": "Gateron Brown",
-  "switch_type": "Linear",
+  "weight": 976,
+  "switch": "Logitech GX Brown",
+  "switch_type": "Tactile",
   "size": "96%",
   "layout": "ANSI",
+  "hot_swappable": false,
+  "backlighting": "RGB",
   "features": [],
-  "connectivity": [],
+  "connectivity": ["Bluetooth", "Wired USB-A", "Wireless 2.4GHz"],
+  "keycap_material": "PBT",
+  "frame_material": "aluminum",
+  "polling_rate": 1000,
   "metadata": {
-    "name": "Logitech G715 RGB Wired/Wireless/Bluetooth Mechanical Gaming Keyboard",
+    "name": "Logitech G715 RGB Wired/Wireless/Bluetooth Mechanical Gaming Keyboard Tactile",
     "manufacturer": "Logitech",
-    "part_numbers": ["920-010453", "920-010465", "920-010467"]
+    "part_numbers": ["920-010453", "920-010465", "920-010467"],
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-ph/shop/p/g715-tkl-mechanical-wireless-keyboard.920-010467"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -21,9 +30,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855170255",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "920-010453",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "920-010453",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -39,6 +58,11 @@
         "type": "upc",
         "value": "097855170255",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855170255",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -159,7 +183,7 @@
         "channel": "us",
         "source_product_id": "6511298",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

@@ -1,5 +1,65 @@
 {
   "opendb_id": "aaaf39ed-37f1-4df1-9954-1bfe19012352",
+  "weight": 4500,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "90113762-f2ff-4046-a0f9-2cf6118d3d46",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 2.25,
+      "dimensions_mm": {
+        "width": 140,
+        "height": 228,
+        "depth": 197.5
+      }
+    },
+    {
+      "id": "1103dd0b-6b99-488c-b9b5-b743edbccd8d",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 2.25,
+      "dimensions_mm": {
+        "width": 140,
+        "height": 228,
+        "depth": 184
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "audio_input_paths": [
+    {
+      "id": "24a3568d-cb51-44d0-b176-e37737604260",
+      "method": "6.35 mm TRS",
+      "speaker_side_connector": "TRS balanced input",
+      "source_side_connector": "6.35 mm TRS",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "cf62bf01-cab1-4ec6-a0eb-ecbe6c650a8b",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA unbalanced input",
+      "source_side_connector": "RCA Analog",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "9c5b7589-005d-4f97-b001-63f6d0f841de",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN",
+      "source_side_connector": "3.5 mm Analog Stereo"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "c64d8ed8-3c9b-4a23-a0c5-257659694e4e",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker"
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Edifier MR4 Black",

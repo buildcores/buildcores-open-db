@@ -9,6 +9,107 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "seat_height_range_mm": {
+      "description": "Manufacturer-published floor-to-seat height range for this exact chair configuration, in mm. Do not substitute an overall chair-height range. If both endpoints are present, minimum must not exceed maximum.",
+      "type": ["object", "null"],
+      "properties": {
+        "min": {
+          "description": "Lowest published floor-to-seat height in mm; do not estimate. Use an official source for the exact sold variant. Leave missing when unknown or unverified, and convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "max": {
+          "description": "Highest published floor-to-seat height in mm; do not estimate. Use an official source for the exact sold variant. Leave missing when unknown or unverified, and convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "seat_dimensions_mm": {
+      "description": "Published usable seat-pan dimensions in mm, not overall chair dimensions. Leave missing measurements unset when unknown or unverified.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Published usable seat-pan width in mm. Use an official source for the exact sold variant; do not substitute overall width or infer the measurement from images. Convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Published usable seat-pan depth in mm. Use an official source for the exact sold variant; do not substitute overall depth or infer the measurement from images. Convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "dimensions_mm": {
+      "description": "Published overall dimensions of the assembled chair in mm, excluding packaging. Leave missing measurements unset when unknown or unverified. If both height endpoints are present, minimum must not exceed maximum.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Overall chair width with armrests in the manufacturer's stated normal position, in mm. Use an official source for the exact sold variant; do not infer the measurement from images. Convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Overall chair depth while upright, in mm. Use an official source for the exact sold variant; do not infer the measurement from images. Convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_min": {
+          "description": "Minimum published overall chair height in mm. Use an official source for the exact sold variant. Leave missing when unknown or unverified, and convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_max": {
+          "description": "Maximum published overall chair height in mm. Use an official source for the exact sold variant. Leave missing when unknown or unverified, and convert official units without implying extra precision.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "base_diameter_mm": {
+      "description": "Published outer diameter of the assembled chair base in mm; do not estimate from images. Use an official source for the exact sold variant. Leave unset when unknown or unverified, and convert official units without implying extra precision.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "max_user_weight_kg": {
+      "description": "Manufacturer's maximum supported or warranted seated user weight for this exact variant in kg; not recommended user weight. Use an official source for the exact sold variant. Leave unset when unknown or unverified, and convert official units without implying extra precision.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "weight_kg": {
+      "description": "Weight of the assembled chair in kg, excluding packaging. Use an official source for the exact sold variant; do not substitute shipping weight. Leave unset when unknown or unverified, and convert official units without implying extra precision.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "seat_surface_materials": {
+      "description": "Manufacturer-stated seat contact-surface materials for this exact sold configuration; do not combine upholstery options. Leave unset when unknown or unverified; do not store an empty array to mean unknown.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["Mesh", "Fabric", "Genuine Leather", "Synthetic Leather", "Other"]
+      }
+    },
+    "backrest_surface_materials": {
+      "description": "Manufacturer-stated backrest contact-surface materials for this exact sold configuration; do not assume they match the seat. Do not combine upholstery choices from a model family. Leave unset when unknown or unverified; do not store an empty array to mean unknown.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": ["Mesh", "Fabric", "Genuine Leather", "Synthetic Leather", "Other"]
+      }
+    },
+    "armrest_adjustability": {
+      "description": "Adjustment capability of the armrests included with this configuration; use NoArmrests only with explicit evidence. Leave unset when the exact included armrest configuration is unknown or unverified.",
+      "type": ["string", "null"],
+      "enum": ["NoArmrests", "Fixed", "HeightAdjustable", "MultiDirectional", null]
+    },
+    "lumbar_support": {
+      "description": "Dedicated lumbar support included with this configuration; use None only with explicit evidence, and do not infer support from a shaped back. Leave unset when the exact included lumbar-support configuration is unknown or unverified.",
+      "type": ["string", "null"],
+      "enum": ["None", "Fixed", "Adjustable", null]
+    },
     "general_product_information": {
       "type": ["object", "null"],
       "description": "General product information and retailer SKUs",
@@ -74,7 +175,7 @@
           "type": ["string", "null"]
         },
         "variant": {
-          "description": "Specific variant in the series",
+          "description": "Exact sold size, upholstery, and support configuration when any of those details distinguish this chair record.",
           "type": ["string", "null"]
         },
         "releaseYear": {

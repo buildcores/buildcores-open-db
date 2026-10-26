@@ -7,16 +7,108 @@
   },
   "refresh_rate": 320,
   "panel_type": "IPS",
-  "color": [],
-  "lighting": [],
+  "response_time": 0.5,
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 x HDMI 2.1 (supports up to FHD 1920 x 1080, 255 Hz, TMDS, HDR, VRR); 1 x DisplayPort 1.4 (supports up to FHD 1920 x 1080, 320 Hz, HDR); 1 x USB 5Gbps Type-B upstream port; 2 x USB 5Gbps Type-A downstream ports (one with Battery Charging 1.2)",
+  "display_inputs": [
+    {
+      "id": "0d20c8d7-d858-4811-9b38-1ee46a4a4672",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "890ea0ee-d123-4dde-938d-7732d5f4ddea",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 255,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "ebe48a7d-64e9-4693-b4ba-e4ed6c522adc",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "84538f89-51f4-4a9a-8fe6-0c5328e14ae7",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 320,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "4161a56e-3ce5-42f4-a685-ede98772caeb",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.69,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 x 10 mm screws (standard VESA mounting screws behind the attached toolless VESA magnetic/snap-on cover)"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 555.59,
+    "height_min": 390.73,
+    "height_max": 500.73,
+    "depth": 206
+  },
+  "dimensions_without_stand_mm": {
+    "width": 555.59,
+    "height": 329.5,
+    "depth": 68.89
+  },
+  "weight": {
+    "with_stand_kg": 6.07
+  },
+  "power_consumption": {
+    "typical_w": 18.1,
+    "manufacturer_max_w": 65,
+    "note": "Measurements reflect standard operating baselines. The maximum value of 65W is reached when the display panel is set to full peak brightness with internal USB pass-through ports and charging utilities fully loaded."
+  },
+  "max_brightness": 400,
+  "hdr": "HDR10",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Alienware 25 320Hz Gaming Monitor - AW2525HM",
     "manufacturer": "Dell",
-    "part_numbers": ["210 bryk", "210-bryk", "d42919c066316057", "AW2525HM"]
+    "part_numbers": ["210 bryk", "210-bryk", "d42919c066316057", "AW2525HM"],
+    "releaseYear": 2025,
+    "manufacturer_color": "Interstellar Indigo"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/alienware-25-320hz-gaming-monitor-aw2525hm/aw2525hm_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -142,6 +234,27 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0CP9MBSXW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "AW2525HM",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC57KM705422",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5391629004",
         "pricing_enabled": true,
         "verified": true
       }

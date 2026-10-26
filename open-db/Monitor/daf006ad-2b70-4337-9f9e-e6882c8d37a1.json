@@ -6,24 +6,116 @@
     "verticalRes": 1440
   },
   "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
   "panel_type": "OLED",
   "response_time": 0.03,
-  "color": ["BLACK"],
-  "lighting": [],
+  "color": ["GREY"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "21:9",
-  "connectors": "2 x HDMI 2.11 x USB Type-C1 x DisplayPort 1.4",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1,
+    "usb_c": 1
+  },
+  "connectors": "1 x DisplayPort 1.4, 2 x HDMI 2.1, 1 x USB Type-C (DP Alt Mode)",
+  "display_inputs": [
+    {
+      "id": "4514632e-3a4a-4a7d-82ee-8d2fa9b86b94",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "5d5a6fcf-1b58-41a0-bfb9-d7d8af82cb94",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "7b113e0d-dcee-4b67-ac88-2a8bcaaf582c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "973d5aff-3eb3-44bf-ac1f-1c34999bff94",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "44791a0b-4ba7-4f76-acda-8fd80df85510",
+      "connector": "usb_c",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "b384701b-46ed-4c39-9217-1a335d32a713",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.8,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "ROG Wall Mount Kit"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 786,
+    "height": 562,
+    "height_min": 441,
+    "height_max": 551,
+    "depth": 293
+  },
+  "dimensions_without_stand_mm": {
+    "width": 788,
+    "height": 372,
+    "depth": 161
+  },
+  "weight": {
+    "with_stand_kg": 8.4,
+    "without_stand_kg": 6.1
+  },
+  "power_consumption": {
+    "typical_w": 31,
+    "note": "Measuring a screen brightness of 200 nits without audio/ USB/Card reader connection"
+  },
   "max_brightness": 1300,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Asus ROG Swift OLED PG34WCDM 33.9\" 3440x1440 240Hz OLED Curved Monitor",
     "manufacturer": "ASUS",
     "part_numbers": ["PG34WCDMROG Swift OLED PG34WCDM", "ROG Swift OLED PG34WCDM"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/monitors/32-to-34-inches/rog-swift-oled-pg34wcdm/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -2,24 +2,94 @@
   "opendb_id": "d0d3cfce-a197-48f4-b9a0-aca21b9d87cb",
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": [],
+  "side_panel": "Solid",
+  "has_transparent_side_panel": false,
+  "front_usb_ports": ["2 x USB Type-A 3.0 5Gbps", "1 x USB Type-C USB 3.2 Gen 2x2 20Gbps", null],
   "max_video_card_length": 425,
   "max_cpu_cooler_height": 173,
+  "max_psu_length": 253,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": true,
+  "dimensions_mm": {
+    "depth": 495,
+    "width": 229,
+    "height": 515
+  },
+  "volume": 55.4,
+  "weight": 22.05,
   "metadata": {
     "name": "Fractal Design Summit Black Solid",
     "manufacturer": "Fractal Design",
     "part_numbers": [],
     "series": "Summit",
+    "variant": "Black Solid",
     "releaseYear": 2026,
-    "manufacturer_color": "Black Solid"
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/summit-series/summit/summit-black-solid/#specifications"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276112707",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340172712701",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-C-SUM1A-03",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "843276112707",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FV31H1M6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13085778",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811352265",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20872313510",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

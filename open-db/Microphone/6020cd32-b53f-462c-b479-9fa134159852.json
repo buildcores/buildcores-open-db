@@ -1,24 +1,98 @@
 {
   "opendb_id": "6020cd32-b53f-462c-b479-9fa134159852",
-  "connectivity_type": [],
-  "polar_pattern": [],
-  "features": [],
-  "lighting": [],
+  "weight": 670,
+  "connectivity_type": ["XLR", "USB-C"],
+  "on_device_ports": [
+    {
+      "id": "6905cb98-d736-40a0-8a75-fcb5323f71b4",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes 3m USB-C to USB-A cable and USB-C adapter"
+    },
+    {
+      "id": "b7b7cfe4-84e1-4528-ab43-968eaa44d934",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"],
+      "conditions": "XLR cable not included; disables onboard dial/mute and RGB."
+    },
+    {
+      "id": "46959ddd-d5fd-45ef-ae7b-28d08fe54fc5",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "USB connection required for monitoring path"
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "ec07dc35-d800-4d07-be5c-14d292eb7497",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "7b0905f2-c071-4400-869d-b56a80f0f0fa",
+      "sample_rate_khz": 96,
+      "bit_depth_bits": 32,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum",
+      "conditions": "32-bit float configuration requires Windows and Razer Synapse"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "0d10bdd8-da23-4767-96a5-50d87e46980f",
+      "basis": "Included Stand Assembly",
+      "width_mm": 90,
+      "depth_mm": 90,
+      "height_mm": 213
+    }
+  ],
+  "lighting": ["ARGB"],
   "metadata": {
     "name": "Razer Seiren V3 Pro",
     "manufacturer": "Razer",
-    "part_numbers": ["RZ19-05500100-R3M1"]
+    "part_numbers": ["RZ19-05500100-R3M1"],
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.razer.com/streaming-microphones/razer-seiren-v3-pro?srsltid=AU7gw4U40DnifVp4mR0X_XsCKhKJMeyG2g7RNfwu3yLwtkbv_dsV-7Vf"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840272926840",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RZ19-05500100-R3M1",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ19-05500100-R3U1",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840272926840",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H1DW8HXQ",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -6,15 +6,113 @@
     "verticalRes": 1440
   },
   "refresh_rate": 280,
+  "alternate_display_modes": [
+    {
+      "id": "e8a5210b-8e76-445c-8040-21317d4aaefd",
+      "resolution": {
+        "horizontalRes": 3840,
+        "verticalRes": 2160
+      },
+      "refresh_rate": 60,
+      "activation": "automatic"
+    }
+  ],
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": [],
-  "viewing_angle": "178° H x 178° V",
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
   "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 1.4",
+  "display_inputs": [
+    {
+      "id": "b62a632f-12c7-4398-ad4f-780d5b2c765a",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "578f7f00-3dd5-44ed-b58d-578f9c699650",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 280,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "None"
+        }
+      ]
+    },
+    {
+      "id": "4f37db6d-08be-4877-9955-7aea43bca8bc",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "c1c8b142-2bff-47ae-b289-957e99996a5f",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 280,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "None"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ce91f542-3474-4b21-9477-444cd3de3ead",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.92,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Direct (Can be mounted using the standard screws that came with your mounting kit or the monitor's default configuration plate screws)",
+          "weight_kg": 3.92
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609.51,
+    "height": 516.2,
+    "height_min": 411.8,
+    "height_max": 516.2,
+    "depth": 206
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609.51,
+    "height": 355.58,
+    "depth": 69.48
+  },
+  "weight": {
+    "with_stand_kg": 6.35,
+    "without_stand_kg": 3.92
+  },
+  "power_consumption": {
+    "typical_w": 25.3,
+    "manufacturer_max_w": 120,
+    "note": "Maximum power consumption measured at maximum brightness and contrast settings, with maximum power loading on all USB ports."
+  },
   "max_brightness": 1000,
-  "hdr": "",
+  "hdr": "HDR10, VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Dell Alienware AW2725D 26.7\" 1440p 280Hz QD-OLED Monitor",
@@ -25,9 +123,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/alienware-27-280hz-qd-oled-gaming-monitor-aw2725d/aw2725d_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -38,6 +138,11 @@
         "type": "ean",
         "value": "5397184962763",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5397184962763",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -51,8 +156,18 @@
       },
       {
         "type": "mpn",
+        "value": "AW2725D",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "CPVH4",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "WT2G4",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -200,6 +315,13 @@
         "source_product_id": "56014920319358",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6640502",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "box",

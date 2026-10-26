@@ -1,22 +1,88 @@
 {
   "opendb_id": "0e2a9028-31b6-404c-8d56-caa66d7e0414",
+  "driver_size": 40,
+  "frequency_response_low": 20,
+  "frequency_response_high": 22,
   "headphone_type": "Closed-Back",
-  "ear_pad_material": [],
+  "ear_cup_type": "Over-Ear",
+  "weight": 260,
+  "frame_material": "Plastic",
+  "ear_pad_material": ["Memory Foam"],
   "connection_types": ["USB-C", "Bluetooth", "Wireless 2.4GHz"],
+  "battery_life": 40,
+  "bluetooth_version": "5.3",
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
   "has_microphone": true,
-  "features": [],
-  "use_cases": [],
-  "platforms": [],
-  "lighting": [],
+  "microphone_type": "Detachable Boom",
+  "noise_cancellation_mic": true,
+  "features": ["Multi-Device Pairing", "EQ Customization", "Spatial Audio", "App Support"],
+  "use_cases": ["Casual", "Gaming"],
+  "platforms": ["PC", "Console"],
+  "lighting": ["None"],
   "metadata": {
     "name": "SteelSeries Arctis Nova 3P Wireless Black for Playstation",
     "manufacturer": "SteelSeries",
-    "part_numbers": []
+    "part_numbers": [],
+    "series": "Arctic Nova 3P",
+    "variant": "Black - Playstation",
+    "releaseYear": 2026
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "http://steelseries.com/gaming-headsets/arctis-nova-3?srsltid=AU7gw4VnNWLnX_F_jOqLJpiqtvl81rKFbIDhWI_SFVJLcqlccxwY9sus#specifications"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810052988429",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "61686",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810052988429",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F956KS26",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6626308",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16826249288",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17693821619",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -36,7 +36,7 @@
     "manufacturer_url": "https://www.bequiet.com/en/cpucooler/4466"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -44,9 +44,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4260052190746",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "BK036",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BK036",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -277,7 +287,7 @@
         "channel": "us",
         "source_product_id": "13C-001F-00070",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -365,10 +375,17 @@
       },
       {
         "source": "walmart",
-        "channel": "us",
-        "source_product_id": "5378050901",
+        "channel": "ca",
+        "source_product_id": "1WITIZQ0E00Y",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1WITIZQ0E00Y",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

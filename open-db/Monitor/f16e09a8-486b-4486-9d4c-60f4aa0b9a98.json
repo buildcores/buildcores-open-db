@@ -8,15 +8,117 @@
   "refresh_rate": 120,
   "panel_type": "VA",
   "response_time": 1,
+  "mprt_response_time": 1,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "usb_c": 1
+    "hdmi_2_1": 2,
+    "usb_c": 2
   },
-  "connectors": "1 x HDMI 1.4                                                         1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "e71a1fae-b09f-402d-affe-9c190f026623",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "5cc286ba-6506-4e7c-a217-b8057df2a827",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "da6a2cfa-3933-4695-a91d-f7f4e8674004",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "a94f6815-d4b2-43a5-ae16-73ee76b7528a",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "5a05b8ec-77c0-42e1-b9d4-de3d3e1f0859",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "6fa49c60-3d5b-4684-85bf-0d7e77c77a74",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "605bedb6-cb10-4811-97c0-0b5d5ffd92fa",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.91,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 x 10 mm screws",
+          "weight_kg": 6.91
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 807.32,
+    "height": 517.18,
+    "height_min": 411.53,
+    "height_max": 517.18
+  },
+  "dimensions_without_stand_mm": {
+    "width": 807.32,
+    "height": 355.77
+  },
+  "weight": {
+    "with_stand_kg": 9.38,
+    "without_stand_kg": 6.91
+  },
+  "power_consumption": {
+    "typical_w": 31,
+    "manufacturer_max_w": 175,
+    "note": "Maximum power consumption measured at maximum brightness and contrast settings, with maximum power loading on all USB ports."
+  },
   "max_brightness": 300,
   "hdr": "HDR10",
   "adaptive_sync": "FreeSync Premium",
@@ -27,14 +129,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-34-plus-usb-c-monitor-s3425dw/s3425dw_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116485148",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116485148",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -48,13 +157,28 @@
       },
       {
         "type": "mpn",
+        "value": "FRVJ3",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S3425DW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S3425DW",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116485148",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116485148",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -10,9 +10,65 @@
   "response_time": 8,
   "color": ["WHITE"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 1.4",
+  "connectors": "2 × HDMI 1.4 (HDCP 1.4), power connector, Kensington security-lock slot",
+  "display_inputs": [
+    {
+      "id": "2474010b-047e-4435-9e48-60d10d073060",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "85e763a2-3b62-4acc-b9c9-229291d9ab23",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "90192e8e-7978-4852-ba9c-cdeb57aed050",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.29,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Hardware Description: M4 x 10 mm screws (four required behind the integrated VESA plastic cover)",
+          "weight_kg": 4.04
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 537.64,
+    "height": 411.73
+  },
+  "dimensions_without_stand_mm": {
+    "width": 537.64,
+    "height": 313.73
+  },
+  "weight": {
+    "with_stand_kg": 3.85,
+    "without_stand_kg": 3.29
+  },
+  "power_consumption": {
+    "typical_w": 14.5,
+    "manufacturer_max_w": 42,
+    "note": "Operational typical value is 14.5W when configured in active default On Mode. Under strict eco/economy configurations, consumption lowers slightly to a baseline of 13.0W. The maximum rating of 42W reflects structural ceilings when maximum luminance settings are coupled with full operational load from its dual integrated 5W stereo speakers."
+  },
   "max_brightness": 250,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -24,14 +80,21 @@
     "releaseYear": 2024,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-gb/shop/dell-24-monitor-s2425h/apd/210-bmhj/monitors-monitor-accessories"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116465072",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116465072",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -45,13 +108,28 @@
       },
       {
         "type": "mpn",
+        "value": "9442G",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S2425H",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S2425H",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116465072",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116465072",
+        "region": "us"
       }
     ],
     "retailer_listings": [

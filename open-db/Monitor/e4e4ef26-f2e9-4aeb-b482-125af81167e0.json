@@ -1,0 +1,159 @@
+{
+  "opendb_id": "e4e4ef26-f2e9-4aeb-b482-125af81167e0",
+  "screen_size": 27,
+  "resolution": {
+    "horizontalRes": 2560,
+    "verticalRes": 1440
+  },
+  "refresh_rate": 540,
+  "alternate_display_modes": [
+    {
+      "id": "cc15cf06-066e-4b73-9e29-086a0b7d6b3f",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "refresh_rate": 1000,
+      "activation": "manual_mode_switch"
+    }
+  ],
+  "panel_type": "IPS",
+  "response_time": 0.5,
+  "mprt_response_time": 0.5,
+  "color": ["BLACK", "WHITE"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 x HDMI 2.1, 2 x DisplayPort 1.4, 1 x 3.5 mm Audio Out",
+  "display_inputs": [
+    {
+      "id": "440ca135-f82f-4a4f-b954-945cab9fd616",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "1e9491cb-8e5f-4f47-9aa2-84b8e44058ce",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 540,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "b97a48d4-21a4-4f0a-b6e6-01a6d7b2e38f",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "6710a8d6-018a-4e67-8730-e88d61832591",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 540,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "f92fad8d-ab42-479a-9168-e4688a3d568d",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.7,
+        "installation": "direct",
+        "attachment": {
+          "weight_kg": 5.56
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 617,
+    "height": 550,
+    "height_min": 400,
+    "height_max": 550,
+    "depth": 210
+  },
+  "dimensions_without_stand_mm": {
+    "width": 617,
+    "height": 361,
+    "depth": 61
+  },
+  "weight": {
+    "with_stand_kg": 5.56,
+    "without_stand_kg": 3.7
+  },
+  "power_consumption": {
+    "typical_w": 36.5,
+    "manufacturer_max_w": 62,
+    "note": "Typical consumption measured with the panel configured at 200 nits brightness. Display configuration features zero internal USB downstream power routing."
+  },
+  "max_brightness": 600,
+  "hdr": "VESA DisplayHDR 600",
+  "adaptive_sync": "FreeSync Premium",
+  "metadata": {
+    "name": "Acer Nitro XV273U F5",
+    "manufacturer": "Acer",
+    "series": "Nitro",
+    "variant": "XV273U F5wmiipprx",
+    "releaseYear": 2026,
+    "manufacturer_color": "White"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.acer.com/us-en/monitors/gaming/nitro-xv3/pdp/UM.HX3AA.506"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195133229180",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "UM.HX3AA.506",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "UM.HX3AA.506",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "XV273U F5wmiipprx",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "195133229180",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H5D4F2KS",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

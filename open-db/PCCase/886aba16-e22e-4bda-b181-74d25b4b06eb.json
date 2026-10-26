@@ -2,12 +2,29 @@
   "opendb_id": "886aba16-e22e-4bda-b181-74d25b4b06eb",
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
-  "color": [],
+  "color": ["BLACK"],
   "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
-  "front_usb_ports": [],
+  "side_panel": "Tinted Tempered Glass",
+  "has_transparent_side_panel": true,
+  "front_usb_ports": ["2 x USB 3.0 Type-A 5Gbps", "1 x USB 3.2 Gen 2x2 Type-C 20Gbps"],
   "max_video_card_length": 425,
   "max_cpu_cooler_height": 173,
+  "max_psu_length": 253,
+  "internal_3_5_bays": 2,
+  "internal_2_5_bays": 2,
+  "power_supply_shroud": true,
+  "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": true,
+  "dimensions_mm": {
+    "depth": 495,
+    "width": 229,
+    "height": 515
+  },
+  "volume": 55.4,
+  "weight": 22.05,
   "metadata": {
     "name": "Fractal Design Summit Ambience Blackout TG Light Tint",
     "manufacturer": "Fractal Design",
@@ -15,12 +32,57 @@
     "series": "Summit",
     "variant": "Ambience",
     "releaseYear": 2026,
-    "manufacturer_color": "Ambience Blackout TG Light Tint"
+    "manufacturer_color": "Blackout"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.fractal-design.com/products/cases/summit-series/summit/summit-ambience-blackout-tg-light-tint/#specifications"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276112738",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340172712732",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-C-SUM1A-06",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "843276112738",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FV31CNCQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13065510",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811352268",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -42,8 +42,13 @@
     "manufacturer_url": "https://www.silverstonetek.com/en/product/info/computer-chassis/flp02/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0844761029371",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "4710679819372",
@@ -60,9 +65,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "SST-FLP02W",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "844761029371",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "844761029371",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -200,6 +215,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "CS-FLP02W",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "jimms-pc",
         "channel": "fi",
         "source_product_id": "212813",
@@ -250,10 +272,10 @@
       },
       {
         "source": "walmart",
-        "channel": "us",
-        "source_product_id": "19086120761",
+        "channel": "ca",
+        "source_product_id": "3X20ZWSQYWMG",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

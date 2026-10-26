@@ -1,14 +1,37 @@
 {
   "opendb_id": "b61d072b-8777-4f88-bd3c-e838e8f2cc36",
+  "seat_height_range_mm": {
+    "min": 480,
+    "max": 580
+  },
+  "seat_dimensions_mm": {
+    "width": 590,
+    "depth": 500
+  },
+  "dimensions_mm": {
+    "width": 580,
+    "depth": 500,
+    "height_min": 1220,
+    "height_max": 1320
+  },
+  "base_diameter_mm": 700,
+  "max_user_weight_kg": 120,
+  "weight_kg": 25.14,
+  "seat_surface_materials": ["Fabric"],
+  "backrest_surface_materials": ["Fabric"],
+  "armrest_adjustability": "MultiDirectional",
+  "lumbar_support": "Adjustable",
   "metadata": {
     "name": "CORSAIR TC500 LUXE Gaming Chair - Sherwood",
     "manufacturer": "Corsair",
     "part_numbers": ["CF-9010068-WW"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.corsair.com/us/en/p/gaming-chairs/cf-9010068-ww/tc500-luxe-gaming-chair-sherwood-cf-9010068-ww"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -21,9 +44,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840006678465",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CF-9010068-WW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CF-9010068-WW",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -34,6 +67,11 @@
         "type": "upc",
         "value": "840006678465",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006678465",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -178,6 +216,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12331803",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "COTC500LXSHW",
@@ -279,13 +324,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "3247197",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "6951724875",
         "pricing_enabled": true,
         "verified": false
       }

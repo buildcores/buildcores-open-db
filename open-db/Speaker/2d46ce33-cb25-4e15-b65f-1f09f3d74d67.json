@@ -1,11 +1,63 @@
 {
   "opendb_id": "2d46ce33-cb25-4e15-b65f-1f09f3d74d67",
-  "lighting": [],
+  "weight": 3070,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "03f59176-7be1-46ac-98fc-f16771d1ba8d",
+      "role": "Speaker",
+      "component_label": "Speaker",
+      "quantity": 2,
+      "weight_g": 1.535,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 168,
+        "depth": 147
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "audio_input_paths": [
+    {
+      "id": "0835c1d8-5cf0-44a6-bf81-23bd60261175",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN",
+      "source_side_connector": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "lnput Sensitivity: 500 ± 50mV"
+    },
+    {
+      "id": "047240ae-23fd-4d95-9e50-90c888813a26",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type - C Port",
+      "source_side_connector": "USB Type - C",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "lnput Sensitivity: 450 ± 50mFFS"
+    },
+    {
+      "id": "c49be92f-5652-480e-ad9f-99adea469889",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "lnput Sensitivity: 450 ± 50mFFS"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "f463e693-2386-4406-898d-be754bd80f08",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Speaker",
+      "connector": "Double Barrel"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Edifier M60 Multimedia Speaker Bluetooth 5.3",
+    "name": "Edifier M60 Black",
     "manufacturer": "Edifier",
     "part_numbers": ["SPE-M60-BLACK", "M60-BLACK"],
-    "series": "Edifier M60 Multimedia Speaker Bluetooth 5.3"
+    "series": "M60",
+    "variant": "Black"
   },
   "general_product_information": {},
   "identifiers": {

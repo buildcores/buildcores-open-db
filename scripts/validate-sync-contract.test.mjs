@@ -8,6 +8,7 @@ import {
   catalogChanges,
   check,
   getSyncRuns,
+  legacyIdentityPaths,
   validateChanges,
   validateSyncBaseline,
 } from "./validate-sync-contract.mjs";
@@ -200,7 +201,10 @@ test("real Git diff handles deletes/renames and unrelated successful imports can
   // Independent additions/deletions must not be mistaken for a move.
   const independent = splitMove.map((change) =>
     change.after
-      ? { ...change, after: { ...change.after, opendb_id: "unrelated-new-id" } }
+      ? {
+          ...change,
+          after: { ...change.after, opendb_id: "unrelated-new-id", metadata: { name: "New part" } },
+        }
       : change,
   );
   assert.deepEqual(validateChanges(independent).errors, []);
@@ -277,3 +281,158 @@ for (const [label, metadata] of [
     assert.match(result.errors[0], /Main API sync .* is missing/);
   });
 }
+
+test("new parts reject legacy identity even when empty; canonical identifiers remain valid", () => {
+  const after = part();
+  const additions = [{ oldPath: FILE, newPath: FILE, before: null, after }];
+  for (const value of [[], ["model-a"], null]) {
+    after.metadata.part_numbers = value;
+    assert.match(
+      validateChanges(additions).errors[0],
+      /new parts cannot contain legacy identity fields/,
+    );
+  }
+  delete after.metadata.part_numbers;
+  after.identifiers.identifiers = [{ type: "mpn", value: "model-a" }];
+  assert.deepEqual(validateChanges(additions).errors, []);
+  after.general_product_information = { amazon_sku: "retailer-id" };
+  assert.match(validateChanges(additions).errors[0], /general_product_information.amazon_sku/);
+  assert.deepEqual(
+    legacyIdentityPaths({ "metadata.PART_NUMBERS": [], nested: [{ item_upc: null }] }),
+    ["metadata.PART_NUMBERS", "nested.0.item_upc"],
+  );
+});
+
+function retryRepository() {
+  const fixture = repository();
+  fixture.write("README.md", "fixture");
+  fixture.commit();
+  fixture.write(FILE, part());
+  const source = fixture.commit();
+  const after = part();
+  delete after.metadata.part_numbers;
+  fixture.write(FILE, after);
+  const plan = { source_commit: source, source_run_id: 1, files: [FILE] };
+  fixture.write("sync-retries/1.json", plan);
+  return { ...fixture, source, after, plan };
+}
+
+test("explicit failed-create retry preserves identity and is consumed only in its introducing diff", async () => {
+  const { cwd, source, write, commit } = retryRepository();
+  const head = commit();
+  const result = await check({
+    base: source,
+    head,
+    cwd,
+    loadRuns: async (sha) => [run(sha, "failure")],
+  });
+  assert.deepEqual(result, { errors: [], deletes: 0, count: 1, createRetries: [FILE] });
+  write("README.md", "later commit");
+  const later = commit();
+  assert.deepEqual(
+    await check({
+      base: head,
+      head: later,
+      cwd,
+      loadRuns: () => {
+        throw Error("unused");
+      },
+    }),
+    {
+      errors: [],
+      deletes: 0,
+      count: 0,
+    },
+  );
+});
+
+test("retry requires the named latest failed main run and cannot hide ordinary failed updates", async () => {
+  const { cwd, source, write, commit } = retryRepository();
+  const head = commit();
+  for (const runs of [
+    [],
+    [run(source)],
+    [run(source, null, "in_progress")],
+    [run("b".repeat(40), "failure")],
+    [{ ...run(source, "failure"), id: 2 }],
+  ]) {
+    const result = await check({ base: source, head, cwd, loadRuns: async () => runs });
+    assert.match(result.errors[0], /specified latest completed failed main import/);
+  }
+  write("open-db/Monitor/unlisted.json", { ...part(), opendb_id: "unlisted" });
+  const unlistedSource = commit();
+  write("open-db/Monitor/unlisted.json", { ...part(), opendb_id: "unlisted", description: "edit" });
+  const updateHead = commit();
+  const blocked = await check({
+    base: unlistedSource,
+    head: updateHead,
+    cwd,
+    loadRuns: async (sha) => [run(sha, "failure")],
+  });
+  assert.match(blocked.errors[0], /not a confirmed sync baseline/);
+});
+
+test("retry rejects spec or identity edits, duplicate targets, changed source, and plans without catalog fixes", async () => {
+  for (const mutate of [
+    ({ after }) => {
+      after.description = "changed spec";
+    },
+    ({ after }) => {
+      after.identifiers.identifiers.push({ type: "mpn", value: "different" });
+    },
+    ({ after }) => {
+      after.opendb_id = "replacement";
+    },
+    ({ plan }) => {
+      plan.files.push(FILE);
+    },
+    ({ plan }) => {
+      plan.source_commit = "b".repeat(40);
+    },
+    ({ plan }) => {
+      plan.files = [];
+    },
+    ({ plan }) => {
+      plan.unreviewed = true;
+    },
+  ]) {
+    const fixture = retryRepository();
+    mutate(fixture);
+    fixture.write(FILE, fixture.after);
+    fixture.write("sync-retries/1.json", fixture.plan);
+    const head = fixture.commit();
+    await assert.rejects(
+      check({
+        base: fixture.source,
+        head,
+        cwd: fixture.cwd,
+        loadRuns: async (sha) => [run(sha, "failure")],
+      }),
+    );
+  }
+  const fixture = retryRepository();
+  fixture.write(FILE, part());
+  const head = fixture.commit();
+  await assert.rejects(
+    check({ base: fixture.source, head, cwd: fixture.cwd }),
+    /modified catalog file/,
+  );
+});
+
+test("an old update cannot become a creation retry and existing plans cannot be edited", async () => {
+  const fixture = retryRepository();
+  fixture.write(FILE, { ...part(), description: "source was an update" });
+  const updated = fixture.commit();
+  const after = { ...part(), description: "source was an update" };
+  delete after.metadata.part_numbers;
+  fixture.write(FILE, after);
+  fixture.write("sync-retries/2.json", { source_commit: updated, source_run_id: 2, files: [FILE] });
+  const head = fixture.commit();
+  await assert.rejects(
+    check({ base: updated, head, cwd: fixture.cwd }),
+    /must have added the file/,
+  );
+  fixture.write("sync-retries/1.json", { ...fixture.plan, source_run_id: 3 });
+  const edited = fixture.commit();
+  await assert.rejects(check({ base: head, head: edited, cwd: fixture.cwd }), /must be new/);
+});

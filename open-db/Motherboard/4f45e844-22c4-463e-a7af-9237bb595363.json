@@ -26,7 +26,7 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -39,9 +39,9 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2230",
       "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe WiFi/BT"
     }
   ],
   "storage_devices": {
@@ -69,7 +69,7 @@
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
@@ -81,8 +81,9 @@
     "name": "ASRock B650M Pro X3D DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["B650M Pro X3D"],
-    "series": "B650M",
-    "variant": ""
+    "series": "PRO",
+    "variant": "B650M X3D",
+    "manufacturer_color": "Black / Silver"
   },
   "general_product_information": {},
   "identifiers": {

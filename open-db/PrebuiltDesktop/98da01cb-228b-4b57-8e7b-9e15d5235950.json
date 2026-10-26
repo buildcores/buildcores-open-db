@@ -1,16 +1,72 @@
 {
   "opendb_id": "98da01cb-228b-4b57-8e7b-9e15d5235950",
+  "weight": 34500,
+  "display_outputs": [
+    {
+      "id": "a6ad4d69-4045-4bc4-b6c6-b0623d893c54",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "325175cd-7ac8-411b-a6bb-32948d8b95c2",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "3e43b4b7-f231-4651-ae46-ba90adf7f5b2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "b13f870e-221a-4510-95a9-59061158536a",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "34579b03-e416-4d44-993a-32e812376c2f",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
-    "name": "Alienware Area-51 Gaming Desktop AAT2265",
-    "manufacturer": "Dell / Alienware",
+    "name": "Alienware Area-51 Gaming Desktop AAT2265 (5090)",
+    "manufacturer": "Alienware",
     "part_numbers": [
       "52bb3b4f8460f5d0",
       "alienware area 51 aat2265 gaming desktop",
       "alienware-area-51-aat2265-gaming-desktop"
     ],
+    "series": "Area-51 Gaming Desktop",
+    "variant": "AAT65",
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/desktop-computers/spd/alienwarearea51aat2265"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

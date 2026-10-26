@@ -6,25 +6,72 @@
     "verticalRes": 1440
   },
   "refresh_rate": 170,
+  "native_refresh_activation": "automatic",
   "panel_type": "IPS",
-  "response_time": 0.5,
+  "mprt_response_time": 0.5,
   "color": ["BLACK"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_0": 2
+    "hdmi_2_0": 2,
+    "displayport_1_4a": 1,
+    "usb_c": 1
   },
   "connectors": "2 x HDMI                                                    1 x DisplayPort",
   "display_inputs": [
     {
       "id": "4c6f9f7e-e892-4d84-88e9-064aa064a2ed",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "0ac35913-e9c7-44ef-ad4d-354a83032d91",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 170,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "e75da5b9-0d4e-4495-9431-a0ce4f9ff4c0",
       "connector": "hdmi",
       "count": 2,
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "ca5572bb-643a-4805-90d1-1d5396a9993e",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "9ddf6287-7a9d-4c97-86a3-159e73330c83",
+      "connector": "usb_c",
+      "mode_claims": [
+        {
+          "id": "821ef81b-674a-4aa1-b3d5-d42c01707ac8",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 170,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -39,27 +86,20 @@
     ]
   },
   "dimensions_with_stand_mm": {
-    "width": 615,
-    "height": 422,
-    "height_min": 422,
-    "height_max": 531,
-    "depth": 226
+    "width": 615.11,
+    "height_max": 533.55,
+    "depth": 202.97
   },
   "dimensions_without_stand_mm": {
-    "width": 615,
-    "height": 367,
-    "height_min": 367,
-    "height_max": 367,
-    "depth": 42.2
+    "width": 615.11,
+    "height": 367.35,
+    "depth": 42.22
   },
   "weight": {
-    "with_stand_kg": 5.2,
-    "without_stand_kg": 3.5
+    "with_stand_kg": 5.5
   },
   "power_consumption": {
-    "typical_w": 48,
-    "manufacturer_max_w": 48,
-    "explicitly_reported_peak_w": 48
+    "manufacturer_max_w": 58
   },
   "max_brightness": 350,
   "hdr": "VESA DisplayHDR 400",
@@ -69,7 +109,7 @@
     "manufacturer": "Gigabyte",
     "part_numbers": ["M27Q", "M27Q-SA", "M27Q-EK", "20VM0-M27QBA-1EKR"],
     "series": "",
-    "variant": "Black",
+    "variant": "M27Q",
     "releaseYear": 2020,
     "manufacturer_color": "Black"
   },

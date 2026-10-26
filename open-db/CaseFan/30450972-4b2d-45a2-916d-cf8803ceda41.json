@@ -2,7 +2,7 @@
   "opendb_id": "30450972-4b2d-45a2-916d-cf8803ceda41",
   "size": 120,
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "quantity": 3,
   "min_airflow": 71,
   "max_airflow": null,
@@ -13,19 +13,49 @@
   "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
   "controller": "None",
   "static_pressure": 2.6,
-  "flow_direction": "Reverse",
+  "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
-    "name": "Asiahorse DAWN 120mm White Addressable RGB PWM 71 CFM 3-Pack",
+    "name": "Asiahorse DAWN 120mm White PWM Addressable RGB 3-Pack",
     "manufacturer": "ASIAHORSE",
     "part_numbers": [],
+    "series": "DAWN",
     "variant": "Default",
+    "releaseYear": 2024,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://asiahorse.store/products/asiahorse-dawn-120mm-uni-fan-forward-reverse-blade-design-low-noise-precision-hdb-bearings-high-performance-uni-pc-fan-modular-daisy-chain"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "DAWN",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "DAWN-BT-US",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DP2LHJG1",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC1FYKNV3184",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

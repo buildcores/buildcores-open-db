@@ -8,10 +8,97 @@
   "refresh_rate": 120,
   "panel_type": "QD-OLED",
   "response_time": 0.03,
-  "color": ["BLACK"],
+  "color": ["BLACK", "WHITE"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 1
+  },
+  "connectors": "1 x HDMI (HDCP 1.4 and 2.2) (Supports up to UHD 3840 x 2160 120Hz, FRL, HDR, VRR as per specified in HDMI 2.1) 1 x USB Type-C (5 Gbps, USB 3.2 Gen 1) upstream port (DisplayPort 1.4 Alt Mode, Power Delivery up to 90W)",
+  "display_inputs": [
+    {
+      "id": "82ce3cdc-36d4-49be-b3dd-cac0ba61504d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "5a68ca67-c952-4846-ab13-09ad87472c04",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 FRL, VRR"
+        }
+      ]
+    },
+    {
+      "id": "06fd92f8-d4f6-4543-a5b0-e421c2483e69",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB 3.2 Gen 1 / DP 1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "9b01f7a2-ac20-4bbe-8ffe-568cc09f4525",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "90W Power Delivery"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "cc3b3b80-5fba-4f50-976d-da1cbc6b367c",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.95,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "VESA mounting holes (100 mm x 100 mm - behind attached VESA cover)"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 718.78,
+    "height_min": 504.02,
+    "height_max": 614.02,
+    "depth": 223.7
+  },
+  "dimensions_without_stand_mm": {
+    "width": 718.78,
+    "height": 457.65,
+    "depth": 70.35
+  },
+  "weight": {
+    "with_stand_kg": 10
+  },
+  "power_consumption": {
+    "typical_w": 40,
+    "manufacturer_max_w": 320,
+    "note": "320 W max represents peak power consumption with maximum luminance, contrast, and maximum USB-C Power Delivery (90W upstream + 2x 15W downstream). Typical consumption is ~40W."
+  },
+  "max_brightness": 250,
+  "hdr": "VESA DisplayHDR True Black 400, Dolby Vision HDR, HDR10",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Dell 32 Plus 4K QD-OLED Monitor S3225QC",
     "manufacturer": "Dell",
@@ -19,14 +106,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-32-plus-4k-qd-oled-monitor-s3225qc/s3225qc_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0724129385854",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0724129385854",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -40,13 +134,28 @@
       },
       {
         "type": "mpn",
+        "value": "C6KWR-cr",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S3225QC",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S3225QC",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "724129385854",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "724129385854",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -152,6 +261,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0FMKRFBLY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12744936",
         "pricing_enabled": true,
         "verified": true
       },

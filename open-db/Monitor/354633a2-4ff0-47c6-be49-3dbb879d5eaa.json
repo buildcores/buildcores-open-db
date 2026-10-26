@@ -10,8 +10,93 @@
   "response_time": 4,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 2,
+    "usb_c": 1
+  },
+  "display_inputs": [
+    {
+      "id": "35d2d6c8-8200-43ae-bfb6-fc7da2b187e7",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "195115af-b6d4-4337-8028-5ddfd6544daf",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "7b71fcc5-a48f-43b9-a9a0-3b71022c4574",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "d0d11bb0-7308-42c8-98dd-9f6d7d897b06",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "3d37316f-7a20-4c85-a96e-d831d53c7deb",
+        "pattern": "200x200",
+        "mounted_weight_kg": 8.5,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Direct (The mounting configuration interfaces natively with standard VESA wall mount bolts and plates without requiring a separate proprietary Samsung conversion bracket adapter)",
+          "weight_kg": 8.5
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 965.5,
+    "height": 629.3,
+    "depth": 247.2
+  },
+  "dimensions_without_stand_mm": {
+    "width": 965.5,
+    "height": 559.8,
+    "depth": 25.7
+  },
+  "weight": {
+    "with_stand_kg": 10.6,
+    "without_stand_kg": 8.5
+  },
+  "power_consumption": {
+    "typical_w": 51,
+    "manufacturer_max_w": 210
+  },
+  "max_brightness": 300,
+  "hdr": "HDR10",
   "metadata": {
     "name": "Samsung M7 M70F 43-inch 4K UHD Smart AI Monitor - Black",
     "manufacturer": "Samsung",
@@ -19,7 +104,9 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/smart/43-inch-smart-monitor-m70f-4k-uhd-vision-ai-monitor-sku-ls43fm703unxza/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
