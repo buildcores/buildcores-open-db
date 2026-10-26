@@ -1,11 +1,16 @@
 {
   "opendb_id": "dd8b1ee7-9ba4-4c5f-b24e-c93b08f51205",
   "size": 120,
-  "color": [],
+  "color": ["BLACK"],
   "lighting": ["ARGB"],
   "quantity": 1,
+  "max_airflow": 67,
+  "max_noise_level": 29.2,
   "pwm": true,
+  "led": "Addressable RGB",
   "connector": "4-pin PWM + 3-pin 5V ARGB",
+  "controller": "None",
+  "static_pressure": 3.4,
   "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
@@ -14,12 +19,53 @@
     "part_numbers": [],
     "series": "UNI FAN SL-INF",
     "variant": "FLEX",
+    "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/uni-fan-sl-inf-flex/"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353054608",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "12SLIN1F1B",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840353054608",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GVQJ12MK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12838996",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20627613450",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

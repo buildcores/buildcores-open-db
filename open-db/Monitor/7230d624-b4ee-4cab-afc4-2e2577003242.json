@@ -9,10 +9,68 @@
   "panel_type": "IPS",
   "response_time": 8,
   "mprt_response_time": 1,
-  "color": ["WHITE"],
+  "color": ["WHITE", "BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "connectors": "2 × HDMI 1.4 (HDCP 1.4), power connector, Kensington security-lock slot",
+  "display_inputs": [
+    {
+      "id": "7eabc568-daea-4072-b7b4-3e8e525c34bf",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "6664220b-d109-423e-a199-a2851ce12cc6",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "7598ba54-1dfa-4f5c-988a-5486ebfe5351",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.03,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 x 10 mm screws (Four required behind the quick-release plate mechanism)",
+          "weight_kg": 5.01
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 537.64,
+    "height_min": 347.03,
+    "height_max": 457.03,
+    "depth": 191.82
+  },
+  "dimensions_without_stand_mm": {
+    "width": 537.64,
+    "height": 313.73,
+    "depth": 58.72
+  },
+  "weight": {
+    "with_stand_kg": 5.01,
+    "without_stand_kg": 3.03
+  },
+  "power_consumption": {
+    "typical_w": 14.3,
+    "manufacturer_max_w": 39,
+    "note": "The typical operating power consumption is 14.30W when running in the default On-Mode. Under strict eco/economy idle profiles, the system can reduce its baseline draw to approximately 13.00W. The maximum threshold of 39.00W represents total hardware draw when screen luminance is configured to maximum capability while driving the dual integrated 3W stereo speaker sub-system."
+  },
   "max_brightness": 300,
   "hdr": "SDR",
   "adaptive_sync": "FreeSync",
@@ -20,16 +78,24 @@
     "name": "Dell 24 Plus Monitor - S2425HSM",
     "manufacturer": "Dell",
     "part_numbers": ["210 btbg", "210-btbg", "S2425HSM"],
-    "releaseYear": 2025
+    "releaseYear": 2025,
+    "manufacturer_color": "Ash White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-24-plus-monitor-s2425hsm/s2425hsm/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116691396",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116691396",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -48,13 +114,28 @@
       },
       {
         "type": "mpn",
+        "value": "C2GFV",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S2425HSM",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S2425HSM",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116691396",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116691396",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -199,6 +280,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "20178226",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "DELL-S2425HSM",
@@ -232,6 +320,13 @@
         "source_product_id": "DELL-S2425HSM",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC57KM7M3508",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",

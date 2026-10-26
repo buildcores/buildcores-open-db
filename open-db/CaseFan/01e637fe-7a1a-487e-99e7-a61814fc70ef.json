@@ -1,11 +1,17 @@
 {
   "opendb_id": "01e637fe-7a1a-487e-99e7-a61814fc70ef",
+  "weight": 225,
   "size": 120,
-  "color": [],
-  "lighting": [],
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "quantity": 1,
+  "max_airflow": 90.1,
+  "max_noise_level": 33,
   "pwm": true,
+  "led": "Addressable RGB",
   "connector": "4-pin PWM + 3-pin 5V ARGB",
+  "controller": "None",
+  "static_pressure": 3.97,
   "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
@@ -14,12 +20,30 @@
     "part_numbers": [],
     "series": "UNI FAN TL",
     "variant": "FLEX",
+    "releaseYear": 2026,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/uni-fan-tl-flex/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13214428",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA0ZXM1N1180",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
