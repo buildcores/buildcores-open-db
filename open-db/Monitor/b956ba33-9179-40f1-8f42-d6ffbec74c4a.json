@@ -8,9 +8,119 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
+  "viewing_angle": "178°/178",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 2.1 TMDS input (HDCP 1.4; supports up to 3440 × 1440); 1x DisplayPort 1.4 input (HDCP 1.4); 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, video and data, Power Delivery up to 90 W); 1x USB Type-B 5 Gbps upstream port; 2x USB-A 5 Gbps downstream ports; 1x USB-A 5 Gbps downstream port with Battery Charging 1.2; 1x USB-C 5 Gbps downstream port (Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet port; built-in speakers; built-in webcam and microphone; power connector; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "ea9d9d81-a605-4384-8e11-f6345cd7e48b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "31a935b6-0af9-4912-abac-ef79a34d8744",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 2.1 TMDS; supports WQHD 3440 × 1440 at up to 100 Hz. HDMI 2.1 optional features such as HDR and DSC are not supported."
+        }
+      ]
+    },
+    {
+      "id": "5b492ef9-b8bc-43f4-860e-faa471f41c87",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "07838b9f-c709-4aac-9f57-bcdd8a2325e5",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; supports 3440 × 1440 at up to 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "b27e5fb5-bd42-43b4-b4ff-f4cfc4ad78d9",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB data; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "768dda2a-a23a-4824-a2a6-74c20420e479",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 Alt Mode over USB-C. At 3440 × 1440 and 100 Hz, DSC may be used depending on USB-C prioritization and host configuration; Dell's bandwidth table lists this mode with DSC under High Data Speed prioritization. Power Delivery up to 90 W."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "f5005970-7340-4d3e-b901-318637afa104",
+        "pattern": "100x100",
+        "mounted_weight_kg": 7.18,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm VESA-compatible mount; requires four M4 × 10 mm screws; wall-mounting kit sold separately"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 815.57,
+    "height_min": 423.25,
+    "height_max": 573.25,
+    "depth": 229.42
+  },
+  "dimensions_without_stand_mm": {
+    "width": 815.57,
+    "height": 392.78,
+    "depth": 85.86
+  },
+  "weight": {
+    "with_stand_kg": 9.96,
+    "without_stand_kg": 7.18
+  },
+  "power_consumption": {
+    "typical_w": 27,
+    "manufacturer_max_w": 220,
+    "note": "Operating power consumption: 27 W. Maximum power consumption: 220 W at maximum brightness and contrast with maximum power loading on all USB ports. Input rating: 100–240 VAC, 50/60 Hz, 2.5 A. Standby: 0.3 W; off mode: 0.3 W. No separately labeled peak power value reported."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 34 USB-C Hub Conferencing Monitor - P3426WEB",
     "manufacturer": "Dell",
@@ -18,10 +128,17 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-34-usb-c-hub-conferencing-monitor-p3426web/p3426web/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840104387092",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "189aa4939c593493",
@@ -36,15 +153,46 @@
         "type": "mpn",
         "value": "P3426WEB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P3426WEB",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840104387092",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GY9VNCTX",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC98186",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824260975",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20447300850",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }
