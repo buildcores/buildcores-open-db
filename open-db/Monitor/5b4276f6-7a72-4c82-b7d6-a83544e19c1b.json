@@ -10,8 +10,115 @@
   "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz as specified in HDMI 2.1 TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz); 1x DisplayPort 1.4 output (MST; HDCP 1.4); 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, video and data, USB Power Delivery up to 90 W); 1x USB Type-B 5 Gbps upstream port; 3x USB-A 5 Gbps downstream ports (one supports Battery Charging 1.2); 1x USB-C 5 Gbps downstream port (data and charging up to 15 W); 1x RJ-45 Gigabit Ethernet port; power connector; stand-lock; built-in speakers, webcam, and microphone.",
+  "display_inputs": [
+    {
+      "id": "c6565e13-7538-4545-8104-374a17584e9b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "13123e94-e0bb-46da-a368-d3da5acb5670",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 2.1 specification over TMDS; HDCP 1.4."
+        }
+      ]
+    },
+    {
+      "id": "d9478f79-0608-446b-a7cb-d858e8d349b9",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "d072a335-e37e-4d96-9a96-68c494cfa72e",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; HDCP 1.4."
+        }
+      ]
+    },
+    {
+      "id": "2abfc9b7-4e60-4654-bf41-3fdbd08073d8",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB Power Delivery up to 90 W",
+      "mode_claims": [
+        {
+          "id": "f0920f7f-8fd6-4f15-8b0c-993ac12ae9f3",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C upstream port supports DisplayPort 1.4 Alt Mode and power delivery up to 90 W."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d5a6e719-381f-48a9-bbcf-095aa4a15b42",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.1,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm VESA mounting holes; requires M4 × 10 mm screws"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.64,
+    "height": 528.8,
+    "height_min": 378.8,
+    "height_max": 528.8,
+    "depth": 186.25
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.64,
+    "height": 351.38,
+    "depth": 64.06
+  },
+  "weight": {
+    "with_stand_kg": 5.95,
+    "without_stand_kg": 4.1
+  },
+  "power_consumption": {
+    "typical_w": 14.5,
+    "manufacturer_max_w": 195,
+    "note": "On-mode operating power: 14.5 W. Maximum power consumption: 195 W at maximum brightness and contrast with maximum power loading on all USB ports. Standby: 0.5 W; off mode: 0.3 W. The 90 W USB-C upstream power delivery is supported; Dell does not separately label a peak power value."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 24 USB-C Hub Conferencing Monitor - P2426HEB",
     "manufacturer": "Dell",
@@ -19,9 +126,11 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-24-usb-c-hub-conferencing-monitor-p2426heb/p2426heb/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -30,7 +139,7 @@
       },
       {
         "type": "mpn",
-        "value": "7cfc8e0708b25b83",
+        "value": "DELL-P2426HEB",
         "region": "all"
       },
       {
@@ -41,11 +150,39 @@
     ],
     "retailer_listings": [
       {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0GR4W3BQV",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19925616",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC98189",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824260970",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19866264786",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

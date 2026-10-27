@@ -1,14 +1,121 @@
 {
   "opendb_id": "a901ef30-15d2-4116-9d55-2b4d36aa763d",
   "screen_size": 26.5,
+  "resolution": {
+    "horizontalRes": 2560,
+    "verticalRes": 1440
+  },
+  "refresh_rate": 240,
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1
+  },
+  "display_inputs": [
+    {
+      "id": "e8f6d485-c239-453e-87d8-6c3884e6b35c",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "502dfe3f-d79e-4384-a475-b62a977e130b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "829fc035-8765-413f-92dc-89801b5ec74a",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.9,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 610,
+    "height": 521,
+    "depth": 238
+  },
+  "dimensions_without_stand_mm": {
+    "width": 610,
+    "height": 521,
+    "depth": 67.2
+  },
+  "weight": {
+    "with_stand_kg": 5.9,
+    "without_stand_kg": 3.9
+  },
+  "power_consumption": {
+    "typical_w": 21,
+    "manufacturer_max_w": 70
+  },
+  "max_brightness": 400,
+  "hdr": "HDR10",
+  "adaptive_sync": "G-Sync",
   "metadata": {
     "name": "Alienware AW2726DM Black",
-    "manufacturer": "Dell"
+    "manufacturer": "Dell",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-in/shop/monitors/apd/alienware-27-240hz-qd-oled-gaming-monitor-aw2726dm/aw2726dm/-"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "5397321030553",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AW2726DM",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "JW05F",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GYG3VLMR",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6670439",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC57KM6Y1751",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

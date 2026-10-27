@@ -10,13 +10,113 @@
   "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 1,
-    "displayport_1_4a": 2
+    "usb_c": 2
   },
-  "connectors": "1 x HDMI                                                             2 x DisplayPort",
+  "connectors": "1x HDMI input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz as specified in HDMI 2.1 TMDS); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output; 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, Power Delivery up to 90 W); 1x USB Type-B 5 Gbps upstream port; 3x USB-A 5 Gbps downstream ports (including 1 front port with Battery Charging 1.2); 1x USB-C 5 Gbps downstream port (Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet port; power connector; stand-lock feature.",
+  "display_inputs": [
+    {
+      "id": "4783a3ed-02fc-4932-a567-9014ff9340ca",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 (TMDS)",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "1baafc4c-64d3-4cbc-96d9-a892faa934c3",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI input supports up to 1920 × 1080 at 120 Hz using HDMI 2.1 TMDS; HDCP 1.4. Optional HDMI 2.1 features are not supported."
+        }
+      ]
+    },
+    {
+      "id": "1900395c-8930-4401-8d0d-b87c639162b1",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "a977272c-593c-4ee1-8d60-f9dc4fd0faab",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input supports up to 1920 × 1080 at 120 Hz; HDCP 1.4."
+        }
+      ]
+    },
+    {
+      "id": "6f043687-84af-4f97-9a78-b071b58d936f",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "Power Delivery up to 90 W",
+      "mode_claims": [
+        {
+          "id": "d9ba039f-b3be-4cb1-a929-e01163cd1b24",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C upstream supports DisplayPort 1.4 Alt Mode for video and data, up to 1920 × 1080 at 120 Hz, with Power Delivery up to 90 W."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d1639bfe-ff6a-4028-8b81-02d8dbef0f35",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.89,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "Optional VESA-compatible wall or monitor mount; requires M4 × 10 mm screws. VESA mounting holes are behind the attached VESA cover."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.64,
+    "height": 453.8,
+    "height_min": 378.8,
+    "height_max": 528.8,
+    "depth": 186.25
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.64,
+    "height": 351.38,
+    "depth": 64.06
+  },
+  "weight": {
+    "with_stand_kg": 5.66,
+    "without_stand_kg": 3.89
+  },
+  "power_consumption": {
+    "typical_w": 14.5,
+    "manufacturer_max_w": 195,
+    "note": "Operating power consumption: 14.5 W. Manufacturer maximum power consumption: 195 W. Dell's electrical specifications separately list 180 W as maximum power consumption in the user-guide table; regional Dell product listings report 195 W. No value is explicitly labelled “peak power.” USB-C upstream Power Delivery supports up to 90 W, but the source does not explicitly state whether the maximum power-consumption figure includes power delivered to connected devices. Standby: 0.5 W; off mode: 0.3 W; networked standby: 1.0 W."
+  },
   "max_brightness": 300,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -27,7 +127,9 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-24-usb-c-hub-webcam-monitor-p2426hev/p2426hev/-"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

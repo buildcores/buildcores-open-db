@@ -10,8 +10,92 @@
   "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz via TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz); 1x USB Type-B 5 Gbps upstream port; 2x USB-A 5 Gbps downstream ports; 2x USB-C 5 Gbps downstream ports (data and charging up to 15 W each); power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "1674f01e-970c-479c-82e2-23c452494fa6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "eb71ef9f-066a-4e3c-94d3-cb996808142e",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 1.4 input; supports up to 1920 × 1080 at 120 Hz via TMDS; HDCP 1.4."
+        }
+      ]
+    },
+    {
+      "id": "575237b6-f630-4195-b47a-680d4e7a24fb",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "bd5ae52d-d29a-407e-8463-254b6d856e30",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; supports up to 1920 × 1080 at 120 Hz; HDCP 1.4."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "489660bd-c0e7-4470-a785-08ae51395717",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.99,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA-compatible wall-mount or monitor-arm kit; not included with monitor."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 610.69,
+    "height_min": 384.56,
+    "height_max": 534.56,
+    "depth": 192.28
+  },
+  "dimensions_without_stand_mm": {
+    "width": 610.69,
+    "height": 354.71,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 6.06,
+    "without_stand_kg": 3.99
+  },
+  "power_consumption": {
+    "typical_w": 13.5,
+    "manufacturer_max_w": 74,
+    "note": "Typical on-mode power consumption is 13.5 W. Manufacturer maximum power consumption is 74 W, measured at maximum brightness and contrast with maximum power loading on all USB ports. Standby power consumption is 0.5 W; off-mode power consumption is 0.3 W. The manufacturer does not explicitly label a separate peak-power value."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 27 Monitor - P2726H",
     "manufacturer": "Dell",
@@ -19,9 +103,11 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-27-monitor-p2726h/p2726h/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -39,6 +125,16 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "5397321029489",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "5397321029496",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "210-bvtf",
         "region": "all"
@@ -50,13 +146,18 @@
       },
       {
         "type": "mpn",
-        "value": "fae81ff4f15ab6b3",
-        "region": "all"
+        "value": "KHF7G",
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "P2726H",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P2726H",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -211,6 +312,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12758088",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "3768577",
@@ -250,7 +358,7 @@
         "channel": "us",
         "source_product_id": "N82E16824260961",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -314,6 +422,13 @@
         "source_product_id": "3768577",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19821174646",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

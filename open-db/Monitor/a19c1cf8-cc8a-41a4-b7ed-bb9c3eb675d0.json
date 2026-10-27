@@ -10,17 +10,107 @@
   "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:10",
+  "video_outputs": {
+    "usb_c": 1
+  },
+  "connectors": "1x HDMI 1.4 input (HDCP 1.4; supports up to WUXGA 1920 × 1200 at 100 Hz via TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to WUXGA 1920 × 1200 at 100 Hz); 3x USB-A 5 Gbps downstream ports; 1x USB-C 5 Gbps downstream port (data and charging up to 15 W); 1x USB Type-B 5 Gbps upstream port; power connector; security-lock slot; stand-lock feature; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "b2d16634-c94d-438a-b664-e9bade102ab0",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "f0c44580-2dc2-42dd-b42d-80af2af41126",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports up to 1920 × 1200 at 100 Hz via TMDS, according to HDMI 1.4 specifications."
+        }
+      ]
+    },
+    {
+      "id": "28a99707-dc4b-47cd-97a8-56ec32f420ea",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "a3c4dc6e-e29e-4102-80e7-8e6e5b504759",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "hdr": "not_supported",
+          "conditions": "Supports up to 1920 × 1200 at 100 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "52f2e9c2-11dc-46e1-a2a1-a9b80d5f45ec",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.07,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "4 × M4 × 10 mm screws",
+          "weight_kg": 3.07
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 531.8,
+    "height": 511.2,
+    "height_min": 364,
+    "height_max": 511.2,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 531.8,
+    "height": 343.7,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 4.89,
+    "without_stand_kg": 3.07
+  },
+  "power_consumption": {
+    "typical_w": 13.6,
+    "manufacturer_max_w": 68,
+    "note": "Maximum power consumption is measured at maximum brightness and contrast settings with maximum power loading on all USB ports. The 68 W figure is the manufacturer’s maximum, not an explicitly stated peak rating. Operating power consumption is 13.6 W; standby and off-mode consumption are each 0.3 W."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 24 16:10 Monitor - P2426",
     "manufacturer": "Dell",
     "part_numbers": ["208ff2b5ec176cf1", "210-bvsx", "DELL-P2426"],
+    "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-24-16-10-monitor-p2426/p2426/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -28,9 +118,9 @@
         "region": "all"
       },
       {
-        "type": "mpn",
-        "value": "208ff2b5ec176cf1",
-        "region": "all"
+        "type": "ean",
+        "value": "0884116692973",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -39,13 +129,28 @@
       },
       {
         "type": "mpn",
+        "value": "6812693",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "DELL-P2426",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P2426",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116692973",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116692973",
+        "region": "us"
       }
     ],
     "retailer_listings": [
