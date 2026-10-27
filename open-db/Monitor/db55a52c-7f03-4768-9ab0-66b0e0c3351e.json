@@ -1,16 +1,130 @@
 {
   "opendb_id": "db55a52c-7f03-4768-9ab0-66b0e0c3351e",
-  "screen_size": 24.07,
+  "screen_size": 24,
   "resolution": {
     "horizontalRes": 1920,
     "verticalRes": 1200
   },
   "refresh_rate": 100,
   "panel_type": "IPS",
-  "color": ["BLACK"],
+  "response_time": 8,
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:10",
+  "video_outputs": {
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 1.4 (HDCP 1.4; up to 1920 × 1200 at 100 Hz); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output with MST (HDCP 1.4); 1x USB-C upstream (DisplayPort 1.4 Alt Mode; USB 3.2 Gen 1; Power Delivery up to 90 W); 3x USB-A downstream (USB 3.2 Gen 1); 1x USB-C downstream (data only; Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet; power connector; security-lock slot; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "053a41c4-a237-4cd3-bf61-e7e2ee58d7b0",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; TMDS",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d6c5bc4b-09a6-4f6e-a8b8-89bb9b17d82c",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    },
+    {
+      "id": "3f17781a-4c15-472f-b6ea-c6308fa41610",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "87bbf470-45be-415f-9c39-e1acac4a3340",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    },
+    {
+      "id": "bf7bfabb-f9a4-4733-be2e-31d9f75a28b1",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "DisplayPort 1.4 Alt Mode; USB 3.2 Gen 1; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cbc5accb-66a0-41da-950f-2bf4b12912aa",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "4b6862eb-1255-4e65-acd7-2fa842eaca4c",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.15,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm Vesa mounting interface",
+          "weight_kg": 3.15
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 531.8,
+    "height": 364,
+    "height_min": 364,
+    "height_max": 511.2,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 531.8,
+    "height": 343.7,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 5,
+    "without_stand_kg": 3.51
+  },
+  "power_consumption": {
+    "typical_w": 15,
+    "manufacturer_max_w": 190,
+    "note": "Dell specifies 15.0 W on-mode typical power consumption, 190 W maximum power consumption, 15.2 W Pon, 49.5 kWh TEC, 0.3 W standby, 0.3 W off mode, and 1.0 W networked standby. The manufacturer does not explicitly label a separate peak-power value. USB-C Power Delivery is up to 90 W upstream and 15 W downstream; Dell does not explicitly state whether these delivery capacities are included in the 190 W maximum figure."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 24 Plus 16:10 USB-C Hub Monitor - P2425E",
     "manufacturer": "Dell",
@@ -18,9 +132,11 @@
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-24-plus-16-10-usb-c-hub-monitor-p2425e/p2425e_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -214,7 +330,7 @@
         "channel": "us",
         "source_product_id": "6584757",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -263,14 +379,14 @@
         "channel": "ca",
         "source_product_id": "0JC-0004-00VY8",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "0JC-0004-00VY8",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",

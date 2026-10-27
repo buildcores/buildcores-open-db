@@ -8,10 +8,126 @@
   "refresh_rate": 60,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI input (HDCP 1.4); 1x DisplayPort 1.2 input (HDCP 1.4); 1x USB-C 5 Gbps upstream (DisplayPort 1.2 Alt Mode; USB Power Delivery up to 90 W); 3x USB-A 5 Gbps downstream (1 supports BC 1.2 charging up to 10 W); 1x USB-C 5 Gbps downstream (Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet; 1x audio line-out; power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "4dc1a04a-8d2b-4595-90a0-b53097945a28",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a2b70881-74bf-47d9-a53e-05769db8baa8",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Native maximum preset resolution; Full HD at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "03b09dfe-f3b0-4201-8270-6a84644c4900",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "675326ae-62b6-47d1-8396-9877fade25bd",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Native maximum preset resolution; Full HD at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "b43cec2c-1d11-4dda-ba79-127b13dd0562",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C with DisplayPort 1.2 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB 3.2 Gen 1; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e03b3f5a-2cd7-4c93-8a74-37118ee37430",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Video through USB-C DisplayPort 1.2 Alt Mode; monitor native maximum preset resolution is Full HD at 60 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "1294bc05-d02b-4242-acb4-1f90aa469f69",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.86,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA 100 × 100 mm mounting interface; remove the monitor stand and attach a compatible mounting bracket using four M4 × 10 mm screws",
+          "weight_kg": 3.86
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.8,
+    "height": 320.9,
+    "height_min": 320.9,
+    "height_max": 431.4,
+    "depth": 248.87
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.8,
+    "height": 320.9,
+    "depth": 54.1
+  },
+  "weight": {
+    "with_stand_kg": 7.86,
+    "without_stand_kg": 3.86
+  },
+  "power_consumption": {
+    "typical_w": 18,
+    "manufacturer_max_w": 190,
+    "note": "Dell specifies 18 W in On Mode and 190 W maximum at maximum brightness and contrast with maximum power loading on all USB ports. Standby: 0.5 W; off mode: 0.3 W. Pon: 17.75 W; TEC: 58.98 kWh. The maximum includes maximum USB-port power loading; Dell does not separately label a peak-power value."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 24 Plus Touch USB-C Hub Monitor P2424HT",
     "manufacturer": "Dell",
@@ -19,9 +135,11 @@
     "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-24-plus-touch-usb-c-hub-monitor-p2424ht/p2424ht_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -45,8 +163,18 @@
       },
       {
         "type": "mpn",
+        "value": "210-BHSF",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "3721677b62ad13b5",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7N5X8",
+        "region": "us"
       },
       {
         "type": "mpn",
