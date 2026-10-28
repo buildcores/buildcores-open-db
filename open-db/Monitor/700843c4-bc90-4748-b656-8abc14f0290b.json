@@ -1,5 +1,6 @@
 {
   "opendb_id": "700843c4-bc90-4748-b656-8abc14f0290b",
+  "screen_size": 27,
   "resolution": {
     "horizontalRes": 2560,
     "verticalRes": 1440
@@ -7,19 +8,77 @@
   "refresh_rate": 240,
   "panel_type": "OLED",
   "response_time": 0.03,
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
-  "connectors": "HDMI, DisplayPort",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1
+  },
+  "connectors": "2 x HDMI                                                           1 x DisplayPort",
+  "display_inputs": [
+    {
+      "id": "64ca5c98-8d5e-4004-8823-7d227c425a08",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "f1d73504-0da2-47fd-9068-ef5fd84f5772",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "6de2e610-137d-40a2-aacb-dd68ac459e34",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.8,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 605,
+    "height": 532,
+    "depth": 220
+  },
+  "dimensions_without_stand_mm": {
+    "width": 605,
+    "height": 532,
+    "depth": 45.3
+  },
+  "weight": {
+    "with_stand_kg": 7.2,
+    "without_stand_kg": 4.8
+  },
+  "power_consumption": {
+    "typical_w": 34,
+    "manufacturer_max_w": 74
+  },
   "max_brightness": 275,
-  "hdr": "HDR",
+  "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "LG 27GX704A-B.AUS 2560 x 1440 240Hz OLED Monitor OLED, FreeSync",
     "manufacturer": "LG",
-    "part_numbers": ["27GX704A-B.AUS", "27GX704A-B"]
+    "part_numbers": ["27GX704A-B.AUS", "27GX704A-B"],
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.lg.com/us/monitors/lg-27gx704a-b-gaming-monitor?srsltid=AYCX9vJR3zlxO4PYKq1cEsr5CVw6QEZwcD_TZVViua7vderFzFnVofII"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

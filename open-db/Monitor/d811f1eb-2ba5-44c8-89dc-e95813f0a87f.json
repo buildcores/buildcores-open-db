@@ -7,11 +7,92 @@
   },
   "refresh_rate": 180,
   "panel_type": "QD-OLED",
-  "response_time": 8,
+  "response_time": 0.03,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
-  "aspect_ratio": "21:9",
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 1
+  },
+  "connectors": "1 x HDMI 2.0 input; 1 x DisplayPort 1.2 input; 1 x 3.5 mm headphone output; no USB-C.",
+  "display_inputs": [
+    {
+      "id": "e5b03909-eca1-4d87-8a08-03ea36d67e7a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "689aed0b-c6b0-4626-a598-138c04407d28",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum refresh rate over HDMI is 144 Hz. HDR10 support is specified by Samsung."
+        }
+      ]
+    },
+    {
+      "id": "91de19ff-fc90-4215-bebc-85b64ad5c55a",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "8c79e09d-f1eb-453e-81e6-f25446bb9649",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 180,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum refresh rate over DisplayPort is 180 Hz. HDR10 support is specified by Samsung."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "f395c211-5b64-4997-90e0-a8d665dad36f",
+        "pattern": "100x100",
+        "mounted_weight_kg": 2.5,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609.9,
+    "height": 463.8,
+    "depth": 234.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609.9,
+    "height": 359.3,
+    "depth": 57
+  },
+  "weight": {
+    "with_stand_kg": 3.3,
+    "without_stand_kg": 2.5
+  },
+  "power_consumption": {
+    "typical_w": 28,
+    "manufacturer_max_w": 78,
+    "note": "Manufacturer specifies typical power consumption of 28 W and maximum power consumption of 78 W. HDR-mode power demand is reported as 72 W in the EU product information sheet. External power adapter; no USB Power Delivery output."
+  },
+  "max_brightness": 200,
+  "hdr": "HDR10",
+  "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "Samsung 27 inch Odyssey OLED G5 G50SF Gaming Monitor",
     "manufacturer": "Samsung",
@@ -19,9 +100,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/ph/business/monitors/gaming/odyssey-oled-g5-g50sf-27-inch-180hz-oled-qhd-ls27fg502sexxp/?utm_source=chatgpt.com"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -163,6 +246,13 @@
         "source_product_id": "SALS27FG500S",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824027387",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "walmart",

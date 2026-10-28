@@ -8,25 +8,169 @@
   "refresh_rate": 120,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 7
+  },
+  "connectors": "2 × HDMI 2.1 inputs (HDCP 2.2; supports up to 6144 × 2560 at 120 Hz with FRL and VRR); 2 × DisplayPort 1.4 inputs (HDCP 2.2; supports up to 6144 × 2560 at 120 Hz with DSC); 1 × Thunderbolt 4 upstream port (video and data, DisplayPort 1.4 Alt Mode with DSC, USB 40 Gbps, Power Delivery up to 140 W EPR); 3 × USB-C upstream ports (data only, USB 10 Gbps); 4 × USB-A downstream ports (USB 10 Gbps); 1 × USB-A downstream port with BC 1.2 charging; 2 × USB-C downstream ports (USB 10 Gbps, Power Delivery up to 27 W each); 1 × RJ45 Ethernet port (2.5GbE); power connector; security-lock slot; stand-lock feature; built-in speakers (2 × 9 W).",
+  "display_inputs": [
+    {
+      "id": "6cbb87eb-31db-45b2-bec6-104d9e21d4d9",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1 (FRL)",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDMI input, HDCP 2.2; supports VRR",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f48407a1-94b6-4bcd-8252-c8c4d850cf02",
+          "resolution": {
+            "horizontalRes": 6144,
+            "verticalRes": 2560
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 2.1 FRL input; maximum preset resolution and refresh rate; VRR supported."
+        }
+      ]
+    },
+    {
+      "id": "934de5ab-bd5a-4a9a-a1b0-e1816a10856b",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort input, HDCP 2.2",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "31a94dfa-59cc-4ffc-9725-80d81da51ed7",
+          "resolution": {
+            "horizontalRes": 6144,
+            "verticalRes": 2560
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "DisplayPort 1.4 input; DSC required for maximum preset resolution and refresh rate."
+        }
+      ]
+    },
+    {
+      "id": "788ca6c0-a8a9-46bf-a926-dfab54507b9b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 upstream, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "Thunderbolt 4 upstream video/data port; 40 Gbps; Power Delivery up to 140 W EPR",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "aacb53f8-6daa-4703-94cf-46402392c007",
+          "resolution": {
+            "horizontalRes": 6144,
+            "verticalRes": 2560
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Thunderbolt 4 upstream video input using DisplayPort 1.4 Alt Mode; DSC supports maximum preset resolution and refresh rate."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ee822249-c0d4-4b49-ba9e-ea0ad6a32e50",
+        "pattern": "100x100",
+        "mounted_weight_kg": 12.95,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover",
+          "weight_kg": 12.95
+        }
+      },
+      {
+        "id": "9f8aa445-0931-48bd-a1d6-acb018e6fe3d",
+        "pattern": "100x200",
+        "mounted_weight_kg": 12.95,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover",
+          "weight_kg": 12.95
+        }
+      },
+      {
+        "id": "e7c8be2e-f31f-4a52-af13-1827ba437e3f",
+        "pattern": "200x200",
+        "mounted_weight_kg": 12.95,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover",
+          "weight_kg": 12.95
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1223.32,
+    "height_min": 576.79,
+    "height_max": 666.79,
+    "depth": 255
+  },
+  "dimensions_without_stand_mm": {
+    "width": 1223.32,
+    "height": 529.05,
+    "depth": 111.94
+  },
+  "weight": {
+    "with_stand_kg": 18.23,
+    "without_stand_kg": 12.95
+  },
+  "power_consumption": {
+    "typical_w": 63.6,
+    "manufacturer_max_w": 430,
+    "note": "On-mode power consumption is 63.6 W. Maximum power consumption is 430 W at maximum brightness and contrast with maximum power loading on all USB ports. This maximum figure is not explicitly labelled as peak power. ENERGY STAR P_on: 51.4 W; total energy consumption (TEC): 166.4 kWh. Standby: 0.5 W; off mode: 0.3 W; networked standby: 2.0 W."
+  },
+  "max_brightness": 400,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell UltraSharp 52 Thunderbolt Hub Monitor - U5226KW",
     "manufacturer": "Dell",
     "part_numbers": ["210-bthw", "d63dc1bd9129a346", "U5226KW"],
     "releaseYear": 2026,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-52-thunderbolt-hub-monitor-u5226kw/u5226kw/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 4,
     "identifiers": [
       {
         "type": "mpn",
         "value": "210-bthw",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "6K",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "8JFKJ",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -146,11 +290,32 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12737662",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC95387",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "0JC-0004-00WN2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19336559751",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

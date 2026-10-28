@@ -10,8 +10,91 @@
   "response_time": 0.03,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1
+  },
+  "connectors": "1 x HDMI 2.1 input; 1 x DisplayPort 1.4 input; 1 x 3.5 mm headphone output.  Copy text",
+  "display_inputs": [
+    {
+      "id": "88298c01-cafe-4fb6-8f81-43d99d78fdf9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "31e7ee54-7267-4e71-aac5-37a01008e60a",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum refresh rate supported over HDMI; HDR supported."
+        }
+      ]
+    },
+    {
+      "id": "e9ae05ea-1368-49d8-abe0-643c5a05c04d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "3ad70af6-66a7-46a9-8a6f-2b29ac6e89bd",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum native QHD refresh rate is 240 Hz over DisplayPort; HDR supported."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "6e1f6243-e105-4ff4-9864-ae15ae54a4ae",
+        "pattern": "100x100",
+        "mounted_weight_kg": 2.5,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609.9,
+    "height": 512.7,
+    "height_min": 407.7,
+    "height_max": 617.7,
+    "depth": 250.2
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609.9,
+    "height": 359.3,
+    "depth": 57
+  },
+  "weight": {
+    "with_stand_kg": 3.7,
+    "without_stand_kg": 2.5
+  },
+  "power_consumption": {
+    "typical_w": 20.4,
+    "manufacturer_max_w": 78,
+    "note": "Samsung specifies typical power consumption of 20.4 W and maximum power consumption of 78 W. Standby power is 0.50 W and off-mode power is 0.30 W. The monitor uses an external power adapter. The manufacturer does not explicitly label the 78 W figure as peak power, and no USB Power Delivery output is specified."
+  },
+  "max_brightness": 400,
+  "hdr": "HDR10; HDR10+ Gaming",
+  "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Samsung 27-inch Odyssey OLED G6 G61SH QHD 240Hz Gaming Monitor LS27HG612SNXZA",
     "manufacturer": "Samsung",
@@ -19,14 +102,21 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/ph/monitors/gaming/odyssey-oled-g6-g61sh-27-inch-240hz-ls27hg612sexxp/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0198957260100",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0198957260100",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -39,9 +129,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS27HG612SNXZA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "198957260100",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "198957260100",
+        "region": "us"
       }
     ],
     "retailer_listings": [

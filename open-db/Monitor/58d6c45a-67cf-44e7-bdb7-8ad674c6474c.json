@@ -10,9 +10,171 @@
   "response_time": 8,
   "color": ["GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "1 x DisplayPort 1.4                                            1 x HDMI 2.1",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 5
+  },
+  "connectors": "1 × HDMI 2.1 input (supports UHD 3840 × 2160 at 120 Hz FRL and VRR); 1 × DisplayPort 1.4 input (HDCP 2.2, DSC support); 1 × DisplayPort 1.4 output (MST); 1 × Thunderbolt 4 upstream port (video and data, DisplayPort 1.4 Alt Mode with DSC, Power Delivery up to 140 W EPR); 1 × Thunderbolt 4 downstream port (daisy-chain support, up to 15 W); 1 × USB-C upstream port (USB 10 Gbps, data only, KVM); 4 × USB-A downstream ports (USB 10 Gbps, including 1 with BC 1.2 charging); 2 × USB-C downstream ports (USB 10 Gbps, up to 15 W charging each); 1 × RJ45 Ethernet port (2.5GbE); 1 × 3.5 mm audio line-out; power connector; security-lock slot; stand-lock feature.",
+  "display_inputs": [
+    {
+      "id": "fd52a1a6-9fce-4b30-9396-3df993381c58",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDMI input; supports UHD 3840 × 2160 at 120 Hz using FRL; VRR supported",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "179924f9-da3c-4efe-abac-0b4f7396b020",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 input; UHD 4K at 120 Hz using FRL; VRR supported."
+        }
+      ]
+    },
+    {
+      "id": "9d01d309-25c2-43ad-ab4b-f7ad6d0ad4d3",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort 1.4 input; HDCP 2.2; DSC support; Dynamic Refresh Rate for Microsoft Windows",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "54dcae79-99da-43f5-a3b4-aa0617e21198",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "DisplayPort 1.4 input; DSC support is available for high-bandwidth modes; maximum preset resolution is 3840 × 2160 at 120 Hz."
+        }
+      ]
+    },
+    {
+      "id": "fcdb0946-d0ff-409e-93fa-487bfc1b266a",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 upstream (DisplayPort 1.4 Alt Mode)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "Thunderbolt 4 upstream port; HDCP 2.2; DSC support; Power Delivery up to 140 W EPR; 2/4-lane switching",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e4c1c416-f6c2-460d-ae5d-ec6f54617aff",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Video input over Thunderbolt 4 using DisplayPort 1.4; DSC support; maximum preset resolution is 3840 × 2160 at 120 Hz."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "1ff57dd3-36fc-4d07-a9e8-92a5cc8f6350",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort 1.4 output supporting MST (Multi-Stream Transport) for daisy-chaining compatible monitors.",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "018aefe3-7c84-469a-a5e0-dbbe1e49db23",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "DisplayPort 1.4 MST output for daisy-chaining compatible monitors. Maximum monitor mode is 3840 × 2160 at 120 Hz; supported secondary-display modes depend on the source, link bandwidth, and MST configuration."
+        }
+      ]
+    },
+    {
+      "id": "b7b0c8f3-092e-4811-9737-7d9228baa966",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 downstream",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "Thunderbolt 4 downstream video and data output; supports daisy-chaining and up to 15 W power delivery. Video output requires a compatible source and supported connection path. Graphics Route: Integrated",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0cacb629-1425-49c2-bbca-995ae9cc3e3c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Thunderbolt 4 downstream video and data output. Supports up to 3840 × 2160 at 120 Hz with a compatible Thunderbolt source. For DisplayPort or USB-C DisplayPort Alt Mode daisy-chaining, enable MST; HDMI input is not passed through as video output."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "5a3ad25b-8559-45be-8304-5475464d4800",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.22,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes (100 × 100 mm) behind the attached VESA cover. Use M4 × 10 mm screws for the wall-mounting kit.",
+          "weight_kg": 5.22
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612.44,
+    "height_min": 385.68,
+    "height_max": 535.68,
+    "depth": 189
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612.44,
+    "height": 353.51,
+    "depth": 55.6
+  },
+  "weight": {
+    "with_stand_kg": 7.06,
+    "without_stand_kg": 5.22
+  },
+  "power_consumption": {
+    "typical_w": 25.4,
+    "manufacturer_max_w": 325,
+    "note": "Dell specifies 25.4 W in on mode and 325 W maximum at maximum brightness and contrast with maximum power loading on all USB ports. The 325 W figure is not explicitly labelled as peak power. Standby: 0.5 W; off mode: 0.3 W; networked standby: 1.5 W. ENERGY STAR P_on: 27.5 W; total energy consumption (TEC): 92 kWh. EU energy-label HDR on-mode power demand: 43.5 W."
+  },
   "max_brightness": 600,
   "hdr": "",
   "adaptive_sync": "None",
@@ -23,11 +185,13 @@
     "series": "",
     "variant": "Silver",
     "releaseYear": 2025,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Platinum Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-27-4k-thunderbolt-hub-monitor-u2725qe/u2725qe_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -41,6 +205,11 @@
       },
       {
         "type": "ean",
+        "value": "0884116484578",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "5397184923405",
         "region": "all"
       },
@@ -48,6 +217,11 @@
         "type": "mpn",
         "value": "210-BQTL",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DELL-U2725QE",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -63,6 +237,11 @@
         "type": "upc",
         "value": "884116484578",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116484578",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -261,6 +440,13 @@
         "source_product_id": "AC84900",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAD6HKNG2993",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",

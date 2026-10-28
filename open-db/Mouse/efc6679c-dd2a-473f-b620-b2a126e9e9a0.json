@@ -1,16 +1,65 @@
 {
   "opendb_id": "efc6679c-dd2a-473f-b620-b2a126e9e9a0",
   "weight": 49,
-  "connectivity": ["Wireless 2.4GHz", "Bluetooth", "Wired USB-A"],
+  "dimensions": {
+    "length": 124,
+    "width": 65.5,
+    "height": 38
+  },
+  "shape": "Symmetrical",
+  "handedness": "Right-handed",
+  "connectivity": ["Wireless 2.4GHz"],
+  "sensor": "PixArt PAW3950MAX",
   "max_dpi": 42000,
+  "polling_rate": 8000,
+  "buttons": 5,
+  "switches": "Omron Optical Switches",
+  "switch_type": "Optical",
+  "onboard_memory": true,
+  "lighting": ["None"],
+  "battery_life": 80,
+  "battery_type": "Rechargeable",
+  "grip_types": ["Palm", "Claw", "Fingertip"],
+  "silent_clicks": false,
   "metadata": {
     "name": "ATTACK SHARK R11 Ultra Weave Black",
-    "manufacturer": "ATTACK SHARK"
+    "manufacturer": "ATTACK SHARK",
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://attackshark.com/products/attack-shark-r11-ultra-carbon-fiber-wireless-8k-paw3950max-gaming-mouse?srsltid=AYCX9vLudh0UnzNVQUHHkk2O41NfSf4mgCK5afTtH6Xa8ruop0-RzJQ6&variant=50518717137194"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "R11 ULTRA",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FMY2YFTF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6S5M4S9359",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19172723394",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

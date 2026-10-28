@@ -6,22 +6,118 @@
     "verticalRes": 1440
   },
   "refresh_rate": 500,
+  "native_refresh_activation": "automatic",
   "panel_type": "QD-OLED",
-  "color": [],
-  "lighting": [],
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["RGB"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 x HDMI 2.1; 1 x DisplayPort 1.4; 1 x USB-B upstream port; 2 x USB-A 3.2 Gen 1 downstream ports; 1 x 3.5 mm headphone output.",
+  "display_inputs": [
+    {
+      "id": "f79dd586-b5f0-4642-908d-d7f4ae1d80dc",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "43c4ff15-6974-4346-b8aa-5af9e90c19fe",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "QHD at up to 120 Hz over HDMI, according to the published input-specific refresh-rate information. HDR support includes VESA DisplayHDR True Black 500 and HDR10+ Gaming."
+        }
+      ]
+    },
+    {
+      "id": "9e6599f6-715c-4b7c-80b3-d8b1889f66a2",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "32f265ec-562c-4609-85b0-c2136278d3b2",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 500,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum advertised native-resolution refresh rate is 500 Hz over DisplayPort. HDR support includes VESA DisplayHDR True Black 500 and HDR10+ Gaming."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "c83c3b8a-4081-4c19-9c0c-237bd6264bc1",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.8,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.7,
+    "height": 554.2,
+    "height_min": 434.2,
+    "height_max": 554.2,
+    "depth": 263.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611,
+    "height": 353.8,
+    "depth": 49.2
+  },
+  "weight": {
+    "with_stand_kg": 6.9,
+    "without_stand_kg": 3.8
+  },
+  "power_consumption": {
+    "typical_w": 41.4,
+    "manufacturer_max_w": 140,
+    "note": "Samsung lists typical power consumption as 41.4 W on the UK specification page and 47.0 W on the Australian specification page. Maximum power consumption is 140 W. EU product information reports on-mode power demand of 41.4 W in SDR and 48.0 W in HDR. External power adapter; no USB Power Delivery output."
+  },
+  "max_brightness": 1000,
+  "hdr": "VESA DisplayHDR True Black 500; HDR10+ Gaming",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung 27-inch Odyssey OLED G6 G60SF QHD 500Hz Gaming Monitor",
     "manufacturer": "Samsung",
-    "part_numbers": ["8285f8c77e54ce1a", "G60SF", "LS27FG602SNXZA"]
+    "part_numbers": ["8285f8c77e54ce1a", "G60SF", "LS27FG602SNXZA"],
+    "releaseYear": 2025,
+    "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/gaming/27-inch-odyssey-oled-g6-g60sf-qhd-500hz-gaming-monitor-sku-ls27fg602snxza/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0198957119378",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0198957119378",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -39,9 +135,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS27FG602SNXZA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "198957119378",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "198957119378",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -155,7 +261,7 @@
         "channel": "us",
         "source_product_id": "6635360",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -183,7 +289,7 @@
         "channel": "us",
         "source_product_id": "17824308812",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

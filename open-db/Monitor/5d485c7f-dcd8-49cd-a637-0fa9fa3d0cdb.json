@@ -8,10 +8,141 @@
   "refresh_rate": 60,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 4
+  },
+  "connectors": "2 × HDMI 2.1 inputs (HDCP 2.2; supports up to 3840 × 1600 at 60 Hz via TMDS); 1 × DisplayPort 1.4 input (HDCP 2.2; supports up to 3840 × 1600 at 60 Hz); 1 × USB-C upstream port (video and data, DisplayPort 1.4 Alt Mode, Power Delivery up to 90 W); 1 × USB-C upstream port (data only, USB 3.2 Gen 2, 10 Gbps); 4 × USB-A downstream ports (USB 3.2 Gen 2, 10 Gbps); 1 × USB-A downstream port with BC 1.2 charging (up to 2 A); 2 × USB-C downstream ports (USB 3.2 Gen 2, 10 Gbps, charging up to 15 W each); 1 × RJ45 Ethernet port (2.5GbE); 1 × audio line-out port; power connector; security-lock slot; stand-lock feature.",
+  "display_inputs": [
+    {
+      "id": "7eec9e24-b1d8-4e71-8092-0f616975c416",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1 (TMDS)  Video Signal: HDMI",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 2.2",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "79216d01-1a9e-4c30-8f7e-c7ca187092f7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 1600
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 2.1 TMDS; supports WQHD+ at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "8427e329-9b17-4abe-944a-96fcd04977cd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 2.2",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8311dd3c-9cab-4e43-a375-fd2282f14126",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 1600
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; supports WQHD+ at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "0c6becd7-f17f-4ab3-b05a-69a396222ede",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C upstream (DisplayPort 1.4 Alt Mode)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB-C video/data upstream; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8a7c3e08-cc9d-491a-856c-dbc5f8e8d19b",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 1600
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Video carried over DisplayPort 1.4 Alt Mode; supports WQHD+ at 60 Hz."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "e4e1605e-0cb7-49e0-ad26-33a99d709fa6",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4 (MST output)",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort output with Multi-Stream Transport (MST) for daisy-chaining",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d6f5ce91-e7c0-4971-9dfb-b0db2f84cefb",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 1600
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 MST output; actual resolution and refresh depend on the host GPU, MST configuration, and connected display(s)."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "0983139a-ca10-4f9f-8e12-20734171d36c",
+        "pattern": "100x100",
+        "mounted_weight_kg": 8.79,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting interface; remove the included stand before attaching a compatible mount"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 894.26,
+    "height_min": 443.76,
+    "height_max": 563.76,
+    "depth": 251.21
+  },
+  "dimensions_without_stand_mm": {
+    "width": 894.26,
+    "height": 392.33
+  },
+  "weight": {
+    "with_stand_kg": 13.27,
+    "without_stand_kg": 8.79
+  },
+  "power_consumption": {
+    "typical_w": 34.8,
+    "manufacturer_max_w": 245
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell UltraSharp 38 Curved USB-C Hub Monitor - U3824DW",
     "manufacturer": "Dell",
@@ -19,9 +150,11 @@
     "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-38-curved-usb-c-hub-monitor-u3824dw/u3824dw_withstand/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -156,11 +289,25 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12790433",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC67524",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2975891309",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }
