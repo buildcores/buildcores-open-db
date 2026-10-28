@@ -8,20 +8,132 @@
   "refresh_rate": 120,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 3
+  },
+  "connectors": "1x HDMI 2.1 input (HDCP 1.4; supports up to 2560 × 1440 at 120 Hz via TMDS and VRR); 1x DisplayPort 1.4 input (HDCP supported); 1x DisplayPort 1.4 output with MST; 1x Thunderbolt 4 upstream port (video and data, DisplayPort 1.4 Alt Mode, Power Delivery up to 90 W); 1x Thunderbolt 4 downstream port (daisy-chaining, up to 15 W); 1x USB-C upstream data-only port (USB 3.2 Gen 2, 10 Gbps); 4x USB-A downstream ports (USB 3.2 Gen 2, 10 Gbps, including 1x with BC1.2 charging); 1x USB-C downstream port (USB 3.2 Gen 2, 10 Gbps, charging up to 15 W); 1x RJ45 Ethernet port (2.5GbE); 1x audio line-out port; power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "5c8a5531-2f45-4d45-b9b4-7e7f0482766d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; HDMI input supports QHD at 120 Hz via TMDS; VRR support",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b0a46b9f-a5c3-4eeb-af10-dd5e92193fef",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum preset resolution via HDMI TMDS; HDMI 2.1 VRR support does not imply support for all optional HDMI 2.1 features."
+        }
+      ]
+    },
+    {
+      "id": "adeb4e6f-1811-4564-8a12-f6f213c0498d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP supported; supports DisplayPort Dynamic Refresh Rate for Windows; supports two QHD 120 Hz 8-bit displays",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9d57fbf2-38d9-48b9-aad8-8dd4c95ce177",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum preset resolution at QHD 120 Hz."
+        }
+      ]
+    },
+    {
+      "id": "3d6734fd-c2ac-4de5-be07-f492c4846822",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 / DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "Thunderbolt 4 upstream video and data; USB Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9061f730-ce21-4993-80ac-499b89c0d3c1",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Thunderbolt 4 upstream port in Thunderbolt or DisplayPort Alt Mode; maximum preset resolution QHD 120 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "90fd8ddc-2d4c-4bd2-8f80-b42bbc6f4405",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.23,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612.14,
+    "height": 535.69,
+    "height_min": 385.57,
+    "height_max": 535.69,
+    "depth": 192.28
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612.14,
+    "height": 353.06,
+    "depth": 50.8
+  },
+  "weight": {
+    "with_stand_kg": 7.37,
+    "without_stand_kg": 5.23
+  },
+  "power_consumption": {
+    "typical_w": 24.4,
+    "manufacturer_max_w": 225,
+    "note": "Manufacturer specifies 24.4 W in on mode and 225 W maximum consumption at maximum brightness and contrast with maximum power loading on all USB ports. ENERGY STAR on-mode power (P_on): 18.9 W. Standby: 0.5 W; off mode: 0.3 W; networked standby: 1.5 W. The 225 W figure is labelled maximum, not peak."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell UltraSharp 27 Thunderbolt Hub Monitor U2724DE",
     "manufacturer": "Dell",
     "part_numbers": ["050d5398a19e84c2", "210-bksj", "U2724DE"],
     "releaseYear": 2023,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-27-thunderbolt-hub-monitor-u2724de/u2724de_withstnd_mon/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -37,6 +149,11 @@
         "type": "ean",
         "value": "5397184821480",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5397184821480",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -60,6 +177,11 @@
       },
       {
         "type": "mpn",
+        "value": "1W34K",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "210-bksj",
         "region": "all"
       },
@@ -67,6 +189,11 @@
         "type": "mpn",
         "value": "U2724DE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "U2724DE",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -218,9 +345,9 @@
       {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "6602110",
+        "source_product_id": "12890645",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -277,6 +404,13 @@
         "source_product_id": "MO27DE12",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAD6HK7R2084",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",

@@ -7,15 +7,103 @@
   },
   "refresh_rate": 120,
   "panel_type": "IPS",
-  "response_time": 4,
-  "color": ["BLACK"],
+  "response_time": 8,
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x USB Type-C 3.2 Gen 1",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 2
+  },
+  "connectors": "2x HDMI 2.1 inputs (HDCP 1.4 and HDCP 2.3; support up to 3840 × 2160 at 120 Hz, FRL, HDR, and VRR); 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, video and data, Power Delivery up to 65 W); 1x USB-A 5 Gbps downstream port with Battery Charging 1.2; 1x USB-C 5 Gbps downstream port (Power Delivery up to 15 W); 1x USB-A 5 Gbps downstream port; built-in speakers; power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "8ef93d7b-ed4d-44e9-bc7c-31aada612363",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4 and HDCP 2.3",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "15050d59-1c4d-4b05-9396-14fd3a8790b0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "HDMI input supports up to 3840 × 2160 at 120 Hz, FRL, HDR, and VRR."
+        }
+      ]
+    },
+    {
+      "id": "13a0d857-3930-49ff-a56e-75f937b50057",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB data; Power Delivery up to 65 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "58c7b449-1e08-4df0-b5cb-0c898bfc719e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "USB-C upstream video input; DisplayPort 1.4 Alt Mode supports up to 3840 × 2160 at 120 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "867bf836-1f51-43a4-ab28-02b0ca923356",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.85,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm VESA mounting holes behind the VESA cover; wall-mount kit sold separately"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.54,
+    "height_min": 388.63,
+    "height_max": 518.63,
+    "depth": 200.4
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611.54,
+    "height": 355.98,
+    "depth": 60
+  },
+  "weight": {
+    "with_stand_kg": 6.71,
+    "without_stand_kg": 4.85
+  },
+  "power_consumption": {
+    "typical_w": 25.2,
+    "manufacturer_max_w": 180,
+    "note": "On-mode power consumption is 25.2 W. Maximum power consumption is 180 W at maximum brightness and contrast with maximum power loading on all USB ports; this includes USB power delivery and peripheral loads. Standby: 0.4 W; off mode: 0.3 W. AC input: 100–240 V, 50/60 Hz, 2.3 A typical."
+  },
   "max_brightness": 350,
-  "hdr": "",
-  "adaptive_sync": "FreeSync Premium",
+  "hdr": "HDR10 support; HDR signal input supported. Not VESA DisplayHDR certified.",
+  "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "Dell S2725QC 27\" 4K 120Hz IPS Monitor",
     "manufacturer": "Dell",
@@ -25,14 +113,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-27-plus-4k-usb-c-monitor-s2725qc/s2725qc_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116485124",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116485124",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -51,6 +146,11 @@
       },
       {
         "type": "mpn",
+        "value": "S2725QC",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "s2725qcsap",
         "region": "all"
       },
@@ -60,9 +160,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "W2FG2",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116485124",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116485124",
+        "region": "us"
       }
     ],
     "retailer_listings": [
