@@ -8,13 +8,13 @@
   },
   "shape": "Symmetrical",
   "handedness": "Right-handed",
-  "connectivity": ["Wireless 2.4GHz"],
+  "connectivity": ["Wireless 2.4GHz", "Wired USB-A"],
   "sensor": "PixArt PAW3950HS",
   "max_dpi": 30000,
   "polling_rate": 8000,
   "buttons": 5,
   "switches": "Omron Optical Switches",
-  "switch_type": "Mechanical",
+  "switch_type": "Optical",
   "onboard_memory": true,
   "lighting": ["None"],
   "battery_life": 50,
@@ -32,8 +32,27 @@
     "manufacturer_url": "https://www.wlmouse.com/products/beast-max?srsltid=AYCX9vK_1zlqTIrxddY1SCXTdZrHMPSGkhPVR6375zyXNFcXz4HkThzv&variant=50453520777514"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810511034186",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810511034186",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FPHKRXBS",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

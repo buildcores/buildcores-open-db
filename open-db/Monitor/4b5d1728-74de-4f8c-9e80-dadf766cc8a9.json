@@ -6,6 +6,7 @@
     "verticalRes": 2160
   },
   "refresh_rate": 160,
+  "native_refresh_activation": "automatic",
   "panel_type": "IPS",
   "response_time": 1,
   "color": ["BLACK"],
@@ -15,6 +16,7 @@
   "video_outputs": {
     "hdmi_2_1": 2,
     "displayport_2_1": 1,
+    "displayport_1_4a": 1,
     "usb_c": 1
   },
   "display_inputs": [
@@ -25,7 +27,18 @@
       "version_label": "2.1",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "d977f2f0-0dba-4e08-afd1-a0da909d0bfd",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "c98a3ed5-3d8e-4ec9-98de-2883345be00a",
@@ -34,7 +47,17 @@
       "version_label": "1.4",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "9ff3959d-931e-4fd4-bc8f-e6992541b9b6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "9d3fede3-5027-472f-bb25-15fd57dcde43",
@@ -42,7 +65,17 @@
       "count": 1,
       "video_signal": "displayport",
       "transport": "dp_alt_mode",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "538e2598-1f78-4d88-9382-89506d8d1c74",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -58,7 +91,7 @@
   },
   "dimensions_with_stand_mm": {
     "width": 612,
-    "height": 515,
+    "height_max": 515,
     "depth": 192
   },
   "dimensions_without_stand_mm": {
@@ -72,10 +105,9 @@
   },
   "power_consumption": {
     "typical_w": 27,
-    "manufacturer_max_w": 60,
-    "explicitly_reported_peak_w": 125
+    "note": "The test condition follows CEC standards."
   },
-  "max_brightness": 450,
+  "max_brightness": 350,
   "hdr": "VESA DisplayHDR 400",
   "adaptive_sync": "G-Sync",
   "metadata": {
@@ -89,9 +121,27 @@
     "manufacturer_url": "https://www.gigabyte.com/in/Monitor/M27UP/sp"
   },
   "identifiers": {
-    "version": 2,
-    "identifiers": [],
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331868710",
+        "region": "de"
+      },
+      {
+        "type": "mpn",
+        "value": "M27UP EK",
+        "region": "de"
+      }
+    ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FMYPLXZ3",
+        "pricing_enabled": true,
+        "verified": false
+      },
       {
         "source": "walmart",
         "channel": "us",
