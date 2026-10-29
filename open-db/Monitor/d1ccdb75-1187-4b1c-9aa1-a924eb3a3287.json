@@ -6,15 +6,117 @@
     "verticalRes": 1440
   },
   "refresh_rate": 240,
-  "panel_type": "QD-OLED",
+  "panel_type": "OLED",
   "response_time": 0.03,
   "color": ["WHITE", "BLACK"],
   "lighting": ["RGB"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "32:9",
-  "connectors": "1 x HDMI 2.1                                                    1 x DisplayPort 1.4",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "1 × HDMI 2.1 input; 1 × Micro HDMI 2.1 input; 1 × DisplayPort 1.4 input; 1 × USB-C upstream port (data only); 2 × USB-C downstream ports (USB 3.0); DC power input; built-in Wi-Fi 5 and Bluetooth 5.2.",
+  "display_inputs": [
+    {
+      "id": "6c5ad429-c0e8-435b-bc12-326a62321636",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "37d2ef88-c9c0-48d2-b277-100b8b7dd393",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Monitor's advertised maximum mode is 5120 × 1440 at up to 240Hz. Actual mode support depends on the connected graphics source, cable, and settings. HDR support is listed at monitor level, not separately by input."
+        }
+      ]
+    },
+    {
+      "id": "e188c859-e376-4485-abd5-c74122823a80",
+      "connector": "other",
+      "count": 1,
+      "version_label": "Micro HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "Micro HDMI",
+      "mode_claims": [
+        {
+          "id": "eef79547-d42d-4926-983e-9b6cd579f15c",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Monitor's advertised maximum mode is 5120 × 1440 at up to 240Hz. Actual mode support depends on the connected graphics source, cable, and settings. HDR support is listed at monitor level, not separately by input."
+        }
+      ]
+    },
+    {
+      "id": "aa0bc8b2-daad-4ba8-beaa-d401f60ff256",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "9f904530-f17d-45a5-ab38-2a2ef9447a9c",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Monitor's advertised maximum mode is 5120 × 1440 at up to 240Hz. Actual mode support depends on the connected graphics source, cable, and settings. HDR support is listed at monitor level, not separately by input."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "48045be1-7da9-4f3b-8833-c245f16a99cb",
+        "pattern": "100x100",
+        "mounted_weight_kg": 8.8,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "4 × M4 mounting screws; screw length 3.5–5.5 mm, per Samsung's S49CG95 series manual."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1194.7,
+    "height": 529.3,
+    "depth": 236.9
+  },
+  "dimensions_without_stand_mm": {
+    "width": 1194.7,
+    "height": 365,
+    "depth": 180.8
+  },
+  "weight": {
+    "with_stand_kg": 12.6,
+    "without_stand_kg": 8.8
+  },
+  "power_consumption": {
+    "typical_w": 75,
+    "manufacturer_max_w": 220,
+    "note": "Samsung lists typical power consumption of 75 W, maximum power consumption of 220 W, and DPMS (display power management) consumption of 0.5 W. Power supply: external adapter, AC 100–240 V, 50/60 Hz. The manufacturer does not explicitly label 220 W as peak power or specify whether it includes USB-connected device loads."
+  },
   "max_brightness": 250,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR True Black 400; HDR10+ Gaming",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung Odyssey G95SC 49\" 5120x1440 240Hz QD-OLED Curved Monitor",
@@ -31,7 +133,9 @@
     "releaseYear": 2023,
     "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/sg/monitors/gaming/odyssey-oled-g9-g95sc-49-inch-240hz-curved-dual-qhd-ls49cg954sexxs/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
