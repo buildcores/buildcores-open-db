@@ -10,188 +10,111 @@
   "response_time": 4,
   "color": ["WHITE"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_2": 2
+    "hdmi_2_0": 2,
+    "usb_c": 1
   },
-  "connectors": "2 x HDMI",
+  "connectors": "2 × HDMI 2.0 inputs; 1 × USB-C upstream port with DisplayPort Alt Mode and up to 65 W power delivery; 3 × USB-A downstream ports (including service functionality); 1 × power input.",
+  "display_inputs": [
+    {
+      "id": "01e1263d-aae0-4da7-84dc-b61db42ddbd5",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "943d24bc-6de2-45a5-8e52-730838ed70d9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "4K UHD at 60 Hz; HDMI Input Signal Plus settings and source-device capabilities may affect supported signal formats."
+        }
+      ]
+    },
+    {
+      "id": "cf2dc19a-8b51-4694-86e1-ada2ebe3b08c",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C; DisplayPort Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "70365762-7bf7-414d-af66-1dcb5521d641",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "USB-C video input via DisplayPort Alt Mode; up to 4K UHD at 60 Hz. USB-C supports up to 65 W power delivery."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "780ad021-7cfe-4483-a5d9-764b9e80346a",
+        "pattern": "200x200",
+        "mounted_weight_kg": 8.5,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "M8 mounting screws, 4 required"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 965.5,
+    "height": 629.3,
+    "depth": 247.2
+  },
+  "dimensions_without_stand_mm": {
+    "width": 965.5,
+    "height": 559.8,
+    "depth": 25.7
+  },
+  "weight": {
+    "with_stand_kg": 10.6,
+    "without_stand_kg": 8.5
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 210,
+    "note": "Samsung specifies maximum power consumption of 210 W, AC 100–240 V, with an internal power supply. Typical and explicitly labelled peak consumption are not listed on the official US page. USB-C supports up to 65 W power delivery, but Samsung does not state whether this is included in the 210 W maximum."
+  },
   "max_brightness": 300,
   "hdr": "HDR10",
   "adaptive_sync": "None",
   "metadata": {
-    "name": "Samsung M7 M70F 43 inch 4K UHD Smart AI Monitor",
+    "name": "Samsung M7 M70F 43 inch 4K UHD Smart AI Monitor White",
     "manufacturer": "Samsung",
     "part_numbers": ["92e158926ca009a7", "LS32FM701UNXZA"],
     "releaseYear": 2025,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/smart/43-inch-smart-monitor-m70f-4k-uhd-vision-ai-monitor-sku-ls43fm703unxza/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
-        "type": "ean",
-        "value": "0198957027796",
-        "region": "all"
-      },
-      {
         "type": "mpn",
-        "value": "92e158926ca009a7",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "LS32FM701UNXZA",
-        "region": "all"
-      },
-      {
-        "type": "upc",
-        "value": "198957027796",
+        "value": "LS43FM703UNXZA",
         "region": "all"
       }
     ],
-    "retailer_listings": [
-      {
-        "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "us",
-        "source_product_id": "B0F5VY21Z8",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6632216",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "bhphoto",
-        "channel": "us",
-        "source_product_id": "SA32FM703UNX",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "N82E16824027392",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "N82E16824027392",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "17248216693",
-        "pricing_enabled": true,
-        "verified": true
-      }
-    ]
+    "retailer_listings": []
   }
 }
