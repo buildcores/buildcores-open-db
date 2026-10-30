@@ -6,10 +6,11 @@
     "verticalRes": 1440
   },
   "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
   "panel_type": "WOLED",
   "response_time": 0.03,
-  "color": ["BLACK", "RED"],
-  "lighting": ["None"],
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
@@ -25,7 +26,18 @@
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "3bffae83-7cb1-4ed5-8060-9955f5fb7e19",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "f1ef0934-0fbf-4b4a-9d7d-3d2c427a27e4",
@@ -34,7 +46,17 @@
       "version_label": "1.4",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "b5b2da8f-55f9-443b-a235-dfe33906ff45",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -55,7 +77,7 @@
   },
   "dimensions_without_stand_mm": {
     "width": 605,
-    "height": 508,
+    "height": 368,
     "depth": 50
   },
   "weight": {
@@ -63,18 +85,17 @@
     "without_stand_kg": 4.2
   },
   "power_consumption": {
-    "typical_w": 25,
     "manufacturer_max_w": 25
   },
-  "max_brightness": 450,
+  "max_brightness": 1300,
   "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "G-Sync Compatible",
   "metadata": {
     "name": "Asus ROG Strix XG27AQDMG 26.5\" 1440p 240Hz WOLED Monitor",
     "manufacturer": "ASUS",
     "part_numbers": ["XG27AQDMG", "90LM0AH0-B01AB0", "90LM0AH0-B02AB0", "90LM0AH0-B01A70"],
-    "series": "",
-    "variant": "Black / Red",
+    "series": "ROG",
+    "variant": "Strix OLED XG27AQDMG",
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
@@ -82,7 +103,7 @@
     "manufacturer_url": "https://rog.asus.com/me-en/monitors/27-to-31-5-inches/rog-strix-oled-xg27aqdmg/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -348,13 +369,6 @@
       {
         "source": "newegg",
         "channel": "ca",
-        "source_product_id": "N82E16824281313R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
         "source_product_id": "N82E16824281313R",
         "pricing_enabled": true,
         "verified": false

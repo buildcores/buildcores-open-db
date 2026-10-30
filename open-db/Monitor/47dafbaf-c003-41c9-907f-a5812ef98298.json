@@ -6,23 +6,108 @@
     "verticalRes": 1080
   },
   "refresh_rate": 100,
+  "native_refresh_activation": "automatic",
   "panel_type": "IPS",
   "response_time": 4,
+  "mprt_response_time": 1,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
-  "connectors": "1 x DisplayPort 1.2a                                                    1 x HDMI 1.4                                                    1 x VGA",
+  "video_outputs": {
+    "vga": 1
+  },
+  "connectors": "1 x DisplayPort 1.2a                                          1 x HDMI 1.4b                                                    1 x D-Sub (VGA)",
+  "display_inputs": [
+    {
+      "id": "cf9af69d-b33d-4a8b-81a3-cfd12797e33c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "482305a5-d6b1-4786-be77-8c50da401f33",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1170542a-cee1-44b3-bc80-c35f3c669a98",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4b",
+      "video_signal": "hdmi",
+      "mode_claims": [
+        {
+          "id": "767e5c9a-60ff-4243-ae24-48c7d6fd3830",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "119815e1-d913-4e5d-87ad-9eb362bc9869",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "mode_claims": [
+        {
+          "id": "cf57d015-91a3-4102-a612-13a90242a6b2",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "02d26d0d-295a-49f8-9255-742d62fca343",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.9,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 613.5,
+    "height": 462.6,
+    "depth": 182
+  },
+  "weight": {
+    "with_stand_kg": 3.9
+  },
+  "max_brightness": 300,
   "hdr": "",
-  "adaptive_sync": "FreeSync",
+  "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
     "name": "MSI PRO MP273A Black",
     "manufacturer": "MSI",
     "part_numbers": ["Pro MP273A", "9S6-3PB4CH-068", "PROMP273A"],
-    "series": "",
-    "variant": "Black"
+    "series": "PRO",
+    "variant": "Black",
+    "releaseYear": 2023,
+    "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Business-Productivity-Monitor/PRO-MP273AW/Specification"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
