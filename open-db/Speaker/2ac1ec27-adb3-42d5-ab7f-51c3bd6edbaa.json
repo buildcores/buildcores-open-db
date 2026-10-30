@@ -1,14 +1,61 @@
 {
   "opendb_id": "2ac1ec27-adb3-42d5-ab7f-51c3bd6edbaa",
-  "lighting": [],
+  "weight": 3520,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "47aa688a-8d7d-4aee-a72f-6e456ffb1240",
+      "role": "Speaker",
+      "component_label": "Harman Kardon Onyx Studio 8",
+      "quantity": 1,
+      "weight_g": 3520,
+      "dimensions_mm": {
+        "width": 312,
+        "height": 275.8,
+        "depth": 163.8
+      },
+      "conditions": "Manufacturer-published dimensions (W × H × D); net weight 3.52 kg."
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "operating_power_sources": [
+    {
+      "id": "821c9e42-8a77-460b-9112-eaf5c75854f4",
+      "source": "Battery",
+      "powered_component": "Harman Kardon Onyx Studio 8",
+      "conditions": "Built-in Li-ion polymer battery, 11.70 Wh (3.6 V / 3250 mAh)."
+    },
+    {
+      "id": "fd785178-e1d8-49a3-a34b-9635e2aba6cb",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Harman Kardon Onyx Studio 8",
+      "connector": "AC power cable input",
+      "conditions": "Manufacturer-rated power supply: 100–240 V AC, 50/60 Hz. Power cable included."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "3caf0c2f-d9b0-436d-8a7c-041fe35285d3",
+      "hours": 8,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer states up to 8 hours of music playback; actual runtime varies with volume level and audio content."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Harman Kardon Onyx Studio 8 - Black",
     "manufacturer": "Harman Kardon",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.harmankardon.com/ONYX-STUDIO-8-.html"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -16,9 +63,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0028292289859",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "HKOS8BLKAM",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "028292289859",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "028292289859",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -128,11 +190,25 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "Harman Kardon Onyx Studio 8 - Black",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADDTK855135",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "2043166743",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
