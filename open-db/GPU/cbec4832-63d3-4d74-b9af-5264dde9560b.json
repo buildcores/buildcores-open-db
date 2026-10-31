@@ -14,18 +14,34 @@
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": ["RGB"],
+  "lighting": ["ARGB"],
   "length": 330,
   "case_expansion_slot_width": 2,
   "total_slot_width": 4,
-  "cooling": "Blower",
+  "cooling": "2 Fans",
   "power_connectors": {
     "pcie_12V_2x6": 1
   },
   "video_outputs": {
-    "hdmi_2_1b": 3,
+    "hdmi_2_1b": 1,
     "displayport_2_1_b": 3
   },
+  "display_outputs": [
+    {
+      "id": "b61fb871-bce5-4b24-96b6-d7aca2e632c7",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport"
+    },
+    {
+      "id": "e4dc8a5d-e34a-42c8-8951-3bca20ea8c53",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi"
+    }
+  ],
   "metadata": {
     "name": "Gigabyte AORUS GeForce RTX 5090 INFINITY 32G",
     "manufacturer": "Gigabyte",
