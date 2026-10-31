@@ -5,7 +5,19 @@
     "horizontalRes": 2560,
     "verticalRes": 1440
   },
-  "refresh_rate": 720,
+  "refresh_rate": 540,
+  "native_refresh_activation": "automatic",
+  "alternate_display_modes": [
+    {
+      "id": "990115cb-c2b7-4a2e-93c0-aa243a38516f",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "refresh_rate": 720,
+      "activation": "manual_mode_switch"
+    }
+  ],
   "panel_type": "WOLED",
   "response_time": 0.02,
   "color": ["WHITE", "GREY"],
@@ -14,7 +26,8 @@
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 2,
-    "displayport_2_1": 1
+    "displayport_2_1": 1,
+    "displayport_2_1a": 1
   },
   "connectors": "2 x HDMI                                                            1 x DisplayPort",
   "display_inputs": [
@@ -22,10 +35,20 @@
       "id": "27cd3fd4-5dbc-4e18-be3a-827fa01fe453",
       "connector": "displayport",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "7604c8f9-ad09-4cb7-8be1-6fdce96c1ea9",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 540,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "d9eedb50-3e7a-4352-9015-ea40b30ade09",
@@ -34,7 +57,17 @@
       "version_label": "2.1",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "dd1a8fc9-3184-4a69-a081-9e0b46d199b6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -44,7 +77,10 @@
         "id": "996f1cd1-f65e-4153-90f8-96c17506a98b",
         "pattern": "100x100",
         "mounted_weight_kg": 4.54,
-        "installation": "direct"
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "ROG Wall Mount"
+        }
       }
     ]
   },
@@ -56,20 +92,17 @@
     "depth": 273
   },
   "dimensions_without_stand_mm": {
-    "width": 605.6,
+    "width": 605.62,
     "height": 369.4,
-    "height_min": 369.4,
-    "height_max": 369.4,
-    "depth": 45
+    "depth": 63.1
   },
   "weight": {
-    "with_stand_kg": 7.2,
+    "with_stand_kg": 7.04,
     "without_stand_kg": 4.54
   },
   "power_consumption": {
     "typical_w": 55,
-    "manufacturer_max_w": 55,
-    "explicitly_reported_peak_w": 55
+    "manufacturer_max_w": 55
   },
   "max_brightness": 1500,
   "hdr": "VESA DisplayHDR 500 True Black",
@@ -78,8 +111,8 @@
     "name": "ASUS ROG Swift OLED PG27AQWP-W",
     "manufacturer": "ASUS",
     "part_numbers": ["PG27AQWP-W", "90LM0CF2-B01971"],
-    "series": "ROG Swift OLED",
-    "variant": "PG27AQWP-W",
+    "series": "ROG",
+    "variant": "Swift OLED PG27AQWP-W",
     "releaseYear": 2026,
     "manufacturer_color": "White"
   },

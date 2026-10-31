@@ -1,24 +1,51 @@
 {
   "opendb_id": "c76909f8-ca90-4bdf-b942-1227f9f06c59",
+  "weight": 837,
   "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "a5253ead-b686-47d2-99ce-e28846cb36f7",
+      "connector": "XLR 3-pin",
+      "roles": ["Operating Power Input"],
+      "conditions": "Requires an external audio interface, preamp, or mixer with standard +48V Phantom Power enabled to drive the built-in active gain circuit. Functions as a traditional passive dynamic microphone when the preamp is set to Bypass mode."
+    }
+  ],
   "polar_pattern": ["Cardioid"],
-  "features": [],
-  "lighting": [],
+  "features": ["On-Device Gain Control"],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "e4da7250-06ee-4be4-9fd8-d2b3092b4997",
+      "basis": "Included Stand Assembly",
+      "width_mm": 96.5,
+      "depth_mm": 198.1,
+      "height_mm": 149.9
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Shure SM7dB Dynamic Vocal Microphone",
     "manufacturer": "Shure",
     "part_numbers": ["SM7DB", "SHR-SM7DB"],
     "series": "SM7dB",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2023
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.shure.com/en-US/products/microphones/sm7db?variant=SM7dB"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0042406756860",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0042406756860",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -31,9 +58,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "SM7DB",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "042406756860",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "042406756860",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -147,7 +184,7 @@
         "channel": "us",
         "source_product_id": "6569410",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -224,7 +261,7 @@
         "channel": "us",
         "source_product_id": "5096293580",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

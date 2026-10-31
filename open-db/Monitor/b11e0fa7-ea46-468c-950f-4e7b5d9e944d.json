@@ -10,12 +10,100 @@
   "response_time": 0.03,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 1
+  },
   "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 1.4                                                    1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "33df3c93-468d-4cfe-8491-28ec45c2f0f8",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "b852605e-23aa-4107-b2b1-5bd902824788",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "51387fa5-5c41-40ff-a0fa-ee3566cbea09",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "fc939bc6-b277-401d-92ae-41328647d098",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "fd4a8f81-f65f-4e14-9fac-9e6ba8d66afc",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DP Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "853fc492-b546-4283-a9aa-ce37674874f2",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "no"
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1065.6,
+    "height": 574.9,
+    "depth": 353.7
+  },
+  "weight": {
+    "with_stand_kg": 15
+  },
+  "power_consumption": {
+    "typical_w": 60.27,
+    "manufacturer_max_w": 61.5,
+    "note": "Typical power consumption baseline operates at 60.27W during standard active operation. When pushed to maximum brightness settings under full panel load, power draw levels off at a maximum of 61.50W. These measurements exclude high-load external pass-through accessories, though the display includes an integrated USB-C video input port capable of delivering an additional standalone 30W Power Delivery branch to peripheral hardware. The total system safety profile is driven by a legacy external 240W power adapter brick."
+  },
   "max_brightness": 1000,
-  "hdr": "",
-  "adaptive_sync": "G-Sync Compatible",
+  "hdr": "HDR10",
+  "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Corsair XENEON FLEX 45\" WQHD 240Hz OLED Curved Monitor",
     "manufacturer": "Corsair",
@@ -31,14 +119,21 @@
     "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.corsair.com/us/en/p/monitors/cm-9030001-na/corsair-xeneon-flex-45wqhd240-45-inch-oled-3440-x1440-240hz-refresh-rate-bendable-gaming-monitor-cm-9030001-na?srsltid=AYCX9vJNrwpEFm6AJnG1zItKOEED26xXD5NBYqmMmhu7sE6N-ivYrDXP"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840006697121",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840006697121",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -62,6 +157,11 @@
       },
       {
         "type": "mpn",
+        "value": "RDD0022",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "XENEON FLEX 45WQHD240",
         "region": "all"
       },
@@ -69,6 +169,11 @@
         "type": "upc",
         "value": "840006697121",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006697121",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -178,6 +283,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6530600",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "corsair",
         "channel": "ca",
         "source_product_id": "CM-9030001-NA",
@@ -225,6 +337,13 @@
         "source_product_id": "CM-9030001-NA",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824710004",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "walmart",

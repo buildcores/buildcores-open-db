@@ -8,20 +8,133 @@
   "refresh_rate": 120,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz via TMDS); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output with MST (HDCP 1.4); 1x USB-C 10 Gbps upstream port (USB 3.2 Gen 2, data only); 3x USB-A 10 Gbps downstream ports (USB 3.2 Gen 2, including 1x with BC1.2 charging); 1x USB-C 10 Gbps downstream port with charging up to 15 W; 1x audio line-out port; power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "a5893892-9795-42d3-8a8f-fde068d8a0be",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8446d30b-4146-4093-b8e1-c7f12216b451",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 1.4 input; maximum supported mode is 1920 × 1080 at 120 Hz via TMDS."
+        }
+      ]
+    },
+    {
+      "id": "fcfc2050-ec20-40f0-b6a4-e6987c6b4ee0",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; supports DisplayPort Dynamic Refresh Rate (DRR) for Windows",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "319159fb-cc18-465e-8c80-2cefd62c738a",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; maximum preset resolution is 1920 × 1080 at 120 Hz."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "85d414ae-158e-4426-a0a9-87a7b6609811",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort output with Multi-Stream Transport (MST); HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "95fcbf8c-10e9-4071-be3b-41cd58b1c2ed",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 MST output; maximum supported mode depends on the connected host and MST configuration."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "499fe2b4-8af3-415f-9301-54e6265bf31a",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.52,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover; 100 × 100 mm mounting pattern",
+          "weight_kg": 3.52
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.64,
+    "height_min": 364,
+    "height_max": 496.53,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.64,
+    "height": 311.21,
+    "depth": 49.1
+  },
+  "weight": {
+    "with_stand_kg": 5.38,
+    "without_stand_kg": 3.52
+  },
+  "power_consumption": {
+    "typical_w": 13.7,
+    "manufacturer_max_w": 72,
+    "note": "13.7 W in On mode and 72 W maximum at maximum brightness and contrast with maximum power loading on all USB ports. Standby: 0.5 W; off mode: 0.3 W. ENERGY STAR On Mode power (Pon): 11.3 W."
+  },
+  "max_brightness": 250,
+  "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
     "name": "Dell UltraSharp 24 Monitor - U2424H",
     "manufacturer": "Dell",
     "part_numbers": ["210-bkrr", "2525d86546d43389", "U2424H"],
     "releaseYear": 2023,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-24-monitor-u2424h/u2424h_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -32,6 +145,11 @@
         "type": "ean",
         "value": "5397184821381",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5397184821381",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -52,6 +170,11 @@
         "type": "mpn",
         "value": "U2424H",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "U2424H",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -205,7 +328,7 @@
         "channel": "us",
         "source_product_id": "6577183",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

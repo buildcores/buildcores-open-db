@@ -1,8 +1,10 @@
 import { execFileSync } from "node:child_process";
+import { writeFileSync } from "node:fs";
 import { isDeepStrictEqual } from "node:util";
 import { pathToFileURL } from "node:url";
 
 const CATALOG_PATH = /^open-db\/[^/]+\/[^/]+\.json$/;
+const RETRY_PATH = /^sync-retries\/\d+\.json$/;
 const SYNC_WORKFLOW = "on-commit-to-main.yaml";
 const REPOSITORY = "buildcores/buildcores-open-db";
 const DATABASE_EXPORT_MESSAGE =
@@ -45,6 +47,92 @@ export function catalogChanges(base, head, cwd = process.cwd()) {
   return changes;
 }
 
+// Mirrors BuildCores' shared parts/legacy-identity.ts write guard. The canonical
+// identifiers wrapper is handled separately by the API and must not be scanned.
+export function legacyIdentityPaths(data, prefix = "") {
+  if (!data || typeof data !== "object") return [];
+  return Object.entries(data).flatMap(([key, value]) => {
+    const current = prefix ? `${prefix}.${key}` : key;
+    if (
+      key
+        .split(".")
+        .some((segment) =>
+          /^(asin|upc|ean|gtin|isbn|part_number|part_numbers|mpn|sku|skus|verified_skus)$|_(sku|skus|asin|upc|ean|gtin|mpn|part_number|part_numbers)$/.test(
+            segment.trim().toLowerCase(),
+          ),
+        )
+    )
+      return [current];
+    return legacyIdentityPaths(value, current);
+  });
+}
+
+function baselineCommit(base, file, cwd) {
+  return git(["log", "--first-parent", "-1", "--format=%H", base, "--", file], cwd).trim();
+}
+
+// An append-only retry plan is needed because correcting a failed addition
+// produces a Git modification, while the product still needs create-part.
+// Only the original creation with the deprecated mirror removed is replayable.
+export function createRetries(base, head, changes, cwd = process.cwd()) {
+  const fields = git(["diff", "--name-status", "-z", base, head, "--", "sync-retries/"], cwd).split(
+    "\0",
+  );
+  const retries = new Map();
+  for (let i = 0; i < fields.length - 1; ) {
+    const status = fields[i++];
+    const file = fields[i++];
+    if (status !== "A" || !RETRY_PATH.test(file)) {
+      throw new Error("Create retry plans must be new, run-numbered JSON files.");
+    }
+    const plan = JSON.parse(git(["show", `${head}:${file}`], cwd));
+    if (
+      !isDeepStrictEqual(Object.keys(plan).sort(), ["files", "source_commit", "source_run_id"]) ||
+      !/^[a-f0-9]{40}$/.test(plan.source_commit ?? "") ||
+      !Number.isSafeInteger(plan.source_run_id) ||
+      plan.source_run_id < 1 ||
+      file !== `sync-retries/${plan.source_run_id}.json` ||
+      !Array.isArray(plan.files) ||
+      plan.files.length === 0 ||
+      plan.files.length > 100
+    )
+      throw new Error("Invalid create retry plan.");
+    let sourceChanges;
+    for (const target of plan.files) {
+      const change = changes.find((entry) => entry.oldPath === target && entry.newPath === target);
+      if (!CATALOG_PATH.test(target) || retries.has(target) || !change?.before || !change.after) {
+        throw new Error("Each retry must target one modified catalog file exactly once.");
+      }
+      const before = structuredClone(change.before);
+      if (!Object.hasOwn(before.metadata ?? {}, "part_numbers") || !before.identifiers) {
+        throw new Error(
+          "Retry requires the original canonical identity and deprecated part-number mirror.",
+        );
+      }
+      delete before.metadata.part_numbers;
+      const { identifiers: _identifiers, ...catalog } = change.after;
+      if (!isDeepStrictEqual(before, change.after) || legacyIdentityPaths(catalog).length) {
+        throw new Error(
+          "Retry may only remove metadata.part_numbers; specs and canonical identity must be unchanged.",
+        );
+      }
+      if (baselineCommit(base, target, cwd) !== plan.source_commit) {
+        throw new Error("Retry source must be the trusted base commit that last changed the file.");
+      }
+      sourceChanges ??= catalogChanges(`${plan.source_commit}^`, plan.source_commit, cwd);
+      if (
+        !sourceChanges.some((entry) => entry.newPath === target && !entry.before && entry.after)
+      ) {
+        throw new Error(
+          "Retry source must have added the file, not updated or renamed an existing product.",
+        );
+      }
+      retries.set(target, plan);
+    }
+  }
+  return retries;
+}
+
 function version(snapshot) {
   return typeof snapshot?.expected_version === "number"
     ? snapshot.expected_version
@@ -74,6 +162,18 @@ export function validateChanges(changes) {
   }
   let deletes = 0;
   for (const { oldPath, newPath, before, after } of changes) {
+    if (
+      after &&
+      ((!before && !previousPaths.has(after.opendb_id)) ||
+        (before && oldPath !== newPath && before.opendb_id !== after.opendb_id))
+    ) {
+      const { identifiers: _identifiers, ...catalog } = after;
+      const legacy = legacyIdentityPaths(catalog);
+      if (legacy.length)
+        errors.push(
+          `${newPath}: new parts cannot contain legacy identity fields (${legacy.join(", ")}); use identifiers.identifiers and identifiers.retailer_listings.`,
+        );
+    }
     if (before && !after) {
       deletes++;
       continue;
@@ -155,6 +255,16 @@ export function validateSyncBaseline(runs, sha, databaseExport = false) {
   return null;
 }
 
+function validateRetryBaseline(runs, sha, runId) {
+  if (!Array.isArray(runs)) throw new Error("GitHub returned an invalid workflow-run response.");
+  const latest = runs
+    .filter((run) => run.head_sha === sha && run.event === "push" && run.head_branch === "main")
+    .sort((a, b) => b.id - a.id)[0];
+  return latest?.id === runId && latest.status === "completed" && latest.conclusion === "failure"
+    ? null
+    : "Create retry requires the specified latest completed failed main import; missing, pending, successful or unrelated runs cannot be bypassed.";
+}
+
 export async function getSyncRuns(sha, request = fetch) {
   const url = new URL(
     `https://api.github.com/repos/${REPOSITORY}/actions/workflows/${SYNC_WORKFLOW}/runs`,
@@ -190,6 +300,7 @@ export async function check({ base, head, cwd = process.cwd(), loadRuns = getSyn
       throw new Error("Base and head must be full commit SHAs.");
   }
   const changes = catalogChanges(base, head, cwd);
+  const retries = createRetries(base, head, changes, cwd);
   if (changes.length === 0) return { errors: [], deletes: 0, count: 0 };
   const result = validateChanges(changes);
   // Check the import or DB export that established each touched file, not just
@@ -198,10 +309,7 @@ export async function check({ base, head, cwd = process.cwd(), loadRuns = getSyn
   const baselines = new Map();
   for (const change of changes) {
     if (!change.before) continue;
-    const sha = git(
-      ["log", "--first-parent", "-1", "--format=%H", base, "--", change.oldPath],
-      cwd,
-    ).trim();
+    const sha = baselineCommit(base, change.oldPath, cwd);
     if (!sha) throw new Error("Cannot find the base catalog commit.");
     if (!baselines.has(sha)) baselines.set(sha, []);
     baselines.get(sha).push(change.oldPath);
@@ -209,17 +317,27 @@ export async function check({ base, head, cwd = process.cwd(), loadRuns = getSyn
   if (baselines.size > 100)
     throw new Error("Split this PR: more than 100 distinct import baselines need verification.");
   for (const [sha, files] of baselines) {
-    const baselineError = validateSyncBaseline(
-      await loadRuns(sha),
-      sha,
-      isDatabaseExport(sha, cwd),
+    const runs = await loadRuns(sha);
+    const retryRunIds = new Set(
+      files.filter((file) => retries.has(file)).map((file) => retries.get(file).source_run_id),
     );
+    for (const runId of retryRunIds) {
+      const error = validateRetryBaseline(runs, sha, runId);
+      if (error) result.errors.push(error);
+    }
+    const ordinaryFiles = files.filter((file) => !retries.has(file));
+    if (!ordinaryFiles.length) continue;
+    const baselineError = validateSyncBaseline(runs, sha, isDatabaseExport(sha, cwd));
     if (baselineError)
       result.errors.push(
-        `${baselineError} Affects ${files.length} touched base files, including ${files[0]}.`,
+        `${baselineError} Affects ${ordinaryFiles.length} touched base files, including ${ordinaryFiles[0]}.`,
       );
   }
-  return { ...result, count: changes.length };
+  return {
+    ...result,
+    count: changes.length,
+    ...(retries.size ? { createRetries: [...retries.keys()] } : {}),
+  };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
@@ -229,6 +347,12 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       `Sync preflight: ${result.count} catalog changes, ${result.deletes} deletes, ${result.errors.length} errors.`,
     );
     for (const error of result.errors) console.log(JSON.stringify(error));
+    if (process.argv[4] === "--create-retries-file" && process.argv[5] && !result.errors.length) {
+      writeFileSync(
+        process.argv[5],
+        (result.createRetries ?? []).map((file) => `${file}\n`).join(""),
+      );
+    }
     if (result.count > 0) {
       console.log(
         "Repository/CI preflight only: no production API calls. Live existence, out-of-band identity changes and post-check races are not verified.",

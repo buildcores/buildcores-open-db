@@ -1,11 +1,17 @@
 {
   "opendb_id": "93d9cf86-ee0b-4c53-8a58-a4e50f5350fa",
+  "weight": 212,
   "size": 120,
-  "color": [],
-  "lighting": [],
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "quantity": 1,
+  "min_airflow": 85,
+  "min_noise_level": 33,
   "pwm": true,
-  "connector": "ASUS proprietary daisy-chain connector (dedicated ROG fan hub required)",
+  "led": "Addressable RGB",
+  "connector": "Proprietary",
+  "controller": "None",
+  "static_pressure": 4.5,
   "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
@@ -15,10 +21,20 @@
     "series": "ROG Eurux GR120",
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/cooling/fans/rog-eurux-gr120-argb-fan-white-edition-single-pack/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBTK0KZD5858",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

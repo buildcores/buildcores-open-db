@@ -3,21 +3,27 @@
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5090",
   "core_count": 21760,
-  "core_base_clock": 2482,
+  "core_base_clock": 2017,
+  "core_boost_clock": 2512,
   "memory": 32,
   "memory_type": "GDDR7",
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 512,
   "tdp": 575,
   "interface": "PCIe 5.0 x16",
   "color": ["BLACK"],
   "lighting": ["None"],
   "length": 304,
-  "case_expansion_slot_width": 2.5,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "power_connectors": {
-    "pcie_8_pin": 2
+    "pcie_12V_2x6": 1
+  },
+  "video_outputs": {
+    "hdmi_2_1b": 1,
+    "displayport_2_1_b": 2,
+    "usb_c": 1
   },
   "display_outputs": [
     {
@@ -49,8 +55,19 @@
     "manufacturer_url": "https://www.asus.com/us/motherboards-components/graphics-cards/proart/proart-rtx5090-o32g/techspec/"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291536869",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291536869",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

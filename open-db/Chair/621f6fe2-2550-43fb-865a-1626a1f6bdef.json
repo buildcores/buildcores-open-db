@@ -1,5 +1,25 @@
 {
   "opendb_id": "621f6fe2-2550-43fb-865a-1626a1f6bdef",
+  "seat_height_range_mm": {
+    "min": 480,
+    "max": 580
+  },
+  "seat_dimensions_mm": {
+    "width": 570,
+    "depth": 440
+  },
+  "dimensions_mm": {
+    "width": 556,
+    "depth": 440,
+    "height_min": 1290,
+    "height_max": 1390
+  },
+  "max_user_weight_kg": 120,
+  "weight_kg": 21.3,
+  "seat_surface_materials": ["Fabric"],
+  "backrest_surface_materials": ["Fabric"],
+  "armrest_adjustability": "MultiDirectional",
+  "lumbar_support": "Adjustable",
   "metadata": {
     "name": "Corsair T3 RUSH Fabric Gaming Chair (2023) Grey/Charcoal",
     "manufacturer": "Corsair",
@@ -7,18 +27,34 @@
       "CF-9010056-WW",
       "T3 RUSH",
       "T3 RUSH Fabric Gaming Chair (2023) - Grey/Charcoal"
-    ]
+    ],
+    "releaseYear": 2023
   },
   "general_product_information": {
     "manufacturer_url": "https://www.corsair.com/us/en/p/gaming-chairs/cf-9010056-ww/t3-rush-fabric-gaming-chair-2023-grey-charcoal-cf-9010056-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840006695776",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "CF-9010056-UK",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "CF-9010056-WW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CF-9010056-WW",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -34,9 +70,21 @@
         "type": "upc",
         "value": "140006695784",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006695776",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BM4Z8345",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "corsair",
         "channel": "ca",
@@ -91,7 +139,7 @@
         "channel": "us",
         "source_product_id": "3602550519",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

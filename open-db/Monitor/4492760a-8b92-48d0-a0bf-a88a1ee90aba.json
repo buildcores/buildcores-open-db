@@ -7,20 +7,119 @@
   },
   "refresh_rate": 60,
   "panel_type": "VA",
-  "color": [],
-  "lighting": [],
-  "metadata": {
-    "name": "Samsung M8 M80F 32-inch Smart AI Monitor 4K UHD - Warm White",
-    "manufacturer": "Samsung",
-    "part_numbers": ["e85035482fb7416f"]
+  "response_time": 4,
+  "color": ["WHITE"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 1,
+    "usb_c": 1
   },
-  "general_product_information": {},
+  "connectors": "1 × HDMI 2.0 input; 1 × USB-C upstream port with DisplayPort video input support and up to 65 W power delivery; USB-A downstream ports; AC power input.",
+  "display_inputs": [
+    {
+      "id": "2a36065d-be32-4a3c-a9e0-49bca7bf8734",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "63e325c8-2ad2-4f6e-94e8-a9ff0048ed6a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "4K UHD at up to 60 Hz. HDR10 and HDR10+ are supported."
+        }
+      ]
+    },
+    {
+      "id": "ab6aa1a7-4fd2-4b9e-8ebb-9a572e0bfcae",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C; DisplayPort Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "c55a9fa4-57b0-48f0-80df-49c43319bdf6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "USB-C video input via DisplayPort Alt Mode; up to 4K UHD at 60 Hz. USB-C supports up to 65 W power delivery."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "4aac6b8c-47d9-4cb3-a6c9-8651b03e5fb7",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "M4 screws; length 5.8–7.8 mm"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 713.4,
+    "height": 616.2,
+    "height_min": 496.2,
+    "height_max": 736.2,
+    "depth": 200.1
+  },
+  "dimensions_without_stand_mm": {
+    "width": 713.4,
+    "height": 423.8,
+    "depth": 24.5
+  },
+  "weight": {
+    "with_stand_kg": 7,
+    "without_stand_kg": 4
+  },
+  "power_consumption": {
+    "typical_w": 65,
+    "manufacturer_max_w": 140,
+    "note": "Samsung specifies typical power consumption of 65 W and maximum power consumption of 140 W. Power supply: AC 100–240 V, external adapter. USB-C supports up to 65 W power delivery; the manufacturer does not specify whether USB-C power delivery is included in the maximum power figure."
+  },
+  "max_brightness": 400,
+  "hdr": "HDR10; HDR10+ Certified",
+  "adaptive_sync": "None",
+  "metadata": {
+    "name": "Samsung M8 M80F 32-inch Smart AI Monitor 4K UHD - White",
+    "manufacturer": "Samsung",
+    "part_numbers": ["e85035482fb7416f"],
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/ph/monitors/smart/smart-monitor-m8-32-inch-samsung-vision-ai-4k-uhd-ls32fm803uexxp/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "e85035482fb7416f",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "LS32FM803UEXXP",
         "region": "all"
       }
     ],

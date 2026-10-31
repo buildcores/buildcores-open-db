@@ -1,15 +1,32 @@
 {
   "opendb_id": "484a47cf-077b-4b20-b8b3-7de452be7cc5",
+  "weight": 246,
+  "fixture_kind": "Light Panel",
+  "color": ["WHITE"],
+  "white_light_mode": "Tunable White",
+  "colored_light_mode": "No Colored Light",
+  "white_color_temperature_k": {
+    "min": 2900,
+    "max": 7000
+  },
+  "max_power_consumption_w": 15,
   "metadata": {
     "name": "Elgato Key Light Neo",
     "manufacturer": "Elgato",
     "part_numbers": ["10LAJ9901", "10LAJ9911"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/key-light-neo?srsltid=AYCX9vIe5IonlgR5-SOHv5KGakl3SepuCi7sGtsGf1ftoncZhzYUE7kq"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840440496403",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "10LAJ9901",
@@ -21,16 +38,45 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "10LAL9901",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "20LAL9901",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840440488736",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840440496403",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FHQSVPVL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bestbuy",
         "channel": "us",
         "source_product_id": "6587472",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ELKLNEO",
         "pricing_enabled": true,
         "verified": true
       }

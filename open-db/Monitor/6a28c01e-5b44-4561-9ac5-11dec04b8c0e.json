@@ -9,15 +9,120 @@
   "panel_type": "IPS",
   "response_time": 8,
   "mprt_response_time": 1,
-  "color": ["BLACK"],
+  "color": ["BLACK", "WHITE"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 1,
-    "displayport_1_4a": 1
+    "usb_c": 1
   },
   "connectors": "1 x HDMI                                                           1 x DisplayPort",
+  "display_inputs": [
+    {
+      "id": "c2f35bfe-be8f-448b-80e0-ab6903947b2c",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "3357bfaa-0226-46c8-bc92-eaba15991f51",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Supports up to QHD 2560 x 1440 at 144Hz with Variable Refresh Rate (VRR) / AMD FreeSync. All inputs are bounded by HDCP 1.4 compliance limits."
+        }
+      ]
+    },
+    {
+      "id": "7cac72e9-914f-4cf9-b9cb-529329913d08",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "322ffec4-d328-4a8a-bbf7-c18fa2c8c925",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    },
+    {
+      "id": "829a3976-3f52-4b6f-b931-3d3655601665",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "2af954ee-3b28-4f69-a225-3dc5bd1f15fa",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "0400179b-1ec9-49a9-b801-f60f35efb37d",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.62,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 x 10 mm screws (Standard machine screws used to mount the VESA bracket directly into the 4 internal structural holes behind the native stand release plate)",
+          "weight_kg": 4.62
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.34,
+    "height": 500.13,
+    "height_min": 390.13,
+    "height_max": 500.13,
+    "depth": 201.83
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611.34,
+    "height": 355.98,
+    "depth": 58.87
+  },
+  "weight": {
+    "with_stand_kg": 6.48,
+    "without_stand_kg": 4.62
+  },
+  "power_consumption": {
+    "typical_w": 21.4,
+    "manufacturer_max_w": 175,
+    "note": "Typical power consumption is evaluated in standard operating On-Mode (with no downstream device loads). Maximum power consumption is measured with maximum luminance, contrast set to peak limits, built-in dual 3W speakers active, and the integrated USB Hub processing full delivery thresholds, including up to 65W Power Delivery over the upstream USB-C port and 15W power delivery over the front-facing downstream USB-C quick access port."
+  },
   "max_brightness": 350,
   "hdr": "SDR",
   "adaptive_sync": "FreeSync Premium",
@@ -28,14 +133,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-27-plus-qhd-usb-c-monitor-s2725dc/s2725dc/-#techspecs_section"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116691426",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116691426",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -44,13 +156,28 @@
       },
       {
         "type": "mpn",
+        "value": "CGHVY",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S2725DC",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S2725DC",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116691426",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116691426",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -156,6 +283,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0GD21577Z",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC57KM7M3510",
         "pricing_enabled": true,
         "verified": true
       },

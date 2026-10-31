@@ -41,12 +41,17 @@
     "manufacturer_url": "https://phanteks.com/product/nv5-white/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0886523302957",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0886523302957",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,9 +64,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PH-NV523TG_DMW01",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "886523302957",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "886523302957",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -213,6 +228,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811854129",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "3024776",
@@ -224,7 +246,7 @@
         "channel": "us",
         "source_product_id": "5075519743",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

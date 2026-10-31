@@ -1,5 +1,24 @@
 {
   "opendb_id": "1f753aef-736d-44b3-96d7-895a28dd5106",
+  "weight": 3530,
+  "display_mount_kind": "monitor_arm",
+  "display_mount_vesa_patterns": [
+    {
+      "width_mm": 100,
+      "height_mm": 100
+    },
+    {
+      "width_mm": 75,
+      "height_mm": 75
+    }
+  ],
+  "min_supported_display_weight_kg": 9.97,
+  "max_supported_display_weight_kg": 19.94,
+  "max_total_display_weight_kg": 19.94,
+  "supported_display_count": 2,
+  "host_attachment_methods": ["desk_clamp", "grommet"],
+  "min_clamp_thickness_mm": 9.906,
+  "max_clamp_thickness_mm": 107.95,
   "metadata": {
     "name": "Amazon Basics Dual Monitor Arm Mount for 15–32-inch Displays",
     "manufacturer": "Amazon Basics",
@@ -11,8 +30,32 @@
     "manufacturer_url": "https://www.amazon.com/dp/B0CQTPZNV8"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840324414615",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "DS-MA-E02",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840324414615",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CQTPZNV8",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

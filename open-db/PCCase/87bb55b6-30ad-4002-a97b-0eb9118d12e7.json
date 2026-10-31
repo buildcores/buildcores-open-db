@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c7-argb-white"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345101363",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345101363",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -61,6 +66,11 @@
       },
       {
         "type": "mpn",
+        "value": "C7 ARGB W",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C7-ARGB-W",
         "region": "all"
       },
@@ -68,6 +78,11 @@
         "type": "upc",
         "value": "761345101363",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345101363",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -209,14 +224,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129319",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129319",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -279,7 +294,7 @@
         "channel": "us",
         "source_product_id": "11212611436",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

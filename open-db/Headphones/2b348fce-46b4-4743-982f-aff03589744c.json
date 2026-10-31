@@ -8,13 +8,20 @@
   "weight": 285,
   "frame_material": "Plastic",
   "ear_pad_material": ["Fabric", "Memory Foam"],
-  "connection_types": ["Wireless 2.4GHz", "Bluetooth", "USB-C"],
+  "connection_types": ["Wireless 2.4GHz", "Bluetooth", "Wired USB-C Audio"],
   "battery_life": 70,
   "bluetooth_version": "5.3",
   "charging_port": "USB-C",
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
+  "latency": 20,
   "has_microphone": true,
   "microphone_type": "Detachable Boom",
-  "noise_cancellation_mic": true,
+  "noise_cancellation_mic": false,
   "features": ["Spatial Audio", "Multi-Device Pairing", "App Support", "EQ Customization"],
   "use_cases": ["Gaming", "Casual"],
   "platforms": ["PC", "Console", "Mobile"],
@@ -28,15 +35,20 @@
     "releaseYear": 2024
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.razer.com/gaming-headsets/razer-barracuda-x-chroma-white"
+    "manufacturer_url": "https://www.razer.com/ap-en/gaming-headsets/razer-barracuda-x-chroma?page=tech-specs"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840272916865",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840272916865",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -49,9 +61,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "RZ04-05220200-R3U1",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840272916865",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840272916865",
+        "region": "us"
       }
     ],
     "retailer_listings": [

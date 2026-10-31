@@ -5,24 +5,86 @@
     "horizontalRes": 2560,
     "verticalRes": 1440
   },
-  "refresh_rate": 240,
+  "refresh_rate": 260,
+  "native_refresh_activation": "overclock",
+  "alternate_display_modes": [
+    {
+      "id": "2e4a64f4-e348-44a1-9ee3-0def51c616a4",
+      "resolution": {
+        "horizontalRes": 2560,
+        "verticalRes": 1440
+      },
+      "refresh_rate": 240,
+      "activation": "overclock"
+    }
+  ],
   "panel_type": "IPS",
-  "response_time": 0.3,
-  "color": [],
-  "lighting": [],
+  "response_time": 1,
+  "mprt_response_time": 0.3,
+  "color": ["BLACK", "RED"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
-  "connectors": "HDMI, DisplayPort",
-  "hdr": "HDR",
+  "video_outputs": {
+    "hdmi_2_0": 1,
+    "displayport_1_4a": 1
+  },
+  "connectors": "2 x HDMI 2.0                                                     1 x DisplayPort 1.4",
+  "display_inputs": [
+    {
+      "id": "92a643c0-1211-43af-bbc7-efee2b2164a6",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "9d7f04c9-88a4-4ba2-b2fe-96c2704dd926",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "no"
+  },
+  "dimensions_with_stand_mm": {
+    "width": 613.9,
+    "height": 449.4,
+    "depth": 189.7
+  },
+  "dimensions_without_stand_mm": {
+    "width": 613.9,
+    "height": 449.4,
+    "depth": 52.7
+  },
+  "weight": {
+    "with_stand_kg": 3.84,
+    "without_stand_kg": 3.45
+  },
+  "power_consumption": {
+    "typical_w": 35,
+    "manufacturer_max_w": 56
+  },
+  "max_brightness": 300,
+  "hdr": "HDR Ready",
   "adaptive_sync": "G-Sync Compatible",
   "metadata": {
     "name": "AOC Q27G41ZE 27-inch QHD 240Hz IPS Monitor G-Sync",
     "manufacturer": "AOC",
     "part_numbers": ["Q27G41ZE"],
-    "series": "Q27G41ZE"
+    "variant": "Q27G41ZE",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.aoc.com/us/gaming/monitors/q27g41ze"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -30,14 +92,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0685417742783",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "Q27G41ZE",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "Q27G41ZE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "685417742783",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "685417742783",
+        "region": "us"
       }
     ],
     "retailer_listings": [

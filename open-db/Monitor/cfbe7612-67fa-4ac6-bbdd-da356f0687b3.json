@@ -7,10 +7,144 @@
   },
   "refresh_rate": 100,
   "panel_type": "IPS",
-  "color": ["BLACK"],
+  "response_time": 8,
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 1
+  },
+  "connectors": "1x HDMI input (HDCP 1.4; supports up to QHD 2560 × 1440 at 100 Hz TMDS); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output with MST (HDCP 1.4); 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode; USB Power Delivery up to 90 W); 3x USB-A 5 Gbps downstream ports; 1x USB-C 5 Gbps downstream port (data only; Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet port; power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "e25eb3ed-4258-478d-92e1-3d3ebfc783a3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "5597b985-5b57-4746-840b-153ecd466bca",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports QHD 2560 × 1440 at 100 Hz via TMDS."
+        }
+      ]
+    },
+    {
+      "id": "efa0654f-125c-402f-92a0-5fff42cc92c8",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "20725a1a-5d23-4d2d-b49d-42e320d61b8e",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports QHD 2560 × 1440 at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "34810767-8e0b-4ba7-b4fc-c6bd4b37862e",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB Power Delivery up to 90 W; USB data up to 5 Gbps",
+      "mode_claims": [
+        {
+          "id": "f3f8f611-cdb9-4058-99b9-d5f2c6db1115",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Supports QHD 2560 × 1440 at 100 Hz via DisplayPort 1.4 Alt Mode."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "e44408eb-aebb-40cb-baa9-3ecd0690aecb",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "MST (Multi-Stream Transport); HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "55547686-40a1-4d52-a82d-053c6a906020",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort output supports MST. Maximum external-display resolution and refresh rate can depend on the connected displays and MST configuration; do not assume 2560 × 1440 at 100 Hz is guaranteed for every daisy-chain setup."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ec1dde78-29b6-4637-a741-5f3e301fda3e",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.63,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA-compatible mounting kit; four M4 × 10 mm screws",
+          "weight_kg": 6.63
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 713.4,
+    "height": 619,
+    "height_min": 469,
+    "height_max": 619,
+    "depth": 215
+  },
+  "dimensions_without_stand_mm": {
+    "width": 713.4,
+    "height": 413.15,
+    "depth": 49.95
+  },
+  "weight": {
+    "with_stand_kg": 9.49,
+    "without_stand_kg": 6.63
+  },
+  "power_consumption": {
+    "typical_w": 23.1,
+    "manufacturer_max_w": 192,
+    "note": "On-mode power consumption: 23.1 W. Maximum power consumption: 192 W at maximum brightness and contrast with maximum power loading on all USB ports. USB-C upstream Power Delivery supports up to 90 W; downstream USB-C Power Delivery supports up to 15 W."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 32 Plus QHD USB-C Hub Monitor - P3225DE",
     "manufacturer": "Dell",
@@ -18,9 +152,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-32-plus-qhd-usbc-hub-monitor-p3225de/p3225de/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -28,9 +164,9 @@
         "region": "all"
       },
       {
-        "type": "mpn",
-        "value": "1cf9d4ae78f34365",
-        "region": "all"
+        "type": "ean",
+        "value": "0884116487531",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -43,9 +179,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "R02G3",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116487531",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116487531",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -167,6 +313,13 @@
         "source_product_id": "DEP3225DE",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBZ5KM7N5881",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "walmart",

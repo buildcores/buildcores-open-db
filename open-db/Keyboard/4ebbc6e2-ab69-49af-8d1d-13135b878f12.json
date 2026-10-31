@@ -1,17 +1,34 @@
 {
   "opendb_id": "4ebbc6e2-ab69-49af-8d1d-13135b878f12",
+  "weight": 880,
+  "switch": "Razer Analog Optical Switch Gen-2",
+  "switch_type": "Linear",
+  "size": "Full Size",
   "layout": "ANSI",
-  "features": [],
-  "connectivity": [],
+  "hot_swappable": false,
+  "backlighting": "RGB",
+  "features": ["Knob"],
+  "connectivity": ["Wired USB-C"],
+  "keycap_material": "Doubleshot PBT",
+  "frame_material": "Brushed Aluminum",
+  "polling_rate": 1000,
   "metadata": {
     "name": "Razer Huntsman V3 Pro RGB Wired Optical-Mechanical Gaming Keyboard",
     "manufacturer": "Razer",
-    "part_numbers": ["RZ03-04970100-R3U1", "RZ03-04970100-R3M1"]
+    "part_numbers": ["RZ03-04970100-R3U1", "RZ03-04970100-R3M1"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.razer.com/gaming-keyboards/razer-huntsman-v3-pro?srsltid=AYCX9vJAaXYccJ5v-7OwQcEgyaZbU0zpjtAbCa-tC8w28C-GrkSpOPA4"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840272909362",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RZ03-04970100-R3M1",
@@ -21,8 +38,40 @@
         "type": "mpn",
         "value": "RZ03-04970100-R3U1",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ03-04970200-R3U1",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840272909362",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CG7FQML2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16823114132",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5109506432",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

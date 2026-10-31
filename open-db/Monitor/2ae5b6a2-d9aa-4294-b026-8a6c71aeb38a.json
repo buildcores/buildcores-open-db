@@ -7,17 +7,90 @@
   },
   "refresh_rate": 100,
   "panel_type": "IPS",
-  "color": [],
-  "lighting": [],
+  "response_time": 8,
+  "color": ["WHITE", "BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "connectors": "2 × HDMI 1.4 (HDCP 1.4), power connector, Kensington security-lock slot, integrated 2 × 5 W speakers",
+  "display_inputs": [
+    {
+      "id": "b58d9994-df3a-4ede-94a6-eb09fece3fa2",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "666cf217-cc64-4eaf-9bf5-e1a2bd8fbca3",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "7e844683-8e58-487f-b630-0b0b3658151a",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.3,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "VESA screw holes (M4 x 10 mm) (Standard screws used to attach a VESA-compliant mounting kit to the monitor panel)",
+          "weight_kg": 4.3
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609.69,
+    "height": 452.21,
+    "depth": 176.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609.69,
+    "height": 354.21,
+    "depth": 59.04
+  },
+  "weight": {
+    "without_stand_kg": 4.3
+  },
+  "power_consumption": {
+    "typical_w": 17,
+    "manufacturer_max_w": 45,
+    "note": "Typical power consumption is measured in standard On-Mode operation. Maximum power consumption is measured with maximum luminance, built-in 2x 5W dual speakers active, and test patterns processing. This monitor uses an internal AC-DC power supply structure and lacks USB Power Delivery down-streaming capability."
+  },
+  "max_brightness": 300,
+  "hdr": "SDR",
+  "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "Dell 27 Monitor S2725H",
     "manufacturer": "Dell",
-    "part_numbers": ["210 bmgy", "210-bmgy", "4bf722f4140dab60"]
+    "part_numbers": ["210 bmgy", "210-bmgy", "4bf722f4140dab60"],
+    "releaseYear": 2024,
+    "manufacturer_color": "Ash White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-ca/shop/dell-27-monitor-s2725h/apd/210-bmgy/monitors-monitor-accessories"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0884116465089",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "210 bmgy",
@@ -30,10 +103,49 @@
       },
       {
         "type": "mpn",
-        "value": "4bf722f4140dab60",
-        "region": "all"
+        "value": "JK9NN",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "S2725H",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "884116465089",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CZ1WDSSS",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6619102",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC0T2KG07854",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5438541216",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

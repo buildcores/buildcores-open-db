@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.bequiet.com/en/case/5325"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,9 +50,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4260052191835",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "BGW75",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BGW75",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -202,6 +212,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12202126",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "BEBGW75",
@@ -269,14 +286,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811734016",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811734016",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -354,6 +371,13 @@
         "source_product_id": "3340312",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "14670718592",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

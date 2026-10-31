@@ -1,13 +1,68 @@
 {
   "opendb_id": "711b741a-95cf-4d70-8e1e-2526f3c10a41",
-  "lighting": [],
+  "weight": 3070,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BROWN"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "824b3c74-8ec4-4d5b-b00f-93b205f37e68",
+      "role": "Speaker",
+      "component_label": "Speaker",
+      "quantity": 2,
+      "weight_g": 1.535,
+      "dimensions_mm": {
+        "width": 100,
+        "height": 168,
+        "depth": 147
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "audio_input_paths": [
+    {
+      "id": "972091e4-d843-4082-a539-e5fac3181b9d",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN",
+      "source_side_connector": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "lnput Sensitivity: 500 ± 50mV"
+    },
+    {
+      "id": "bdf065b4-e1fa-4792-a252-54750af796a7",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type - C Port",
+      "source_side_connector": "USB Type - C",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "lnput Sensitivity: 450 ± 50mFFS"
+    },
+    {
+      "id": "fa1075b9-0296-460b-a3a8-fe76267d2a56",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "lnput Sensitivity: 450 ± 50mFFS"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "6fa8543e-399c-4a93-a386-f0fe520da5f5",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Speaker",
+      "connector": "Double Barrel"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Edifier M60 Multimedia Speaker Bluetooth 5.3",
+    "name": "Edifier M60 Classic Oak",
     "manufacturer": "Edifier",
     "part_numbers": [],
-    "series": "Edifier M60 Multimedia Speaker Bluetooth 5.3"
+    "series": "M60",
+    "variant": "Classic Oak",
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.edifier.com/global/p/computer-speakers/m60"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

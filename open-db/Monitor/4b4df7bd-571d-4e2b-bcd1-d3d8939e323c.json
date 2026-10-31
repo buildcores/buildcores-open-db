@@ -6,14 +6,97 @@
     "verticalRes": 1440
   },
   "refresh_rate": 180,
+  "native_refresh_activation": "automatic",
   "panel_type": "VA",
   "response_time": 1,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 1.4",
-  "hdr": "",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 HDMI ports (HDCP 1.4 & 2.3) (Supports up to QHD 2560 x 1440, 144 Hz, 10 bit, TMDS, HDR, VRR as per specified in HDMI 2.1) 1 DisplayPort 1.4 (HDCP 1.4 & 2.3) (Supports up to 2560 x 1440, 180 Hz, HDR, VRR) 1 USB 5Gbps Type-A downstream port with Battery Charging 1.2 1 USB 5Gbps Type-A downstream port 1 USB 5Gbps Type-B upstream port",
+  "display_inputs": [
+    {
+      "id": "3febd4ef-95ec-4c7c-9ce7-c461c91a0494",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "ce61e3c4-23cb-4bc7-baf1-d44b010980ff",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 180,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "HDCP 1.4 & 2.3, VRR supported"
+        }
+      ]
+    },
+    {
+      "id": "0091dce2-4f48-4493-9406-d4d072b10f32",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "71e4dad6-ed26-442c-a67a-26a5fea2163c",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "TMDS, 10-bit color, HDCP 1.4 & 2.3, VRR supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "add5668b-6ee9-4fcd-9eb4-d8d562329cae",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.58,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 x 10 mm screws"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 707.42,
+    "height": 583.33,
+    "height_min": 473.75,
+    "height_max": 583.33
+  },
+  "dimensions_without_stand_mm": {
+    "width": 707.42,
+    "height": 418.67,
+    "depth": 121.65
+  },
+  "weight": {
+    "with_stand_kg": 9.62,
+    "without_stand_kg": 6.58
+  },
+  "power_consumption": {
+    "typical_w": 33,
+    "manufacturer_max_w": 90,
+    "note": "33 W operating/typical power consumption, max 90 W. Power consumption values include USB connectivity with 1x USB 5Gbps Type-A downstream port with BC1.2 charging."
+  },
+  "max_brightness": 400,
+  "hdr": "VESA DisplayHDR 400",
   "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "Dell Alienware AW3225DM 31.5\" 1440p 180Hz VA Curved Monitor",
@@ -24,9 +107,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/alienware-32-gaming-monitor-aw3225dm/aw3225dm/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -39,14 +124,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "5397184962725",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "AW3225DM",
         "region": "all"
       },
       {
         "type": "mpn",
+        "value": "AW3225DM",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "MRM12",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MRM12",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -243,6 +343,13 @@
         "source_product_id": "GAME-AW3225DM",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAET8M8D4774",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",

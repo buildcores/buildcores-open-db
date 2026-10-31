@@ -8,9 +8,130 @@
   "refresh_rate": 60,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "32:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 4
+  },
+  "connectors": "2 × HDMI 2.1 inputs (HDCP 2.2; supports up to 5120 × 1440 at 60 Hz using FRL); 1 × DisplayPort 1.4 input (HDCP 2.2; supports up to 5120 × 1440 at 60 Hz); 1 × USB-C upstream port (video and data, DisplayPort 1.4 Alt Mode, Power Delivery up to 90 W); 1 × USB-C upstream port (data only, USB 3.2 Gen 2, 10 Gbps); 4 × USB-A downstream ports (USB 3.2 Gen 2, 10 Gbps); 1 × USB-A downstream port with BC 1.2 charging (up to 2 A); 2 × USB-C downstream ports (USB 3.2 Gen 2, 10 Gbps, charging up to 15 W each); 1 × RJ45 Ethernet port (2.5GbE); 1 × audio line-out port; power connector; security-lock slot; stand-lock feature; built-in speakers (2 × 9 W).",
+  "display_inputs": [
+    {
+      "id": "d6a11b68-d015-4481-8037-c09333c16307",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDMI input, HDCP 2.2; supports up to 5120 × 1440 at 60 Hz using FRL",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9d9f893e-cb36-4103-a9da-4f04194f69b8",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 2.1 input; maximum preset resolution at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "d7506ba6-8199-42ca-b64f-6f44c66e47a7",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort input, HDCP 2.2",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4a13ac5f-ac54-47bd-b279-783c8cf718ee",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; maximum preset resolution at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "34340828-16e6-47ca-9cf0-7eaec05dbb7c",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C upstream, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB-C video/data upstream input; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b42e08b7-bbcf-41f5-b02b-c6e46950da44",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C DisplayPort 1.4 Alt Mode; maximum preset resolution at 60 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "a4270050-c9f7-4bb4-be32-ff361f84329c",
+        "pattern": "200x100",
+        "mounted_weight_kg": 12.15,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover; supports 200 × 100 mm mounting pattern",
+          "weight_kg": 12.15
+        }
+      },
+      {
+        "id": "15489a34-d412-4ed5-950c-9d0f9aa91b66",
+        "pattern": "100x100",
+        "mounted_weight_kg": 12.15,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind the attached VESA cover; supports 100 × 100 mm mounting pattern",
+          "weight_kg": 12.15
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1214.9,
+    "height_min": 400.57,
+    "height_max": 520.57,
+    "depth": 269.14
+  },
+  "dimensions_without_stand_mm": {
+    "width": 1214.9,
+    "height": 365.95,
+    "depth": 112.09
+  },
+  "weight": {
+    "with_stand_kg": 16.3,
+    "without_stand_kg": 12.15
+  },
+  "power_consumption": {
+    "typical_w": 45,
+    "manufacturer_max_w": 290,
+    "note": "Manufacturer specifies 45 W in on mode and 290 W maximum at maximum brightness and contrast with maximum power loading on all USB ports. The 290 W value is not explicitly labelled as peak power. ENERGY STAR P_on: 47.86 W. Standby: 0.3 W; off mode: 0.3 W; networked standby: 1.0 W."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell UltraSharp 49 Curved USB-C Hub Monitor U4924DW",
     "manufacturer": "Dell",
@@ -18,14 +139,21 @@
     "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-49-curved-usb-c-hub-monitor-u4924dw/u4924dw_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116442394",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116442394",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -44,6 +172,11 @@
       },
       {
         "type": "mpn",
+        "value": "DELL-U4924DW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "fcff4ae490afd94e",
         "region": "all"
       },
@@ -53,9 +186,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "U4924DW",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116442394",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116442394",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -198,6 +341,13 @@
         "source_product_id": "55307549540734",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12587997",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",

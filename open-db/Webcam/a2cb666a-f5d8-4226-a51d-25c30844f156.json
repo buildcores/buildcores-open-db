@@ -1,9 +1,42 @@
 {
   "opendb_id": "a2cb666a-f5d8-4226-a51d-25c30844f156",
+  "weight": 162,
   "resolution": "1080p",
   "resolution_other": "720p",
   "frame_rate": "30fps",
   "frame_rate_other": "60fps, 30fps",
+  "capture_mode_claims": [
+    {
+      "id": "e0070eac-79d4-45c9-ad81-ab665130aa0e",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "maximum_at_resolution",
+      "conditions": "Supports full HD glass lens video tracking; H.264 stream optimization."
+    },
+    {
+      "id": "4f1a5cc6-7320-443e-bb06-1e7317da5303",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "Hyper-fast stream configuration for smooth gaming broadcasts without motion blur."
+    },
+    {
+      "id": "b14c9c6d-4b17-4d84-91bc-96938c103a46",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "• Standard bandwidth mode compatible with default conferencing tools."
+    }
+  ],
   "connectivity_type": ["Wired", "Wired USB-A", "Wired USB-C"],
   "lighting": ["None"],
   "metadata": {
@@ -12,7 +45,9 @@
     "part_numbers": ["960-001087"],
     "releaseYear": 2016
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-ph/shop/p/c922-pro-stream-webcam.960-001090"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -7,10 +7,121 @@
   },
   "refresh_rate": 100,
   "panel_type": "IPS",
-  "color": ["BLACK"],
+  "response_time": 8,
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 2.1 input (HDCP 2.3; supports up to 3840 × 2160 at 100 Hz via FRL); 1x DisplayPort 1.4 input (HDCP 2.3; supports up to 3840 × 2160 at 100 Hz); 1x USB-C 5 Gbps upstream (DisplayPort 1.4 Alt Mode; USB Power Delivery up to 90 W); 3x USB-A 5 Gbps downstream; 1x USB-C 5 Gbps downstream (data only; Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet; power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "bfa6bc28-28f5-4053-b396-0d171b7a3884",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 2.3",
+      "mode_claims": [
+        {
+          "id": "4882df13-fa86-498e-a8b2-e014e1fee7ff",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "HDMI supports up to 3840 × 2160 at 100 Hz using FRL."
+        }
+      ]
+    },
+    {
+      "id": "b949487b-5dfe-4c23-9d8b-aa3694f9b44c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 2.3",
+      "mode_claims": [
+        {
+          "id": "cd11b01a-dc89-4a5a-96a6-58d86a345bed",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 supports up to 3840 × 2160 at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "380a4d01-335b-4f36-8948-184ebda87000",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB 3.2 Gen 1",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB Power Delivery up to 90 W; HDCP support",
+      "mode_claims": [
+        {
+          "id": "64dea0b8-e2b2-4fef-b280-bd0ae300202f",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "Video input through USB-C DisplayPort 1.4 Alt Mode; USB Power Delivery up to 90 W."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "fdd68192-39ae-402e-bed7-0ec0e6d2eb17",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.65,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA 100 × 100 mm mounting interface; compatible with a VESA-compatible monitor arm or wall mount, sold separately.",
+          "weight_kg": 6.65
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 713.4,
+    "height": 469,
+    "height_min": 469,
+    "height_max": 619,
+    "depth": 215
+  },
+  "dimensions_without_stand_mm": {
+    "width": 713.4,
+    "height": 413.15,
+    "depth": 49.95
+  },
+  "weight": {
+    "with_stand_kg": 9.52,
+    "without_stand_kg": 6.65
+  },
+  "power_consumption": {
+    "typical_w": 27.8,
+    "manufacturer_max_w": 205,
+    "note": "On-mode power consumption: 27.8 W. Maximum power consumption: 205 W at maximum brightness and contrast with maximum power loading on all USB ports. Standby: 0.4 W; off mode: 0.3 W; networked standby: 0.8 W. Power Delivery: USB-C upstream up to 90 W and USB-C downstream up to 15 W. The manufacturer does not separately label a peak power value."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 32 Plus 4K USB-C Hub Monitor P3225QE",
     "manufacturer": "Dell",
@@ -18,9 +129,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-32-plus-4k-usbc-hub-monitor-p3225qe/p3225qe/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -33,9 +146,9 @@
         "region": "all"
       },
       {
-        "type": "mpn",
-        "value": "0a42e474d35e1832",
-        "region": "all"
+        "type": "ean",
+        "value": "5397184962527",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -44,8 +157,18 @@
       },
       {
         "type": "mpn",
+        "value": "DELL-P3225QE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "P3225QE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P3225QE",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -199,7 +322,7 @@
         "channel": "us",
         "source_product_id": "6626393",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -249,6 +372,13 @@
         "source_product_id": "AC89859",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4P0KPH7807",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -318,7 +448,7 @@
         "channel": "us",
         "source_product_id": "15638816680",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

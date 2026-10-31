@@ -1,13 +1,26 @@
 {
   "opendb_id": "274ea0be-bfd9-4b08-9032-fea903e1f354",
+  "weight": 1074.5,
+  "fixture_kind": "Light Panel",
+  "color": ["BLACK"],
+  "white_light_mode": "Tunable White",
+  "colored_light_mode": "No Colored Light",
+  "white_color_temperature_k": {
+    "min": 2700,
+    "max": 6500
+  },
+  "max_power_consumption_w": 7,
   "metadata": {
     "name": "Logitech - Litra Beam Premium LED Streaming Key Light with TrueSoft and Brightness/Color Temperature Settings - Black",
     "manufacturer": "Logitech",
-    "part_numbers": ["946-000019"]
+    "part_numbers": ["946-000019"],
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-us/shop/p/litra-beam-streaming-light.946-000019"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -15,14 +28,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855189349",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "946-000019",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "946-000019",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855189349",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855189349",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -206,14 +234,14 @@
         "channel": "us",
         "source_product_id": "N82E16826197637",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "5059490290",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

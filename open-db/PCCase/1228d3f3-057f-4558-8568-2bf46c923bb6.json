@@ -41,7 +41,7 @@
     "manufacturer_url": "https://www.coolermaster.com/en-global/products/masterbox-600.html"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -49,9 +49,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4719512146903",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MB600-WGNN-S00",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MB600-WGNN-S00",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -196,6 +206,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11979361",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "MB600-WGNN-S00",
@@ -268,13 +285,6 @@
       {
         "source": "newegg",
         "channel": "ca",
-        "source_product_id": "N82E16811119454",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
         "source_product_id": "N82E16811119454",
         "pricing_enabled": true,
         "verified": false
@@ -362,6 +372,13 @@
         "source_product_id": "5U9RMB600-WGNN-S00",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5880765173",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

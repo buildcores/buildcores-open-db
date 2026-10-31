@@ -7,21 +7,96 @@
   },
   "refresh_rate": 144,
   "panel_type": "IPS",
-  "color": [],
-  "lighting": [],
+  "response_time": 8,
+  "mprt_response_time": 1,
+  "color": ["BLACK", "WHITE"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "connectors": "2 × HDMI 1.4 (HDCP 1.4), power connector, Kensington security-lock slot, integrated 2 × 3 W speakers",
+  "display_inputs": [
+    {
+      "id": "e72ca44c-1ff3-4448-801b-64963412df66",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "bf772836-50c4-42bb-8ada-fd3f8bdcdf38",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "fbfc92e4-3386-4f18-93a1-843a66d79a31",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.95,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 x 10 mm screws (Standard machine screws used to interface a standard VESA plate directly with the monitor's rear chassis routing holes)",
+          "weight_kg": 3.95
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 609.69,
+    "height": 499.07,
+    "height_min": 389.07,
+    "height_max": 499.07,
+    "depth": 201.83
+  },
+  "dimensions_without_stand_mm": {
+    "width": 609.69,
+    "height": 354.21,
+    "depth": 58.87
+  },
+  "weight": {
+    "without_stand_kg": 3.95
+  },
+  "power_consumption": {
+    "typical_w": 17,
+    "manufacturer_max_w": 43,
+    "note": "Typical power consumption is evaluated in standard On Mode as specified by Energy Star 8.0 guidelines. Maximum power consumption is measured with maximum luminance, contrast set to maximum, and integrated 2x 3W speakers active. This monitor functions via an internal AC-to-DC power configuration (100-240 VAC) and does not possess downstream USB power delivery capabilities."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "Dell 27 Plus Monitor - S2725HSM",
     "manufacturer": "Dell",
-    "part_numbers": ["210 btgh", "210-btgh", "b336b331e2b8d202", "S2725HSM"]
+    "part_numbers": ["210 btgh", "210-btgh", "b336b331e2b8d202", "S2725HSM"],
+    "releaseYear": 2025,
+    "manufacturer_color": "Ash White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-27-plus-monitor-s2725hsm/s2725hsm/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116691402",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116691402",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -40,13 +115,28 @@
       },
       {
         "type": "mpn",
+        "value": "M80H5",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S2725HSM",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S2725HSM",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "884116691402",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116691402",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -156,11 +246,18 @@
         "verified": true
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC57KM7M3514",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "19271223731",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

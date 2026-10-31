@@ -8,15 +8,101 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 1,
-    "displayport_1_4a": 1
+    "usb_c": 1
   },
-  "connectors": "1 x HDMI                                                           1 x DisplayPort",
+  "connectors": "1x HDMI 2.1 input (HDCP 1.4; supports up to 2560 × 1440 at 100 Hz TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 2560 × 1440 at 100 Hz); 1x USB 5 Gbps Type-B upstream port; 3x USB 5 Gbps Type-A downstream ports; 1x USB-C 5 Gbps downstream port (data only; Power Delivery up to 15 W); power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "688c2098-32a1-4354-947a-72b485fea891",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; TMDS",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fded9473-5d0f-4595-b057-2d1fc3794ded",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "HDMI input; QHD 2560 × 1440 at up to 100 Hz TMDS, as specified by Dell."
+        }
+      ]
+    },
+    {
+      "id": "b003e0b4-41c5-4020-b683-45ca10476f1e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8a3c8f30-68d1-48e3-a498-43656eae0e0c",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "DisplayPort 1.4 input; maximum QHD resolution 2560 × 1440 at 100 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "c70b9a6f-9090-4445-b95f-958bd1989979",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.2,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA flat panel mount interface, 100 × 100 mm; mounting holes behind the VESA cover; stand is removable.",
+          "weight_kg": 3.2
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.7,
+    "height": 364,
+    "height_min": 364,
+    "height_max": 496.55,
+    "depth": 181.54
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.7,
+    "height": 315.25,
+    "depth": 49.74
+  },
+  "weight": {
+    "with_stand_kg": 5.08,
+    "without_stand_kg": 3.2
+  },
+  "power_consumption": {
+    "typical_w": 15.6,
+    "manufacturer_max_w": 75,
+    "note": "Dell specifies 15.6 W on-mode power consumption, 75 W maximum at maximum brightness and contrast with maximum power loading on all USB ports, 15.9 W Pon, 49.6 kWh TEC, 0.3 W standby, and 0.3 W off mode. No separate peak-power value is explicitly reported. The USB-C downstream port supports up to 15 W Power Delivery; the 75 W maximum specification includes maximum power loading on all USB ports."
+  },
   "max_brightness": 350,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -27,9 +113,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-in/shop/monitors/apd/dell-pro-24-plus-qhd-monitor-p2425d/p2425d/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -42,9 +130,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "5397184962459",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "210-BQXD",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "210-brhs",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DELL-P2425D",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -199,6 +302,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11811473",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "DEP2425D",
@@ -253,6 +363,13 @@
         "source_product_id": "AC84469",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBZ5KM7E4289",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",

@@ -1,0 +1,75 @@
+{
+  "opendb_id": "e6cd323b-23ae-4856-8011-8f57f16eb58f",
+  "connectivity_type": ["USB-A", "XLR"],
+  "on_device_ports": [
+    {
+      "id": "3ffd1fd9-d6d4-4a5a-9ecb-e0926b59a9a1",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes USB-C to USB-A cable"
+    },
+    {
+      "id": "be9d4dda-ee61-4417-8b8e-7b16ec65d693",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"],
+      "conditions": "XLR cable not included; disables onboard buttons and RGB"
+    },
+    {
+      "id": "4975c761-f246-4c48-b4eb-b11e78bebfdd",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "USB connection required for monitoring path"
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "642b274b-9ed3-4419-849a-93a8f5f57ff1",
+      "sample_rate_khz": 44.1,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "3fd739fc-26a5-42a5-9c70-406376127c5a",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["GREY", "BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "06371230-61d7-4afa-bbc9-2464737c595e",
+      "basis": "Included Stand Assembly",
+      "width_mm": 106,
+      "depth_mm": 106,
+      "height_mm": 244
+    },
+    {
+      "id": "4668a06e-297c-4d15-8d82-a8e26d764995",
+      "basis": "Microphone Body",
+      "width_mm": 95,
+      "depth_mm": 56,
+      "height_mm": 165
+    }
+  ],
+  "lighting": ["RGB"],
+  "metadata": {
+    "name": "FIFINE AmpliGame AM8 Black with Gray Foam Windscreen",
+    "manufacturer": "FIFINE",
+    "series": "AmpliGame AM8",
+    "variant": "Black with Gray Foam Windscreen",
+    "releaseYear": 2022
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://fifinemicrophone.com/products/fifine-ampligame-am8-microphone"
+  },
+  "identifiers": {
+    "version": 1,
+    "identifiers": [],
+    "retailer_listings": []
+  }
+}

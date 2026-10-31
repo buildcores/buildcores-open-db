@@ -10,13 +10,97 @@
   "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "displayport_1_4a": 2
+    "hdmi_2_1": 1
   },
-  "connectors": "1 x HDMI                                                          2 x DisplayPort",
+  "connectors": "1x HDMI 2.1 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz TMDS); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output (HDCP 1.4; supports MST daisy-chaining); 1x USB-B 5 Gbps upstream; 4x USB-A 5 Gbps downstream (2 front-accessible, 2 rear; 2 support BC 1.2 charging); power connector; security-lock slot; stand-lock; built-in webcam, microphone, and speakers.",
+  "display_inputs": [
+    {
+      "id": "f9ed7a9a-8e7a-4079-8c53-c0bb9a01984d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; TMDS",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fb2ffde5-a7cc-44d2-b014-989c149a5f70",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Full HD at up to 120 Hz over HDMI TMDS. HDR and VRR are not supported."
+        }
+      ]
+    },
+    {
+      "id": "379705af-3b6c-442e-a509-7b7c50e7341f",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b982af3a-bdef-4632-a350-072e9883a6b2",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Full HD at up to 120 Hz through the DisplayPort 1.4 input."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ef2e747e-76dd-45a9-a6dc-7423cc87e0aa",
+        "pattern": "100x200",
+        "mounted_weight_kg": 3.05,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm VESA mounting pattern; remove the included stand and attach a compatible VESA mount"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.64,
+    "height": 497.69,
+    "height_min": 367.69,
+    "height_max": 497.69,
+    "depth": 211.46
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.64,
+    "height": 330.19,
+    "depth": 61.42
+  },
+  "weight": {
+    "with_stand_kg": 4.95,
+    "without_stand_kg": 3.05
+  },
+  "power_consumption": {
+    "typical_w": 13.8,
+    "manufacturer_max_w": 13.8,
+    "note": "Dell specifies 74 W maximum power consumption. Energy-label data lists 13.8 W in SDR On mode, 0.5 W standby, and 0.3 W off mode. No separate peak-power value is specified."
+  },
   "max_brightness": 300,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -27,9 +111,11 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-24-video-conferencing-monitor-e2426hb/e2426hb/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -42,9 +128,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "5397321030171",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "210-bvtk",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DELL-E2426HB",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -171,6 +267,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19890972",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "DEE2426HB",
@@ -197,6 +300,13 @@
         "source_product_id": "AC98191",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBZ5KM7N5892",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "proshop",
@@ -245,7 +355,7 @@
         "channel": "us",
         "source_product_id": "19856815287",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

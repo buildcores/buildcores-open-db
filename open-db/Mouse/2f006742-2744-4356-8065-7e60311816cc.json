@@ -1,18 +1,34 @@
 {
   "opendb_id": "2f006742-2744-4356-8065-7e60311816cc",
-  "connectivity": ["Wired"],
-  "rgb": true,
-  "lighting": ["None"],
-  "grip_types": [],
+  "weight": 85,
+  "dimensions": {
+    "length": 116.6,
+    "width": 62.1,
+    "height": 38.2
+  },
+  "shape": "Symmetrical",
+  "connectivity": ["Wired USB-A"],
+  "sensor": "Logitech Gaming-Grade Sensor",
+  "max_dpi": 8000,
+  "polling_rate": 1000,
+  "buttons": 6,
+  "switches": "Omron D2FC-F-7N(10M)",
+  "switch_type": "Mechanical",
+  "onboard_memory": true,
+  "lighting": ["RGB"],
+  "grip_types": ["Palm", "Fingertip", "Claw"],
+  "silent_clicks": false,
   "metadata": {
     "name": "Logitech G203 Lightsync Optical Wired Gaming Mouse",
     "manufacturer": "Logitech",
     "part_numbers": ["910-005790"],
     "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-us/shop/p/g203-lightsync-rgb-gaming-mouse.910-005790"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -20,14 +36,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855155948",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "910-005790",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "910-005790",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855155948",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855155948",
+        "region": "us"
       }
     ],
     "retailer_listings": [

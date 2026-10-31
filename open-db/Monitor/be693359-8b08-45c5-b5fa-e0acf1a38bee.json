@@ -1,14 +1,149 @@
 {
   "opendb_id": "be693359-8b08-45c5-b5fa-e0acf1a38bee",
   "screen_size": 27,
+  "resolution": {
+    "horizontalRes": 3840,
+    "verticalRes": 2160
+  },
+  "refresh_rate": 160,
+  "native_refresh_activation": "automatic",
+  "panel_type": "IPS",
+  "response_time": 1,
+  "color": ["WHITE"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1": 1,
+    "displayport_1_4a": 1,
+    "usb_c": 1
+  },
+  "display_inputs": [
+    {
+      "id": "33602b31-e29e-43f5-bef1-44696edf38f4",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "72d4c478-e716-4139-a485-59629cfd3dc4",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "9a31168d-0ba4-4a72-a7ec-9f4fc719a921",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "96d93cce-bd68-4854-b6bb-66bdafa53f66",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "183d85a6-ddff-45ce-9f0b-70d09052abfd",
+      "connector": "usb_c",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "5028cb2f-fbc7-4c1e-aef1-84991f06fd7a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "04ddb450-1cb0-4dab-b29b-283439e70c3f",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.5,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612,
+    "height_max": 515,
+    "depth": 192
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612,
+    "height": 371,
+    "depth": 59
+  },
+  "weight": {
+    "with_stand_kg": 6.65,
+    "without_stand_kg": 5.15
+  },
+  "power_consumption": {
+    "typical_w": 27,
+    "note": "The test condition follows CEC standards."
+  },
+  "max_brightness": 350,
+  "hdr": "VESA DisplayHDR 400",
+  "adaptive_sync": "G-Sync",
   "metadata": {
     "name": "Gigabyte M27UP ICE — White",
-    "manufacturer": "Gigabyte"
+    "manufacturer": "Gigabyte",
+    "variant": "M27UP",
+    "releaseYear": 2025,
+    "manufacturer_color": "Ice (White)"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Monitor/M27UP-ICE"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331872359",
+        "region": "de"
+      },
+      {
+        "type": "mpn",
+        "value": "M27UP ICE EK",
+        "region": "de"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "de",
+        "source_product_id": "B0FTRWR619",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

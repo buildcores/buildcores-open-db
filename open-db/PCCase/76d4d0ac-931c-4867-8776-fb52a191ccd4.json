@@ -39,14 +39,39 @@
     "manufacturer_url": "https://aerocool.io/product/cylon/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4713105950229",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "CYLONW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CYLONW",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07B915QRW",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "1W8-006X-00005",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

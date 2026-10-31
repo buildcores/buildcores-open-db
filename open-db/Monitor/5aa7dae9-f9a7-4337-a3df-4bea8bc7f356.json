@@ -10,8 +10,114 @@
   "response_time": 5,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 1,
+    "usb_c": 1
+  },
+  "connectors": "1 x HDMI input (HDMI 2.0); 1 x DisplayPort 1.2 input; 1 x USB-C upstream port (DisplayPort video, data, up to 90W Power Delivery); 1 x USB-B upstream port; 3 x USB-A downstream ports; 1 x RJ45 Ethernet (LAN) port; 1 x 3.5 mm headphone output.",
+  "display_inputs": [
+    {
+      "id": "eb77d3cb-eaff-4876-a9a1-4e6d40d5b1d3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "8d9c358d-d0b0-4cda-9594-efab28a2b93d",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum supported UHD resolution and refresh rate; HDR10 supported."
+        }
+      ]
+    },
+    {
+      "id": "af00552e-e29b-4e8d-995c-86c34ec198a4",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "3a8c4338-a8b8-4d21-a722-c02348c37046",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum supported UHD resolution and refresh rate; HDR10 supported."
+        }
+      ]
+    },
+    {
+      "id": "25780abc-3920-454d-9601-9cb647ec4826",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C (DisplayPort Alt Mode)",
+      "video_signal": "hdmi",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB-C; up to 90 W Power Delivery",
+      "mode_claims": [
+        {
+          "id": "b4ae5867-cd30-4dff-866d-b7d32eebf70d",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "USB-C video input via DisplayPort Alt Mode; supports up to 90 W Power Delivery; maximum display refresh rate 60 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "a0a4a4f2-7b1a-4a12-aef1-cb918fd8067b",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.6,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612.9,
+    "height": 556.6,
+    "height_min": 436.6,
+    "height_max": 676.6,
+    "depth": 220
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612.9,
+    "height": 367.7,
+    "depth": 41.6
+  },
+  "weight": {
+    "with_stand_kg": 6.1,
+    "without_stand_kg": 3.6
+  },
+  "power_consumption": {
+    "typical_w": 25,
+    "manufacturer_max_w": 170,
+    "note": "Manufacturer specifies maximum power consumption of 170 W. Typical power consumption is listed as 25 W in the energy-label data. Standby power is 0.5 W and off-mode power is 0.3 W. Internal power supply. The 170 W figure is labelled maximum, not peak. USB-C supports up to 90 W Power Delivery; the manufacturer does not specify whether maximum monitor power consumption includes power delivered to a connected device."
+  },
+  "max_brightness": 350,
+  "hdr": "HDR10",
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Samsung 27-inch ViewFinity S8 S80UD UHD Monitor",
     "manufacturer": "Samsung",
@@ -19,9 +125,11 @@
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/high-resolution/27-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls27d802uanxgo/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -29,14 +137,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0887276932200",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "25f1a88827247c03",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS37D800UANXZA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "887276932200",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "887276932200",
+        "region": "us"
       }
     ],
     "retailer_listings": [

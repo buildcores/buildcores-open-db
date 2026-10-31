@@ -6,6 +6,7 @@
     "verticalRes": 1440
   },
   "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
@@ -18,6 +19,75 @@
     "usb_c": 1
   },
   "connectors": "1 DisplayPort 1.4, 2 HDMI 2.1, 1 USB 5Gbps Type-B upstream, 1 USB 5Gbps Type-A downstream, 1 USB-C 5Gbps downstream",
+  "display_inputs": [
+    {
+      "id": "3f6996c9-9c52-40b0-958d-dbe7c19b79aa",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "44a4e650-e6c3-408a-b580-fcb9bb58cf1e",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        },
+        {
+          "id": "50273cb6-9dbb-4373-9af7-5883ef7269e8",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c76ea753-36d6-4042-aa1e-618713a62284",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "424460a0-b23b-438f-afaa-77a77e96344d",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.09,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 814.15,
+    "height": 555.08,
+    "height_min": 445.08,
+    "height_max": 555.08,
+    "depth": 232
+  },
+  "dimensions_without_stand_mm": {
+    "width": 814.15,
+    "height": 361.5,
+    "depth": 111.23
+  },
+  "weight": {
+    "with_stand_kg": 8.14,
+    "without_stand_kg": 5.09
+  },
+  "power_consumption": {
+    "typical_w": 36.7,
+    "manufacturer_max_w": 190
+  },
   "max_brightness": 1000,
   "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",

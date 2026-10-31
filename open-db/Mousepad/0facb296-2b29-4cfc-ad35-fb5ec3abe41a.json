@@ -1,14 +1,28 @@
 {
   "opendb_id": "0facb296-2b29-4cfc-ad35-fb5ec3abe41a",
+  "dimensions_mm": {
+    "width": 900,
+    "depth": 300,
+    "height": 4
+  },
+  "surface_material": ["Fabric"],
+  "base_material": "Rubber",
+  "surface_type": "Soft",
+  "color": ["BLACK"],
+  "lighting": ["RGB"],
   "metadata": {
     "name": "SteelSeries QcK Prism Cloth XL RGB Gaming Mouse Pad - Black",
     "manufacturer": "SteelSeries",
     "part_numbers": ["63826", "6285961"],
-    "releaseYear": 2018
+    "variant": "XL",
+    "releaseYear": 2018,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://steelseries.com/en-ph/gaming-mousepads/qck-prism?srsltid=AYCX9vIOgTfwlS0Xb0lf-L_qXA7R-nFP3Qx7JlmhtAl9gmTcrFH9nCsg#specifications"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,13 +31,28 @@
       },
       {
         "type": "ean",
+        "value": "0813682025649",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "5707119036818",
         "region": "all"
       },
       {
         "type": "ean",
+        "value": "5707119036818",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "5707119036825",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5707119036825",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -36,9 +65,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "63826",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "813682025649",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "813682025649",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -258,6 +297,13 @@
         "source_product_id": "AC27280",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4REK3U3537",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "proshop",

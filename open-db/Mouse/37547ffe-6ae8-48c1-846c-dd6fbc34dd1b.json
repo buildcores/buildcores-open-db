@@ -1,18 +1,37 @@
 {
   "opendb_id": "37547ffe-6ae8-48c1-846c-dd6fbc34dd1b",
-  "connectivity": ["Wireless 2.4GHz", "Bluetooth", "Wired USB-C"],
-  "rgb": true,
+  "weight": 0.089,
+  "dimensions": {
+    "length": 128,
+    "width": 65,
+    "height": 42
+  },
+  "shape": "Symmetrical",
+  "handedness": "Ambidextrous",
+  "connectivity": ["Bluetooth", "Wired USB-A", "Wireless 2.4GHz"],
+  "sensor": "MARKSMAN 26K",
+  "max_dpi": 26000,
+  "polling_rate": 1000,
+  "buttons": 7,
+  "switches": "CORSAIR Optical Mouse Switches",
+  "switch_type": "Optical",
+  "onboard_memory": true,
   "lighting": ["RGB"],
-  "grip_types": [],
+  "battery_life": 105,
+  "battery_type": "Rechargeable",
+  "grip_types": ["Claw", "Palm", "Fingertip"],
+  "silent_clicks": false,
   "metadata": {
     "name": "CORSAIR M75 WIRELESS Gaming Mouse",
     "manufacturer": "Corsair",
     "part_numbers": ["CH-931D01R-NA", "CH-931D01S-NA", "CH-931D01T-NA", "CH-931DB1L-NA"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.corsair.com/us/en/p/gaming-mouse/ch-931d010-na/m75-wireless-lightweight-rgb-gaming-mouse-black-ch-931d010-na?srsltid=AU7gw4X8fIJJg1hiyC5VNZhJq8ZQiym91d1qGp9i0CnLIj_Uavm1eUW0"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -26,8 +45,18 @@
       },
       {
         "type": "ean",
+        "value": "0840006669050",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "8400066690436",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CH-931D010-NA",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -58,6 +87,11 @@
         "type": "upc",
         "value": "840006669050",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006669050",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -277,6 +311,13 @@
         "source_product_id": "CH-931D010-EU",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16826816231",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "proshop",
