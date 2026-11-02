@@ -1,21 +1,107 @@
 {
   "opendb_id": "276d86ab-17dd-4552-82ef-5204f2077314",
-  "lighting": [],
+  "weight": 420,
+  "speaker_product_kind": "Portable",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "826ac372-74ab-494e-8b38-ed8eb36686b2",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears WONDERBOOM 4",
+      "quantity": 1,
+      "weight_g": 420,
+      "dimensions_mm": {
+        "width": 95.3,
+        "height": 104
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "913bfc62-10a8-415f-ba08-f4d59e3726ba",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth audio playback; source device must support Bluetooth A2DP. Supports connection to up to two source devices simultaneously."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "49a66249-e1f3-4eb0-8e0f-4a3d6212808c",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears WONDERBOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery powers portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "bf9fcb49-2865-4519-8d22-913e633fc4b6",
+      "hours": 14,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 14 hours; actual runtime varies with use, settings, and environment."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "3df8c903-ec5b-40ac-bdfc-cc0741c7d808",
+      "method": "USB-C",
+      "target": "Ultimate Ears WONDERBOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; approximately 2.6 hours to charge with a BC1.2-compliant adapter."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears WONDERBOOM 4 Ultraportable Bluetooth Speaker - Black",
+    "name": "Ultimate Ears WONDERBOOM 4 Ultraportable Bluetooth Speaker - Sand",
     "manufacturer": "Ultimate Ears",
-    "part_numbers": ["fea18a7af01dc3ea"]
+    "part_numbers": ["fea18a7af01dc3ea"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/wonderboom-4.984-002038"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
+        "type": "ean",
+        "value": "0097855201614",
+        "region": "us"
+      },
+      {
         "type": "mpn",
-        "value": "fea18a7af01dc3ea",
-        "region": "all"
+        "value": "984-002038",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "097855201614",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H1PZ6JCQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6628860",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA15TM3M2075",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

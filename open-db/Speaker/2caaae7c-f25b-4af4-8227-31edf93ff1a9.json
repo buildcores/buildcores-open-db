@@ -1,15 +1,76 @@
 {
   "opendb_id": "2caaae7c-f25b-4af4-8227-31edf93ff1a9",
+  "weight": 935,
+  "speaker_product_kind": "Portable",
+  "color": ["RED"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "2e5dadd9-28b6-4f0e-8d80-769e0ee3deea",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears MEGABOOM 4",
+      "quantity": 1,
+      "weight_g": 935,
+      "dimensions_mm": {
+        "width": 87,
+        "height": 225,
+        "depth": 87
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "d0f9a484-2a86-4ac7-b2d0-f7c314a5138d",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "90642d28-70dd-4a8a-aa3b-09b0cfdc6baa",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio playback; requires a Bluetooth A2DP-compatible source device."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "189ca252-c457-4a7c-aa7c-73f99779b85f",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears MEGABOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "903b345f-f842-4174-8e30-771aeaefac5e",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 20 hours at default volume (42%); actual runtime varies with use, settings, and environment."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "f18af0f3-fce8-447b-9a15-456ebb4efbcd",
+      "method": "USB-C",
+      "target": "Ultimate Ears MEGABOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; charge time under 3 hours with a 15 W or higher USB-C PD adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears MEGABOOM 4 Bluetooth Speaker",
+    "name": "Ultimate Ears MEGABOOM 4 Bluetooth Speaker - Raspberry Red",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["984-001994", "984-001997"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/megaboom-4.984-001994"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,9 +78,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855197542",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "984-001994",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "984-001994",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -30,6 +101,11 @@
         "type": "upc",
         "value": "097855197542",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855197542",
+        "region": "us"
       }
     ],
     "retailer_listings": [

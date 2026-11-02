@@ -1,15 +1,69 @@
 {
   "opendb_id": "e2ca5293-dbe3-43c2-bea2-0ebbd01816a2",
+  "weight": 925,
+  "speaker_product_kind": "Portable",
+  "color": ["RED"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "e11d79f6-6e1c-4ba1-8aa6-4cfe2445f572",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears MEGABOOM 3",
+      "quantity": 1,
+      "weight_g": 925,
+      "dimensions_mm": {
+        "width": 87,
+        "height": 225,
+        "depth": 87
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "b1f9705d-30f8-4580-9b3c-685eb4a4b4d7",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio playback; Bluetooth A2DP-compatible source device required."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "a9294c12-d201-45bb-bfec-3cf829321810",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears MEGABOOM 3",
+      "conditions": "Built-in rechargeable lithium-ion battery."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "2e14ae73-2793-4a61-a426-6af947f07970",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 20 hours; actual battery life varies with use, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "1d33b76d-69f7-416f-9eec-638c80b7c5d1",
+      "method": "Micro-USB",
+      "target": "Ultimate Ears MEGABOOM 3",
+      "conditions": "Micro-USB charging input for the built-in rechargeable lithium-ion battery. Micro-USB cable and power adapter are listed in the box contents."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears MEGABOOM 3 Bluetooth Speaker",
+    "name": "Ultimate Ears MEGABOOM 3 Bluetooth Speaker Black",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["9dd75504953fae2b", "MEGABOOM"],
     "releaseYear": 2018
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/products/speakers/bluetooth-speakers/megaboom-3.984-001394.html"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -139,11 +193,25 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6288538",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16855653009",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "walmart",
         "channel": "us",
-        "source_product_id": "590903736",
+        "source_product_id": "1668195037",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

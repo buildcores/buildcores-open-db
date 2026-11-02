@@ -1,15 +1,110 @@
 {
   "opendb_id": "35d6e0b8-5b9d-4d93-942a-5750f5df9699",
-  "lighting": [],
+  "weight": 620,
+  "speaker_product_kind": "Portable",
+  "color": ["BLUE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "2bce3444-6100-4bea-a805-2321fc8ccdb0",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears BOOM 4",
+      "quantity": 1,
+      "weight_g": 620,
+      "dimensions_mm": {
+        "width": 73,
+        "height": 184,
+        "depth": 73
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "96ee626c-979c-461d-b6fb-682a23f1fd66",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "7f45d722-9277-4096-9f05-7e92a70990a5",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth audio playback using A2DP-compatible source devices"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "b83b6399-3f9a-4a8f-8bf1-2c11e3c7f246",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears BOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery powers portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "cfa87f3f-57c4-4d99-9146-1572006c584a",
+      "hours": 15,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 15 hours of playback. Actual runtime varies with volume, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "2a0a077e-de3f-4459-8441-70e499fdb13e",
+      "method": "USB-C",
+      "target": "Ultimate Ears BOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery. Manufacturer specifies less than 3 hours charging with a suitable 10 W or higher adapter."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears BOOM 4 Bluetooth Speaker",
+    "name": "Ultimate Ears BOOM 4 Bluetooth Speaker Cobalt Blue",
     "manufacturer": "Ultimate Ears",
-    "part_numbers": ["c0a5d3f90999ea9a"]
+    "part_numbers": ["c0a5d3f90999ea9a"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-4.984-001967"
+  },
   "identifiers": {
-    "version": 2,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "984-001967",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855197696",
+        "region": "all"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CVFLDXKC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6588389",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16855247035",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

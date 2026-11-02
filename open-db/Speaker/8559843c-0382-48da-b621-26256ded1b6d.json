@@ -1,217 +1,124 @@
 {
   "opendb_id": "8559843c-0382-48da-b621-26256ded1b6d",
+  "weight": 935,
+  "speaker_product_kind": "Portable",
+  "color": ["BLUE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "ffbb8e53-276e-4994-ae89-7b7753fa9949",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears MEGABOOM 4s",
+      "quantity": 1,
+      "weight_g": 935,
+      "dimensions_mm": {
+        "width": 87,
+        "height": 225,
+        "depth": 87
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "2b5a853a-c94b-4ad5-a7c8-ca4380c8ee79",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "56489b51-2d31-41e5-91d0-89fcbf5bda81",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio playback; requires a Bluetooth A2DP-compatible source device."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "641f49b7-235e-4683-9147-a94c4652018a",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears MEGABOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "5af3b7c4-8e38-4ba5-bffa-7bf488410571",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 20 hours at default volume (42%); actual runtime varies with volume, settings, and environment."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "f51e5b52-61fb-4805-95e3-797fe5cf7fc1",
+      "method": "USB-C",
+      "target": "Ultimate Ears MEGABOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; charge time under 3 hours with a 15 W or higher USB-C PD adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears MEGABOOM 4 Bluetooth Speaker - Active Black",
+    "name": "Ultimate Ears MEGABOOM 4 Bluetooth Speaker - Cobalt Blue",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["984-001982", "984-001964"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/megaboom-4.984-001989"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
-        "value": "0097855197528",
+        "value": "0097855197535",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "984-001989",
         "region": "all"
       },
       {
         "type": "mpn",
-        "value": "984-001964",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "984-001982",
-        "region": "all"
+        "value": "984-001989",
+        "region": "us"
       },
       {
         "type": "upc",
-        "value": "097855197528",
-        "region": "all"
+        "value": "097855197535",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
         "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0CVFM97GD",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
         "channel": "us",
-        "source_product_id": "B0CVFM97GD",
+        "source_product_id": "B0CVFL3K1Z",
         "pricing_enabled": true,
         "verified": true
       },
       {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "6585548",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "bhphoto",
-        "channel": "us",
-        "source_product_id": "ULUEM4WBSBLK",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "ca",
-        "source_product_id": "984-001964",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "fr",
-        "source_product_id": "984-001964",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "it",
-        "source_product_id": "984-001964",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "nl",
-        "source_product_id": "984-001964",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "uk",
-        "source_product_id": "984-001964",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "us",
-        "source_product_id": "984-001964",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "N82E16855247038",
+        "source_product_id": "6588389",
         "pricing_enabled": true,
         "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "N82E16855247038",
+        "source_product_id": "N82E16855247039",
         "pricing_enabled": true,
         "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
-        "source_product_id": "7386922459",
+        "source_product_id": "1EUIY6UOZIGW",
         "pricing_enabled": true,
         "verified": true
       }
