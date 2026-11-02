@@ -1,20 +1,91 @@
 {
   "opendb_id": "35ee9d95-0f82-40a8-bf08-b74fd9730e98",
-  "lighting": [],
+  "weight": 13357,
+  "speaker_product_kind": "Surround Kit",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "channel_configuration_claims": [
+    {
+      "id": "08c0729e-a071-4547-99f6-8fc0d8a819c8",
+      "channel_label": "5.1",
+      "basis": "Discrete",
+      "conditions": "Four satellite speakers, one center-channel speaker, and one subwoofer."
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "8abf2f2b-eac0-4da5-af4a-2490c6821498",
+      "method": "Optical",
+      "speaker_side_connector": "TOSLINK Optical",
+      "source_side_connector": "TOSLINK Optical",
+      "adapter_requirement": "Direct",
+      "conditions": "Two optical digital inputs are provided."
+    },
+    {
+      "id": "359a6462-64e7-4056-b226-49e648222218",
+      "method": "Other",
+      "method_other": "Digital coaxial audio",
+      "speaker_side_connector": "RCA coaxial digital input",
+      "source_side_connector": "RCA coaxial digital output",
+      "adapter_requirement": "Direct",
+      "conditions": "One coaxial digital input."
+    },
+    {
+      "id": "4e6faebe-b1fe-4656-9531-7881d4b7214c",
+      "method": "Six-Channel Direct Analog",
+      "speaker_side_connector": "3 × 3.5 mm input jacks",
+      "source_side_connector": "3 × 3.5 mm output jacks",
+      "adapter_requirement": "Direct",
+      "conditions": "Six-channel analog input using three 3.5 mm connections."
+    },
+    {
+      "id": "6d8d58e9-b365-4da7-a273-14944557d87b",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA stereo input",
+      "source_side_connector": "RCA stereo output",
+      "adapter_requirement": "Direct",
+      "conditions": "Stereo analog RCA input."
+    },
+    {
+      "id": "1477d448-92ef-4a7a-8319-c3ce1636f717",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "3.5 mm stereo input",
+      "source_side_connector": "3.5 mm stereo output",
+      "adapter_requirement": "Direct",
+      "conditions": "3.5 mm stereo analog input on the control console."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "3cfb05e5-a607-405f-a650-9330c3952603",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Logitech Z906 Speaker System",
+      "connector": "AC power input",
+      "conditions": "Mains-powered speaker system. The subwoofer contains the system amplifier and connects to AC power."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Logitech Z906 5.1 Surround Sound Speaker System",
     "manufacturer": "Logitech",
     "part_numbers": ["8b1aa79865e14629", "980-000467", "980-000468"],
     "releaseYear": 2011
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-ph/shop/p/z906-surround-sound-system.980-000468"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0097855067548",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0097855067548",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -58,6 +129,11 @@
       },
       {
         "type": "mpn",
+        "value": "980-000467",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "980-000468",
         "region": "all"
       },
@@ -65,6 +141,11 @@
         "type": "upc",
         "value": "097855067548",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855067548",
+        "region": "us"
       },
       {
         "type": "upc",

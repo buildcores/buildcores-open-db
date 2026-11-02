@@ -1,5 +1,66 @@
 {
   "opendb_id": "26ba92ed-4cd8-4537-9b7b-0dc3469d9ce8",
+  "weight": 1380,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK", "GOLD"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "38bf3c80-ab35-4a18-8e2b-cb7b63498a99",
+      "role": "Speaker",
+      "component_label": "Marshall Stockwell II Portable Bluetooth Speaker",
+      "quantity": 1,
+      "weight_g": 1380,
+      "dimensions_mm": {
+        "width": 161,
+        "height": 180,
+        "depth": 70
+      },
+      "conditions": "Single portable speaker enclosure with integrated amplification."
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "00a3dbe3-3905-4051-ad01-f4ea37a35537",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth 5.0 wireless audio input."
+    },
+    {
+      "id": "4d8a67cf-0118-440e-9d9b-dd6d30934410",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "3.5 mm stereo jack",
+      "source_side_connector": "3.5 mm stereo plug",
+      "adapter_requirement": "Direct",
+      "conditions": "Wired stereo analog input."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "ac4a40f7-8035-49ef-afd3-cdf03332d3b8",
+      "source": "Battery",
+      "powered_component": "Marshall Stockwell II",
+      "conditions": "Built-in rechargeable lithium-ion battery; speaker can also operate while connected to USB-C power."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "f721e6ab-5042-4b80-8160-d3281be087b8",
+      "hours": 40,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Marshall's current product page advertises 40+ hours of playtime. Runtime varies with use and volume."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "7c6ed360-696c-4c9b-8180-d58067982da5",
+      "method": "USB-C",
+      "target": "Marshall Stockwell II (the built-in rechargeable Li-ion battery)",
+      "conditions": "USB-C charging input, 5–12 V DC, 3 A. USB-C cable is included; power adapter is not listed as included. The USB-C port can also charge external devices, but that output function is not a speaker charging input."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Marshall Stockwell II Portable Bluetooth Speaker, Black/Brass",
@@ -7,14 +68,31 @@
     "part_numbers": ["1005544", "6473514"],
     "releaseYear": 2019
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.marshall.com/us/en/product/stockwell-ii?pid=1005544&srsltid=AYCX9vJDGHNbxXQGytEKzO864Xz8G682aZvTq2vbA2B6ywH2Od8AXOdx"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "07340055374989",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "7340055355193",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "7340055374989",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "1001898",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -25,6 +103,11 @@
         "type": "mpn",
         "value": "6473514",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "STOCKWELL II",
+        "region": "us"
       },
       {
         "type": "upc",
