@@ -1,19 +1,62 @@
 {
   "opendb_id": "6a18b289-e01c-4cf0-81dc-4e4e4d1d0751",
+  "weight": 900,
   "connectivity_type": ["USB-C", "XLR"],
+  "on_device_ports": [
+    {
+      "id": "73d54f60-26c4-4e7b-87bf-0a257bde3d0f",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes 3m SC29 USB-C to USB-C cable."
+    },
+    {
+      "id": "24094f1a-c8a9-46ca-ab4e-74b6e8dc13d5",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"],
+      "conditions": "XLR cable not included; bypasses internal digital DSP and headphone jack."
+    },
+    {
+      "id": "b1256324-d97c-45f1-b00f-60bae57f621a",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "USB digital host connection required for monitoring path."
+    }
+  ],
   "polar_pattern": ["Cardioid"],
   "features": [],
-  "lighting": [],
+  "digital_capture_mode_claims": [
+    {
+      "id": "9a201719-46c6-4f60-b4f9-8bc6cc1275af",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "51ef259a-d829-4915-8e84-854942453a23",
+      "basis": "Microphone Body",
+      "width_mm": 107,
+      "depth_mm": 62,
+      "height_mm": 172
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "RODE PodMic USB - Black",
     "manufacturer": "RODE",
     "part_numbers": ["PODMICUSB"],
     "series": "PodMic USB",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2023
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rode.com/en-int/products/podmic-usb"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -32,6 +75,11 @@
       },
       {
         "type": "ean",
+        "value": "0698813010707",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "4251073854045",
         "region": "all"
       },
@@ -46,9 +94,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "6988130107070",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "PODMICUSB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PODMICUSB",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -64,6 +122,11 @@
         "type": "upc",
         "value": "698813010707",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "698813010707",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -205,7 +268,7 @@
         "channel": "us",
         "source_product_id": "6547472",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -289,7 +352,7 @@
         "channel": "us",
         "source_product_id": "3184407744",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

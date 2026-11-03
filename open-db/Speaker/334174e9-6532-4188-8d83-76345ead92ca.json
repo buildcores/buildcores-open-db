@@ -1,16 +1,76 @@
 {
   "opendb_id": "334174e9-6532-4188-8d83-76345ead92ca",
-  "lighting": [],
+  "weight": 620,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "7c5d89df-f006-4041-b22e-6e43bb74c775",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears BOOM 4",
+      "quantity": 1,
+      "weight_g": 620,
+      "dimensions_mm": {
+        "width": 73,
+        "height": 184,
+        "depth": 73
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "2c2eae44-dfac-468c-b2a5-3eece1ef0f02",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "0c23d7d8-7772-4381-b384-53f64c915cca",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth audio playback using A2DP-compatible source devices"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "e5b44962-e7b0-4881-b662-43b54048b9d2",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears BOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery powers portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "2a39d2aa-10f3-4466-b2e1-11e51771f39d",
+      "hours": 15,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 15 hours of playback. Actual runtime varies with volume, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "5e9801dd-b9a2-4d72-af5b-a9d9af5fd88f",
+      "method": "USB-C",
+      "target": "Ultimate Ears BOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery. Manufacturer specifies less than 3 hours charging with a suitable 10 W or higher adapter."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Ultimate Ears BOOM 4 Active Black Bluetooth Speaker",
     "manufacturer": "Logitech",
-    "part_numbers": ["984-001963", "BOOM", "BOOM 4 Bluetooth Speaker | Ultimate Ears"]
+    "part_numbers": ["984-001963", "BOOM", "BOOM 4 Bluetooth Speaker | Ultimate Ears"],
+    "releaseYear": 2024
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-4"
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-4.984-001963"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -18,9 +78,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855197689",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "984-001963",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "984-001963",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -36,6 +106,11 @@
         "type": "upc",
         "value": "097855197689",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855197689",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -149,7 +224,7 @@
         "channel": "us",
         "source_product_id": "6588387",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -212,14 +287,14 @@
         "channel": "us",
         "source_product_id": "N82E16855247034",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "7401263382",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

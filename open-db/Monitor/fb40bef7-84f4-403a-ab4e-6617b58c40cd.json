@@ -7,9 +7,94 @@
   },
   "refresh_rate": 100,
   "panel_type": "IPS",
+  "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "connectors": "1x HDMI 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 100 Hz via TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 100 Hz); 3x USB-A 5 Gbps downstream ports; 1x USB-C 5 Gbps downstream port (data and power delivery up to 15 W); 1x USB Type-B 5 Gbps upstream port; power connector; security-lock slot; stand-lock feature; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "78a38150-68f2-4e18-8ba4-1657b5493cae",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "d592e81e-dc94-4955-9af1-735c932c1ee5",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports up to 1920 × 1080 at 100 Hz via TMDS."
+        }
+      ]
+    },
+    {
+      "id": "ee56f3b1-f4a2-476b-ac94-962440522b16",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "75f8ad4c-29d1-44a7-88c4-666c03404777",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports up to 1920 × 1080 at 100 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "53c2b01d-de5f-432e-a8d3-0b8ffc214628",
+        "pattern": "100x100",
+        "mounted_weight_kg": 2.58,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting interface, 100 × 100 mm; requires four M4 × 10 mm screws. Mounting bracket is not included.",
+          "weight_kg": 2.58
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 488.06,
+    "height": 482.39,
+    "height_min": 364,
+    "height_max": 482.39,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 488.06,
+    "height": 285.79,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 4.4,
+    "without_stand_kg": 2.58
+  },
+  "power_consumption": {
+    "typical_w": 10.9,
+    "manufacturer_max_w": 60,
+    "note": "On-mode power consumption: 10.9 W. Maximum power consumption: 60 W at maximum brightness and contrast with maximum power loading on all USB ports. The 60 W value is manufacturer-labelled maximum, not peak power. Standby: 0.3 W; off mode: 0.3 W."
+  },
+  "max_brightness": 300,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 22 Monitor - P2226H",
     "manufacturer": "Dell",
@@ -17,9 +102,11 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-22-monitor-p2226h/p2226h/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -30,6 +117,11 @@
         "type": "ean",
         "value": "5397321029380",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5397321029380",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -50,6 +142,11 @@
         "type": "mpn",
         "value": "DELL-P2226H",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DELL-P2226H",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -202,6 +299,13 @@
         "source_product_id": "57150826938750",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12945391",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",

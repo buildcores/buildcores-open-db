@@ -1,9 +1,52 @@
 {
   "opendb_id": "48d16a91-1d20-4160-9aa3-c4e2fb20d04b",
+  "weight": 134,
   "resolution": "4k",
   "resolution_other": "720p, 1080p",
   "frame_rate": "30fps",
   "frame_rate_other": "60fps, 30fps, 90fps",
+  "capture_mode_claims": [
+    {
+      "id": "6ecbfa1b-f453-4f47-a89f-7c6c22aeb921",
+      "resolution": {
+        "horizontalRes": 4096,
+        "verticalRes": 2160
+      },
+      "frame_rate_fps": 30,
+      "claim": "maximum_at_resolution",
+      "conditions": "• USB 3.0 connection is strictly required for 4K streaming; drops to 1080p maximum on USB 2.0."
+    },
+    {
+      "id": "66e6c46c-6ec7-4c0c-883a-dd8a979a1191",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "• Requires USB 3.0 connection configuration for raw uncompressed 60fps streams."
+    },
+    {
+      "id": "110a9911-2dce-4ab6-bec9-9d7152588f84",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "Backward compatible with legacy USB 2.0 interface connections."
+    },
+    {
+      "id": "495be947-87e0-412e-bdb0-b3fb23631799",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 90,
+      "claim": "maximum_at_resolution",
+      "conditions": "• 90 fps high-speed mode must be actively supported by the host client application (e.g., OBS, Zoom)."
+    }
+  ],
   "connectivity_type": ["Wired USB-A", "Wired USB-C", "Wired"],
   "lighting": ["None"],
   "metadata": {
@@ -12,10 +55,17 @@
     "part_numbers": ["197644222865", "960-001105"],
     "releaseYear": 2017
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-ph/products/webcams/brio-4k-hdr-webcam.960-001723.html"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0097855177780",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "0197644222865",
@@ -32,9 +82,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "960-001419",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855125620",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855177780",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -77,6 +137,13 @@
         "source_product_id": "1379577",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09NBWWP79",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "back-to-the-office",

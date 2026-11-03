@@ -1,23 +1,70 @@
 {
   "opendb_id": "6915c84f-8f9e-4da5-a1c1-c9cd7793be2e",
+  "weight": 373,
   "connectivity_type": ["USB-C", "USB-A"],
+  "on_device_ports": [
+    {
+      "id": "62a7b256-6407-45eb-8370-cc1b82184b2c",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"]
+    },
+    {
+      "id": "e5a8d171-21dc-4537-acb6-9e13650a20ea",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
   "polar_pattern": ["Cardioid"],
-  "features": ["Mute Button"],
-  "lighting": [],
+  "features": ["On-Device Mute Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "38ee6fd4-b443-4e1d-8e0b-21275d7770c4",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "164f0725-3bd7-4e06-addf-adae6f1299a8",
+      "sample_rate_khz": 96,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "feb31bd0-fb7d-43a8-9a9e-0773b5ff9811",
+      "basis": "Microphone Body",
+      "width_mm": 52,
+      "depth_mm": 52,
+      "height_mm": 142
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Audio-Technica AT2020USB-X",
     "manufacturer": "Audio-Technica",
     "part_numbers": ["AT2020USBX", "AT2020USB-X"],
-    "series": "AT2020USB-X"
+    "series": "AT2020USB-X",
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.audio-technica.com/en-sea/at2020usb-x?srsltid=AU7gw4U8fFGcyKfyPDzpgSo2HND-8Jz36sJ5lJ15wPyLJqk_e48O7pvc"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0842510140810",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0842510140810",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -45,9 +92,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "AT2020USBX-001",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "842510140810",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "842510140810",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -185,6 +242,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13096217",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "2794238",
@@ -211,6 +275,13 @@
         "source_product_id": "2794238",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1211534271",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

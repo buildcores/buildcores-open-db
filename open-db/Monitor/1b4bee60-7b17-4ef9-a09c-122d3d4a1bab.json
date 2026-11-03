@@ -9,28 +9,127 @@
   "panel_type": "IPS",
   "response_time": 4,
   "color": ["GREY", "BLACK"],
-  "lighting": [],
-  "viewing_angle": "178° H x 178° V",
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 1.4",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2x HDMI 2.1 inputs (HDCP 1.4 and HDCP 2.3; support up to 3840 × 2160 at 120 Hz, FRL, HDR, and VRR); 1x DisplayPort 1.4 input (HDCP 1.4 and HDCP 2.3; supports up to 3840 × 2160 at 120 Hz); built-in stereo speakers (2 × 5 W); power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "a71da87f-fa15-40e3-906e-ba9b9de62bc4",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4 and HDCP 2.3",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1a779808-070c-4206-9107-2b9ffd1b6095",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDMI supports up to 3840 × 2160 at 120 Hz using FRL; HDR and VRR are supported."
+        }
+      ]
+    },
+    {
+      "id": "2d9bec09-3617-49fc-961f-ed1b5f61afcd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4 and HDCP 2.3",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fc61c390-35f3-4fe2-9564-2ddfdc34d097",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "DisplayPort 1.4 supports up to 3840 × 2160 at 120 Hz. HDR over DisplayPort is not explicitly confirmed in the cited port specification; set HDR to Unknown if your enum permits it."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ec9ed8f4-2902-452b-9d61-b3bc782c9c94",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.56,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm VESA mounting holes behind the VESA cover. Wall-mount kit is not included and must be purchased separately."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.54,
+    "height_min": 388.63,
+    "height_max": 518.63,
+    "depth": 200.4
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611.54,
+    "height": 355.98,
+    "depth": 60
+  },
+  "weight": {
+    "with_stand_kg": 6.47,
+    "without_stand_kg": 4.56
+  },
+  "power_consumption": {
+    "typical_w": 25.2,
+    "manufacturer_max_w": 67.4,
+    "note": "25.2 W. Maximum power consumption: 67.4 W at maximum brightness and contrast settings; Dell does not explicitly state that this maximum includes USB power delivery. Standby: 0.4 W; off mode: 0.3 W. ENERGY STAR on-mode power (Pon): 21.0 W. AC input: 100–240 V, 50/60 Hz, 1.8 A typical."
+  },
   "max_brightness": 350,
-  "hdr": "",
+  "hdr": "HDR: HDR support (HDR signal supported); not listed as VESA DisplayHDR certified.",
   "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Dell S2725QS 27\" 4K 120Hz IPS Monitor",
     "manufacturer": "Dell",
     "part_numbers": ["S2725QS", "210-BRND", "s2725qssap", "T4CNF"],
     "series": "",
-    "variant": "Silver / Black"
+    "variant": "Silver / Black",
+    "releaseYear": 2025,
+    "manufacturer_color": "Ash White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-27-plus-4k-monitor-s2725qs/s2725qs_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0738060953201",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0738060953201",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "0884116485117",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -44,6 +143,11 @@
       },
       {
         "type": "mpn",
+        "value": "S2725QS",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "s2725qssap",
         "region": "all"
       },
@@ -53,9 +157,24 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "T4CNF",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "738060953201",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "738060953201",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "884116485117",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -200,6 +319,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19281751",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "DELL-S2725QS",
@@ -295,7 +421,7 @@
         "channel": "us",
         "source_product_id": "15667851157",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

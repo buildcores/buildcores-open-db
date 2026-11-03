@@ -1,15 +1,69 @@
 {
   "opendb_id": "abe3e162-01d3-45c4-8d96-789bf2de0702",
+  "weight": 1979,
+  "speaker_product_kind": "Portable",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "5372621f-5543-43ca-a1b7-f814f6a9afd9",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears EPICBOOM",
+      "quantity": 1,
+      "weight_g": 1979,
+      "dimensions_mm": {
+        "width": 119,
+        "height": 241,
+        "depth": 162
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "17efb902-e46f-4189-900b-01d302b7b3d7",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth A2DP-compatible audio source devices; Bluetooth 5.3."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "682ce377-c308-4b67-b0b0-c47c78583ded",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears EPICBOOM",
+      "conditions": "Built-in rechargeable lithium-ion battery powers speaker playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "333781a1-72ee-4b23-9fc6-3790a3226025",
+      "hours": 17,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 17 hours at default volume (45%); actual battery life varies with use, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "99666694-c778-482d-a608-76d7e1fa598a",
+      "method": "USB-C",
+      "target": "Ultimate Ears EPICBOOM",
+      "conditions": "USB-C charging input for the built-in rechargeable battery. Manufacturer specifies approximately 2.6 hours with a BC1.2-compliant adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears EPICBOOM Portable Bluetooth Speaker",
+    "name": "Ultimate Ears EPICBOOM Portable Bluetooth Speaker Cotton White",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["984-001866"],
     "releaseYear": 2023
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/epicboom-bluetooth.984-001866"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -188,6 +242,13 @@
         "source_product_id": "984-001866",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA15TKD56321",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "walmart",

@@ -1,6 +1,61 @@
 {
   "opendb_id": "c976c4a5-4f8c-44ed-a625-9fb60d502cb2",
-  "lighting": ["None"],
+  "weight": 1910,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "f1ac8b29-9b39-4c20-bf94-d35d87d2b414",
+      "role": "Speaker",
+      "component_label": "Speaker",
+      "quantity": 2,
+      "dimensions_mm": {
+        "width": 105.918,
+        "height": 130.048,
+        "depth": 104.902,
+        "diameter": 70.14
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "94af0fb2-859a-48f5-ab05-0dddf82452bd",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "229c343b-193b-4563-a699-fb396c1e2f26",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN (3.5)",
+      "source_side_connector": "3.5mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "b01817ad-4104-4d2f-8f5a-255376e308de",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type A",
+      "source_side_connector": "USB Type A",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "057ba58f-988e-4ac6-b36c-d27d4a4c6324",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "05c42e33-9c85-47c7-b669-ed9ebe566217",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Speaker",
+      "connector": "DC Barrel IN"
+    }
+  ],
+  "lighting": ["RGB"],
   "metadata": {
     "name": "Edifier G2000 Gaming Speakers - Black",
     "manufacturer": "Edifier",

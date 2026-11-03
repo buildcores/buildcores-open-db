@@ -6,39 +6,39 @@
   "max_noise_level": 33.8,
   "color": ["BLACK"],
   "lighting": ["ARGB"],
-  "height": 49,
+  "height": 54,
   "cpu_sockets": [
     "AM4",
     "AM5",
+    "LGA 1851",
+    "LGA 1700",
+    "LGA 1200",
     "LGA 1150",
     "LGA 1151",
-    "LGA 1155",
     "LGA 1156",
-    "LGA 1200",
-    "LGA 1700",
-    "LGA 1851",
     "LGA 2011",
     "LGA 2066",
-    "sTR4",
-    "sTRX4"
+    "sTR5",
+    "sTR4"
   ],
   "water_cooled": true,
   "radiator_size": 280,
   "fanless": false,
   "fan_size": 140,
-  "fan_quantity": null,
+  "fan_quantity": 2,
   "metadata": {
     "name": "Corsair iCUE H115i ELITE CAPELLIX XT Water 280mm 89 CFM Black",
     "manufacturer": "Corsair",
     "part_numbers": ["CW-9060069-WW"],
     "series": "iCUE ELITE CAPELLIX XT",
-    "variant": "Default",
-    "releaseYear": null,
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.corsair.com/us/en/p/cpu-coolers/cw-9060069-ww/icue-h115i-elite-capellix-xt-liquid-cpu-cooler?srsltid=AU7gw4VS5KbyOY2UYv7Go1AIJPvBwtbQE7kYIJ8WdjFQsbPncEeyDL5w#tab-overview"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -46,14 +46,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840006683483",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CW-9060069-WW",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CW-9060069-WW",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840006683483",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006683483",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -163,13 +178,6 @@
         "verified": true
       },
       {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6534175",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "caseking",
         "channel": "es",
         "source_product_id": "CW-9060069-WW",
@@ -209,7 +217,7 @@
         "channel": "us",
         "source_product_id": "N82E16835181331",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
@@ -258,7 +266,7 @@
         "channel": "us",
         "source_product_id": "2775674361",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

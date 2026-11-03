@@ -1,5 +1,63 @@
 {
   "opendb_id": "5f5ae13b-3945-42c2-b255-631e8080a836",
+  "weight": 3730,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "5f0174ef-8433-4c40-a02d-904c1df867b8",
+      "role": "Speaker",
+      "component_label": "Wireless Streaming Speaker",
+      "quantity": 1,
+      "weight_g": 3730,
+      "dimensions_mm": {
+        "width": 335,
+        "height": 172,
+        "depth": 155
+      },
+      "conditions": "Single integrated powered wireless speaker enclosure; weight and dimensions are for the speaker unit, not shipping packaging."
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "67a01494-6ee7-44c5-9f26-e09431229a60",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "3.5 mm combo optical/analog input",
+      "source_side_connector": "3.5 mm stereo analog output",
+      "adapter_requirement": "Direct",
+      "conditions": "Analog audio connects through the 3.5 mm combo input."
+    },
+    {
+      "id": "8ab1be4c-0bb5-4c5f-b04f-192a483535fc",
+      "method": "Optical",
+      "speaker_side_connector": "3.5 mm combo optical/analog input",
+      "source_side_connector": "Toslink optical output",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "Requires the Toslink optical-to-3.5 mm mini adapter included with the speaker."
+    },
+    {
+      "id": "0ff65824-0477-4e41-90ac-f7c8ebf889c6",
+      "method": "Bluetooth Audio",
+      "conditions": "Bluetooth 5.0 with aptX HD; Bluetooth supports audio reception as well as transmission."
+    },
+    {
+      "id": "81a41231-521a-4f9c-9f75-d705ca13027f",
+      "method": "Wi-Fi Streaming",
+      "wifi_protocol": "Apple AirPlay 2",
+      "conditions": "Audio playback over Wi-Fi using AirPlay 2."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "c29ee829-f086-4ebb-ae0c-c56877b829e0",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Wireless Streaming Speaker",
+      "connector": "Universal bi-pin AC power cord input",
+      "conditions": "AC mains powered; universal input supports 100–240 V AC. The speaker requires connection to AC power for operation."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Bluesound Pulse Mini 2i Hi-Res Wireless Streaming Speaker - White",
@@ -7,9 +65,11 @@
     "part_numbers": ["PULSE MINI 2I WHT", "6356588"],
     "releaseYear": 2018
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.bluesound.com/products/pulse-mini?variant=45177520914479"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -23,13 +83,28 @@
       },
       {
         "type": "ean",
+        "value": "0786357000244",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "5703120291697",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5703120291697",
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "6356588",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PULSE MINI 2i WHT",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -45,6 +120,11 @@
         "type": "upc",
         "value": "786357000244",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "786357000244",
+        "region": "us"
       }
     ],
     "retailer_listings": [

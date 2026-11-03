@@ -10,8 +10,90 @@
   "response_time": 0.03,
   "color": ["GREY", "WHITE"],
   "lighting": ["RGB"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 × HDMI 2.1 inputs; 1 × DisplayPort 1.4 input; 1 × USB-B upstream port; 2 × USB-A 3.0 downstream ports; AC power input; built-in Wi-Fi 5 and Bluetooth 5.2.",
+  "display_inputs": [
+    {
+      "id": "65032605-5cdf-4d8d-a4bc-10d8c5b7e670",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "b3c2a624-c594-43e6-9577-148ffdba5e6d",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 175,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum advertised mode is 3440 × 1440 at up to 175Hz. Samsung specifies HDMI 2.1. Actual mode support depends on the connected source, cable, and monitor settings. HDR10 and HDR10+ Gaming are listed at monitor level."
+        }
+      ]
+    },
+    {
+      "id": "9c2c0d54-889b-426d-9390-f753836782fb",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "26405b44-d356-47e2-8d15-fd0db4f7a1eb",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 175,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum advertised mode is 3440 × 1440 at up to 175Hz. Samsung specifies DisplayPort 1.4; DSC support is not explicitly confirmed in the cited specifications. Actual mode support depends on the connected source, cable, and monitor settings. HDR10 and HDR10+ Gaming are listed at monitor level."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "8c4a2220-7be1-4534-84fc-e4dbd34e06cf",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.5,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "4 × M4 screws, 3.5–5.5 mm long, per Samsung's S34DG85*S wall-mount specifications. Use compatible VESA mounting hardware and do not exceed the specified screw length."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 813.6,
+    "height": 522.3,
+    "depth": 192.8
+  },
+  "dimensions_without_stand_mm": {
+    "width": 813.6,
+    "height": 363.5,
+    "depth": 128.1
+  },
+  "weight": {
+    "with_stand_kg": 7.5,
+    "without_stand_kg": 5.5
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 180
+  },
+  "max_brightness": 250,
+  "hdr": "HDR10; HDR10+ Gaming",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung Odyssey OLED G8 34-inch G85SD Ultra WQHD 175Hz Curved Gaming Monitor",
     "manufacturer": "Samsung",
@@ -19,9 +101,11 @@
     "releaseYear": 2024,
     "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/ph/monitors/gaming/odyssey-oled-g8-g85sd-34-inch-oled-ultra-wqhd-ls34dg850sexxp/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -29,9 +113,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0887276875521",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "5cc8af2ec11f135f",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "FBASAMLS34DG856SNXZA",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -44,9 +138,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS34DG856SNXZA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "887276875521",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "887276875521",
+        "region": "us"
       }
     ],
     "retailer_listings": [

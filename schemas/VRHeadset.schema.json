@@ -9,6 +9,97 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "form_factor": {
+      "description": "Physical wearing shape of the exact sold display-equipped XR device: Headset or Glasses. This does not establish which VR, AR, or display experiences it supports.",
+      "type": ["string", "null"],
+      "enum": ["Headset", "Glasses", null]
+    },
+    "compute_configuration": {
+      "description": "Where the primary experience runs for the exact sold system. An included compute puck is Included External Compute Unit; a chip that only stabilizes a virtual screen does not make host-powered glasses integrated compute.",
+      "type": ["string", "null"],
+      "enum": ["Integrated", "Included External Compute Unit", "External Host Required", null]
+    },
+    "real_world_view_method": {
+      "description": "How the wearer sees the real world: through camera passthrough or directly through see-through optics. A photo/video camera does not prove passthrough. Leave blank when unsupported or unknown.",
+      "type": ["string", "null"],
+      "enum": ["Camera Passthrough", "Optical See-Through", null]
+    },
+    "display_technology": {
+      "description": "Published panel or projector technology of the wearer-visible display. A waveguide describes optics, not display technology. Use Other with display_technology_other for a known unlisted technology.",
+      "type": ["string", "null"],
+      "enum": ["LCD", "OLED", "Micro-OLED", "Micro-LED", "LCoS", "Other", null]
+    },
+    "display_technology_other": {
+      "description": "Exact published display technology when Display Technology is Other.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "native_display_resolution": {
+      "description": "One sourced physical display-resolution claim for the exact sold SKU: exact width, height, and basis together, or a published approximate aggregate megapixel count. Accepted input timings do not belong here.",
+      "type": ["object", "null"],
+      "properties": {
+        "width_px": {
+          "description": "Published physical horizontal display pixels for this exact native-resolution claim, not input signal pixels.",
+          "type": ["integer", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        },
+        "height_px": {
+          "description": "Published physical vertical display pixels paired with Native Width for this exact claim.",
+          "type": ["integer", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        },
+        "basis": {
+          "description": "Whether the published width and height are Per Eye, Monocular, Binocular Combined, or Unspecified. Do not divide an aggregate claim into invented per-eye pixels.",
+          "type": ["string", "null"],
+          "enum": ["Per Eye", "Monocular", "Binocular Combined", "Unspecified", null]
+        },
+        "approximate_aggregate_megapixels": {
+          "description": "Manufacturer-stated approximate aggregate display megapixels only when exact native width and height are not published. Do not derive a per-eye pixel pair.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "included_compute_memory_gb": {
+      "description": "Published GB of system RAM in the integrated device or included compute unit for this exact SKU. Exclude the connected PC or phone and a display-only coprocessor.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "included_compute_storage_gb": {
+      "description": "Published built-in storage capacity in GB for the exact sold integrated device or included compute unit. Do not combine capacities from separate variants or copy external-host storage.",
+      "type": ["integer", "null"],
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991
+    },
+    "battery_life_claim": {
+      "description": "One official numeric runtime claim for the sold headset/glasses system. Exclude charging-case totals, optional batteries, controllers, and host-device runtime; leave unknown for host-powered products or absent claims.",
+      "type": ["object", "null"],
+      "properties": {
+        "hours": {
+          "description": "Manufacturer-stated runtime in hours for the headset or glasses with the sold system, including its bundled external battery.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "use": {
+          "description": "Published activity for this battery-life claim. Prefer General Use when multiple different activity claims are available.",
+          "type": ["string", "null"],
+          "enum": ["General Use", "Video Playback", "Other", null]
+        },
+        "qualifier": {
+          "description": "Preserve the manufacturer's Up To, Approximate, or unqualified Stated wording for this runtime.",
+          "type": ["string", "null"],
+          "enum": ["Up To", "Approximate", "Stated", null]
+        }
+      },
+      "required": ["hours", "use", "qualifier"]
+    },
     "general_product_information": {
       "type": ["object", "null"],
       "description": "General product information and retailer SKUs",

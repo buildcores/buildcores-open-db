@@ -9,6 +9,73 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight. For Desk, record the mass of the assembled desk itself, not the maximum weight it can support.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "work_surface_dimensions_mm": {
+      "description": "Published dimensions of the primary usable work surface in mm, not the assembled desk footprint or packaging.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Published usable tabletop width in mm, excluding any separate accessory or extension.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Published usable tabletop front-to-back depth in mm, excluding any separate accessory or extension.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "overall_dimensions_mm": {
+      "description": "Published overall dimensions of the assembled desk in mm. Use a sourced minimum/maximum for an adjustable range; do not use packaging dimensions.",
+      "type": ["object", "null"],
+      "properties": {
+        "width": {
+          "description": "Published overall assembled desk width in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "description": "Published overall assembled desk front-to-back depth in mm.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "description": "Published overall assembled desk height in mm for a stated configuration; record any supported adjustable range separately.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_min": {
+          "description": "Published minimum assembled desk height in mm for an adjustable configuration.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        },
+        "height_max": {
+          "description": "Published maximum assembled desk height in mm for an adjustable configuration.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "height_adjustment_type": {
+      "description": "How the exact sold desk adjusts its working height: Fixed, Manual, or Electric. Do not infer adjustment from a desk sold in multiple fixed-height variants.",
+      "type": ["string", "null"],
+      "enum": ["Fixed", "Manual", "Electric", null]
+    },
+    "desktop_thickness_mm": {
+      "description": "Manufacturer-published nominal thickness of the primary desktop in mm. This alone does not prove that a clamp fits at a chosen edge.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "max_supported_weight_kg": {
+      "description": "Manufacturer-published positive maximum added payload on the primary work surface in kg. Do not use a lifting rating that includes the desktop, the desk's own weight, a concentrated-load limit, or an ambiguous claim; retain qualifications in source evidence.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "general_product_information": {
       "type": ["object", "null"],
       "description": "General product information and retailer SKUs",

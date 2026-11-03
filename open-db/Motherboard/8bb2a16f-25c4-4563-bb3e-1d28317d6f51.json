@@ -9,73 +9,48 @@
     "slots": 4
   },
   "color": ["BLACK", "GOLD"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2230/2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2230-2242",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -88,31 +63,111 @@
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek Dragon RTL8125BG"
+    },
+    {
+      "speed": "5 Gb/s",
+      "controller": "Realtek RTL8126"
     }
   ],
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 1,
-    "usb_4": 0
+    "usb_4": 0,
+    "usb_4_80g": 0
+  },
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 4,
+    "pump": 2,
+    "cpu_opt": 0
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 3,
+    "thunderbolt": 0
   },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s (Realtek Dragon RTL8125BG)                                                    1 x 5 Gb/s (Realtek 8126)"
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x Optical SPDIF Out Port",
+    "2 x Thunderbolt 4 Type-C Ports",
+    "4 x USB 3.2 Gen2 Type-A Ports",
+    "4 x USB 3.2 Gen1 Ports",
+    "2 x USB 2.0 Ports",
+    "2 x RJ-45 LAN Ports",
+    "1 x Clear CMOS Button",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack",
+    "1 x Microphone Input Jack"
+  ],
+  "display_outputs": [
+    {
+      "id": "750ddacf-f146-4b97-8f6f-4af948f5a28d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bd719ae8-e5a0-45e8-8ed0-a8bc11b23191",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "389dd728-7f1d-4847-b71b-945ac201796d",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "Thunderbolt 4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e0b1891-3bc6-47d1-bc3a-120db701c7ad",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASRock Z890 Taichi",
@@ -120,9 +175,12 @@
     "part_numbers": ["Z890 Taichi", "90-MXBPR0-A0UAYZ", "Z890 TAICHI"],
     "series": "Taichi",
     "variant": "Z890",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/mb/Intel/Z890%20Taichi/index.asp#Overview"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

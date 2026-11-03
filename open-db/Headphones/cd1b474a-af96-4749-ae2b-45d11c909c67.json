@@ -2,7 +2,7 @@
   "opendb_id": "cd1b474a-af96-4749-ae2b-45d11c909c67",
   "driver_size": 40,
   "frequency_response_low": 20,
-  "frequency_response_high": 22000,
+  "frequency_response_high": 22,
   "headphone_type": "Closed-Back",
   "ear_cup_type": "Over-Ear",
   "weight": 260,
@@ -12,12 +12,16 @@
   "battery_life": 40,
   "bluetooth_version": "5.3",
   "charging_port": "USB-C",
-  "wireless_range": 30,
-  "latency": 15,
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
   "has_microphone": true,
   "microphone_type": "Detachable Boom",
   "noise_cancellation_mic": true,
-  "features": ["Multi-Device Pairing"],
+  "features": ["Multi-Device Pairing", "App Support", "Spatial Audio", "EQ Customization"],
   "use_cases": ["Gaming", "Casual"],
   "platforms": ["PC", "Mobile", "Console"],
   "lighting": ["None"],
@@ -25,13 +29,15 @@
     "name": "SteelSeries Arctis Nova 3X Wireless Aqua for Xbox",
     "manufacturer": "SteelSeries",
     "part_numbers": [],
+    "series": "Arctic Nova 3X",
+    "variant": "Aqua- Xbox",
     "releaseYear": 2025
   },
   "general_product_information": {
     "manufacturer_url": "https://steelseries.com/gaming-headsets/arctis-nova-3?color=aqua&connectivityType=wireless&primaryPlatform=xbox"
   },
   "identifiers": {
-    "version": 3,
+    "version": 4,
     "identifiers": [
       {
         "type": "ean",
@@ -68,13 +74,6 @@
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16826249290",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "17706250763",
         "pricing_enabled": true,
         "verified": true
       }

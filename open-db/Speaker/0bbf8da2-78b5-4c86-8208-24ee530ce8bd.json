@@ -1,5 +1,57 @@
 {
   "opendb_id": "0bbf8da2-78b5-4c86-8208-24ee530ce8bd",
+  "weight": 3281.6,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["GREY"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "6cee5ceb-8b67-4eae-8530-f74190cb2c29",
+      "role": "Speaker",
+      "component_label": "Logitech Z407 Satellite Speaker",
+      "quantity": 2,
+      "weight_g": 389.6,
+      "dimensions_mm": {
+        "width": 93.9,
+        "height": 199.9,
+        "depth": 85.2
+      },
+      "nominal_impedance_ohms": 8,
+      "conditions": "Manufacturer-listed dimensions and weight per satellite speaker."
+    },
+    {
+      "id": "cbccdee6-637b-489c-9a5f-0c1c95cde57b",
+      "role": "Subwoofer",
+      "component_label": "Logitech Z407 Subwoofer",
+      "quantity": 1,
+      "weight_g": 2450.6,
+      "dimensions_mm": {
+        "width": 234,
+        "height": 240,
+        "depth": 180
+      },
+      "nominal_impedance_ohms": 4,
+      "conditions": "Manufacturer-listed dimensions and weight."
+    }
+  ],
+  "included_audio_unit_count": 3,
+  "channel_configuration_claims": [
+    {
+      "id": "5535ac95-9330-4003-bda7-1b12c0807059",
+      "channel_label": "2.1",
+      "basis": "Discrete",
+      "conditions": "Two satellite speakers and one subwoofer."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "d53e1837-b4a4-4c95-afe2-9753ffc54c62",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Logitech Z407 Speaker System",
+      "connector": "AC power input",
+      "conditions": "AC-powered speaker system; published power input is 100–240 V AC, 50/60 Hz."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Logitech Z407 Bluetooth Computer Speakers with Subwoofer",
@@ -7,9 +59,11 @@
     "part_numbers": ["980-001347"],
     "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/z407-bluetooth-computer-speakers.980-001347"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,14 +71,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855162182",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "980-001347",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "980-001347",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855162182",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855162182",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -1,5 +1,14 @@
 {
   "opendb_id": "7cb011bc-2066-41cf-ab7c-8d5958265fee",
+  "weight": 177,
+  "fixture_kind": "Light Panel",
+  "color": ["BLACK"],
+  "white_light_mode": "Tunable White",
+  "colored_light_mode": "No Colored Light",
+  "white_color_temperature_k": {
+    "min": 2700,
+    "max": 6500
+  },
   "metadata": {
     "name": "Logitech Litra Glow Premium Streaming Light",
     "manufacturer": "Logitech",
@@ -9,7 +18,7 @@
     "manufacturer_url": "https://www.logitech.com/en-us/shop/p/litra-glow"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -193,6 +202,13 @@
         "source_product_id": "946-000001",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16826197518",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "walmart",

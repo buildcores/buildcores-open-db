@@ -1,5 +1,75 @@
 {
   "opendb_id": "61e685d3-9ace-4b5b-9961-ecf3ccf449a9",
+  "weight": 6100,
+  "speaker_product_kind": "Soundbar",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "2da1e381-c406-4886-944d-c8d72a78e6dd",
+      "role": "Soundbar",
+      "component_label": "Sony HT-A5000 Soundbar",
+      "quantity": 1,
+      "weight_g": 6100,
+      "dimensions_mm": {
+        "width": 1210,
+        "height": 67,
+        "depth": 140
+      }
+    },
+    {
+      "id": "40dc39bb-f715-4744-ade1-98e1bffaf358",
+      "role": "Other",
+      "component_label": "Sony Remote Commander",
+      "quantity": 1
+    }
+  ],
+  "channel_configuration_claims": [
+    {
+      "id": "01defcb1-351b-46b4-89d9-af34bb3dde70",
+      "channel_label": "5.1.2",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "1b9310ce-a136-4960-af27-9b4ba61d234c",
+      "method": "HDMI eARC",
+      "conditions": "One HDMI input; supports Dolby Atmos, Dolby TrueHD, DTS:X and LPCM."
+    },
+    {
+      "id": "92c4ce46-8a53-43d1-b581-5da6984cc469",
+      "method": "Optical",
+      "speaker_side_connector": "Optical audio input (TOSLINK)",
+      "conditions": "Optical audio input; supports Dolby Digital, Dolby Dual mono, DTS and 2-channel LPCM."
+    },
+    {
+      "id": "cd5b56d2-cc56-4f28-a27c-be24b934bd78",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type-A",
+      "conditions": "USB audio file playback; supported formats include DSD, WAV, FLAC, ALAC, AIFF, AAC and MP3."
+    },
+    {
+      "id": "cfe27ac8-6a57-4726-8415-9f0aa1872cb5",
+      "method": "Bluetooth Audio",
+      "conditions": "Bluetooth 5.0 audio receiver; supports AAC, SBC and LDAC."
+    },
+    {
+      "id": "0f72afc9-a8ac-43f1-9eda-b0f07fde462f",
+      "method": "Wi-Fi Streaming",
+      "wifi_protocol": "AirPlay 2",
+      "conditions": "Built-in Wi-Fi; Chromecast built-in, Spotify Connect and Apple AirPlay 2."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "4e427ea0-3a41-47f8-8b8f-e8a5fc4ef372",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Sony HT-A5000 Soundbar",
+      "connector": "AC power input",
+      "conditions": "AC mains operation; approximately 86 W power consumption."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Sony HT-A5000 5.1.2ch Dolby Atmos Soundbar",
@@ -7,9 +77,11 @@
     "part_numbers": ["HTA5000", "6467455"],
     "releaseYear": 2021
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.sony.com.ph/electronics/sound-bars/ht-a5000/specifications"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,9 +89,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840133991963",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "6467455",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "E9SNHTA5000",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -30,6 +112,11 @@
         "type": "upc",
         "value": "027242922471",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840133991963",
+        "region": "us"
       }
     ],
     "retailer_listings": [

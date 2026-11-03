@@ -1,17 +1,68 @@
 {
   "opendb_id": "5635bbe4-458c-4b91-9eab-692ec8976d47",
-  "connectivity_type": ["USB-C", "XLR"],
-  "polar_pattern": [],
-  "features": ["Mute Button"],
-  "lighting": [],
+  "weight": 567,
+  "connectivity_type": ["USB-C"],
+  "on_device_ports": [
+    {
+      "id": "6be1c59b-58c8-46f9-92ba-1cc49ed7b83c",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Requires Shure MOTIV Mix software to access advanced dual-channel recording modes (Mixdown, Multi-track, Stereo) and hardware-based DSP functions."
+    },
+    {
+      "id": "40386d04-a8fd-4dae-a058-8bfa659aaf4d",
+      "connector": "Other",
+      "connector_label": "XLR-1/4\" Combo",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "Operates strictly as an analog input to ingest a secondary microphone (+48V Phantom Power supported) or an instrument into the built-in interface. It cannot output the MV7i's microphone capsule audio natively."
+    },
+    {
+      "id": "c9437d30-315f-4c50-a9c3-02a90b546174",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "4c1887d5-b598-48ab-81b8-0bb447b10bcb",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 24,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum",
+      "conditions": "Compatible with Windows 10+, macOS 12+, iOS 16+, and Android 12+. Dual-channel recording modes (Mixdown, Multi-track, Stereo) and advanced onboard DSP are managed using the Shure MOTIV Mix desktop or mobile applications."
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "3ff14686-3809-4571-b2fe-cbaa96d296f7",
+      "basis": "Microphone Body",
+      "width_mm": 90,
+      "depth_mm": 169.5,
+      "height_mm": 90
+    },
+    {
+      "id": "44ce73f8-7093-4eee-9857-2bee6ccbc240",
+      "basis": "Included Stand Assembly",
+      "width_mm": 90,
+      "depth_mm": 207,
+      "height_mm": 164
+    }
+  ],
+  "lighting": ["RGB"],
   "metadata": {
     "name": "Shure MV7i Smart Microphone",
     "manufacturer": "Shure",
-    "part_numbers": ["MV7I", "SHR-MV7I"]
+    "part_numbers": ["MV7I", "SHR-MV7I"],
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.shure.com/en-US/docs/guide/MV7i"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -19,9 +70,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0042406805407",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MV7I",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MV7I",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -32,6 +93,11 @@
         "type": "upc",
         "value": "042406805407",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "042406805407",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -145,7 +211,7 @@
         "channel": "us",
         "source_product_id": "6614930",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -214,13 +280,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "3381768",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "17003968188",
         "pricing_enabled": true,
         "verified": false
       }

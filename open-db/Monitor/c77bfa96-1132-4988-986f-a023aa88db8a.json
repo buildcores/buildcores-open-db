@@ -10,9 +10,118 @@
   "response_time": 8,
   "color": ["GREY", "BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "1 x DisplayPort 1.4                                                    1 x HDMI 2.1",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1 x DisplayPort 1.4, 1 x HDMI (supports up to QHD 2560 x 1440 120Hz TMDS, VRR as specified in HDMI 2.1), 1 x DisplayPort 1.4 (Out) with MST, 1 x USB Type-C upstream port (data only, SuperSpeed USB 10 Gbps, USB 3.2 Gen 2), 4 x SuperSpeed USB 10 Gbps (USB 3.2 Gen 2) downstream ports (1 with BC1.2 charging), 1 x USB Type-C downstream port (SuperSpeed USB 10 Gbps, 15W charging), 1 x 3.5 mm audio line-out",
+  "display_inputs": [
+    {
+      "id": "49eab360-7054-4294-93ab-b34c32d48c4e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI (HDCP 1.4; VRR as specified in HDMI 2.1)",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; supports up to 2560 × 1440 at 120 Hz TMDS; VRR supported",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f46f70aa-7e56-45d4-8cab-89db4a5d7902",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI input supports QHD (2560 × 1440) at 120 Hz TMDS and VRR; HDMI 2.1 optional features including FRL and HDR are not supported."
+        }
+      ]
+    },
+    {
+      "id": "19841c5a-18a4-4d65-b5b5-77fc12c04d56",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort 1.4 input; supports dual QHD 120 Hz at 8-bit color",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8222b3ea-0b26-434a-a753-dcf02b83dc7b",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Dell specifies DisplayPort 1.4 support for dual QHD 120 Hz at 8-bit color."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "3ec08f34-b61a-4dd8-811b-a1c4d79e077d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort output supporting MST (Multi-Stream Transport) for daisy-chaining compatible monitors",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "64a55903-7d44-46d4-ada5-c444705e1147",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "MST output; supports daisy-chaining. Dell lists support for up to two QHD monitors at 120 Hz and 8-bit color from a compatible source."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "b646c6c1-e9b4-4826-acfc-1ed68ea7e779",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.49,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes (100 × 100 mm) behind the attached VESA cover; use M4 × 11 mm screws for the compatible wall-mount kit.",
+          "weight_kg": 4.49
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612.24,
+    "height_min": 385.58,
+    "height_max": 535.58,
+    "depth": 192.28
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612.24,
+    "height": 352.51,
+    "depth": 50.12
+  },
+  "weight": {
+    "with_stand_kg": 6.56,
+    "without_stand_kg": 4.49
+  },
+  "power_consumption": {
+    "typical_w": 23.9,
+    "manufacturer_max_w": 85,
+    "note": "Dell specifies 23.9 W in on mode and 85 W maximum at maximum brightness and contrast with maximum power loading on all USB ports. The 85 W figure is not explicitly labelled as peak power. Standby: 0.5 W; off mode: 0.3 W. ENERGY STAR P_on: 17.1 W; total energy consumption (TEC): 54.4 kWh."
+  },
   "max_brightness": 350,
   "hdr": "",
   "adaptive_sync": "None",
@@ -32,16 +141,23 @@
     "series": "",
     "variant": "Silver / Black",
     "releaseYear": 2023,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Platinum Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-27-monitor-u2724d/u2724d_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "210-BKSF",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "210-BKSF",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -57,6 +173,11 @@
         "type": "mpn",
         "value": "DELL-U2724D",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DELL-U2724D",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -186,11 +307,32 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "10763300",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC71403",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADGEK864885",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5152436492",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

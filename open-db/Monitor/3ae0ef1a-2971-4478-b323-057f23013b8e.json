@@ -10,8 +10,89 @@
   "response_time": 4,
   "color": ["WHITE"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 2,
+    "usb_c": 1
+  },
+  "connectors": "2 × HDMI 2.0 ports; 1 × USB-C upstream port with DisplayPort Alt Mode and up to 65 W power delivery; 3 × USB-A 2.0 downstream ports; AC power input.",
+  "display_inputs": [
+    {
+      "id": "b7b3bd42-89db-46d3-a08f-3648e12dcf1d",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "6b0070f0-864d-46e9-8322-4191b892ce2c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "4K UHD at up to 60 Hz; HDR10 supported."
+        }
+      ]
+    },
+    {
+      "id": "aeb87527-38b4-4883-9a30-decfa21170a1",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C; DisplayPort Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "98f1cd59-6d79-4c15-bbdf-5901a8017ac1",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "USB-C video input via DisplayPort Alt Mode; up to 4K UHD at 60 Hz. USB-C supports up to 65 W power delivery."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "9d14cffc-9f88-4c91-ab86-7c3793508309",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.4,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 716.3,
+    "height": 1290.3,
+    "depth": 449.6
+  },
+  "dimensions_without_stand_mm": {
+    "width": 716.3,
+    "height": 424.2,
+    "depth": 40.6
+  },
+  "weight": {
+    "with_stand_kg": 25.2,
+    "without_stand_kg": 5.4
+  },
+  "power_consumption": {
+    "typical_w": 32.4,
+    "manufacturer_max_w": 150
+  },
+  "max_brightness": 300,
+  "hdr": "HDR10",
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Samsung Movingstyle M7 32-inch 4K Smart Monitor with Adjustable Rolling Stand",
     "manufacturer": "Samsung",
@@ -19,14 +100,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/smart/movingstyle-m7-4k-uhd-smart-monitor-with-adjustable-rolling-stand-sku-ls32fm701unxza/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0198957266126",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0198957266126",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -40,6 +128,11 @@
       },
       {
         "type": "mpn",
+        "value": "F-LS32FM70-MSR",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "F-LS32FM70-MSR / LS32FM701UNXZA",
         "region": "all"
       },
@@ -49,9 +142,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS32FM701UNXZA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "198957266126",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "198957266126",
+        "region": "us"
       }
     ],
     "retailer_listings": [

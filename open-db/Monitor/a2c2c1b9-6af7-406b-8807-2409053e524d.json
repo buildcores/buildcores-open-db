@@ -9,12 +9,80 @@
   "panel_type": "Mini LED VA",
   "response_time": 0.5,
   "color": ["BLACK"],
-  "lighting": [],
-  "viewing_angle": "178° H x 178° V",
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1
+  },
   "connectors": "1x DisplayPort 1.4a            2x HDMI 2.1",
+  "display_inputs": [
+    {
+      "id": "1631a587-a15e-4cde-87d8-42f063837f78",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "bb539849-5fbf-4cb3-93b5-eb8d258ad2ee",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete"
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "6318407b-886e-4fbb-b903-da7cba1bd9f4",
+      "connector": "other",
+      "count": 1,
+      "version_label": "Analog Audio Pass-through",
+      "connector_label": "3.5mm Headphone Jack"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "0f5b48a0-af33-4603-b326-738c629e9b87",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.95,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Compatible with the four included VESA wall mount standoff screws inside the box or standard third-party M4 hardware bolts."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 613.1,
+    "height": 423.53,
+    "height_min": 423.53,
+    "height_max": 533.53,
+    "depth": 227.9
+  },
+  "dimensions_without_stand_mm": {
+    "width": 613.1,
+    "height": 375.31,
+    "depth": 68.77
+  },
+  "weight": {
+    "with_stand_kg": 7.5,
+    "without_stand_kg": 4.5
+  },
+  "power_consumption": {
+    "typical_w": 26,
+    "manufacturer_max_w": 110,
+    "note": "Power metrics reflect typical default On-mode operation conditions. The monitor uses an external power supply adapter brick rated for 100-240V AC, 50/60Hz. It has zero Type-C or Type-A downstream data hub lines, meaning it allocates 0W for upstream USB Power Delivery. System Standby mode consumes 0.5W, and Off mode draws 0.3W."
+  },
   "max_brightness": 400,
-  "hdr": null,
+  "hdr": "VESA DisplayHDR 1000, HDR10, Adaptive-Sync HDR",
   "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
     "name": "MSI MAG 274QPF X30MV 27\" WQHD Rapid VA w/ Mini LED",
@@ -22,13 +90,15 @@
     "part_numbers": ["MAG 274QPF X30MV"],
     "series": "MAG",
     "variant": "274QPF X30MV",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-02-21T11:18:17.014Z"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Monitor/MAG-274QPF-X30MV/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -36,14 +106,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142402245",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MAG 274QPF X30MV",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MAG 274QPF X30MV",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142402245",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142402245",
+        "region": "us"
       }
     ],
     "retailer_listings": [

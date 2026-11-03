@@ -4,17 +4,87 @@
   "resolution_other": "2K,1080p",
   "frame_rate": "30fps",
   "frame_rate_other": "60fps, 30fps",
+  "capture_mode_claims": [
+    {
+      "id": "dfcc9811-2eca-4d23-a0cc-c64c76a9d81e",
+      "resolution": {
+        "horizontalRes": 3840,
+        "verticalRes": 2160
+      },
+      "frame_rate_fps": 30,
+      "claim": "maximum_at_resolution",
+      "conditions": "Compressed stream format via MJPEG; supports Ultra-HDR mode at 30 fps."
+    },
+    {
+      "id": "4a11d8f0-31f9-438c-b613-fe88be34ad70",
+      "resolution": {
+        "horizontalRes": 3840,
+        "verticalRes": 2160
+      },
+      "frame_rate_fps": 24,
+      "claim": "supported",
+      "conditions": "Supports pure, uncompressed video format (NV12) for cinematic uncompressed raw 4K streaming."
+    },
+    {
+      "id": "e97139a1-841f-4c7d-bb42-de40eae4e634",
+      "resolution": {
+        "horizontalRes": 2560,
+        "verticalRes": 1440
+      },
+      "frame_rate_fps": 30,
+      "claim": "maximum_at_resolution",
+      "conditions": "Supports pure uncompressed data streams alongside standard MJPEG encoding options."
+    },
+    {
+      "id": "9c711de1-3d33-434f-8920-5613bf73300d",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "Supports uncompressed YUY2/NV12 streaming or compressed MJPEG modes."
+    },
+    {
+      "id": "ffc9c23c-db14-48bb-85cc-c28792c1e8bb",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "Compatible with high dynamic range (HDR) color processing active."
+    },
+    {
+      "id": "b33e4751-81ae-4a4b-b5d6-bbf2da2785cd",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "Standard definition high-speed mode for lower bandwidth allocations."
+    }
+  ],
   "connectivity_type": ["Wired USB-C", "Wired USB-A", "Wired"],
   "lighting": ["None"],
   "metadata": {
     "name": "Razer Kiyo Pro Ultra 4K Webcam",
     "manufacturer": "Razer",
-    "part_numbers": ["RZ19-04420100-R3U1", "RZ19-04420100-R3M1"]
+    "part_numbers": ["RZ19-04420100-R3U1", "RZ19-04420100-R3M1"],
+    "releaseYear": 2023
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.razer.com/streaming-cameras/razer-kiyo-pro-ultra?srsltid=AU7gw4Uy98K1CcvulTEF0i7vh80oivLhj7_9Ewf6_fcY4LAaACKkiXQ5"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840272900376",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RZ19-04420100-R3M1",
@@ -24,8 +94,40 @@
         "type": "mpn",
         "value": "RZ19-04420100-R3U1",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ19-04420100-R3U1",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840272900376",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CT6FFK4R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11132802",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20193409235",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

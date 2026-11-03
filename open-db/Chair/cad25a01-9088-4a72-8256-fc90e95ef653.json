@@ -1,21 +1,76 @@
 {
   "opendb_id": "cad25a01-9088-4a72-8256-fc90e95ef653",
+  "seat_height_range_mm": {
+    "min": 410,
+    "max": 510
+  },
+  "seat_dimensions_mm": {
+    "width": 430,
+    "depth": 485
+  },
+  "dimensions_mm": {
+    "width": 700,
+    "depth": 700,
+    "height_min": 1260,
+    "height_max": 1360
+  },
+  "base_diameter_mm": 700,
+  "max_user_weight_kg": 136,
+  "weight_kg": 19.5,
+  "seat_surface_materials": ["Synthetic Leather"],
+  "backrest_surface_materials": ["Synthetic Leather"],
+  "armrest_adjustability": "MultiDirectional",
+  "lumbar_support": "Fixed",
   "metadata": {
-    "name": "Razer Iskur V2 NewGen - Light Gray",
+    "name": "Razer Iskur V2 X NewGen - Black / Green",
     "manufacturer": "Razer",
     "part_numbers": ["RZ38-04901000-R3G1"],
-    "series": "Iskur V2 Newgen"
+    "series": "Iskur V2 X Newgen",
+    "variant": "Black/ Green",
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.razer.com/gaming-chairs/razer-iskur-v2-x-newgen"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840272924693",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "RZ38-04901000-R3G1",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "RZ38-05310700-R3US",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840272924693",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GFPWZ82H",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12513818",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

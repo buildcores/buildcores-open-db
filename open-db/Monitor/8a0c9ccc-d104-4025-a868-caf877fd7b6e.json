@@ -8,10 +8,118 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 2.1 TMDS input (HDCP 1.4; supports up to 3440 × 1440 at 100 Hz); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 3440 × 1440 at 100 Hz); 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, video and data, Power Delivery up to 90 W); 1x USB Type-B 5 Gbps upstream port; 2x USB-A 5 Gbps downstream ports; 1x USB-A 5 Gbps downstream port with Battery Charging 1.2; 1x USB-C 5 Gbps downstream port (Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet port; built-in webcam and microphone; power connector; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "0eb89e6e-d908-4f0a-b351-ee752fba890a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7a8836eb-b22d-465a-9e06-2d2d69114d50",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI TMDS input; supports up to 3440 × 1440 at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "4e5daa55-cb50-42ec-8e6b-28c04d2c86bf",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "05224231-a606-4fbb-9941-254b9faa575a",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 video input; supports up to 3440 × 1440 at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "f49a2506-d65b-469d-9b9b-3dc5ff19fc46",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB data; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4c9b70ce-f7c9-438f-8e3d-2e8e8f3a152e",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C upstream port using DisplayPort 1.4 Alt Mode; supports up to 3440 × 1440 at 100 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "5b51c538-bc4d-4d1a-9bb4-ef372c6f5b7f",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.98,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA 100 × 100 mm mounting pattern; use four M4 × 10 mm screws; mount sold separately"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 815.57,
+    "height_min": 423.25,
+    "height_max": 573.25,
+    "depth": 229.42
+  },
+  "dimensions_without_stand_mm": {
+    "width": 815.57,
+    "height": 392.78,
+    "depth": 85.86
+  },
+  "weight": {
+    "with_stand_kg": 9.76,
+    "without_stand_kg": 6.98
+  },
+  "power_consumption": {
+    "typical_w": 27,
+    "manufacturer_max_w": 220
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 34 USB-C Hub Webcam Monitor - P3426WEV",
     "manufacturer": "Dell",
@@ -19,9 +127,11 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-34-usb-c-hub-webcam-monitor-p3426wev/p3426wev/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -50,6 +160,13 @@
       }
     ],
     "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19897655",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "bhphoto",
         "channel": "us",

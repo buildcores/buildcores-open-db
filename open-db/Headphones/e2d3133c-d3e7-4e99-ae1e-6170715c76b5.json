@@ -2,7 +2,7 @@
   "opendb_id": "e2d3133c-d3e7-4e99-ae1e-6170715c76b5",
   "driver_size": 40,
   "frequency_response_low": 20,
-  "frequency_response_high": 22000,
+  "frequency_response_high": 22,
   "headphone_type": "Closed-Back",
   "ear_cup_type": "Over-Ear",
   "weight": 260,
@@ -12,12 +12,16 @@
   "battery_life": 40,
   "bluetooth_version": "5.3",
   "charging_port": "USB-C",
-  "wireless_range": 30,
-  "latency": 15,
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
   "has_microphone": true,
   "microphone_type": "Detachable Boom",
   "noise_cancellation_mic": true,
-  "features": ["Multi-Device Pairing"],
+  "features": ["Multi-Device Pairing", "App Support", "EQ Customization", "Spatial Audio"],
   "use_cases": ["Gaming", "Casual"],
   "platforms": ["PC", "Mobile", "Console"],
   "lighting": ["None"],
@@ -25,6 +29,8 @@
     "name": "SteelSeries Arctis Nova 3X Wireless Lavender for Xbox",
     "manufacturer": "SteelSeries",
     "part_numbers": [],
+    "series": "Arctic Nova 3X",
+    "variant": "Lavender - Xbox",
     "releaseYear": 2025
   },
   "general_product_information": {

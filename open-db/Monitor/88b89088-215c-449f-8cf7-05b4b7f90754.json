@@ -1,0 +1,165 @@
+{
+  "opendb_id": "88b89088-215c-449f-8cf7-05b4b7f90754",
+  "screen_size": 31.5,
+  "resolution": {
+    "horizontalRes": 3840,
+    "verticalRes": 2160
+  },
+  "refresh_rate": 144,
+  "panel_type": "IPS",
+  "response_time": 1,
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 4
+  },
+  "connectors": "1x HDMI 2.1, 1x DisplayPort 1.4, 1x Thunderbolt 4 In (90W Power Delivery / DP Alt Mode / Data), 1x Thunderbolt 4 Out (15W Power Delivery / Daisy Chain), 1x USB-C Upstream (USB 3.2 Gen 2 / 10 Gbps / Data Only), 1x USB-C Downstream (USB 3.2 Gen 2 / 10 Gbps / 7.5W), 2x USB 3.2 Gen 2 Type-A Downstream (4.5W), 1x USB 3.2 Gen 2 Type-A Downstream (7.5W), 1x 3.5mm Headphone Jack",
+  "display_inputs": [
+    {
+      "id": "6984778d-5b31-4266-adf9-da16c2b78163",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "aea33e96-2322-42d0-8f54-6b19d9095d02",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "eb7c8aa2-7d7d-412d-a3dc-d0c2d1d596e9",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete"
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "20717d2b-0896-4223-b8fe-aeecad7b5b60",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "98ae421b-885f-4897-b8aa-bfdccfb9d3c7",
+      "connector": "other",
+      "count": 1,
+      "version_label": "Analog Audio Output",
+      "transport": "native",
+      "connector_label": "3.5mm Headphone Jack"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "361afc6a-bb54-4d82-8cfb-d9934263108e",
+        "pattern": "100x100",
+        "mounted_weight_kg": 7,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Compatible with standard M4 x 10 mm machine screws inside the rear interface recess."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 714.3,
+    "height_min": 486.3,
+    "height_max": 636.3,
+    "depth": 242
+  },
+  "dimensions_without_stand_mm": {
+    "width": 714.3,
+    "height": 430.5,
+    "depth": 75.7
+  },
+  "weight": {
+    "with_stand_kg": 9.7,
+    "without_stand_kg": 7
+  },
+  "power_consumption": {
+    "typical_w": 55,
+    "manufacturer_max_w": 240,
+    "note": "Maximum power consumption value includes 90W Power Delivery over the upstream Thunderbolt 4 link and up to 15W Power Delivery over the downstream daisy-chain connection."
+  },
+  "max_brightness": 400,
+  "hdr": "HDR10; VESA DisplayHDR 400",
+  "adaptive_sync": "FreeSync Premium",
+  "metadata": {
+    "name": "BenQ PD3226G",
+    "manufacturer": "BenQ",
+    "series": "PD3226G",
+    "releaseYear": 2025,
+    "manufacturer_color": "White"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.benq.com/en-us/monitor/creative-pro/pd3226g/spec.html"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840046050726",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "PD3226G",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840046050726",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DZ8GYGCJ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6644710",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824014986",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5I0GB9YVBF6X",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

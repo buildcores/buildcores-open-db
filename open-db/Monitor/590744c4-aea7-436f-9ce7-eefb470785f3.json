@@ -10,8 +10,151 @@
   "response_time": 0.03,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 4
+  },
+  "connectors": "2 × HDMI 2.1 inputs (HDCP 1.4/2.2; supports up to 3840 × 2160 at 120 Hz, HDR, VRR, and DSC); 1 × DisplayPort 1.4 input (HDCP 1.4/2.2); 1 × Thunderbolt 4 upstream port (video and data, DisplayPort 1.4 Alt Mode, Power Delivery up to 140 W EPR); 1 × Thunderbolt 4 downstream port (video and data, daisy-chain support, Power Delivery up to 15 W); 1 × USB-C 10 Gbps upstream port (data only); 2 × USB-A 10 Gbps downstream ports; 1 × USB-A 10 Gbps downstream port with BC 1.2 charging; 2 × USB-C 10 Gbps downstream ports (Power Delivery up to 27 W each); 1 × RJ45 Ethernet port (2.5GbE); power connector; security-lock slot; stand-lock slot.",
+  "display_inputs": [
+    {
+      "id": "39f2a371-b1f7-4831-83fa-bae3facffbc5",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1 (FRL)",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4 and HDCP 2.2",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "00685327-73e4-4608-b9a9-fec32aebd4c8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 FRL; VRR supported; up to 1.07 billion colors."
+        }
+      ]
+    },
+    {
+      "id": "b991fbf5-cb4a-48b2-a54b-6c487970cca1",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4 and HDCP 2.2",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "388c4840-eaed-4c55-97c5-5f9c42c5d5c9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Supports up to 1.07 billion colors."
+        }
+      ]
+    },
+    {
+      "id": "7adcab0b-f4a4-46b0-95f8-7234757a9c9b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 upstream (DisplayPort 1.4 Alt Mode)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "Thunderbolt 4, Power Delivery up to 140 W EPR",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c1095f18-20c7-4874-9cd8-0164698255e9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Video over Thunderbolt 4 using DisplayPort 1.4 Alt Mode."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "3c02f073-84d5-4c77-ab3a-bab1f042a776",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 downstream (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "USB Power Delivery up to 15 W; supports video output through Thunderbolt daisy-chaining",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3a072215-aff4-4a40-aad8-8e4af621a623",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Video output via Thunderbolt 4 daisy-chain connection; maximum resolution 3840 × 2160 at 120 Hz, subject to the connected monitor and host capabilities."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "bc7e7d81-ef68-43d3-bb63-117225b7ea81",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.43,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes (100 × 100 mm) behind the attached VESA cover; remove the stand before mounting"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 718.28,
+    "height": 473.77,
+    "height_min": 473.77,
+    "height_max": 623.77,
+    "depth": 217.16
+  },
+  "dimensions_without_stand_mm": {
+    "width": 718.28,
+    "height": 436,
+    "depth": 65.48
+  },
+  "weight": {
+    "with_stand_kg": 9.84,
+    "without_stand_kg": 6.43
+  },
+  "power_consumption": {
+    "typical_w": 33.7,
+    "manufacturer_max_w": 460,
+    "note": "Manufacturer specifies 33.7 W in on mode and 460 W maximum at maximum luminance with maximum power loading on all USB ports. ENERGY STAR on-mode power (P_on): 30.2 W. Standby: 0.4 W; off mode: 0.3 W; networked standby: 1.9 W. The 460 W figure includes USB port power loading and is labelled maximum, not peak."
+  },
+  "max_brightness": 300,
+  "hdr": "HDR support and certification: VESA DisplayHDR True Black 500, Dolby Vision HDR, and HDR10.",
+  "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
     "name": "Dell UltraSharp 32 4K QD-OLED Monitor - U3226Q",
     "manufacturer": "Dell",
@@ -19,10 +162,17 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-32-4k-qdoled-monitor-u3226q/u3226q/pw88c"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0196271708766",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "210-bvkd",
@@ -37,15 +187,46 @@
         "type": "mpn",
         "value": "U3226Q",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "U3226Q",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "196271708766",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0HF1RNZBY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12974558",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC98190",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20627701261",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

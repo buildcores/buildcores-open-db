@@ -8,15 +8,140 @@
   "refresh_rate": 120,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "displayport_1_4a": 2
+    "usb_c": 3
   },
-  "connectors": "1 x HDMI                                                            2 x DisplayPort",
+  "connectors": "1x HDMI 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz via TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz); 1x DisplayPort 1.4 output with MST (HDCP 1.4); 1x USB-C upstream port with DisplayPort 1.4 Alt Mode, video and data, and USB Power Delivery up to 90 W; 1x USB-C upstream data-only port (USB 3.2 Gen 2, 10 Gbps); 4x USB-A downstream ports (USB 3.2 Gen 2, 10 Gbps, including 1x with BC1.2 charging); 1x USB-C downstream port (USB 3.2 Gen 2, 10 Gbps, charging up to 15 W); 1x RJ45 Ethernet port (2.5GbE); 1x audio line-out port; power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "5a168c82-de82-4d56-ae16-1db3e75773f2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "76e89e0f-25cf-45e3-b922-90ebcb62fb20",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 1.4 input; up to 1920 × 1080 at 120 Hz via TMDS."
+        }
+      ]
+    },
+    {
+      "id": "7126dea0-3f9b-46eb-bbe2-107347fd305a",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; supports DisplayPort Dynamic Refresh Rate for Microsoft Windows",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b7ebbd34-2f28-41d0-8657-0c5af9e6b41f",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; maximum preset mode is FHD at 120 Hz."
+        }
+      ]
+    },
+    {
+      "id": "3cc11971-8d46-4e74-b207-9d50220e0092",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.4 Alt Mode over USB-C",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB-C upstream video and data; USB Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b8761d68-69ac-43ea-9ce5-b05dad57fb8b",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C upstream port using DisplayPort 1.4 Alt Mode; maximum preset mode is FHD at 120 Hz."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "a8e3c81e-2a70-4320-b33c-ba7f395ca6a2",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort output with MST (Multi-Stream Transport); HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bbfda192-ac58-4141-bca9-d59174efa2ed",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 MST output; supported daisy-chain modes depend on the host and MST configuration."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "3979d471-f440-4d72-8d81-eff5755e63b4",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.52,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes behind attached VESA cover"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.73,
+    "height_min": 364,
+    "height_max": 496.53,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.73,
+    "height": 311.21,
+    "depth": 49.1
+  },
+  "weight": {
+    "with_stand_kg": 5.38,
+    "without_stand_kg": 3.52
+  },
+  "power_consumption": {
+    "typical_w": 14.5,
+    "manufacturer_max_w": 210,
+    "note": "Dell specifies 14.5 W On mode, 210 W maximum with maximum power loading on all USB ports, 13.6 W ENERGY STAR On Mode power (Pon), 0.5 W standby, 0.3 W off mode, and 1.5 W networked standby. Maximum power includes USB power-delivery loading; it is not explicitly labeled as peak power."
+  },
   "max_brightness": 250,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -25,11 +150,13 @@
     "manufacturer": "Dell",
     "part_numbers": ["210-bkry", "210-BKRY", "U2424HE", "DELL-U2424HE"],
     "releaseYear": 2023,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Platinum Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-24-usb-c-hub-monitor-u2424he/u2424he_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -40,6 +167,11 @@
         "type": "ean",
         "value": "5715063801239",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5715063801239",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -60,6 +192,16 @@
         "type": "mpn",
         "value": "U2424HE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "U2424HE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "W128815320",
+        "region": "us"
       },
       {
         "type": "upc",

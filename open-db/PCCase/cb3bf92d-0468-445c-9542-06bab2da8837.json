@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.bequiet.com/en/case/5296"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,9 +50,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4260052191712",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "BGW65",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BGW65",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -200,6 +210,13 @@
         "source_product_id": "55306352230782",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11076940",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -367,7 +384,7 @@
         "channel": "us",
         "source_product_id": "13030559469",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

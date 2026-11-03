@@ -8,24 +8,161 @@
   "refresh_rate": 60,
   "panel_type": "IPS",
   "response_time": 5,
-  "color": ["GREY"],
-  "lighting": [],
-  "viewing_angle": "178° H x 178° V",
+  "color": ["GREY", "BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.0                                                    1 x DisplayPort 1.4",
+  "video_outputs": {
+    "hdmi_2_0": 2,
+    "usb_c": 1
+  },
+  "connectors": "2 × HDMI 2.0; 1 × DisplayPort 1.4 input; 1 × DisplayPort 1.4 output",
+  "display_inputs": [
+    {
+      "id": "46311376-c24b-4ecc-b6a0-8ec8b85f166b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C (96W PD)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "2b7e8875-2ff1-4894-a56f-a71fd8d0f08e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Requires a host device that supports DP Alt Mode over USB-C. Provides upstream power delivery up to 96W."
+        }
+      ]
+    },
+    {
+      "id": "083e4746-8dcb-436f-885a-5f59807e3f7f",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "5fa201ae-b4e1-4ceb-9b14-7ae7cfc25f57",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Supports VESA MST Multi-Monitor Daisy Chaining loop configurations via the integrated secondary DisplayPort pass-through connection."
+        }
+      ]
+    },
+    {
+      "id": "9cbbfed6-94c1-4a64-9bde-32c091db67f7",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "85697e74-2a81-4bce-9143-09ebb81fb2c0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Requires an HDMI 2.0 compliant source graphics block or video playback deck."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "443e0029-6752-4b21-9b4e-54356b81b7ca",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4 (Daisy Chain)",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "05d32fbf-34a8-464c-a965-efe5c87539c1",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "supported",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Downstream MST passthrough port dedicated to multi-monitor daisy chaining. Activating this video loop restricts or divides downstream bandwidth based on your graphics card’s maximum MST layout handling capability."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "274f8683-3aea-47d0-9d5b-f15c1688d9b9",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.07,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 screws (The baseline standard metric threading limits supported natively by the monitor housing structural anchor arrays).",
+          "weight_kg": 5.78
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612,
+    "height": 538,
+    "height_min": 408,
+    "height_max": 538,
+    "depth": 215
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612,
+    "height": 363,
+    "depth": 44
+  },
+  "weight": {
+    "with_stand_kg": 5.78,
+    "without_stand_kg": 4.07
+  },
+  "power_consumption": {
+    "typical_w": 26.14,
+    "manufacturer_max_w": 122.14,
+    "note": "The manufacturer-reported baseline operational power draw is 26.14 W. The maximum 122.14 W calculation accounts for full 96 W upstream USB Power Delivery capability via the primary USB-C input interface."
+  },
   "max_brightness": 400,
-  "hdr": "",
+  "hdr": "HDR10, VESA DisplayHDR 400",
   "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "Asus ProArt PA279CRV 27\" 4K 60Hz IPS Monitor",
     "manufacturer": "ASUS",
     "part_numbers": ["PA279CRV", "90LM08E0-B01K70", "90LM08E0-B01KB0"],
     "series": "",
-    "variant": "Silver"
+    "variant": "Silver",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/ph/displays-desktops/monitors/proart/proart-display-pa279crv/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -34,8 +171,18 @@
       },
       {
         "type": "ean",
+        "value": "0195553951531",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "4711081951506",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081951506",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -58,9 +205,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PA279CRV",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "195553951531",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553951531",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -203,6 +360,13 @@
         "source_product_id": "55306309927294",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "10751041",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -377,7 +541,7 @@
         "channel": "us",
         "source_product_id": "2097009083",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/flux"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345101332",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345101332",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -61,6 +66,11 @@
       },
       {
         "type": "mpn",
+        "value": "FLUX",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "FLUX-BK",
         "region": "all"
       },
@@ -68,6 +78,11 @@
         "type": "upc",
         "value": "761345101332",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345101332",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -184,6 +199,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12302682",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "0-761345-10133-2",
@@ -258,14 +280,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129312",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129312",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -350,6 +372,13 @@
         "source_product_id": "7S1PFLUX",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15800859136",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

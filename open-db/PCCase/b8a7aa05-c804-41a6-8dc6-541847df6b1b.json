@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.montechpc.com/sky-two"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,14 +50,19 @@
         "region": "all"
       },
       {
-        "type": "mpn",
+        "type": "ean",
         "value": "4710562747652",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "SKY TWO (BLUE)",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "SKY TWO (BLUE)",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -233,6 +238,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "2AM-00CN-00056R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "proshop",
         "channel": "de",
         "source_product_id": "3184449",
@@ -273,6 +285,13 @@
         "source_product_id": "2913179",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1787830838",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

@@ -7,13 +7,15 @@
     "height": 39.9
   },
   "size": "Medium",
-  "shape": "Ambidextrous",
+  "shape": "Symmetrical",
+  "handedness": "Ambidextrous",
   "connectivity": ["Wireless 2.4GHz", "Wired USB-A", "Wired USB-C"],
   "sensor": "Focus Pro 50K Optical Sensor Gen-3",
   "max_dpi": 50000,
   "polling_rate": 8000,
   "buttons": 6,
   "switches": "Razer Optical Mouse Switches Gen-4",
+  "switch_type": "Optical",
   "onboard_memory": true,
   "rgb": false,
   "lighting": ["None"],
@@ -33,8 +35,14 @@
     "manufacturer_url": "https://www.razer.com/gaming-mice/razer-viper-v4-pro?page=tech-specs"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "RZ01-05630300",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }
