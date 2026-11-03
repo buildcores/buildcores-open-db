@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.montechpc.com/king-45-pro"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710562749328",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562749328",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -57,6 +62,11 @@
         "type": "mpn",
         "value": "KING45PW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "KING45PW",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -199,6 +209,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12214946",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-066",
@@ -231,14 +248,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811970050",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811970050",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -301,7 +318,7 @@
         "channel": "us",
         "source_product_id": "18177802044",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
