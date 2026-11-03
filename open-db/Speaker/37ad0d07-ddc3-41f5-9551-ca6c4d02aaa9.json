@@ -1,16 +1,77 @@
 {
   "opendb_id": "37ad0d07-ddc3-41f5-9551-ca6c4d02aaa9",
-  "lighting": [],
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "177ad0dc-e3de-494d-8dac-1359ac8f46be",
+      "role": "Speaker",
+      "quantity": 2
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "add330af-a18f-4659-8ce2-463fb2c39ed7",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "cb0d1c1f-8405-417e-bb6f-a03212a18731",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "3b8422f4-0e59-45f3-92a6-98e44bd61056",
+      "method": "RCA Analog",
+      "speaker_side_connector": "RCA Connector",
+      "source_side_connector": "3.5 mm Audio Connector",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "b7227fb1-d17c-4913-a648-36726bbd9c89",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "Aux In",
+      "source_side_connector": "3.5 mm Audio Connector",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "bc6fe2a3-9d26-4932-96b1-fb3150eb7dc8",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type C Port",
+      "source_side_connector": "USB Type C"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "0fa41b59-43e3-4ae1-a8bf-81c63429c42a",
+      "source": "USB Power",
+      "powered_component": "Speaker",
+      "connector": "Double Barrel"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "OHAYO 60W Computer Speakers",
     "manufacturer": "OHAYO",
     "part_numbers": [],
-    "series": "OHAYO 60W Computer Speakers"
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.amazon.com/dp/B0DTNX7VLW?"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "C6",
+        "region": "us"
+      }
+    ],
     "retailer_listings": [
       {
         "source": "amazon",

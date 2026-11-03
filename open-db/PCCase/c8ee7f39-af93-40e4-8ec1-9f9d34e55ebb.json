@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.thermaltake.com/view-170-ws-argb-snow-micro-chassis.html"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840480305574",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840480305635",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,11 +64,50 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CA-1Z4-00M6WN-WS",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840480305574",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840480305635",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FWVRYS5J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12480988",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811133588",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "18864617975",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

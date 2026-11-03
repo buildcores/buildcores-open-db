@@ -41,7 +41,7 @@
     "manufacturer_url": "https://www.thermaltake.com/view-170-tg-argb-bubble-pink-micro-chassis.html"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -49,14 +49,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0841163099223",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CA-1Z4-00MAWN-01",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CA-1Z4-00MAWN-01",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "841163099223",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "841163099223",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -166,25 +181,32 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12761146",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "newegg",
         "channel": "ca",
         "source_product_id": "2AM-000X-00357",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "2AM-000X-00357",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "16421023345",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
