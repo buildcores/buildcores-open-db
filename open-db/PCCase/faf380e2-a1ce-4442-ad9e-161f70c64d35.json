@@ -40,12 +40,17 @@
     "manufacturer_url": "https://www.montechpc.com/king-15"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710562745474",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562745474",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -56,6 +61,11 @@
         "type": "mpn",
         "value": "KING15W",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "KING15W",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -186,6 +196,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA0ZXKS75476",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "scan-computer",
         "channel": "uk",
         "source_product_id": "162895",
@@ -198,6 +215,13 @@
         "source_product_id": "3638112",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19899650549",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

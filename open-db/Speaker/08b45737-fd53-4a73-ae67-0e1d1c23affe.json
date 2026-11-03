@@ -1,217 +1,124 @@
 {
   "opendb_id": "08b45737-fd53-4a73-ae67-0e1d1c23affe",
+  "weight": 620,
+  "speaker_product_kind": "Portable",
+  "color": ["PINK", "RED"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "b29fa372-6769-46ab-b0db-3f73183db8db",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears BOOM 4",
+      "quantity": 1,
+      "weight_g": 620,
+      "dimensions_mm": {
+        "width": 73,
+        "height": 184,
+        "depth": 73
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "95c5e86e-04fb-436d-9080-9da466385aa8",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "83b65213-6bf9-4064-b5f4-8336b89314b9",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth audio playback using A2DP-compatible source devices"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "dc954903-1405-4a82-94a2-7113a7cc771e",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears BOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery powers portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "794bc109-88ab-497e-b6ca-ff35cc92c2b8",
+      "hours": 15,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 15 hours of playback. Actual runtime varies with volume, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "a31a7efc-528e-4237-98f1-8387971d1fa5",
+      "method": "USB-C",
+      "target": "Ultimate Ears BOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery. Manufacturer specifies less than 3 hours charging with a suitable 10 W or higher adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears BOOM 4 Bluetooth Speaker - Black",
+    "name": "Ultimate Ears BOOM 4 Bluetooth Speaker - Raspberry Red",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["fb9eb69c3c925545", "984-001963"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-4.984-002004"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
-        "value": "0097855197689",
+        "value": "0097855197702",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "984-002004",
         "region": "all"
       },
       {
         "type": "mpn",
-        "value": "984-001963",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "fb9eb69c3c925545",
-        "region": "all"
+        "value": "984-002004",
+        "region": "us"
       },
       {
         "type": "upc",
-        "value": "097855197689",
-        "region": "all"
+        "value": "097855197702",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
         "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0CVFKZ1LC",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
         "channel": "us",
-        "source_product_id": "B0CVFKZ1LC",
+        "source_product_id": "B0CVFLZS7X",
         "pricing_enabled": true,
         "verified": true
       },
       {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "6588387",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "bhphoto",
-        "channel": "us",
-        "source_product_id": "ULUEB4WBSBLK",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "ca",
-        "source_product_id": "984-001963",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "fr",
-        "source_product_id": "984-001963",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "it",
-        "source_product_id": "984-001963",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "nl",
-        "source_product_id": "984-001963",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "uk",
-        "source_product_id": "984-001963",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "logitech",
-        "channel": "us",
-        "source_product_id": "984-001963",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "N82E16855247034",
+        "source_product_id": "984-002004",
         "pricing_enabled": true,
         "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "N82E16855247034",
+        "source_product_id": "N82E16855247037",
         "pricing_enabled": true,
         "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
-        "source_product_id": "7401263382",
+        "source_product_id": "7345168067",
         "pricing_enabled": true,
         "verified": true
       }

@@ -6,10 +6,11 @@
     "verticalRes": 1440
   },
   "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
   "panel_type": "OLED",
   "response_time": 0.03,
   "color": ["BLACK", "RED"],
-  "lighting": ["None"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
@@ -24,7 +25,18 @@
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "26bb5f66-89f2-4f99-b57a-71cef5c56dda",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "f4273e9b-70c1-4bb4-a7c0-3fb91cf645df",
@@ -33,7 +45,17 @@
       "version_label": "1.4",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "6920f1df-a7de-4cc0-be05-6b7e698a1d7b",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -42,28 +64,32 @@
       {
         "id": "f8c9fed6-753e-461b-9b08-1c8ca91739bb",
         "pattern": "100x100",
-        "mounted_weight_kg": 4.2,
-        "installation": "included_manufacturer_attachment"
+        "mounted_weight_kg": 6.7,
+        "installation": "included_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "ROG wall mount"
+        }
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 605,
-    "height": 508,
+    "height_min": 388,
+    "height_max": 508,
     "depth": 219
   },
   "dimensions_without_stand_mm": {
     "width": 605,
-    "height": 508,
+    "height": 368,
     "depth": 50
   },
   "weight": {
     "with_stand_kg": 6.7,
-    "without_stand_kg": 4.2
+    "without_stand_kg": 4.7
   },
   "power_consumption": {
     "typical_w": 25,
-    "manufacturer_max_w": 25
+    "manufacturer_max_w": 120
   },
   "max_brightness": 1300,
   "hdr": "VESA DisplayHDR True Black 400",

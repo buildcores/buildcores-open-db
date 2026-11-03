@@ -8,10 +8,77 @@
   "refresh_rate": 165,
   "panel_type": "OLED",
   "response_time": 0.03,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°'",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 1
+  },
+  "connectors": "1 x HDMI 2.1 input; 1 x DisplayPort 1.4 input; 1 x USB-C upstream port (DisplayPort video, data, up to 90 W Power Delivery); 2 x USB-A downstream ports (USB 2.0).",
+  "display_inputs": [
+    {
+      "id": "c6fe257f-f8ab-4039-ba23-a1cb8e504438",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "c7226c9f-11e1-4c57-a04c-7635ca46cd95",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "804abb9d-9048-41ff-b756-2f4a854336db",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C (DisplayPort Alt Mode)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB-C; up to 90 W Power Delivery"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "e084b3fb-39a8-4c2c-9f81-165a228601c3",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.3,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 717.2,
+    "height": 601.6,
+    "height_min": 481.6,
+    "height_max": 601.6,
+    "depth": 200
+  },
+  "dimensions_without_stand_mm": {
+    "width": 717.2,
+    "height": 432.3,
+    "depth": 42.5
+  },
+  "weight": {
+    "with_stand_kg": 8.4,
+    "without_stand_kg": 5.3
+  },
+  "power_consumption": {
+    "typical_w": 55.4,
+    "manufacturer_max_w": 240,
+    "note": "Typical power consumption is 55.4 W, published by Samsung UK for the corresponding M90SF model series; this typical value is not confirmed on the exact US SKU page. Manufacturer maximum power consumption is 240 W. Power supply is an external adapter, AC 100–240 V, 50/60 Hz. Maximum power is not explicitly labelled as peak. The manufacturer does not specify whether the 240 W maximum includes USB-C Power Delivery output."
+  },
+  "max_brightness": 250,
+  "hdr": "VESA DisplayHDR True Black 400; HDR10+",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung 32-inch Smart Monitor M9 M90SF 4K OLED (LS32FM902SNXZA)",
     "manufacturer": "Samsung",
@@ -19,14 +86,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/smart/32-inch-smart-monitor-m90f-4k-oled-vision-ai-monitor-sku-ls32fm902snxza/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0198957071577",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0198957071577",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -39,9 +113,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS32FM902SNXZA",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "198957071577",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "198957071577",
+        "region": "us"
       }
     ],
     "retailer_listings": [

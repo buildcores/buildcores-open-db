@@ -1,5 +1,78 @@
 {
   "opendb_id": "5afb68e1-4b72-4f6f-ad25-632e7ffb90c1",
+  "weight": 1968.591,
+  "speaker_product_kind": "Soundbar",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "5cc50b08-23e6-4b58-aa78-4fc2545cf343",
+      "role": "Soundbar",
+      "component_label": "Bose TV Speaker",
+      "quantity": 1,
+      "weight_g": 1969,
+      "dimensions_mm": {
+        "width": 593.85,
+        "height": 56.13,
+        "depth": 102.11
+      },
+      "conditions": "Manufacturer-published weight: 4.34 lb. Dimensions: 2.21 H × 23.38 W × 4.02 D inches. Active powered soundbar."
+    },
+    {
+      "id": "9372a446-b5b7-4069-b72c-6fce05352eec",
+      "role": "Control Unit",
+      "component_label": "Bose TV Speaker Remote",
+      "quantity": 1,
+      "weight_g": 32,
+      "dimensions_mm": {
+        "width": 40.64,
+        "height": 104.14,
+        "depth": 12.7
+      },
+      "conditions": "Included remote control; manufacturer-published weight: 0.07 lb. Dimensions: 4.1 H × 1.6 W × 0.5 D inches. Battery is pre-installed and is not a separate component row."
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "7b213c1e-91f4-4c28-b363-70577a1a8a56",
+      "method": "HDMI ARC",
+      "speaker_side_connector": "HDMI ARC input",
+      "source_side_connector": "HDMI ARC/eARC output on TV",
+      "adapter_requirement": "Separate Adapter",
+      "conditions": "Connect to a TV HDMI port specifically supporting ARC or eARC. HDMI cable is sold separately."
+    },
+    {
+      "id": "237b82ce-1f44-4263-9d19-c1f2603059d7",
+      "method": "Optical",
+      "speaker_side_connector": "TOSLINK optical input",
+      "source_side_connector": "TOSLINK optical audio output",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "Optical cable is included with the soundbar. Connect to the TV's optical audio output."
+    },
+    {
+      "id": "494907f8-2b12-4d5c-87d9-9c33914d0607",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "3.5 mm AUX input",
+      "source_side_connector": "3.5 mm analog audio output",
+      "adapter_requirement": "Direct",
+      "conditions": "Manufacturer lists one Auxiliary input. Use a compatible analog audio source."
+    },
+    {
+      "id": "18526c03-2d4d-4247-a03f-507a944c84cc",
+      "method": "Bluetooth Audio",
+      "conditions": "Bluetooth 4.2 audio reception from compatible phones, tablets, and computers. Supports A2DP."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "3ed6376a-4be6-48c3-ad3b-df0b074dc66f",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Bose TV Speaker Soundbar",
+      "connector": "AC power cord input",
+      "conditions": "Operates from AC mains through the included power cord. Manufacturer-rated input: 100–240 V AC, 50/60 Hz. The remote-control battery is not an operating power source for the soundbar."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Bose TV Speaker Bluetooth Soundbar - Black",
@@ -7,14 +80,21 @@
     "part_numbers": ["838309-1100", "6416849"],
     "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.bose.com/p/home-theater/bose-tv-speaker/TVSPKR-SOUNDBAR.html?srsltid=AYCX9vJsbtz4vLdmi-uVic3xphBih5gopL_r1cChgNMetrsQFiDg8APr"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0017817808675",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0017817808675",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -27,9 +107,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "838309-1100",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "017817808675",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "017817808675",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -1,14 +1,76 @@
 {
   "opendb_id": "ef63fde0-217b-47c7-a2cc-c7ff46414995",
-  "lighting": [],
+  "weight": 935,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "196f7f36-2c88-4eca-9720-53a2f7d5815d",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears MEGABOOM 4s",
+      "quantity": 1,
+      "weight_g": 935,
+      "dimensions_mm": {
+        "width": 87,
+        "height": 225,
+        "depth": 87
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "a83c566f-d961-4117-b8fe-56c752aeb283",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "c412cdf7-62aa-4f0e-8994-67ba782dea39",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio playback; requires a Bluetooth A2DP-compatible source device."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "8e6efc79-17ca-4c15-81dc-d6f1273aba7f",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears MEGABOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "b63575cf-1693-4580-a421-19f573c5d85d",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 20 hours at default volume (42%); actual runtime varies with volume, settings, and environment."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "a9c1af6d-8dfc-49df-9ac6-9df3adc4a99e",
+      "method": "USB-C",
+      "target": "Ultimate Ears MEGABOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; charge time under 3 hours with a 15 W or higher USB-C PD adapter."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears MEGABOOM 4 Bluetooth Speaker",
+    "name": "Ultimate Ears MEGABOOM 4 Bluetooth Speaker - Active Black",
     "manufacturer": "Ultimate Ears",
-    "part_numbers": ["984-001964", "adb393f5f2596e4a"]
+    "part_numbers": ["984-001964", "adb393f5f2596e4a"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/megaboom-4.984-001964"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -142,7 +204,7 @@
         "channel": "us",
         "source_product_id": "6585548",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

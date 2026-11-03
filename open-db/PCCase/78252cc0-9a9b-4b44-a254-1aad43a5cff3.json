@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/flux-pro-white"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345101554",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345101554",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -70,9 +75,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "FLUX PRO WHITE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "761345101554",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345101554",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -182,6 +197,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "Antec FLUX PRO ATX Full Tower White / Brown Tempered Glass Side Panel",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "computer-orbit",
         "channel": "uk",
         "source_product_id": "0-761345-10156-1",
@@ -207,14 +229,14 @@
         "channel": "us",
         "source_product_id": "N82E16811129321",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "11857855264",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

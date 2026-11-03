@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c3"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100298",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100298",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -56,8 +61,18 @@
       },
       {
         "type": "mpn",
+        "value": "0-761345-10029-8",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C3 ARGB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "C3 ARGB",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -68,6 +83,11 @@
         "type": "upc",
         "value": "761345100298",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100298",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -237,14 +257,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129308",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129308",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -335,7 +355,7 @@
         "channel": "us",
         "source_product_id": "5548136582",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

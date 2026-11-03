@@ -8,10 +8,126 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 2.1 input (HDCP 1.4; supports up to 2560 × 1440 at 100 Hz TMDS); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output with MST (HDCP 1.4); 1x USB-C 5 Gbps upstream (DisplayPort 1.4 Alt Mode; USB Power Delivery up to 90 W); 3x USB-A 5 Gbps downstream; 1x USB-C 5 Gbps downstream (data only; Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet; power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "33cc3060-2d65-4c29-99ee-edc47abdbd3d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; TMDS",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4788a782-bf0c-45ed-9a05-7464e00f120a",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "HDMI input; QHD 2560 × 1440 at up to 100 Hz TMDS."
+        }
+      ]
+    },
+    {
+      "id": "7dcdaef3-ab09-4597-a099-db688eb3c4d4",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d1a4b73c-a664-4915-bd2e-9be8b53cb82e",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "DisplayPort 1.4 input; QHD 2560 × 1440 at up to 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "b17bec3f-ec3d-42ae-8c92-583228ddd8ce",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C (DisplayPort 1.4 Alt Mode)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB 5 Gbps; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b3963bea-19b0-4dac-8cb1-a8775c149aed",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "USB-C upstream video input using DisplayPort 1.4 Alternate Mode; monitor maximum resolution is 2560 × 1440 at 100 Hz. Actual capability also depends on the connected computer and cable."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "3f97db78-b511-4b71-9163-ab8db16b84d3",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.78,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA-compatible flat-panel mount interface, 100 × 100 mm; mounting holes behind the attached VESA cover; stand is removable"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.7,
+    "height": 364,
+    "height_min": 364,
+    "height_max": 496.55,
+    "depth": 181.54
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.7,
+    "height": 315.25,
+    "depth": 49.74
+  },
+  "weight": {
+    "with_stand_kg": 5.61,
+    "without_stand_kg": 3.78
+  },
+  "power_consumption": {
+    "typical_w": 16.5,
+    "manufacturer_max_w": 185,
+    "note": "Dell specifies 16.5 W in On Mode and 185 W maximum at maximum brightness and contrast with maximum power loading on all USB ports. Standby: 0.3 W; off mode: 0.3 W; networked standby: 1.0 W. Pon: 17.5 W; TEC: 56.5 kWh."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 24 Plus QHD USB-C Hub Monitor - P2425DE",
     "manufacturer": "Dell",
@@ -19,14 +135,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-24-plus-qhd-usbc-hub-monitor-p2425de/p2425de/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
         "value": "0769044181587",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0769044181587",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -40,11 +163,6 @@
       },
       {
         "type": "mpn",
-        "value": "f4e0d334faad5b53",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
         "value": "P2425DE",
         "region": "all"
       },
@@ -52,6 +170,11 @@
         "type": "upc",
         "value": "769044181587",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "769044181587",
+        "region": "us"
       }
     ],
     "retailer_listings": [

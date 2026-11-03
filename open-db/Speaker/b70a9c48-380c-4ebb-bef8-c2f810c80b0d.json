@@ -1,20 +1,86 @@
 {
   "opendb_id": "b70a9c48-380c-4ebb-bef8-c2f810c80b0d",
+  "weight": 960,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK", "YELLOW"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "fc1bc147-e11c-4515-9d34-cfa2293298a0",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears EVERBOOM",
+      "quantity": 1,
+      "weight_g": 960,
+      "dimensions_mm": {
+        "width": 110,
+        "height": 205,
+        "depth": 85
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "815e4599-4f00-44cb-ae15-2a82dac8b01b",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "63d923c9-04a2-4901-a3a1-b3b56b8ec2b2",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth A2DP-compatible source devices; Bluetooth 5.3."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "1265d8ca-ff58-4e82-9fe4-1b66e6733052",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears EVERBOOM",
+      "conditions": "Built-in rechargeable lithium-ion battery powers speaker playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "234d24c1-95ea-4cb9-8b24-bd83bf440ee9",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 20 hours at default volume (42%); actual battery life varies with use, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "1333c724-bb0b-4db6-9746-92a33dbfaa8f",
+      "method": "USB-C",
+      "target": "Ultimate Ears EVERBOOM",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; charge time under 3 hours with a suitable 15 W USB Power Delivery adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears EVERBOOM Portable Bluetooth Speaker",
+    "name": "Ultimate Ears EVERBOOM Portable Bluetooth Speaker - Charcoal Black",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["23f17166efdf5876", "984-001872"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/everboom-bluetooth.984-001872"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0097855191724",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0097855191724",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -27,9 +93,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "984-001872",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855191724",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855191724",
+        "region": "us"
       }
     ],
     "retailer_listings": [

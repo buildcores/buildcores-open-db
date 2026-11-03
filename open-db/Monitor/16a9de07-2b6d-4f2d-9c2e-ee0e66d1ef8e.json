@@ -10,13 +10,139 @@
   "response_time": 8,
   "color": ["BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 1,
-    "displayport_1_4a": 2
+    "usb_c": 3
   },
-  "connectors": "1 x HDMI                                                           2 x DisplayPort",
+  "connectors": "1x HDMI 2.1 TMDS input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz); 1x DisplayPort 1.4 output with MST (HDCP 1.4; supports up to 1920 × 1080 at 120 Hz); 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, video and data, Power Delivery up to 100 W); 2x USB-A 5 Gbps downstream ports; 2x USB-C 5 Gbps downstream ports (data and charging up to 15 W each); 1x RJ-45 Gigabit Ethernet port; power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "2b41a66f-d7fc-406e-abf0-592891ec468c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1 TMDS",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b6465dcf-14df-4360-8366-8c6287c4e59d",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "FHD 1920 × 1080 at up to 120 Hz; HDMI 2.1 TMDS implementation does not support the optional HDMI 2.1 features."
+        }
+      ]
+    },
+    {
+      "id": "bc130d41-0430-4929-a154-f19cc1951a43",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2eb4b5bc-8d37-4f5b-8612-868b7e9292c2",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "FHD 1920 × 1080 at up to 120 Hz."
+        }
+      ]
+    },
+    {
+      "id": "911a0aec-d205-47d7-864d-b372d2d3e015",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB data; Power Delivery up to 100 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "59e214ab-ccbe-45d0-a097-cd5a26529de9",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Video over DisplayPort 1.4 Alt Mode; maximum monitor resolution is FHD 1920 × 1080 at 120 Hz. USB-C also supports data and power delivery up to 100 W."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "a3a07677-d98c-4a7c-a758-fc723caf7e80",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "MST (Multi-Stream Transport); HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "555a149c-269c-480c-8355-f28aaa16b288",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 output with MST; supports up to 1920 × 1080 at 120 Hz. Used for daisy-chaining a compatible monitor."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d10e9428-4cbb-4e84-9624-a1a7ede08bc8",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.5,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "100 × 100 mm VESA-compatible mount; mounting hardware not included with the monitor"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 610.69,
+    "height_min": 384.56,
+    "height_max": 534.56,
+    "depth": 192.28
+  },
+  "dimensions_without_stand_mm": {
+    "width": 610.69,
+    "height": 354.71,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 6.47,
+    "without_stand_kg": 4.5
+  },
+  "power_consumption": {
+    "typical_w": 14.9,
+    "manufacturer_max_w": 205,
+    "note": "Typical on-mode power consumption is 14.9 W. Maximum power consumption is 205 W at maximum brightness and contrast with maximum power loading on all USB ports. The manufacturer does not separately label a peak power consumption value. Input rating: 100–240 VAC, 50/60 Hz, 2.5 A."
+  },
   "max_brightness": 300,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -27,10 +153,17 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-27-usb-c-hub-monitor-p2726he/p2726he/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840104387665",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "0884116692966",
@@ -50,6 +183,16 @@
         "type": "mpn",
         "value": "P2726HE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P2726HE",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840104387665",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -197,6 +340,13 @@
         "source_product_id": "57150827889022",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12748401",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",

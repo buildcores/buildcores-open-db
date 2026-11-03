@@ -40,12 +40,22 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276102654",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "7340172702658",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "7340172702658",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -53,9 +63,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "FD-C-MES2M-02",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "843276102654",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "843276102654",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -294,13 +314,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "2784507",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "1940088462",
         "pricing_enabled": true,
         "verified": false
       }

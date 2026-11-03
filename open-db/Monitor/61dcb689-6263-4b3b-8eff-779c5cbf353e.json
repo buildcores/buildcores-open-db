@@ -8,10 +8,143 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 2
+  },
+  "connectors": "1x HDMI 2.1 TMDS input (HDCP 1.4; supports up to 2560 × 1440); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 output with MST; 1x USB-C 5 Gbps upstream port (DisplayPort 1.4 Alt Mode, video and data, Power Delivery up to 90 W); 1x USB Type-B 5 Gbps upstream port; 2x USB-A 5 Gbps downstream ports; 1x USB-A 5 Gbps downstream port with Battery Charging 1.2; 1x USB-C 5 Gbps downstream port (Power Delivery up to 15 W); 1x RJ-45 Gigabit Ethernet port; power connector; security-lock slot; stand-lock.",
+  "display_inputs": [
+    {
+      "id": "bc33da6a-984c-4778-84ff-b7e02f1ffa88",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5972c08c-c450-4eaf-99d7-d6fd479202c0",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI TMDS input; supports QHD up to 2560 × 1440 at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "27fd110b-3ab8-4beb-b35b-6553cd87146b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bb99871b-36c6-4799-9484-e695382613aa",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 input; monitor maximum resolution is QHD at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "71afc4ca-b02f-45f3-b292-19189ea42b33",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C 5 Gbps, DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB data; Power Delivery up to 90 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2f35a1d3-b803-4085-990b-71bba1892fea",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 Alt Mode over USB-C; supports QHD up to 2560 × 1440 at 100 Hz, with USB-C Power Delivery up to 90 W."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "46c7ec79-69fe-4d58-b97e-c7238ed843fa",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "MST (Multi-Stream Transport); HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cf7b77f0-b2e3-45eb-9a5c-d108ebc911b9",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort 1.4 output with MST for daisy-chaining a compatible monitor. The monitor's native maximum mode is 2560 × 1440 at 100 Hz; the downstream mode can depend on the connected display and MST bandwidth."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "5493a8d5-15fe-4cf4-a12f-824dd39833de",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.96,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA-compatible 100 × 100 mm mounting interface; remove the included stand before mounting."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612.34,
+    "height_min": 417.78,
+    "height_max": 567.78,
+    "depth": 192.28
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612.34,
+    "height": 392.58,
+    "depth": 60.11
+  },
+  "weight": {
+    "with_stand_kg": 6.93,
+    "without_stand_kg": 4.96
+  },
+  "power_consumption": {
+    "typical_w": 20.9,
+    "manufacturer_max_w": 205,
+    "note": "Operating power consumption: 20.9 W. Manufacturer product page lists maximum power consumption of 205 W. The user guide lists 190 W maximum at maximum brightness and contrast with maximum power loading on all USB ports; retain this discrepancy for verification. No separate peak power consumption value is explicitly reported. Input rating: 100–240 VAC, 50/60 Hz ± 3 Hz, 2.5 A."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro P 27 USB-C Hub Webcam Monitor P2726DEV",
     "manufacturer": "Dell",
@@ -19,9 +152,11 @@
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-27-usb-c-hub-webcam-monitor-p2726dev/p2726dev/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -34,9 +169,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "5397321029007",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "210-bvtr",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "210-bvtr",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -52,6 +197,11 @@
         "type": "mpn",
         "value": "P2726DEV",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "P2726DEV",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -199,6 +349,13 @@
         "source_product_id": "57045278720382",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19897651",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",

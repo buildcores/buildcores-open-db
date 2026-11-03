@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.montechpc.com/air-903-base"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710562743784",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562743784",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -62,6 +67,11 @@
         "type": "mpn",
         "value": "AIR903BASEB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AIR903BASEB",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -204,6 +214,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11256441",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-017",
@@ -334,7 +351,7 @@
         "channel": "us",
         "source_product_id": "5053083426",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

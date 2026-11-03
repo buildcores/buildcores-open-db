@@ -6,6 +6,7 @@
     "verticalRes": 1080
   },
   "refresh_rate": 100,
+  "native_refresh_activation": "automatic",
   "panel_type": "IPS",
   "response_time": 4,
   "mprt_response_time": 1,
@@ -22,27 +23,24 @@
       "id": "69abede0-eabf-49f0-bcb1-bd2321abdc4b",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "1.4",
+      "version_label": "1.4b",
       "video_signal": "hdmi",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
     },
     {
       "id": "a456ac9d-67b7-46b8-a3df-5fec01a9e454",
       "connector": "displayport",
       "count": 1,
-      "version_label": "1.2",
+      "version_label": "1.2a",
       "video_signal": "displayport",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
     },
     {
       "id": "b8825144-06d0-418c-a103-e9e04e85690d",
       "connector": "vga",
       "count": 1,
       "video_signal": "vga",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
     }
   ],
   "vesa_mounting": {
@@ -51,34 +49,24 @@
       {
         "id": "e503cec1-d372-4dcb-ac14-64e4a09579b0",
         "pattern": "100x100",
-        "mounted_weight_kg": 3.4,
-        "installation": "included_manufacturer_attachment"
+        "mounted_weight_kg": 3.9,
+        "installation": "direct"
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 613.5,
-    "height": 462,
+    "height": 462.6,
     "depth": 182
   },
-  "dimensions_without_stand_mm": {
-    "width": 613.5,
-    "height": 462,
-    "depth": 48.3
-  },
   "weight": {
-    "with_stand_kg": 3.9,
-    "without_stand_kg": 3.4
-  },
-  "power_consumption": {
-    "typical_w": 21,
-    "manufacturer_max_w": 21
+    "with_stand_kg": 3.9
   },
   "max_brightness": 300,
   "hdr": null,
-  "adaptive_sync": "None",
+  "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
-    "name": "MSI PRO MP273AW",
+    "name": "MSI PRO MP273AW White",
     "manufacturer": "MSI",
     "part_numbers": ["PRO MP273AW", "Pro MP273AW", "PROMP273AW"],
     "series": "PRO",

@@ -1,19 +1,36 @@
 {
   "opendb_id": "7f6b870d-474a-41de-b200-6cd854c6b7d0",
   "weight": 49,
+  "dimensions": {
+    "length": 124,
+    "width": 65.5,
+    "height": 38
+  },
+  "shape": "Symmetrical",
+  "handedness": "Right-handed",
   "connectivity": ["Wireless 2.4GHz"],
+  "sensor": "PixArt PAW3950MAX",
   "max_dpi": 42000,
-  "lighting": [],
-  "grip_types": [],
+  "polling_rate": 8000,
+  "buttons": 5,
+  "switches": "Omron Optical Switches",
+  "switch_type": "Optical",
+  "onboard_memory": true,
+  "lighting": ["None"],
+  "battery_life": 80,
+  "battery_type": "Rechargeable",
+  "grip_types": ["Palm", "Fingertip", "Claw"],
+  "silent_clicks": false,
   "metadata": {
     "name": "Attack Shark R11 Ultra",
     "manufacturer": "Attack Shark",
     "part_numbers": [],
-    "series": "R11 Ultra"
+    "series": "R11 Ultra",
+    "releaseYear": 2025
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
     "retailer_listings": [
       {
@@ -118,6 +135,20 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0FMRZF662",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6S5M4S9353",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17788764614",
         "pricing_enabled": true,
         "verified": true
       }

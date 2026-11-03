@@ -9,28 +9,94 @@
   "panel_type": "TN",
   "response_time": 0.4,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "170° H x 160° V",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI                                                    1 x DisplayPort",
+  "video_outputs": {
+    "hdmi_2_0": 2
+  },
+  "connectors": "2 x HDMI                                                            1 x DisplayPort",
+  "display_inputs": [
+    {
+      "id": "069eb3e9-72c8-4ff2-b8e4-7f7ff0825323",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "109e494f-85d1-481d-be66-61fb1f943c37",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "01cec5c6-868c-42de-8961-9f50020fc8f5",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.5,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 620,
+    "height": 507,
+    "depth": 211
+  },
+  "dimensions_without_stand_mm": {
+    "width": 620,
+    "height": 507,
+    "depth": 66
+  },
+  "weight": {
+    "with_stand_kg": 5.8,
+    "without_stand_kg": 3.5
+  },
+  "power_consumption": {
+    "typical_w": 65,
+    "manufacturer_max_w": 65
+  },
   "max_brightness": 350,
-  "hdr": "",
+  "hdr": "HDR10",
   "adaptive_sync": "G-Sync",
   "metadata": {
     "name": "Asus TUF Gaming VG27BQ 27\" 1440p 165Hz TN Monitor",
     "manufacturer": "ASUS",
     "part_numbers": ["VG27BQ", "90LM04Z0-B013B0", "90LM04Z0-B01370", "TUF Gaming VG27BQ"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2019,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27bq/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876306451",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "4718017296779",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4718017296779",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -53,156 +119,33 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "VG27BQ",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876306451",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876306451",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
         "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B07VW9ZD6Y",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
         "channel": "us",
-        "source_product_id": "B07VW9ZD6Y",
+        "source_product_id": "B07WPFP6S4",
         "pricing_enabled": true,
         "verified": true
-      },
-      {
-        "source": "bhphoto",
-        "channel": "us",
-        "source_product_id": "ASVG27BQ",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "cenowarka",
-        "channel": "pl",
-        "source_product_id": "2112205",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "geizhals",
-        "channel": "de",
-        "source_product_id": "2112205",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "N82E16824236991R",
-        "pricing_enabled": true,
-        "verified": false
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16824236991R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "skinflint",
-        "channel": "uk",
-        "source_product_id": "2112205",
         "pricing_enabled": true,
         "verified": false
       },

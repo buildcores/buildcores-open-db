@@ -1,17 +1,54 @@
 {
   "opendb_id": "6b25eb90-23b8-4c58-85d4-6eaf65b80f79",
-  "switch_type": "Tactile",
+  "switch": "Gateron Banana",
+  "switch_type": "Linear",
   "size": "75%",
   "layout": "ANSI",
+  "hot_swappable": true,
+  "backlighting": "None",
+  "features": ["Knob"],
   "connectivity": ["Wired USB-A", "Wired USB-C", "Wireless 2.4GHz", "Bluetooth"],
+  "keycap_material": "Double-shot PBT",
+  "frame_material": "CNC Aluminum",
+  "polling_rate": 1000,
+  "battery_capacity": 4000,
   "metadata": {
     "name": "Keychron Q1 Max ANSI Knob — Shell White — Gateron Jupiter Banana (Q1M-P4)",
-    "manufacturer": "Keychron"
+    "manufacturer": "Keychron",
+    "releaseYear": 2023
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.keychron.com/products/keychron-q1-max-qmk-via-wireless-custom-mechanical-keyboard?variant=40707103031385"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4895248870647",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "af1520b7-9b82-4945-b319-2173d07ca4a4",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CR1K6SBT",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC40EM9K1276",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -1,21 +1,121 @@
 {
   "opendb_id": "0437f61c-e0cc-4231-b73f-72e4c57f142e",
-  "lighting": [],
+  "weight": 608,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "eb5fdb88-e782-4393-b161-74e54a62ba2d",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears BOOM 3",
+      "quantity": 1,
+      "weight_g": 608,
+      "dimensions_mm": {
+        "width": 73,
+        "height": 184
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "685ad6ea-8a5a-44e0-a6a8-e83c16d53fae",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "6250b6de-3013-4e09-85d1-ee2188d054ac",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio input; supports A2DP. Pair up to 8 source devices, with up to 2 connected simultaneously."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "60c3586d-7a88-4f57-925c-eda495e4048f",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears BOOM 3",
+      "conditions": "Built-in rechargeable lithium-ion battery for portable audio playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "b8bc8d16-4fca-4b4d-908f-7cc2227d8434",
+      "hours": 15,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer advertises up to 15 hours of battery life; actual runtime varies with volume, settings and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "831db4f1-379c-45dd-b32f-030b884890fd",
+      "method": "Micro-USB",
+      "target": "Ultimate Ears BOOM 3",
+      "conditions": "Micro-USB charging input for the built-in rechargeable lithium-ion battery; charging time approximately 2.75 hours. Micro-USB cable included."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears BOOM 3 Bluetooth Speaker",
+    "name": "Ultimate Ears BOOM 3 Bluetooth Speaker Night Black",
     "manufacturer": "Ultimate Ears",
-    "part_numbers": ["68acacad96b90bde"]
+    "part_numbers": ["68acacad96b90bde"],
+    "releaseYear": 2018
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/products/speakers/bluetooth-speakers/boom-3.984-001350.html"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 4,
     "identifiers": [
       {
+        "type": "ean",
+        "value": "0097855141026",
+        "region": "us"
+      },
+      {
         "type": "mpn",
-        "value": "68acacad96b90bde",
-        "region": "all"
+        "value": "984-001348",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "097855141026",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07DD3VXRZ",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12831353",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16855653006",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "124984675",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

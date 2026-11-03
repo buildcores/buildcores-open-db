@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.apnx.com/product/v1/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,9 +50,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711099479566",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "APCM-VI01103.21",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "APCM-VI01103.21",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -88,6 +98,13 @@
         "source_product_id": "100070021",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DGGY8Y3P",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "caseking",

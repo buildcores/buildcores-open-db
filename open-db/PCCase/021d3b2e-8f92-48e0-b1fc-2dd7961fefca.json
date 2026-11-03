@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.montechpc.com/air-903-max"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710562743470",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562743470",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -63,6 +68,11 @@
         "type": "mpn",
         "value": "AIR903MAXB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "AIR903MAXB",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -205,6 +215,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11076118",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-019",
@@ -277,9 +294,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "2AM-00CN-00059",
+        "source_product_id": "9SIAD6HKKM3774",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -349,7 +366,7 @@
         "channel": "us",
         "source_product_id": "2148888457",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -6,10 +6,21 @@
     "verticalRes": 2160
   },
   "refresh_rate": 165,
+  "native_refresh_activation": "automatic",
+  "alternate_display_modes": [
+    {
+      "id": "0a8ce55e-8ddd-4ed4-90da-fcdf6d6a074f",
+      "resolution": {
+        "horizontalRes": 2560,
+        "verticalRes": 1080
+      },
+      "refresh_rate": 330
+    }
+  ],
   "panel_type": "OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": ["None"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "21:9",
   "video_outputs": {
@@ -20,18 +31,18 @@
   "display_inputs": [
     {
       "id": "dd5525a8-fb9a-4d36-a397-32cd34615225",
-      "connector": "hdmi",
-      "count": 2,
-      "version_label": "2.1",
-      "video_signal": "hdmi",
-      "transport": "native"
-    },
-    {
-      "id": "23e65f61-1f36-4b9c-974f-7dc0a2961c86",
       "connector": "displayport",
       "count": 1,
       "version_label": "2.1",
       "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "23e65f61-1f36-4b9c-974f-7dc0a2961c86",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
       "transport": "native"
     },
     {
@@ -49,19 +60,21 @@
         "id": "8c988cf5-6b32-4256-90da-e04361159d14",
         "pattern": "100x100",
         "mounted_weight_kg": 6.8,
-        "installation": "included_manufacturer_attachment"
+        "installation": "direct"
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 921.4,
     "height": 495.4,
+    "height_min": 495.4,
+    "height_max": 604,
     "depth": 322.8
   },
   "dimensions_without_stand_mm": {
     "width": 921.4,
-    "height": 405,
-    "depth": 118
+    "height": 403,
+    "depth": 119
   },
   "weight": {
     "with_stand_kg": 10.7,
@@ -73,7 +86,7 @@
   },
   "max_brightness": 1500,
   "hdr": "VESA DisplayHDR 500 True Black",
-  "adaptive_sync": "G-Sync",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "LG UltraGear evo 39GX950B-B — Black",
     "manufacturer": "LG",
@@ -84,7 +97,7 @@
     "manufacturer_url": "https://www.lg.com/us/monitors/lg-39gx950b-b-gaming-monitor?srsltid=AYCX9vKjoy2LzuV4sOpRVoq2HNcMf9YdYgGo7l1iu_h6xdKe_KWNCYmd"
   },
   "identifiers": {
-    "version": 3,
+    "version": 4,
     "identifiers": [
       {
         "type": "ean",
@@ -114,6 +127,13 @@
         "source": "bestbuy",
         "channel": "us",
         "source_product_id": "6670040",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBKFRM154600",
         "pricing_enabled": true,
         "verified": true
       },

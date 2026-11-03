@@ -8,15 +8,141 @@
   "refresh_rate": 60,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_1": 1,
-    "displayport_1_4a": 2
+    "usb_c": 2
   },
-  "connectors": "1 x HDMI                                                          2 x DisplayPort",
+  "connectors": "1x HDMI 1.4 input (HDCP 1.4); 1x DisplayPort 1.4 input (HDCP 1.4); 1x DisplayPort output with MST; 1x USB-C 5 Gbps upstream (DisplayPort 1.4 Alt Mode; USB Power Delivery up to 90 W); 2x USB-A 5 Gbps downstream; 1x USB-A 5 Gbps downstream with BC 1.2 charging up to 2 A; 1x USB-C 5 Gbps downstream (Power Delivery up to 15 W); 1x USB-B 5 Gbps upstream; 1x RJ-45 Gigabit Ethernet; 1x 3.5 mm headphone/microphone combo jack; power connector; security-lock slot; stand-lock feature; built-in webcam, microphones, and speakers.",
+  "display_inputs": [
+    {
+      "id": "5269b6b3-4267-4a91-be86-c7af57aa1021",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "32104e5d-ade5-4148-917b-6e8385784b4a",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "QHD (2560 × 1440) at 60 Hz; HDCP 1.4."
+        }
+      ]
+    },
+    {
+      "id": "9131e307-5f3d-4119-9e17-f21e8c758c6d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "50282a91-ef34-4e45-a59b-48a731c94013",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "QHD (2560 × 1440) at 60 Hz; HDCP 1.4."
+        }
+      ]
+    },
+    {
+      "id": "a38e9a81-76ef-41f2-9221-86da2c37dc1e",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB 3.2 Gen 1",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB Power Delivery up to 90 W; HDCP 1.4",
+      "mode_claims": [
+        {
+          "id": "7e34756e-e198-4fe3-af01-5e61bceade2d",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "QHD (2560 × 1440) at 60 Hz via DisplayPort Alt Mode."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "d7a9b26a-5073-4c45-848d-4044e1a9bf85",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "MST (Multi-Stream Transport)",
+      "mode_claims": [
+        {
+          "id": "a64f21ab-017a-4455-a4f3-03b9e6535823",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "DisplayPort MST daisy-chain output. Maximum external monitor resolution is 2560 × 1440 at 60 Hz; supported mode depends on the MST configuration."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "ccbcd533-25fb-47b6-8463-331ca4181caf",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.65,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA 100 × 100 mm mounting interface; compatible with a VESA-compatible wall mount or monitor arm, sold separately.",
+          "weight_kg": 5.65
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.78,
+    "height": 440.79,
+    "height_min": 440.79,
+    "height_max": 590.79,
+    "depth": 230
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611.78,
+    "height": 415.82,
+    "depth": 59.61
+  },
+  "weight": {
+    "with_stand_kg": 8.27,
+    "without_stand_kg": 5.65
+  },
+  "power_consumption": {
+    "typical_w": 26,
+    "manufacturer_max_w": 210,
+    "note": "On-mode power consumption: 26.0 W. Maximum power consumption: 210 W at maximum brightness and contrast with maximum power loading on all USB ports. Standby: 0.3 W; off mode: 0.3 W; networked standby: 0.9 W. Dell does not explicitly label a separate peak power value."
+  },
   "max_brightness": 350,
   "hdr": "SDR",
   "adaptive_sync": "None",
@@ -27,9 +153,11 @@
     "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-sg/shop/dell-pro-27-plus-video-conferencing-monitor-p2724deb/apd/210-bnjx/monitors-monitor-accessories"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -37,9 +165,9 @@
         "region": "all"
       },
       {
-        "type": "mpn",
-        "value": "1b9dc18b8473fda1",
-        "region": "all"
+        "type": "ean",
+        "value": "0884116441472",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -57,9 +185,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "P2724DEB",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116441472",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116441472",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -173,7 +311,7 @@
         "channel": "us",
         "source_product_id": "6577812",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -201,7 +339,7 @@
         "channel": "us",
         "source_product_id": "0JC-0004-00VB6",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",

@@ -1,15 +1,76 @@
 {
   "opendb_id": "a48e6dd9-bc60-47c4-9d4d-100b50e453c2",
+  "weight": 960,
+  "speaker_product_kind": "Portable",
+  "color": ["BLUE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "4b4f3cd4-94bf-42aa-858a-a010d8c39725",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears EVERBOOM",
+      "quantity": 1,
+      "weight_g": 960,
+      "dimensions_mm": {
+        "width": 110,
+        "height": 205,
+        "depth": 85
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "425ccfd9-40de-45d0-b318-cb9c1d40ccaa",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "8f9a6fe1-1753-42b5-b25a-f9ba1d2ee29c",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth 5.3; A2DP-compatible source devices."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "55845634-d8e9-4803-b90d-491b48978b53",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears EVERBOOM",
+      "conditions": "Built-in rechargeable lithium-ion battery powers speaker playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "aa63e40d-52ee-48ce-a7f8-357839a7e13b",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 20 hours at default volume (42%); actual runtime varies with use and settings."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "ab15be6e-58c5-4e19-a402-c88b5ac9416d",
+      "method": "USB-C",
+      "target": "Ultimate Ears EVERBOOM",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; under 3 hours with a suitable 15 W USB Power Delivery adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears EVERBOOM Portable Bluetooth Speaker - Blue",
+    "name": "Ultimate Ears EVERBOOM Portable Bluetooth Speaker - Azure Blue",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["f171268c9bbe0349", "984-001923"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/everboom-bluetooth.984-001923"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,9 +78,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855191731",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "984-001923",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "984-001923",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -30,6 +101,11 @@
         "type": "upc",
         "value": "097855191731",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855191731",
+        "region": "us"
       }
     ],
     "retailer_listings": [
