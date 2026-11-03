@@ -6,18 +6,98 @@
     "verticalRes": 1440
   },
   "refresh_rate": 360,
-  "panel_type": "QD-OLED",
+  "panel_type": "OLED",
   "response_time": 0.03,
   "color": ["GREY", "BLACK"],
   "lighting": ["RGB"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 1.4",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 × HDMI 2.1 inputs; 1 × DisplayPort 1.4 input; 1 × USB-B upstream port; 2 × USB-A 3.0 downstream ports; 1 × 3.5 mm headphone output; DC power input.",
+  "display_inputs": [
+    {
+      "id": "1e3dc98e-9507-402f-97d5-8778fcc94954",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "40ee7f17-762a-4560-a0f1-f0ba2b6e79ea",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 360,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum refresh rate is 360 Hz at QHD resolution; HDR10 and HDR10+ Gaming are supported. Actual available mode may depend on the source device and settings."
+        }
+      ]
+    },
+    {
+      "id": "14baa30d-cbba-4895-b2de-b940a42155ed",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "07bf5347-ef23-4eb7-89b1-9c06a5576a61",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 360,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum refresh rate is 360 Hz at QHD resolution. HDR10 and HDR10+ Gaming are supported; exact mode availability may depend on the source device and settings."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "74746f67-3e1c-4cc3-8257-7d8681e4fa1b",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.8,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "4 × M4 screws; screw length 7.5–10.5 mm"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.7,
+    "height": 554.2,
+    "depth": 263.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611.7,
+    "height": 353.8,
+    "depth": 49.2
+  },
+  "weight": {
+    "with_stand_kg": 6.9,
+    "without_stand_kg": 3.8
+  },
+  "power_consumption": {
+    "typical_w": 31,
+    "manufacturer_max_w": 140,
+    "note": "Samsung lists typical power consumption as 31 W, maximum power consumption as 140 W, standby power as 0.5 W, and off-mode power as 0.3 W. Power supply: external adapter, AC 100–240 V. Samsung does not explicitly label the 140 W figure as peak power."
+  },
   "max_brightness": 250,
-  "hdr": "",
+  "hdr": "HDR10; HDR10+ Gaming",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
-    "name": "Samsung Odyssey G60SD 27\" 1440p 360Hz QD-OLED Monitor",
+    "name": "Samsung Odyssey G60SD 27\" 1440p 360Hz OLED Monitor",
     "manufacturer": "Samsung",
     "part_numbers": ["LS27DG602SNXZA", "LS27DG600SUXEN", "Odyssey G60SD"],
     "series": "",
@@ -25,14 +105,21 @@
     "releaseYear": 2024,
     "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/ie/monitors/gaming/odyssey-oled-g6-g60sd-27-inch-360hz-oled-qhd-ls27dg602suxxu/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0887276832579",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0887276832579",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -46,6 +133,11 @@
       },
       {
         "type": "mpn",
+        "value": "LS27DG602SNXZA",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "Odyssey G60SD",
         "region": "all"
       },
@@ -53,6 +145,11 @@
         "type": "upc",
         "value": "887276832579",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "887276832579",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -10,8 +10,89 @@
   "response_time": 1,
   "color": ["BLACK"],
   "lighting": ["RGB"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 x HDMI 2.1 inputs; 1 x DisplayPort 1.4 input; 1 x USB-B upstream port; 2 x USB-A downstream ports; 1 x RJ45 Ethernet (LAN) port.",
+  "display_inputs": [
+    {
+      "id": "7fa4544c-ac9f-4f79-a6ca-82870f4468e9",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "ce791163-17be-4cbc-a2cd-2915ff2bffda",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "4K UHD; maximum 144 Hz; HDR10+ Gaming and VESA DisplayHDR 400 supported."
+        }
+      ]
+    },
+    {
+      "id": "f2d6f3dd-4087-4ce0-809b-95190c70c18b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "f5efa627-e77e-4ee6-92d6-6693451ec6ae",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "4K UHD; maximum 144 Hz; HDR10+ Gaming and VESA DisplayHDR 400 supported."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "98ed0b55-0491-451d-b6a2-d55c8e0a1b64",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.8,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 714.2,
+    "height": 583.2,
+    "depth": 263.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 714.2,
+    "height": 418.4,
+    "depth": 73.8
+  },
+  "weight": {
+    "with_stand_kg": 8,
+    "without_stand_kg": 4.8
+  },
+  "power_consumption": {
+    "typical_w": 33,
+    "manufacturer_max_w": 78,
+    "note": "Manufacturer specifies typical power consumption of 33 W and maximum power consumption of 78 W. DPMS power consumption is 0.5 W. The monitor uses an external power adapter. The 78 W figure is labelled maximum, not peak. USB power-delivery inclusion is not specified."
+  },
+  "max_brightness": 350,
+  "hdr": "VESA DisplayHDR 400; HDR10+ Gaming",
+  "adaptive_sync": "FreeSync Premium",
   "metadata": {
     "name": "Samsung 32 inch Odyssey G7 G70D 4K UHD IPS 144Hz Gaming Monitor",
     "manufacturer": "Samsung",
@@ -19,9 +100,11 @@
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/gaming/32-inch-odyssey-g7-g70d-4k-uhd-ips-144hz-1ms-gtg-smart-gaming-monitor-sku-ls32dg702enxza/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -29,9 +112,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0887276884622",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "46f991cb6c39acdb",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "LS27DG702ENXZA",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -42,6 +135,11 @@
         "type": "upc",
         "value": "887276884622",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "887276884622",
+        "region": "us"
       }
     ],
     "retailer_listings": [

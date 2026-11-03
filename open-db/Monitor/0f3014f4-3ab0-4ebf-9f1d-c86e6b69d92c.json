@@ -1,0 +1,160 @@
+{
+  "opendb_id": "0f3014f4-3ab0-4ebf-9f1d-c86e6b69d92c",
+  "screen_size": 34,
+  "resolution": {
+    "horizontalRes": 3440,
+    "verticalRes": 1440
+  },
+  "refresh_rate": 280,
+  "panel_type": "QD-OLED",
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["RGB"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "21:9",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "display_inputs": [
+    {
+      "id": "5d0255f5-04be-4158-9b0d-8c357e222a74",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "420001f6-7767-493b-adf4-529b882e7a9e",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 280,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "84a4cb26-15fc-43f8-a269-af675b79c060",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "6db947d9-8390-4339-ad62-058a4ae5b138",
+          "resolution": {
+            "horizontalRes": 3440,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 280,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "b1b92123-dd42-4319-8e68-0e322cb86ee4",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.88,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "Direct (The back of the panel features a native quick-release recess that accommodates standard 100x100mm third-party VESA plates directly, though some thicker mounts may benefit from standard M4 spacers to sit flush with the surrounding rear decorative housing)",
+          "weight_kg": 4.88
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 814.15,
+    "height": 555.08,
+    "height_min": 445.08,
+    "height_max": 555.08,
+    "depth": 232
+  },
+  "dimensions_without_stand_mm": {
+    "width": 814.15,
+    "height": 361.55,
+    "depth": 111.23
+  },
+  "weight": {
+    "with_stand_kg": 7.91,
+    "without_stand_kg": 4.88
+  },
+  "power_consumption": {
+    "typical_w": 31,
+    "manufacturer_max_w": 190,
+    "note": "Maximum power consumption is 190 W. Actual power consumption varies with display settings, operating conditions, and connected USB devices. Refer to Dell's official specifications for the measurement conditions and USB power-delivery inclusion."
+  },
+  "max_brightness": 1300,
+  "hdr": "VESA DisplayHDR True Black 500, Dolby Vision, HDR",
+  "adaptive_sync": "FreeSync Premium Pro",
+  "metadata": {
+    "name": "Alienware AW3426DW",
+    "manufacturer": "Dell",
+    "series": "Alienware",
+    "variant": "AW3426DW",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/alienware-34-gaming-monitor-aw3426dw/aw3426dw/-"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0884116692829",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AW3426DW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "CV2C3",
+        "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CV2C3",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "884116692829",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0HFHZJ6C2",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6685185",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

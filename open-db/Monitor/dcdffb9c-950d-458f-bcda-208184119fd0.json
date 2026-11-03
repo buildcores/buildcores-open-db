@@ -7,11 +7,69 @@
   },
   "refresh_rate": 60,
   "panel_type": "IPS",
+  "response_time": 5,
   "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "89° H x 89° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "connectors": "USB-C, Thunderbolt 3",
+  "display_inputs": [
+    {
+      "id": "6c246589-71cd-40db-9f2a-d9bf2d3812bd",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 3",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "mode_claims": [
+        {
+          "id": "3db9ff72-fe23-450b-b498-8bd94ee1d7c6",
+          "resolution": {
+            "horizontalRes": 6016,
+            "verticalRes": 3384
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "144efe0f-a711-4d45-9285-78d15997a81f",
+        "pattern": "100x100",
+        "mounted_weight_kg": 7.48,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "Apple Pro Display XDR VESA Mount Adapter",
+          "weight_kg": 0.28
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 718,
+    "height_min": 533,
+    "height_max": 653,
+    "depth": 278
+  },
+  "dimensions_without_stand_mm": {
+    "width": 718,
+    "height": 412,
+    "depth": 27
+  },
+  "weight": {
+    "with_stand_kg": 11.78,
+    "without_stand_kg": 7.48
+  },
+  "power_consumption": {
+    "typical_w": 140,
+    "manufacturer_max_w": 290
+  },
   "max_brightness": 1600,
   "hdr": "HDR10",
   "adaptive_sync": "None",
@@ -22,9 +80,11 @@
     "releaseYear": 2019,
     "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://support.apple.com/en-ph/111892"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -32,14 +92,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0190199261808",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MWPE2LL/A",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MWPE2LL/A",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "190199261808",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "190199261808",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -149,11 +224,11 @@
         "verified": true
       },
       {
-        "source": "walmart",
+        "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "780319301",
+        "source_product_id": "MWPE2LL/A",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

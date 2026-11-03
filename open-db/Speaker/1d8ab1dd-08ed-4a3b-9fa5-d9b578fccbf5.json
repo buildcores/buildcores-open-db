@@ -1,5 +1,77 @@
 {
   "opendb_id": "1d8ab1dd-08ed-4a3b-9fa5-d9b578fccbf5",
+  "weight": 5900,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "f19828bf-61df-4916-8413-d370d03e1314",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears HYPERBOOM",
+      "quantity": 1,
+      "weight_g": 5900,
+      "dimensions_mm": {
+        "width": 190,
+        "height": 364,
+        "depth": 190
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "fc20c9d3-fb85-4dac-b58c-6ae8fe3df856",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth A2DP; supports connection to Bluetooth audio source devices."
+    },
+    {
+      "id": "700f919f-c522-4eb1-a7c5-e7ea9f50cabd",
+      "method": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Direct",
+      "conditions": "3.5 mm auxiliary audio input."
+    },
+    {
+      "id": "b094593b-8710-4afc-afba-dc9fcc013d61",
+      "method": "Optical",
+      "adapter_requirement": "Direct",
+      "conditions": "Optical digital audio input (TOSLINK)."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "dcba94e9-20e3-4350-bd8c-8014059c80b8",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears HYPERBOOM",
+      "conditions": "Built-in rechargeable lithium-ion battery supports portable playback."
+    },
+    {
+      "id": "11123af0-90e6-4691-a766-c9c61d047809",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Ultimate Ears HYPERBOOM",
+      "connector": "AC power input",
+      "conditions": "Operates from the supplied AC power adapter."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "a0d618c5-41b6-41ce-b734-ee814f858cc1",
+      "hours": 24,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 24 hours; actual battery life varies with use, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "dc7182e5-98c8-42e2-8891-29370515f668",
+      "method": "Proprietary Charging Interface",
+      "method_details": "AC power adapter / mains power input",
+      "target": "Ultimate Ears HYPERBOOM",
+      "conditions": "Charges the built-in rechargeable lithium-ion battery; manufacturer specifies approximately 2.6 hours using the Ultimate Ears power supply."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Ultimate Ears HYPERBOOM Wireless Bluetooth Party Speaker - Black",
@@ -7,7 +79,9 @@
     "part_numbers": ["60e383c27d931510", "HYPERBOOM", "984-001954"],
     "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/hyperboom.984-001954"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -1,10 +1,18 @@
 {
   "opendb_id": "64c1f389-d545-4f96-baca-abe04182112e",
+  "weight": 206,
   "size": 120,
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "quantity": 3,
+  "min_airflow": 73.82,
+  "min_noise_level": 28.82,
   "pwm": true,
-  "connector": "4-pin PWM + 3-pin ARGB",
-  "controller": "ARGB Controller",
+  "led": "Addressable RGB",
+  "connector": "7-pin JAF / 4-pin PWM & 3-pin ARGB",
+  "controller": "5V Addressable RGB",
+  "static_pressure": 2.56,
+  "flow_direction": "Standard",
   "isOEM": false,
   "metadata": {
     "name": "MSI MPG EZ120 ARGB White 3 Pack",
@@ -12,7 +20,9 @@
     "series": "MPG",
     "variant": "EZ120"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/PC-Component/MPG-EZ120-ARGB/Specification"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],

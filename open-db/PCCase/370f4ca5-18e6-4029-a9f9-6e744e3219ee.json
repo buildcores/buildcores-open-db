@@ -3,37 +3,69 @@
   "form_factor": "ATX Mid Tower",
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
   "color": ["WHITE"],
-  "lighting": ["None"],
+  "lighting": ["ARGB"],
+  "power_supply": "None",
+  "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
-  "front_usb_ports": ["USB 2.0", "USB 3.0 x 2"],
-  "max_video_card_length": 350,
+  "front_usb_ports": ["1 x USB 2.0 Type A", "2 x USB 3.0 Type A"],
+  "max_video_card_length": 355,
   "max_cpu_cooler_height": 160,
   "max_psu_length": 160,
   "internal_3_5_bays": 2,
   "internal_2_5_bays": 5,
   "external_3_5_bays": 0,
   "external_5_25_bays": 0,
+  "power_supply_shroud": true,
   "expansion_slots": 7,
+  "supports_rear_connecting_motherboard": false,
   "dimensions_mm": {
     "depth": 422,
     "width": 219,
     "height": 484
   },
+  "volume": 44.73,
   "weight": 12.35,
   "metadata": {
     "name": "Zalman i3 NEO WHITE ATX Mid Tower",
     "manufacturer": "Zalman",
     "series": "i3 NEO",
+    "releaseYear": 2023,
     "manufacturer_color": "White"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.zalman.com/EN/Product/ProductDetail.do?pageIndex=1&pageSize=10&productSeq=1413"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0823884204377",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "823884204377",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BZT79SML",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIABW9KCA4917",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

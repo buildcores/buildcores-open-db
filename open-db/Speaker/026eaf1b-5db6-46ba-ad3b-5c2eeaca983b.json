@@ -1,20 +1,78 @@
 {
   "opendb_id": "026eaf1b-5db6-46ba-ad3b-5c2eeaca983b",
+  "weight": 420,
+  "speaker_product_kind": "Portable",
+  "color": ["BLUE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "51b83361-d44d-4cf7-a0d9-59b5cd91f206",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears WONDERBOOM 4",
+      "quantity": 1,
+      "weight_g": 420,
+      "dimensions_mm": {
+        "width": 95.3,
+        "height": 104
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "d26ec594-397a-4e4e-a864-828580c21623",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth audio playback; source device must support Bluetooth A2DP. Supports connection to up to two source devices simultaneously."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "6553673f-c7aa-4ee3-97ea-b20e4f07f28c",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears WONDERBOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery powers portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "c58426fd-f772-4eb6-a4a8-543faa1446ca",
+      "hours": 14,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 14 hours; actual runtime varies with use, settings, and environment."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "49828a14-5119-4497-bb1a-93571fd649ae",
+      "method": "USB-C",
+      "target": "Ultimate Ears WONDERBOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery; approximately 2.6 hours to charge with a BC1.2-compliant adapter."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears WONDERBOOM 4 Ultraportable Bluetooth Speaker",
+    "name": "Ultimate Ears WONDERBOOM 4 Ultraportable Bluetooth Speaker - Cobalt Blue",
     "manufacturer": "Ultimate Ears",
     "part_numbers": ["494bc6290bfbf93a", "984-001877"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.ultimateears.com/en-us/shop/p/wonderboom-4.984-001877"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0097855189950",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0097855189950",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -32,9 +90,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "984-001877",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "097855189950",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855189950",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -232,7 +300,7 @@
         "channel": "us",
         "source_product_id": "N82E16855247031",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",

@@ -39,7 +39,7 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -57,9 +57,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "7340172702429",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "FD-C-MES2A-01",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "FD-C-MES2A-01",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -214,6 +224,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "ca",
+        "source_product_id": "15204612",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "FRMSHF2CBKDT",
@@ -260,14 +277,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811352131",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811352131",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
@@ -317,6 +334,13 @@
         "source_product_id": "2423285",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "670640334",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

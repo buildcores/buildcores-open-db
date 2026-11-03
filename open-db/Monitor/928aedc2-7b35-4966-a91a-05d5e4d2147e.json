@@ -1,15 +1,16 @@
 {
   "opendb_id": "928aedc2-7b35-4966-a91a-05d5e4d2147e",
-  "screen_size": 27,
+  "screen_size": 26.5,
   "resolution": {
     "horizontalRes": 2560,
     "verticalRes": 1440
   },
   "refresh_rate": 480,
-  "panel_type": "OLED",
+  "native_refresh_activation": "automatic",
+  "panel_type": "WOLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": ["None"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
@@ -20,21 +21,19 @@
   "display_inputs": [
     {
       "id": "d8bb254c-2b90-4a84-ae08-a671adfcb9d9",
-      "connector": "hdmi",
-      "count": 2,
-      "version_label": "2.1",
-      "video_signal": "hdmi",
-      "transport": "native",
-      "graphics_route": "switchable"
-    },
-    {
-      "id": "b0e20a6c-b7cd-4c5e-9938-f083726ba79a",
       "connector": "displayport",
       "count": 1,
       "version_label": "2.1",
       "video_signal": "displayport",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
+    },
+    {
+      "id": "b0e20a6c-b7cd-4c5e-9938-f083726ba79a",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native"
     }
   ],
   "vesa_mounting": {
@@ -49,37 +48,36 @@
     ]
   },
   "dimensions_with_stand_mm": {
-    "width": 605,
+    "width": 605.2,
     "height": 464.8,
-    "height_min": 464.8,
-    "height_max": 574.8,
-    "depth": 251.5
+    "height_min": 469.3,
+    "height_max": 579.3,
+    "depth": 249.1
   },
   "dimensions_without_stand_mm": {
-    "width": 605,
-    "height": 352,
+    "width": 605.2,
+    "height": 351,
     "height_min": 352,
     "height_max": 352,
-    "depth": 45
+    "depth": 45.3
   },
   "weight": {
     "with_stand_kg": 9.3,
-    "without_stand_kg": 5.08
+    "without_stand_kg": 5.1
   },
   "power_consumption": {
-    "typical_w": 45,
-    "manufacturer_max_w": 150,
-    "explicitly_reported_peak_w": 150
+    "typical_w": 48.22,
+    "manufacturer_max_w": 48.22
   },
-  "max_brightness": 275,
+  "max_brightness": 1300,
   "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "LG UltraGear 27\" 1440p 480Hz OLED Monitor",
     "manufacturer": "LG",
     "part_numbers": ["27GX790A-B", "LG 27GX790A-B", "27GX790A-B.AUS", "27GX790A-B.AEU", "27GX790A"],
-    "series": "",
-    "variant": "Black",
+    "series": "UltraGear",
+    "variant": "27GX790A-B",
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },

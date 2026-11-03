@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011258-ww/6500x-mid-tower-dual-chamber-pc-case-white-cc-9011258-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840006664703",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840006664703",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -60,9 +65,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CC-9011258-WW",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840006664703",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006664703",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -183,7 +198,7 @@
         "channel": "us",
         "source_product_id": "6582288",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -298,6 +313,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811139207",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "overclockers",
         "channel": "uk",
         "source_product_id": "CAS-CRS-01583",
@@ -351,7 +373,7 @@
         "channel": "us",
         "source_product_id": "5321326763",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -1,10 +1,28 @@
 {
   "opendb_id": "9f9eb83d-73bc-4faa-b937-94f8e845a7a2",
+  "display_mount_kind": "monitor_arm",
+  "display_mount_vesa_patterns": [
+    {
+      "width_mm": 100,
+      "height_mm": 100
+    },
+    {
+      "width_mm": 75,
+      "height_mm": 75
+    }
+  ],
+  "min_supported_display_weight_kg": 1.99,
+  "max_supported_display_weight_kg": 8.98,
+  "max_total_display_weight_kg": 8.98,
+  "supported_display_count": 1,
+  "host_attachment_methods": ["desk_clamp", "grommet"],
+  "min_clamp_thickness_mm": 14.99,
+  "max_clamp_thickness_mm": 89.92,
   "metadata": {
-    "name": "HUANUO SS6 Essential — Black — HNSS6W —",
+    "name": "HUANUO SS6 Essential — Black — HNSS6W",
     "manufacturer": "HUANUO",
     "part_numbers": [],
-    "series": "SS6 Essential",
+    "series": "HNSS6 Essential",
     "variant": "Black",
     "releaseYear": 2024
   },
@@ -12,8 +30,32 @@
     "manufacturer_url": "https://www.huanuo.com/products/single-monitor-arm-mount-ss6"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810174341058",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "HNSS6",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810174341058",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07T3KCQ94",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

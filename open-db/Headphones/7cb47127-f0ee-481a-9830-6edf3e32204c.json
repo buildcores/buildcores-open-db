@@ -11,11 +11,18 @@
   "battery_life": 8,
   "bluetooth_version": "5.1",
   "charging_port": "USB-C",
+  "charging_methods": [
+    {
+      "method": "Proprietary Charging Interface",
+      "target": "Headset",
+      "system_name": "Shokz Magnetic Port"
+    }
+  ],
   "wireless_range": 33,
-  "has_microphone": false,
+  "has_microphone": true,
   "microphone_type": "Built-In",
-  "noise_cancellation_mic": false,
-  "features": [],
+  "noise_cancellation_mic": true,
+  "features": ["Multi-Device Pairing"],
   "use_cases": ["Casual"],
   "platforms": ["PC", "Mobile"],
   "lighting": ["None"],
@@ -25,9 +32,11 @@
     "part_numbers": ["S803-ST-BK-US", "6492431"],
     "releaseYear": 2019
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://asia.shokz.com/products/openrun"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,14 +59,34 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0850033806182",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "2220007684753",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "6492431",
         "region": "all"
       },
       {
         "type": "mpn",
+        "value": "S803",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "S803-ST-BK-US",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "S803BK",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -78,6 +107,11 @@
         "type": "upc",
         "value": "850033806182",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "850033806182",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -1,5 +1,66 @@
 {
   "opendb_id": "e6b169ec-b6d6-4dca-a409-2a4a9ba7c0a7",
+  "weight": 5050,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "93feb70a-6ca8-46fe-8ffc-bde0245d2a8c",
+      "role": "Speaker",
+      "component_label": "Wireless Streaming Speaker",
+      "quantity": 1,
+      "weight_g": 5050,
+      "dimensions_mm": {
+        "width": 197,
+        "height": 420,
+        "depth": 190
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "7a1d08a3-14c4-461e-a872-7d792f272751",
+      "channel_label": "2.0",
+      "basis": "Virtualized",
+      "conditions": "Manufacturer describes a true stereo sound field produced by its all-in-one speaker enclosure."
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "729465a4-14ae-453c-8216-5b1997547073",
+      "method": "Optical",
+      "speaker_side_connector": "Toslink optical (mini-Toslink combo input)",
+      "source_side_connector": "Toslink optical",
+      "adapter_requirement": "Included Adapter",
+      "conditions": "Optical input uses the included Toslink optical to 3.5 mm mini adapter."
+    },
+    {
+      "id": "12690d09-2247-49e2-8bb1-c9c161bf5c3d",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "3.5 mm stereo mini-jack",
+      "source_side_connector": "3.5 mm stereo mini-jack",
+      "adapter_requirement": "Direct",
+      "conditions": "Combined optical/analog audio input."
+    },
+    {
+      "id": "a1afbe31-f1cb-4c26-a96d-9fb82e8b7d89",
+      "method": "Wi-Fi Streaming",
+      "adapter_requirement": "Direct",
+      "wifi_protocol": "AirPlay 2; Spotify Connect; Tidal Connect",
+      "conditions": "Dual-band Wi-Fi 5 (802.11ac)."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "5c0f9851-0c1e-4768-9269-87da3a56bfbc",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Wireless Streaming Speaker",
+      "connector": "Universal tri-pin AC power cord input",
+      "conditions": "Universal AC input, 100–240 V. Includes 120 V and 230 V AC power cords; speaker operates from AC mains power."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Bluesound Pulse 2i Hi-Res Wireless Streaming Speaker - White",
@@ -7,9 +68,11 @@
     "part_numbers": ["PULSE 2I WHT", "6356572"],
     "releaseYear": 2018
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.bluesound.com/products/pulse?variant=45177508200495"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -23,13 +86,28 @@
       },
       {
         "type": "ean",
+        "value": "0786357000220",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "5703120291673",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "5703120291673",
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "6356572",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PULSE 2i WHT",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -45,6 +123,11 @@
         "type": "upc",
         "value": "786357000220",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "786357000220",
+        "region": "us"
       }
     ],
     "retailer_listings": [

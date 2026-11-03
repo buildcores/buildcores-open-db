@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/p120-crystal"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345812009",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345812009",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,9 +64,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "P120 Crystal",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "761345812009",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345812009",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -185,6 +200,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811129257",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "proshop",
         "channel": "de",
         "source_product_id": "2814731",
@@ -223,13 +245,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "2177968",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "802342222",
         "pricing_enabled": true,
         "verified": false
       }

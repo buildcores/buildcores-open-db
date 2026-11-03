@@ -1,5 +1,80 @@
 {
   "opendb_id": "dab7f071-9fd3-4ce4-8654-201684b8ef78",
+  "weight": 4900,
+  "speaker_product_kind": "Portable",
+  "color": ["BLACK", "GOLD"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "4b2f2ffa-3274-433a-a1ad-2d2e56ead35d",
+      "role": "Speaker",
+      "component_label": "Marshall Tufton Portable Stereo Loudspeaker",
+      "quantity": 1,
+      "weight_g": 4900,
+      "dimensions_mm": {
+        "width": 229,
+        "height": 350,
+        "depth": 163
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "3fe804a7-dd17-468f-8155-d30afa47717a",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "0423f8df-eb39-4dac-8180-a6fe7883cf0b",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth 5.0 with Qualcomm aptX; wireless audio input."
+    },
+    {
+      "id": "04ad4bf5-56fd-4421-8222-bc6979da1053",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "3.5 mm stereo jack",
+      "source_side_connector": "3.5 mm stereo plug",
+      "adapter_requirement": "Direct",
+      "conditions": "Wired stereo analog input."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "198a10fd-28b7-497a-a1ed-d787f7c2fa9d",
+      "source": "Battery",
+      "powered_component": "Marshall Tufton",
+      "conditions": "Built-in rechargeable Li-ion battery; supports portable audio playback."
+    },
+    {
+      "id": "721d6c6d-713c-4d9a-a3d7-dc04dae22c92",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Marshall Tufton",
+      "connector": "AC mains power input",
+      "conditions": "100–240 V AC, 50–60 Hz. Mains power lead included."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "ef9ee581-4b8b-443a-a5ee-437ba8201597",
+      "hours": 20,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer advertises 20+ hours of portable playtime; approximately 20 hours at medium volume."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "22452633-05ba-4508-80f1-a1d6d4e71547",
+      "method": "Proprietary Charging Interface",
+      "method_details": "Mains power cord / AC power input",
+      "target": "Marshall Tufton",
+      "conditions": "Internal rechargeable Li-ion battery; charging from empty to full takes approximately 2.5 hours. Mains lead included."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Marshall Tufton Portable Wireless Bluetooth Speaker - Black/Brass",
@@ -7,9 +82,11 @@
     "part_numbers": ["1006118", "6473513"],
     "releaseYear": 2019
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.marshall.com/ph/en/product/tufton?pid=1005924&srsltid=AYCX9vK4pBDUTUskrkEflYeo6lfTq8V_3V69pSvwAUlQaxjQnT_MWBQv"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,9 +94,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "7340055388399",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "1006118",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "1006118",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -146,11 +233,18 @@
         "verified": true
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6T9M0P3652",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "266174770",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

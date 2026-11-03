@@ -4,15 +4,20 @@
   "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "color": ["WHITE", "PINK"],
   "lighting": ["ARGB"],
+  "power_supply": "None",
   "power_supply_included": false,
   "supported_power_supply_form_factors": ["ATX"],
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
-  "front_usb_ports": ["USB 3.2 Gen 1 Type-A", "USB 3.2 Gen 1 Type-A", "USB 3.2 Gen 2 Type-C"],
+  "front_usb_ports": [
+    "2 x USB 3.2 Gen 1 Type A(5 Gbps)",
+    "1 x USB 3.2 Gen 2 Type C (10 Gbps)",
+    "1 x Audio/Mic Jack"
+  ],
   "max_video_card_length": 360,
   "max_cpu_cooler_height": 160,
   "max_psu_length": 250,
-  "internal_3_5_bays": 4,
+  "internal_3_5_bays": 2,
   "internal_2_5_bays": 6,
   "power_supply_shroud": false,
   "expansion_slots": 7,
@@ -23,17 +28,59 @@
     "height": 461
   },
   "volume": 63.8,
+  "weight": 20.8,
   "metadata": {
-    "name": "HYTE Y50 Strawberry Milk",
+    "name": "HYTE Y50 Strawberry Milk ARGB",
     "manufacturer": "HYTE",
     "part_numbers": [],
     "series": "Y50",
+    "releaseYear": 2026,
     "manufacturer_color": "Strawberry Milk"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://hyte.com/store/y50/cs-hyte-y50rgb-sm"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0848604055329",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "CS-HYTE-Y50RGB-SM",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "848604055329",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0HBB7J1JP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811737039",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20920417528",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

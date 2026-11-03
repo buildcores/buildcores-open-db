@@ -1,9 +1,60 @@
 {
   "opendb_id": "eb1ad3e3-a854-42ac-816b-c487f94537e6",
-  "resolution": "1080p",
+  "weight": 90,
   "resolution_other": "720p, 540p",
-  "frame_rate": "60fps",
   "frame_rate_other": "60fps, 30fps",
+  "capture_mode_claims": [
+    {
+      "id": "585d705d-0104-4e38-958f-88bbe193072b",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 60,
+      "claim": "maximum_at_resolution",
+      "conditions": "USB 3.0 / USB 3.2 Gen 1 required for uncompressed stream; supports SDR & HDR modes."
+    },
+    {
+      "id": "a10fe597-e5e0-4007-838e-27e97672e03f",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "frame_rate_fps": 30,
+      "claim": "supported",
+      "conditions": "USB 3.0 or USB 2.0 (USB 2.0 uses compressed MJPEG); supports SDR & HDR modes"
+    },
+    {
+      "id": "438e554c-4283-4a21-94f5-c9afe3b5c67a",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 120,
+      "claim": "maximum_at_resolution",
+      "conditions": "USB 3.0 / USB 3.2 Gen 1 required for uncompressed 120fps stream."
+    },
+    {
+      "id": "147279cb-e84e-426a-b61f-7be505ea5b7d",
+      "resolution": {
+        "horizontalRes": 1280,
+        "verticalRes": 720
+      },
+      "frame_rate_fps": 60,
+      "claim": "supported",
+      "conditions": "USB 3.0 or USB 2.0 (MJPEG format); supports SDR & HDR modes."
+    },
+    {
+      "id": "f59ef158-513e-414b-80da-a8ee99fafda7",
+      "resolution": {
+        "horizontalRes": 960,
+        "verticalRes": 540
+      },
+      "frame_rate_fps": 120,
+      "claim": "maximum_at_resolution",
+      "conditions": "USB 3.0 / USB 3.2 Gen 1 required for uncompressed 120fps stream."
+    }
+  ],
   "connectivity_type": ["Wired", "Wired USB-C", "Wired USB-A"],
   "lighting": ["None"],
   "metadata": {
@@ -12,9 +63,11 @@
     "part_numbers": ["10WAC9901"],
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/facecam-mk2?srsltid=AU7gw4UZ-wljb8tF5JiuxNw-Xa9rLcLG_rrolCAqcmqSOjjlkTnOnhwZ"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -22,14 +75,34 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840006669227",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "10WAC9901",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "10WAC9901",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "20WAC9901",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840006669227",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006669227",
+        "region": "us"
       }
     ],
     "retailer_listings": [

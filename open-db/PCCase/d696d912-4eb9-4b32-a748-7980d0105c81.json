@@ -41,8 +41,13 @@
     "manufacturer_url": "https://www.antec.com/product/case/p120-crystal"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0761345812016",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "0-761345-81201-6",
@@ -50,10 +55,35 @@
       },
       {
         "type": "mpn",
+        "value": "0-761345-81201-6",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "P120 Crystal White",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345812016",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B08VH6VSG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811129275",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

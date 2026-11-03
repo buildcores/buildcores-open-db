@@ -1,0 +1,125 @@
+{
+  "opendb_id": "0a770bd6-9d07-4d3f-9f75-d9d6d3c24d95",
+  "connectivity_type": ["USB-A", "XLR"],
+  "on_device_ports": [
+    {
+      "id": "43d6a472-1c35-4707-b233-7c3766dbcb1e",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes USB-C to USB-A cable"
+    },
+    {
+      "id": "bedb76ee-1d8c-42ee-b4a0-b2e7b2e9df40",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"],
+      "conditions": "XLR cable not included; disables onboard buttons and RGB"
+    },
+    {
+      "id": "cf787bde-b824-4934-84d7-3af35747a2cb",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "USB connection required for monitoring path"
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "b6be1874-2df7-4b7f-9f33-a61188bd2b56",
+      "sample_rate_khz": 44.1,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "1378c772-7a9e-40eb-87c3-25848ab1106b",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["WHITE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "7f543040-ffb2-4072-85fe-35092d33079c",
+      "basis": "Included Stand Assembly",
+      "width_mm": 106,
+      "depth_mm": 106,
+      "height_mm": 244
+    },
+    {
+      "id": "638967d5-f8d4-4406-be92-ab668f7a6fc6",
+      "basis": "Microphone Body",
+      "width_mm": 95,
+      "depth_mm": 56,
+      "height_mm": 165
+    }
+  ],
+  "lighting": ["RGB"],
+  "metadata": {
+    "name": "FIFINE AmpliGame AM8 White with Gray Foam Windscreen",
+    "manufacturer": "FIFINE",
+    "series": "AmpliGame AM8",
+    "variant": "White with Gray Foam Windscreen",
+    "releaseYear": 2022
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.techpowerup.com/review/fifine-ampligame-am8/"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0850052511173",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ABCD2313AM8W",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AM8W",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "850052511173",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0C74G9RLH",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6622727",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6STKYY7416",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "19315421217",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

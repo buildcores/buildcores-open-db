@@ -1,0 +1,110 @@
+{
+  "opendb_id": "0960e66d-2724-48bf-8485-2cbd94b9ee77",
+  "connectivity_type": ["USB-A", "XLR"],
+  "on_device_ports": [
+    {
+      "id": "78261b86-8957-4047-9f7a-6ba38f20ab71",
+      "connector": "USB-C",
+      "roles": ["Audio to Host", "Operating Power Input"],
+      "conditions": "Includes USB-C to USB-A cable"
+    },
+    {
+      "id": "9c22f6fc-a6e0-4136-9231-45d1635177ce",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "9b315b50-0140-41dc-bb3f-fd7b25b3fbbf",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"],
+      "conditions": "USB connection required for monitoring path"
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "9344485f-5ee3-4b01-8444-ad998abcd3ac",
+      "sample_rate_khz": 44.1,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "supported"
+    },
+    {
+      "id": "f406d392-2b6a-4306-98e9-efe0e317eafc",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["PINK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "64dab751-79d0-436f-b6c9-d41289be8f07",
+      "basis": "Included Stand Assembly",
+      "width_mm": 106,
+      "depth_mm": 106,
+      "height_mm": 244
+    },
+    {
+      "id": "f4af762c-ffdf-4377-b684-060205dd23f3",
+      "basis": "Microphone Body",
+      "width_mm": 95,
+      "depth_mm": 56,
+      "height_mm": 165
+    }
+  ],
+  "lighting": ["RGB"],
+  "metadata": {
+    "name": "FIFINE AmpliGame AM8 Pink with Gray Foam Windscreen",
+    "manufacturer": "FIFINE",
+    "series": "AmpliGame AM8",
+    "variant": "Pink with Gray Foam Windscreen",
+    "releaseYear": 2022
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://fifinemicrophone.com/products/fifine-ampligame-am8-microphone?variant=42927718957245"
+  },
+  "identifiers": {
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0850052511180",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ABCD2314AM8P",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AM8P",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "850052511180",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0C74JX2JL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6622724",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
+  }
+}

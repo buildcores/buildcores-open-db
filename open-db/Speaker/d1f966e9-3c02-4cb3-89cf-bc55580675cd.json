@@ -1,5 +1,64 @@
 {
   "opendb_id": "d1f966e9-3c02-4cb3-89cf-bc55580675cd",
+  "weight": 608,
+  "speaker_product_kind": "Portable",
+  "color": ["BLUE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "dec50859-365e-445d-9245-ae858fd3020e",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears BOOM 3",
+      "quantity": 1,
+      "weight_g": 608,
+      "dimensions_mm": {
+        "width": 73,
+        "height": 184
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "2f69b6a7-353b-4465-8663-d2ad8d95d18f",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "436f21ff-e531-4345-afe6-1c5506fe5498",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio input; supports A2DP. Pair up to 8 source devices, with up to 2 connected simultaneously."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "47ea59f2-f604-4769-8582-70bbbf068931",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears BOOM 3",
+      "conditions": "Built-in rechargeable lithium-ion battery for portable audio playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "4d124cce-7008-414d-8263-037e09acb737",
+      "hours": 15,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer advertises up to 15 hours of battery life; actual runtime varies with volume, settings and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "922e07ae-019a-4aed-9d63-42258a253d8b",
+      "method": "Micro-USB",
+      "target": "Ultimate Ears BOOM 3",
+      "conditions": "Micro-USB charging input for the built-in rechargeable lithium-ion battery; charging time approximately 2.75 hours. Micro-USB cable included."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Ultimate Ears BOOM 3 Lagoon Blue Bluetooth Speaker",
     "manufacturer": "Logitech",
@@ -7,18 +66,29 @@
       "984-001350",
       "BOOM",
       "BOOM 3 Bluetooth Speaker | Ultimate Ears Speaker with Deep Bass"
-    ]
+    ],
+    "releaseYear": 2018
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-3"
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-3.984-001350"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0097855141040",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "984-001350",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "984-001350",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -29,15 +99,27 @@
         "type": "mpn",
         "value": "BOOM 3 Bluetooth Speaker | Ultimate Ears Speaker with Deep Bass",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855141040",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07DD7ZJ6X",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "11071283",
+        "source_product_id": "12831352",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "logitech",
@@ -80,6 +162,20 @@
         "source_product_id": "984-001350",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16855653007",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "6000206684299",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

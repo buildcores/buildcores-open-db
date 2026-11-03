@@ -1,5 +1,56 @@
 {
   "opendb_id": "c1707a90-dcdb-485b-8680-c0ac3a53bb48",
+  "weight": 420,
+  "speaker_product_kind": "Portable",
+  "color": ["PINK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "af0c0945-92ba-4a54-b7ae-acf72b1ee932",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears WONDERBOOM 3",
+      "quantity": 1,
+      "weight_g": 427,
+      "dimensions_mm": {
+        "width": 95.3,
+        "height": 104
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "00960e38-ea30-4592-b28a-3381d2d93194",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth wireless audio playback; requires a Bluetooth A2DP-compatible source device."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "235a2103-747d-47ec-8b39-c010c6cc6d37",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears WONDERBOOM 3",
+      "conditions": "Built-in rechargeable lithium-ion battery for portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "5f9979eb-b73e-4178-b658-3c278a8536e7",
+      "hours": 14,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer claims up to 14 hours; actual battery life varies with use, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "976861bd-0401-4daf-a10c-aec69eb74502",
+      "method": "Micro-USB",
+      "target": "Ultimate Ears WONDERBOOM 3",
+      "conditions": "Micro-USB charging input for the built-in rechargeable lithium-ion battery; approximately 2.6 hours charging time with a BC1.2-compliant adapter. Micro-USB cable included."
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Ultimate Ears WONDERBOOM 3 Portable Bluetooth Speaker - Hyper Pink",
@@ -7,9 +58,11 @@
     "part_numbers": ["5678446feb69b5d3", "WONDERBOOM"],
     "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/wonderboom-3-bluetooth.984-001809"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -17,9 +70,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0798239064640",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "5678446feb69b5d3",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "984-001809-Cr",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -30,6 +93,11 @@
         "type": "upc",
         "value": "798239064640",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "798239064640",
+        "region": "us"
       }
     ],
     "retailer_listings": [

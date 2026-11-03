@@ -40,12 +40,17 @@
     "manufacturer_url": "https://www.montechpc.com/king-15"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710562742534",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562742534",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -56,6 +61,11 @@
         "type": "mpn",
         "value": "KING15B",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "KING15B",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -161,6 +171,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0FWWN8LYD",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12339110",
         "pricing_enabled": true,
         "verified": true
       },

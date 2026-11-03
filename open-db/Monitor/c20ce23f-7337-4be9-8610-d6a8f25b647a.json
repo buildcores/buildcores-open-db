@@ -10,9 +10,113 @@
   "response_time": 8,
   "color": ["GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x DisplayPort 1.4                                                    2 x HDMI 2.1                                                    1 x USB Type-C 3.2 Gen 2",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "usb_c": 5
+  },
+  "connectors": "2 x HDMI 2.1 (TMDS); 2 x DisplayPort 1.4; 1 x USB-C upstream (DisplayPort video + data, up to 90W Power Delivery); 3 x USB-C upstream (data only); 3 x USB-A 3.2 Gen 2 downstream; 1 x USB-A 3.2 Gen 2 downstream with BC 1.2; 1 x USB-C downstream (data, up to 15W charging); 1 x RJ45 Gigabit Ethernet; 1 x 3.5 mm audio line-out.",
+  "display_inputs": [
+    {
+      "id": "8d645711-5d6b-4710-ab23-10239b183b69",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1 (TMDS)",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "e916a4e6-c571-4893-afe0-eb8e05af6bf2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum preset resolution is 3840 × 2160 at 60 Hz. HDMI 2.1 ports use TMDS; optional HDMI 2.1 features such as FRL are not supported."
+        }
+      ]
+    },
+    {
+      "id": "260e9821-9394-4206-9253-6d2279f0c17f",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "4980914d-cbf2-4388-bd5b-6a5333934490",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum preset resolution is 3840 × 2160 at 60 Hz."
+        }
+      ]
+    },
+    {
+      "id": "3ee4604d-1fb7-4748-baf2-8eb0054dec19",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C with DisplayPort 1.4 Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "USB-C upstream; USB Power Delivery up to 90 W",
+      "mode_claims": [
+        {
+          "id": "746eee59-50cd-4a50-ad84-30e2473dd27e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C upstream port supports DisplayPort 1.4 Alt Mode and up to 90 W USB Power Delivery. Maximum preset resolution is 3840 × 2160 at 60 Hz."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "481761b5-b768-4b08-8fff-5130a9a271b9",
+        "pattern": "100x100",
+        "mounted_weight_kg": 13.16,
+        "installation": "direct"
+      },
+      {
+        "id": "1a4f5817-f325-44d0-a68f-173e4556ae90",
+        "pattern": "200x200",
+        "mounted_weight_kg": 13.16,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 967.21,
+    "height_min": 595.2,
+    "height_max": 655.2,
+    "depth": 256.4
+  },
+  "dimensions_without_stand_mm": {
+    "width": 967.21,
+    "height": 560.5,
+    "depth": 64.08
+  },
+  "weight": {
+    "with_stand_kg": 18.55,
+    "without_stand_kg": 13.16
+  },
+  "power_consumption": {
+    "typical_w": 52.1,
+    "manufacturer_max_w": 250,
+    "note": "On-mode power consumption: 52.1 W, as defined by EU 2019/2021 and EU 2019/2013. Maximum power consumption: 250 W at maximum brightness and contrast with maximum power loading on all USB ports. The maximum includes USB-port loading; the source does not separately label this value as peak power."
+  },
   "max_brightness": 350,
   "hdr": "",
   "adaptive_sync": "None",
@@ -30,16 +134,23 @@
     "series": "",
     "variant": "Silver",
     "releaseYear": 2023,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Platinum Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-43-4k-usb-c-hub-monitor-u4323qe/u4323qe_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116434498",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116434498",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -53,6 +164,11 @@
       },
       {
         "type": "mpn",
+        "value": "DELL-U4323QE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "TXRJW",
         "region": "all"
       },
@@ -60,6 +176,11 @@
         "type": "mpn",
         "value": "U4323QE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "U4323QE",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -75,6 +196,11 @@
         "type": "upc",
         "value": "884116434498",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116434498",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -1,18 +1,35 @@
 {
   "opendb_id": "d20a76b3-46ff-4815-8d3e-9c5be945b403",
-  "connectivity": ["Wired", "Wired USB-A"],
-  "rgb": true,
+  "weight": 87.3,
+  "dimensions": {
+    "length": 124,
+    "width": 68,
+    "height": 43
+  },
+  "shape": "Ergonomic",
+  "handedness": "Right-handed",
+  "connectivity": ["Wired USB-A"],
+  "sensor": "HERO 25K",
+  "max_dpi": 25600,
+  "polling_rate": 1000,
+  "buttons": 6,
+  "switches": "Omron D2FC-F-7N",
+  "switch_type": "Mechanical",
+  "onboard_memory": true,
   "lighting": ["RGB"],
-  "grip_types": [],
+  "grip_types": ["Claw", "Palm"],
+  "silent_clicks": false,
   "metadata": {
     "name": "Logitech G403 HERO Wired Optical Gaming Mouse",
     "manufacturer": "Logitech",
     "part_numbers": ["910-005634", "910-005630"],
     "releaseYear": 2019
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-us/shop/p/g403-hero-gaming-mouse.910-005630"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -20,9 +37,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0097855147745",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "910-005630",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "910-005630",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -33,6 +60,11 @@
         "type": "upc",
         "value": "097855147745",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "097855147745",
+        "region": "us"
       }
     ],
     "retailer_listings": [

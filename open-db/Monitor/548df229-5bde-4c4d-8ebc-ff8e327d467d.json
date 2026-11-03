@@ -8,10 +8,103 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 1
+  },
+  "connectors": "1x HDMI 2.1 input (HDCP 1.4; supports up to 2560 × 1440 at 100 Hz TMDS); 1x DisplayPort 1.4 input (HDCP 1.4; supports up to 2560 × 1440 at 100 Hz); 1x USB-B 5 Gbps upstream; 3x USB-A 5 Gbps downstream; 1x USB-C 5 Gbps downstream (data only; Power Delivery up to 15 W); power connector; security-lock slot; stand-lock; soundbar mounting slots.",
+  "display_inputs": [
+    {
+      "id": "f7defd7d-55d6-45a5-ade6-b5705393692d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; TMDS",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4d9997ec-5fe6-4afe-a707-985462a066b5",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Maximum preset resolution over HDMI TMDS."
+        }
+      ]
+    },
+    {
+      "id": "a94439b9-ea1c-4f3b-ae70-2bd7c4ef4056",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; HBR3",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a79f2c9a-2d9f-41c9-b452-3b0dbffa98fe",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Maximum preset resolution over DisplayPort 1.4."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "35c74825-5929-486b-b8fc-fa0fb93e4d74",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.28,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA mounting holes, 100 × 100 mm; use four M4 × 10 mm screws with a compatible VESA mount",
+          "weight_kg": 4.28
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 612.5,
+    "height": 535.7,
+    "height_min": 385.7,
+    "height_max": 535.7,
+    "depth": 192.16
+  },
+  "dimensions_without_stand_mm": {
+    "width": 612.5,
+    "height": 356.55,
+    "depth": 49.99
+  },
+  "weight": {
+    "with_stand_kg": 6.27,
+    "without_stand_kg": 4.28
+  },
+  "power_consumption": {
+    "typical_w": 18.8,
+    "manufacturer_max_w": 75,
+    "note": "On-mode power consumption: 18.8 W; maximum power consumption: 75 W at maximum brightness and contrast settings; standby: 0.3 W; off mode: 0.3 W; Pon: 18.4 W; Typical Energy Consumption (TEC): 58.12 kWh. The USB-C downstream port supports power delivery up to 15 W; Dell does not explicitly state whether this output is included in the 75 W maximum."
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 27 Plus QHD Monitor P2725D",
     "manufacturer": "Dell",
@@ -19,9 +112,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-27-plus-qhd-monitor-p2725d/p2725d_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -40,6 +135,11 @@
       },
       {
         "type": "ean",
+        "value": "5397184962480",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "5397184962831",
         "region": "all"
       },
@@ -50,6 +150,11 @@
       },
       {
         "type": "mpn",
+        "value": "210-BRHW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "5726ed5cec412c59",
         "region": "all"
       },
@@ -57,6 +162,11 @@
         "type": "mpn",
         "value": "DELL-P2725DE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "DELL-P2725DE",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -290,7 +400,7 @@
         "channel": "us",
         "source_product_id": "0JC-0004-00WG1",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
