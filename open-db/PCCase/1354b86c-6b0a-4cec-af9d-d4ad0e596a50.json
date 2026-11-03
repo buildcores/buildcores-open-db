@@ -40,7 +40,7 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -48,9 +48,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4260052191781",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "BGW72",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "BGW72",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -200,6 +210,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "19166650",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "BEBGW72",
@@ -274,14 +291,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811734007",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811734007",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",

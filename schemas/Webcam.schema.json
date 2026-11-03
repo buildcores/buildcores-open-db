@@ -9,23 +9,79 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "resolution": {
-      "description": "Common webcam resolution preset (e.g., 720p, 1080p, 2k, 4k)",
+      "description": "Legacy independent resolution preset. Keep for existing rows during migration; enter sourced exact resolution and fps pairs in Capture Modes for new records.",
       "type": ["string", "null"],
       "enum": ["720p", "1080p", "1440p", "2k", "4k", null]
     },
     "resolution_other": {
-      "description": "Custom resolution value if not in preset list",
+      "description": "Legacy resolution text for an existing row; it does not prove a capture mode paired with fps.",
       "type": ["string", "null"]
     },
     "frame_rate": {
-      "description": "Common webcam frame rate preset",
+      "description": "Legacy independent frame-rate preset; do not combine it with resolution into an unsourced mode.",
       "type": ["string", "null"],
       "enum": ["24fps", "30fps", "60fps", "90fps", "120fps", null]
     },
     "frame_rate_other": {
-      "description": "Custom frame rate if not in preset list",
+      "description": "Legacy frame-rate text for an existing row; it does not establish an exact resolution/fps pair.",
       "type": ["string", "null"]
+    },
+    "capture_mode_claims": {
+      "description": "Source-backed exact capture resolution and frame-rate pairs for the sold webcam. Enter special prerequisites on their own row; do not combine the legacy resolution and frame-rate presets into invented pairs.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One manufacturer-supported capture resolution and frame-rate pair for this exact webcam SKU.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "resolution": {
+            "description": "Exact horizontal and vertical captured pixel resolution for this one camera mode.",
+            "type": ["object", "null"],
+            "properties": {
+              "horizontalRes": {
+                "description": "Horizontal pixel count for this exact resolution claim; must be a positive integer.",
+                "type": ["integer", "null"],
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "verticalRes": {
+                "description": "Vertical pixel count for this exact resolution claim; must be a positive integer.",
+                "type": ["integer", "null"],
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": ["horizontalRes", "verticalRes"]
+          },
+          "frame_rate_fps": {
+            "description": "Published frame rate in frames per second paired with this exact resolution.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "claim": {
+            "description": "Use supported for a listed capture mode; use maximum_at_resolution only for an explicitly stated maximum at this exact resolution.",
+            "type": ["string", "null"],
+            "enum": ["supported", "maximum_at_resolution", null]
+          },
+          "conditions": {
+            "description": "Official prerequisite or restriction for this exact capture mode, such as USB version, codec, HDR setting, or application. This note is not a filter or compatibility rule.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["resolution", "frame_rate_fps", "claim"]
+      }
     },
     "connectivity_type": {
       "description": "Webcam connectivity interface types",

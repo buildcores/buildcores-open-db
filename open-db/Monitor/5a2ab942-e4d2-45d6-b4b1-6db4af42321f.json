@@ -8,9 +8,9 @@
   "refresh_rate": 240,
   "panel_type": "QD-OLED",
   "response_time": 0.03,
-  "color": ["BLACK", "RGB"],
+  "color": ["BLACK"],
   "lighting": ["ARGB"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 2,
@@ -18,6 +18,111 @@
     "usb_c": 1
   },
   "connectors": "1 x USB Type-C                                                    2 x HDMI 2.1.                                                      1 x DisplayPort 2.1",
+  "display_inputs": [
+    {
+      "id": "b3b024bf-9a89-46c8-9ca7-c57309433a3b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "23309db4-66fe-4aa3-bc80-e314e4ba8bc8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "supported",
+          "conditions": "Requires a DisplayPort 2.1 UHBR20 compliant source device and high-bandwidth cable to achieve uncompressed 4K 240Hz transmission."
+        }
+      ]
+    },
+    {
+      "id": "55cf7ad4-70d0-4218-b904-0e4fc399fcb5",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "f34c7a73-cb27-40b7-853c-6de4eba47ce8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Requires a full-bandwidth 48 Gbps HDMI 2.1 Fixed Rate Link (FRL) compliant host machine."
+        }
+      ]
+    },
+    {
+      "id": "651a6880-b78a-4dfb-b601-5778ac9013d5",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C (90W PD)",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "4393f20c-e757-41ab-ab53-d3c96463a082",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Requires host system to support DP Alt Mode over Type-C. Provides upstream power tracking up to 90W."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "c3eae59c-581b-4af9-80b6-199212d8112a",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.7,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "M4 screws (8 mm depth) (The official technical hardware manual specifies using exactly four M4 x 8 mm mounting screws to anchor the plate).",
+          "weight_kg": 8.4
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 718,
+    "height": 531,
+    "height_min": 421,
+    "height_max": 531,
+    "depth": 276
+  },
+  "dimensions_without_stand_mm": {
+    "width": 718,
+    "height": 413,
+    "depth": 67
+  },
+  "weight": {
+    "with_stand_kg": 8.7,
+    "without_stand_kg": 6
+  },
+  "power_consumption": {
+    "typical_w": 42,
+    "manufacturer_max_w": 132,
+    "note": "The manufacturer-reported typical standard operational power draw is < 42 W. The maximum 132 W ceiling accounts for the simultaneous inclusion of full 90 W upstream USB Power Delivery capability over the primary USB-C Alt Mode interface."
+  },
   "max_brightness": 1000,
   "hdr": "VESA DisplayHDR 500 True Black",
   "adaptive_sync": "FreeSync Premium Pro",
@@ -31,10 +136,10 @@
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm-gen3-pg32ucdm3/gallery/"
+    "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm-gen3-pg32ucdm3/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -313,7 +418,7 @@
         "channel": "us",
         "source_product_id": "19996952944",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

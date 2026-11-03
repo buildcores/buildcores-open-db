@@ -1,11 +1,16 @@
 {
   "opendb_id": "9a5aa732-e0a9-4a9b-a0d4-a3ccea73bd16",
   "size": 120,
-  "color": [],
-  "lighting": [],
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "quantity": 3,
+  "max_airflow": 83.4,
+  "max_noise_level": 34,
   "pwm": true,
-  "connector": "4-pin PWM + 3-pin 5V ARGB",
+  "led": "ARGB",
+  "connector": "4-pin PWM + 3-pin 5V Addressable RGB",
+  "controller": "USB",
+  "static_pressure": 2.66,
   "flow_direction": "Reverse",
   "isOEM": false,
   "metadata": {
@@ -16,10 +21,43 @@
     "variant": "FLEX",
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://lian-li.com/product/uni-fan-tl-flex/"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 4,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353054271",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "12RTL1F3W",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840353054271",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GVQR1W6L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "1YF-005G-000Y5",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

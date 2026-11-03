@@ -41,7 +41,7 @@
     "manufacturer_url": "https://www.montechpc.com/hs02"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -52,6 +52,11 @@
         "type": "ean",
         "value": "4710562747355",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562747355",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -77,6 +82,11 @@
         "type": "mpn",
         "value": "HS02B",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "HS02B",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -219,6 +229,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11066075",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-051",
@@ -265,7 +282,7 @@
         "channel": "us",
         "source_product_id": "N82E16811970023",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -319,9 +336,9 @@
       {
         "source": "walmart",
         "channel": "us",
-        "source_product_id": "16343407142",
+        "source_product_id": "5L8U2P4QQAUB",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

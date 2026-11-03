@@ -29,6 +29,12 @@ Thank you for your interest in contributing to BuildCores OpenDB! This document 
 3. Populate the JSON file according to the appropriate schema in `/schemas/`
 4. Make sure all required fields are included
 
+Product identifiers belong in `identifiers.identifiers` and retailer listings in
+`identifiers.retailer_listings`. New parts must not include `metadata.part_numbers`
+or embedded retailer SKU fields, even when empty. Older compatibility schemas may
+still describe these fields; the API write contract and sync preflight reject them
+on creation.
+
 ### Updating an Existing Component
 
 1. Find the component's JSON file in the appropriate category folder
@@ -49,12 +55,29 @@ For detailed guidance, see [docs/VARIANTS.md](docs/VARIANTS.md).
 
 - Use consistent naming conventions for similar components
 - Provide accurate specifications based on manufacturer documentation
-- Include retailer SKUs and links when available
+- Include verified identifiers and retailer listings in the canonical identity snapshot, and official product links when available
 - Ensure all measurements use the correct units as specified in the schema
 - Fill in as many fields as possible, not just the required ones
 - When adding variants, match the exact spelling of existing `manufacturer` and `series` fields
 
 ## Validation
+
+### Recovering a failed creation
+
+Correcting a rejected new file makes it a Git modification, but the missing product
+still needs `create-part`. For the deprecated `metadata.part_numbers` failure, add
+`sync-retries/<failed-run-id>.json` with `source_commit`, `source_run_id`, and a
+`files` array of the affected catalog paths. The source must be the trusted main
+commit that originally added each file, and the specified run must still be its
+latest completed failed import. Retry plans are append-only and apply only when
+added; later commits do not replay them.
+
+Only removing `metadata.part_numbers` is permitted in the same retry: UUIDs,
+canonical identity snapshots, categories and specifications must remain unchanged.
+Other edits and unlisted files retain normal sync-baseline checks. CI validates the
+plan without production writes; after merge, the existing importer sends those
+files to the idempotent create endpoint. Conflicting existing products fail rather
+than being overwritten.
 
 ### Local Validation
 

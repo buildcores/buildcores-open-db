@@ -1,21 +1,127 @@
 {
   "opendb_id": "ece03ac7-7d6c-442a-a5d8-acde3bd1a1f3",
-  "lighting": [],
+  "weight": 620,
+  "speaker_product_kind": "Portable",
+  "color": ["PURPLE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "aac5d2be-4028-4484-8cc6-8cd85e51afbb",
+      "role": "Speaker",
+      "component_label": "Ultimate Ears BOOM 4",
+      "quantity": 1,
+      "weight_g": 620,
+      "dimensions_mm": {
+        "width": 73,
+        "height": 184,
+        "depth": 73
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "channel_configuration_claims": [
+    {
+      "id": "228f96ae-3a2d-4442-a78b-2b57905f07cb",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "a4a9dde5-e0cb-48e3-bf0f-a71d26d3f117",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Direct",
+      "conditions": "Bluetooth audio playback using A2DP-compatible source devices"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "e9d1dbbe-75e3-49dd-ae18-610815668100",
+      "source": "Battery",
+      "powered_component": "Ultimate Ears BOOM 4",
+      "conditions": "Built-in rechargeable lithium-ion battery powers portable playback."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "98c7c964-b3a4-4b0b-906a-e13e5ad603ee",
+      "hours": 15,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer specifies up to 15 hours of playback. Actual runtime varies with volume, settings, and environmental conditions."
+    }
+  ],
+  "charging_inputs": [
+    {
+      "id": "7b70494b-dd34-4524-a4d5-afe6b983b4d4",
+      "method": "USB-C",
+      "target": "Ultimate Ears BOOM 4",
+      "conditions": "USB-C charging input for the built-in rechargeable lithium-ion battery. Manufacturer specifies less than 3 hours charging with a suitable 10 W or higher adapter."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
-    "name": "Ultimate Ears BOOM 4 Bluetooth Speaker",
+    "name": "Ultimate Ears BOOM 4 Bluetooth Speaker Enchanting Lilac",
     "manufacturer": "Ultimate Ears",
-    "part_numbers": ["aed79229ba557d8e"]
+    "part_numbers": ["aed79229ba557d8e"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitech.com/en-us/shop/p/boom-4.984-002009"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
+        "type": "ean",
+        "value": "0097855197719",
+        "region": "us"
+      },
+      {
         "type": "mpn",
-        "value": "aed79229ba557d8e",
+        "value": "984-002009",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "984-002009",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "097855197719",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CVFMJ79D",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6588388",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16855247036",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "7333816211",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

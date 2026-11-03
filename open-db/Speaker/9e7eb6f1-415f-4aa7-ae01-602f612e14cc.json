@@ -1,5 +1,60 @@
 {
   "opendb_id": "9e7eb6f1-415f-4aa7-ae01-602f612e14cc",
+  "weight": 670,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["BLACK"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "1d2504b6-b9da-4b83-af43-47c0c2487518",
+      "role": "Speaker",
+      "component_label": "Speaker",
+      "quantity": 2,
+      "weight_g": 310,
+      "dimensions_mm": {
+        "width": 123,
+        "height": 120,
+        "depth": 119
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "d8d60b1e-68e2-49c4-9e66-4d5c2ee41fe4",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "c594f17a-9724-47c2-ae9f-1c5145405462",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "Embedded",
+      "source_side_connector": "3.5mm Jack",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "47617225-b52b-42fc-bfbc-0e0ab4ffc221",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type-C",
+      "source_side_connector": "USB Type-C/USB Type-A",
+      "adapter_requirement": "Direct"
+    },
+    {
+      "id": "c25ef093-b4e7-4bd7-b8eb-f12ab42ae693",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "b968a189-a48d-44f7-8080-07b0f75dc06f",
+      "source": "USB Power",
+      "powered_component": "Speaker",
+      "connector": "USB Type-C/USB Type-A"
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
     "name": "Creative Pebble V3 2.0 Black",

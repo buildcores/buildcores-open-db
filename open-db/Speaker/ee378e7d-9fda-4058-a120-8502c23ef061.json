@@ -1,5 +1,68 @@
 {
   "opendb_id": "ee378e7d-9fda-4058-a120-8502c23ef061",
+  "weight": 7290,
+  "speaker_product_kind": "Surround Kit",
+  "color": ["BLACK", "RGB"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "e765af49-5ee3-43f6-b6f7-cb656d9fded8",
+      "role": "Satellite",
+      "component_label": "Satellites",
+      "quantity": 2,
+      "weight_g": 1790,
+      "dimensions_mm": {
+        "width": 166,
+        "height": 148,
+        "depth": 118
+      }
+    },
+    {
+      "id": "b7067720-682f-4d4d-a5b9-05008cfcbffb",
+      "role": "Subwoofer",
+      "component_label": "Subwoofer",
+      "quantity": 1,
+      "weight_g": 5500,
+      "dimensions_mm": {
+        "width": 255,
+        "height": 404,
+        "depth": 207
+      }
+    }
+  ],
+  "included_audio_unit_count": 3,
+  "channel_configuration_claims": [
+    {
+      "id": "1632467c-9890-4a13-a9a9-a184330ecb2f",
+      "channel_label": "2.1",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "3a10e76f-033c-4ae9-9f6f-1a75d35f10c0",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "5516f24e-cdb5-4a9d-9133-0064f2f949c0",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "Micro USB input",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "4246da9a-e6d7-4547-9a65-bbaa25cd9a1f",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "98013684-7964-4ce4-a0fd-011d123cb296",
+      "source": "AC Mains/Adapter"
+    }
+  ],
   "lighting": ["ARGB"],
   "metadata": {
     "name": "Logitech G560 2.1 Channel 120 W Speaker System",

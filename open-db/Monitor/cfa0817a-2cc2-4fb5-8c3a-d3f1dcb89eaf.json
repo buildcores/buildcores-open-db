@@ -9,11 +9,86 @@
   "panel_type": "Mini LED",
   "color": ["GREY"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "usb_c": 2
+  },
   "connectors": "2 x Thunderbolt 5 (USB-C; one upstream with 140W host charging, one downstream), 2 x USB-C 3.2 Gen 2",
+  "display_inputs": [
+    {
+      "id": "2e06139e-ad6b-467f-9f52-f68cc9ebaa30",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 5",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "b3a4a722-4083-46a5-b7e1-c92893f2b5b6",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "109c00af-3ce3-4650-b83c-bdb27a4b246f",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 5",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "0fbe65a9-59a6-4f2f-ad7b-aa873c065f9a",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported"
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "no"
+  },
+  "dimensions_with_stand_mm": {
+    "width": 623,
+    "height": 583,
+    "height_min": 478,
+    "height_max": 583,
+    "depth": 214
+  },
+  "dimensions_without_stand_mm": {
+    "width": 623,
+    "height": 362,
+    "depth": 33
+  },
+  "weight": {
+    "with_stand_kg": 8.5,
+    "without_stand_kg": 6.3
+  },
+  "power_consumption": {
+    "typical_w": 32.7,
+    "manufacturer_max_w": 250,
+    "note": "Apple Studio Display XDR features a mini-LED backlight with 2,304 local dimming zones and supports HDR reference modes. The upstream Thunderbolt 5 port provides up to 140 W host charging. Apple does not specify whether host charging is included in published power-consumption measurements or provide detailed maximum-power measurement conditions."
+  },
   "max_brightness": 2000,
-  "hdr": "Retina XDR; 2000 nits peak HDR, 1000 nits SDR, 1,000,000:1 contrast ratio",
+  "hdr": "HDR10 (HDR support; up to 2000 nits peak HDR brightness; Apple XDR and HDR Video reference modes)",
   "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
     "name": "Apple Studio Display XDR 27\" Standard Glass Tilt- and Height-Adjustable Stand",
@@ -25,10 +100,10 @@
     "manufacturer_color": "Silver"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.apple.com/studio-display-xdr/specs/"
+    "manufacturer_url": "https://www.apple.com/ph/studio-display-xdr/specs/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -36,14 +111,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0195950527278",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MFEL4LL/A",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MFEL4LL/A",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "195950527278",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195950527278",
+        "region": "us"
       }
     ],
     "retailer_listings": [

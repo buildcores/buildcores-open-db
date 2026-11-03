@@ -1,11 +1,12 @@
 {
   "opendb_id": "bba886ef-4cb5-48e1-b963-c2a2097c4e41",
+  "weight": 2000,
   "min_fan_rpm": 300,
   "max_fan_rpm": 2100,
   "min_noise_level": 10,
   "max_noise_level": 36,
   "color": ["BLACK"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "Display"],
   "height": 73,
   "cpu_sockets": ["AM4", "AM5", "LGA 1700", "LGA 1851"],
   "water_cooled": true,
@@ -26,7 +27,7 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/cpu-coolers/cw-9061022-ww/icue-link-titan-240-rx-lcd-liquid-cpu-cooler-cw-9061022-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -400,7 +401,7 @@
         "channel": "us",
         "source_product_id": "14319666552",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

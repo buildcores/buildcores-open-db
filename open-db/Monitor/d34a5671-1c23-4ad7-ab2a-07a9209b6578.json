@@ -7,10 +7,127 @@
   },
   "refresh_rate": 100,
   "panel_type": "IPS",
-  "color": ["BLACK"],
+  "response_time": 8,
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
-  "aspect_ratio": "16:10",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "usb_c": 1,
+    "vga": 1
+  },
+  "display_inputs": [
+    {
+      "id": "6c4e78de-6acd-49b4-8382-335fd493b9ae",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4; TMDS",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d4315774-0db8-4acd-8145-6a2a64c5b667",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "HDMI 1.4; maximum FHD 1920 × 1080 at 100 Hz (TMDS)."
+        }
+      ]
+    },
+    {
+      "id": "d2a2e5d1-9749-466b-8e2d-e5ccdb1b18b5",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7d6b040b-2515-46b8-bdf8-6c42b5f12404",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "DisplayPort 1.2; maximum native resolution 1920 × 1080 at 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "ad5b7be2-5bfb-4783-ad04-762c796034e1",
+      "connector": "vga",
+      "count": 1,
+      "version_label": "VGA",
+      "video_signal": "vga",
+      "transport": "native",
+      "connector_label": "15-pin D-Sub",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "42f79838-57f7-4229-b752-8ee2f6021abf",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Analog VGA input; use 60 Hz as the conservative maximum unless your source explicitly specifies a higher VGA refresh rate."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "afeb05b1-2b50-491b-8c85-ed8fd0261474",
+        "pattern": "100x100",
+        "mounted_weight_kg": 3.12,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA flat panel mount interface, 100 × 100 mm; stand is removable.",
+          "weight_kg": 3.12
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 538.64,
+    "height": 364,
+    "height_min": 364,
+    "height_max": 496.53,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 538.64,
+    "height": 314.23,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 4.58,
+    "without_stand_kg": 3.12
+  },
+  "power_consumption": {
+    "typical_w": 11.7,
+    "manufacturer_max_w": 65,
+    "note": "Dell specifies 11.7 W typical on-mode power consumption, 65 W maximum, 12.0 W Pon, 38.4 kWh TEC, 0.3 W standby, and 0.3 W off mode. No separate peak-power value is explicitly reported. The USB-C downstream port supports up to 15 W Power Delivery (data only); Dell does not specify whether this is included in the 65 W maximum."
+  },
+  "max_brightness": 250,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "Dell Pro 24 Plus Monitor - P2425H",
     "manufacturer": "Dell",
@@ -18,14 +135,21 @@
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/dell-pro-24-plus-monitor-p2425h/apd/210-bmgh/monitors-monitor-accessories"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116468684",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116468684",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -73,9 +197,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "P2425H",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116468684",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116468684",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -224,7 +358,7 @@
         "channel": "us",
         "source_product_id": "6584760",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

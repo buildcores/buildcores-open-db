@@ -8,9 +8,125 @@
   "refresh_rate": 100,
   "panel_type": "IPS",
   "response_time": 8,
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "usb_c": 1,
+    "vga": 1
+  },
+  "connectors": "1x HDMI 1.4 (HDCP 1.4); 1x DisplayPort 1.2 (HDCP 1.4); 1x VGA; 1x USB 3.2 Gen 1 Type-B upstream; 3x USB 3.2 Gen 1 Type-A downstream; 1x USB 3.2 Gen 1 Type-C downstream (up to 15W Power Delivery).",
+  "display_inputs": [
+    {
+      "id": "48b5a47b-c2d4-43cc-a838-a1fe576790fe",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "71910d2c-7a67-4ab8-9656-eaa6ab42c219",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Maximum FHD resolution at 100 Hz over HDMI 1.4."
+        }
+      ]
+    },
+    {
+      "id": "d3ac6827-afbf-4c4b-b68f-a35166c4af82",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "HDCP 1.4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "981532fd-cfab-4791-a3e2-6f9924752157",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 100,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Maximum FHD resolution at 100 Hz over DisplayPort 1.2."
+        }
+      ]
+    },
+    {
+      "id": "3cdab129-2517-43e8-b8ac-1065ab57f061",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "connector_label": "D-Sub, 15-pin",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a97418bf-6b61-492f-a479-419eb642849b",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "not_required",
+          "hdr": "not_supported",
+          "conditions": "Maximum FHD resolution at 60 Hz over VGA."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d0c3466b-46f4-49f1-b9de-28f4a4ad270c",
+        "pattern": "100x100",
+        "mounted_weight_kg": 2.58,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "VESA-compatible wall mount kit, 100 × 100 mm",
+          "weight_kg": 2.58
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 488.06,
+    "height": 364,
+    "height_min": 364,
+    "height_max": 482.39,
+    "depth": 181.75
+  },
+  "dimensions_without_stand_mm": {
+    "width": 488.06,
+    "height": 285.79,
+    "depth": 50.03
+  },
+  "weight": {
+    "with_stand_kg": 4.37,
+    "without_stand_kg": 2.58
+  },
+  "power_consumption": {
+    "typical_w": 10.9,
+    "manufacturer_max_w": 60,
+    "note": "Manufacturer-listed values: 10.9 W typical on-mode, 60 W maximum, 0.3 W standby, 0.3 W off mode, 10.1 W Pon, and 32.2 kWh TEC. USB-C downstream port supports up to 15 W Power Delivery (data only); the datasheet does not explicitly state whether this is included in the 60 W maximum."
+  },
+  "max_brightness": 250,
   "metadata": {
     "name": "Dell Pro 22 Plus Monitor P2225H",
     "manufacturer": "Dell",
@@ -18,14 +134,21 @@
     "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/dell-pro-22-plus-monitor-p2225h/apd/210-blxj/monitors-monitor-accessories"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116468660",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116468660",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -63,9 +186,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "P2225H",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884116468660",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116468660",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -214,7 +347,7 @@
         "channel": "us",
         "source_product_id": "6584763",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

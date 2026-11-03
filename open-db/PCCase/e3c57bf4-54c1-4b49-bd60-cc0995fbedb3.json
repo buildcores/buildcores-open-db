@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c3-white"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100328",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100328",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -66,6 +71,11 @@
       },
       {
         "type": "mpn",
+        "value": "C3 ARGB WHITE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C3-ARGB-W",
         "region": "all"
       },
@@ -73,6 +83,11 @@
         "type": "upc",
         "value": "761345100328",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100328",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -189,6 +204,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12718567",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "3198912",
@@ -221,7 +243,7 @@
         "channel": "us",
         "source_product_id": "N82E16811129317",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -312,7 +334,7 @@
         "channel": "us",
         "source_product_id": "5545396301",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

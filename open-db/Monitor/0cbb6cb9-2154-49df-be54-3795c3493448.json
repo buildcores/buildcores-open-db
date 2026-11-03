@@ -7,23 +7,134 @@
   },
   "refresh_rate": 60,
   "panel_type": "VA",
-  "color": [],
-  "lighting": [],
-  "metadata": {
-    "name": "Samsung M7 M70F 43-inch 4K UHD Smart AI Monitor (LS43FM702UNXZA black / LS43FM703UNXZA white variants)",
-    "manufacturer": "Samsung",
-    "part_numbers": ["8e0835556a370cea"]
+  "response_time": 4,
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_0": 2,
+    "usb_c": 1
   },
-  "general_product_information": {},
+  "connectors": "2 × HDMI 2.0 ports (one supports ARC); 1 × USB-C upstream port with DisplayPort Alt Mode and up to 65 W power delivery; 3 × USB-A ports; 1 × AC power input.",
+  "display_inputs": [
+    {
+      "id": "bfa13408-21d7-4a19-b16b-634f9e15c581",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "bfac293d-b0d0-4c1e-83ba-64a01c5e32f8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "4K UHD at up to 60 Hz; supported signal format may depend on source device and HDMI settings."
+        }
+      ]
+    },
+    {
+      "id": "da2bb50f-5c42-4bdb-8503-b997499fdda0",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C; DisplayPort Alt Mode",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "mode_claims": [
+        {
+          "id": "6e5eb275-121e-44d2-b4af-caf08cb6c27e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "USB-C video input via DisplayPort Alt Mode; 4K UHD at up to 60 Hz. USB-C supports up to 65 W power delivery."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "186e51de-8a51-4d96-9a96-47d7bb687974",
+        "pattern": "200x200",
+        "mounted_weight_kg": 8.5,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "M8 mounting screws, 4 required"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 965.5,
+    "height": 629.3,
+    "depth": 247.2
+  },
+  "dimensions_without_stand_mm": {
+    "width": 965.5,
+    "height": 559.8,
+    "depth": 25.7
+  },
+  "weight": {
+    "with_stand_kg": 10.6,
+    "without_stand_kg": 8.5
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 210,
+    "note": "Samsung specifies maximum power consumption of 210 W and an AC power supply of 100–240 V. The monitor has an internal power supply. USB-C supports up to 65 W power delivery; the manufacturer does not specify whether this is included in the 210 W maximum. Typical and explicitly labelled peak power consumption are not listed."
+  },
+  "max_brightness": 300,
+  "hdr": "HDR10",
+  "adaptive_sync": "None",
+  "metadata": {
+    "name": "Samsung M7 M70F 43-inch 4K UHD Smart AI Monitor (LS43FM702UNXZA)",
+    "manufacturer": "Samsung",
+    "part_numbers": ["8e0835556a370cea"],
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
+  },
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/smart/43-inch-smart-monitor-m70f-4k-uhd-vision-ai-monitor-sku-ls43fm702unxza/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "8e0835556a370cea",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "LS43FM702UNXZA",
+        "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F5VLWQY6",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11174471",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/flux-se"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345101776",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345101776",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -61,6 +66,11 @@
       },
       {
         "type": "mpn",
+        "value": "FLUX SE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "FLUX-SE",
         "region": "all"
       },
@@ -68,6 +78,11 @@
         "type": "upc",
         "value": "761345101776",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345101776",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -251,14 +266,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129325",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129325",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -343,6 +358,13 @@
         "source_product_id": "7S1PFLUXSE",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "15800859136",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

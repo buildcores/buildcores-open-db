@@ -8,10 +8,16 @@
   "weight": 320,
   "frame_material": "Plastic",
   "ear_pad_material": ["Memory Foam"],
-  "connection_types": ["Bluetooth", "USB-C", "USB-A", "Wireless 2.4GHz"],
+  "connection_types": ["Bluetooth", "Wireless 2.4GHz"],
   "battery_life": 70,
   "bluetooth_version": "5.2",
   "charging_port": "USB-C",
+  "charging_methods": [
+    {
+      "method": "USB-C",
+      "target": "Headset"
+    }
+  ],
   "wireless_range": 20,
   "latency": 15,
   "has_microphone": true,
@@ -29,6 +35,8 @@
       "RZ04-04530200-R3U1",
       "RZ04-04530200-R3M1"
     ],
+    "series": "BlackShark",
+    "variant": "V2 Pro (2023 Edition) - White",
     "releaseYear": 2023
   },
   "general_product_information": {},

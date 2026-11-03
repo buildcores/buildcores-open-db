@@ -1,15 +1,55 @@
 {
   "opendb_id": "2a85e792-fee2-4ed1-8137-0a14dfcc70e6",
-  "lighting": [],
+  "weight": 8280,
+  "speaker_product_kind": "Subwoofer",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "6ecfa63a-d068-4399-a3e1-d2aac0cac1f0",
+      "role": "Subwoofer",
+      "component_label": "Wireless Powered Subwoofer",
+      "quantity": 1,
+      "weight_g": 8280,
+      "dimensions_mm": {
+        "width": 457,
+        "height": 300,
+        "depth": 146
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "audio_input_paths": [
+    {
+      "id": "69cda94f-de94-4a06-bdcf-f637cecdd3ab",
+      "method": "RCA Analog",
+      "speaker_side_connector": "Mono RCA input",
+      "source_side_connector": "Mono RCA subwoofer output (LFE/Sub Out)",
+      "adapter_requirement": "Direct",
+      "conditions": "Accepts analog line-level/LFE audio through its mono RCA input. Connect to a compatible component's subwoofer or LFE output using a single RCA cable."
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "6d7a9478-c823-4c69-b5c2-85ee4b6a3514",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Wireless Powered Subwoofer",
+      "connector": "Universal bi-pin AC cord input",
+      "conditions": "AC mains powered. Supports 100–240 V AC, 50/60 Hz. Includes 120 V and 230 V AC power cords; use the cord appropriate for the region."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Bluesound PULSE SUB+ Wireless Powered Subwoofer - White",
     "manufacturer": "Bluesound",
     "part_numbers": ["PULSE SUB PLUS WHT", "6456142"],
     "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.bluesound.com/products/pulse-sub-plus?variant=45177497616431"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -22,6 +62,11 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0786357001425",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "6456142",
         "region": "all"
@@ -32,6 +77,11 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PULSESUB+WHT",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "000112550226",
         "region": "all"
@@ -40,6 +90,11 @@
         "type": "upc",
         "value": "786357001425",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "786357001425",
+        "region": "us"
       }
     ],
     "retailer_listings": [

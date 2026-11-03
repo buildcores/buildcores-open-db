@@ -6,22 +6,128 @@
     "verticalRes": 1440
   },
   "refresh_rate": 240,
-  "panel_type": "QD-OLED",
-  "color": [],
-  "lighting": [],
+  "panel_type": "OLED",
+  "response_time": 0.03,
+  "color": ["BLACK", "GREY"],
+  "lighting": ["RGB"],
+  "viewing_angle": "178°/178°",
+  "aspect_ratio": "32:9",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 3
+  },
+  "connectors": "1 × HDMI 2.1 input; 1 × Micro HDMI 2.1 input; 1 × DisplayPort 1.4 input; 1 × USB-C upstream port (data only); 2 × USB-C downstream ports (USB 3.2 Gen 2).",
+  "display_inputs": [
+    {
+      "id": "77bc832a-d451-432f-90f0-540ed0ea0349",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "5b8abeaf-7dac-4e19-9474-4d6ad662f3b1",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Supported PC input mode; maximum refresh rate depends on input, source device, and settings."
+        }
+      ]
+    },
+    {
+      "id": "90c9d66a-9512-4683-bbb7-6c25305409d7",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "Micro HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "Micro HDMI"
+    },
+    {
+      "id": "59bea7b7-ea33-4e42-9b42-1f610463ffb3",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "5171f58b-44ee-448a-9e20-9353d31bd61c",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Supported PC input mode; maximum refresh rate depends on input, source device, and settings."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "3097b828-a2dd-456c-aa3e-679b0bfa1cff",
+        "pattern": "100x100",
+        "mounted_weight_kg": 8.8,
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "M4 mounting screws; 4 required"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1194.7,
+    "height": 529.3,
+    "height_min": 409.3,
+    "height_max": 529.3,
+    "depth": 236.9
+  },
+  "dimensions_without_stand_mm": {
+    "width": 1194.7,
+    "height": 365,
+    "depth": 180.8
+  },
+  "weight": {
+    "with_stand_kg": 12.6,
+    "without_stand_kg": 8.8
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 220,
+    "note": "Manufacturer specifies maximum power consumption of 220 W, AC 100–240 V, 50/60 Hz, with an external power adapter. Typical and peak power consumption are not specified. USB power-delivery inclusion is not stated."
+  },
+  "hdr": "HDR10; HDR10+ Gaming",
+  "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung 49-inch Odyssey OLED G9 G95SD Dual QHD Curved Gaming Monitor (LS49DG956SNXGO)",
     "manufacturer": "Samsung",
-    "part_numbers": ["279f6cd11743ba3c", "LS49DG956SNXGO"]
+    "part_numbers": ["279f6cd11743ba3c", "LS49DG956SNXGO"],
+    "releaseYear": 2024,
+    "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/monitors/gaming/49-inch-odyssey-oled-g9-g95sd-dual-qhd-240hz-03ms-g-sync-sku-ls49dg956snxgo/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
         "value": "0887276879000",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0887276879000",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -34,9 +140,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "LS49DG956SNXGO",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "887276879000",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "887276879000",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -150,7 +266,7 @@
         "channel": "us",
         "source_product_id": "6599653",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -167,18 +283,11 @@
         "verified": false
       },
       {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "N82E16824027344",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "13387524455",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

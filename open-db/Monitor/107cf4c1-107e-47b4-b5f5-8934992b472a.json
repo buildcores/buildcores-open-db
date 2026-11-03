@@ -10,11 +10,145 @@
   "response_time": 8,
   "color": ["GREY", "BLACK"],
   "lighting": ["None"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "21:9",
-  "connectors": "1 x HDMI 2.1                                                    1 x DisplayPort 1.4                                                    1 x USB Type-C 3.2 Gen 2",
+  "video_outputs": {
+    "hdmi_2_1": 1,
+    "usb_c": 5
+  },
+  "connectors": "1 × HDMI 2.1 input (supports up to 5120 × 2160 at 120 Hz using FRL; HDR static metadata and VRR); 1 × DisplayPort 1.4 input (HDCP 2.3; supports up to 5120 × 2160 at 120 Hz with HDR and DSC); 1 × Thunderbolt 4 downstream port (video and data, daisy-chain support, up to 15 W); 1 × Thunderbolt 4 upstream port (video and data, DisplayPort 1.4 Alt Mode, USB 10 Gbps, Power Delivery up to 140 W EPR); 1 × USB-C upstream port (data only, USB 10 Gbps); 5 × USB-A downstream ports (USB 10 Gbps, including 1 with BC 1.2 charging); 2 × USB-C downstream ports (USB 10 Gbps, up to 15 W charging each); 1 × RJ45 Ethernet port (2.5GbE); 1 × 3.5 mm audio line-out; power connector; security-lock slot; stand-lock feature; built-in speakers (2 × 9 W).",
+  "display_inputs": [
+    {
+      "id": "56217d4f-55fa-4a2f-b85a-1f961d0117ef",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "connector_label": "HDMI input; supports FRL, HDR static metadata, and VRR",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c8da1aae-cf39-4cde-b99c-0a7c71f11674",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "5120 × 2160 at 120 Hz using HDMI FRL; HDR static metadata and VRR supported."
+        }
+      ]
+    },
+    {
+      "id": "989a5dc8-e02b-4c48-9acd-815d079e48de",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "DisplayPort input; HDCP 2.3",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9fa64e4c-224c-4b5e-8318-fd478b5cfbc2",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Supports 5120 × 2160 at 120 Hz with Display Stream Compression (DSC) and HDR."
+        }
+      ]
+    },
+    {
+      "id": "b808934d-6db1-4064-a70e-ea5828b980c5",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 upstream (DisplayPort 1.4 Alt Mode)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "Thunderbolt 4 upstream video/data port; Power Delivery up to 140 W EPR",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5d64389c-ea8a-4053-a96b-645412175d2d",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Thunderbolt 4 video input uses DisplayPort 1.4 Alt Mode. The user guide specifies 5120 × 2160 at 120 Hz when the host supports DSC; without DSC, the listed maximum is 5120 × 2160 at 60 Hz."
+        }
+      ]
+    }
+  ],
+  "display_outputs": [
+    {
+      "id": "a363579a-c8f5-46ac-8e72-e61c80544e2b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4 downstream",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "Thunderbolt 4 downstream port; video and data; supports daisy-chaining; power delivery up to 15 W",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "aa1423c1-3a8d-49ca-b6de-00d365109ece",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "hdr": "supported",
+          "conditions": "Maximum secondary-display mode with a compatible Thunderbolt 4 host using DisplayPort 1.4 with DSC and a suitable Thunderbolt cable. Dell notes that Thunderbolt daisy-chain mode must be set to “Optimized” to achieve 5120 × 2160 at 120 Hz on both monitors."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "e487e0bd-ef7e-45cc-8280-63b69091bd4d",
+        "pattern": "100x100",
+        "mounted_weight_kg": 8.35,
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 946.62,
+    "height": 622.32,
+    "height_min": 472.32,
+    "height_max": 622.32,
+    "depth": 252.8
+  },
+  "dimensions_without_stand_mm": {
+    "width": 946.62,
+    "height": 419.14,
+    "depth": 108.04
+  },
+  "weight": {
+    "with_stand_kg": 12.22,
+    "without_stand_kg": 8.35
+  },
+  "power_consumption": {
+    "typical_w": 39.5,
+    "manufacturer_max_w": 380
+  },
   "max_brightness": 600,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR 600 certified; supports HDR content with peak HDR brightness of 600 cd/m².",
   "adaptive_sync": "None",
   "metadata": {
     "name": "Dell UltraSharp U4025QW 39.7\" 5120 x 2160 120Hz IPS Curved Monitor",
@@ -23,16 +157,23 @@
     "series": "",
     "variant": "Silver / Black",
     "releaseYear": 2024,
-    "manufacturer_color": "Black"
+    "manufacturer_color": "Platinum Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.dell.com/en-us/shop/monitors/apd/dell-ultrasharp-40-curved-thunderbolttm-hub-monitor-u4025qw/u4025qw_monitor/-"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884116452041",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884116452041",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -51,6 +192,11 @@
       },
       {
         "type": "mpn",
+        "value": "DELL-U4025QW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "K1VW5",
         "region": "all"
       },
@@ -61,6 +207,11 @@
       },
       {
         "type": "mpn",
+        "value": "U4025QW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "U4025qwsap",
         "region": "all"
       },
@@ -68,6 +219,11 @@
         "type": "upc",
         "value": "884116452041",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884116452041",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -273,6 +429,13 @@
         "source_product_id": "AC74666",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA0ZXKDF6099",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "paradigit",

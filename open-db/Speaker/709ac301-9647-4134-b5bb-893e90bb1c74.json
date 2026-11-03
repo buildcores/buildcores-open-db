@@ -1,8 +1,63 @@
 {
   "opendb_id": "709ac301-9647-4134-b5bb-893e90bb1c74",
+  "weight": 1910,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["RED"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "ff7ddce9-a998-48af-8e23-02f5f0976d8c",
+      "role": "Speaker",
+      "component_label": "Speaker",
+      "quantity": 2,
+      "dimensions_mm": {
+        "width": 105.918,
+        "height": 130.048,
+        "depth": 104.902,
+        "diameter": 70.14
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "2f5092c9-0ade-40b5-9c5e-b8a2c52f69a3",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "3267bfee-578e-41a2-84d3-8b44611ee43e",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX IN (3.5)",
+      "source_side_connector": "3.5mm",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "28e02945-0080-40d3-a89f-e5f552bcc20e",
+      "method": "USB Digital Audio",
+      "speaker_side_connector": "USB Type A",
+      "source_side_connector": "USB Type A",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "a1b88ea6-9f74-49ff-a0c6-d16d26761057",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "6fd72cdc-3b30-4e05-889a-944ab16953ec",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Speaker",
+      "connector": "DC Barrel IN"
+    }
+  ],
   "lighting": ["RGB"],
   "metadata": {
-    "name": "Edifier G2000 32W PC Red",
+    "name": "Edifier G2000 Red",
     "manufacturer": "Edifier",
     "part_numbers": [],
     "series": "G2000",

@@ -9,32 +9,213 @@
       "type": ["string", "null"],
       "description": "Unique identifier for the document (UUID v4)"
     },
+    "weight": {
+      "description": "Product weight in grams for one complete, usable unit of this exact variant. Exclude retail packaging, shipping materials, multipack totals, and load capacity. Leave unset when the product is digital, the weight is unknown, or the source does not clearly identify product weight. Check whether the published mass is for the microphone body or an included stand assembly; preserve that basis in source evidence before using it for desk-load calculations.",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
     "connectivity_type": {
-      "description": "Microphone connectivity options (USB-A, USB-C, XLR, 3.5mm, Bluetooth, 2.4GHz, Lightning)",
+      "description": "Usable audio-to-host paths, named by the connector at the computer or audio-interface end for wired paths. A USB-C mic socket with a USB-C-to-USB-A cable is USB-A at the host. XLR needs a suitable interface input; 3.5 mm needs a suitable mic input. A charging-only cable or USB receiver does not create wired USB audio. Document whether the required cable/interface is included or separately needed in source evidence.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
         "enum": ["USB-A", "USB-C", "XLR", "3.5mm Jack", "Bluetooth", "Wireless 2.4GHz", "Lightning"]
       }
     },
+    "on_device_ports": {
+      "description": "Verified connectors on the microphone body, with actual roles and conditions. Do not record a host-end cable plug, receiver plug, or a captive cable as a body connector. These rows alone do not prove that a usable host connection is included.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One documented connector on the exact sold microphone body.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "connector": {
+            "description": "Physical connector on the microphone body, not the computer or audio-interface end.",
+            "type": ["string", "null"],
+            "enum": [
+              "USB-A",
+              "USB-C",
+              "USB-B",
+              "USB Mini-B",
+              "USB Micro-B",
+              "Lightning",
+              "XLR 3-pin",
+              "3.5 mm",
+              "Other",
+              null
+            ]
+          },
+          "connector_label": {
+            "description": "Manufacturer's exact connector name when Connector is Other.",
+            "type": ["string", "null"]
+          },
+          "roles": {
+            "description": "What this microphone-side connector actually does. One port may carry audio to the host and operating power. Phantom power is operating power, not battery charging; a headphone monitor output is not an audio-to-host path.",
+            "minItems": 1,
+            "type": ["array", "null"],
+            "items": {
+              "type": "string",
+              "enum": [
+                "Audio to Host",
+                "Headphone Monitor Output",
+                "Operating Power Input",
+                "Charging Input"
+              ]
+            }
+          },
+          "conditions": {
+            "description": "Documented path or operating restriction for this physical port, such as USB-only monitoring or control behavior. This note is not a compatibility assertion.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["connector", "roles"]
+      }
+    },
     "polar_pattern": {
-      "description": "Supported polar patterns (cardioid, omnidirectional, bidirectional, multi-pattern)",
+      "description": "Manufacturer-stated pickup response patterns. Use exact named values when stated. Multi-Pattern is only for an explicitly selectable pattern mode whose patterns are not named; named patterns alone do not prove a selector.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
-        "enum": ["Cardioid", "Omnidirectional", "Bidirectional", "Multi-Pattern"]
+        "enum": [
+          "Cardioid",
+          "Omnidirectional",
+          "Bidirectional",
+          "Stereo",
+          "Supercardioid",
+          "Lobar",
+          "Multi-Pattern"
+        ]
       }
     },
     "features": {
-      "description": "Features of the microphone (mute button, gain control, rgb lighting)",
+      "description": "Physical controls on the microphone: On-Device Mute Control or On-Device Gain Control. A control's presence does not prove it affects every audio output path. Software gain, automatic leveling, or an external interface knob do not count. Mute Button, Gain Control, and RGB Lighting remain readable only for old records; do not select them for new data. Use Lighting for decorative illumination, not status indicators.",
       "type": ["array", "null"],
       "items": {
         "type": "string",
-        "enum": ["Mute Button", "Gain Control", "RGB Lighting"]
+        "enum": [
+          "On-Device Mute Control",
+          "On-Device Gain Control",
+          "Mute Button",
+          "Gain Control",
+          "RGB Lighting"
+        ]
+      }
+    },
+    "digital_capture_mode_claims": {
+      "description": "Source-backed digital sample-rate and bit-depth pairs for this exact sold microphone and output path. Do not combine separate maxima into an invented pair or give an analog-only microphone a digital capture mode.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "One sourced sample-rate and bit-depth pair for one digital audio output path.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "sample_rate_khz": {
+            "description": "Published digital sample rate in kHz paired with this row's bit depth and output path.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "bit_depth_bits": {
+            "description": "Published digital bit depth in bits paired with this row's sample rate and output path.",
+            "type": ["integer", "null"],
+            "exclusiveMinimum": 0,
+            "maximum": 9007199254740991
+          },
+          "digital_output_path": {
+            "description": "Digital audio output path for this capture claim. USB Audio means a USB digital audio mode regardless of whether the computer-end cable plug is USB-A or USB-C. Do not assign a digital mode to analog-only XLR or 3.5 mm output.",
+            "type": ["string", "null"],
+            "enum": ["USB Audio", "Lightning", "Bluetooth", "Wireless 2.4GHz", "Other", null]
+          },
+          "digital_output_path_other": {
+            "description": "Manufacturer's exact digital path name when Digital Output Path is Other.",
+            "type": ["string", "null"]
+          },
+          "claim": {
+            "description": "Use supported for a documented rate/depth pair. Use maximum only when the manufacturer explicitly identifies this pair as the maximum for this digital path.",
+            "type": ["string", "null"],
+            "enum": ["supported", "maximum", null]
+          },
+          "conditions": {
+            "description": "Published restriction for this exact digital mode, such as host platform, firmware, application, or settings. Keep as a displayed note, not a filter or inferred compatibility rule.",
+            "type": ["string", "null"],
+            "minLength": 1
+          }
+        },
+        "required": ["sample_rate_khz", "bit_depth_bits", "digital_output_path", "claim"]
+      }
+    },
+    "color": {
+      "description": "The color(s) of this product. Each color of the product should be included in the array. Do not use RGB here to describe lighting; use the Lighting field for RGB, ARGB, display, or fixed-color lighting. Physical microphone housing color for the exact sold variant. Do not use RGB for illumination or infer a separate marketed manufacturer colorway from this broad color.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "string",
+        "enum": [
+          "BLACK",
+          "WHITE",
+          "RGB",
+          "RED",
+          "BLUE",
+          "GREEN",
+          "GREY",
+          "YELLOW",
+          "ORANGE",
+          "PURPLE",
+          "PINK",
+          "BROWN",
+          "GOLD"
+        ]
+      }
+    },
+    "physical_dimensions_claims": {
+      "description": "Published physical dimensions in millimeters for the exact sold SKU. Separate microphone-body measurements from dimensions including the supplied stand; do not mix the two bases in one row.",
+      "minItems": 1,
+      "type": ["array", "null"],
+      "items": {
+        "description": "Published microphone body or included-stand assembly dimensions; never mix bases in one row.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "Stable system-assigned row ID; reviewers do not enter this value.",
+            "type": ["string", "null"],
+            "minLength": 1
+          },
+          "basis": {
+            "description": "Whether every measurement in this row describes only the microphone body or the complete assembly with the included stand.",
+            "type": ["string", "null"],
+            "enum": ["Microphone Body", "Included Stand Assembly", null]
+          },
+          "width_mm": {
+            "description": "Published width for this measurement basis in millimeters.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "depth_mm": {
+            "description": "Published front-to-back depth for this measurement basis in millimeters.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          },
+          "height_mm": {
+            "description": "Published height for this measurement basis in millimeters.",
+            "type": ["number", "null"],
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": ["basis"]
       }
     },
     "lighting": {
-      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white.",
+      "description": "Lighting capabilities for this product. Use RGB for non-addressable RGB, ARGB for addressable RGB, Multicolor for non-RGB multi-color lighting, Fixed for a single fixed lighting color, None when the product has no lighting, Display for configurable displays, and Fixed Color Display for displays limited to fixed colors such as black and white. Decorative illumination on the microphone body only. A status or mute indicator alone does not count. Select None only with affirmative evidence.",
       "type": ["array", "null"],
       "items": {
         "type": "string",

@@ -10,11 +10,89 @@
   "response_time": 0.03,
   "color": ["GREY", "BLACK"],
   "lighting": ["RGB"],
-  "viewing_angle": "178° H x 178° V",
+  "viewing_angle": "178°/178°",
   "aspect_ratio": "16:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort",
+  "video_outputs": {
+    "hdmi_2_1": 2
+  },
+  "connectors": "2 × HDMI 2.1 inputs; 1 × DisplayPort 1.4 input; 1 × USB-B upstream port; 2 × USB-A 3.0 downstream ports; AC power input.",
+  "display_inputs": [
+    {
+      "id": "5223c14f-dfa8-4957-969c-509e778492fc",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "e892a35d-fd35-4a18-96e3-f3809545f863",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum advertised mode is 3840 × 2160 at up to 240Hz. Actual mode support depends on the connected source, cable, and monitor settings. Samsung lists HDMI 2.1 and UHD 240Hz support at monitor level; HDR10 and HDR10+ Gaming are listed specifications."
+        }
+      ]
+    },
+    {
+      "id": "ab0b56b8-bd86-479f-bb95-dccee6b3d4f1",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "0fd5bc9d-fe32-4142-bc3e-67a6b48c44fa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum advertised mode is 3840 × 2160 at up to 240Hz. Actual mode support depends on the connected source, cable, and monitor settings. Samsung specifies DisplayPort 1.4; DSC support is not explicitly confirmed in the cited specifications."
+        }
+      ]
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "9d2fb9e1-35ea-444e-ae29-771c7203cbc0",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.3,
+        "installation": "direct",
+        "attachment": {
+          "hardware_description": "4 × M4 screws; screw length 7.5–10.5 mm, as specified in the Samsung G80SD user manual. Use screws compatible with the mounting bracket and avoid excessive length."
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 719.7,
+    "height": 584.6,
+    "depth": 263.5
+  },
+  "dimensions_without_stand_mm": {
+    "width": 719.7,
+    "height": 414.7,
+    "depth": 49.2
+  },
+  "weight": {
+    "with_stand_kg": 8.4,
+    "without_stand_kg": 5.3
+  },
+  "power_consumption": {
+    "manufacturer_max_w": 180
+  },
   "max_brightness": 250,
-  "hdr": "",
+  "hdr": "HDR10; HDR10+ Gaming",
   "adaptive_sync": "FreeSync Premium Pro",
   "metadata": {
     "name": "Samsung Odyssey OLED G8 32\" 4K 240Hz OLED Monitor",
@@ -31,7 +109,9 @@
     "releaseYear": 2024,
     "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/us/business/monitors/gaming/32-odyssey-oled-g8-g80sd-4k-uhd-sku-ls32dg802snxza/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

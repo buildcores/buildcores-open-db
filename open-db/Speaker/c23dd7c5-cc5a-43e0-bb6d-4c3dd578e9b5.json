@@ -1,14 +1,60 @@
 {
   "opendb_id": "c23dd7c5-cc5a-43e0-bb6d-4c3dd578e9b5",
-  "lighting": [],
+  "weight": 3520,
+  "speaker_product_kind": "Portable",
+  "color": ["YELLOW", "ORANGE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "31f8aa1a-3103-4e6d-970f-57d5ed72217e",
+      "role": "Speaker",
+      "component_label": "Harman Kardon Onyx Studio 8",
+      "quantity": 1,
+      "weight_g": 3520,
+      "dimensions_mm": {
+        "width": 312,
+        "height": 275.8,
+        "depth": 163.8
+      }
+    }
+  ],
+  "included_audio_unit_count": 1,
+  "operating_power_sources": [
+    {
+      "id": "b73f9bd2-7f06-40f2-a5ad-f11ad1311bdc",
+      "source": "Battery",
+      "powered_component": "Harman Kardon Onyx Studio 8",
+      "conditions": "Built-in Li-ion polymer battery, 11.70 Wh (3.6 V / 3250 mAh)."
+    },
+    {
+      "id": "8dea76a8-6e3c-456d-ae6d-f10ae827defa",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Harman Kardon Onyx Studio 8",
+      "connector": "AC power cable input",
+      "conditions": "Manufacturer-rated power supply: 100–240 V AC, 50/60 Hz. Power cable included."
+    }
+  ],
+  "battery_runtime_claims": [
+    {
+      "id": "15251d5f-62dc-4609-96d1-91a8eff81511",
+      "hours": 8,
+      "use": "Audio Playback",
+      "qualifier": "Up To",
+      "conditions": "Manufacturer states up to 8 hours of music playback; actual runtime varies with volume level and audio content."
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Harman Kardon Onyx Studio 8 - Champagne",
     "manufacturer": "Harman Kardon",
-    "part_numbers": []
+    "part_numbers": [],
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.harmankardon.com/ONYX-STUDIO-8-.html"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -16,9 +62,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0028292289866",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "HKOS8CPNAM",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "028292289866",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "028292289866",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -128,11 +189,18 @@
         "verified": true
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA338KU60198",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "5489961771",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

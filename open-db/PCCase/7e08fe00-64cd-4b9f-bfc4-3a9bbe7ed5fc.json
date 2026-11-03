@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/ax90"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100632",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100632",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,9 +64,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "AX90",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "761345100632",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100632",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -224,14 +239,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129294",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129294",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
@@ -287,7 +302,7 @@
         "channel": "us",
         "source_product_id": "2501856820",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
