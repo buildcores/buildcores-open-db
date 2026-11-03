@@ -42,12 +42,17 @@
     "manufacturer_url": "https://www.montechpc.com/hs02-pro"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710562741377",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710562741377",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -73,6 +78,11 @@
         "type": "mpn",
         "value": "HS02PB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "HS02PB",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -268,7 +278,7 @@
         "channel": "us",
         "source_product_id": "N82E16811970025",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -338,7 +348,7 @@
         "channel": "us",
         "source_product_id": "16343002703",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

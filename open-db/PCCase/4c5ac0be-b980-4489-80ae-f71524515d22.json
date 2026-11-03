@@ -39,12 +39,22 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0843276102647",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "7340172702641",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "7340172702641",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -52,9 +62,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "FD-C-MES2M-01",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "843276102647",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "843276102647",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -234,13 +254,6 @@
         "verified": false
       },
       {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "N82E16811352188",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "proshop",
         "channel": "de",
         "source_product_id": "3097036",
@@ -287,7 +300,7 @@
         "channel": "us",
         "source_product_id": "1646673147",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
