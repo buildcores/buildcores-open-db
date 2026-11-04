@@ -40,8 +40,13 @@
     "manufacturer_url": "https://www.montechpc.com/x3-glass"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4710562745238",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "C007",
@@ -51,8 +56,21 @@
         "type": "mpn",
         "value": "X3 Glass White",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X3GLASSWH",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09247MZ4Q",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

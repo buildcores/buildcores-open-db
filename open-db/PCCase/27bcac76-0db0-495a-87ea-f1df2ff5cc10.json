@@ -41,7 +41,7 @@
     "manufacturer_url": "https://www.montechpc.com/xr"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -49,9 +49,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4710562748130",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "11-970-018",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "11-970-018",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -204,6 +214,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12301416",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-050",
@@ -257,14 +274,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811970018",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811970018",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -334,7 +351,7 @@
         "channel": "us",
         "source_product_id": "15746903852",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -39,12 +39,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c5-curve-argb"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345102261",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345102261",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -58,6 +63,11 @@
       },
       {
         "type": "mpn",
+        "value": "C5 Curve ARGB White",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C5 CURVE ARGB WHITE",
         "region": "all"
       },
@@ -65,6 +75,11 @@
         "type": "upc",
         "value": "761345102261",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345102261",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -181,6 +196,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12297649",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "0-761345-10226-1",
@@ -234,14 +256,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129327",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129327",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -318,7 +340,7 @@
         "channel": "us",
         "source_product_id": "17432301023",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

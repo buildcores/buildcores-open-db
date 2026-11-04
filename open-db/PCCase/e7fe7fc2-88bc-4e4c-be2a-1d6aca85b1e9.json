@@ -39,12 +39,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c5-curve-argb"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345102254",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345102254",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -58,6 +63,11 @@
       },
       {
         "type": "mpn",
+        "value": "C5 Curve ARGB",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C5 CURVE ARGB",
         "region": "all"
       },
@@ -65,6 +75,11 @@
         "type": "upc",
         "value": "761345102254",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345102254",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -181,6 +196,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12649252",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "ccl",
         "channel": "uk",
         "source_product_id": "CAS5651",
@@ -220,14 +242,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129326",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129326",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -304,7 +326,7 @@
         "channel": "us",
         "source_product_id": "17475007992",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

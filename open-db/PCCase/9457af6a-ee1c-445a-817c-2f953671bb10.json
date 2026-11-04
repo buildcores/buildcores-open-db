@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c8-white"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100212",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100212",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -65,6 +70,11 @@
       },
       {
         "type": "mpn",
+        "value": "C8 WHITE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C8-WH",
         "region": "all"
       },
@@ -77,6 +87,11 @@
         "type": "upc",
         "value": "761345100212",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100212",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -193,6 +208,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "17920554",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "0-761345-10021-2",
@@ -302,7 +324,7 @@
         "channel": "us",
         "source_product_id": "5332281734",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

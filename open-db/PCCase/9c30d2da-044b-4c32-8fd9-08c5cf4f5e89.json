@@ -43,12 +43,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c5"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100335",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100335",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -57,8 +62,18 @@
       },
       {
         "type": "mpn",
+        "value": "0-761345-10033-5",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "C5 ARGB",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "C5 ARGB",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -69,6 +84,11 @@
         "type": "upc",
         "value": "761345100335",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100335",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -185,6 +205,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12297633",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEAN-139",
@@ -238,14 +265,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129309",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129309",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -336,7 +363,7 @@
         "channel": "us",
         "source_product_id": "5829876089",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -43,12 +43,17 @@
     "manufacturer_url": "https://antec.com/product/case/c5-white"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100342",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100342",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -66,9 +71,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "C5 ARGB WHITE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "761345100342",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100342",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -185,6 +200,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12299192",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "0-761345-10034-2",
@@ -245,14 +267,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129316",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129316",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -336,7 +358,7 @@
         "channel": "us",
         "source_product_id": "5700716947",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

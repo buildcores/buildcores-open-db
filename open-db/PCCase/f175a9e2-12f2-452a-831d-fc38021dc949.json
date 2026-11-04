@@ -41,12 +41,17 @@
     "manufacturer_url": "https://www.antec.com/product/case/c8"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
         "value": "0761345100199",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0761345100199",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -64,9 +69,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "C8",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "761345100199",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "761345100199",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -222,14 +237,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811129306",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811129306",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -285,7 +300,7 @@
         "channel": "us",
         "source_product_id": "5323397852",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

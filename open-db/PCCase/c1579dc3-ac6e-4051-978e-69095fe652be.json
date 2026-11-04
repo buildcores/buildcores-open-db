@@ -41,7 +41,7 @@
     "manufacturer_url": "https://havn.global/products/hs-420"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,8 +50,18 @@
       },
       {
         "type": "ean",
+        "value": "0842946112153",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "4251442512149",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4251442512149",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,9 +69,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "HVN-CA-HS420-06",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "842946112153",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "842946112153",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -241,6 +261,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC8DRM691482",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "overclockers",
         "channel": "uk",
         "source_product_id": "CAS-HVN-02513",
@@ -301,7 +328,7 @@
         "channel": "us",
         "source_product_id": "17834254292",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

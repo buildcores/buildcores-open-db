@@ -41,7 +41,7 @@
     "manufacturer_url": "https://phanteks.com/product/xt-pro-black/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -49,9 +49,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0886523303091",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "PH-XT523P1_BK01",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PH-XT523P1_BK01",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -62,6 +72,11 @@
         "type": "upc",
         "value": "886523303091",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "886523303091",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -206,6 +221,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11081442",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "PH-XT523P1_BK01",
@@ -287,14 +309,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811854132",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811854132",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -364,7 +386,7 @@
         "channel": "us",
         "source_product_id": "5425103685",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
