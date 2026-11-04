@@ -2,16 +2,50 @@
   "opendb_id": "f8011b1e-529f-4ca5-8641-30540a2ea38b",
   "weight": 550,
   "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Multi-Pattern"],
-  "features": ["On-Device Gain Control", "On-Device Mute Control"],
+  "on_device_ports": [
+    {
+      "id": "553d6669-1ac6-43be-a570-7e2280f8f3ca",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    },
+    {
+      "id": "009db1ec-6679-4ff3-bee0-4ac5d814be55",
+      "connector": "USB Micro-B",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo", "Multi-Pattern"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "e7dd6b3c-77a4-4839-8c98-d649ff43d7e9",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
   "color": ["WHITE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "b5131c64-b75c-40c6-9576-60f2a9cfb086",
+      "basis": "Included Stand Assembly",
+      "width_mm": 120,
+      "depth_mm": 125,
+      "height_mm": 295
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Blue Yeti Whiteout",
+    "name": "Logitech Blue Yeti USB Microphone Whiteout",
     "manufacturer": "Logitech",
+    "series": "Blue Yeti USB Microphone",
+    "variant": "Whiteout",
     "releaseYear": 2014
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-in/shop/p/yeti-premium-usb-microphone.988-000448"
+  },
   "identifiers": {
     "version": 2,
     "identifiers": [],

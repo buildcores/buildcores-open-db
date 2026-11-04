@@ -39,14 +39,51 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0884102050428",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "MCB-Q300L-KANN-TUF",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MCB-Q300L-KANN-TUF",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "884102050428",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07N99WHP1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9B-11-119-365",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "00088410205042",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

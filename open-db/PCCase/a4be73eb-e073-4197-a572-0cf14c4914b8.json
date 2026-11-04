@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.montechpc.com/x5m"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,9 +50,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4710562749373",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X5M (B)",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X5M (B)",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -200,6 +210,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12836735",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-055",
@@ -253,14 +270,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811970029",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811970029",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -323,7 +340,7 @@
         "channel": "us",
         "source_product_id": "16989808460",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

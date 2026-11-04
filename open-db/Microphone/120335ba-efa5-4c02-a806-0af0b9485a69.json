@@ -2,14 +2,46 @@
   "opendb_id": "120335ba-efa5-4c02-a806-0af0b9485a69",
   "weight": 550,
   "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Multi-Pattern"],
-  "features": ["Gain Control", "Mute Button"],
+  "on_device_ports": [
+    {
+      "id": "7875b365-34f9-448a-b4cd-1fffd4601d5e",
+      "connector": "USB Mini-B",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "24f618b5-fca5-49ae-bf1c-540c7516bae7",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Multi-Pattern", "Cardioid", "Bidirectional", "Omnidirectional", "Stereo"],
+  "features": ["Gain Control", "Mute Button", "On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "31999ff0-ce3f-4df1-868d-caf633b07a40",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
   "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "404a2f48-9476-448b-a3fe-e4dc08b49058",
+      "basis": "Included Stand Assembly",
+      "width_mm": 125,
+      "depth_mm": 120,
+      "height_mm": 295
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Blue Yeti USB Microphone - Blackout",
+    "name": "Logitech Blue Yeti USB Microphone - Blackout",
     "manufacturer": "Logitech",
     "part_numbers": ["988-000100", "988-000229"],
+    "series": "Blue Yeti USB Microphone",
+    "variant": "Blackout",
     "releaseYear": 2014
   },
   "general_product_information": {

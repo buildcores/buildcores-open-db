@@ -42,15 +42,32 @@
     "manufacturer_url": "https://www.coolermaster.com/en-global/products/masterbox-q300l.html"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719512114933",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "MCB-Q300L-WANN-S00",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MCB-Q300L-WANN-S00",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BSN8D2C5",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "newegg",
         "channel": "ca",
@@ -63,7 +80,7 @@
         "channel": "us",
         "source_product_id": "N82E16811119441",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

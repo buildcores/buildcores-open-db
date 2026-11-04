@@ -41,12 +41,17 @@
     "manufacturer_url": "https://bluegears.com/b-voguish-rgb/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0853704001725",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0853704001725",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,9 +64,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "BG01725",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "853704001725",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "853704001725",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -175,21 +190,21 @@
         "channel": "ca",
         "source_product_id": "N82E16811295007",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811295007",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "664720154",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

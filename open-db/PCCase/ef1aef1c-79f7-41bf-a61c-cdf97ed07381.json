@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.montechpc.com/"
   },
   "identifiers": {
-    "version": 2,
+    "version": 4,
     "identifiers": [
       {
         "type": "ean",
@@ -55,9 +55,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4710562748376",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X5 (B)",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X5 (B)",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -205,6 +215,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11081491",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GEMT-057",
@@ -258,14 +275,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811970027",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811970027",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -335,7 +352,7 @@
         "channel": "us",
         "source_product_id": "16664650957",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

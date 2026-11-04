@@ -2,13 +2,45 @@
   "opendb_id": "602462e1-50c2-4bcf-8682-e46b61336990",
   "weight": 550,
   "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Multi-Pattern"],
+  "on_device_ports": [
+    {
+      "id": "b96abeff-9b39-4d97-9556-279a4db17c5e",
+      "connector": "USB Mini-B",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "fe9cea96-83e3-4714-8cb2-2cf925654aec",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo", "Multi-Pattern"],
   "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "94b89f15-0624-48c4-a32f-d867194abc57",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
   "color": ["BLUE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "404d377b-2651-4b3f-b750-d3d17879211e",
+      "basis": "Included Stand Assembly",
+      "width_mm": 120,
+      "depth_mm": 125,
+      "height_mm": 295
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Blue Yeti Midnight Blue",
+    "name": "Logitech Blue Yeti USB Microphone Midnight Blue",
     "manufacturer": "Logitech",
+    "series": "Blue Yeti USB Microphone",
+    "variant": "Midnight Blue",
     "releaseYear": 2014
   },
   "general_product_information": {

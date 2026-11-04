@@ -43,12 +43,17 @@
     "manufacturer_url": "https://legacy.coolermaster.com/en-global/products/q300l-v2/?tab=tech_spec"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0884102112683",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0884102112683",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -61,9 +66,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "Q300LV2-KGNN-S00",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "884102112683",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "884102112683",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -180,6 +195,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11300602",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "3015488",
@@ -205,14 +227,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811119444",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811119444",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
@@ -254,7 +276,7 @@
         "channel": "us",
         "source_product_id": "5061519935",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
