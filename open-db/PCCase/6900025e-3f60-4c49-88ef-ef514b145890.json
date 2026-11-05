@@ -42,7 +42,7 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011273-ww/9000d-rgb-airflow-super-full-tower-pc-case-cc-9011273-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -50,14 +50,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840006682172",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CC-9011273-WW",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CC-9011273-WW",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840006682172",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006682172",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -206,7 +221,7 @@
         "channel": "us",
         "source_product_id": "CO9000DAFBK",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "box",
@@ -340,6 +355,13 @@
         "source_product_id": "CJ01CO118",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811139232",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "overclockers",
