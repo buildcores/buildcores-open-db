@@ -43,12 +43,17 @@
     "manufacturer_url": "https://lian-li.com/product/lancool-216/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4718466012920",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4718466012920",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -58,12 +63,7 @@
       {
         "type": "mpn",
         "value": "LANCOOL 216-X",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "LANCOOL 216X",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -195,6 +195,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12031059",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "LILANCL216X",
@@ -295,9 +302,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "2AM-000Z-000A7",
+        "source_product_id": "9SIV00CKEF6093",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -353,7 +360,7 @@
         "channel": "us",
         "source_product_id": "2298504671",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

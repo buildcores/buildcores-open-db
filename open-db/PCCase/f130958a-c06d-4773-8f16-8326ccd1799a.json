@@ -43,12 +43,17 @@
     "manufacturer_url": "https://lian-li.com/product/o11-vision/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840353044890",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840353044890",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -67,6 +72,11 @@
       },
       {
         "type": "mpn",
+        "value": "PC-O11VX",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "PC-O11VXO11VXG99.O11VX.00",
         "region": "all"
       },
@@ -74,6 +84,11 @@
         "type": "upc",
         "value": "840353044890",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353044890",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -188,6 +203,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11076119",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "LIO11VXUS",
@@ -220,14 +242,14 @@
         "channel": "ca",
         "source_product_id": "2AM-000Z-000B8",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "2AM-000Z-000B8",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -248,7 +270,7 @@
         "channel": "us",
         "source_product_id": "5249629367",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

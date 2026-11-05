@@ -1,14 +1,88 @@
 {
   "opendb_id": "ea7a3c50-9447-400b-a71b-aa1a3fe59c25",
   "screen_size": 64.5,
+  "resolution": {
+    "horizontalRes": 3840,
+    "verticalRes": 2160
+  },
+  "refresh_rate": 165,
+  "native_refresh_activation": "automatic",
+  "panel_type": "OLED",
+  "response_time": 0.1,
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 4
+  },
+  "display_inputs": [
+    {
+      "id": "d20c18c6-457d-41ec-b1f9-131a3005a1db",
+      "connector": "hdmi",
+      "count": 4,
+      "version_label": "2.1",
+      "video_signal": "hdmi"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "2f96fb86-802c-452a-9082-8eb16997bfba",
+        "pattern": "other",
+        "custom_pattern_mm": {
+          "width_mm": 300,
+          "height_mm": 300
+        },
+        "installation": "separate_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "Flush Wall Mount Adapter"
+        }
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 1440,
+    "height_max": 909,
+    "depth": 264
+  },
+  "dimensions_without_stand_mm": {
+    "width": 1440,
+    "height": 825,
+    "depth": 25
+  },
+  "weight": {
+    "with_stand_kg": 27.3,
+    "without_stand_kg": 22
+  },
+  "power_consumption": {
+    "note": "Standby Power Consumption Under 0.5W"
+  },
+  "hdr": "HDR10",
+  "adaptive_sync": "G-Sync Compatible",
   "metadata": {
     "name": "LG OLED evo G6 OLED65G6WUA 65 inch Black",
-    "manufacturer": "LG"
+    "manufacturer": "LG",
+    "series": "evo G6",
+    "variant": "OLED65G6WUA",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.lg.com/us/tvs/lg-oled65g6wua-oled-4k-tv?srsltid=AYCX9vLgpY24_84L-CbkUG0HgeW-A2yRO9RGBTFTuPR0cCluPzcdJHxH"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6673119",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }

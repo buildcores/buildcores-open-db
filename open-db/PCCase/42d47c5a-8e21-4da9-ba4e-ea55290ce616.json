@@ -44,12 +44,17 @@
     "manufacturer_url": "https://lian-li.com/product/o11-vision/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840353045620",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840353045620",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -68,6 +73,11 @@
       },
       {
         "type": "mpn",
+        "value": "O11VC.US",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "PC-O11VC",
         "region": "all"
       },
@@ -75,6 +85,11 @@
         "type": "upc",
         "value": "840353045620",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353045620",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -209,21 +224,21 @@
         "channel": "ca",
         "source_product_id": "N82E16811112607",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811112607",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "5383324801",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

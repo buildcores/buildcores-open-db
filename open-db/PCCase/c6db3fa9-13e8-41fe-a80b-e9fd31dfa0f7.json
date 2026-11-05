@@ -43,21 +43,50 @@
     "manufacturer_url": "https://lian-li.com/product/pc-o11-dynamic/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840353009318",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "PC-O11DX",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PC-O11DX",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840353009318",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B07F2R5TFQ",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "computer-orbit",
         "channel": "uk",
         "source_product_id": "PC-O11DX",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811112583",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

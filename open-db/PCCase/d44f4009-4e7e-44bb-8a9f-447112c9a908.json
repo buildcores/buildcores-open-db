@@ -43,12 +43,17 @@
     "manufacturer_url": "https://www.techpowerup.com/301224/lian-li-launches-the-v3000-plus-case-offering-endless-possibilities"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4718466012913",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4718466012913",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -64,6 +69,11 @@
         "type": "mpn",
         "value": "V3000PX",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "V3000PX",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -203,9 +213,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "2AM-000Z-000B1",
+        "source_product_id": "2AM-000Z-000A6",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -213,6 +223,13 @@
         "source_product_id": "CA-7BA-LL",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2367987114",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

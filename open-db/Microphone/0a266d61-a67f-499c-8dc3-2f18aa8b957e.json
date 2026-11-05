@@ -2,19 +2,55 @@
   "opendb_id": "0a266d61-a67f-499c-8dc3-2f18aa8b957e",
   "weight": 550,
   "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Multi-Pattern"],
+  "on_device_ports": [
+    {
+      "id": "08d6c22b-2239-4110-8a87-1175df05c8a8",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    },
+    {
+      "id": "4c4c5802-88b8-4d16-8b71-e525fc2441ce",
+      "connector": "USB Mini-B",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "c6edde23-f7e1-4a76-80da-153ecada46c0",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo", "Multi-Pattern"],
   "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "d08d868c-6105-4a16-8bb1-630218bd9930",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
   "color": ["WHITE", "GREY"],
   "lighting": ["None"],
   "metadata": {
-    "name": "Blue Yeti Cool Grey",
+    "name": "Logitech Blue Yeti USB Microphone Cool Grey",
     "manufacturer": "Logitech",
+    "series": "Blue Yeti USB Microphone",
+    "variant": "Cool Grey",
     "releaseYear": 2014
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.bhphotovideo.com/c/product/1297188-REG/blue_yeti_cool_grey_yeti_usb_microphone_cool.html/reviews"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0836213002070",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

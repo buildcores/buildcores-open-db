@@ -2,21 +2,64 @@
   "opendb_id": "b23c226c-463c-438c-a874-7f9a280e9d8f",
   "weight": 550,
   "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Multi-Pattern"],
+  "on_device_ports": [
+    {
+      "id": "8fd7627c-5d0f-4ef4-be1c-b33a1b279313",
+      "connector": "USB Mini-B",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "d91e32fc-9179-4d5e-8c8e-d06bfe9b7227",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo", "Multi-Pattern"],
   "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "abc67566-4363-4b3f-a34f-b569fdb454f3",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
   "color": ["PINK"],
-  "lighting": ["None"],
+  "physical_dimensions_claims": [
+    {
+      "id": "d2f751d3-9e3e-44f0-bb0c-646f3edcd1bf",
+      "basis": "Included Stand Assembly",
+      "width_mm": 120,
+      "depth_mm": 12,
+      "height_mm": 295
+    }
+  ],
+  "lighting": ["ARGB"],
   "metadata": {
-    "name": "Blue Yeti Aurora Collection Pink Dawn",
+    "name": "Logitech Blue Yeti Aurora Collection USB Microphone Pink Dawn",
     "manufacturer": "Logitech",
+    "series": "Blue Yeti USB Microphone",
+    "variant": "Aurora Collection - Pink Dawn",
     "releaseYear": 2014
   },
   "general_product_information": {
     "manufacturer_url": "https://www.logitechg.com/en-us/shop/p/yeti-aurora.988-000530"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0400030367225",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "400030367225",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

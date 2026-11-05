@@ -2,19 +2,64 @@
   "opendb_id": "dc04cfa4-6d7f-4d01-aa4f-4a610a903c0c",
   "weight": 550,
   "connectivity_type": ["USB-A"],
-  "polar_pattern": ["Multi-Pattern"],
+  "on_device_ports": [
+    {
+      "id": "b8377c51-6601-49b4-a4cd-4444f7422d01",
+      "connector": "USB Mini-B",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "1cfede4a-767d-475c-8694-5ebe94241df2",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo", "Multi-Pattern"],
   "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "7c050453-0482-4bec-9e36-13849b9c5332",
+      "sample_rate_khz": 48,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
   "color": ["WHITE", "GREY"],
+  "physical_dimensions_claims": [
+    {
+      "id": "3cc3dba9-a77e-4c1d-8946-09a0f842e78a",
+      "basis": "Included Stand Assembly",
+      "width_mm": 120,
+      "depth_mm": 125,
+      "height_mm": 295
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Blue Yeti Aurora Collection White Mist",
+    "name": "Logitech Blue Yeti Aurora Collection USB Microphone White Mist",
     "manufacturer": "Logitech",
+    "series": "Blue Yeti USB Microphone",
+    "variant": "Aurora Collection White Mist",
     "releaseYear": 2014
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.logitechg.com/en-in/shop/p/yeti-premium-usb-microphone.988-000449"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0400030367218",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "400030367218",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

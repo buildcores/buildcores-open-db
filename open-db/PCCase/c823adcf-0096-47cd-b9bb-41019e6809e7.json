@@ -44,7 +44,7 @@
     "manufacturer_url": "https://www.gigabyte.com/ph/PC-Case/GB-C301G-TYPE-C"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -52,9 +52,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0810075655629",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "GB-C301G",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "GB-C301G",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -65,6 +75,11 @@
         "type": "upc",
         "value": "810075655629",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "810075655629",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -178,14 +193,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811233139",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811233139",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",

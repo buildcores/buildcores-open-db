@@ -37,12 +37,17 @@
     "manufacturer_url": "https://lian-li.com/product/b4-matx/"
   },
   "identifiers": {
-    "version": 3,
+    "version": 5,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840353054028",
         "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "B4W",
+        "region": "all"
       },
       {
         "type": "upc",
@@ -59,11 +64,25 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13165096",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "9SIAFSTKV38657",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "6XFRB8BLFUPS",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }
