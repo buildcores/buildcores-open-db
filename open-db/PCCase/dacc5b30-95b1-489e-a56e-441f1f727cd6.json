@@ -46,12 +46,17 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011320-ww/air-5400-lx-r-rgb-icue-link-triple-chamber-mid-tower-pc-case-cc-9011320-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840440406570",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840440406570",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -69,9 +74,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "CC-9011320-WW",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840440406570",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840440406570",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -216,6 +231,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11180582",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "CC-9011320-WW",
@@ -339,14 +361,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811139253",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811139253",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -430,7 +452,7 @@
         "channel": "us",
         "source_product_id": "18383871508",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

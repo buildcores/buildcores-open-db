@@ -6,14 +6,16 @@
     "verticalRes": 1440
   },
   "refresh_rate": 165,
+  "native_refresh_activation": "automatic",
   "panel_type": "IPS",
-  "response_time": 1,
+  "mprt_response_time": 1,
   "color": ["BLACK"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_0": 2
+    "hdmi_2_0": 2,
+    "displayport_1_4a": 1
   },
   "connectors": "2 x HDMI                                                            1 x DisplayPort",
   "display_inputs": [
@@ -24,7 +26,17 @@
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "e7e90099-8e52-4666-bf2d-57f1945e7cd0",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 165,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "90d926b8-6169-4c12-a73a-ecea4c82c8b7",
@@ -33,7 +45,18 @@
       "version_label": "1.2",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "e34d8889-14b6-4932-9446-bc4872151f4d",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -49,12 +72,13 @@
   },
   "dimensions_with_stand_mm": {
     "width": 620,
-    "height": 507,
+    "height_min": 377,
+    "height_max": 507,
     "depth": 211
   },
   "dimensions_without_stand_mm": {
     "width": 620,
-    "height": 620,
+    "height": 363,
     "depth": 66
   },
   "weight": {
@@ -62,8 +86,7 @@
     "without_stand_kg": 3.5
   },
   "power_consumption": {
-    "typical_w": 27,
-    "manufacturer_max_w": 65
+    "typical_w": 27
   },
   "max_brightness": 350,
   "hdr": "HDR10",
@@ -81,7 +104,7 @@
     "manufacturer_url": "https://www.asus.com/in/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aq/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -323,20 +346,6 @@
         "source": "laptop-outlet",
         "channel": "uk",
         "source_product_id": "VA27AQ",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "N82E16824236987R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "N82E16824236987R",
         "pricing_enabled": true,
         "verified": false
       },

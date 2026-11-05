@@ -41,7 +41,7 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011336-ww/3200d-rs-mid-tower-pc-case-smoke-cc-9011336-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -49,9 +49,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0840440414667",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "CC-9011336-WW",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "CC-9011336-WW",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -67,6 +77,11 @@
         "type": "upc",
         "value": "840440414667",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840440414667",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -204,6 +219,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13085606",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GECS-227",
@@ -306,14 +328,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811139270",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811139270",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -390,7 +412,7 @@
         "channel": "us",
         "source_product_id": "20608359168",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -44,12 +44,17 @@
     "manufacturer_url": "https://www.corsair.com/us/en/p/pc-cases/cc-9011227-ww/icue-7000x-rgb-tempered-glass-full-tower-atx-pc-case-white-cc-9011227-ww"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840006639459",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840006639459",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -63,6 +68,11 @@
       },
       {
         "type": "mpn",
+        "value": "CC-9011227-WW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "CC-9011227WW",
         "region": "all"
       },
@@ -70,6 +80,11 @@
         "type": "upc",
         "value": "840006639459",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840006639459",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -298,6 +313,13 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16811139168",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "overclockers",
         "channel": "uk",
         "source_product_id": "CA-26D-CS",
@@ -365,7 +387,7 @@
         "channel": "us",
         "source_product_id": "349817390",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -47,12 +47,17 @@
     "manufacturer_url": "https://rog.asus.com/cases/rog-hyperion-gr701-model/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0195553982771",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0195553982771",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -76,6 +81,11 @@
       },
       {
         "type": "mpn",
+        "value": "GR701 ROG HYPERION",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "GR701/BK/PWMFAN",
         "region": "all"
       },
@@ -83,6 +93,11 @@
         "type": "upc",
         "value": "195553982771",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553982771",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -227,6 +242,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12348000",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "ASRHGR701BK",
@@ -322,14 +344,14 @@
         "channel": "ca",
         "source_product_id": "N82E16811173052",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16811173052",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -406,7 +428,7 @@
         "channel": "us",
         "source_product_id": "1501428130",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
