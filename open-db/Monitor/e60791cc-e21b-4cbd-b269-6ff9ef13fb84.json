@@ -6,14 +6,16 @@
     "verticalRes": 1440
   },
   "refresh_rate": 155,
+  "native_refresh_activation": "overclock",
   "panel_type": "IPS",
-  "response_time": 1,
+  "mprt_response_time": 1,
   "color": ["BLACK"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_0": 2
+    "hdmi_2_0": 2,
+    "displayport_1_4a": 1
   },
   "display_inputs": [
     {
@@ -23,7 +25,18 @@
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "96ebd6c9-9e45-4c8e-9b5c-e3d94e9fee79",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "aa3ee79f-8532-4f6e-a572-6c4ddbded2ac",
@@ -32,7 +45,17 @@
       "version_label": "1.2",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "aef37b45-a5d2-4852-801c-95d009a7861e",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 165,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -42,27 +65,24 @@
         "id": "209e3f9e-d415-4d5b-992b-f8be110aad89",
         "pattern": "100x100",
         "mounted_weight_kg": 3.5,
-        "installation": "included_manufacturer_attachment"
+        "installation": "direct"
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 620,
-    "height": 507,
+    "height_min": 378,
+    "height_max": 507,
     "depth": 211
   },
   "dimensions_without_stand_mm": {
     "width": 620,
-    "height": 507,
+    "height": 363,
     "depth": 66
   },
   "weight": {
-    "with_stand_kg": 5.8,
+    "with_stand_kg": 5.9,
     "without_stand_kg": 3.5
-  },
-  "power_consumption": {
-    "typical_w": 27,
-    "manufacturer_max_w": 65
   },
   "max_brightness": 400,
   "hdr": "HDR10",
@@ -71,7 +91,10 @@
     "name": "ASUS TUF Gaming VG27AQE — Black",
     "manufacturer": "ASUS",
     "part_numbers": [],
-    "releaseYear": 2021
+    "series": "TUF Gaming",
+    "variant": "VG27AQE",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aqe/"

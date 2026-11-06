@@ -44,12 +44,17 @@
     "manufacturer_url": "https://lian-li.com/product/o11-dynamic-mini-v2/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840353050594",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840353050594",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -68,6 +73,11 @@
       },
       {
         "type": "mpn",
+        "value": "O11DMIV2X",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "PC-O11DMIV2X",
         "region": "all"
       },
@@ -75,6 +85,11 @@
         "type": "upc",
         "value": "840353050594",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353050594",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -191,6 +206,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12312463",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "LIO11DMIV2X",
@@ -277,9 +299,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "2AM-000Z-000F9",
+        "source_product_id": "9B-2AM-000Z-000F9",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -349,7 +371,7 @@
         "channel": "us",
         "source_product_id": "17511272462",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

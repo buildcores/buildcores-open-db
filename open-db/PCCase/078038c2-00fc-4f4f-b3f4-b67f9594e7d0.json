@@ -44,12 +44,17 @@
     "manufacturer_url": "https://www.asus.com/ph/motherboards-components/cases/tuf-gaming/tuf-gaming-gt502/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0195553943000",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0195553943000",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -83,6 +88,11 @@
       },
       {
         "type": "mpn",
+        "value": "GT502/WHT/TG//",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "TG",
         "region": "all"
       },
@@ -95,9 +105,28 @@
         "type": "upc",
         "value": "195553943000",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553943000",
+        "region": "us"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BQD5J39S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11463643",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "bhphoto",
         "channel": "us",
@@ -117,14 +146,14 @@
         "channel": "us",
         "source_product_id": "N82E16811173050",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "2919008828",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

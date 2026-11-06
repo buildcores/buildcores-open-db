@@ -41,12 +41,17 @@
     "manufacturer_url": "https://lian-li.com/product/vector-v100/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840353048621",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840353048621",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -59,9 +64,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "V100X",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840353048621",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353048621",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -171,6 +186,13 @@
         "verified": true
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12198188",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "mwave",
         "channel": "au",
         "source_product_id": "AC86825",
@@ -178,11 +200,18 @@
         "verified": false
       },
       {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA0ZXKG89732",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "16893658453",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

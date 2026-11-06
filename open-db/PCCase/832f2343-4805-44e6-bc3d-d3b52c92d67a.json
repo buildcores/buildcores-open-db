@@ -44,12 +44,17 @@
     "manufacturer_url": "https://lian-li.com/product/vector-v100/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0840353048669",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0840353048669",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -72,9 +77,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "V100RX",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "840353048669",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353048669",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -219,6 +234,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12160770",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "caseking",
         "channel": "de",
         "source_product_id": "GELI-975",
@@ -293,14 +315,14 @@
         "channel": "ca",
         "source_product_id": "2AM-000Z-000F6",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "2AM-000Z-000F6",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -370,7 +392,7 @@
         "channel": "us",
         "source_product_id": "16862401745",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

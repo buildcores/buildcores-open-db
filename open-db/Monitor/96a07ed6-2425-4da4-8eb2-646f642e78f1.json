@@ -6,6 +6,7 @@
     "verticalRes": 1440
   },
   "refresh_rate": 165,
+  "native_refresh_activation": "automatic",
   "panel_type": "TN",
   "response_time": 0.4,
   "color": ["BLACK"],
@@ -24,7 +25,18 @@
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "474c22af-07f4-45f9-9508-37105ffd4e7d",
+          "resolution": {
+            "horizontalRes": 2650,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "109e494f-85d1-481d-be66-61fb1f943c37",
@@ -33,7 +45,18 @@
       "version_label": "1.2",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "f7401d25-0247-4b03-bec1-093ee2c34db1",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 165,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -50,11 +73,13 @@
   "dimensions_with_stand_mm": {
     "width": 620,
     "height": 507,
+    "height_min": 377,
+    "height_max": 507,
     "depth": 211
   },
   "dimensions_without_stand_mm": {
     "width": 620,
-    "height": 507,
+    "height": 363,
     "depth": 66
   },
   "weight": {
@@ -62,8 +87,7 @@
     "without_stand_kg": 3.5
   },
   "power_consumption": {
-    "typical_w": 65,
-    "manufacturer_max_w": 65
+    "typical_w": 27
   },
   "max_brightness": 350,
   "hdr": "HDR10",
@@ -81,7 +105,7 @@
     "manufacturer_url": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27bq/"
   },
   "identifiers": {
-    "version": 3,
+    "version": 4,
     "identifiers": [
       {
         "type": "ean",
@@ -141,20 +165,6 @@
         "source_product_id": "B07WPFP6S4",
         "pricing_enabled": true,
         "verified": true
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "N82E16824236991R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "816952089",
-        "pricing_enabled": true,
-        "verified": false
       }
     ]
   }
