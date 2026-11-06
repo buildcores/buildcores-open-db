@@ -1,13 +1,74 @@
 {
   "opendb_id": "e3140d06-775e-4dab-b493-9bd4eef1ebfd",
+  "weight": 615,
+  "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "6df4b09d-6e7d-4c7e-8876-b6501872c5ec",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "b764ccc3-0a5a-4643-b738-9e6fe695e3b6",
+      "basis": "Microphone Body",
+      "height_mm": 145.3
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Audio-Technica AT2040 Black",
-    "manufacturer": "Audio-Technica"
+    "manufacturer": "Audio-Technica",
+    "series": "AT2040",
+    "variant": "Black",
+    "releaseYear": 2021
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.audio-technica.com/en/at2040"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4961310155940",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AT 2040",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "AT2040",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09BFPNW2J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12328602",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "895308254",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }
