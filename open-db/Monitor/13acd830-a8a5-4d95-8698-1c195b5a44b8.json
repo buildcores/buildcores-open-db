@@ -5,7 +5,8 @@
     "horizontalRes": 2560,
     "verticalRes": 1440
   },
-  "refresh_rate": 155,
+  "refresh_rate": 165,
+  "native_refresh_activation": "automatic",
   "panel_type": "TN",
   "response_time": 0.4,
   "color": ["BLACK"],
@@ -24,7 +25,17 @@
       "version_label": "2.0",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "89f335cc-d604-47ce-8624-f339a603c92d",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "58171a5c-9ee1-4f91-a985-9859939fcf3f",
@@ -33,7 +44,17 @@
       "version_label": "1.2",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "0a5908be-7398-4480-b694-be93d1f85b35",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 165,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -50,11 +71,13 @@
   "dimensions_with_stand_mm": {
     "width": 620,
     "height": 507,
+    "height_min": 377,
+    "height_max": 507,
     "depth": 211
   },
   "dimensions_without_stand_mm": {
     "width": 620,
-    "height": 507,
+    "height": 363,
     "depth": 66
   },
   "weight": {
@@ -62,8 +85,7 @@
     "without_stand_kg": 3.5
   },
   "power_consumption": {
-    "typical_w": 65,
-    "manufacturer_max_w": 65
+    "typical_w": 27
   },
   "max_brightness": 400,
   "hdr": "HDR10",
@@ -72,10 +94,14 @@
     "name": "ASUS TUF Gaming VG27BQE — Black",
     "manufacturer": "ASUS",
     "part_numbers": [],
+    "series": "TUF Gaming",
+    "variant": "VG27BQE",
     "releaseYear": 2019,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27bqe/techspec/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],

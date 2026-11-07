@@ -1,15 +1,38 @@
 {
   "opendb_id": "2a9a4942-54e8-4469-a9e0-dfda73381799",
+  "weight": 937,
   "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "7369fd28-3ca4-4973-8cd0-ffea9e78ac1c",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
   "polar_pattern": ["Cardioid"],
   "features": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "8ad5b1ff-b9ad-4034-b626-1f12c6d756b8",
+      "basis": "Included Stand Assembly",
+      "width_mm": 109,
+      "depth_mm": 172,
+      "height_mm": 62
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Rode PodMic Cardioid Dynamic Broadcast Microphone",
     "manufacturer": "RODE",
-    "part_numbers": ["PODMIC"]
+    "part_numbers": ["PODMIC"],
+    "series": "PodMic",
+    "variant": "Black",
+    "releaseYear": 2018
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rode.com/en-int/products/podmic?variant_sku=PODMIC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -1,11 +1,29 @@
 {
   "opendb_id": "2076877b-6d25-47ac-9112-12c977f83cae",
+  "weight": 440,
   "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "e5ca0b92-7691-43ef-bea1-3edc7b98d628",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
   "polar_pattern": ["Cardioid"],
-  "features": ["Gain Control", "Mute Button"],
+  "features": ["On-Device Mute Control"],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "8684b388-e623-40cb-94e1-226fef443df8",
+      "basis": "Microphone Body",
+      "width_mm": 53,
+      "depth_mm": 53,
+      "height_mm": 146
+    }
+  ],
   "lighting": ["None"],
   "metadata": {
-    "name": "Elgato Wave DX Dynamic Vocal Microphone",
+    "name": "Elgato Wave DX Dynamic Vocal Microphone Black",
     "manufacturer": "Elgato",
     "part_numbers": [
       "10MAH9901",
@@ -16,6 +34,8 @@
       "10MAH9901-PU2501",
       "10MAH9901-WH23007"
     ],
+    "series": "Wave DX",
+    "variant": "Black",
     "releaseYear": 2022
   },
   "general_product_information": {},

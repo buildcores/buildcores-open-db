@@ -1,13 +1,60 @@
 {
   "opendb_id": "07bb46b7-f8c2-469b-9a16-a340f2c4112b",
+  "weight": 255,
+  "connectivity_type": ["USB-A", "USB-C"],
+  "on_device_ports": [
+    {
+      "id": "45c5d21b-6087-43bc-98e2-799e4172d050",
+      "connector": "USB-C",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "digital_capture_mode_claims": [
+    {
+      "id": "f9ed5e2b-35af-46b6-94e6-b01bb98b3a06",
+      "sample_rate_khz": 44,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["WHITE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "3fffd58e-dbf5-4d33-a7c9-1e2cafcf2dbc",
+      "basis": "Microphone Body",
+      "width_mm": 250,
+      "depth_mm": 103,
+      "height_mm": 129
+    }
+  ],
+  "lighting": ["ARGB"],
   "metadata": {
-    "name": "HyperX QuadCast S White Grey 519P0AA",
-    "manufacturer": "HyperX"
+    "name": "HyperX QuadCast S White ARGB",
+    "manufacturer": "HyperX",
+    "series": "Quadcast S",
+    "variant": "White",
+    "releaseYear": 2020
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://row.hyperx.com/products/hyperx-quadcast-s-usb-microphone?variant=40916449525965"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "519P0AA",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "196188736036",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

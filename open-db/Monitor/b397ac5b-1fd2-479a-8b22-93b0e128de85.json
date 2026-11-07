@@ -1,6 +1,55 @@
 {
   "opendb_id": "b397ac5b-1fd2-479a-8b22-93b0e128de85",
   "screen_size": 27,
+  "resolution": {
+    "horizontalRes": 2560,
+    "verticalRes": 1440
+  },
+  "refresh_rate": 500,
+  "native_refresh_activation": "automatic",
+  "panel_type": "IPS",
+  "response_time": 0.5,
+  "mprt_response_time": 0.3,
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_2_1": 1
+  },
+  "display_inputs": [
+    {
+      "id": "09457130-a2b9-4aae-af9c-4287c4127515",
+      "connector": "displayport",
+      "version_label": "2.1",
+      "video_signal": "displayport"
+    },
+    {
+      "id": "fb9dfcd7-912c-4c01-a32f-0bbff1970eb9",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "3bc38657-08ae-490e-8ec2-c65f08712a28",
+        "pattern": "100x100",
+        "installation": "direct"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "height_max": 180
+  },
+  "max_brightness": 400,
+  "hdr": "VESA DisplayHDR 400",
+  "adaptive_sync": "G-Sync Compatible",
   "metadata": {
     "name": "AOC AGON PRO AGP277QK — Gunmetal Grey/Black",
     "manufacturer": "AOC"

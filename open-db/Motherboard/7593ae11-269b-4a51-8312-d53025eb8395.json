@@ -8,7 +8,7 @@
     "ram_type": "DDR5",
     "slots": 4
   },
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "pcie_slots": [
     {
@@ -24,7 +24,7 @@
     {
       "gen": "3.0",
       "quantity": 1,
-      "lanes": 1
+      "lanes": 2
     }
   ],
   "m2_slots": [
@@ -60,7 +60,7 @@
       "controller": "Intel"
     }
   ],
-  "wireless_networking": "Wi-Fi 6E",
+  "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -97,7 +97,7 @@
   "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
@@ -113,6 +113,46 @@
     "1 x Intel 2.5Gb Ethernet port",
     "5 x Audio jacks",
     "1 x Optical S/PDIF out port"
+  ],
+  "display_outputs": [
+    {
+      "id": "60b8b34a-cbe1-4476-8c81-b3bba245db5c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "67cbc731-2e8a-480a-b6eb-8ab8238df687",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "8bdbcf0a-5303-4ef4-a2a8-e056a1aa481d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "374166c8-bf63-42ad-a12c-3b9248e7b72c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS TUF GAMING Z790-PRO WIFI",

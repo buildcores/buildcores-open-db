@@ -1,17 +1,38 @@
 {
   "opendb_id": "1203e33a-cc04-4f52-8133-dce53c413b48",
+  "weight": 937,
   "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "950f21f6-a8c5-4888-8435-aae9d63d109e",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
   "polar_pattern": ["Cardioid"],
   "features": [],
-  "lighting": [],
+  "color": ["WHITE", "GREY"],
+  "physical_dimensions_claims": [
+    {
+      "id": "2f8722c8-fccb-4e98-8111-52e4c28d1232",
+      "basis": "Included Stand Assembly",
+      "width_mm": 109,
+      "depth_mm": 172,
+      "height_mm": 62
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "RODE PodMic - White",
     "manufacturer": "RODE",
     "part_numbers": ["PODMICW"],
     "series": "PodMic",
-    "variant": "White"
+    "variant": "White",
+    "releaseYear": 2018
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rode.com/en-int/products/podmic?variant_sku=PODMIC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

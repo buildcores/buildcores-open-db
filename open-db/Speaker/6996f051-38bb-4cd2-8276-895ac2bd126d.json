@@ -4,15 +4,130 @@
   "speaker_product_kind": "Tabletop/Bookshelf",
   "color": ["BLACK"],
   "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "527b9fae-492d-4f20-96f0-583235651217",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 1.925,
+      "dimensions_mm": {
+        "width": 125.5,
+        "height": 220,
+        "depth": 185
+      }
+    },
+    {
+      "id": "4ec9332e-d463-4a88-9e1d-c630044f3147",
+      "role": "Speaker",
+      "component_label": "Passive",
+      "quantity": 1,
+      "weight_g": 1.925,
+      "dimensions_mm": {
+        "width": 125.5,
+        "height": 220,
+        "depth": 176
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "90a104f1-f7be-4f42-ba4b-098e0e1c29e5",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "0ec649ba-9401-43ee-9216-fa7cae75f2e6",
+      "method": "RCA Analog",
+      "speaker_side_connector": "Unbalanced RCA",
+      "source_side_connector": "3.5mm Analog Jack",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "272d0172-c28b-4a5f-87c1-e6a98069e949",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX In",
+      "source_side_connector": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "12c549c4-6aaf-4a94-a156-55e36c60c70e",
+      "method": "Bluetooth Audio"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "b7eb4b2f-9e01-4ab4-84fd-1fbcfc2074bb",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "connector": "Double Barrel"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Edifier MR3 Powered Studio Speakers Black",
     "manufacturer": "Edifier",
+    "series": "MR3",
+    "variant": "Black",
     "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.edifier.com/global/p/studio-monitors/mr3"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0875674007972",
+        "region": "us"
+      },
+      {
+        "type": "ean",
+        "value": "6923520216253",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "edifier-mr4-mr3",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MR3",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "875674007972",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DGXTBQTY",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6670183",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "11840468646",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

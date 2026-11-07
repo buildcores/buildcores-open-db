@@ -1,6 +1,73 @@
 {
   "opendb_id": "07406302-0e8e-4147-8b9f-ce4b3c088e02",
-  "lighting": [],
+  "weight": 3850,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "ed97f776-82f7-415d-8118-896cd7465263",
+      "role": "Speaker",
+      "component_label": "Active Speaker",
+      "quantity": 1,
+      "weight_g": 1.925,
+      "dimensions_mm": {
+        "width": 125.5,
+        "height": 220,
+        "depth": 185
+      }
+    },
+    {
+      "id": "52b24304-ef5f-4c3b-9fef-ad8be76b7f3d",
+      "role": "Speaker",
+      "component_label": "Passive Speaker",
+      "quantity": 1,
+      "weight_g": 1.925,
+      "dimensions_mm": {
+        "width": 125.5,
+        "height": 220,
+        "depth": 176
+      }
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "677be0bb-4eec-4ec7-bdcc-380f6e9e8894",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "3ebeea5f-208b-48a9-b0f7-3a13ace38987",
+      "method": "3.5 mm Analog Stereo",
+      "speaker_side_connector": "AUX In",
+      "source_side_connector": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "7e292808-aa4b-442e-8a53-eb31934023a9",
+      "method": "RCA Analog",
+      "speaker_side_connector": "Unbalanced RCA",
+      "source_side_connector": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Included Adapter"
+    },
+    {
+      "id": "e86b4e70-8cf4-410e-9c5c-0347ed7e0f33",
+      "method": "Bluetooth Audio",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "072363de-b2b8-4ba0-bd53-095bf0fe7e7e",
+      "source": "AC Mains/Adapter",
+      "powered_component": "Active Speaker",
+      "connector": "Double Barrel"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Edifier MR3 Powered Studio Speakers - White",
     "manufacturer": "Edifier",

@@ -55,13 +55,13 @@
       "controller": "Intel"
     }
   ],
-  "wireless_networking": "Wi-Fi 7",
+  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
-    "usb_4": 0
+    "usb_4": 1
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -99,15 +99,57 @@
     "channels": "7.1"
   },
   "back_panel_ports": [
-    "1 x USB 20Gbps port",
-    "3 x USB 10Gbps ports",
-    "4 x USB 5Gbps ports",
+    "1 x USB 20Gbps Type-C port",
+    "3 x USB 10Gbps Type-A ports",
+    "4 x USB 5Gbps Type-A ports",
     "1 x DisplayPort",
     "1 x HDMI port",
     "1 x Wi-Fi module",
     "1 x Intel 2.5Gb Ethernet port",
     "5 x Audio jacks",
     "1 x Optical S/PDIF out port"
+  ],
+  "display_outputs": [
+    {
+      "id": "2717a9ae-50fd-401a-8c8e-276e9c4c081e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0d517778-8c34-4099-a2bf-c0f50c57c987",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1a561c19-4c70-411d-9de1-6296a3b8fd26",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1d0e14fd-a7ed-4fff-94eb-35401ef82c5b",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS TUF GAMING Z790-BTF WIFI",
@@ -122,7 +164,7 @@
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/tuf-gaming/tuf-gaming-z790-btf-wifi/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -270,9 +312,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "N82E16813119676R",
+        "source_product_id": "N82E16813119676",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "skinflint",

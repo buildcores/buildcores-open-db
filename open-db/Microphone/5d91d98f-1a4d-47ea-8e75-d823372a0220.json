@@ -1,9 +1,23 @@
 {
   "opendb_id": "5d91d98f-1a4d-47ea-8e75-d823372a0220",
+  "weight": 573.5,
   "connectivity_type": ["USB-C", "XLR"],
-  "polar_pattern": [],
-  "features": ["Mute Button"],
-  "lighting": [],
+  "on_device_ports": [
+    {
+      "id": "ff9f7611-d56f-4ad7-924c-b8955fdfbabc",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "5c886dd4-2b03-467a-a30c-d5a8ddf99313",
+      "connector": "USB-C",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["Mute Button", "On-Device Mute Control"],
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "metadata": {
     "name": "Shure MV7+ Dynamic Microphone",
     "manufacturer": "Shure",

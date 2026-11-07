@@ -6,14 +6,16 @@
     "verticalRes": 1440
   },
   "refresh_rate": 500,
+  "native_refresh_activation": "automatic",
   "panel_type": "QD-OLED",
   "response_time": 0.03,
-  "color": ["BLACK"],
-  "lighting": ["None"],
-  "viewing_angle": "178°/178°",
+  "color": ["GREY"],
+  "lighting": ["ARGB"],
+  "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
-    "hdmi_2_1": 2
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1
   },
   "connectors": "2x HDMI 2.1, 1x DisplayPort 1.4, 1x USB 3.2 Gen 1 Type-B (Upstream), 2x USB 3.2 Gen 1 Type-A (Downstream), 1x 3.5mm Headphone Jack, 1x DC-In Port",
   "display_inputs": [
@@ -23,8 +25,7 @@
       "count": 2,
       "version_label": "2.1",
       "video_signal": "hdmi",
-      "transport": "native",
-      "graphics_route": "discrete"
+      "transport": "native"
     },
     {
       "id": "bf0f0647-a63a-48ae-8021-15b525842725",
@@ -32,18 +33,7 @@
       "count": 1,
       "version_label": "1.4",
       "video_signal": "displayport",
-      "transport": "native",
-      "graphics_route": "discrete"
-    }
-  ],
-  "display_outputs": [
-    {
-      "id": "38210a2e-d120-4fd5-8ecc-fde8d8c51634",
-      "connector": "other",
-      "count": 1,
-      "version_label": "Analog Audio Pass-through",
-      "transport": "native",
-      "connector_label": "3.5mm Headphone Jack"
+      "transport": "native"
     }
   ],
   "vesa_mounting": {
@@ -73,15 +63,15 @@
     "depth": 49.2
   },
   "weight": {
-    "with_stand_kg": 3.13,
-    "without_stand_kg": 1.72
+    "with_stand_kg": 6.9,
+    "without_stand_kg": 3.8
   },
   "power_consumption": {
     "typical_w": 41.4,
     "manufacturer_max_w": 140,
     "note": "This monitor runs on an external power adapter brick capable of handling inputs of AC 100-240V (50/60Hz) and outputting up to 140W max at 24V. The chassis lacks high-wattage upstream USB-C Power Delivery charging. Its integrated USB Type-A downstream data hub operates under low-power accessory parameters. It features a standby power consumption (DPMS) of 0.50W and an Off-mode draw of 0.30W."
   },
-  "max_brightness": 300,
+  "max_brightness": 1000,
   "hdr": "VESA DisplayHDR 500 True Black",
   "adaptive_sync": "G-Sync Compatible",
   "metadata": {

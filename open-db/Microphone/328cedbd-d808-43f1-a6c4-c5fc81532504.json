@@ -1,19 +1,60 @@
 {
   "opendb_id": "328cedbd-d808-43f1-a6c4-c5fc81532504",
+  "weight": 255,
   "connectivity_type": ["USB-A", "USB-C"],
-  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional"],
-  "features": ["Gain Control", "Mute Button", "RGB Lighting"],
-  "lighting": [],
+  "on_device_ports": [
+    {
+      "id": "fca1d415-081a-413a-b6b7-39fbca31e01c",
+      "connector": "USB-C",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "6d025556-6bd7-4578-a883-0d954df7d2ce",
+      "connector": "3.5 mm",
+      "roles": ["Headphone Monitor Output"]
+    }
+  ],
+  "polar_pattern": ["Cardioid", "Omnidirectional", "Bidirectional", "Stereo"],
+  "features": [
+    "Gain Control",
+    "Mute Button",
+    "RGB Lighting",
+    "On-Device Gain Control",
+    "On-Device Mute Control"
+  ],
+  "digital_capture_mode_claims": [
+    {
+      "id": "ec1199b7-2b96-41f8-8806-9fcb51067c07",
+      "sample_rate_khz": 44,
+      "bit_depth_bits": 16,
+      "digital_output_path": "USB Audio",
+      "claim": "maximum"
+    }
+  ],
+  "color": ["BLACK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "252273f8-f579-4ce7-9f7c-c4d7284d5212",
+      "basis": "Microphone Body",
+      "width_mm": 250,
+      "depth_mm": 103,
+      "height_mm": 129
+    }
+  ],
+  "lighting": ["ARGB"],
   "metadata": {
-    "name": "HyperX QuadCast S – RGB",
+    "name": "HyperX QuadCast S – RGB Black",
     "manufacturer": "HyperX",
-    "part_numbers": ["HMIQ1S-XX-RG/G", "4P5P7AA"]
+    "part_numbers": ["HMIQ1S-XX-RG/G", "4P5P7AA"],
+    "series": "Quadcast S",
+    "variant": "Black",
+    "releaseYear": 2020
   },
   "general_product_information": {
     "manufacturer_url": "https://row.hyperx.com/products/hyperx-quadcast-s-usb-microphone"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -172,7 +213,7 @@
       {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "6434274",
+        "source_product_id": "11006007",
         "pricing_enabled": true,
         "verified": false
       },
@@ -207,13 +248,6 @@
       {
         "source": "newegg",
         "channel": "ca",
-        "source_product_id": "9SIA0ZXK4D9480",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
         "source_product_id": "9SIA0ZXK4D9480",
         "pricing_enabled": true,
         "verified": false
@@ -271,13 +305,6 @@
         "source": "slg-store",
         "channel": "it",
         "source_product_id": "7S1P4P5P7AA",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "275016209",
         "pricing_enabled": true,
         "verified": false
       }
