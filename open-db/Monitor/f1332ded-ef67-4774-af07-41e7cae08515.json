@@ -1,14 +1,97 @@
 {
   "opendb_id": "f1332ded-ef67-4774-af07-41e7cae08515",
   "screen_size": 14.5,
+  "resolution": {
+    "horizontalRes": 2560,
+    "verticalRes": 720
+  },
+  "refresh_rate": 60,
+  "panel_type": "AHVA",
+  "response_time": 60,
+  "color": ["GREY", "WHITE"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "32:9",
+  "video_outputs": {
+    "hdmi_2_0": 1,
+    "usb_c": 1
+  },
+  "connectors": "1 x HDMI                                                            1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "847f8b40-645e-4579-965b-64ef58cde478",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "0b99267a-a3f7-43f9-9875-1473d9a8c6ed",
+      "connector": "usb_c",
+      "count": 1,
+      "transport": "dp_alt_mode",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "no"
+  },
+  "dimensions_with_stand_mm": {
+    "width": 372,
+    "height": 120,
+    "depth": 62
+  },
+  "dimensions_without_stand_mm": {
+    "width": 372,
+    "height": 120,
+    "depth": 22
+  },
+  "weight": {
+    "with_stand_kg": 1.67,
+    "without_stand_kg": 1
+  },
+  "power_consumption": {
+    "typical_w": 5,
+    "manufacturer_max_w": 10
+  },
+  "max_brightness": 350,
+  "adaptive_sync": "None",
   "metadata": {
     "name": "CORSAIR XENEON EDGE Crystal",
-    "manufacturer": "Corsair"
+    "manufacturer": "Corsair",
+    "releaseYear": 2025,
+    "manufacturer_color": "Crystal"
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0840440431534",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "CC-9011356-WW",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "840440431534",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H5KLXYKV",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

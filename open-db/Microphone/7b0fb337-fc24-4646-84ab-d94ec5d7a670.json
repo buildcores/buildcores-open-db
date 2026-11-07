@@ -1,15 +1,32 @@
 {
   "opendb_id": "7b0fb337-fc24-4646-84ab-d94ec5d7a670",
+  "weight": 573.5,
   "connectivity_type": ["USB-C", "XLR"],
-  "polar_pattern": [],
-  "features": [],
-  "lighting": [],
+  "on_device_ports": [
+    {
+      "id": "ba89f4fb-2bf1-481d-b8fa-9472d9c35645",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    },
+    {
+      "id": "069ccfaa-72cd-4670-b8fe-d96ec2d133db",
+      "connector": "USB-C",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control", "On-Device Gain Control"],
+  "color": ["WHITE"],
+  "lighting": ["ARGB"],
   "metadata": {
     "name": "Shure MV7+ Podcast Dynamic Microphone - White",
     "manufacturer": "Shure",
-    "part_numbers": ["MV7+-W", "SHR-MV7+-WH"]
+    "part_numbers": ["MV7+-W", "SHR-MV7+-WH"],
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.shure.com/en-IN/products/microphones/mv7?variant=MV7%252B-W"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

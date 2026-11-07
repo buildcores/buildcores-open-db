@@ -1,13 +1,83 @@
 {
   "opendb_id": "24e7b2e7-f409-423c-b4fc-d74b0ecdd13b",
   "screen_size": 26.5,
+  "resolution": {
+    "horizontalRes": 3840,
+    "verticalRes": 2160
+  },
+  "panel_type": "OLED",
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1
+  },
+  "display_inputs": [
+    {
+      "id": "4d22ca85-65d6-4a1e-8fd9-980db2b58823",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "be0014c2-52b1-4907-be5f-a3be5b491fa7",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "61afe544-e5bc-4bc8-843e-52bc96cc9084",
+        "pattern": "100x100",
+        "mounted_weight_kg": 8.1,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 606,
+    "height": 548,
+    "depth": 256
+  },
+  "dimensions_without_stand_mm": {
+    "width": 606,
+    "height": 548,
+    "depth": 63
+  },
+  "weight": {
+    "with_stand_kg": 8.1,
+    "without_stand_kg": 5.4
+  },
+  "power_consumption": {
+    "typical_w": 48,
+    "manufacturer_max_w": 50
+  },
+  "max_brightness": 1000,
+  "hdr": "VESA DisplayHDR True Black 400",
+  "adaptive_sync": "G-Sync",
   "metadata": {
     "name": "ASUS ROG Swift OLED PG27UCWM — Black",
-    "manufacturer": "ASUS"
+    "manufacturer": "ASUS",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg27ucwm/"
+  },
   "identifiers": {
-    "version": 2,
+    "version": 3,
     "identifiers": [],
     "retailer_listings": [
       {
@@ -15,7 +85,7 @@
         "channel": "us",
         "source_product_id": "N82E16824281438",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

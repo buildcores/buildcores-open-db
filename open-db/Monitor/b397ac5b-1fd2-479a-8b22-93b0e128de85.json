@@ -22,8 +22,11 @@
     {
       "id": "09457130-a2b9-4aae-af9c-4287c4127515",
       "connector": "displayport",
+      "count": 1,
       "version_label": "2.1",
-      "video_signal": "displayport"
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
     },
     {
       "id": "fb9dfcd7-912c-4c01-a32f-0bbff1970eb9",
@@ -31,7 +34,8 @@
       "count": 2,
       "version_label": "2.1",
       "video_signal": "hdmi",
-      "transport": "native"
+      "transport": "native",
+      "graphics_route": "switchable"
     }
   ],
   "vesa_mounting": {
@@ -40,21 +44,42 @@
       {
         "id": "3bc38657-08ae-490e-8ec2-c65f08712a28",
         "pattern": "100x100",
-        "installation": "direct"
+        "mounted_weight_kg": 4.51,
+        "installation": "included_manufacturer_attachment"
       }
     ]
   },
   "dimensions_with_stand_mm": {
-    "height_max": 180
+    "width": 613.7,
+    "height": 541.5,
+    "height_max": 180,
+    "depth": 244.2
+  },
+  "dimensions_without_stand_mm": {
+    "width": 613.7,
+    "height": 541.5,
+    "depth": 68.1
+  },
+  "weight": {
+    "with_stand_kg": 7.11,
+    "without_stand_kg": 4.51
+  },
+  "power_consumption": {
+    "typical_w": 60,
+    "manufacturer_max_w": 90
   },
   "max_brightness": 400,
   "hdr": "VESA DisplayHDR 400",
   "adaptive_sync": "G-Sync Compatible",
   "metadata": {
     "name": "AOC AGON PRO AGP277QK — Gunmetal Grey/Black",
-    "manufacturer": "AOC"
+    "manufacturer": "AOC",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.aoc.com/us/gaming/monitors/agp277qk"
+  },
   "identifiers": {
     "version": 2,
     "identifiers": [],

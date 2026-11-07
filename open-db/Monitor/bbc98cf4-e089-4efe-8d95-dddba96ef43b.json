@@ -9,21 +9,78 @@
   "panel_type": "QD-VA",
   "response_time": 1,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
-  "connectors": "1 x HDMI 2.0                                                    1 x DisplayPort 1.4",
+  "video_outputs": {
+    "hdmi_2_0": 1,
+    "displayport_1_4a": 1
+  },
+  "connectors": "1 x HDMI 2.0                                                      1 x DisplayPort 1.4",
+  "display_inputs": [
+    {
+      "id": "f4b302e6-c1d2-4ba4-aa31-6b05c3a73e25",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "20b02fac-81dc-4795-92d8-09346c64e2c5",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "d0d36c9c-1918-41ff-bb38-f324c9ae1d06",
+        "pattern": "100x100",
+        "mounted_weight_kg": 5.38,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 614,
+    "height": 515,
+    "depth": 193.04
+  },
+  "dimensions_without_stand_mm": {
+    "width": 614,
+    "height": 515,
+    "depth": 59.9
+  },
+  "weight": {
+    "with_stand_kg": 6.35,
+    "without_stand_kg": 5.38
+  },
+  "power_consumption": {
+    "typical_w": 37,
+    "manufacturer_max_w": 130
+  },
   "max_brightness": 450,
-  "hdr": "",
+  "hdr": "HDR10",
   "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "AOC Q27G40XMN 27\" 1440p 180Hz QD-VA Monitor",
     "manufacturer": "AOC",
     "part_numbers": ["Q27G40XMN"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.aoc.com/sg/gaming/monitors/q27g40xmn_69"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

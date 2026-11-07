@@ -7,12 +7,57 @@
   },
   "refresh_rate": 60,
   "panel_type": "AHVA",
-  "response_time": 0,
+  "response_time": 60,
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "32:9",
-  "connectors": "1 x HDMI                                            1 x USB Type-C",
+  "video_outputs": {
+    "hdmi_2_0": 1,
+    "usb_c": 1
+  },
+  "connectors": "1 x HDMI                                                             1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "28b8150b-af6b-4830-b534-0cea472ffabc",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "f7ab4597-a7a5-43fe-9fad-640be2dd7a69",
+      "connector": "usb_c",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "no"
+  },
+  "dimensions_with_stand_mm": {
+    "width": 372,
+    "height": 120,
+    "depth": 62
+  },
+  "dimensions_without_stand_mm": {
+    "width": 372,
+    "height": 120,
+    "depth": 22
+  },
+  "weight": {
+    "with_stand_kg": 1.67,
+    "without_stand_kg": 1
+  },
+  "power_consumption": {
+    "typical_w": 5,
+    "manufacturer_max_w": 10
+  },
+  "max_brightness": 350,
   "hdr": "",
   "adaptive_sync": "None",
   "metadata": {
@@ -20,11 +65,15 @@
     "manufacturer": "Corsair",
     "part_numbers": ["CC-9011306-WW"],
     "series": "",
-    "variant": "Black"
+    "variant": "Black",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.corsair.com/ww/en/p/monitors/cc-9011306-ww/xeneon-edge-14-5-lcd-touchscreen-cc-9011306-ww?srsltid=AYCX9vLHR_kLcB_3p8LkWJPMw0urzG9x_Z4_93yh0G948nJmL2Nu8oWH#tab-techspecs"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -33,6 +82,20 @@
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H5KBJ41F",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6618457",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "corsair",
         "channel": "ca",
@@ -88,6 +151,20 @@
         "source_product_id": "AC88544",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBKFRM5F3348",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20778014481",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }
