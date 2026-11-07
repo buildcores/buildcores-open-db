@@ -6,9 +6,11 @@
     "verticalRes": 1440
   },
   "refresh_rate": 180,
-  "panel_type": "QD-VA",
+  "native_refresh_activation": "automatic",
+  "panel_type": "VA",
   "response_time": 1,
-  "color": ["BLACK"],
+  "mprt_response_time": 0.5,
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
@@ -16,7 +18,6 @@
     "hdmi_2_0": 1,
     "displayport_1_4a": 1
   },
-  "connectors": "1 x HDMI 2.0                                                      1 x DisplayPort 1.4",
   "display_inputs": [
     {
       "id": "f4b302e6-c1d2-4ba4-aa31-6b05c3a73e25",
@@ -44,29 +45,28 @@
         "id": "d0d36c9c-1918-41ff-bb38-f324c9ae1d06",
         "pattern": "100x100",
         "mounted_weight_kg": 5.38,
-        "installation": "included_manufacturer_attachment"
+        "installation": "direct"
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 614,
-    "height": 515,
-    "depth": 193.04
+    "height_max": 462.9,
+    "depth": 194.1
   },
   "dimensions_without_stand_mm": {
     "width": 614,
-    "height": 515,
-    "depth": 59.9
+    "height": 366.4,
+    "depth": 59.4
   },
   "weight": {
-    "with_stand_kg": 6.35,
-    "without_stand_kg": 5.38
+    "with_stand_kg": 5.11,
+    "without_stand_kg": 3.24
   },
   "power_consumption": {
-    "typical_w": 37,
-    "manufacturer_max_w": 130
+    "typical_w": 37
   },
-  "max_brightness": 450,
+  "max_brightness": 1200,
   "hdr": "HDR10",
   "adaptive_sync": "FreeSync",
   "metadata": {
@@ -74,7 +74,7 @@
     "manufacturer": "AOC",
     "part_numbers": ["Q27G40XMN"],
     "series": "",
-    "variant": "Black",
+    "variant": "Q27G40XMN",
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
@@ -82,11 +82,16 @@
     "manufacturer_url": "https://www.aoc.com/sg/gaming/monitors/q27g40xmn_69"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
         "value": "Q27G40XMN",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "685417739684",
         "region": "all"
       }
     ],

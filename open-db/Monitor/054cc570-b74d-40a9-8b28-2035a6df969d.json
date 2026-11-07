@@ -5,6 +5,7 @@
     "horizontalRes": 2560,
     "verticalRes": 1440
   },
+  "refresh_rate": 240,
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK", "RED"],
@@ -23,7 +24,18 @@
       "version_label": "2.1",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "f3f62ee8-7dc1-4adc-867c-b0aed475bf56",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "1c0c2914-6e1b-444f-9c51-ba4e02d70fc7",
@@ -32,7 +44,17 @@
       "version_label": "1.4",
       "video_signal": "displayport",
       "transport": "native",
-      "graphics_route": "switchable"
+      "mode_claims": [
+        {
+          "id": "d05daac9-a35c-4a89-b9dc-d976968bc5a0",
+          "resolution": {
+            "horizontalRes": 2560,
+            "verticalRes": 1440
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "vesa_mounting": {
@@ -42,27 +64,27 @@
         "id": "153a683f-1395-476a-98a6-01743dc1271c",
         "pattern": "100x100",
         "mounted_weight_kg": 4.09,
-        "installation": "included_manufacturer_attachment"
+        "installation": "direct"
       }
     ]
   },
   "dimensions_with_stand_mm": {
     "width": 609.3,
-    "height": 537.4,
-    "depth": 240
+    "height_min": 407.4,
+    "height_max": 537.4,
+    "depth": 207.7
   },
   "dimensions_without_stand_mm": {
-    "width": 609.3,
-    "height": 537.4,
-    "depth": 67.4
+    "width": 609.31,
+    "height": 355.3,
+    "depth": 57.03
   },
   "weight": {
-    "with_stand_kg": 5.67,
+    "with_stand_kg": 5.52,
     "without_stand_kg": 4.09
   },
   "power_consumption": {
-    "typical_w": 63,
-    "manufacturer_max_w": 130
+    "typical_w": 63
   },
   "max_brightness": 400,
   "hdr": "HDR10",
