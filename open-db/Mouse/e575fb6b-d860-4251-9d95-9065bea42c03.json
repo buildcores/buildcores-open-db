@@ -1,16 +1,65 @@
 {
   "opendb_id": "e575fb6b-d860-4251-9d95-9065bea42c03",
   "weight": 34,
+  "dimensions": {
+    "length": 116,
+    "width": 58,
+    "height": 35
+  },
+  "shape": "Symmetrical",
+  "handedness": "Right-handed",
   "connectivity": ["Wired USB-A", "Wireless 2.4GHz"],
+  "sensor": "PixArt PAW3950HS",
   "max_dpi": 30000,
+  "polling_rate": 8000,
+  "buttons": 5,
+  "switches": "Omron Optical Switches",
+  "switch_type": "Optical",
+  "onboard_memory": true,
+  "lighting": ["None"],
+  "battery_life": 80,
+  "battery_type": "Rechargeable",
+  "grip_types": ["Palm", "Fingertip", "Claw"],
+  "silent_clicks": false,
   "metadata": {
     "name": "WLMOUSE Beast X Mini Pro — Silver — Side Slits",
-    "manufacturer": "WLMOUSE"
+    "manufacturer": "WLMOUSE",
+    "series": "Beast X",
+    "variant": "Mini Pro",
+    "releaseYear": 2024
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.wlmouse.com/products/mini-pro?srsltid=AYCX9vJ1tR1rBusut0MThfXOVgr-jhXllvWaluYKrginXvcxemAbE-wO&variant=49851469758762"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0810511033318",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "810511033318",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F1NJH5YL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC731M1G9539",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

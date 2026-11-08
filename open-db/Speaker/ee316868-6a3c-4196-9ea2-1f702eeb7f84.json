@@ -1,15 +1,105 @@
 {
   "opendb_id": "ee316868-6a3c-4196-9ea2-1f702eeb7f84",
+  "weight": 4900,
+  "speaker_product_kind": "Tabletop/Bookshelf",
+  "color": ["WHITE"],
+  "amplification": "Amplification Included",
+  "included_components": [
+    {
+      "id": "f0b0be6a-00e2-459d-8950-65ea254c0cbf",
+      "role": "Speaker",
+      "quantity": 2,
+      "weight_g": 2425
+    }
+  ],
+  "included_audio_unit_count": 2,
+  "channel_configuration_claims": [
+    {
+      "id": "c6c4c430-1451-4dea-ad85-ebca5d0130f2",
+      "channel_label": "2.0",
+      "basis": "Discrete"
+    }
+  ],
+  "audio_input_paths": [
+    {
+      "id": "7dd875dc-666b-4e9c-9b16-7b68bcb2a13d",
+      "method": "RCA Analog",
+      "speaker_side_connector": "Dual RCA Analog",
+      "source_side_connector": "3.5 mm Analog Stereo",
+      "adapter_requirement": "Included Adapter"
+    }
+  ],
+  "operating_power_sources": [
+    {
+      "id": "63aa9099-225d-4267-89d5-3f604b1fecb9",
+      "source": "AC Mains/Adapter",
+      "connector": "Double Barrel"
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Edifier R1280T White",
     "manufacturer": "Edifier",
     "series": "R1280T",
-    "variant": "White"
+    "variant": "White",
+    "releaseYear": 2016
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.edifier.com/global/p/bookshelf-speakers/r1280t"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "0875674004858",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "edifier-r1280t",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "R1280T",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "875674004858",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0CDPZRKP1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "6573570",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAA3FJZ40745",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5126130552",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
