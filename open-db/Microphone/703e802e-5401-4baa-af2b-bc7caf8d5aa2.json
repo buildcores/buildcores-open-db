@@ -1,12 +1,37 @@
 {
   "opendb_id": "703e802e-5401-4baa-af2b-bc7caf8d5aa2",
+  "weight": 440,
+  "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "b2f67498-16b9-4419-8160-405519ebd35e",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control"],
+  "color": ["WHITE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "e5573840-7896-4217-b892-05f7d4aac5aa",
+      "basis": "Microphone Body",
+      "width_mm": 53,
+      "depth_mm": 53,
+      "height_mm": 146
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Elgato Wave DX White",
     "manufacturer": "Elgato",
     "series": "Wave DX",
-    "variant": "White"
+    "variant": "White",
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/wave-dx-dynamic-microphone-white"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],

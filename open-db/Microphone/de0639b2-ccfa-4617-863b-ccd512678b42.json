@@ -1,12 +1,37 @@
 {
   "opendb_id": "de0639b2-ccfa-4617-863b-ccd512678b42",
+  "weight": 440,
+  "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "9af5ffb6-008d-4aa5-bbe1-891cb5a0c7b1",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control"],
+  "color": ["PINK"],
+  "physical_dimensions_claims": [
+    {
+      "id": "73875d40-7c0f-4695-931f-b5cbee7fbd99",
+      "basis": "Microphone Body",
+      "width_mm": 53,
+      "depth_mm": 53,
+      "height_mm": 146
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Elgato Wave DX Pink Petal",
     "manufacturer": "Elgato",
     "series": "Wave DX",
-    "variant": "Pink Petal"
+    "variant": "Pink Petal",
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/wave-dx-dynamic-microphone-pink-petal"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],

@@ -6,8 +6,9 @@
     "verticalRes": 720
   },
   "refresh_rate": 60,
+  "native_refresh_activation": "automatic",
   "panel_type": "AHVA",
-  "response_time": 60,
+  "response_time": 16.67,
   "color": ["PURPLE"],
   "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
@@ -24,8 +25,7 @@
       "count": 1,
       "version_label": "2.0",
       "video_signal": "hdmi",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
     },
     {
       "id": "5eca7a3c-745c-40ea-b9cd-fe961cdc622c",
@@ -53,15 +53,13 @@
     "with_stand_kg": 1.67,
     "without_stand_kg": 1
   },
-  "power_consumption": {
-    "typical_w": 5,
-    "manufacturer_max_w": 10
-  },
   "max_brightness": 350,
   "adaptive_sync": "None",
   "metadata": {
     "name": "CORSAIR XENEON EDGE Atomic Purple",
     "manufacturer": "Corsair",
+    "series": "XENEON",
+    "variant": "EDGE",
     "releaseYear": 2025,
     "manufacturer_color": "Purple"
   },

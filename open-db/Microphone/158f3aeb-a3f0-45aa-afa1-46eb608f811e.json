@@ -1,12 +1,37 @@
 {
   "opendb_id": "158f3aeb-a3f0-45aa-afa1-46eb608f811e",
+  "weight": 440,
+  "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "b18b227e-8877-4028-afdc-2617c730dcea",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control"],
+  "color": ["GREEN"],
+  "physical_dimensions_claims": [
+    {
+      "id": "a6b107b8-efdb-432e-924e-065ba1e44c29",
+      "basis": "Microphone Body",
+      "width_mm": 53,
+      "depth_mm": 53,
+      "height_mm": 146
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Elgato Wave DX Forest Green",
     "manufacturer": "Elgato",
     "series": "Wave DX",
-    "variant": "Forest Green"
+    "variant": "Forest Green",
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/wave-dx-dynamic-microphone-forest-green"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],

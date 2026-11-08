@@ -5,15 +5,18 @@
     "horizontalRes": 3840,
     "verticalRes": 2160
   },
-  "panel_type": "OLED",
+  "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
+  "panel_type": "WOLED",
   "response_time": 0.03,
   "color": ["BLACK"],
-  "lighting": ["None"],
+  "lighting": ["ARGB"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
   "video_outputs": {
     "hdmi_2_1": 2,
-    "displayport_1_4a": 1
+    "displayport_2_1": 1,
+    "usb_c": 1
   },
   "display_inputs": [
     {
@@ -41,7 +44,7 @@
       {
         "id": "61afe544-e5bc-4bc8-843e-52bc96cc9084",
         "pattern": "100x100",
-        "mounted_weight_kg": 8.1,
+        "mounted_weight_kg": 5.4,
         "installation": "included_manufacturer_attachment"
       }
     ]
@@ -53,7 +56,7 @@
   },
   "dimensions_without_stand_mm": {
     "width": 606,
-    "height": 548,
+    "height": 369,
     "depth": 63
   },
   "weight": {
@@ -61,7 +64,6 @@
     "without_stand_kg": 5.4
   },
   "power_consumption": {
-    "typical_w": 48,
     "manufacturer_max_w": 50
   },
   "max_brightness": 1000,
@@ -70,6 +72,8 @@
   "metadata": {
     "name": "ASUS ROG Swift OLED PG27UCWM — Black",
     "manufacturer": "ASUS",
+    "series": "ROG",
+    "variant": "Swift OLED PG27UCWM",
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
@@ -77,8 +81,14 @@
     "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-swift-oled-pg27ucwm/"
   },
   "identifiers": {
-    "version": 3,
-    "identifiers": [],
+    "version": 4,
+    "identifiers": [
+      {
+        "type": "upc",
+        "value": "199291335226",
+        "region": "all"
+      }
+    ],
     "retailer_listings": [
       {
         "source": "newegg",

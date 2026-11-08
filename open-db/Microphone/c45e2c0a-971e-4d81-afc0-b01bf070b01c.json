@@ -1,12 +1,37 @@
 {
   "opendb_id": "c45e2c0a-971e-4d81-afc0-b01bf070b01c",
+  "weight": 440,
+  "connectivity_type": ["XLR"],
+  "on_device_ports": [
+    {
+      "id": "8b69a3c4-b0d2-44d0-a782-a3a0e868953d",
+      "connector": "XLR 3-pin",
+      "roles": ["Audio to Host"]
+    }
+  ],
+  "polar_pattern": ["Cardioid"],
+  "features": ["On-Device Mute Control"],
+  "color": ["BLUE"],
+  "physical_dimensions_claims": [
+    {
+      "id": "aa57c4b9-b5ba-4c7d-943a-8f1402a2aa1b",
+      "basis": "Microphone Body",
+      "width_mm": 53,
+      "depth_mm": 53,
+      "height_mm": 146
+    }
+  ],
+  "lighting": ["None"],
   "metadata": {
     "name": "Elgato Wave DX Glacier Ice",
     "manufacturer": "Elgato",
     "series": "Wave DX",
-    "variant": "Glacier ICE"
+    "variant": "Glacier ICE",
+    "releaseYear": 2022
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.elgato.com/ww/en/p/wave-dx-dynamic-microphone-glacier-ice"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],
