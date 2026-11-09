@@ -1,19 +1,66 @@
 {
   "opendb_id": "46709bfc-85f1-455e-9729-2f1cb362c5b1",
+  "weight": 2300,
+  "display_outputs": [
+    {
+      "id": "ef12d3b6-a520-413d-97fa-90202e036014",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "e927333e-de1c-4850-beb3-c2f61129d753",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "External display capability reported as up to 4K at 120 Hz"
+        }
+      ]
+    },
+    {
+      "id": "cfa11f6e-5e0a-4485-bd0b-4c8b63d18e1e",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "connector_label": "Thunderbolt 4"
+    },
+    {
+      "id": "144c715c-6e38-47c0-be03-783f66cd29be",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode"
+    }
+  ],
   "metadata": {
     "name": "Acer Predator Helios Neo 16S AI Gaming Laptop",
     "manufacturer": "Acer",
     "part_numbers": ["PHN16S-71-98RF", "6619312"],
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.acer.com/ca-en/predator/laptops/helios/helios-neo-16s-ai/pdp/NH.QZQAA.001"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0195133285117",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0195133285117",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -22,13 +69,28 @@
       },
       {
         "type": "mpn",
+        "value": "NH.U0KAA.001",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "PHN16S-71-98RF",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PHN16S-71-98RF",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "195133285117",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195133285117",
+        "region": "us"
       }
     ],
     "retailer_listings": [
