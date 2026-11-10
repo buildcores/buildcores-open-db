@@ -1,9 +1,76 @@
 {
   "opendb_id": "86bdeef8-029d-4bd0-99f7-fe206242e03e",
   "screen_size": 31.5,
+  "resolution": {
+    "horizontalRes": 3840,
+    "verticalRes": 2160
+  },
+  "panel_type": "WOLED",
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["None"],
+  "viewing_angle": "178° H x 178° V",
+  "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1
+  },
+  "display_inputs": [
+    {
+      "id": "cb91c387-1470-4df0-80e9-f68275cd1fb5",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d97864b0-fd38-4fbf-8306-f0048cdc4025",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "0266487f-bf8d-4403-b11a-a084f0eb3589",
+        "pattern": "100x100",
+        "mounted_weight_kg": 4.4,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 718.56,
+    "height": 562,
+    "depth": 268
+  },
+  "dimensions_without_stand_mm": {
+    "width": 718.56,
+    "height": 562,
+    "depth": 74
+  },
+  "weight": {
+    "with_stand_kg": 7.6,
+    "without_stand_kg": 4.4
+  },
+  "power_consumption": {
+    "typical_w": 30
+  },
+  "max_brightness": 1500,
+  "hdr": "VESA DisplayHDR 500 True Black",
+  "adaptive_sync": "G-Sync",
   "metadata": {
     "name": "ASUS ROG Strix OLED XG32UQWMS 31.5\" 4K 240Hz WOLED Monitor Black",
-    "manufacturer": "ASUS"
+    "manufacturer": "ASUS",
+    "releaseYear": 2026,
+    "manufacturer_color": "Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqwms/spec/"
