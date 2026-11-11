@@ -114,6 +114,50 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "2516574a-8ee1-421e-9dd1-3034d98de9c6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0ecd02ac-aa3d-4113-a21d-37a8d38a6f1a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports 4K at 60Hz as specified in HDMI 2.1. Graphics capability depends on the installed AMD Ryzen processor."
+        }
+      ]
+    },
+    {
+      "id": "8144c545-79fc-4bac-9133-c970d3977ac1",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7c08d7e4-c2cb-44e6-8b83-5c3a44cb90be",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz as specified in DisplayPort 1.4a. Graphics capability depends on the installed processor."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX X870E-H GAMING WIFI7 HATSUNE MIKU EDITION AM5 DDR5 ATX",
     "manufacturer": "ASUS",

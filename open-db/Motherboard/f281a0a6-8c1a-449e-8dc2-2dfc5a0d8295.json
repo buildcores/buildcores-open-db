@@ -116,6 +116,50 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "484583a8-ab25-4229-86fb-a77cb0983786",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7b402501-2c39-45f9-9854-0b7849c7a90e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz as specified in HDMI 2.1. Available only with processors featuring integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "b60244f2-44fa-466e-aae9-1fbdea6085ac",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a6b5060b-3a2b-4c3d-a0be-3bea786bfef1",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz using DisplayPort 1.4a over USB4. Display capability depends on the resolution supported by the processor or graphics card."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS X870E ROG CROSSHAIR 2006 AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -129,12 +173,22 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-2006/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0199291595705",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0199291595705",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "2006 AM5 ATX",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -147,9 +201,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROGCrosshair2006AM5ATX",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "199291595705",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291595705",
+        "region": "us"
       }
     ],
     "retailer_listings": [

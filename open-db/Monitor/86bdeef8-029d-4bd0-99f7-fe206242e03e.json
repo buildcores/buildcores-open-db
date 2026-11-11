@@ -5,7 +5,19 @@
     "horizontalRes": 3840,
     "verticalRes": 2160
   },
-  "panel_type": "WOLED",
+  "refresh_rate": 240,
+  "native_refresh_activation": "automatic",
+  "alternate_display_modes": [
+    {
+      "id": "52f1c8c2-daa7-4ce8-bac9-72f491791929",
+      "resolution": {
+        "horizontalRes": 1920,
+        "verticalRes": 1080
+      },
+      "refresh_rate": 480
+    }
+  ],
+  "panel_type": "OLED",
   "response_time": 0.03,
   "color": ["BLACK"],
   "lighting": ["None"],
@@ -22,8 +34,7 @@
       "count": 2,
       "version_label": "2.1",
       "video_signal": "hdmi",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
     },
     {
       "id": "d97864b0-fd38-4fbf-8306-f0048cdc4025",
@@ -31,8 +42,7 @@
       "count": 1,
       "version_label": "1.4",
       "video_signal": "displayport",
-      "transport": "native",
-      "graphics_route": "switchable"
+      "transport": "native"
     }
   ],
   "vesa_mounting": {
@@ -42,26 +52,32 @@
         "id": "0266487f-bf8d-4403-b11a-a084f0eb3589",
         "pattern": "100x100",
         "mounted_weight_kg": 4.4,
-        "installation": "included_manufacturer_attachment"
+        "installation": "included_manufacturer_attachment",
+        "attachment": {
+          "hardware_description": "ROG WALL MOUNT"
+        }
       }
     ]
   },
   "dimensions_with_stand_mm": {
-    "width": 718.56,
+    "width": 717.9,
     "height": 562,
-    "depth": 268
+    "height_min": 451.6,
+    "height_max": 561.6,
+    "depth": 188.2
   },
   "dimensions_without_stand_mm": {
-    "width": 718.56,
-    "height": 562,
-    "depth": 74
+    "width": 717.9,
+    "height": 430.5,
+    "depth": 73.9
   },
   "weight": {
-    "with_stand_kg": 7.6,
+    "with_stand_kg": 6.5,
     "without_stand_kg": 4.4
   },
   "power_consumption": {
-    "typical_w": 30
+    "manufacturer_max_w": 30,
+    "note": "Measuring a screen brightness of 200 nits without audio/USB/Card reader connection."
   },
   "max_brightness": 1500,
   "hdr": "VESA DisplayHDR 500 True Black",
@@ -69,6 +85,8 @@
   "metadata": {
     "name": "ASUS ROG Strix OLED XG32UQWMS 31.5\" 4K 240Hz WOLED Monitor Black",
     "manufacturer": "ASUS",
+    "series": "ROG",
+    "variant": "Strix OLED XG32UQWMS",
     "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
@@ -76,8 +94,16 @@
     "manufacturer_url": "https://rog.asus.com/monitors/27-to-31-5-inches/rog-strix-oled-xg32uqwms/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16824281431",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

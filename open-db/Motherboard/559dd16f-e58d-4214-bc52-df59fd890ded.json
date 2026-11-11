@@ -114,6 +114,50 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "fb4e6937-5ff0-48f3-af79-ba7a17434076",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c4e70a92-485d-4b87-98fa-fe12423f07c8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 160,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports 4K at 60Hz as specified in HDMI 2.1."
+        }
+      ]
+    },
+    {
+      "id": "4936e12b-7638-4871-b5c0-80af1b34dda8",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5c4fb110-ac11-457d-97a9-b1861cd9884a",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 8K at 60Hz as specified in DisplayPort 1.4. Requires a compatible display connection through USB-C to DisplayPort adapter cable."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus X870E ProArt CREATOR WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -127,12 +171,17 @@
     "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/proart/proart-x870e-creator-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105730779",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105730779",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -155,9 +204,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ProArt X870E-CREATOR WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105730779",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105730779",
+        "region": "us"
       }
     ],
     "retailer_listings": [

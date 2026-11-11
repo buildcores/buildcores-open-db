@@ -113,6 +113,50 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "cb5e76ef-0ad9-4e67-a0fd-27ebb69dec10",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e7f97dcb-dba8-4292-a081-f1fa63026bd8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz, as specified by ASUS for HDMI 2.1."
+        }
+      ]
+    },
+    {
+      "id": "aa7c9cb5-b0e9-48a1-8399-a3d408404144",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f6c5e9b5-2795-45dd-bf15-74dc5bbbfc24",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz, as specified by ASUS for DisplayPort 1.4a over USB4."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX X870E-H GAMING WIFI7 AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -127,7 +171,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870e-h-gaming-wifi7/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -140,9 +184,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711636167208",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90MB1M90-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1M90-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",

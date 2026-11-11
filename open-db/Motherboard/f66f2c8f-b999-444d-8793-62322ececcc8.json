@@ -122,6 +122,29 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "7d20a54c-0205-4589-bfe9-79a7d2cff733",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3fd88b22-a11e-4a4d-985e-719423ab5ab3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz as specified in DisplayPort 1.4a. Graphics specifications vary depending on the installed processor."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS X870E ROG CROSSHAIR APEX AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -136,12 +159,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-apex/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105890244",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105890244",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -159,9 +187,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E APEX",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105890244",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105890244",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -304,6 +342,13 @@
         "source_product_id": "55435970380158",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "10902078",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",

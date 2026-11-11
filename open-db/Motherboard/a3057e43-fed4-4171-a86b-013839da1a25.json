@@ -112,6 +112,50 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "d299eb64-0d90-439d-b205-92a1985a5236",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f4bfed94-7882-4517-a82b-389c465f31ba",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports 4K at 60Hz as specified in HDMI 2.1. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "7b6a2bfd-9530-4da0-bf6b-49d2d934ed6e",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6943f353-b9c4-4007-959a-5af1c9f461a5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz using DisplayPort 1.4a over USB4 Type-C. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX X870E-A GAMING WIFI7 NEO",
     "manufacturer": "ASUS",

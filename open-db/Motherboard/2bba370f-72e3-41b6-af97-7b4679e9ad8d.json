@@ -116,6 +116,50 @@
     "1 x BIOS FlashBack™  button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "173ee93a-e471-494d-9f88-4cc1827ddc2e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "42dcae9e-974d-4557-b776-2ee5a21277dd",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz as specified in HDMI 2.1. Graphics capability depends on the installed processor."
+        }
+      ]
+    },
+    {
+      "id": "4e833e54-3a06-4a70-bffe-da23413bf4d6",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0eebec39-b867-4e0b-97ce-b07dae6d62a9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz using DisplayPort 1.4a over USB4 Type-C. Graphics capability depends on the installed processor or graphics card."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS X870E ROG CROSSHAIR EXTREME AM5 DDR5 EATX",
     "manufacturer": "ASUS",
@@ -130,12 +174,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105984967",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105984967",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -158,9 +207,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E EXTREME",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105984967",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105984967",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -305,6 +364,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "10995270",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "ASRCHX870EEX",
@@ -400,14 +466,14 @@
         "channel": "ca",
         "source_product_id": "N82E16813119738",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16813119738",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -491,7 +557,7 @@
         "channel": "us",
         "source_product_id": "16641614052",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

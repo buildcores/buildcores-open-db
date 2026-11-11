@@ -116,6 +116,50 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "0acb585d-9db6-4be9-be0a-2772966d5887",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0e8abb9c-493b-448d-94b5-8edc6ab7a416",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports 4K at 60Hz as specified in HDMI 2.1. Refer to AMD CPU graphics specifications."
+        }
+      ]
+    },
+    {
+      "id": "cdc8b582-bb83-4810-b452-61c848e68265",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fb24c11e-274e-415d-bb56-d79217a591ee",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz as specified in DisplayPort 1.4a. USB4 Type-C ports support DisplayPort Alt Mode."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX X870E-E GAMING WIFI7 NEO",
     "manufacturer": "ASUS",
@@ -130,12 +174,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi7-neo/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0199291407947",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0199291407947",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -149,13 +198,28 @@
       },
       {
         "type": "mpn",
+        "value": "ROG STRIX X870E-E GAMING WIFI7 NEO",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "rog-strix-x870e-e-gaming-wifi7-neo",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROGSTRIXX870EEGAMWIFI7NEO",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "199291407947",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291407947",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -269,7 +333,7 @@
         "channel": "us",
         "source_product_id": "6676101",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

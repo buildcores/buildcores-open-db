@@ -112,6 +112,50 @@
     "1 x Line Out Jack (Gold Audio Jack)",
     "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
+  "display_outputs": [
+    {
+      "id": "a06bead2-bde1-4fa0-b14a-99ffff0e78b6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e1a2b7ca-6c91-4c0a-91c1-bddfa2a798a2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "HDMI 2.1 TMDS/FRL 8G compatible; supports HDR and HDCP 2.3; maximum resolution up to 4K at 120Hz."
+        }
+      ]
+    },
+    {
+      "id": "03f7a6e3-3355-4e77-9c68-f2c912fb749c",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d432b467-a1ff-4ad8-9544-0aea31cd489a",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 8K at 30Hz; supports HDCP 2.3. Requires an AM5 Ryzen 9000, 8000, or 7000 processor with embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock X870 Pro RS AM5 DDR5 ATX",
     "manufacturer": "ASRock",

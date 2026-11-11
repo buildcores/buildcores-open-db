@@ -117,6 +117,50 @@
     "1 x BIOS FlashBack™  button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "5ff89a82-6ef0-4088-a2d6-906dca8cd9d5",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2b21de19-bd7c-48bf-a485-fe67c8e701e6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz, as specified for HDMI 2.1."
+        }
+      ]
+    },
+    {
+      "id": "9036d9e9-b6f6-4e4c-adf9-8207670b52c5",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9a5fe94b-5f39-4717-83e5-4932f0f762be",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz using DisplayPort 1.4a over USB4 Type-C."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX X870E-E GAMING WIFI",
     "manufacturer": "ASUS",
@@ -131,12 +175,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105724167",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105724167",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -159,9 +208,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG STRIX X870E-E GAMING WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105724167",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105724167",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -310,7 +369,7 @@
         "channel": "us",
         "source_product_id": "6601396",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

@@ -8,8 +8,8 @@
     "ram_type": "DDR5",
     "slots": 4
   },
-  "color": ["BLACK", "RGB"],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -18,7 +18,7 @@
     },
     {
       "gen": "4.0",
-      "quantity": 1,
+      "quantity": 2,
       "lanes": 4
     }
   ],
@@ -58,7 +58,7 @@
       "controller": "Realtek"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
@@ -109,11 +109,57 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "88fb41ea-5f85-4151-984b-2a3a29c9c82f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4fa8499a-65f1-4b02-94de-3181aeb619d4",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz as specified in HDMI 2.1. Graphics specifications vary depending on the installed CPU."
+        }
+      ]
+    },
+    {
+      "id": "2597a9c6-c99d-4f29-8e30-b8ad785b02a9",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7eaeef92-5f6c-4ca6-ad11-18d26b3f60de",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz as specified in DisplayPort 1.4a. USB4 Type-C supports display output. Graphics specifications vary depending on the installed CPU or graphics card."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX X870E-E GAMING WIFI",
     "manufacturer": "ASUS",
     "part_numbers": ["ROG STRIX X870E-E GAMING WIFI"],
+    "series": "TUF GAMING",
     "variant": "X870E-E GAMING WIFI",
+    "releaseYear": 2024,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-04-27T14:45:31.000Z"
   },
@@ -121,12 +167,17 @@
     "manufacturer_url": "https://rog.asus.com/us/motherboards/rog-strix/rog-strix-x870e-e-gaming-wifi/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105724167",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105724167",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -144,9 +195,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG STRIX X870E-E GAMING WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105724167",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105724167",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -291,6 +352,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "11236381",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "ASRSX870EGW",
@@ -393,14 +461,14 @@
         "channel": "ca",
         "source_product_id": "N82E16813119682",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16813119682",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -477,7 +545,7 @@
         "channel": "us",
         "source_product_id": "12702400408",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

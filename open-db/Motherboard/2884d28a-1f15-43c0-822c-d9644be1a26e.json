@@ -124,6 +124,29 @@
     "1 x BIOS FlashBack™  button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "c480f5fd-c483-4923-9d6c-91528d2b59ea",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "56668692-ce93-4cfd-b122-c3f72339d527",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz as specified in DisplayPort 1.4a. Display output capability depends on the installed processor or graphics card."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG CROSSHAIR X870E GLACIAL",
     "manufacturer": "ASUS",
@@ -138,7 +161,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-glacial/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -146,14 +169,34 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0199291392045",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "ROG CROSSHAIR X870E GLACIAL",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E GLACIAL",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ROGCrosshairX870EGlacial",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "199291392045",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291392045",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -259,6 +302,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0GKR64NY8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12659763",
         "pricing_enabled": true,
         "verified": true
       },

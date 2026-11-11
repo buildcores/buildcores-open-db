@@ -116,6 +116,50 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "82fce933-86cf-469a-a8bb-4d77d8f02383",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ddb86f54-aa1d-4403-9787-77d13e98d7a2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz as specified for HDMI 2.1. Available only with processors featuring integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "588dbb08-a289-46e8-b5ed-b87771b72d4e",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f35ee81e-e7e5-44a9-ba94-0fa5da3f39e0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz using DisplayPort 1.4a over USB4. Display capability depends on the resolution supported by the processor or graphics card."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS X870E ROG CROSSHAIR DARK HERO AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -130,7 +174,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-dark-hero/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -138,14 +182,34 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0199291398672",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG Crosshair X870E DARK HERO",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "ROG CROSSHAIR X870E DARK HERO",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E DARK HERO",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "199291398672",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291398672",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -259,7 +323,7 @@
         "channel": "us",
         "source_product_id": "6677869",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

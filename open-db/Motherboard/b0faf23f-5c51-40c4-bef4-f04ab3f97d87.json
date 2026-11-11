@@ -121,6 +121,50 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "66bfa9cf-553e-4caf-8633-5bc31a8550af",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c61a06af-1c80-4765-9484-fca1bb73b4c8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz as specified for HDMI 2.1."
+        }
+      ]
+    },
+    {
+      "id": "dbdd0ef3-8bed-4b29-84b3-3ecaa8358959",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a493740b-cecd-4b21-87a1-89e7c1b36732",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports maximum 4K at 60Hz using DisplayPort 1.4a over USB4 Type-C."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus ROG CROSSHAIR X870E HERO BTF WIFI DDR5 ATX",
     "manufacturer": "ASUS",
@@ -135,12 +179,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-hero-btf/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0199291227095",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0199291227095",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -158,9 +207,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E HERO BTF",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "199291227095",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291227095",
+        "region": "us"
       }
     ],
     "retailer_listings": [

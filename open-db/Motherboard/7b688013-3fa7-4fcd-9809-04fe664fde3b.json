@@ -116,6 +116,50 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "b02259a3-4922-4df9-aa4d-041e4abdac1b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "88a98726-e1e0-4c45-b1c8-f419b9e89af3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution 4K at 60Hz, as specified for HDMI 2.1. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "d7aa998e-7694-4d64-ba7d-265cbd0cb167",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8e9101e5-92aa-4eea-b192-25b141436390",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution 4K at 60Hz using DisplayPort 1.4a over USB4 Type-C. Display capability depends on the processor or graphics card."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus ROG CROSSHAIR X870E HERO WIFI DDR5 ATX",
     "manufacturer": "ASUS",
@@ -130,12 +174,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-hero/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105710306",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105710306",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -159,13 +208,28 @@
       },
       {
         "type": "mpn",
+        "value": "ASUS Vivobook 16 Laptop",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "ROG CROSSHAIR X870E HERO",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG CROSSHAIR X870E HERO",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "197105710306",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105710306",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -314,7 +378,7 @@
         "channel": "us",
         "source_product_id": "6601432",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
