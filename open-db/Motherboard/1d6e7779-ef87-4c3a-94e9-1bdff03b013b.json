@@ -9,48 +9,38 @@
     "slots": 4
   },
   "color": ["BLACK", "PURPLE"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2230-2260",
+      "size": "2230/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -60,6 +50,7 @@
       "controller": "Intel Killer E3100G"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -67,23 +58,99 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4082",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel Killer E3100G)"],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x Optical SPDIF Out Port",
+    "2 x USB4 Type-C Ports (40 Gb/s)",
+    "3 x USB 3.2 Gen1 Type-A Ports (USB32_12 are Lightning Gaming Ports.)",
+    "2 x USB 3.2 Gen2 Type-A Ports (10 Gb/s) (USB32_34 supports Ultra USB Power.)",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "1 x Line Out Jack (Gold Audio Jack)",
+    "1 x Microphone Input Jack (Gold Audio Jack)"
+  ],
+  "display_outputs": [
+    {
+      "id": "e00d58f4-bd66-4bca-bdfa-eca1c296ed8f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f7e7fbf6-62c7-4908-9fa7-efe06e41fe98",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires a supported processor with integrated graphics. Maximum resolution up to 4K at 120Hz."
+        }
+      ]
+    },
+    {
+      "id": "f49f47f8-70b0-4842-be15-3701eb790a89",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4",
+      "video_signal": "displayport",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "deba495f-3873-4cf1-a1dc-d27c36e99e93",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Up to 8K at 30Hz. Requires CPU embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
-    "name": "ASRock X870 Phantom Gaming Riptide WiFi AM5 DDR5 ATX",
+    "name": "ASRock AMD X870 Phantom Gaming Riptide WiFi AM5 DDR5 ATX",
     "manufacturer": "ASRock",
     "part_numbers": [
       "X870 Riptide WiFi",
@@ -93,11 +160,14 @@
     ],
     "series": "Phantom Gaming",
     "variant": "X870 Riptide WIFI",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://pg.asrock.com/mb/AMD/X870%20Riptide%20WiFi/index.asp#Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -105,9 +175,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4710483949357",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90-MXBPP0-A0UAYAZ",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBPP0-A0UAYAZ",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -123,6 +203,11 @@
         "type": "mpn",
         "value": "X870 RIPTIDE WIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 RIPTIDE WIFI",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -353,7 +438,7 @@
         "channel": "us",
         "source_product_id": "N82E16813162164",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -437,7 +522,7 @@
         "channel": "us",
         "source_product_id": "12427974203",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -50,10 +50,10 @@
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Dragon"
+      "controller": "Dragon RTL8125BG"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2
@@ -99,6 +99,51 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "d524452c-3f01-4766-b451-9487b2c9b0dd",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "452470d1-c5eb-4b2a-8e6a-7f51b8113ad4",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 TMDS/FRL 8G compatible; supports HDR and HDCP 2.3; maximum 4K at 120Hz."
+        }
+      ]
+    },
+    {
+      "id": "f703e92e-f263-4057-8357-ce514a2dddb7",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 40Gbps",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "de4e4821-7e5d-4c89-ae8d-7487ce9b16bb",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 8K at 30Hz; supports HDCP 2.3. Requires a supported AM5 Ryzen processor with embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "AsRock X870 Challenger WIFI White",
     "manufacturer": "ASRock",
@@ -109,10 +154,10 @@
     "manufacturer_color": "White"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asrock.com/MB/AMD/X870%20Challenger%20WiFi/index.asp#Manual"
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/X870%20Challenger%20WiFi/index.asp#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -120,9 +165,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711581493865",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X870 Challenger WiFi White",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 Challenger WiFi White",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -233,6 +288,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0GWM7NRL8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13174344",
         "pricing_enabled": true,
         "verified": true
       },

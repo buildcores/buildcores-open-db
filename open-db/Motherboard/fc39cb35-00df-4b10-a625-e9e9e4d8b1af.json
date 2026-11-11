@@ -57,7 +57,7 @@
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
-      "controller": "Aquantia AQC113CS"
+      "controller": "Aquantia AQC113"
     },
     {
       "speed": "5 Gb/s",
@@ -119,6 +119,51 @@
     "1 x Line Out Jack",
     "1 x Microphone Input Jack"
   ],
+  "display_outputs": [
+    {
+      "id": "1d2859a5-e6f6-4249-b128-3d8818ec8d7b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c38ef628-ec6f-478c-bdb9-58ca735b10b5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 TMDS/FRL 8G compatible; supports HDR and HDCP 2.3; maximum resolution up to 4K at 120Hz."
+        }
+      ]
+    },
+    {
+      "id": "811c5627-fc46-4214-8b1c-76e11e7ed43f",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "79a7c273-e717-4a8c-82b7-a29c39a79b88",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 8K at 30Hz; supports HDCP 2.3. Requires a supported AM5 Ryzen processor with embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock X870 Taichi Creator AM5 DDR5 ATX",
     "manufacturer": "ASRock",
@@ -129,15 +174,25 @@
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://static.buildcores.com/part-attachments/fc39cb35-00df-4b10-a625-e9e9e4d8b1af_X870_Taichi_Creator.pdf"
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/X870%20Taichi%20Creator/index.asp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4711581492066",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711581492066",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90-MXBTE0-A0UAYZ",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -148,6 +203,11 @@
         "type": "mpn",
         "value": "X870 TAICHI CREATOR",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 TAICHI CREATOR",
+        "region": "us"
       },
       {
         "type": "upc",

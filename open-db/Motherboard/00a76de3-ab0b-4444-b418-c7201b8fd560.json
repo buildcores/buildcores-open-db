@@ -53,7 +53,7 @@
       "controller": "Dragon RTL8125BG"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2
@@ -99,6 +99,51 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "5a4e908d-f394-4c3b-bd0a-a43d5c3e6331",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2aa66647-198c-4b27-aeac-02af61467357",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 TMDS/FRL 8G compatible; supports HDR and HDCP 2.3; maximum 4K at 120Hz."
+        }
+      ]
+    },
+    {
+      "id": "1ece9cbc-1206-46f5-aa74-cea075a1a523",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 40Gbps",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "90a22606-46b2-48b4-ac2a-ed7b7f057dfe",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 8K at 30Hz; supports HDCP 2.3. Requires a supported AM5 Ryzen processor with embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASROCK X870 Challenger WIFI",
     "manufacturer": "ASRock",
@@ -112,12 +157,17 @@
     "manufacturer_url": "https://www.asrock.com/MB/AMD/X870%20Challenger%20WiFi/index.asp#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4711581492370",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711581492370",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -126,8 +176,18 @@
       },
       {
         "type": "mpn",
+        "value": "90-MXBUK0-A0UAYAZ",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "X870 Challenger WiFi",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 Challenger WiFi",
+        "region": "us"
       },
       {
         "type": "upc",

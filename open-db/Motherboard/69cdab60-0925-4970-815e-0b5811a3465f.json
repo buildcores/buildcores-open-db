@@ -58,8 +58,8 @@
   "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 3,
+    "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
@@ -104,6 +104,51 @@
     "1 x BIOS Flashback Button",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "cf6fd640-2830-4e7d-ba13-7e8a2cf06483",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a505ad1f-54a4-4957-a07e-803b2e10787a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum resolution up to 4K at 120Hz; supports HDR and HDCP 2.3."
+        }
+      ]
+    },
+    {
+      "id": "67c3f041-6ff1-4831-b1d8-1203b6951804",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "15cee42c-c082-4d10-926d-ac0761ed68de",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 8K at 30Hz; requires a supported AM5 Ryzen processor with embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock X870 Pro-A WiFi DDR5 ATX",
     "manufacturer": "ASRock",
@@ -113,9 +158,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/mb/AMD/X870%20Pro-A%20WiFi/index.asp"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -123,9 +170,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4710483942310",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X870 Pro-A WiFi",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 Pro-A WiFi",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 PRO-A WIFI",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -345,6 +407,13 @@
         "source_product_id": "AR202509030008",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "16989107326",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

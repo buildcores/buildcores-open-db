@@ -9,29 +9,29 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
-      "quantity": 2,
-      "lanes": 4
+      "quantity": 1,
+      "lanes": 1
     },
     {
       "gen": "4.0",
-      "quantity": 1,
-      "lanes": 1
+      "quantity": 2,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
       "size": "2280",
@@ -44,23 +44,13 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2230-2242",
+      "size": "2230 / 2242 / 2260 / 2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -77,30 +67,135 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 0,
+    "thunderbolt": 0,
+    "com_port": 0
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin, 8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
+  "back_panel_ports": [
+    "2 x Antenna Mounting Points",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x Thunderbolt™ 4/USB4 Type-C Port (40 Gb/s)",
+    "1 x USB 3.2 Gen2x2 Type-C Port (20 Gb/s)",
+    "1 x USB 3.2 Gen2 Type-A Port (10 Gb/s)",
+    "2 x USB 3.2 Gen1 Ports",
+    "4 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "display_outputs": [
+    {
+      "id": "22ba9e67-1712-4ea4-9082-1ef22ae5737f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bd16d35b-8716-42c4-bdf1-81af9ec3da12",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Up to 4K at 120Hz; requires a compatible CPU with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "c009c2ff-d1ab-4f7b-9d1c-aaef5e6af68c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "21aa804e-9eea-4ebd-9731-b417e4de6968",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Up to 8K at 60Hz or 5K at 120Hz; DSC compression supported"
+        }
+      ]
+    },
+    {
+      "id": "44f23df0-b3cc-439a-ab55-debbd651585b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "Thunderbolt 4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "connector_label": "USB4 Type-C",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "24f50209-3d1f-4606-8a2b-b7208c7adb98",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Up to 8K at 60Hz or 5K at 120Hz; video output requires a CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock Z890 Pro-A",
     "manufacturer": "ASRock",
     "part_numbers": ["Z890 Pro-A", "90-MXBP50-A0UAYZ", "Z890 PRO-A"],
     "series": "Pro",
     "variant": "Z890-A",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/mb/Intel/Z890%20Pro-A/index.asp"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

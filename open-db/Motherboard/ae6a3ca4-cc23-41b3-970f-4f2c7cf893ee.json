@@ -118,6 +118,51 @@
     "1 x Line Out Jack (Gold Audio Jack)",
     "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
+  "display_outputs": [
+    {
+      "id": "9eabd8ec-950f-4cef-89c7-737f9c4099d5",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f1784f79-e7b3-4c2c-8b73-1bca612c9c86",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "HDMI 2.1 TMDS/FRL 8G compatible; supports HDR and HDCP 2.3; maximum resolution up to 4K at 120Hz."
+        }
+      ]
+    },
+    {
+      "id": "804f67c1-cf01-425a-84f3-e730ff38614f",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "USB4 (40 Gbps)",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d0fb1e87-b4e4-4298-9b11-ef66ce46cd57",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 8K at 30Hz; supports HDCP 2.3. Requires a supported AM5 Ryzen 9000, 8000, or 7000 processor with embedded graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock X870 LiveMixer WiFi AM5 DDR5 ATX",
     "manufacturer": "ASRock",
