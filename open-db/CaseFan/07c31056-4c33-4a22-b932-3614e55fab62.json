@@ -9,7 +9,7 @@
   "size": 420,
   "flow_direction": "Reverse",
   "controller": "be quiet! IO Controller",
-  "max_airflow": 66.88,
+  "max_airflow": 67.74,
   "static_pressure": 1.59,
   "max_noise_level": 30.8,
   "opendb_id": "07c31056-4c33-4a22-b932-3614e55fab62",
@@ -31,6 +31,11 @@
         "type": "mpn",
         "value": "BL153",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4260052194034",
+        "region": "all"
       }
     ],
     "retailer_listings": [
@@ -38,6 +43,13 @@
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16835269056",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "scan-computer",
+        "channel": "uk",
+        "source_product_id": "176063",
         "pricing_enabled": true,
         "verified": false
       }
