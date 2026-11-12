@@ -102,6 +102,51 @@
     "1 x Line Out Jack (Gold Audio Jack)",
     "1 x Microphone Input Jack (Gold Audio Jack)"
   ],
+  "display_outputs": [
+    {
+      "id": "27df1ad1-3f5f-4ea6-b907-e4bd3897bc34",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5643c496-f98c-4a0e-a1f3-4e797c1232ea",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "60d5a0ae-7f60-4e9b-a5dc-28ae4084eb5b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cad2c56f-1f04-4eb9-b08d-a47eda3e462a",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum 8K at 60Hz or 5K at 120Hz with DSC. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASROCK PHANTOM GAMING B760I LIGHTNING WIFI LGA1700 DDR5 MINI-ITX",
     "manufacturer": "ASRock",
@@ -116,12 +161,17 @@
     "manufacturer_url": "https://pg.asrock.com/mb/Intel/B760I%20Lightning%20WiFi/index.asp#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710483946677",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710483946677",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -137,6 +187,11 @@
         "type": "mpn",
         "value": "B760ILIGHTNINGWIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760ILIGHTNINGWIFI",
+        "region": "us"
       }
     ],
     "retailer_listings": [

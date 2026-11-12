@@ -115,6 +115,51 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "4d3f1381-e527-4ed6-ad35-d674a88951b7",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "597bea92-dfd3-4e7f-a11b-e39df8dda4a6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "7bd3ffa8-e27d-40ae-807a-f489bd6dc5e8",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6657eb99-1986-4013-9c9b-a8aaf04191fd",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum 8K at 60Hz or 5K at 120Hz with DSC. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASROCK B760 PRO RS LGA1700 DDR5 ATX",
     "manufacturer": "ASRock",
@@ -129,12 +174,17 @@
     "manufacturer_url": "https://www.asrock.com/mb/Intel/B760%20Pro%20RS/#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710483942044",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710483942044",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -150,6 +200,11 @@
         "type": "mpn",
         "value": "B760 PRO RS",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760 PRO RS",
+        "region": "us"
       }
     ],
     "retailer_listings": [

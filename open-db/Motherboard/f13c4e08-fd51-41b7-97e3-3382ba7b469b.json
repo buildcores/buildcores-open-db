@@ -116,6 +116,73 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "135ae01f-4772-49cf-8d86-a695c59f25ae",
+      "connector": "other",
+      "count": 1,
+      "version_label": "eDP 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "Embedded DisplayPort (eDP)",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ce0f0b0e-66c2-4305-aca3-416be07b8436",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum Full HD at 60Hz. Supports ASRock 13.3-inch Side Panel Kit. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "fa0b67c9-aa2d-40ea-b8a9-59f61f6c7805",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "241d4d01-74ee-4df8-89d7-f5a579a25837",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "4ec4771a-c242-42a1-bbf3-2f4b005e7762",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b3e1f6e7-5fe0-44c8-87c6-b037cd3d7e48",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum 8K at 60Hz or 5K at 120Hz with DSC. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock B760 Pro RS WiFi White LGA1700 DDR5 ATX",
     "manufacturer": "ASRock",

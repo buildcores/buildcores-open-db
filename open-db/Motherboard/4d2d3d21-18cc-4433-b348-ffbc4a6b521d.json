@@ -106,6 +106,51 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "218a05e0-9c84-4fe7-87ad-97068b1a5f5f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "491aee32-5fff-477c-b1cf-a0f7347c4363",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "f5d1778b-28c9-4517-b754-b8757e3194fd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f8da0b91-88cb-4a26-bdc6-332048dbb64d",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum 8K at 60Hz or 5K at 120Hz with DSC. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock B760M PG RIPTIDE WIFI AM5 DDR5 MICRO-ATX",
     "manufacturer": "ASRock",
@@ -119,7 +164,7 @@
     "manufacturer_url": "https://pg.asrock.com/mb/Intel/B760M%20PG%20Riptide%20WiFi/index.asp#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -132,6 +177,11 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4710483943836",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "B760M PG Riptide Wifi",
         "region": "all"
@@ -140,6 +190,11 @@
         "type": "mpn",
         "value": "B760M PG RIPTIDE WIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760M PG RIPTIDE WIFI",
+        "region": "us"
       }
     ],
     "retailer_listings": [

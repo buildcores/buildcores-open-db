@@ -106,6 +106,51 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "5fa939de-7077-4d86-a33d-3d40bfbb383d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "99de795d-bb20-4408-8bd8-a7ec06bf14d2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum resolution up to 4K at 60Hz. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "14abfbea-972e-4d4b-bc34-c84ffe6a25dd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bb3a7e97-6453-4824-91d6-46405452bb71",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum resolution up to 8K at 60Hz or 5K at 120Hz. DSC compression supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASROCK B760M PG RIPTIDE LGA1700 DDR5 MICRO ATX",
     "manufacturer": "ASRock",
@@ -119,12 +164,17 @@
     "manufacturer_url": "https://pg.asrock.com/mb/Intel/B760M%20PG%20Riptide/index.asp#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710483942211",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710483942211",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -140,6 +190,11 @@
         "type": "mpn",
         "value": "B760M PG RIPTIDE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760M PG RIPTIDE",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -288,7 +343,7 @@
         "channel": "us",
         "source_product_id": "N82E16813162107",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "proshop",
@@ -338,6 +393,13 @@
         "source_product_id": "2873119",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "2124750917",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

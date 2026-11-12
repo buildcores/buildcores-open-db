@@ -112,6 +112,61 @@
     "1 x RJ-45 LAN Port",
     "HD Audio Jacks: Line in / Front Speaker / Microphone"
   ],
+  "display_outputs": [
+    {
+      "id": "1bbbe7df-e81b-43b6-957b-009d1a0a5180",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ccee5b36-233f-44a9-a3ee-fbd5f3ab80ee",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "742b053b-2577-4964-86da-37ac16545861",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "648cedd6-39b4-4db8-b265-8b89376f6cdf",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum 8K at 60Hz or 5K at 120Hz using DSC. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "96995545-1312-444c-9b8f-a3d3f6da6c70",
+      "connector": "other",
+      "count": 1,
+      "version_label": "eDP 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "Embedded DisplayPort (eDP)",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "ASROCK B760M PG SONIC WIFI LGA1700 DDR5 MICRO ATX",
     "manufacturer": "ASRock",
@@ -125,12 +180,17 @@
     "manufacturer_url": "https://pg.asrock.com/mb/Intel/B760M%20PG%20SONIC%20WiFi/Specification.asp#Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710483941788",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710483941788",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -146,6 +206,11 @@
         "type": "mpn",
         "value": "B760MPGSONICWIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760MPGSONICWIFI",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -378,7 +443,7 @@
         "channel": "us",
         "source_product_id": "1052485613",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

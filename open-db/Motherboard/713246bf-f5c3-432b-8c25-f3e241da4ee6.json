@@ -4,15 +4,15 @@
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     },
@@ -24,43 +24,28 @@
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2230",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe/USB"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -70,15 +55,29 @@
       "controller": "Realtek RTL8125BG"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -88,21 +87,102 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x PS/2 Mouse/Keyboard Port",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen2 Type-A Port (10 Gb/s)",
+    "1 x USB 3.2 Gen2 Type-C Port (10 Gb/s)",
+    "4 x USB 3.2 Gen1 Ports",
+    "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "display_outputs": [
+    {
+      "id": "8b0a297c-2aac-4abe-940d-b992f96f3fda",
+      "connector": "other",
+      "count": 1,
+      "version_label": "eDP 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "connector_label": "Embedded DisplayPort (eDP)",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7b67ecf8-356a-4b93-86e0-957d99041743",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum Full HD at 60Hz. Supports ASRock 13.3-inch Side Panel Kit. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "9b899adc-bfb1-43fa-8a09-c8c714e31822",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0984f0fc-c1f2-40ef-a52f-2cd9e08761d8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "44421ec7-809e-4680-9a27-680f17a668ce",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bf3ad40f-9345-409a-9ed7-bc06f9832b71",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Maximum 8K at 60Hz or 5K at 120Hz with DSC. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock B760M Steel Legend WiFi DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": ["B760M Steel Legend WiFi", "90-MXBL70-A0UAYZ", "B760M STEEL LEGEND WIFI"],
     "series": "Steel Legend",
     "variant": "B760M WiFi",
+    "releaseYear": 2023,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/mb/Intel/B760M%20Steel%20Legend%20WiFi/index.asp"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -360,7 +440,7 @@
         "channel": "us",
         "source_product_id": "N82E16813162106",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -437,7 +517,7 @@
         "channel": "us",
         "source_product_id": "2944936983",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
