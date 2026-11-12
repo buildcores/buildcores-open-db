@@ -4,12 +4,12 @@
   "form_factor": "Micro ATX",
   "chipset": "Intel B760",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -17,14 +17,14 @@
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
@@ -34,18 +34,13 @@
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2230",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -62,8 +57,24 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -73,26 +84,64 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
+  "back_panel_ports": [
+    "2 x Antenna Mounting Points",
+    "2 x HDMI Ports",
+    "4 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "display_outputs": [
+    {
+      "id": "1b274dc0-a626-47f2-9bc2-d45a6ca59893",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "52349c91-ef2e-4be3-bc3e-22f355178367",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4K at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock B760M-H2/M.2 DDR5 Micro ATX",
     "manufacturer": "ASRock",
     "part_numbers": [],
     "series": "Default",
     "variant": "B760M-H2/M.2",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/MB/Intel/B760M-H2M.2/index.asp"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4710483944215",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4710483944215",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -108,6 +157,11 @@
         "type": "mpn",
         "value": "B760M-H2/M.2",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B760M-H2/M.2",
+        "region": "us"
       },
       {
         "type": "mpn",
