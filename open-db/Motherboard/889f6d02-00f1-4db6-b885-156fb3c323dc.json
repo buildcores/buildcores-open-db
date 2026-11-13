@@ -4,12 +4,12 @@
   "form_factor": "ATX",
   "chipset": "Intel Z690",
   "memory": {
-    "max": 192,
+    "max": 128,
     "ram_type": "DDR4",
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -26,22 +26,22 @@
     {
       "size": "2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     },
     {
       "size": "2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     },
     {
       "size": "2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     },
     {
       "size": "2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "SATA and PCIe 4.0 x4/x2"
     }
   ],
   "storage_devices": {
@@ -55,7 +55,6 @@
       "controller": "Intel"
     }
   ],
-  "wireless_networking": "Wifi 6 Bluetooth 5.2",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -66,7 +65,7 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 4,
-    "pump": 2,
+    "pump": 3,
     "cpu_opt": 1
   },
   "rgb_headers": {
@@ -81,14 +80,14 @@
   },
   "other_headers": {
     "temperature_sensor": 2,
-    "thunderbolt": 1,
+    "thunderbolt": 2,
     "com_port": 1
   },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "4-pin"]
   },
-  "ecc_support": true,
+  "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -112,12 +111,57 @@
     "1 x Optical S/PDIF Out connector",
     "2 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "32e90efe-98b0-4eb4-81f9-9864d987fcf6",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d2276aba-5be9-4d1c-9646-1b4da5757cee",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2304 @ 60 Hz; HDCP 2.3; USB Type-C supports DisplayPort video output; requires supported CPU integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "5c0e3efe-e8d1-43c6-9850-6d86aab48a27",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cc86d33d-f3f9-4344-863a-68fa8561f0fe",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 30 Hz; HDCP 2.3; requires supported CPU integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte Z690 AERO G DDR4",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690 AERO G DDR4", "Z690"],
     "series": "AERO",
     "variant": "Z690 G DDR4",
+    "releaseYear": 2021,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2025-12-23T00:03:27.949Z"
   },
@@ -125,12 +169,17 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-AERO-G-DDR4-rev-1x"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0889523030011",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0889523030011",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -139,13 +188,28 @@
       },
       {
         "type": "mpn",
+        "value": "Z690",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "Z690 AERO G DDR4",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z690 AERO G DDR4",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "889523030011",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523030011",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -273,7 +337,7 @@
         "channel": "us",
         "source_product_id": "907961311",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

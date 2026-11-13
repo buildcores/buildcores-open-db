@@ -1,7 +1,7 @@
 {
   "opendb_id": "b08b886e-e34f-429d-b054-e6b6dc5314fb",
   "form_factor": "ATX Full Tower",
-  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX"],
+  "supported_motherboard_form_factors": ["ATX", "Micro ATX", "Mini-ITX", "EATX"],
   "color": ["WHITE"],
   "lighting": ["ARGB"],
   "power_supply": "None",
@@ -10,11 +10,11 @@
   "side_panel": "Tempered Glass",
   "has_transparent_side_panel": true,
   "front_panel_usb": "2x USB 3.0",
-  "front_usb_ports": ["2 x USB Type-A 5Gbps"],
+  "front_usb_ports": ["\"2 x USB 3.2 Gen 1 Type-A"],
   "max_video_card_length": 455,
   "max_cpu_cooler_height": 185,
   "max_psu_length": 205,
-  "internal_3_5_bays": 3,
+  "internal_3_5_bays": 2,
   "internal_2_5_bays": 2,
   "expansion_slots": 8,
   "supports_rear_connecting_motherboard": false,
@@ -24,8 +24,8 @@
     "width": 230,
     "height": 520
   },
-  "volume": 62.431,
-  "weight": 21.2746,
+  "volume": 62.5,
+  "weight": 21.38,
   "metadata": {
     "name": "Fractal Design Pop XL Air ATX Full Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A",
     "manufacturer": "Fractal Design",
@@ -40,7 +40,7 @@
     "manufacturer_url": "https://www.fractal-design.com/products/cases/pop-series/pop-xl-air/pop-xl-air-rgb-white-tg-clear-tint/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -381,13 +381,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "2760747",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "1329415752",
         "pricing_enabled": true,
         "verified": false
       }

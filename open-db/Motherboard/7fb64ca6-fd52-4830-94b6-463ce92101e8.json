@@ -2,7 +2,7 @@
   "opendb_id": "7fb64ca6-fd52-4830-94b6-463ce92101e8",
   "socket": "LGA 1700",
   "form_factor": "ATX",
-  "chipset": "Intel Z690",
+  "chipset": "Intel Z790",
   "memory": {
     "max": 128,
     "ram_type": "DDR4",
@@ -103,26 +103,65 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "35aacca5-b168-44e9-af18-53b78ffbccec",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "83cff3b2-94e7-4141-aad8-4078a05efba1",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 60 Hz; HDCP 2.3; requires supported Intel CPU integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "7bc05114-36bf-47d2-ab50-9bd5c3fdf189",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "42a59f20-7d6d-44ac-b18e-ffbca09f0b9f",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2304 @ 60 Hz; HDCP 2.3; requires supported Intel CPU integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
-    "name": "Gigabyte Z690 AORUS ELITE AX DDR4 V2",
+    "name": "GIGABYTE Z790 AORUS ELITE AX LGA1700 DDR5 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690-AORUS-ELITE-AX-DDR4-V2-rev-10", "Z790 AORUS ELITE AX"],
     "series": "AORUS",
-    "variant": "Z690 ELITE AX DDR4 V2",
+    "variant": "Z790 ELITE AX",
     "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-AORUS-ELITE-AX-DDR4-V2-rev-10/sp"
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
-      {
-        "type": "mpn",
-        "value": "Z690-AORUS-ELITE-AX-DDR4-V2-rev-10",
-        "region": "all"
-      },
       {
         "type": "mpn",
         "value": "Z790 AORUS ELITE AX",
@@ -240,7 +279,7 @@
         "channel": "us",
         "source_product_id": "6582204",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "caseking",

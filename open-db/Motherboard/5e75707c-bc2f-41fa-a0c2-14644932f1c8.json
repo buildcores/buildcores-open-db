@@ -8,35 +8,25 @@
     "ram_type": "DDR4",
     "slots": 2
   },
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     }
   ],
   "storage_devices": {
@@ -47,9 +37,10 @@
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Unknown"
+      "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -57,30 +48,101 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "reset_button": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
-  "raid_support": false,
+  "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s"],
+  "back_panel_ports": [
+    "2 x SMA antenna connectors (2T2R)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x USB Type-C® port, with USB 3.2 Gen 2x2 support",
+    "3 x USB 3.2 Gen 2 Type-A ports (red)",
+    "2 x USB 3.2 Gen 1 ports",
+    "2 x USB 2.0/1.1 ports",
+    "1 x Q-Flash Plus button",
+    "1 x RJ-45 port",
+    "2 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "718d9d06-6b5c-4908-9242-3abbdab05268",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d7128f63-76de-4afa-8655-b6f5dbd3f239",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 60 Hz; HDCP 2.3; requires supported CPU integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "d3a0663e-d124-47f8-8cf5-35f03fb2d92d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8cf1d482-32c3-4d3e-b5f8-cb46554688e9",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 5120 × 2160 @ 60 Hz; HDCP 2.3; requires supported CPU integrated graphics; DisplayPort does not support HDMI connection by adapter"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte Z690I AORUS ULTRA PLUS DDR4",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690I AORUS ULTRA PLUS DDR4 (rev. 1.0)", "Z690I AORUS ULTRA PLUS DDR4"],
     "series": "AORUS",
     "variant": "Z690I ULTRA PLUS DDR4",
-    "manufacturer_color": "Black"
+    "releaseYear": 2022,
+    "manufacturer_color": "Black / Grey"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/Z690I-AORUS-ULTRA-PLUS-DDR4-rev-10/sp"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

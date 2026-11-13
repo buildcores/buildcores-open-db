@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -103,14 +103,32 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690M-DS3H-DDR4-rev-10"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331830625",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "Z690M DS3H DDR4",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "Z690M-DS3H-DDR4-rev-10",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09QFS18B9",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

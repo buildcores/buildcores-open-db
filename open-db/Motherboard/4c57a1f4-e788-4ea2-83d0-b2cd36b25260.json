@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -61,6 +61,9 @@
     "argb_5v": 1,
     "rgb_12v": 1
   },
+  "front_panel_headers": {
+    "reset_button": true
+  },
   "other_headers": {
     "thunderbolt": 0,
     "com_port": 1
@@ -91,18 +94,69 @@
     "3 x audio jacks",
     "1 x Q-Flash Plus button"
   ],
+  "display_outputs": [
+    {
+      "id": "31ba84c2-c5a1-4a66-9f38-0a7720341387",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c2cb53f2-a1ab-4058-9518-ba5389d9d00a",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 60 Hz; HDCP 2.3; requires supported Intel CPU integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "e62298a3-42c6-43cb-b62e-edd4371c221a",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c1620e89-d46c-47c1-91f1-e2a7800ae998",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2304 @ 60 Hz; first DisplayPort explicitly lists HDCP 2.3; requires supported Intel CPU integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte Z690M DS3H DDR4 (rev. 1.0)",
     "manufacturer": "Gigabyte",
     "part_numbers": [],
-    "variant": "Z690M DS3H"
+    "variant": "Z690M DS3H",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690M-DS3H-DDR4-rev-10/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331830625",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "Z690M DS3H DDR4",
@@ -110,10 +164,30 @@
       },
       {
         "type": "mpn",
+        "value": "Z690M DS3H DDR4",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "Z690M DS3H DDR4 (rev. 1.0)",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09QFS18B9",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAHEBJXJ3086",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

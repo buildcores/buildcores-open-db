@@ -8,8 +8,8 @@
     "ram_type": "DDR4",
     "slots": 4
   },
-  "color": ["BLACK"],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -58,7 +58,7 @@
   "wireless_networking": "Wi-Fi 6 / Wi-Fi 6E",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 0,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
@@ -66,12 +66,14 @@
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 1
+    "pump": 1
   },
   "rgb_headers": {
     "argb_5v": 2,
     "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "reset_button": true
   },
   "other_headers": {
     "thunderbolt": 2,
@@ -104,18 +106,64 @@
     "1 x RJ-45 port",
     "3 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "b490775b-c4b2-41c5-ba62-0d31ca59de4b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "85d8b0ac-2003-460b-895e-b8efbf1ddda7",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 60 Hz; HDCP 2.3; requires supported CPU integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "c84873fe-eb86-4cb5-87d1-1adc9d49bdfd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "62d749e9-c6b2-4a2e-ae38-c6a281aecf1a",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2304 @ 60 Hz; HDCP 2.3; requires supported CPU integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte Z690 UD AX DDR4 (rev. 1.x)",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690 UD AX DDR4"],
     "series": "Ultra Durable",
-    "variant": "Z690 AX"
+    "variant": "Z690 AX",
+    "releaseYear": 2021,
+    "manufacturer_color": "Black / Grey"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-UD-AX-DDR4-rev-1x/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -251,14 +299,14 @@
         "channel": "us",
         "source_product_id": "N82E16813145348",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "861805437",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

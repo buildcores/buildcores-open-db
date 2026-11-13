@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -103,6 +103,50 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "f4a84b85-11b8-44e9-b921-48063ee337fb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "567d958c-d6c5-4014-b01f-925dadb332f0",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 60 Hz; HDCP 2.3; requires supported Intel CPU integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "9967f1fc-6c86-41e8-acf7-280942a134bf",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b235123d-44c7-4482-b196-28c53350a255",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2304 @ 60 Hz; HDCP 2.3; requires supported Intel CPU integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte Z690 GAMING X DDR4 V2",
     "manufacturer": "Gigabyte",
@@ -116,7 +160,7 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-GAMING-X-DDR4-V2-rev-10/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -125,6 +169,13 @@
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BXT2T9PR",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "walmart",
         "channel": "us",

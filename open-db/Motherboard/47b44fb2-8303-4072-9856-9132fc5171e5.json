@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -58,19 +58,23 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
     "case_fan": 3,
-    "pump": 1,
-    "cpu_opt": 1
+    "pump": 2
   },
   "rgb_headers": {
     "argb_5v": 2,
     "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
   },
   "other_headers": {
     "thunderbolt": 2
@@ -101,13 +105,58 @@
     "1 x optical S/PDIF Out connector",
     "2 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "82ab197d-d622-4a70-9314-1b13c62a9c0f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 TMDS Compatible",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "eb143ba1-09bb-4bfb-a663-e97aacb935ad",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    },
+    {
+      "id": "e56efa92-1d59-497d-9fcf-7609180d0a5b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "de63be6a-5ecd-44aa-821b-8b1de5b0d22e",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2304 at 60Hz. HDCP 2.3 supported. Requires a processor with integrated graphics."
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte Z690 AORUS ELITE DDR4 (rev. 1.x)",
     "manufacturer": "Gigabyte",
     "part_numbers": ["Z690 AORUS ELITE DDR4", "Z690AORUSELITEDDR4"],
     "series": "AORUS",
     "variant": "Z890 ELITE",
-    "manufacturer_color": "Black/Grey"
+    "releaseYear": 2021,
+    "manufacturer_color": "Black / Grey"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/Z690-AORUS-ELITE-DDR4-rev-1x/sp"
