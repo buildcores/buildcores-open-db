@@ -1,5 +1,26 @@
 {
   "opendb_id": "fe9dd86d-f8f5-4cda-9e41-1f40bcec26fd",
+  "weight": 6030,
+  "display_outputs": [
+    {
+      "id": "513606d4-fdaf-462b-a194-b663a3be5159",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "74d5144f-2fbc-4388-984e-b268ce9e96bf",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Dell 27 All-in-One Desktop EC27260",
     "manufacturer": "Dell",
@@ -10,7 +31,7 @@
     "manufacturer_url": "https://www.dell.com/en-us/shop/cty/spd/dell27allinoneec27260"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -28,6 +49,21 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12808927",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20866419578",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

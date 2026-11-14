@@ -1,12 +1,33 @@
 {
   "opendb_id": "79cfc8dc-0f97-4e82-9c90-acd65ac8d1a8",
+  "weight": 18000,
+  "display_outputs": [
+    {
+      "id": "7d6f1433-e527-4163-88f7-2cde107d5796",
+      "connector": "usb_c",
+      "count": 4,
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "72d3eb3f-69f4-4ad7-bd22-3a6bd16e0095",
+      "connector": "hdmi",
+      "count": 2,
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "Apple Mac Pro (2019) Tower",
     "manufacturer": "Apple",
     "part_numbers": [],
     "releaseYear": 2019
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://support.apple.com/en-us/118461"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [],

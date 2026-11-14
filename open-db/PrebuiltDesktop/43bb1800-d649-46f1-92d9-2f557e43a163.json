@@ -1,5 +1,26 @@
 {
   "opendb_id": "43bb1800-d649-46f1-92d9-2f557e43a163",
+  "weight": 2740,
+  "display_outputs": [
+    {
+      "id": "4c9b6a95-6154-4b84-9b53-1d0593f3c379",
+      "connector": "usb_c",
+      "count": 4,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "2a8f0487-8194-4db3-95fe-664d4ff8821f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Apple Mac Studio (M4 Max, 36GB Unified Memory, 512GB SSD, 2025)",
     "manufacturer": "Apple",
@@ -11,7 +32,7 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -129,13 +150,6 @@
         "verified": true
       },
       {
-        "source": "amazon",
-        "channel": "us",
-        "source_product_id": "B0F5SNBZVF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
         "source": "bestbuy",
         "channel": "us",
         "source_product_id": "6566920",
@@ -148,13 +162,6 @@
         "source_product_id": "APMU963LLA",
         "pricing_enabled": true,
         "verified": true
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "15500714299",
-        "pricing_enabled": true,
-        "verified": false
       }
     ]
   }

@@ -1,15 +1,52 @@
 {
   "opendb_id": "41c5ee54-e3a0-4869-a772-3e4a1fad86ee",
+  "weight": 2740,
+  "display_outputs": [
+    {
+      "id": "95229a6b-7cd5-43fe-bfae-e4847b46c953",
+      "connector": "usb_c",
+      "count": 4,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "feb2d97a-69ab-41c7-b091-9ebe84823438",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
-    "name": "Apple Mac Studio (2025)",
+    "name": "Apple Mac Studio (2025) M4 Max",
     "manufacturer": "Apple",
     "part_numbers": [],
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://support.apple.com/en-us/122211"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 4,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "Z1CD0014G",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FM6311KL",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
