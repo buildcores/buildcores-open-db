@@ -11,7 +11,7 @@
   "effective_memory_clock": 1750,
   "memory_bus": 512,
   "tdp": 575,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
   "color": ["BLACK", "GREY"],
   "lighting": ["ARGB", "RGB"],
@@ -19,6 +19,9 @@
   "case_expansion_slot_width": 2,
   "total_slot_width": 2.5,
   "cooling": "Hybrid",
+  "radiator_size": 360,
+  "fan_size": 120,
+  "fan_quantity": 3,
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -34,6 +37,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "860e1015-539f-46a8-8d5a-43823b876571",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "discrete"
+    },
+    {
+      "id": "2a6c787b-fd86-4b92-a7a8-e319fd971063",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "discrete"
+    }
+  ],
   "metadata": {
     "name": "Asus ROG Astral LC GeForce RTX 5090 32 GB",
     "manufacturer": "ASUS",
