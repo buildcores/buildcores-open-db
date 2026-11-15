@@ -1,167 +1,71 @@
 {
   "opendb_id": "d1fd6dab-b3a4-4741-8d33-e5c9177cdbcd",
+  "weight": 1460,
+  "display_outputs": [
+    {
+      "id": "97e1b249-0e68-4387-880b-27aed5a98d9c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1a11a204-8fc4-4de2-8e6b-1125e4cc1eb2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "acf49896-e50d-4a16-9cf7-1f4b2ada44e2",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt"
+    }
+  ],
   "metadata": {
-    "name": "Samsung Galaxy Book5 360 15.6-inch, Gray (NP750QHA-KA1US)",
+    "name": "Samsung Galaxy Book5 360, 39.62 cm, Ultra 7, 16 GB, Copilot+ PC (NP750QHA-KA1US)",
     "manufacturer": "Samsung",
     "part_numbers": ["NP750QHA-KA1US", "6613609"],
+    "series": "Galaxy Book 5",
+    "variant": "15.6 Inch Gray",
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/in/business/computers/galaxy-book/galaxy-book5-360-ultra-5-16gb-512gb-np750qha-lg1in/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0887276937755",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "6613609",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "NP750QHA-KA1US",
-        "region": "all"
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "887276937755",
-        "region": "all"
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
         "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
         "channel": "us",
-        "source_product_id": "B0GTRG9Y3G",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "12338997",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "9SIA8X5KED1326",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "9SIA8X5KED1326",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "16087671192",
+        "source_product_id": "B0DSLNMY6M",
         "pricing_enabled": true,
         "verified": true
       }

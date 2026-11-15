@@ -1,12 +1,56 @@
 {
   "opendb_id": "e0d48b44-5685-4ade-92e5-e2ccd6d1f1fd",
+  "weight": 1230,
+  "display_outputs": [
+    {
+      "id": "b8a488ca-bc65-456c-8450-2c3c42918e54",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ed197496-71f9-414a-a54d-31b79331c821",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        },
+        {
+          "id": "ae90ecbd-1ba4-4291-b64f-7e4d25f9ef05",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "b19ebc91-1b7e-44c8-aad5-eab0620a2f2e",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "4",
+      "video_signal": "displayport",
+      "transport": "usb4"
+    }
+  ],
   "metadata": {
     "name": "Samsung Galaxy Book5 Pro 14-inch 3K AMOLED Touch Laptop - NP940XHA-KG3US",
     "manufacturer": "Samsung",
     "part_numbers": ["NP940XHA-KG3US", "6613976"],
+    "series": "Galaxy Book 5 Pro",
+    "variant": "14-inch",
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/in/business/computers/galaxy-book/galaxy-book5-pro-14-inch-ultra-7-32gb-1tb-np940xha-lg3in/?srsltid=AYCX9vISm9bqCvWZCQ6syTrjAoZcKA-U7XhjSWptVL4MieaybRNqrMD3"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

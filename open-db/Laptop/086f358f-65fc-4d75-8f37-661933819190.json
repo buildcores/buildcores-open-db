@@ -1,12 +1,57 @@
 {
   "opendb_id": "086f358f-65fc-4d75-8f37-661933819190",
+  "weight": 1690,
+  "display_outputs": [
+    {
+      "id": "aad636dc-2e06-4e96-b795-b72883714147",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6fd7616f-d555-4af1-a545-af721160aa97",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        },
+        {
+          "id": "6a083b59-864b-4e2d-a26a-03f14bac05e3",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "fa406ed6-89e9-4903-b9c4-5c1a81a60eac",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "Samsung Galaxy Book5 Pro 360 16-inch AMOLED Copilot+ PC (NP960QHA-KG1US)",
     "manufacturer": "Samsung",
     "part_numbers": ["NP960QHA-KG1US", "6598567"],
+    "series": "Galaxy Book 5 Pro",
+    "variant": "360 16-inch",
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/uk/computers/galaxy-book/galaxy-book5-pro-360-16-inch-ultra-7-16gb-512gb-np960qha-kg1uk/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

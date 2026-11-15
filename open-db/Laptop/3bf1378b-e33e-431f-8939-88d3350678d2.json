@@ -1,44 +1,60 @@
 {
   "opendb_id": "3bf1378b-e33e-431f-8939-88d3350678d2",
+  "weight": 1230,
+  "display_outputs": [
+    {
+      "id": "0577cef7-c603-468b-8b29-78940a93206f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "64ed7fe8-0b0b-44db-b445-8606e37b4711",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        },
+        {
+          "id": "685f7644-6ae2-483d-8f9f-d1483cf703ae",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "b153b899-3336-431f-9202-ca54d3bc2626",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "Samsung Galaxy Book5 Pro Copilot+ PC 14-inch 3K AMOLED Touch-Screen Laptop",
     "manufacturer": "Samsung",
     "part_numbers": ["NP940XHA-KG1US", "6613610"],
+    "series": "Galaxy Book 5 Pro",
+    "variant": "14-inch",
     "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.samsung.com/in/business/computers/galaxy-book/galaxy-book5-pro-14-inch-ultra-7-32gb-1tb-np940xha-lg3in/?srsltid=AYCX9vJFK0uCgwRFUqVsd8vCRAlI5osuAfO-n4OPEXzSIP7y8U9safhy"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [
-      {
-        "type": "ean",
-        "value": "0887276937830",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "6613610",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "NP940XHA-KG1US",
-        "region": "all"
-      },
-      {
-        "type": "upc",
-        "value": "887276937830",
-        "region": "all"
-      }
-    ],
-    "retailer_listings": [
-      {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6613610",
-        "pricing_enabled": true,
-        "verified": false
-      }
-    ]
+    "version": 3,
+    "identifiers": [],
+    "retailer_listings": []
   }
 }
