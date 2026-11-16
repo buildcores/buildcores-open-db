@@ -1,5 +1,6 @@
 {
   "opendb_id": "b765efc1-f789-4c67-bc1a-5f797f37654a",
+  "weight": 2000,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5080",
   "core_count": 10752,
@@ -12,7 +13,7 @@
   "tdp": 360,
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "PINK"],
   "lighting": ["ARGB"],
   "length": 208,
   "case_expansion_slot_width": 2,
@@ -29,12 +30,35 @@
     "name": "Gigabyte AORUS GeForce RTX™ 5080 XTREME WATERFORCE WB 16G",
     "manufacturer": "Gigabyte",
     "series": "XTREME WATERFORCE",
-    "variant": "WB"
+    "variant": "WB",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N5080AORUSX-WB-16GD"
+  },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
-    "retailer_listings": []
+    "version": 4,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719331355708",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "GV-N5080AORUSX WB-16GD",
+        "region": "us"
+      }
+    ],
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0DT9WRP5M",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

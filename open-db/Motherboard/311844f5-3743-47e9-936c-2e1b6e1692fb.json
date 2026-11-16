@@ -4,73 +4,53 @@
   "form_factor": "EATX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 2,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "22110/2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280/2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4"
+    },
+    {
+      "size": "2280/2260",
+      "key": "M",
+      "interface": "PCIe 4.0 x4 / SATA"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "22110/2280/2260",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -78,41 +58,122 @@
     {
       "speed": "2.5 Gb/s",
       "controller": "Intel"
+    },
+    {
+      "speed": "2.5 Gb/s",
+      "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 7",
   "usb_headers": {
-    "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2": 0,
-    "usb_3_2_gen_2x2": 2,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek® ALC4082 Codec + ESS ES9280AQ Combo DAC/HPA",
     "channels": "7.1"
   },
-  "back_panel_ports": ["2 x 2.5 Gb/s Ports (Intel)"],
+  "back_panel_ports": [
+    "1x Clear CMOS button",
+    "1x Flash BIOS button",
+    "1x Smart button",
+    "2x LAN (RJ45) ports",
+    "3x USB 3.2 Gen 2 10Gbps Type-A ports (From Z790 chipset)",
+    "4x USB 3.2 Gen 2 10Gbps Type-A ports (From HubGL3590)",
+    "1x USB 3.2 Gen 2 10Gbps Type-C port (From Z790 chipset) with DisplayPort Alt Mode",
+    "2x Thunderbolt 4 USB-C ports",
+    "2x Mini DisplayPort Inputs (for Thunderbolt 4 pass through)",
+    "2x Wi-Fi Antenna connectors",
+    "5x OFC audio jacks",
+    "1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "9e083e7a-8cc5-49e6-bf3a-a8f4304035d9",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB-C",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "58b5c181-25cc-4016-9a43-a5f887334767",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "43dbfebd-039d-4992-9101-bddb456801e7",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "Thunderbolt 4",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "discrete",
+      "mode_claims": [
+        {
+          "id": "a1a09f8d-5409-4fa6-abb6-df075accc2dc",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Supports up to 8K display output through Thunderbolt 4; requires connecting a discrete graphics card's DisplayPort output to the motherboard's Mini DisplayPort input"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790 MEG ACE MAX LGA1700 DDR5 EATX",
     "manufacturer": "MSI",
     "part_numbers": ["MEG Z790 ACE MAX", "7D86-006R", "0824142336649"],
     "series": "MEG",
     "variant": "Z790 ACE MAX",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MEG-Z790-ACE-MAX"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -120,9 +181,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142336649",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "0824142336649",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "0824142336649",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -135,9 +206,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MEG Z790 ACE MAX",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142336649",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142336649",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -293,7 +374,7 @@
         "channel": "us",
         "source_product_id": "5112797759",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

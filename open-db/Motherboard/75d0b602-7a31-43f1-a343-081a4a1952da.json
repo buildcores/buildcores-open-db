@@ -4,48 +4,43 @@
   "form_factor": "ATX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 4,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "3.0",
+      "quantity": 4,
       "lanes": 1
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "22110/2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -55,15 +50,31 @@
       "controller": "Realtek RTL8125BG"
     }
   ],
+  "wireless_networking": "Wifi 7",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -73,21 +84,79 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125BG)"],
+  "back_panel_ports": [
+    "1x PS/2 keyboard/ mouse combo port",
+    "2x USB 2.0 Type-A ports (From Z790 chipset)",
+    "1x DisplayPort",
+    "1x HDMI™ port",
+    "1x 2.5Gbps LAN (RJ45) port",
+    "4x USB 3.2 Gen 1 5Gbps Type-A ports (From Z790 chipset)",
+    "1x USB 3.2 Gen 2x2 20Gbps Type-C port (From Z790",
+    "2x Wi-Fi antenna connectors",
+    "6x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "1b3b8a72-21cc-4722-a67c-e61358dc552d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a50aa1e8-b1fb-4f3a-b5c4-4ec332248d0a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840 × 2160 @ 30 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "928c6d78-9404-4de1-93b8-ed558fe8e7f8",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bbb841fe-b2af-42f8-af7e-630991888fad",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790 PRO VC WIFI DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["PRO Z790-VC WIFI"],
     "series": "PRO",
     "variant": "Z790 VC WIFI",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z790-VC-WIFI"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -95,14 +164,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142343203",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "PRO Z790-VC WIFI",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PRO Z790-VC WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142343203",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142343203",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -251,7 +335,7 @@
         "channel": "us",
         "source_product_id": "5525189741",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

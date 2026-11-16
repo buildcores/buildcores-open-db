@@ -1,6 +1,6 @@
 {
   "opendb_id": "2e5e722e-1b4a-46bf-82e4-a8fe28ff0912",
-  "weight": 1282,
+  "weight": 1655,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070 Ti",
   "core_count": 8960,
@@ -14,7 +14,9 @@
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
   "color": ["RED", "BLACK"],
+  "lighting": ["RGB"],
   "length": 338,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -27,12 +29,23 @@
   "metadata": {
     "name": "MSI GeForce RTX™ 5070 Ti 16G MLG EDITION",
     "manufacturer": "MSI",
-    "variant": "MLG EDITION"
+    "variant": "MLG EDITION",
+    "releaseYear": 2025
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-Ti-16G-MLG-EDITION"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBP4YKTH0690",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
