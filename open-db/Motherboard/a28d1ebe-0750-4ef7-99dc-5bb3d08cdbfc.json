@@ -4,15 +4,15 @@
   "form_factor": "Mini-ITX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 96,
+    "max": 128,
     "ram_type": "DDR5",
     "slots": 2
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     }
@@ -32,15 +32,10 @@
       "size": "2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -50,6 +45,7 @@
       "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -57,32 +53,104 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin'"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel)"],
+  "back_panel_ports": [
+    "1x Clear CMOS button",
+    "1x DisplayPort",
+    "1x HDMI™ port",
+    "4x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "2x USB 3.2 Gen 2 10Gbps Type-A ports",
+    "1x LAN (RJ45) port",
+    "1x USB 3.2 Gen 2x2 20G Type-C port (From ASM3241)",
+    "2x Wi-Fi Antenna connectors",
+    "3x OFC audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "7b3afbcf-5538-470d-8eb9-224b12cf3c93",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ad8a6a86-5c8e-4ef6-8e64-669126a81387",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "ba4e42d3-4947-410a-a918-7063f6189cc4",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e6b7a9ca-7686-48d5-a68b-8c12045152ca",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790I MPG EDGE WIFI DDR5 Mini ITX",
     "manufacturer": "MSI",
     "part_numbers": ["MPG Z790I EDGE WIFI", "7E03-001R", "Z790IEDGE", "Z790I EDGE WIFI"],
     "series": "MPG",
     "variant": "Z790I EDGE WIFI",
-    "manufacturer_color": "White"
+    "releaseYear": 2022,
+    "manufacturer_color": "Silver / Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-Z790I-EDGE-WIFI"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -240,7 +308,7 @@
         "channel": "us",
         "source_product_id": "6543600",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -345,7 +413,7 @@
         "channel": "us",
         "source_product_id": "1721860141",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

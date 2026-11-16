@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK", "WHITE"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB", "Display"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -65,12 +65,11 @@
       "controller": "Intel"
     }
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.3",
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
-    "usb_3_2_gen_2x2": 0,
+    "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
   "fan_headers": {
@@ -92,7 +91,7 @@
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
   },
-  "ecc_support": true,
+  "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -117,20 +116,65 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "7aa8ffb9-60f1-460e-8d2c-e0cd9b84d2ec",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "72f5e362-936a-4fbf-aff0-99b33f026be7",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096 × 2160 @ 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "89510664-c2fe-46ea-be7c-1d0aa086ace9",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4cb7f969-c2f1-461a-b6e6-a7eed2997ad1",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 7680 × 4320 @ 60 Hz; HBR3; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG Z790 EDGE WIFI DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["MPG Z790 EDGE WIFI", "7D91-008R", "911-7D91-011", "Z790EDGEWI"],
     "series": "MPG",
     "variant": "Z790 EDGE WIFI",
-    "manufacturer_color": "White",
+    "releaseYear": 2022,
+    "manufacturer_color": "Silver / Black",
     "last_manually_spec_verified_at": "2026-02-25T18:20:26.451Z"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-Z790-EDGE-WIFI/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -139,13 +183,28 @@
       },
       {
         "type": "ean",
+        "value": "0824142288245",
+        "region": "us"
+      },
+      {
+        "type": "ean",
         "value": "4711377023283",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711377023283",
+        "region": "us"
       },
       {
         "type": "mpn",
         "value": "7D91-008R",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7D91-008R",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -166,6 +225,11 @@
         "type": "upc",
         "value": "824142288245",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142288245",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -349,7 +413,7 @@
         "channel": "us",
         "source_product_id": "1164037715",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
