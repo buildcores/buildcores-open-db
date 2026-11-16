@@ -118,6 +118,51 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "20ee6de4-1057-4d68-9c9e-854408c0b54d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "00301a79-5749-4019-b2ed-4d228b2077ad",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840×2160 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "f48fbccb-00d0-4701-8d98-758cda19f74b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8d6964ac-7bd7-4917-9741-91e37036b826",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 7680×4320 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO Z790-A WIFI LGA1700 DDR5 ATX",
     "manufacturer": "MSI",

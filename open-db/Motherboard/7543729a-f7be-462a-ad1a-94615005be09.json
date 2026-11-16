@@ -4,64 +4,49 @@
   "form_factor": "ATX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "22110/2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
@@ -77,35 +62,110 @@
   ],
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s (Intel)"],
+  "back_panel_ports": [
+    "∙ 1x Flash BIOS button",
+    "∙ 1x PS/2 port",
+    "∙ 4x USB 2.0 Type-A ports (From Z790 chipset)",
+    "∙ 1x DisplayPort",
+    "∙ 1x HDMI™ port",
+    "∙ 1x LAN (RJ45) jack",
+    "∙ 2x USB 3.2 Gen 1 5Gbps Type-A ports (From Z790 chipset)",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-A port (From Z790 chipset)",
+    "1x USB 3.2 Gen 2x2 20Gbps Type-C port (From Z790 chipset)",
+    "∙ 2x Wi-Fi Antenna connectors (For PRO Z790-P WIFI only)",
+    "∙ 6x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "7e53bdc5-7b50-4b39-8b2a-351fcaa08c58",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9da327c4-22b2-4709-9859-43de5580a3d5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "a29591e8-6f40-4ef8-aa69-74ee3d338cdc",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "76f502b6-3874-4241-b429-128ff8bc16c7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790 PRO-P DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["PRO Z790-P", "7E06-004R"],
     "series": "PRO",
     "variant": "Z790-P",
+    "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z790-P"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

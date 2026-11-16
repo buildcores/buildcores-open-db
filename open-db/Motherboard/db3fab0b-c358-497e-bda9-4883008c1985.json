@@ -29,22 +29,22 @@
   ],
   "m2_slots": [
     {
-      "size": "22110/2280/2260/2242",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280/2260/2242",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280/2260/2242",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4 / SATA"
     },
     {
-      "size": "2280/2260/2242",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4 / SATA"
     }
@@ -55,13 +55,12 @@
   "onboard_ethernet": [
     {
       "speed": "2.5 Gb/s",
-      "controller": "Intel 2.5Gbps LAN"
+      "controller": "Intel"
     }
   ],
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1
+    "usb_3_2_gen_1": 2
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -77,6 +76,9 @@
     "reset_button": true,
     "power_led": true,
     "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
   },
   "power_connectors": {
     "main_power": "24-pin",
@@ -105,6 +107,51 @@
     "1 x Flash BIOS Button",
     "6 x Audio Connectors"
   ],
+  "display_outputs": [
+    {
+      "id": "89250d5e-ef55-4229-b1c9-9bc8c8a6cf26",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b2d37491-6a8a-4ccf-8a17-4b14ae99bd82",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840×2160 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "46776a5f-5722-4954-a75f-aa878104322a",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8fe5b446-d4b6-47ff-831b-c9d61502f744",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840×2160 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO Z790-P II",
     "manufacturer": "MSI",
@@ -116,7 +163,7 @@
     "last_manually_spec_verified_at": "2026-04-27T14:43:51.000Z"
   },
   "general_product_information": {
-    "manufacturer_url": "http://msi.com/Motherboard/PRO-Z790-P-II/Overview"
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z790-P-II"
   },
   "identifiers": {
     "version": 1,

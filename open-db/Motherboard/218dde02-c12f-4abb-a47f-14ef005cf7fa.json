@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -66,6 +66,9 @@
     "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
@@ -91,13 +94,58 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "eec4aae3-7cd8-4793-9ec1-e83008ff1de5",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "93bd4446-c09a-4ef4-88e0-35550ca637b3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840×2160 at 30 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "2056e00b-3cbf-4c1d-94eb-36a466c7f0f1",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "91b2bb22-bf98-4b1f-937d-cbd0a9216f38",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840×2160 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790-S01",
     "manufacturer": "MSI",
     "part_numbers": ["Z790-S01"],
     "series": "PRO",
     "variant": "Z790-S01",
-    "releaseYear": 2022,
+    "releaseYear": 2023,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-04-27T14:43:51.000Z"
   },
@@ -105,14 +153,34 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/Z790-S01/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "mpn",
+        "value": "TGGZPHBZZ",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "Z790-S01",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H5HL2YMH",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBFYXKB17840",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

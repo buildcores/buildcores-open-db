@@ -124,6 +124,29 @@
     "Mini DisplayPort Input (for Thunderbolt passthrough)",
     "Optical S/PDIF-Out"
   ],
+  "display_outputs": [
+    {
+      "id": "6985de92-fa74-472e-af07-f2926659a73e",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort over USB-C",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "00a29d75-1042-477f-b39e-2d5b93e936df",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840×2160 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790 MEG ACE WIFI DDR5 EATX",
     "manufacturer": "MSI",

@@ -4,12 +4,12 @@
   "form_factor": "ATX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": ["None"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -17,36 +17,36 @@
       "lanes": 16
     },
     {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1
-    },
-    {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242/ 2260/ 2280/ 22110",
+      "size": "22110/2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242/ 2260/ 2280",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242/ 2260/ 2280",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     },
     {
-      "size": "2242/ 2260/ 2280",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
@@ -60,7 +60,7 @@
       "controller": "Intel"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -98,7 +98,7 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "back_panel_ports": [
@@ -113,6 +113,51 @@
     "1x USB 3.2 Gen 2x2 20Gbps Type-C port",
     "2x Wi-Fi Antenna connectors",
     "6x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "4bcb9e79-84be-47a0-9b48-7d432522fc3a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "46cbd37d-d188-424b-b72b-3feda3246c6a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "63ef9d17-9cc6-40fe-8ce0-de585b9f2d0b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4 (HBR2)",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e990f645-f265-4c1f-909a-37ab775bc1a2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; HBR2; requires processor integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI Z790 GAMING PLUS WIFI7 DDR5 ATX",

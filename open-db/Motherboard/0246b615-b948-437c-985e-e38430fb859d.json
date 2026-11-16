@@ -95,6 +95,51 @@
     "3 x audio jacks",
     "1 x Q-Flash Plus button"
   ],
+  "display_outputs": [
+    {
+      "id": "71e42730-f0be-428f-b3fc-42429052e89f",
+      "connector": "dvi_d",
+      "count": 1,
+      "version_label": "DVI-D",
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7ff211af-46f2-49a7-9eee-8e8a7f6b7cba",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 1920×1200 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "5bedd109-584b-42fe-8f25-f695847a0bf6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f49330a0-6956-4c40-9433-2ff61686464a",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE Ultra Durable A520M H AM4 DDR4 Micro-ATX",
     "manufacturer": "Gigabyte",

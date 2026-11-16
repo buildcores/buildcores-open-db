@@ -118,6 +118,51 @@
     "USB 3.2 Gen 2x2 20Gbps (Type-C)",
     "USB 3.2 Gen 2 10Gbps (Type-A)"
   ],
+  "display_outputs": [
+    {
+      "id": "a98453e5-bff9-41e9-b149-ef0583d59d3b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "293cffb3-3b21-4408-8dba-2c23f1dbaf19",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840×2160 at 60 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "93dc8c5f-14ec-4134-a5a6-9957173f3c95",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0534feb9-cde4-44ea-a300-6836d02b782c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 3840×2160 at 60 Hz; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO Z790-P WIFI DDR5 ATX",
     "manufacturer": "MSI",

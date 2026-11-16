@@ -124,6 +124,30 @@
     "5x Audio jacks",
     "1x Optical S/PDIF out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "11380a17-9be7-4727-90cb-02b5d5f91c14",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "75a4fc47-b9a2-4463-9393-e9209f57f91b",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840×2160 at 60 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790 MPG CARBON WIFI LGA1700 DDR5 ATX",
     "manufacturer": "MSI",

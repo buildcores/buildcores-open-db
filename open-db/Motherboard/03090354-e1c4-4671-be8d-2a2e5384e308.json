@@ -9,67 +9,47 @@
     "slots": 4
   },
   "color": ["BLACK", "RED"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "22110/2280/2260",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
+      "key": "M",
+      "interface": "PCIe 4.0 x4 / SATA"
+    },
+    {
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -85,46 +65,161 @@
       "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 7",
   "usb_headers": {
-    "usb_2_0": 4,
-    "usb_3_2_gen_1": 0,
-    "usb_3_2_gen_2": 0,
+    "usb_2_0": 2,
+    "usb_3_2_gen_1": 1,
+    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC4080",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s (Intel)"],
+  "back_panel_ports": [
+    "∙ 1x DisplayPort",
+    "∙ 1x HDMI™ port",
+    "∙ 1x Clear CMOS button",
+    "∙ 1x Flash BIOS button",
+    "∙ 4x USB 3.2 Gen 1 5Gbps Type-A ports (From Hub GL3523)",
+    "4x USB 3.2 Gen 2 10Gbps Type-A ports (From Z790 chipset)",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-C port (From Z790 chipset)",
+    "1x USB 3.2 Gen 2x2 20Gbps Type-C port (From Z790 chipset)",
+    "∙ 1x 2.5Gbps LAN (RJ45) port",
+    "∙ 2x Wi-Fi antenna connectors",
+    "∙ 5x Audio jacks",
+    "∙ 1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "dc291585-4521-48ea-b989-7864a2a26ba5",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "08501235-b5e3-460f-a941-9012607b9ad4",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840 × 2160 @ 60 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "200bf3ec-7247-44cb-8c35-5f63d4f38c62",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4 (HBR3)",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1cb686bd-9b97-4a09-b109-8d2e3af0ecfd",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 7680 × 4320 @ 60 Hz; HBR3; requires processor integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z790 MPG EDGE MONSTER HUNTER EDITION DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["MPG Z790 EDGE MONSTER HUNTER EDITION"],
     "series": "MPG",
     "variant": "Z790 EDGE MONSTER HUNTER EDITION",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-Z790-EDGE-MONSTER-HUNTER-EDITION"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142358986",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "MPG Z790 EDGE MONSTER HUNTER EDITION",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG Z790 EDGE MONSTER HUNTER EDITION",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "824142358986",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0D3V237N5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144661",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "6546252552",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

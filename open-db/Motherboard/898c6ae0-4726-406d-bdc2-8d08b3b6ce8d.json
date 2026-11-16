@@ -4,63 +4,48 @@
   "form_factor": "ATX",
   "chipset": "Intel Z790",
   "memory": {
-    "max": 192,
+    "max": 256,
     "ram_type": "DDR5",
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 3,
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
+      "quantity": 2,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "22110/2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2280/2260/2242",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2280/2260/2242",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -68,31 +53,84 @@
     {
       "speed": "2.5 Gb/s",
       "controller": "Realtek RTL8125BG"
+    },
+    {
+      "speed": "1 Gb/s",
+      "controller": "RTL8111H"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 5,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "back_panel_ports": [
-    "1 x 2.5 Gb/s Ports (Realtek RTL8125BG)                                                    1 x 1 Gb/s Ports (Realtek RTL8111H)"
+    "∙ 1x Flash BIOS button",
+    "∙ 1x HDMI™ port",
+    "∙ 4x USB 3.2 Gen 1 5Gbps Type-A ports (From Z790 chipset)",
+    "3x USB 3.2 Gen 2 10Gbps Type-A ports (From Z790 chipset)",
+    "∙ 2x LAN ports",
+    "∙ 1x USB 3.2 Gen 2x2 20Gbps Type-C port (From ASM3241)",
+    "∙ 2x Wi-Fi Antenna connectors",
+    "∙ 5x OFC audio jacks",
+    "∙ 1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "83716a58-c4fb-4e23-935d-d09599da00bb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "616353f9-2a8f-4f0f-9bd0-b18c0d591530",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 3840 × 2160 @ 30 Hz; HDR supported; requires processor integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI Z790 GAMING PRO WIFI LGA1700 DDR5 ATX",
@@ -100,12 +138,20 @@
     "part_numbers": ["Z790 GAMING PRO WIFI", "7D93-001R"],
     "series": "GAMING",
     "variant": "Z790 PRO WIFI",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/Z790-GAMING-PRO-WIFI"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711377104340",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "7D93-001R",
@@ -113,10 +159,30 @@
       },
       {
         "type": "mpn",
+        "value": "7D93-001R",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "Z790 GAMING PRO WIFI",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0C4TGBW82",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "3839878848",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

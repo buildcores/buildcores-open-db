@@ -96,6 +96,72 @@
     "1 x Q-Flash Plus button",
     "3 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "612f76ca-a3c9-475c-a011-183b56721768",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ee304c45-a5fc-4ba7-a9ce-6e39b1ac991e",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; requires supported AMD processor with Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "e59e63e7-9d3f-498b-ab4d-f3fcbff43e5c",
+      "connector": "dvi_d",
+      "count": 1,
+      "version_label": "DVI-D",
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ba328173-5c30-4526-a8ac-621b2f249175",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 1920×1200 at 60 Hz; requires supported AMD processor with Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "36d997a0-9a3a-4faf-ada7-ba9129e92ca7",
+      "connector": "vga",
+      "count": 1,
+      "version_label": "D-Sub",
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d3a19d61-f022-4367-a5ce-426d0ad38013",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 1920×1200 at 60 Hz; requires supported AMD processor with Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE ULTRA DURABLE A520M S2H AM4 DDR4 MICRO-ATX",
     "manufacturer": "Gigabyte",

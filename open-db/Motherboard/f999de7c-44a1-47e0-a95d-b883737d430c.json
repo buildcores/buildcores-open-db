@@ -90,6 +90,51 @@
     "2 x antenna connectors (1T1R)",
     "3 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "bfb78fd0-d8a1-4812-8a9e-76ec9dff9141",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e3bbd226-3eb6-4af8-be65-d0ab9bb7421d",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 5120×2880 at 60 Hz; requires supported AMD processor with Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "ce93f3a5-b6c3-46eb-ba0f-35057c597e60",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3d7c7b2f-3113-4b2f-affd-1b0b044bebe2",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096×2160 at 60 Hz; requires supported AMD processor with Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE UD A520I AC AM4 DDR4 Mini-ITX",
     "manufacturer": "Gigabyte",
