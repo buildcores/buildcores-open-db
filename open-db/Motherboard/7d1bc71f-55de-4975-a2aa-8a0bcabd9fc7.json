@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "3.0",
@@ -79,6 +79,30 @@
     "2 x USB 2.0/1.1 ports",
     "1 x RJ-45 port",
     "3 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "1b49e1b7-f8d5-4083-ab82-19db236141f6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0e24bd94-25ab-441b-8f6f-6d86e1ef38f1",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; requires compatible AMD processor with integrated Radeon Graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "Gigabyte A520 M K AM4 DDR4 Micro ATX",

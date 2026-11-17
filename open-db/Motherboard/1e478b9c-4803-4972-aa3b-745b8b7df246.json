@@ -32,10 +32,14 @@
   "storage_devices": {
     "sata_6_gb_s": 4
   },
-  "onboard_ethernet": [],
+  "onboard_ethernet": [
+    {
+      "speed": "1 Gb/s"
+    }
+  ],
   "wireless_networking": "Wifi 6E Bluetooth 5.3",
   "usb_headers": {
-    "usb_2_0": 2,
+    "usb_2_0": 1,
     "usb_3_2_gen_1": 1
   },
   "fan_headers": {
@@ -56,7 +60,7 @@
   "raid_support": false,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": true,
+    "flashback": false,
     "clear_cmos": false
   },
   "audio": {
@@ -71,7 +75,53 @@
     "4 x USB 2.0/1.1 ports",
     "1 x RJ-45 port",
     "2 x antenna connectors (1T1R)",
-    "3 x audio jacks"
+    "3x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "7e96c8ac-e20e-4391-ac92-128a2cd3f15a",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9c937c9b-dbee-4d6f-be68-50da20831c96",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 5120×2880 at 60 Hz; requires compatible AMD processor with Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "4ee13462-32d2-4988-8681-2e7ab1dd3178",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a0d4592f-3e0f-4268-8129-ddfd42376993",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; requires compatible AMD processor with Radeon Graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "Gigabyte A520M DS3H WIFI6E",
@@ -86,12 +136,22 @@
     "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/A520M-DS3H-WIFI6E"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4719331880743",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4719331880743",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "A520M DS3H WF6E",
+        "region": "us"
       }
     ],
     "retailer_listings": [

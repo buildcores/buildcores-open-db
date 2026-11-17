@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "3.0",
@@ -76,6 +76,51 @@
     "1 x Q-Flash Plus button",
     "1 x RJ-45 port",
     "3 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "f4be0087-212b-49df-b2d1-76fff3779a85",
+      "connector": "dvi_d",
+      "count": 1,
+      "version_label": "DVI-D",
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7997a2a2-f60c-4e18-ba85-a4182db7c5e4",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 1920×1200 at 60 Hz; requires compatible AMD processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "7df424e6-7f4a-4429-beb4-19979c14631b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "530501c0-9ab9-480a-90f6-ac6ac9a0ead5",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; HDR supported; requires compatible AMD processor with integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "Gigabyte A520M H (Rev. 1.x)",

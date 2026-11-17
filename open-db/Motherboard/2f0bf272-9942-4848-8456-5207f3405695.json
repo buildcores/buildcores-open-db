@@ -9,10 +9,15 @@
     "slots": 4
   },
   "color": ["BLACK", "WHITE"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
+      "quantity": 3,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
       "quantity": 3,
       "lanes": 16
     },
@@ -24,35 +29,25 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 and SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 and SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown"
+      "controller": "Intel I211-AT"
     }
   ],
   "usb_headers": {
@@ -62,10 +57,31 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 2,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -73,19 +89,76 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek S1220A8",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports"],
+  "back_panel_ports": [
+    "1 x PS/2 keyboard/mouse combo port(s)",
+    "1 x DisplayPort",
+    "1 x HDMI",
+    "1 x LAN (RJ45) port(s)",
+    "1 x Optical S/PDIF out",
+    "5 x Audio jack(s)",
+    "4 x USB 3.2 Gen 1 (up to 5Gbps) ports Type-A",
+    "3 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A)",
+    "1 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-C)"
+  ],
+  "display_outputs": [
+    {
+      "id": "e1b49c00-b2f2-43a5-a7bf-44b30903a16e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "be385074-17d8-4f61-8962-37f8ca172b01",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "2a9a5e57-b05e-44d3-a5af-d0e1c77153b6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "97a831b7-c9ea-4a3f-ab38-1f827c313b3c",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME X570-PRO AM4 DDR4 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "PRIME",
     "variant": "X570-PRO",
+    "releaseYear": 2019,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/prime/prime-x570-pro/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

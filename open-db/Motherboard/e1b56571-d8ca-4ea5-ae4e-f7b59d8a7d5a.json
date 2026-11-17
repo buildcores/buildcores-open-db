@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "3.0",
@@ -81,6 +81,72 @@
     "1 x RJ-45 port",
     "1 x Q-Flash Plus button",
     "3 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "e36b82bd-52fc-46c0-95b5-cc1a004a28f1",
+      "connector": "vga",
+      "count": 1,
+      "version_label": "D-Sub",
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e64da97-5462-4d37-9728-c2c352edf796",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 1920×1200 at 60 Hz; requires AMD processor with Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "9e12cca3-89a0-4ce7-b2c8-c1127d0c8e69",
+      "connector": "dvi_d",
+      "count": 1,
+      "version_label": "DVI-D",
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "991f3e15-2453-4893-b430-55702a22c17b",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 1920×1200 at 60 Hz; requires AMD processor with Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "35a168af-5321-4d95-8d26-f76c6a03503a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d2444fc7-00a1-4edb-8b48-564c75ebad65",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; HDR supported; requires AMD processor with Radeon Graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "Gigabyte A520M S2H (Rev. 1.x)",

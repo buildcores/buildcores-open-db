@@ -104,6 +104,50 @@
     "1 x Optical S/PDIF out",
     "5 x Audio jack(s)"
   ],
+  "display_outputs": [
+    {
+      "id": "b778ac71-7b64-478a-a736-02dc7421d65e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3725e10d-120e-4525-b1aa-472cb05ac1af",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096×2160 at 60 Hz; requires compatible AMD Ryzen processor with integrated Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "f4e1cca8-247e-4461-a3c9-24ee5fdf26f6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 1.4b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e30be01a-5321-4de4-9410-2d1cfefe5371",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 24,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096×2160 at 24 Hz; requires compatible AMD Ryzen processor with integrated Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING X570-PLUS AM4 DDR4 ATX",
     "manufacturer": "ASUS",

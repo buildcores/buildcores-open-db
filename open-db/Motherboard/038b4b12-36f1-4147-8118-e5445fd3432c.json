@@ -90,6 +90,52 @@
     "2 x RJ-45 LAN",
     "2 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "24726e54-43f7-42c6-b3ac-7d2787391c9d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "af230f9f-4b25-4f60-9d34-723c8b677ee0",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 4096×2160 at 60 Hz; requires AMD Ryzen 5000 G-Series or 4000 G-Series processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "6659650f-e35a-46a6-aa7c-180ebf64de20",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5746eba8-8340-48dc-8585-0f8851e8333c",
+          "resolution": {
+            "horizontalRes": 5120,
+            "verticalRes": 2880
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Maximum 5120×2880 at 60 Hz per output; requires AMD Ryzen 5000 G-Series or 4000 G-Series processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte GA-A520I-DASH (Rev. 1.0)",
     "manufacturer": "Gigabyte",

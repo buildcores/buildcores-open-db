@@ -105,6 +105,50 @@
     "4 × USB 3.2 Gen 1 ports",
     "5 × Audio jacks + 1 × Optical S/PDIF out"
   ],
+  "display_outputs": [
+    {
+      "id": "5409542e-9c0c-4ef6-9196-a4877ab13c06",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1c5b3410-92d5-4748-bd05-27f61804a9e4",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2304
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096×2304 at 60 Hz; requires compatible AMD Ryzen processor with integrated Radeon Vega Graphics"
+        }
+      ]
+    },
+    {
+      "id": "84bea9dd-1442-4aec-aa23-eda8de7dfa9b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 1.4b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "51a0dac5-5a70-4173-b340-468df8bdd9b8",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 24,
+          "claim": "maximum_at_resolution",
+          "conditions": "Maximum 4096×2160 at 24 Hz; requires compatible AMD Ryzen processor with integrated Radeon Vega Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING X570-PLUS (WI-FI) AM4 DDR4 ATX",
     "manufacturer": "ASUS",
