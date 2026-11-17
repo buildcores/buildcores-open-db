@@ -8,13 +8,18 @@
     "ram_type": "DDR4",
     "slots": 4
   },
-  "color": ["BLACK"],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 3,
+      "quantity": 2,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -24,35 +29,30 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 and SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 and SATA"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 and SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": "Unknown"
+      "controller": "Intel I211-AT"
     }
   ],
   "usb_headers": {
@@ -62,37 +62,119 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 2,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "SupremeFX8-Channel High Definition Audio CODEC S1220A",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports"],
+  "back_panel_ports": [
+    "1 x USB BIOS FlashBack™ Button(s)",
+    "1 x DisplayPort",
+    "1 x HDMI",
+    "1 x Optical S/PDIF out",
+    "5 x Audio jack(s)",
+    "4 x USB 3.2 Gen 1 (up to 5Gbps) ports",
+    "3 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-A)",
+    "1 x USB 3.2 Gen 2 (up to 10Gbps) ports (Type-C)",
+    "Anti-surge LAN (RJ45) port"
+  ],
+  "display_outputs": [
+    {
+      "id": "5d0594e4-7669-4366-974b-bd142084e46b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "809e1e35-e3be-46e2-9e6c-7c25c300a9ef",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated Radeon Vega graphics"
+        }
+      ]
+    },
+    {
+      "id": "a237a9ee-6d38-4355-b6fe-ef1e031ed7da",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "dd85f6fb-c5e2-443d-93b3-bd7aa0411578",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated Radeon Vega graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus X570 ROG Strix X570-F Gaming AM4 DDR4 ATX",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "ROG",
     "variant": "X570-F Strix Gaming",
+    "releaseYear": 2019,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-x570-f-gaming-model/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876378953",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876378953",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -111,6 +193,11 @@
       },
       {
         "type": "mpn",
+        "value": "ROG STRIX X570-F GAMING",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "STRIX X570-F GAMING",
         "region": "all"
       },
@@ -118,6 +205,11 @@
         "type": "upc",
         "value": "192876378953",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876378953",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -234,18 +326,11 @@
         "verified": false
       },
       {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "9SIBTK0K937926",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "434638847",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
