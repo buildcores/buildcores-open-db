@@ -95,6 +95,45 @@
     "4 x USB 3.2 Gen1 Type-A",
     "3 x Audiojack (s)"
   ],
+  "display_outputs": [
+    {
+      "id": "d1c4920c-14fd-4616-a9b2-e81ee59bbdca",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "a50943b0-1461-40e2-a9c7-052a80aa8060",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "195dc932-10ce-463a-b445-6cecabc80efc",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5134f507-fb0e-4b2a-a244-36544a7c11ee",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B550M-A WIFI",
     "manufacturer": "ASUS",

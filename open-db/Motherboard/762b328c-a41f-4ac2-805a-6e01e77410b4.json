@@ -107,6 +107,38 @@
     "1 x Optical S/PDIF out port",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "1bf3483e-e127-453c-96a1-5c330f2cc424",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "0802a23e-293e-4346-8eb0-7d8bf5e81443",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "76fd03a4-9c42-46bd-a0ca-6024318a8f61",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B550-PLUS WIFI II AM4 DDR4 ATX",
     "manufacturer": "ASUS",
@@ -121,7 +153,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wifi-ii/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -132,6 +164,11 @@
         "type": "ean",
         "value": "0195553338516",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0195553338516",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -154,6 +191,11 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUFGAMINGB550-PLUSWIFIII",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "195553338417",
         "region": "all"
@@ -162,6 +204,11 @@
         "type": "upc",
         "value": "195553338516",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553338516",
+        "region": "us"
       }
     ],
     "retailer_listings": [

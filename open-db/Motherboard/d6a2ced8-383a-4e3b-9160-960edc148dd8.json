@@ -101,6 +101,45 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "7625bbf8-746a-474d-90a3-c46efed04be0",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "d1ddd96f-44fb-41cb-a31a-a8b6804b0f27",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "12a92de9-253d-44e5-874a-41c26325b7f1",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8f09fbee-7bb9-472e-8535-562e06834e24",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B550M-A WIFI II AM4 DDR4 ATX",
     "manufacturer": "ASUS",

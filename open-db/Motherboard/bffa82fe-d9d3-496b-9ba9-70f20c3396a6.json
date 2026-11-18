@@ -115,6 +115,38 @@
     "1 x HDMI",
     "5 x Audio jack(s)"
   ],
+  "display_outputs": [
+    {
+      "id": "8b370993-a3ab-4b17-9e42-61d467f06127",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "2639f321-dda0-413c-ac7d-6bfdc3bcb05f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a21b391b-7d9d-41b4-bcaf-109ec8f01bf3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B550-E GAMING AM4 DDR4 ATX",
     "manufacturer": "ASUS",

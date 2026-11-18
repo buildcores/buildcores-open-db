@@ -105,6 +105,38 @@
     "1 x HDMI",
     "5 x Audio jack(s)"
   ],
+  "display_outputs": [
+    {
+      "id": "3ab7afd9-8cce-4b2f-8b13-e8ecf58747ef",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "3d3fe671-a933-4cf1-a9b5-64d1ecd55df1",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1c03e46b-4c58-49fc-8436-bc4bb6f4606a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B550 ROG STRIX XE GAMING WIFI AM4 DDR4 ATX",
     "manufacturer": "ASUS",
@@ -118,12 +150,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-xe-gaming-wifi-model/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876985564",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876985564",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -134,6 +171,11 @@
         "type": "mpn",
         "value": "ROG Strix B550-XE Gaming WiFi",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ROG Strix B550-XE Gaming WiFi",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -154,6 +196,11 @@
         "type": "upc",
         "value": "192876985564",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876985564",
+        "region": "us"
       }
     ],
     "retailer_listings": [

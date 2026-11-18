@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "WHITE"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -17,35 +17,25 @@
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 & SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 & SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -62,10 +52,29 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -73,10 +82,58 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC887 7.1-Channel High Definition Audio CODEC",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek RTL8111H)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
+    "4 x USB 3.2 Gen 1 ports (4 x Type-A)",
+    "1 x D-Sub port",
+    "1 x DVI-D port",
+    "1 x HDMI™ port",
+    "1 x Realtek RTL8111H 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "3138db9e-020f-420b-8ca7-14101d2b30ed",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "b940e068-f189-4b0d-9fb4-7ff6a4acb6a5",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "eead40d0-7116-44e9-a31a-1cf473885369",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c893d76b-b403-4927-83a7-0817e00051be",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B550M-A/CSM",
     "manufacturer": "ASUS",
@@ -89,16 +146,24 @@
     ],
     "series": "PRIME",
     "variant": "B550M-A/CSM",
-    "manufacturer_color": "Black/Silver"
+    "releaseYear": 2020,
+    "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/csm/prime-b550m-a-csm/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876755532",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876755532",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -131,9 +196,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PRIME B550M-A/CSM",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876755532",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876755532",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -345,7 +420,7 @@
         "channel": "us",
         "source_product_id": "N82E16813119317",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -408,7 +483,7 @@
         "channel": "us",
         "source_product_id": "312464578",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

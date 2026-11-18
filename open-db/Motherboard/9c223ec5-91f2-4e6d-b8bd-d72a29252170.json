@@ -8,8 +8,8 @@
     "ram_type": "DDR4",
     "slots": 2
   },
-  "color": ["BLACK"],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -19,28 +19,18 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 and SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 and SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -50,44 +40,112 @@
       "controller": "Intel I225-V"
     }
   ],
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "SupremeFX7.1 Surround Sound High Definition Audio CODEC S1220A",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel I225-V)"],
+  "back_panel_ports": [
+    "4 x USB 3.2 Gen 2  (1 x USB Type-C®+3 x Type-A)",
+    "2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™1 for audio USB Type-C®)",
+    "1 x BIOS FlashBack™ Button(s)",
+    "1 x Intel® I225-V 2.5Gb Ethernet",
+    "3 x LED-illuminated audio jacks",
+    "1 x ASUS Wi-Fi Module",
+    "1 x DisplayPort",
+    "1 x HDMI"
+  ],
+  "display_outputs": [
+    {
+      "id": "b993d05e-16df-45c1-b739-c5f1b37c1570",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "8c823690-777e-432d-b9f3-fe5d97e73966",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d48aca39-9e22-4eb3-ab20-e0bdd832c763",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B550-I GAMING",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "ROG",
     "variant": "B550-I STRIX GAMING",
+    "releaseYear": 2020,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/ph/motherboards/rog-strix/rog-strix-b550-i-gaming-model/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876786383",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876786383",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -106,6 +164,11 @@
       },
       {
         "type": "mpn",
+        "value": "ROG STRIX B550-I GAMING",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "STRIX B550-I GAMING",
         "region": "all"
       },
@@ -113,6 +176,11 @@
         "type": "upc",
         "value": "192876786383",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876786383",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -245,16 +313,16 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIBWH3K9T9211",
+        "source_product_id": "N82E16813119322",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "289608602",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

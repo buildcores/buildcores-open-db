@@ -106,6 +106,38 @@
     "4 x USB 3.2 Gen 1 port(s)",
     "2 x USB 2.0 port(s)"
   ],
+  "display_outputs": [
+    {
+      "id": "f93fc263-f04f-4544-ac0e-8e6c23fd22ef",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "7fe304b1-d091-4bf7-afd1-6a3fe05c53a9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1c859e1f-03c8-4d39-8bff-6978690459d0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B550-F GAMING AM4 DDR4 ATX",
     "manufacturer": "ASUS",
@@ -119,7 +151,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-f-gaming-model/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -310,7 +342,7 @@
         "channel": "us",
         "source_product_id": "6422283",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

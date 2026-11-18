@@ -8,8 +8,8 @@
     "ram_type": "DDR4",
     "slots": 4
   },
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -31,17 +31,12 @@
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     },
     {
       "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 3.0 x4"
-    },
-    {
-      "size": null,
-      "key": "E",
-      "interface": "PCIe"
+      "interface": "PCIe 3.0 x4 / SATA"
     }
   ],
   "storage_devices": {
@@ -58,19 +53,40 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 2,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 1,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
     "flashback": true,
-    "clear_cmos": true
+    "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek ALC S1200A",
@@ -87,6 +103,38 @@
     "Audio jack(s)",
     "BIOS FlashBack Button(s)"
   ],
+  "display_outputs": [
+    {
+      "id": "327aeabd-3826-40a6-ac9e-a53bb16328c7",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "422016ed-ffd3-4e56-9ed1-3740289dcbc3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9bb449a5-a4df-4510-a980-dcd0f73de5f5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B550-PLUS",
     "manufacturer": "ASUS",
@@ -96,9 +144,11 @@
     "releaseYear": 2020,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -106,14 +156,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0192876749449",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "TUF GAMING B550-PLUS",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUF GAMING B550-PLUS",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876749449",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876749449",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -239,16 +304,16 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIAD7HFUZ6469",
+        "source_product_id": "N82E16813119313",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "873497912",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

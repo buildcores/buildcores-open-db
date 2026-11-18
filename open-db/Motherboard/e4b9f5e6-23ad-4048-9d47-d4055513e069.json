@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["ORANGE", "BLACK"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -17,40 +17,30 @@
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0/3.0 x4 & SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 & SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -62,35 +52,108 @@
   ],
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC887/897 7.1 Surround Sound High Definition Audio CODEC",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 ports (2 x Type-A)",
+    "2 x USB 3.2 Gen 1 ports (2 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x D-Sub port",
+    "1 x HDMI™ port",
+    "1 x ASUS Wi-Fi Module",
+    "1 x Realtek 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x BIOS FlashBack™ button",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "a2b479f3-7fd5-4705-ab49-23da0c0f9d64",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "fc7f6799-a44a-41a8-a62b-d1766e85ab91",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "d0ac8b48-f2fb-42e8-8b20-6c5d581a0d08",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "49fd4408-ee12-4176-b67f-3c13df3f50a6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B550M-E WIFI",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B550M-E WIFI", "90MB17T0-M0EAY0", "90MB17U0-M0EAY0"],
     "series": "TUF GAMING",
     "variant": "B550M-E WIFI",
+    "releaseYear": 2021,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550m-e-wifi/techspec/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

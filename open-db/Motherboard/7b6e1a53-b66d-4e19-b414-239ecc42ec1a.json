@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "RED"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -110,6 +110,26 @@
     "5 x Audio jacks",
     "1 x BIOS FlashBackTM button"
   ],
+  "display_outputs": [
+    {
+      "id": "ff4e582c-4a1f-4101-9f0a-4441b684115e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "72a07f01-172e-4f93-82fb-489c7939a59c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "Asus ROG STRIX B550-F GAMING WIFI II",
     "manufacturer": "ASUS",
@@ -123,7 +143,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-f-gaming-wifi-ii-model/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -134,6 +154,11 @@
         "type": "ean",
         "value": "4711081453314",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711081453314",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -147,6 +172,11 @@
       },
       {
         "type": "mpn",
+        "value": "ROG STRIX B550-F GAMING WIFI II",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "STRIX B550-F GAMING WIFI II",
         "region": "all"
       },
@@ -154,6 +184,11 @@
         "type": "upc",
         "value": "195553453318",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553453318",
+        "region": "us"
       }
     ],
     "retailer_listings": [

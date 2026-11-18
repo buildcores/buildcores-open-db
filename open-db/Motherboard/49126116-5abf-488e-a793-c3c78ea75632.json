@@ -106,6 +106,45 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "3ef4f5c7-dee7-48b5-aa14-a26596d991be",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "653f4170-4e54-4fd0-99d1-aef865a34c85",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "8e3372ff-5bf8-4a7a-b83a-664d51a6426d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ddf67046-170e-478e-8660-8ea4931999f9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B550M-A AC AM4 DDR4 mATX",
     "manufacturer": "ASUS",

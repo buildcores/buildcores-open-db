@@ -105,6 +105,38 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF out port"
   ],
+  "display_outputs": [
+    {
+      "id": "4ae71641-8a0a-4220-96de-314e8eefce9b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "1c4aa99d-5dde-4b24-badf-bf71da58279c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c04e6c9d-3c94-4bfd-9d49-e06341c57cea",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible Ryzen processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B550-PLUS AM4 ATX",
     "manufacturer": "ASUS",

@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREEN"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -17,40 +17,30 @@
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 16
+    },
+    {
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 and SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 and SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -67,10 +57,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
   },
-  "ecc_support": false,
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1,
+    "com_port": 2
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -78,25 +83,74 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC887/8977.1 Surround Sound High Definition Audio CODEC",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek 8111H)"],
+  "back_panel_ports": [
+    "1 x Realtek® RTL8111H",
+    "2 x USB 3.2 Gen 2 (1 x Type-A+1 x USB Type-C®)",
+    "2 x USB 3.2 Gen 1 Type-A",
+    "2 x DisplayPort",
+    "1 x PS/2 keyboard (purple)",
+    "1 x PS/2 mouse (green)",
+    "1 x HDMI",
+    "2 x USB 2.0",
+    "3 x Audio jack(s)"
+  ],
+  "display_outputs": [
+    {
+      "id": "c1ee586b-8afe-4417-a813-ab58cfbf21cd",
+      "connector": "displayport",
+      "count": 2,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "a5226ddc-7e96-479d-938a-dd2e7df78631",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "77de4b81-ce7c-44f8-96b4-db1259e73355",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS Pro B550M-C/CSM",
     "manufacturer": "ASUS",
     "part_numbers": ["Pro B550M-C", "CSM", "90MB15Q0-M0EAYC", "90MB15Q0-M0AAYC", "PRO B550M-C/CSM"],
     "variant": "Pro B550M-C/CSM",
+    "releaseYear": 2020,
     "manufacturer_color": "Green"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/pro-b550m-c-csm/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876992333",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876992333",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -115,6 +169,11 @@
       },
       {
         "type": "mpn",
+        "value": "90MB15Q0-M0EAYC",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "CSM",
         "region": "all"
       },
@@ -129,9 +188,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PRO B550M-C/CSM",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876992333",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876992333",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -322,7 +391,7 @@
         "channel": "us",
         "source_product_id": "N82E16813119365",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -376,9 +445,9 @@
       {
         "source": "walmart",
         "channel": "us",
-        "source_product_id": "427390631",
+        "source_product_id": "5001569588",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
