@@ -11,7 +11,7 @@
   "effective_memory_clock": 1502,
   "memory_bus": 64,
   "tdp": 30,
-  "interface": "PCIe 3.0 x16",
+  "interface": "PCIe 3.0 x4",
   "color": ["BLACK"],
   "lighting": ["None"],
   "length": 147,
@@ -27,12 +27,30 @@
   "video_outputs": {
     "hdmi_2_1": 0,
     "hdmi_2_0": 1,
+    "hdmi_2_0b": 1,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 0,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "ade160e6-38aa-4949-aa99-e41332b04ba4",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "5a90ed79-57de-4d1b-9dc2-c113f095b0f8",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI AERO ITX OC GeForce GT 1030 2GB GDDR5",
     "manufacturer": "MSI",
@@ -46,8 +64,13 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GT-1030-AERO-ITX-2G-OC/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0601547322619",
+        "region": "all"
+      },
       {
         "type": "mpn",
         "value": "GEFORCE GT 1030 AERO ITX 2G OC",
@@ -56,6 +79,11 @@
       {
         "type": "mpn",
         "value": "GT 1030 AERO ITX 2G OC",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "601547322619",
         "region": "all"
       }
     ],

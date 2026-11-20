@@ -1,6 +1,6 @@
 {
   "opendb_id": "0accb5b9-14d0-4fbe-9828-35b457db8abd",
-  "weight": 132,
+  "weight": 131,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce GT 1030",
   "core_count": 384,
@@ -8,11 +8,11 @@
   "core_boost_clock": 1430,
   "memory": 2,
   "memory_type": "DDR4",
-  "effective_memory_clock": 1050,
+  "effective_memory_clock": 2100,
   "memory_bus": 64,
-  "tdp": 30,
-  "interface": "PCIe 3.0 x16",
-  "frame_sync": "G-Sync",
+  "tdp": 20,
+  "interface": "PCIe 3.0 x4",
+  "frame_sync": "None",
   "color": ["BLACK"],
   "lighting": ["None"],
   "length": 150,
@@ -27,13 +27,31 @@
   },
   "video_outputs": {
     "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_0b": 1,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "bc33d3fb-dd87-4d7d-879d-ff0c79a26e7c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "e94ee489-c1f5-4e06-9e4e-cba31938f134",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GT 1030 2GD4 LP OC GeForce GT 1030 DDR4 2GB DDR4 Black",
     "manufacturer": "MSI",
@@ -47,7 +65,7 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GT-1030-2GD4-LP-OC/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -60,6 +78,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIB4VJKMT6070",
+        "pricing_enabled": true,
+        "verified": false
+      }
+    ]
   }
 }
