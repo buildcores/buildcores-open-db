@@ -114,6 +114,50 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "2aa03598-e443-448b-bf1f-650a260e27ee",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "963fbeb9-0463-4dd7-bc2a-5d6b298caeef",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "f8d5ec90-c685-4e0e-86ba-8b75a2099ffe",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bfeaac50-8e63-4380-ada5-760076463469",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-A GAMING WIFI",
     "manufacturer": "ASUS",
@@ -128,12 +172,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105772670",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105772670",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -162,6 +211,11 @@
       },
       {
         "type": "mpn",
+        "value": "ROG STRIX B850-A GAMING WIFI",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "ROG STRIX B850-A GAMING WIFI R2",
         "region": "all"
       },
@@ -169,6 +223,11 @@
         "type": "upc",
         "value": "197105772670",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105772670",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -322,7 +381,7 @@
         "channel": "us",
         "source_product_id": "6612912",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "box",

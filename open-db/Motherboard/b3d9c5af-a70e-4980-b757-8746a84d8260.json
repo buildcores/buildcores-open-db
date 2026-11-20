@@ -103,6 +103,48 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "db3a082e-00b1-4ec5-b9de-79cfc175d5b9",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "57f87710-8f90-461e-b9b0-72d4a8b4465a",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "6b31e117-a503-4897-ba43-e409cb25933d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0fcc3b31-dffd-40bc-a419-e46778ec29b9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B850 MAX GAMING WIFI",
     "manufacturer": "ASUS",

@@ -83,6 +83,29 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "18ad5342-6461-40aa-ba22-ba72c7fd379e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1fbc4448-378d-4104-848e-5ab0d51410aa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS EX-B850M-V9-CSM",
     "manufacturer": "ASUS",

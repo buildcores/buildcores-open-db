@@ -89,6 +89,28 @@
     "1 x Realtek 5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "e5716a7f-f454-4d93-a6a9-7feb9fbdac72",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "153366f6-b07b-442f-b839-1c90921c8eb4",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS EX-B850M-V7-CSM",
     "manufacturer": "ASUS",

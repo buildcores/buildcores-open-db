@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB", "Display"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -105,6 +105,29 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "5d4db984-cb4b-44cf-afb6-64eb619657db",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7c42d67b-54e7-4a03-9777-a77555042f43",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-F GAMING WIFI7 NEO",
     "manufacturer": "ASUS",
@@ -119,7 +142,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-f-gaming-wifi7-neo/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -298,7 +321,7 @@
         "channel": "us",
         "source_product_id": "6677870",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

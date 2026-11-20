@@ -88,6 +88,29 @@
     "1 x Realtek® 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "93cdfa28-9d19-4c00-bbb9-79cff814df23",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cf02a3cf-42ec-47b5-8495-3dd16eb15142",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B850M-E AYW GAMING WIFI-CSM",
     "manufacturer": "ASUS",

@@ -102,6 +102,49 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "95426d6c-0748-465c-8538-51833259509e",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4adaf909-bbe8-4f4b-ad8c-e6108e081c18",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "80ac0589-0c7f-4d49-b5d6-aeeec69df145",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "83674f1f-8066-4d0b-9cd6-ceb039387000",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B850M-A",
     "manufacturer": "ASUS",

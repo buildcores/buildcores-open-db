@@ -112,6 +112,29 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "3c2de406-126f-4243-b652-ac5742932372",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "48bedade-932b-4cdf-b880-e21ba388ca3e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-A GAMING WIFI7 NEO AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -126,7 +149,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-a-gaming-wifi7-neo/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -347,6 +370,13 @@
         "source_product_id": "PB02AS232",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119784",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "overclockers",

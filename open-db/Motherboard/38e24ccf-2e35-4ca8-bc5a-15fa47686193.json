@@ -104,6 +104,29 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "8b68ec53-e78e-41e2-a905-f28246a9fedc",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c4aecce4-3fb3-4ee6-a88d-93e869cb86f2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B850M AYW GAMING WIFI-CSM",
     "manufacturer": "ASUS",

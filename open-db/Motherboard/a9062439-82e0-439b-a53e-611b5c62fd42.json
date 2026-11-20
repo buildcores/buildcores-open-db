@@ -9,43 +9,38 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 3,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 and SATA"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -55,6 +50,7 @@
       "controller": "Realtek RTL8125B"
     }
   ],
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -62,37 +58,115 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1,
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC S1200A7.1 Surround Sound High Definition Audio CODEC",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125B)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 (teal blue) (1 x Type-A+1 x USB Type-C®)",
+    "1 x BIOS FlashBack™ Button(s)",
+    "4 x USB 3.2 Gen 1 (blue) Type-A",
+    "1 x LAN (2.5G) port(s)",
+    "2 x USB 2.0 (one port can be switched to USB BIOS FlashBack™)",
+    "1 x ASUS Wi-Fi Module",
+    "1 x DisplayPort",
+    "1 x HDMI",
+    "1 x Optical S/PDIF out",
+    "5 x Audio jack(s)"
+  ],
+  "display_outputs": [
+    {
+      "id": "309ae14c-aceb-46f8-9d07-944b00964777",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "d5006db0-fb24-4a0b-9ebe-44d216958db4",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "766f37ec-16c2-4219-a9f7-f6a09b6c15aa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus TUF GAMING B550-PLUS (WI-FI)",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B550-PLUS (WI-FI)", "90MB15D0-M0EAY0", "90MB15D0-MVAAY0"],
     "series": "TUF GAMING",
     "variant": "B550-PLUS (WI-FI)",
+    "releaseYear": 2020,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550-plus-wi-fi/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0192876862773",
+        "region": "us"
+      },
       {
         "type": "ean",
         "value": "0192876862780",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0192876862780",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -110,9 +184,24 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUF GAMING B550-PLUS (WI-FI)",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876862773",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "192876862773",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "192876862780",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -218,6 +307,20 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B08F9LP42S",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813119348",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "142651756",
         "pricing_enabled": true,
         "verified": true
       }

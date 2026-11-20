@@ -119,6 +119,71 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "1cdf611c-1bf4-498e-874e-0a7f1843acd9",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c91268e0-b2a3-454c-8a2c-2b8e6ac08eb7",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "1f34f35e-7582-4e70-8ab6-0bb976e8bcb7",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b5e39583-a331-4b01-955d-52570fcc269e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "ffddd008-2c44-465e-b57c-546fbedac18e",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB4 40Gbps",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a6b5fca3-e2ba-483c-8dd3-4ea68c35222c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Display output via ASMedia ASM4241 controller; supports DisplayPort 1.4a"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-E GAMING WIFI",
     "manufacturer": "ASUS",

@@ -53,7 +53,7 @@
       "controller": "Realtek"
     }
   ],
-  "wireless_networking": "Wifi 6E Bluetooth 5.4",
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 2
@@ -81,7 +81,7 @@
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "4-pin"]
   },
-  "ecc_support": false,
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -102,6 +102,48 @@
     "1 x Realtek® 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
+  ],
+  "display_outputs": [
+    {
+      "id": "ee7d8d4e-2b45-406c-8597-4ab9070443cd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b20664ff-dbf9-4515-97c0-9fee659105c3",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "f5a1d3ba-3234-4d26-8a3d-b7efa816681d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e0686026-f8cf-4fc3-a7c1-131125da3634",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS B850 MAX GAMING WIFI-CSM",

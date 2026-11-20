@@ -95,6 +95,50 @@
     "1 x BIOS FlashBack button",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "f2a70781-f128-4d73-b1b5-a84e9fcd1e88",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "34dfa6b6-7bcc-4e1a-b1e1-98364d360e30",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "d348f485-4896-466e-8305-15f22c70b860",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "80274594-d17b-4c4e-948d-2c8d4991a30a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B850M-K-CSM",
     "manufacturer": "ASUS",

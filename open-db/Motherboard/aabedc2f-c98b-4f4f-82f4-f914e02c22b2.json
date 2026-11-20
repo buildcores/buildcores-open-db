@@ -98,6 +98,50 @@
     "1 x Clear CMOS button",
     "1 x FlexKey button"
   ],
+  "display_outputs": [
+    {
+      "id": "5427ce26-fd86-468b-818d-ba2d2b3f5d94",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d580c073-3e0d-4372-860a-054b43f9b211",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "52e23028-8d73-48af-bd51-9ec382134255",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "USB 10Gbps",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "df4cfde2-f50a-4266-b0cf-3c136752492a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics; supports DisplayPort 1.4a"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-I GAMING WIFI AM5 DDR5 Mini-ITX",
     "manufacturer": "ASUS",
@@ -112,12 +156,17 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105823624",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105823624",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -128,6 +177,11 @@
         "type": "mpn",
         "value": "‎5Z8N",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "‎5Z8N",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -146,6 +200,11 @@
       },
       {
         "type": "mpn",
+        "value": "ROG STRIX B850-I GAMING WIFI",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "STRIX B850-I GAMING WIFI",
         "region": "all"
       },
@@ -153,6 +212,11 @@
         "type": "upc",
         "value": "197105823624",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105823624",
+        "region": "us"
       }
     ],
     "retailer_listings": [

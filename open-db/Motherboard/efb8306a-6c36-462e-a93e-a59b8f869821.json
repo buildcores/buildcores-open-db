@@ -108,6 +108,48 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "e1254e4a-a94b-4c2f-a33d-d99c00272e62",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7a3fc0f6-48b9-4d0e-b3c2-36e953eb9250",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "4dc4e9e6-9ef1-4e76-a39e-e587cb0d3c60",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "782c4385-be9f-4c39-9895-e975c0c35511",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850M-PLUS WIFI7 W",
     "manufacturer": "ASUS",

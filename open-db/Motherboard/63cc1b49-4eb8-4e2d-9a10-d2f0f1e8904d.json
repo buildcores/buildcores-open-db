@@ -95,6 +95,50 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "0cfc0cf0-36df-48bb-9f0a-bd5d1865cd95",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "00b813b9-b583-4756-97fb-8830b54c3376",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "supported",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "411535e4-346b-40d2-ad63-71bac58620ca",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "535422a5-aee7-4c95-891e-c59fb98c4d3b",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B850M AYW GAMING OC WIFI7 W",
     "manufacturer": "ASUS",
@@ -107,14 +151,32 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b850m-ayw-gaming-oc-wifi7-w/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711636277815",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1NB0-M0EAY0",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "B850M-AYW-GAMING-OC-WIFI7-W",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GT16RJQT",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -106,6 +106,50 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack™ button"
   ],
+  "display_outputs": [
+    {
+      "id": "8f247211-621d-4f9b-95ce-8a151112c0ad",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2a93dfea-f91d-4feb-b408-fe8085068787",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "d778f31d-4511-411b-aba6-b1a1ded311ab",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4bbcde16-b07d-417d-947c-a3d17629f6d2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B850M-A WIFI AM5 DDR5 Micro-ATX",
     "manufacturer": "ASUS",
@@ -120,7 +164,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b850m-a-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -128,9 +172,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0199291051133",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "PRIME B850M-A WIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B850M-A WIFI-CSM",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -146,6 +200,11 @@
         "type": "upc",
         "value": "199291051133",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291051133",
+        "region": "us"
       }
     ],
     "retailer_listings": [

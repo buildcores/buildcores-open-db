@@ -1,24 +1,27 @@
 {
   "opendb_id": "4004e378-6bc8-4a01-8e9e-6984e23ca3ff",
+  "weight": 900,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3050 8 GB",
-  "core_count": 0,
+  "core_count": 2560,
   "core_base_clock": 1550,
   "core_boost_clock": 1807,
   "memory": 8,
   "memory_type": "GDDR6",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1750,
+  "memory_bus": 128,
   "tdp": 130,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 178,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "1 Fan",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -37,9 +40,12 @@
     "part_numbers": ["PH-RTX3050-8G-V2", "90YV0GH8-M0AA00", "90YV0GH8-M0NA00"],
     "series": "Default",
     "variant": "Phoenix",
+    "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/graphics-cards/dual/dual-rtx3050-8g/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

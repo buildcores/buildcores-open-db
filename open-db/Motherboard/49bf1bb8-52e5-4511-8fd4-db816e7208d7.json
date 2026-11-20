@@ -114,6 +114,50 @@
     "1 x BIOS FlashBack™ button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "e311d128-0f07-4ac0-a2db-ce1b2e774288",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f768b39b-7b90-4123-8ea2-d341a21d88b7",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "e60feff5-d04d-4cd2-83c7-181fa826e8ec",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "21aae537-679a-4cf8-aa14-6675290b78de",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-F GAMING WIFI",
     "manufacturer": "ASUS",
@@ -127,7 +171,7 @@
     "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-f-gaming-wifi/spec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -140,6 +184,11 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711387771013",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90MB1J70-M0AAY0",
         "region": "all"
@@ -148,6 +197,11 @@
         "type": "mpn",
         "value": "90MB1J70-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1J70-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -306,7 +360,7 @@
         "channel": "us",
         "source_product_id": "6612911",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

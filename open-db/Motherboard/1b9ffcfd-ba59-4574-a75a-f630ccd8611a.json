@@ -103,6 +103,49 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "2d945b7b-7191-4c45-af07-19144105ca63",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7650e09c-203d-4e79-9570-11693eded820",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "f1a589a4-bdb5-4a98-acdd-87374c53a9c8",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "43fb7259-8012-4a1d-808f-e81646dff4c6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850M-PLUS II",
     "manufacturer": "ASUS",

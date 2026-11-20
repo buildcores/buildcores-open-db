@@ -105,6 +105,48 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "35d154e3-42e2-4f00-bce6-900c78b374cb",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ae5d6d68-0f5c-4e02-ac0b-9338e1ec4b2e",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "7f3c9fac-d9f1-49a6-873b-43454dbbe35b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0483ed9d-9731-4940-94fd-3cb40ee126ef",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850-PRO WIFI7 W NEO",
     "manufacturer": "ASUS",
@@ -118,12 +160,17 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850-pro-wifi7-w-neo/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0199291435995",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0199291435995",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -142,6 +189,11 @@
       },
       {
         "type": "mpn",
+        "value": "TUF GAMING B850-PRO WIFI7 W NEO",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "TUF-GAMING-B850-PRO-WIFI7-W-NEO",
         "region": "all"
       },
@@ -149,6 +201,11 @@
         "type": "upc",
         "value": "199291435995",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291435995",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -332,7 +389,7 @@
         "channel": "us",
         "source_product_id": "N82E16813119774",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",

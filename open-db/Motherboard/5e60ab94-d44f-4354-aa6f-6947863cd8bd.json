@@ -112,6 +112,50 @@
     "5 x Audio jacks",
     "1 x BIOS FlashBack™ button"
   ],
+  "display_outputs": [
+    {
+      "id": "0fe18771-1aa0-478c-be9f-56074655ea86",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "64233fb5-9fdc-40df-8b31-205f3be6c940",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "4150770b-fa03-4b09-9e19-64e34d3bb833",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1c443343-de88-4db3-a476-8002631617a3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850-PLUS WIFI",
     "manufacturer": "ASUS",
@@ -126,12 +170,17 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850-plus-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105781603",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105781603",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -164,9 +213,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUF GAMING B850-PLUS WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105781603",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105781603",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -325,7 +384,7 @@
         "channel": "us",
         "source_product_id": "6612914",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

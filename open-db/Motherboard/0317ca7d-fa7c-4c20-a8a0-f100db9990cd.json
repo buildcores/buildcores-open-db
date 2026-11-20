@@ -112,6 +112,48 @@
     "5 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "81c8de0d-ca63-4d98-9cac-b4be2260cdb1",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "51ded9b6-1484-4d52-bde8-d6a35b18c728",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1de6f012-5227-4951-8d7d-2f2191243078",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ce99bff1-06b7-4159-ae09-272eab219aab",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850-BTF WIFI W AM5 DDR5 ATX",
     "manufacturer": "ASUS",

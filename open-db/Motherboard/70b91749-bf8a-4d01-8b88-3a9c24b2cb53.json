@@ -83,6 +83,29 @@
     "1 x Realtek 5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "04433692-b469-4c29-afa1-2e2fd5108ca8",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8f8f9892-ed04-4cd2-b851-9d9eaf6be264",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS EX-B850M-V7",
     "manufacturer": "ASUS",
@@ -96,14 +119,32 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-b850m-v7/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711636207645",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1N5M-M0EAY0",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "EX-B850M-V7",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GDYKPN7B",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

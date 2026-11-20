@@ -109,6 +109,48 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "6574481d-dc5b-43fd-8a24-f31fd3163a3d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7e46e4be-1384-4a80-91f9-de147ba2f4d6",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "8eae22bb-4109-4e71-94b0-689c8d6ea2ab",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "de31d030-3297-4e24-9a9b-f7d4a5daaa70",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B850 MAX GAMING WIFI W",
     "manufacturer": "ASUS",
@@ -118,7 +160,7 @@
     "manufacturer_color": "White"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b850-max-gaming-wifi-w/helpdesk_manual?model2Name=B850-MAX-GAMING-WIFI-W"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b850-max-gaming-wifi-w/techspec/"
   },
   "identifiers": {
     "version": 1,

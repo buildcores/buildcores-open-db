@@ -50,7 +50,7 @@
       "controller": "Realtek RTL8125B"
     }
   ],
-  "wireless_networking": "Wifi 6 Bluetooth 5.1",
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -104,6 +104,38 @@
     "1 x Optical S/PDIF out port",
     "1 x BIOS FlashBack button",
     "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "9c81a615-2f55-4a73-a3e7-177df03ec0e4",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated"
+    },
+    {
+      "id": "33446469-f390-46b0-b42c-0d81b36ce566",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f9c25781-8005-48aa-987b-6ebeafed05b9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS TUF GAMING B550M-ZAKU (WI-FI)",

@@ -106,6 +106,50 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack™ button"
   ],
+  "display_outputs": [
+    {
+      "id": "7e48ee69-40da-4d00-9938-9587cb541cd0",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d5844ae8-1142-4639-9ef9-6f0c32ab9bf4",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "77473512-638d-46cb-ae8b-9a7e4a3367ab",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "58c0d00a-2ffa-4b75-b81f-e6d43e058ef3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B850M-A WIFI-CSM AM5 DDR5 Micro-ATX",
     "manufacturer": "ASUS",

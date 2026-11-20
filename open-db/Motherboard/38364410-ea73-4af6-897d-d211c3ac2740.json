@@ -103,6 +103,48 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "62d37069-3219-46ea-9cb3-4d475aca4c3b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b850e3fb-2159-44d1-87f4-4c6c79115712",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "a4de2a04-85c8-40e6-93d6-c746280c6ee6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a9f65250-5b5b-46cc-9959-af385c271513",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B850-PLUS-CSM",
     "manufacturer": "ASUS",
@@ -110,20 +152,43 @@
     "series": "PRIME",
     "variant": "B850-PLUS-CSM",
     "releaseYear": 2025,
-    "manufacturer_color": "Black/Silver"
+    "manufacturer_color": "Black / Silver"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/csm/prime-b850-plus-csm/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711387982037",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1LC0-M0EAY0",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1LC0-M0EAYC",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "PRIME B850-PLUS-CSM",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0F1Z541PW",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -60,7 +60,7 @@
       "controller": "Realtek"
     }
   ],
-  "wireless_networking": "WiFi 6 Bluetooth 5.3",
+  "wireless_networking": "WiFi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -108,6 +108,29 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
+  ],
+  "display_outputs": [
+    {
+      "id": "aa279a09-db56-47c7-a318-5108c509b3ca",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a7414649-8dad-4e17-8dd5-45cbb70e0562",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a compatible CPU with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS B850M AYW GAMING WIFI",

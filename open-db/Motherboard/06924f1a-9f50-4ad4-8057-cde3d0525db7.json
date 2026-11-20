@@ -98,6 +98,49 @@
     "1 x Clear CMOS button",
     "1 x FlexKey button"
   ],
+  "display_outputs": [
+    {
+      "id": "161e9356-b689-41ad-ad42-3e7089ad1c75",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a9634eb7-5210-4c99-93d1-a4bee5ac5b6b",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "14b46ff4-e3b6-496d-a7dd-4fd7e36e3919",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9d3030f6-cdc8-4c46-8d24-2c3835ac2c7f",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "USB-C display output; requires a compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B850-I GAMING WIFI7 W AM5 DDR5 Mini-ITX",
     "manufacturer": "ASUS",

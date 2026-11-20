@@ -106,6 +106,50 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "7dab864a-7434-4042-9232-83664bce1129",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "db84aa43-b106-458f-bf75-3e9fe61bc358",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    },
+    {
+      "id": "374d73b3-546f-4478-8916-7d987e4bc997",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d98b8583-2936-4400-8a12-b3b74a8f9fe6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850-E WIFI AM5 DDR5 ATX",
     "manufacturer": "ASUS",
@@ -119,7 +163,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850-e-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -132,9 +176,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711387987544",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90MB1L20-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1L20-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",

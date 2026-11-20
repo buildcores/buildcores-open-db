@@ -89,6 +89,48 @@
     "1 x BIOS FlashBack button",
     "1 x Clear CMOS button"
   ],
+  "display_outputs": [
+    {
+      "id": "ceee3f0e-3622-4811-928b-ed46c199ac35",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "24a85cbc-55eb-4ac4-ace5-3fce37a9b586",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "6d5d3aed-9197-434c-b4b5-dbed6aa936fa",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c0888f84-957e-492e-8272-5b1e12b3b300",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B850I WIFI NEO",
     "manufacturer": "ASUS",
@@ -102,14 +144,51 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b850i-wifi-neo/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0199291580916",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "TUF GAMING B850I WIFI NEO",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "TUF-GAMING-B850I-WIFI-NEO",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291580916",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H862GP41",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA0ZXM5K9866",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20952506197",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }
