@@ -1,5 +1,6 @@
 {
   "opendb_id": "8eca55d2-661d-4c1e-ae76-495eed438642",
+  "weight": 352,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3050 6 GB",
   "core_count": 2304,
@@ -22,6 +23,35 @@
     "hdmi_2_1": 2,
     "displayport_1_4a": 1
   },
+  "display_outputs": [
+    {
+      "id": "19ef6e84-aeaf-498e-8a5d-4183729b1157",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "1a30d633-1bdf-483b-89b0-6c8581bdc5e8",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "2a833d28-c169-473d-8818-de27442d82c6",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3050 LP E 6GB OC",
     "manufacturer": "MSI",
@@ -35,148 +65,26 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-LP-E-6G-OC/Gallery"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
-        "value": "0824142348697",
-        "region": "all"
+        "value": "4711377265584",
+        "region": "us"
       },
       {
         "type": "mpn",
-        "value": "RTX 3050 LP 6G OC",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "RTX-3050-LP-E-6G-OC",
-        "region": "all"
-      },
-      {
-        "type": "upc",
-        "value": "824142348697",
-        "region": "all"
+        "value": "V812-054R",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
         "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0CTJZCJH1",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
         "channel": "us",
-        "source_product_id": "B0CTJZCJH1",
+        "source_product_id": "B0DQD4K81X",
         "pricing_enabled": true,
         "verified": true
-      },
-      {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "12514760",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "bhphoto",
-        "channel": "us",
-        "source_product_id": "MSG3050LP6C",
-        "pricing_enabled": true,
-        "verified": false
       },
       {
         "source": "msi",
@@ -196,20 +104,6 @@
         "source": "newegg",
         "channel": "ca",
         "source_product_id": "9SIA6KXKRF1829",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "9SIA6KXKRF1829",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "5409403144",
         "pricing_enabled": true,
         "verified": true
       }

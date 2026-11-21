@@ -10,7 +10,7 @@
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "tdp": 130,
-  "interface": "PCIe 4.0 x16",
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
   "lighting": ["RGB"],
@@ -30,9 +30,33 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "3f997764-52b0-496c-948c-57f34bd8ecab",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "c4025851-ba82-4501-9748-42d9b6733d53",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    },
+    {
+      "id": "a9e787c7-16fe-4637-88b8-5aea7d8ba791",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "Asus DUAL OC V2 GeForce RTX 3050 8GB GDDR6 Black",
     "manufacturer": "ASUS",
@@ -46,7 +70,7 @@
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/graphics-cards/dual/dual-rtx3050-o8g-v2/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -191,13 +215,6 @@
         "source": "ccl",
         "channel": "uk",
         "source_product_id": "VGA6865",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "5792173522",
         "pricing_enabled": true,
         "verified": false
       }

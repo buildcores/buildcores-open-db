@@ -31,14 +31,39 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "cf79f258-a3d7-44de-906d-25377034561b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "d0175924-e869-420d-9ccd-0797a23ec4c0",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "hdmi"
+    },
+    {
+      "id": "9c05f89a-e212-4a3f-9948-758cb2162d9c",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "Asus DUAL GeForce RTX 3050 6GB GDDR6 Black",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "DUAL",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
   "general_product_information": {

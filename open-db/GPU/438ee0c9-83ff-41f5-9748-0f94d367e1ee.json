@@ -11,10 +11,10 @@
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "tdp": 130,
-  "interface": "PCIe 4.0 x16",
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
-  "lighting": ["RGB"],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["Multicolor"],
   "length": 200,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -29,11 +29,27 @@
     "hdmi_2_1": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
-    "displayport_2_1a": 3,
-    "displayport_1_4a": 0,
+    "displayport_2_1a": 0,
+    "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "11dbe82e-445d-49fc-b74e-3c2800ca882b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi"
+    },
+    {
+      "id": "2fc16270-52eb-415c-82d1-e5608944e37c",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    }
+  ],
   "metadata": {
     "name": "ASUS Dual GeForce RTX 3050 OC Edition 8GB GDDR6",
     "manufacturer": "ASUS",
@@ -47,7 +63,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rtx3050-o8g/helpdesk_manual?model2Name=DUAL-RTX3050-O8G"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -181,13 +197,6 @@
       {
         "source": "newegg",
         "channel": "ca",
-        "source_product_id": "N82E16814126557R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
         "source_product_id": "N82E16814126557R",
         "pricing_enabled": true,
         "verified": false

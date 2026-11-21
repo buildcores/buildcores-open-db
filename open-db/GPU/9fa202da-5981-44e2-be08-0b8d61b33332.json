@@ -1,5 +1,6 @@
 {
   "opendb_id": "9fa202da-5981-44e2-be08-0b8d61b33332",
+  "weight": 311,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3050 6 GB",
   "core_count": 2304,
@@ -11,6 +12,7 @@
   "memory_bus": 96,
   "tdp": 70,
   "interface": "PCIe 4.0 x8",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
   "lighting": ["None"],
   "length": 174,
@@ -21,6 +23,24 @@
     "hdmi_2_1": 2,
     "displayport_1_4a": 1
   },
+  "display_outputs": [
+    {
+      "id": "f82cacab-3979-405b-b13f-d669beb819f3",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "d58fb5af-2250-4c51-998a-fd6bed7f6ebe",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3050 Low Profile 6GB",
     "manufacturer": "MSI",

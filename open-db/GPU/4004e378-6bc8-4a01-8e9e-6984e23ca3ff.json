@@ -11,17 +11,17 @@
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "tdp": 130,
-  "interface": "PCIe 4.0 x16",
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": ["RGB"],
+  "lighting": ["None"],
   "length": 178,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "1 Fan",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 1,
+    "pcie_6_pin": 1,
+    "pcie_8_pin": 0,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -31,20 +31,44 @@
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
-    "dvi_d": 0,
+    "dvi_d": 1,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "cccd7d5b-6a72-46eb-a6b5-02fb2e634199",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "08935645-06c4-454b-9c48-06364f60be08",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    },
+    {
+      "id": "414cbda6-01a4-4fc8-8d16-61586579fdcf",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
-    "name": "Asus GeForce RTX 3050 8GB Black 8GB GDDR6 Black",
+    "name": "Asus GeForce RTX 3050 Phoenix Black 8GB GDDR6 Black",
     "manufacturer": "ASUS",
     "part_numbers": ["PH-RTX3050-8G-V2", "90YV0GH8-M0AA00", "90YV0GH8-M0NA00"],
     "series": "Default",
-    "variant": "Phoenix",
+    "variant": "Phoenix V2 (Single)",
     "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/in/motherboards-components/graphics-cards/dual/dual-rtx3050-8g/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/phoenix/ph-rtx3050-8g-v2/"
   },
   "identifiers": {
     "version": 1,
