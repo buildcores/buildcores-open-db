@@ -1,9 +1,9 @@
 {
   "opendb_id": "68d56be3-e72e-4442-ba95-fdcc43cafde6",
-  "weight": 390,
+  "weight": 570,
   "chipset_manufacturer": "NVIDIA",
-  "chipset": "GeForce RTX 3050 6 GB",
-  "core_count": 2304,
+  "chipset": "GeForce RTX 3050 8 GB",
+  "core_count": 2560,
   "core_base_clock": 1552,
   "core_boost_clock": 1807,
   "memory": 8,
@@ -20,8 +20,7 @@
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "power_connectors": {
-    "pcie_6_pin": 0,
-    "pcie_8_pin": 1,
+    "pcie_6_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -30,6 +29,40 @@
     "displayport_1_4a": 1,
     "dvi_d": 1
   },
+  "display_outputs": [
+    {
+      "id": "15f1d4d9-09cf-4105-ae2c-6d3ba97013be",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "c1bba0e0-4654-4e93-9b0b-7eab7515e39e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "711c13f2-c919-40d9-9720-c9c86f414aeb",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    },
+    {
+      "id": "78cdd506-e45d-4881-af2f-65722fb0ec51",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3050 VENTUS 2X XS WHITE 8G OC",
     "manufacturer": "MSI",
@@ -39,7 +72,7 @@
     "manufacturer_color": "White"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3050-VENTUS-2X-XS-8G-OC-WHITE"
+    "manufacturer_url": "https://uk.msi.com/Graphics-Card/GeForce-RTX-3050-VENTUS-2X-XS-WHITE-8G-OC"
   },
   "identifiers": {
     "version": 1,

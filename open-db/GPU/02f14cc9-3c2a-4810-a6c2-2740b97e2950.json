@@ -11,14 +11,14 @@
   "effective_memory_clock": 1502,
   "memory_bus": 64,
   "tdp": 30,
-  "interface": "PCIe 3.0 x16",
+  "interface": "PCIe 3.0 x4",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
-  "length": 153,
+  "length": 159,
   "case_expansion_slot_width": 1,
-  "total_slot_width": 2,
-  "cooling": "Passive",
+  "total_slot_width": 1,
+  "cooling": "1 Fan",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
@@ -28,12 +28,39 @@
   "video_outputs": {
     "hdmi_2_1": 0,
     "hdmi_2_0": 1,
+    "hdmi_2_0b": 1,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 1,
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "a4211f15-7f85-4dfb-8f39-deff9730edee",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    },
+    {
+      "id": "c8e00b31-954c-443b-8a55-ac547fc88720",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "mode_claims": [
+        {
+          "id": "e759248b-ee89-4285-abb3-9c5129b7c8c2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI GT 1030 LP OC Black GeForce GT 1030 2GB GDDR5 Black",
     "manufacturer": "MSI",
@@ -47,11 +74,11 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-GT-1030-2G-LP-OC/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 4,
     "identifiers": [
       {
         "type": "mpn",
-        "value": "GT 1030 2GH LP OC",
+        "value": "GeForce  GT 1030 2G LP OC",
         "region": "all"
       }
     ],

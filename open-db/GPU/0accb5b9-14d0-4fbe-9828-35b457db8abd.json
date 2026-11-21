@@ -13,7 +13,7 @@
   "tdp": 20,
   "interface": "PCIe 3.0 x4",
   "frame_sync": "None",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "length": 150,
   "case_expansion_slot_width": 1,
@@ -49,7 +49,18 @@
       "count": 1,
       "version_label": "2.0b",
       "video_signal": "hdmi",
-      "transport": "native"
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "e369028b-8ea3-4730-a977-31d8c5eba773",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     }
   ],
   "metadata": {
