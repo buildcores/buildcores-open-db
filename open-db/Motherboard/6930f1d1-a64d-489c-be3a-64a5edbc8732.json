@@ -9,29 +9,29 @@
     "slots": 4
   },
   "color": ["BROWN", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "3.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "2.0",
       "quantity": 4,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4 / SATA"
     }
   ],
   "storage_devices": {
@@ -52,33 +52,130 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek® ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s (Realtek RTL8111H)"],
+  "back_panel_ports": [
+    "∙ 1x Flash BIOS button",
+    "∙ 1x PS/2 keyboard/ mouse port",
+    "∙ 2x USB 2.0 Type-A ports",
+    "∙ 1x VGA port",
+    "∙ 1x DVI-D port",
+    "∙ 1x HDMI™ port",
+    "∙ 2x USB 3.2 Gen1 5Gbps Type-A ports",
+    "∙ 1x LAN (RJ45) port",
+    "∙ 2x USB 3.2 Gen2 10Gbps Type-A ports",
+    "∙ 6x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "c828c138-f2ea-4729-9032-138922aa4c41",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "14fe2b6d-488d-4b1c-b35f-bb4f4ac64d60",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1f4c6188-4a31-4f84-a229-ec580e16933f",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3e3d9067-0f60-4d32-99ad-d18e3369a0e7",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "428d7307-005b-463c-85bf-af3681975dc4",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8a6d04dc-7ea6-46ce-aae1-e1dbf0c76d5f",
+          "resolution": {
+            "horizontalRes": 2048,
+            "verticalRes": 1536
+          },
+          "refresh_rate": 50,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO B550-P GEN3",
     "manufacturer": "MSI",
     "part_numbers": ["PRO B550-P GEN3", "7B86-051R"],
     "series": "PRO",
     "variant": "B550-P GEN3",
+    "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B550-P-GEN3"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4719072957971",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "7B86-051R",
@@ -86,10 +183,23 @@
       },
       {
         "type": "mpn",
+        "value": "7B86-051R",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "PRO B550-P GEN3",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B09Z2MW3HF",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

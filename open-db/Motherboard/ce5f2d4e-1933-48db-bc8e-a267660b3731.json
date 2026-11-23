@@ -4,61 +4,73 @@
   "form_factor": "Micro ATX",
   "chipset": "AMD B550",
   "memory": {
-    "max": 64,
+    "max": 128,
     "ram_type": "DDR4",
-    "slots": 2
+    "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0/3.0 x4 or SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
   "onboard_ethernet": [
     {
-      "speed": "2.5 Gb/s",
-      "controller": "Realtek RTL8125B"
+      "speed": "1 Gb/s",
+      "controller": "Realtek RTL8111H"
     }
   ],
   "usb_headers": {
-    "usb_2_0": 1,
+    "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 2
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -68,33 +80,134 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125B)"],
+  "back_panel_ports": [
+    "● 1x VGA port",
+    "● 1x DisplayPort",
+    "● 1x HDMI™ port",
+    "● 4x USB 5Gbps Type-A ports (From CPU)",
+    "● 1x PS/2 keyboard/ mouse combo port",
+    "● 2x USB 2.0 Type-A ports (From B550 chipset)",
+    "● 1x 1G LAN (RJ45) jack",
+    "● 2x Wi-Fi Antenna connectors (For PRO B550M-P WIFI6E only)",
+    "● 3x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "2c25e0e1-9794-4e95-be01-7f6161eba095",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ab482efc-a56f-4485-a77a-b87839ea0fac",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "932aa74a-37bd-4add-8f02-d40ced5faec5",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4adb163d-69d8-42e3-8618-5f6e2d09bec8",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "48f509f6-8b7e-4ce0-bb56-816080ac59da",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "24459c85-c494-4a8d-9fa3-8fda365bbd91",
+          "resolution": {
+            "horizontalRes": 2048,
+            "verticalRes": 1536
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO B550M-P",
     "manufacturer": "MSI",
     "part_numbers": ["MPG B550I GAMING EDGE WIFI", "7C92-002R"],
     "series": "PRO",
     "variant": "B550M-P",
+    "releaseYear": 2026,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B550M-P"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
-        "type": "mpn",
-        "value": "7C92-002R",
-        "region": "all"
+        "type": "ean",
+        "value": "0824142462966",
+        "region": "us"
       },
       {
         "type": "mpn",
-        "value": "MPG B550I GAMING EDGE WIFI",
-        "region": "all"
+        "value": "PRO B550M-P",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "824142462966",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H2C1VYZ7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144765",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20622806929",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

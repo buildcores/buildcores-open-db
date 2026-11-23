@@ -97,6 +97,66 @@
     "1x LAN (RJ45) port",
     "3x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "23cb6b20-81f2-426a-b604-2ffb87aedebf",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2e33385a-7a73-46ac-ab43-152ce4629432",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c4643a7a-0816-4adc-8f1b-1e11413f8ef0",
+      "connector": "displayport",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "48514951-dd0a-4d4d-89c2-b179129f4e75",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1af2c1bd-acb2-41c3-ac7d-16aee7ecf238",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b0d25a25-a6fd-476d-aa39-b2d9fc746a52",
+          "resolution": {
+            "horizontalRes": 2048,
+            "verticalRes": 1536
+          },
+          "refresh_rate": 50,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI B550M PRO-DASH",
     "manufacturer": "MSI",
