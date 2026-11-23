@@ -1,5 +1,6 @@
 {
   "opendb_id": "98178c2d-bad0-4c2c-af91-adca1d13da24",
+  "weight": 1315,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
@@ -7,19 +8,21 @@
   "core_boost_clock": 2760,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "lighting": [],
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "length": 305,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,15 +34,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "3cf4f76a-4652-450b-a7b8-c4250c7c7df9",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "8e0e2f8c-3670-4fa0-90c5-b5ab601d986a",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Asus GeForce RTX 4070 Ti TUF GAMING OC 12GB GDDR6X Black",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF-RTX4070TI-O12G-GAMING", "90YV0IJ0-M0NA00"],
     "series": "TUF Gaming",
     "variant": "OC",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/in/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070ti-o12g-gaming/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

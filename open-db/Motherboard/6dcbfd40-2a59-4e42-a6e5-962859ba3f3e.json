@@ -135,6 +135,29 @@
     "USB 10Gbps (Type-A)",
     "Optical S/PDIF-Out"
   ],
+  "display_outputs": [
+    {
+      "id": "9de7e88b-1b20-4dff-9ecc-e90839470dca",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bcb920e9-a255-441f-994a-3b967b4537ff",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z890 MEG UNIFY-X LGA1851 DDR5 ATX",
     "manufacturer": "MSI",

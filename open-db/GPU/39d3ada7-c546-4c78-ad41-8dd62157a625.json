@@ -1,5 +1,6 @@
 {
   "opendb_id": "39d3ada7-c546-4c78-ad41-8dd62157a625",
+  "weight": 982,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 SUPER",
   "core_count": 7168,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2490,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 21000,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 220,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK", "RED"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 307,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,15 +34,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "7066fb2d-4830-4ad4-ad8b-7f0d9f486e4a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "dcce015d-b56b-430a-8e9a-e9b9bfafb1c2",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 SUPER GAMING SLIM MLG 12GB GDDR6X Black Red",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "GAMING",
     "variant": "SLIM MLG",
+    "releaseYear": 2024,
     "manufacturer_color": "Black / Red"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-12G-GAMING-SLIM-MLG"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -7,13 +7,15 @@
   "core_boost_clock": 2565,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 21000,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 200,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 300,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,15 +33,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "d34b9965-16a2-41e7-84a3-dc2f76e966e6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "f017d45d-38e9-4a0d-ae5d-1c3b95ce2098",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Gigabyte GAMING OC V2 GeForce RTX 4070 12GB GDDR6X Black",
     "manufacturer": "Gigabyte",
     "part_numbers": [],
     "series": "GAMING",
     "variant": "OC V2",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N4070GAMING-OCV2-12GD/sp"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

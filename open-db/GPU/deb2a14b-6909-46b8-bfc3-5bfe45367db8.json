@@ -1,5 +1,6 @@
 {
   "opendb_id": "deb2a14b-6909-46b8-bfc3-5bfe45367db8",
+  "weight": 930,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070",
   "core_count": 5888,
@@ -8,17 +9,19 @@
   "memory": 12,
   "memory_type": "GDDR6",
   "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "memory_bus": 192,
   "tdp": 200,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 261,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 0,
+    "pcie_8_pin": 1,
     "pcie_12VHPWR": 0,
     "pcie_12V_2x6": 0
   },
@@ -31,15 +34,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "43730ab2-3483-446a-8d2a-d0907901dcdd",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "beae353f-f2ea-4912-abc9-97060034fcd9",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Gigabyte WINDFORCE OC V2 GeForce RTX 4070 12GB GDDR6 Black",
     "manufacturer": "Gigabyte",
     "part_numbers": [],
     "series": "WINDFORCE",
     "variant": "OC V2",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N4070WF3OCV2-12GD/sp"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -7,13 +7,15 @@
   "core_boost_clock": 2655,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 2640,
+  "memory_bus": 192,
   "tdp": 220,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 307,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,15 +33,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "b7d206c3-0d20-458e-b6f3-f6b5fe607b3e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "2708e7c9-0a7c-4b6e-9de7-a2e7e88229bd",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING X SLIM GeForce RTX 4070 SUPER 12GB GDDR6X White",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "GAMING SLIM",
     "variant": "X",
+    "releaseYear": 2024,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-12G-GAMING-X-SLIM-WHITE"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

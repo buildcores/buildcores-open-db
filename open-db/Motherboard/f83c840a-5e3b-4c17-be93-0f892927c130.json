@@ -125,6 +125,50 @@
     "Wi-Fi / Bluetooth",
     "Optical S/PDIF Out"
   ],
+  "display_outputs": [
+    {
+      "id": "bd9aa1b9-72e4-44aa-8e7b-2e9935a4cb4c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 with FRL",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4fc5c1fe-ce06-409b-84d3-ae682684a94e",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor featuring integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "10fce59d-1def-4fa6-ae7b-5c4f6502456e",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9269d1dd-d058-4be6-97e0-3e9c18e698e3",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Thunderbolt 4 ports with DisplayPort video output; requires a processor featuring integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG Z890 CARBON WIFI",
     "manufacturer": "MSI",
@@ -138,7 +182,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-Z890-CARBON-WIFI/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -151,9 +195,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711377260794",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "7E17-001R",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7E17-001R",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -164,6 +218,11 @@
         "type": "mpn",
         "value": "MPG Z890 CARBON WIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG Z890 CARBON WIFI",
+        "region": "us"
       },
       {
         "type": "mpn",

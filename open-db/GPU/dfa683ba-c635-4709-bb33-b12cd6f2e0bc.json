@@ -1,5 +1,6 @@
 {
   "opendb_id": "dfa683ba-c635-4709-bb33-b12cd6f2e0bc",
+  "weight": 680,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 SUPER",
   "core_count": 7168,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2520,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 220,
-  "interface": "PCIe x16",
-  "color": ["BLACK"],
-  "lighting": [],
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "length": 242,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "power_connectors": {
@@ -31,15 +34,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "dd26d00d-fdfc-4422-b13f-0937b34ed6c5",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "3c2f4870-b8ee-40df-a5ad-d28339d908f9",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 SUPER VENTUS 2X OC 12GB GDDR6X Black",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "VENTUS",
     "variant": "2X OC",
+    "releaseYear": 2024,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-12G-VENTUS-2X-OC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

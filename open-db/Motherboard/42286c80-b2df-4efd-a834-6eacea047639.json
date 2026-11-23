@@ -124,6 +124,49 @@
     "USB 10Gbps (Type-A)",
     "Optical S/PDIF-Out"
   ],
+  "display_outputs": [
+    {
+      "id": "1f0fd75e-b542-436e-ac46-4e4995488c8a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 with FRL",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9960d76a-e3b5-44e9-b34e-6694ac1d5ec8",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor featuring integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "724fd85d-7173-48a0-8d4f-cd6d57f4ff97",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "mode_claims": [
+        {
+          "id": "2e0cf607-559d-43e7-8d08-a79e3e8b01c9",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Thunderbolt 4 ports with DisplayPort video output; requires a processor featuring integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MEG Z890 ACE",
     "manufacturer": "MSI",
@@ -137,7 +180,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MEG-Z890-ACE/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -150,9 +193,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711377260787",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "7E22-001R",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "7E22-001R",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -163,6 +216,11 @@
         "type": "mpn",
         "value": "MEG Z890 ACE",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MEG Z890 ACE",
+        "region": "us"
       },
       {
         "type": "mpn",

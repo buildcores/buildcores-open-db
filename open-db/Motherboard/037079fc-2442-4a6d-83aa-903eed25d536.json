@@ -114,6 +114,50 @@
     "USB 5Gbps Type-A",
     "S/PDIF-OUT"
   ],
+  "display_outputs": [
+    {
+      "id": "f1a73050-6dcf-4eb1-bc62-78d852f78f57",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ec57c28a-2e49-4dcc-bd7b-9f1072d6b79c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor featuring integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "e8dfcaa3-61e6-41fa-ae01-5211caf11d89",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e6b09dd-cf4e-4573-a6e4-6cf5d7902820",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Thunderbolt 4 ports with DisplayPort video output; requires a processor featuring integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MAG Z890 TOMAHAWK WIFI",
     "manufacturer": "MSI",
@@ -127,12 +171,17 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MAG-Z890-TOMAHAWK-WIFI/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142382226",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142382226",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -156,6 +205,11 @@
       },
       {
         "type": "mpn",
+        "value": "MAG Z890 TOMAHAWK WIFI",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "Z890TOMAHAWKWIFI",
         "region": "all"
       },
@@ -163,6 +217,11 @@
         "type": "upc",
         "value": "824142382226",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142382226",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -316,9 +375,9 @@
       {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "6604426",
+        "source_product_id": "10732057",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

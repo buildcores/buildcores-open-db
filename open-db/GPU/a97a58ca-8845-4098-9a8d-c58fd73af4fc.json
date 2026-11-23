@@ -1,5 +1,6 @@
 {
   "opendb_id": "a97a58ca-8845-4098-9a8d-c58fd73af4fc",
+  "weight": 1176,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 SUPER",
   "core_count": 7168,
@@ -12,7 +13,7 @@
   "tdp": 225,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": [],
+  "color": ["BLACK"],
   "lighting": ["ARGB"],
   "length": 227,
   "case_expansion_slot_width": 2,
@@ -33,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "f561aa07-d5c8-45aa-a778-bb03cc700158",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d8ab1773-6bab-4fd8-baff-fa450df43517",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF Gaming GeForce RTX™ 4070 SUPER 12GB GDDR6X OC Edition",
     "manufacturer": "ASUS",

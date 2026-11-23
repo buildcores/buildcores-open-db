@@ -124,6 +124,50 @@
     "USB 2.0",
     "Optical S/PDIF Out"
   ],
+  "display_outputs": [
+    {
+      "id": "0cab5bf2-3a9f-491a-8762-bd1cf36add65",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 with FRL",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "acc76826-e3e9-4f55-a109-08555e896997",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "1114febd-c6db-49e7-9c00-20f4f3588917",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "72ec25a6-a66c-4413-a7af-98a8b61e1fb4",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Thunderbolt 4 ports; requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG Z890 EDGE TI WIFI",
     "manufacturer": "MSI",

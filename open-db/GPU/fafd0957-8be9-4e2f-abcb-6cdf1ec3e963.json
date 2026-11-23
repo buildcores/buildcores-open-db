@@ -7,19 +7,21 @@
   "core_boost_clock": 2790,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 336,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,6 +33,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "ce30764b-9d60-433a-bcd1-80525818298a",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "b2e59c04-6315-4ff4-a20e-d6f6ab57a64e",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Asus ROG STRIX GAMING OC GeForce RTX 4070 Ti 12GB GDDR6X Black",
     "manufacturer": "ASUS",
@@ -42,9 +64,12 @@
     ],
     "series": "ROG",
     "variant": "Strix OC",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/in/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4070ti-o12g-gaming-model/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
