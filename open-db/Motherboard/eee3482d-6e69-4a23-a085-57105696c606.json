@@ -8,8 +8,8 @@
     "ram_type": "DDR4",
     "slots": 4
   },
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -50,6 +50,7 @@
       "controller": "Realtek RTL8125B"
     }
   ],
+  "wireless_networking": "None",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -57,10 +58,24 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -72,17 +87,61 @@
     "channels": "7.1"
   },
   "back_panel_ports": [
-    "DisplayPort",
-    "HDMI",
-    "LAN (RJ45)",
-    "Optical S/PDIF Out",
-    "Audio Jacks",
-    "PS/2 Keyboard/Mouse Combo",
-    "USB 2.0/1.1",
-    "USB 3.2 Gen 2 Type-A",
-    "USB 3.2 Gen 2 Type-C",
-    "USB 3.2 Gen 1 Type-A",
-    "Flash BIOS Button"
+    "∙ 1x Display port",
+    "∙ 1x HDMI port",
+    "∙ 1x Flash BIOS Button",
+    "∙ 1x PS/2 keyboard/ mouse combo port",
+    "∙ 2x USB 2.0 Type-A ports",
+    "∙ 1x LAN (RJ45) port",
+    "∙ 2x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-A port",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-C port",
+    "∙ 2x Wi-Fi Antenna connectors (MAG B550M MORTAR WIFI",
+    "∙ 5x Audio jacks",
+    "∙ 1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "a26dd8fd-2ccf-4723-8155-2ed7d9cd2c62",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "27865970-c04b-41d5-9825-d5b334c7ad9b",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; specifications may vary by CPU"
+        }
+      ]
+    },
+    {
+      "id": "0d2294b5-498d-4cae-911b-fab563a6da7d",
+      "connector": "displayport",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5a1f162f-a2cb-4d4e-84e1-e949589e3345",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI MAG B550M MORTAR",
@@ -93,9 +152,11 @@
     "releaseYear": 2020,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B550M-MORTAR/Overview"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -103,14 +164,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142217368",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MAG B550M MORTAR",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MAG B550M MORTAR",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142217368",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142217368",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -229,16 +305,16 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIBMM4K740647",
+        "source_product_id": "N82E16813144328",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "867004897",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

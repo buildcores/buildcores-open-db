@@ -102,6 +102,71 @@
     "2 x Wi-Fi antenna connectors",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "3c3169e2-c386-45dd-a70f-5d1418485360",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b38ac010-3d07-4ff9-8adc-9d9b29b270fa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "93ff9acf-f22c-4376-b531-fde175d9026c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f6a45570-a567-48c4-8f3c-2fcf1abce81a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "c00d029d-2537-45d3-92cf-c4ba0a84c743",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "174d6dc1-f747-4ef7-b9cb-ec6cedb15851",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO Z890-S WIFI WHITE",
     "manufacturer": "MSI",
@@ -112,7 +177,7 @@
     "manufacturer_color": "White"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI-WHITE/Gallery"
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI-WHITE/Specification"
   },
   "identifiers": {
     "version": 1,

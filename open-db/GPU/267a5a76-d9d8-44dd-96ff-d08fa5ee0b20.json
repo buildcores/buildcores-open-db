@@ -1,5 +1,6 @@
 {
   "opendb_id": "267a5a76-d9d8-44dd-96ff-d08fa5ee0b20",
+  "weight": 2019,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
@@ -8,12 +9,14 @@
   "memory": 12,
   "memory_type": "GDDR6X",
   "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 338,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,14 +34,37 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "1617e21c-98a7-4e4e-a5cf-543200a3ac22",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "e43bde82-3dbf-4b78-89b2-a193302eeca4",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI SUPRIM GeForce RTX 4070 Ti 12GB GDDR6X Black / Silver",
     "manufacturer": "MSI",
     "part_numbers": ["RTX 4070 Ti SUPRIM 12G"],
     "series": "SUPRIM",
+    "releaseYear": 2023,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPRIM-12G"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

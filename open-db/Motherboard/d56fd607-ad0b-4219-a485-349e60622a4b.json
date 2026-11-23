@@ -9,38 +9,38 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 4,
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0/3.0 x4 or SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 8,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -53,36 +53,112 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek® ALC892/ALC897 Codec",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek 8111H)"],
+  "back_panel_ports": [
+    "∙ 1x Flash BIOS Button",
+    "∙ 1x PS/2 keyboard/ mouse combo port",
+    "∙ 4x USB 2.0 Type-A ports",
+    "∙ 1x Display port",
+    "∙ 1x HDMI™ port",
+    "∙ 1x LAN (RJ45) port",
+    "∙ 2x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-A port",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-C port",
+    "∙ 6x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "db6fd32a-82d8-4fab-ba57-795612d5645e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5ec5b261-9fd1-404b-816c-4d3ae9bf9697",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "5b4142ab-721c-4b07-9a2e-bf63b36ab07a",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "87ed9aad-db79-4825-8d5e-9d470a74fbe5",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO B550-VC",
     "manufacturer": "MSI",
     "part_numbers": ["PRO B550-VC", "9B13-144-547"],
     "series": "PRO",
     "variant": "B550-VC",
+    "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B550-VC/Overview"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -90,9 +166,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142299241",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "9B13-144-547",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "9B13-144-547",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -103,6 +189,11 @@
         "type": "upc",
         "value": "824142299241",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142299241",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -216,21 +307,21 @@
         "channel": "ca",
         "source_product_id": "N82E16813144547",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16813144547",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "1548092999",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

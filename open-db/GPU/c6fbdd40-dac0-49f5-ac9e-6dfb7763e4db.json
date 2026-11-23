@@ -1,5 +1,6 @@
 {
   "opendb_id": "c6fbdd40-dac0-49f5-ac9e-6dfb7763e4db",
+  "weight": 1594,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2625,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 337,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,15 +34,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "ec7514f3-e4c8-4b06-9fa2-74688e033bb3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "46f6dd44-dde1-4faa-8141-855c799ae5a2",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING TRIO GeForce RTX 4070 Ti 12GB GDDR6X Black",
     "manufacturer": "MSI",
     "part_numbers": ["RTX 4070 Ti GAMING TRIO 12G", "912-V513-007", "V513-007R"],
     "series": "GAMING",
     "variant": "TRIO",
+    "releaseYear": 2023,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-GAMING-X-TRIO-12G"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

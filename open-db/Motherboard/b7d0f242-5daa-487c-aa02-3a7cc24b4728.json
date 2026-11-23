@@ -115,6 +115,71 @@
     "2x Wi-Fi Antenna connectors",
     "3x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "5e76826f-98ae-43da-8fb6-5ce520aa97ec",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "73692a6b-02fa-4f88-a3d7-925e90143258",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "80ea0dc0-77ac-463d-b2f0-3a44fd3a699e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "DisplayPort 1.4 (HBR2)",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "52d9c57a-7dd7-4195-b3c8-0d04c5e11bd5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "6122cc6e-433d-410f-a03f-32fad3424a7f",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fda31203-203c-4f00-9b6a-b0fd9d538a9c",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI Z890 PRO-P DDR5 ATX",
     "manufacturer": "MSI",

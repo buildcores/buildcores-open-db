@@ -24,7 +24,7 @@
   ],
   "m2_slots": [
     {
-      "size": "2260/ 2280 ",
+      "size": "2260/ 2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
@@ -50,7 +50,7 @@
   "onboard_ethernet": [
     {
       "speed": "10 Gb/s",
-      "controller": "Intel Killer E5000 5Gbps LAN controller "
+      "controller": "Intel Killer E5000 5Gbps LAN controller"
     }
   ],
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
@@ -94,7 +94,7 @@
   },
   "back_panel_ports": [
     "1 x HDMI port",
-    "1 x Thunderbolt 4 USB-C port ",
+    "1 x Thunderbolt 4 USB-C port",
     "1 x Flash BIOS button",
     "1 x Clear CMOS button",
     "3 x USB 10Gbps Type-A ports",
@@ -104,6 +104,50 @@
     "2 x Wi-Fi Antenna connectors",
     "2 x audio jacks",
     "1 x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "b9e8b11e-3372-4f3f-805e-56a2bd6bee5b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "HDMI 2.1 with FRL",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "288d8523-e5e8-482d-81f6-62f461505125",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "16c241c8-9ed2-43b9-b4cc-4d288c72d1cf",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6838d4b1-8090-4691-93ac-80474fa7fa69",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Thunderbolt 4 port; requires a processor with integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI MAG Z890 TOMAHAWK WIFI II",
@@ -115,17 +159,66 @@
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-Z890-TOMAHAWK-WIFI-II/Gallery"
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-Z890-TOMAHAWK-WIFI-II/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0824142456347",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MAG Z890 TOMAHAWK WIFI II",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "MAG-Z890-TOMAHAWK-WIFI-II",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "Z890TOMAHAWKWIFIII",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "824142456347",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0H2B5NTL5",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "13174359",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144757",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "20301569173",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

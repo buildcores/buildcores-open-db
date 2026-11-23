@@ -9,11 +9,11 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
-      "quantity": 4,
+      "quantity": 1,
       "lanes": 16
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 4
     }
   ],
@@ -41,7 +41,7 @@
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
@@ -55,7 +55,7 @@
       "controller": "Realtek 8125D"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -78,6 +78,9 @@
     "power_led": true,
     "hdd_led": true
   },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
@@ -90,7 +93,7 @@
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
   "back_panel_ports": [
@@ -103,17 +106,83 @@
     "2 x Wi-Fi antenna connectors",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "aa46a87b-64d5-4c2f-84a7-3c709a04517c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "099e2ab9-8fdb-4ea8-8215-b655524f26fc",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "ce5c662d-3ba3-4541-954f-cfe9ded005b4",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d0ad0b98-3020-46c9-bdbf-61a36eea4911",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "449bac9f-cd96-410a-93af-d623296b415b",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6d7605d5-aac0-4165-9142-805204073b44",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO Z890-S WIFI",
     "manufacturer": "MSI",
     "part_numbers": ["PRO Z890-S WIFI", "Z890SWIFI", "Z890-S WIFI", "911-7E54-02S"],
     "series": "PRO",
     "variant": "Z890-S WIFI",
-    "manufacturer_color": "Black/Silver",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black / Silver",
     "last_manually_spec_verified_at": "2026-02-25T22:08:39.851Z"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI"
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI/Specification"
   },
   "identifiers": {
     "version": 1,

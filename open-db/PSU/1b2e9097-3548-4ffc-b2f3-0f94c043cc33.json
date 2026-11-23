@@ -27,12 +27,17 @@
   },
   "general_product_information": {},
   "identifiers": {
-    "version": 2,
+    "version": 3,
     "identifiers": [
       {
         "type": "mpn",
         "value": "EG1200PBH",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "840353054905",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -40,6 +45,13 @@
         "source": "bestbuy",
         "channel": "us",
         "source_product_id": "13154137",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAFSTM1D5194",
         "pricing_enabled": true,
         "verified": true
       }

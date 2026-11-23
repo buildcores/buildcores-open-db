@@ -8,8 +8,8 @@
     "ram_type": "DDR4",
     "slots": 2
   },
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -19,14 +19,14 @@
   ],
   "m2_slots": [
     {
-      "size": "2260/ 2280",
+      "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0/ 3.0 x4"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 3.0x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "storage_devices": {
@@ -40,6 +40,7 @@
       "controller": "Realtek® RTL8125B"
     }
   ],
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -47,14 +48,29 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin'"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": true
   },
   "audio": {
@@ -62,17 +78,41 @@
     "channels": "7.1"
   },
   "back_panel_ports": [
-    "USB 2.0",
-    "Wi-Fi / Bluetooth",
+    ". 1x Flash BIOS Button",
+    ". 2x USB 2.0 Type-A ports",
     "USB 3.2 Gen 2 10Gbps (Type-A)",
-    "LAN Port",
-    "HD Audio Connectors",
-    "Flash BIOS Button",
-    "PS/2 Combo Port",
-    "HDMI™ Port",
-    "USB 3.2 Gen 2 10Gbps (Type-C)",
-    "USB 3.2 Gen 1 5Gbps (Type-A)",
-    "Optical S/PDIF OUT"
+    ". 2x USB 2.0 Type-A ports",
+    ". 1x HDMI 2.0/ 2.1 port",
+    ". 2x Wi-Fi Antenna connectors",
+    ". 1x USB 3.2 Gen 2 10Gbps Type-A port",
+    ". 1x USB 3.2 Gen 2 10Gbps Type-C port",
+    ". 1x LAN (RJ45) port",
+    ". 2x USB 3.2 Gen 1 5Gbps Type-A ports",
+    ". 5x Audio jacks",
+    ". 1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "ec4a0778-e499-4faf-9787-3a2c03db22a3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1f53d052-3efa-4bd8-a335-8012d7087c0f",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary by CPU"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI MPG B550I GAMING EDGE WIFI",
@@ -83,9 +123,11 @@
     "releaseYear": 2020,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-B550I-GAMING-EDGE-WIFI"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -215,13 +257,6 @@
         "verified": true
       },
       {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6420206",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "newegg",
         "channel": "ca",
         "source_product_id": "9SIBMWSK380566",
@@ -231,16 +266,16 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIBMWSK380566",
+        "source_product_id": "N82E16813144323",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "868941587",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

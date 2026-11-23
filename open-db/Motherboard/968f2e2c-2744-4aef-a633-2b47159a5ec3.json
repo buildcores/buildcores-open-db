@@ -128,6 +128,29 @@
     "2 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "f4fc6f6e-31bb-4a1c-9317-3c0dc973d225",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "75a0fd17-cb4f-4cbf-a2b7-e0e73079ac38",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MEG Z890 GODLIKE",
     "manufacturer": "MSI",

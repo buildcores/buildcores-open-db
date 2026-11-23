@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": ["RGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "3.0",
@@ -100,6 +100,49 @@
     "1x LAN (RJ45) port",
     "2x USB 3.2 Gen2 10Gbps Type-A ports",
     "6x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "6d2aaae0-5b95-48af-98d8-dc722b649c53",
+      "connector": "dvi_d",
+      "count": 1,
+      "video_signal": "dvi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9848b217-c186-4c64-80ca-358b39f17b07",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1200
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "6218e611-9923-4108-ad10-1ee67f963481",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.0b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "04b10e07-47c1-4e9a-8359-18f631be5f8c",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary by CPU"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI B550 GAMING GEN3 AM4 DDR4 ATX",

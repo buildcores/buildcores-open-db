@@ -102,6 +102,69 @@
     "2 x Wi-Fi Antenna connectors",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "a9853a69-3857-435c-bf49-947e2227a50e",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0f09485a-4a21-46bd-963b-f04af1dccc04",
+          "resolution": {
+            "horizontalRes": 2048,
+            "verticalRes": 1536
+          },
+          "refresh_rate": 50,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "32c2d826-385d-477a-a8bb-5f89942cb16c",
+      "connector": "displayport",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "455d5925-ebfb-4b29-be3f-afc599850b89",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "7000bc1e-8b75-488f-919c-d1bba54411d3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fd7bd960-6451-4883-9cfa-f30b975d28a1",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; specifications may vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO B550M PRO-VDH WIFI AM4 DDR4 Micro-ATX",
     "manufacturer": "MSI",

@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": ["RGB", "ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -102,6 +102,69 @@
     "1 x LAN (RJ45) port",
     "2 x Wi-Fi Antenna connectors",
     "3 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "2911f509-6d98-4319-a6a5-0ea6c293edcb",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3ead3a8b-b76f-4e33-8fbd-139de7244b9e",
+          "resolution": {
+            "horizontalRes": 2048,
+            "verticalRes": 1536
+          },
+          "refresh_rate": 50,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "d2aed768-2830-4981-bd32-7f5a64f0529b",
+      "connector": "displayport",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ae2acbe8-8043-44c6-9a53-1f6f83019136",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "ce3fb3cb-9ff5-4aa4-a35e-089c1ab3177b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "83877482-b07d-49e5-b318-d480808e9089",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary by CPU"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI B550M PRO-VDH WIFI (CEC) AM4 DDR4 Micro-ATX",

@@ -109,6 +109,50 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF Out"
   ],
+  "display_outputs": [
+    {
+      "id": "eaa66822-5c3c-48cc-b062-44c6e2fd884f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f034f162-c6e5-4ffa-8ad0-d6677a99a0e0",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary by CPU"
+        }
+      ]
+    },
+    {
+      "id": "2397c6b5-c9db-48bb-a7d4-44ac9828351e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5edc73c8-a70d-4f79-a858-4aa29b098035",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI B550 MAG TOMAHAWK MAX WIFI AM4 DDR4 ATX",
     "manufacturer": "MSI",

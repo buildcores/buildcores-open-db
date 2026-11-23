@@ -1,5 +1,6 @@
 {
   "opendb_id": "300fffee-273e-4836-b90a-2f708a34f4e1",
+  "weight": 1094,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti SUPER",
   "core_count": 8448,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2685,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
-  "color": ["WHITE", "GREY"],
-  "lighting": [],
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["GREY", "BLACK"],
+  "lighting": ["RGB"],
   "length": 307,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "4b326dfc-0f53-4575-a13e-3b6bcc5753ed",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d6620736-463f-429e-aecc-584fe574ac17",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING X SLIM GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black / Silver",
     "manufacturer": "MSI",
@@ -41,9 +64,12 @@
     ],
     "series": "GAMING SLIM",
     "variant": "X",
+    "releaseYear": 2024,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-GAMING-X-SLIM/Gallery"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

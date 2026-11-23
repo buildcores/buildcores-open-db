@@ -9,48 +9,38 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 3,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0/3.0 x4 or SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -60,28 +50,103 @@
       "controller": "Realtek RTL8125B"
     }
   ],
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1200",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125B)"],
+  "back_panel_ports": [
+    "∙ 1x Display port",
+    "∙ 1x HDMI port",
+    "∙ 1x Flash BIOS Button",
+    "∙ 1x PS/2 keyboard/ mouse combo port",
+    "∙ 4x USB 2.0 Type-A ports",
+    "∙ 2x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "∙ 1x LAN (RJ45) port",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-A port",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-C port",
+    "∙ 2x Wi-Fi Antenna connectors",
+    "∙ 5x audio jacks",
+    "∙ 1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "172ab10d-6712-4159-b2ed-f1bbc357baf1",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a95aaea6-a843-470d-bcd6-ff7c04ecdf64",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary by CPU"
+        }
+      ]
+    },
+    {
+      "id": "e37dbb59-1d41-4670-bf3e-8f36030a954f",
+      "connector": "displayport",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4505ccfe-3eb8-4350-9cfb-16b5d5dfbc52",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG B550 GAMING CARBON WIFI",
     "manufacturer": "MSI",
@@ -93,11 +158,14 @@
     ],
     "series": "MPG",
     "variant": "B550 GAMING CARBON WIFI",
+    "releaseYear": 2020,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MPG-B550-GAMING-CARBON-WIFI/Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -246,7 +314,7 @@
         "channel": "us",
         "source_product_id": "6420742",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -265,16 +333,16 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIBMM4KD05140",
+        "source_product_id": "N82E16813144322",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "562395713",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

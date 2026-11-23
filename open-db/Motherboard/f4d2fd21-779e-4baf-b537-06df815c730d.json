@@ -9,43 +9,38 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
-      "quantity": 2,
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0/3.0 x4 and SATA"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 3.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 6,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -58,25 +53,97 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek® ALC1220P",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek RTL8125B)"],
+  "back_panel_ports": [
+    "∙ 1x Display port",
+    "∙ 1x HDMI port",
+    "∙ 1x Flash BIOS Button",
+    "∙ 1x PS/2 keyboard/ mouse combo port",
+    "∙ 2x USB 2.0 Type-A ports",
+    "∙ 1x LAN (RJ45) port",
+    "∙ 2x USB 3.2 Gen 1 5Gbps Type-A ports",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-A port",
+    "∙ 1x USB 3.2 Gen 2 10Gbps Type-C port",
+    "∙ 2x Wi-Fi Antenna connectors",
+    "∙ 5x Audio jacks",
+    "∙ 1x Optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "5edc96d3-f63f-46c4-8dc6-3de96d2706de",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "875bc0cf-3408-412f-b179-5cba4d1e75db",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "7c316099-e3d6-46d8-9768-e461c4c5118e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3a9bbc66-e8d7-486a-aac9-efd700e6a42d",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MAG B550M MORTAR MAX WIFI",
     "manufacturer": "MSI",
@@ -85,14 +152,21 @@
     "variant": "B550M MORTAR MAX WIFI",
     "manufacturer_color": "Black/Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-B550M-MORTAR-MAX-WIFI"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142283103",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142283103",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -105,9 +179,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MAG B550M MORTAR MAX WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142283103",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142283103",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -261,9 +345,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "N82E16813144636",
+        "source_product_id": "9SIC4CTKX35719",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "skinflint",
@@ -277,7 +361,7 @@
         "channel": "us",
         "source_product_id": "5077707136",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

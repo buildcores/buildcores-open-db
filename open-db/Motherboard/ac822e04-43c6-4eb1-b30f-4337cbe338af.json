@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "WHITE"],
-  "lighting": [],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -17,31 +17,31 @@
       "lanes": 16
     },
     {
-      "gen": "4.0",
-      "quantity": 2,
-      "lanes": 4
-    },
-    {
       "gen": "3.0",
       "quantity": 1,
       "lanes": 1
+    },
+    {
+      "gen": "4.0",
+      "quantity": 2,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2280/2260/2242",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280/2260/2242",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280/2260/2242",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4 / SATA"
     }
   ],
   "storage_devices": {
@@ -55,7 +55,7 @@
       "controller": "Realtek 8125D"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -106,6 +106,71 @@
     "2 x Wi-Fi antenna connectors",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "721cc763-e23f-408d-8570-0defb89bb6f2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "12de2302-be1e-49a7-aeaa-914485321dac",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "59ba3ef7-d3ed-4b34-875a-81b7626ea464",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7da69540-144a-4c22-83d4-099ac636a273",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "24a18f95-09fe-4e86-971b-bd847571b681",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "DisplayPort 2.1 (UHBR20)",
+      "video_signal": "displayport",
+      "transport": "thunderbolt",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9120f649-907e-40ef-a5bd-0d4e7c25dd89",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO Z890-S WIFI PZ",
     "manufacturer": "MSI",
@@ -117,10 +182,10 @@
     "last_manually_spec_verified_at": "2026-02-25T22:26:47.942Z"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI-PZ/"
+    "manufacturer_url": "https://www.msi.com/Motherboard/PRO-Z890-S-WIFI-PZ/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -128,9 +193,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142394205",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MSI PRO Z890-S WiFi",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MSI PRO Z890-S WiFi",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -141,6 +216,11 @@
         "type": "upc",
         "value": "824142394205",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142394205",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -254,7 +334,7 @@
         "channel": "us",
         "source_product_id": "6629579",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -289,7 +369,7 @@
         "channel": "us",
         "source_product_id": "N82E16813144704",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",

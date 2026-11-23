@@ -1,22 +1,23 @@
 {
   "opendb_id": "0f7e217c-5c55-42a1-b934-b841084b4f85",
+  "weight": 2019,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
-  "core_base_clock": 0,
+  "core_base_clock": 2310,
   "core_boost_clock": 2745,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 21000,
+  "effective_memory_clock": 1313,
   "memory_bus": 192,
   "tdp": 285,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": [],
-  "lighting": [],
+  "color": ["GREY", "BLACK"],
+  "lighting": ["None"],
   "length": 338,
   "case_expansion_slot_width": 3,
-  "total_slot_width": 0,
+  "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -33,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "fda76192-f9ba-4f8a-b2dd-5c101966ce97",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "93965feb-a8f2-4e86-8e14-f88b2e0cbc0f",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "GeForce RTX 4070 Ti SUPRIM 12G",
     "manufacturer": "MSI",
@@ -42,7 +63,9 @@
     "releaseYear": 2023,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPRIM-12G/Gallery"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

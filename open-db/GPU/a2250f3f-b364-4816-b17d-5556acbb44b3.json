@@ -1,5 +1,6 @@
 {
   "opendb_id": "a2250f3f-b364-4816-b17d-5556acbb44b3",
+  "weight": 869,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2655,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 242,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "2 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "a141bb9e-12aa-4bfd-972a-0f6ac76f7c58",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "427a47af-4453-4c75-81e1-b3d9f55546cc",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI VENTUS 2X OC GeForce RTX 4070 Ti 12GB GDDR6X Silver / Black",
     "manufacturer": "MSI",
@@ -40,9 +63,12 @@
     ],
     "series": "VENTUS",
     "variant": "2X OC",
+    "releaseYear": 2023,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-VENTUS-2X-12G-OC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

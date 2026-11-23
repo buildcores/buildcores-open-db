@@ -1,5 +1,6 @@
 {
   "opendb_id": "00f14e06-1664-487a-b605-38c82abe8022",
+  "weight": 1073,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2655,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 308,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "d91de942-d03f-4a0e-85b4-7a818034d3eb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "ac10419a-ff9d-4a34-bf59-566d9cd31474",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 Ti VENTUS 3X E OC 12GB GDDR6X Silver / Black",
     "manufacturer": "MSI",
@@ -40,9 +63,12 @@
     ],
     "series": "VENTUS",
     "variant": "3X E OC",
+    "releaseYear": 2023,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-VENTUS-3X-E-12G-OC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

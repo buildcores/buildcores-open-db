@@ -1,5 +1,6 @@
 {
   "opendb_id": "d32837ab-a6de-4d8b-9aa4-f3c80d1982f0",
+  "weight": 1091,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti",
   "core_count": 7680,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2745,
   "memory": 12,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 307,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "02c3cb5c-03a3-4fec-b203-0efb0a530a53",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "1ab2ac8a-2829-4c14-888f-bf9a4c650725",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING X SLIM GeForce RTX 4070 Ti 12GB GDDR6X White",
     "manufacturer": "MSI",
@@ -41,9 +64,12 @@
     ],
     "series": "GAMING SLIM",
     "variant": "X",
+    "releaseYear": 2023,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-GAMING-X-SLIM-WHITE-12G/"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

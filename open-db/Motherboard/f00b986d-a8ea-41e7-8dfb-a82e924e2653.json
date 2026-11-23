@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -103,6 +103,69 @@
     "2x Wi-Fi Antenna connectors",
     "3x Audio jack"
   ],
+  "display_outputs": [
+    {
+      "id": "f30df9ed-7ec5-4240-806d-6c85f7f8a313",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7b48de2a-cdb1-453d-821c-4e73621d275b",
+          "resolution": {
+            "horizontalRes": 2048,
+            "verticalRes": 1536
+          },
+          "refresh_rate": 50,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "e477e3d1-e39d-4096-b5b1-6806e1c79150",
+      "connector": "displayport",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "69e732fe-7dee-4f64-95a1-e41e4f39b29d",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "768609b7-f052-4690-a26c-fe93ed23ec2b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "84752cfd-b021-499a-92bc-ff3b04243894",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; specifications may vary by CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO B550M-VC WIFI",
     "manufacturer": "MSI",
@@ -123,7 +186,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/PRO-B550M-VC-WIFI/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -272,7 +335,7 @@
         "channel": "us",
         "source_product_id": "6629572",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

@@ -108,6 +108,50 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "3985f633-6369-4eef-bbbf-49182d07e306",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d659f8c9-6889-4e77-8aa3-314f10dc1b63",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary by CPU"
+        }
+      ]
+    },
+    {
+      "id": "199154b1-910d-4b3d-9df4-390e924ff29b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a76b623c-98fe-48fc-bd8c-16e6b57b43a8",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG B550 GAMING PLUS AM4 ATX",
     "manufacturer": "MSI",

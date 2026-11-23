@@ -103,6 +103,50 @@
     "1x USB 3.2 Gen 2 10Gbps Type-C port",
     "6x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "662df2d5-b02b-4a5a-be4d-55d07e0021cc",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3ce10299-0a8d-4d52-9e82-c0ddf2e82f18",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "3eabd6b1-fbf7-4532-8866-e51812c29d3e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.2",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a61172e2-c2ca-4c98-a9ce-65e9ef700c1b",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI B550-A PRO (CEC)",
     "manufacturer": "MSI",
@@ -116,7 +160,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/B550-A-PRO-CEC/Overview"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -124,6 +168,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "N82E16813144578",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

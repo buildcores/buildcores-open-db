@@ -7,13 +7,15 @@
   "core_boost_clock": 2610,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 263,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "1 Fan",
   "power_connectors": {
@@ -31,6 +33,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "81865a87-e999-4e83-b6be-effc975936ed",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "a8dfcae1-27f0-4da0-a90a-1815fc239e4b",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 Ti SUPER AERO 16GB GDDR6X Black",
     "manufacturer": "MSI",
@@ -40,9 +62,12 @@
       "G407TS16AERO"
     ],
     "series": "AERO",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://us.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-AERO"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

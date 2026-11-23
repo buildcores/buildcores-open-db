@@ -119,6 +119,29 @@
     "5x audio jacks",
     "1x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "e4d3015d-7561-49b0-b794-c0fefd53c500",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b8c9b3b5-f904-4156-8ad1-b1ea86a14edf",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires a processor with integrated graphics; graphics specifications may vary depending on the CPU"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI B550 MEG UNIFY-X AM4 DDR4 ATX",
     "manufacturer": "MSI",
@@ -133,12 +156,17 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MEG-B550-UNIFY-X/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142233238",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142233238",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -152,13 +180,28 @@
       },
       {
         "type": "mpn",
+        "value": "B550UNIFYX",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "MEG B550 UNIFY-X",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MEG B550 UNIFY-X",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "824142233238",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142233238",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -268,6 +311,13 @@
         "verified": true
       },
       {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "MSGB550UNFYX",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "2430582",
@@ -291,7 +341,7 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIC3DRKN75381",
+        "source_product_id": "N82E16813144374",
         "pricing_enabled": true,
         "verified": true
       },
@@ -299,13 +349,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "2430582",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "631888732",
         "pricing_enabled": true,
         "verified": false
       }
