@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["RGB", "ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -103,6 +103,53 @@
     "1 x BIOS FlashBack™ button",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "f812a296-e722-4158-8bb8-4586390ce6bd",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1330c3f2-346e-461e-8b6c-c12d31170cbf",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "a8b2c6b3-035b-4a04-b358-5b65213dba89",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2a422850-4bbd-43cf-ba6d-0da3fcd5f0c7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "69675deb-0aca-4813-ad91-0c7d5e469209",
+      "connector": "vga",
+      "count": 1
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B650M-A WIFI II-CSM AM5 DDR5 Micro-ATX",
     "manufacturer": "ASUS",
@@ -116,7 +163,7 @@
     "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/csm/prime-b650m-a-wifi-ii-csm/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -129,9 +176,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711387034934",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90MB1EG0-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1EG0-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",

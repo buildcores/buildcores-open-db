@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB", "RGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -102,6 +102,48 @@
     "1 x BIOS FlashBack™  button",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "ed88131e-82ee-4799-8826-3be32298f1f9",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9a9d3e25-6990-4dab-8a1a-edc2441e30b9",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "661b3b3e-98ed-48f6-867e-f4d6ca002492",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f6e6c2a9-3ab0-4789-b933-413ff2ed97f7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B650M-E WIFI AM5 DDR5 MICRO-ATX",
     "manufacturer": "ASUS",
@@ -116,7 +158,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650m-e-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -129,9 +171,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711387222041",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90MB1FV0-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1FV0-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",

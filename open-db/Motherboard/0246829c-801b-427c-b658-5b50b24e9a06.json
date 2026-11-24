@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -117,6 +117,48 @@
     "1 x Optical S/PDIF out port",
     "1 x BIOS FlashBack™ button"
   ],
+  "display_outputs": [
+    {
+      "id": "1a7cc191-9f7a-48b9-aaa8-786d2d267684",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6afdeb3a-e2d5-4c80-bf2b-b8128647f2cc",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "d7ac575b-6619-4a77-8f70-962e5d6bf0ea",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "017591a0-ff78-4ec5-a61b-07ca00db8eaa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus PRIME B650-PLUS WIFI",
     "manufacturer": "ASUS",
@@ -131,12 +173,17 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650-plus-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105760899",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105760899",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -154,9 +201,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PRIME B650-PLUS WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105760899",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105760899",
+        "region": "us"
       }
     ],
     "retailer_listings": [
