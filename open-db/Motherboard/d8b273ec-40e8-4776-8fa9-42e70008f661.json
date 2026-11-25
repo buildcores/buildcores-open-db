@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY", "RED"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -83,6 +83,48 @@
     "1 x Realtek 2.5Gb Ethernet",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "9375a14d-fe48-4010-8c80-7cc7801db682",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ba407c6f-ba74-42e8-ae03-7846198d67d3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c418cad2-3244-4dfe-bdfc-ac470d629826",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f926cbe3-7e9d-41c5-a31a-c95a2b9103d7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS EX-B760M-V7",
     "manufacturer": "ASUS",
@@ -96,7 +138,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-b760m-v7/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -114,12 +156,24 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "PBZHAHBAV",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "192876911556",
         "region": "all"
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GXWBDHH9",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "newegg",
         "channel": "ca",
@@ -130,7 +184,7 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIC4RPKRU9491",
+        "source_product_id": "9SICANDMAY7222",
         "pricing_enabled": true,
         "verified": true
       }

@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -89,12 +89,55 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "9f69a34a-ef32-46a3-a660-b0531b95191d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2838182b-158c-4bb6-8d57-0bfef0ec23f3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "36ff2ff1-b835-4452-9777-f25a32851bc9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "757b56e0-ef15-443b-a910-a8365b73caee",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-PLUS-CSM",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "PRIME",
     "variant": "B760M-PLUS-CSM",
+    "releaseYear": 2023,
     "manufacturer_color": "Black/Silver"
   },
   "general_product_information": {

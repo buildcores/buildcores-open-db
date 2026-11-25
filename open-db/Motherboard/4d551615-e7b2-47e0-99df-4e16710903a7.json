@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -80,6 +80,36 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "c9ab0e29-82c3-46c4-839c-4dc467ea396f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e4c8d9db-77f1-4d65-820f-18a4a88da2da",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "35be5327-7ecc-44c4-bb64-aa82acc1643a",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "ASUS EX-B760M-V5 D4",
     "manufacturer": "ASUS",
@@ -93,7 +123,7 @@
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/expedition/ex-b760m-v5-d4/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -101,6 +131,21 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "in",
+        "source_product_id": "B0CBM6WDHF",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC5BHMB53852",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

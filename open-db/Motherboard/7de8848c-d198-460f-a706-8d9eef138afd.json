@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -98,6 +98,28 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "c2ef6a26-de9a-4a49-b047-e1f13bcc87a2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "59724d31-c6e7-452d-bd86-0249a70ecff2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS AYW B760M-AYW WIFI D4 II LGA1700 Micro-ATX",
     "manufacturer": "ASUS",
@@ -111,7 +133,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b760m-ayw-wifi-d4-ii/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -119,14 +141,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0199291065475",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "B760M-AYW WIFI D4 II",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "B760M-AYW WIFI D4 II",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "199291065475",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291065475",
+        "region": "us"
       }
     ],
     "retailer_listings": [

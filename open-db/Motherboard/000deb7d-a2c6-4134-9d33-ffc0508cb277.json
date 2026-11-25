@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["GREY", "BLACK"],
-  "lighting": ["RGB", "ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -99,6 +99,29 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "d0d55fd0-d222-435b-a812-18cb4a9d88f4",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5ba6e50b-aee7-488d-880d-3c2978d920cb",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B760M-AYW WIFI D4 LGA1700 DDR4 Micro-ATX",
     "manufacturer": "ASUS",
@@ -112,297 +135,31 @@
     "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/others/b760m-ayw-wifi-d4/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
-        "value": "4711081982661",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "90MB1CX0-M1EAY0",
+        "value": "0197105049291",
         "region": "all"
       },
       {
         "type": "mpn",
         "value": "B760M-AYW WIFI D4",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105049291",
+        "region": "all"
       }
     ],
     "retailer_listings": [
       {
-        "source": "alternate",
-        "channel": "de",
-        "source_product_id": "1886588",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "alternate",
-        "channel": "es",
-        "source_product_id": "1886588",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "alternate",
-        "channel": "fr",
-        "source_product_id": "1886588",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "alternate",
-        "channel": "it",
-        "source_product_id": "1886588",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0BNQGQF43",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
+        "source": "newegg",
         "channel": "us",
-        "source_product_id": "B0BNQGQF43",
+        "source_product_id": "9SICANDMAY9406",
         "pricing_enabled": true,
         "verified": true
-      },
-      {
-        "source": "back-to-the-office",
-        "channel": "uk",
-        "source_product_id": "55306320150910",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "box",
-        "channel": "uk",
-        "source_product_id": "90MB1CX0-M1EAY0",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "caseking",
-        "channel": "de",
-        "source_product_id": "MBAS-680",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "caseking",
-        "channel": "es",
-        "source_product_id": "90MB1CX0-M0EAY0",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "cenowarka",
-        "channel": "pl",
-        "source_product_id": "2872232",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "cyberport",
-        "channel": "de",
-        "source_product_id": "2301-9ZP",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "geizhals",
-        "channel": "de",
-        "source_product_id": "2872232",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "globaldata",
-        "channel": "pt",
-        "source_product_id": "90MB1CX0-M0EAY0",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "jimms-pc",
-        "channel": "fi",
-        "source_product_id": "188679",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "laptop-outlet",
-        "channel": "uk",
-        "source_product_id": "90MB1CX0-M1EAY0",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "neobyte",
-        "channel": "es",
-        "source_product_id": "PB01AS398",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "overclockers",
-        "channel": "uk",
-        "source_product_id": "MB-6KG-AS",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "paradigit",
-        "channel": "ie",
-        "source_product_id": "21250883",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "paradigit",
-        "channel": "nl",
-        "source_product_id": "21250883",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "proshop",
-        "channel": "de",
-        "source_product_id": "3202148",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "proshop",
-        "channel": "fi",
-        "source_product_id": "3202148",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "proshop",
-        "channel": "nl",
-        "source_product_id": "3202148",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "proshop",
-        "channel": "pl",
-        "source_product_id": "3202148",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "quzo",
-        "channel": "uk",
-        "source_product_id": "331149",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "skinflint",
-        "channel": "uk",
-        "source_product_id": "2872232",
-        "pricing_enabled": true,
-        "verified": false
       }
     ]
   }

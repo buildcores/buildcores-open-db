@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": ["RGB", "ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -131,6 +131,56 @@
     "1 x Vertical M.2 slot (Key E)",
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "fdc06c15-1df0-47f5-991a-cebb7c2f88f6",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bb27abc6-eecb-4cf8-aadf-d676d48359d5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "870be90c-d001-4885-89bc-1426ad9144f6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6ded4044-469c-4ae1-a878-4472a4280b7c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c1f4e704-5ea1-461b-9616-0bfed6080def",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
   ],
   "metadata": {
     "name": "ASUS B760 PRIME PLUS D4 LGA1700 DDR4 ATX",

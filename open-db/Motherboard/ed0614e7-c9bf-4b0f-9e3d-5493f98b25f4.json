@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -88,6 +88,36 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "4ccf33a7-668c-468b-b7f9-9d545e148ccc",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cc57d2ca-f4f1-4819-9f90-ec419f7c350b",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "e4754e3c-bda6-4170-826d-98aca3df115a",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-K-CSM",
     "manufacturer": "ASUS",
@@ -101,7 +131,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/ex-b760m-v5-csm/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -121,6 +151,13 @@
     ],
     "retailer_listings": [
       {
+        "source": "amazon",
+        "channel": "in",
+        "source_product_id": "B0G4V9PQWK",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "newegg",
         "channel": "ca",
         "source_product_id": "9SIBTK0KR91768",
@@ -130,7 +167,7 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIBTK0KR91768",
+        "source_product_id": "9SICANDMAY7185",
         "pricing_enabled": true,
         "verified": true
       }

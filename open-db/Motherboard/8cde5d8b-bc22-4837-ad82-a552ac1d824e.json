@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY", "RED"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -87,6 +87,36 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "1ed59b2c-2006-4e83-944c-f9a4bfd4682f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "28011144-1a23-4f13-b874-9ca151b1dc40",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "f92bdb3f-8033-42d1-a64a-e5fe3ee017b5",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
   ],
   "metadata": {
     "name": "ASUS EX-B760M-V5-CSM",

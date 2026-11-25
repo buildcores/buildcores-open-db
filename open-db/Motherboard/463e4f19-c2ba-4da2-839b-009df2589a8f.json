@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GOLD", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -54,7 +54,7 @@
     },
     {
       "speed": "1 Gb/s",
-      "controller": "Intel 1Gb Ethernet"
+      "controller": "1Gb"
     }
   ],
   "wireless_networking": "Wifi 6 Bluetooth 5.2",
@@ -106,19 +106,62 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF out port"
   ],
+  "display_outputs": [
+    {
+      "id": "ac3a83ad-da0e-4612-8d7d-bec7c45a0b41",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d1a783ea-d833-4e7a-82af-79b7a8666455",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "d6ca4705-d7c1-4d7d-a7fe-b8b8428d7beb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f8c2ceb7-b604-4977-b988-1fb321d1082e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ProArt B760-CREATOR WIFI",
     "manufacturer": "ASUS",
     "part_numbers": ["90MB1FY0-M0EAY0"],
     "series": "ProArt",
     "variant": "B760-CREATOR WIFI",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/proart/proart-b760-creator-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -126,9 +169,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711387275962",
+        "region": "uk"
+      },
+      {
         "type": "mpn",
         "value": "90MB1FY0-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1FY0-M0EAY0",
+        "region": "uk"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1FY0-M1EAY0",
+        "region": "uk"
       },
       {
         "type": "upc",
@@ -137,6 +195,20 @@
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CBNN9QM7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bhphoto",
+        "channel": "us",
+        "source_product_id": "ASPAB760CRTW",
+        "pricing_enabled": true,
+        "verified": true
+      },
       {
         "source": "newegg",
         "channel": "ca",
@@ -147,7 +219,14 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIC3S7KUE3796",
+        "source_product_id": "N82E16813119652",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "5002122522",
         "pricing_enabled": true,
         "verified": true
       }

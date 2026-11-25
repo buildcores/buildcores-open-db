@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -101,6 +101,56 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "be17225d-54e9-4840-9930-6dd8baf68e90",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "dce1deb9-a497-4628-b943-3ace7b18cb44",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "676f19ba-98b5-48ce-b7d3-ea40b2335801",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8cca7191-65ac-4b2c-8fee-e1046040cc29",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "2b2267dd-d3a8-4792-b758-348b3fd7f083",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760-PLUS D4-CSM",
     "manufacturer": "ASUS",
@@ -114,8 +164,13 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/csm/prime-b760-plus-d4-csm/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "mpn",
+        "value": "PRIME B760-PLUS D4",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "prime-b760-plus-d4-csm",

@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB", "RGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -98,6 +98,36 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "654ace53-2750-465a-9646-37be43ea3ce2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d898c4cf-5d1a-4ff5-9013-34c1d23e385d",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "d2c210b8-c533-445a-af8b-746f34763a6c",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
   ],
   "metadata": {
     "name": "ASUS PRIME B760M-K D4 LGA1700 DDR4 Micro-ATX",
