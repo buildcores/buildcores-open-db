@@ -9,12 +9,17 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -24,22 +29,12 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
@@ -50,7 +45,7 @@
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -60,44 +55,128 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1,
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
-  "back_connect_connectors": false,
+  "back_connect_connectors": true,
   "bios_features": {
     "flashback": false,
-    "clear_cmos": false
+    "clear_cmos": true
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 (20G) port (1 x USB Type-C®)",
+    "2 x USB 3.2 Gen 2 (10G) ports (1 x Type-A, 1 x USB Type-C®)",
+    "3 x USB 3.2 Gen 1 (5G) ports (2 x Type-A, 1 x USB Type-C®)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x Clear CMOS button"
+  ],
+  "display_outputs": [
+    {
+      "id": "41565624-08b6-4307-8413-187993a8bbaf",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "df4f958e-5973-4d8b-a6d3-b8e34037b8d0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "a85e560d-2aea-46fb-980f-95a21fe91198",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f0ea2b76-13d4-4f26-b09d-d32d9cbcf50e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B760M-BTF WIFI",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B760M-BTF WIFI", "90MB1G50-M0EAY0"],
     "series": "TUF GAMING",
     "variant": "B760M-BTF WIFI",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b760m-btf-wifi/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105324541",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105324541",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -115,9 +194,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUF GAMING B760M-BTF WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105324541",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105324541",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -262,6 +351,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "ca",
+        "source_product_id": "18923362",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "box",
         "channel": "uk",
         "source_product_id": "90MB1G50-M0EAY0",
@@ -336,14 +432,14 @@
         "channel": "ca",
         "source_product_id": "N82E16813119677",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16813119677",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -406,7 +502,7 @@
         "channel": "us",
         "source_product_id": "6499360325",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

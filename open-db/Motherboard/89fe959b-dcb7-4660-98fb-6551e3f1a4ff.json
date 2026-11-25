@@ -90,6 +90,48 @@
     "1 x Realtek 2.5Gb Ethernet",
     "3 x Audio Jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "d87e259d-fba6-4bf7-8a59-a8780d8f94ab",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f1a6174b-7220-4b03-84cc-5db6d5d18ab7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "e7c47206-73ff-42d3-b438-0fa9473805e1",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f693b320-0df9-4911-b378-12530fd28498",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B760M-AYW PRO WIFI-CSM",
     "manufacturer": "ASUS",

@@ -108,13 +108,37 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "82468cc5-1745-457a-8744-c8229d40ade9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ec26a69a-999c-4538-8476-ec635d4edf1c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus EX-B650M-V7",
     "manufacturer": "ASUS",
     "part_numbers": ["EX-B650M-V7"],
     "series": "Expedition",
     "variant": "B650M-V7",
-    "manufacturer_color": "Black/Red"
+    "releaseYear": 2023,
+    "manufacturer_color": "Black / Red"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/expedition/ex-b650m-v7/"

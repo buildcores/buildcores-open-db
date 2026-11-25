@@ -87,6 +87,29 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "6a50f0da-b300-459c-a4e4-021f25444f0f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ecff1862-57e5-42a4-80e8-8dd9a7531b96",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B650M-AYW WIFI",
     "manufacturer": "ASUS",
@@ -100,7 +123,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b650m-ayw-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -109,6 +132,13 @@
       }
     ],
     "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "in",
+        "source_product_id": "B0FDGGP85D",
+        "pricing_enabled": true,
+        "verified": false
+      },
       {
         "source": "newegg",
         "channel": "ca",

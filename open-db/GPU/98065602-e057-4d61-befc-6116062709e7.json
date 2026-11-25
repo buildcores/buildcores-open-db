@@ -8,7 +8,7 @@
   "core_boost_clock": 2505,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 22400,
+  "effective_memory_clock": 1400,
   "memory_bus": 256,
   "tdp": 320,
   "interface": "PCIe 4.0 x16",
@@ -17,7 +17,7 @@
   "lighting": ["RGB"],
   "length": 322,
   "case_expansion_slot_width": 3,
-  "total_slot_width": 3.1,
+  "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_12VHPWR": 1
@@ -26,6 +26,26 @@
     "hdmi_2_1a": 2,
     "displayport_1_4a": 2
   },
+  "display_outputs": [
+    {
+      "id": "887d50b9-667e-46a5-8924-9e5e7a665aae",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "2a4f4b47-7d21-4ec1-af61-b31e9e4acf81",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4080 16GB GAMING SLIM White",
     "manufacturer": "MSI",

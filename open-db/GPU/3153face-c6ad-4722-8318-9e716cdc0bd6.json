@@ -5,15 +5,15 @@
   "chipset": "GeForce RTX 3050 8 GB",
   "core_count": 2560,
   "core_base_clock": 1552,
-  "core_boost_clock": 1890,
+  "core_boost_clock": 1807,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "tdp": 130,
-  "interface": "PCIe 4.0 x16",
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["ARGB"],
   "length": 300,
   "case_expansion_slot_width": 2,
@@ -34,190 +34,37 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "cbed36e1-a12f-4846-bef4-98b7801ed1e0",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "aa5897b5-5bbb-48cf-bb81-b30a66014355",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    }
+  ],
   "metadata": {
-    "name": "ROG Strix GeForce RTX 3050 OC Edition 8 GB",
+    "name": "ASUS ROG Strix GeForce RTX 3050 8 GB",
     "manufacturer": "ASUS",
     "part_numbers": ["ROG-STRIX-RTX3050-O8G-GAMING", "ROG-STRIXRTX3050O8GGAMING"],
     "series": "ROG Strix",
-    "variant": "OC Edition",
     "releaseYear": 2022,
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3050-o8g-gaming-model/gallery/"
+    "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx3050-8g-gaming-model/gallery/"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [
-      {
-        "type": "ean",
-        "value": "0195553645454",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "ROG-STRIX-RTX3050-O8G-GAMING",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "ROG-STRIXRTX3050O8GGAMING",
-        "region": "all"
-      },
-      {
-        "type": "upc",
-        "value": "195553645454",
-        "region": "all"
-      }
-    ],
-    "retailer_listings": [
-      {
-        "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "us",
-        "source_product_id": "B09R92F6ZF",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "cenowarka",
-        "channel": "pl",
-        "source_product_id": "2665393",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "geizhals",
-        "channel": "de",
-        "source_product_id": "2665393",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "ca",
-        "source_product_id": "N82E16814126556R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
-        "source_product_id": "N82E16814126556R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "skinflint",
-        "channel": "uk",
-        "source_product_id": "2665393",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "777920754",
-        "pricing_enabled": true,
-        "verified": false
-      }
-    ]
+    "version": 2,
+    "identifiers": [],
+    "retailer_listings": []
   }
 }

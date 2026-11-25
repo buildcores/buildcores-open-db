@@ -31,12 +31,12 @@
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": " PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4"
     },
     {
       "size": "2242/2260/2280",
       "key": "M",
-      "interface": " PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
@@ -92,6 +92,48 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "4bcfbd33-4a97-4348-8e32-575f978e416c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4835d2a8-81d6-4cac-8e23-bc025d210cbc",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "988adc35-77e1-4281-b047-1b3032935504",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1c77c60f-a6fd-4e0b-a2b0-bda4bf88c7aa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS PRIME B760M-A II",

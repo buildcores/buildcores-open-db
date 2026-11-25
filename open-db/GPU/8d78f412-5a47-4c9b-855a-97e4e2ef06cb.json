@@ -14,10 +14,10 @@
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": ["RGB"],
+  "lighting": ["ARGB"],
   "length": 307,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -26,7 +26,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -39,16 +39,27 @@
       "id": "6038865c-f6b8-4f16-811a-1a63bfd031b8",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "38a69432-caed-4c4d-b05c-17049e40e031",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "73b2ee46-2217-4bd2-9ae3-ec14ac877b00",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -64,14 +75,14 @@
     "manufacturer_color": "White"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-SLIM-WHITE-12G"
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-SLIM-WHITE-12G/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
-        "value": "RTX 4070 GAMING SLIM WHITE 12GGeForce RTX 4070 GAMING SLIM WHITE 12G",
+        "value": "GeForce-RTX-4070-GAMING-SLIM-WHITE-12G",
         "region": "all"
       }
     ],

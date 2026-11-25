@@ -26,14 +26,41 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "cb731a62-d2ea-4aa9-95cf-83e8b826e5bf",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "1609a2b5-5032-494d-86ec-9d56672ceff0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "99599ef7-1f7b-4f6c-8e14-819f11d1e481",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3060 12GB AERO ITX OC 12GB Black",
     "manufacturer": "MSI",
@@ -52,8 +79,19 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-3060-AERO-ITX-12G-OC"
   },
   "identifiers": {
-    "version": 2,
-    "identifiers": [],
+    "version": 3,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "824142244302",
+        "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "0824142244302",
+        "region": "all"
+      }
+    ],
     "retailer_listings": [
       {
         "source": "newegg",

@@ -1,10 +1,11 @@
 {
   "opendb_id": "9352015b-85ec-4e09-a1ef-25a2640fda18",
+  "weight": 1460,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 12 GB",
   "core_count": 3584,
   "core_base_clock": 1320,
-  "core_boost_clock": 1852,
+  "core_boost_clock": 1777,
   "memory": 12,
   "memory_type": "GDDR6",
   "effective_memory_clock": 1875,
@@ -12,8 +13,8 @@
   "tdp": 170,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["RGB", "BLACK"],
-  "lighting": ["None"],
+  "color": ["BLACK", "GREY"],
+  "lighting": ["ARGB"],
   "length": 324,
   "case_expansion_slot_width": 2,
   "total_slot_width": 3,
@@ -25,6 +26,33 @@
     "hdmi_2_1": 1,
     "displayport_1_4a": 3
   },
+  "display_outputs": [
+    {
+      "id": "07a1936e-780b-46e4-a270-64a6491034ac",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "053ffb79-c43d-4896-878d-e87a29b8f225",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "e3c592a2-5080-44ab-a227-b1d43abe411c",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3060 GAMING TRIO PLUS 12GB",
     "manufacturer": "MSI",

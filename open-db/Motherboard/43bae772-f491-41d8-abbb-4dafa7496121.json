@@ -55,11 +55,10 @@
       "controller": "Realtek"
     }
   ],
-  "wireless_networking": "WiFi 6 Bluetooth 5.3",
+  "wireless_networking": "WiFi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
@@ -108,20 +107,62 @@
     "1 x BIOS FlashBack button",
     "1 x PS/2 keyboard/mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "d3df540b-3df8-4c3a-9d7f-45abc16a2928",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0a20cfc4-0228-4605-8407-0578e90ba9b9",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "bc7eb856-3f81-4d8b-ad59-a35c20f7f738",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "9af0c0bf-1b24-443c-ab29-25f7e6986ada",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B650EM-E WIFI",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B650EM-E WIFI"],
     "series": "TUF GAMING",
     "variant": "B650EM-E WIFI",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650em-e-wifi/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650em-e-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -129,14 +170,34 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0199291040533",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "TUF GAMING B650EM-E WIFI",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUF GAMING B650EM-E WIFI",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "TUFGAMINGB650EM-EWIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "199291040533",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "199291040533",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -271,7 +332,7 @@
         "channel": "us",
         "source_product_id": "17228705634",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

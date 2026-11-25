@@ -112,6 +112,50 @@
     "5 x Audio jacks",
     "1 x Optical S/PDIF out port"
   ],
+  "display_outputs": [
+    {
+      "id": "94d747cc-c31e-4ab0-8c53-8c48e15a160d",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6268304f-ff43-4d17-ae3c-6cb926f976ee",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "55cdf3e9-153b-4a7c-9b56-1904fa7acecb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2e1fb16a-aa1a-484a-a1a4-820d99282016",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B760-PLUS WIFI",
     "manufacturer": "ASUS",

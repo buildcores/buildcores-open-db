@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREEN", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -24,28 +24,13 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0/4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
@@ -62,15 +47,28 @@
   ],
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
   },
-  "ecc_support": false,
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
@@ -81,23 +79,82 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s (Realtek)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 (10G) ports (1 x Type-A + 1 x USB Type-C®)",
+    "2 x USB 3.2 Gen 1 (5G) ports (2 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "2 x DisplayPort",
+    "1 x HDMI™ port",
+    "1 x Realtek 1Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "924f8364-6a0f-42ae-b073-30a3c0dfae91",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f16f01be-1ab9-4592-aac9-67b90b3f7e82",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "2a26940b-72f2-4513-8a7d-dbad7fcfbf7d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "57274b1b-1f72-403a-a6b3-fc531b8772ad",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Asus Pro B650M-CT-CSM",
     "manufacturer": "ASUS",
     "part_numbers": ["Pro B650M-CT-CSM", "90MB1EC0-M0AAYC", "90MB1EC0-M0EAYC"],
     "series": "PRO",
     "variant": "B650M-CT-CSM",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/business/pro-b650m-ct-csm/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0197105164512",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0197105164512",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -120,9 +177,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "Pro B650M-CT-CSM",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105164512",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105164512",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -304,9 +371,9 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIAD6HJXE1756",
+        "source_product_id": "N82E16813119650",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "paradigit",
@@ -362,7 +429,7 @@
         "channel": "us",
         "source_product_id": "3712139039",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

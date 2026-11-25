@@ -1,5 +1,6 @@
 {
   "opendb_id": "292c5086-58e5-4ede-af9f-402c43289ad6",
+  "weight": 2364,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080",
   "core_count": 9728,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2610,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 22400,
-  "memory_bus": 0,
+  "effective_memory_clock": 1400,
+  "memory_bus": 256,
   "tdp": 320,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 336,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,14 +34,37 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "14ec2028-f2d6-468e-947e-ffbc5073bbcb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d4e16612-3c87-4e89-ac12-9d5566715413",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI SUPRIM GeForce RTX 4080 16GB GDDR6X Black",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "SUPRIM",
+    "releaseYear": 2022,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-16GB-SUPRIM"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

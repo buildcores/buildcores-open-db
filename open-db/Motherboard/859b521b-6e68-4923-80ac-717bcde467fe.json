@@ -9,10 +9,10 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
+      "gen": "5.0",
       "quantity": 1,
       "lanes": 16
     },
@@ -22,45 +22,30 @@
       "lanes": 4
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
       "quantity": 1,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x2"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -71,14 +56,32 @@
     }
   ],
   "usb_headers": {
-    "usb_2_0": 2,
+    "usb_2_0": 3,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -91,19 +94,84 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x USB 20Gbps port (1 x USB Type-C®)",
+    "1 x USB 10Gbps port (1 x Type-A)",
+    "2 x USB 5Gbps ports (2 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI™ port",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port"
+  ],
+  "display_outputs": [
+    {
+      "id": "c5031aec-3091-4e0b-a664-a5026d6e8a66",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5cf3a7bc-36ce-4482-815c-be84bae55789",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "9d5ab4c7-a820-4e7d-a994-da02ee07e451",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "73809b02-5ecd-4b5c-837f-1cb9db9a89af",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B760M-PLUS II",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B760M-PLUS II", "90MB1HD0-M0EAY0", "90MB1HD0-M0AAY0"],
     "series": "TUF GAMING",
     "variant": "B760M-PLUS II",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b760m-plus-ii/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711387469798",
+        "region": "sg"
+      },
+      {
+        "type": "ean",
+        "value": "4711387469798",
+        "region": "uk"
+      },
       {
         "type": "mpn",
         "value": "90MB1HD0-M0AAY0",
@@ -116,17 +184,48 @@
       },
       {
         "type": "mpn",
+        "value": "90MB1HD0-M0EAY0",
+        "region": "sg"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1HD0-M0EAY0",
+        "region": "uk"
+      },
+      {
+        "type": "mpn",
         "value": "TUF GAMING B760M-PLUS II",
         "region": "all"
       }
     ],
     "retailer_listings": [
       {
+        "source": "amazon",
+        "channel": "sg",
+        "source_product_id": "B086ZSQNPP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B086ZSQNPP",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "gigantec",
         "channel": "es",
         "source_product_id": "27265",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIA4REKB19791",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -87,6 +87,28 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "12816a8a-8204-4fb5-9e2f-8ebfa4fbd8b3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0060a2fd-e0e3-45ec-9965-dff1ae515bf7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B760M-AYW WIFI II",
     "manufacturer": "ASUS",
@@ -100,12 +122,22 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b760m-ayw-wifi-ii/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0192876911501",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711636065214",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1MH0-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -118,6 +150,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BSH7R1ZP",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -4,20 +4,20 @@
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3050 8 GB",
   "core_count": 2560,
-  "core_base_clock": 1550,
-  "core_boost_clock": 1550,
+  "core_base_clock": 1552,
+  "core_boost_clock": 1807,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 1750,
   "memory_bus": 128,
   "tdp": 130,
-  "interface": "PCIe 4.0 x16",
+  "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
   "lighting": ["RGB"],
   "length": 278,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -26,14 +26,43 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 0,
-    "hdmi_2_0": 1,
+    "hdmi_2_1": 1,
+    "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
     "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "4d564ec5-0fa8-4acc-bd59-7285ae4cb31d",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "bfd16d72-aaca-4ee0-b0d6-f1bed74cfd8f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "527ba3d7-90a1-4e14-85ae-c3e733f4ca33",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3050 GAMING 8GB",
     "manufacturer": "MSI",

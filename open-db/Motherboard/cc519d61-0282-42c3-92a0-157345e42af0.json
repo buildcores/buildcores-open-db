@@ -76,12 +76,34 @@
     "channels": "7.1"
   },
   "back_panel_ports": [
-    " 2 x USB 10Gbps ports (2 x Type-A)",
+    "2 x USB 10Gbps ports (2 x Type-A)",
     "2 x USB 5Gbps ports (2 x Type-A)",
     "4 x USB 2.0 ports (4 x Type-A)",
     "1 x HDMI™ port",
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "975f2b99-1e05-4ad4-b527-161638092389",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3febe9fb-98db-4024-8af4-9a7d219c3322",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS EX-B650M-V7 PLUS",

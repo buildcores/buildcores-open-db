@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["GREY", "BLACK"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -98,6 +98,28 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "0a275608-adce-4cce-87d9-9432abd89806",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5b63e3cf-11a9-4230-afe0-f9c6970742e5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B760M-AYW WIFI LGA1700 DDR5 mATX",
     "manufacturer": "ASUS",
@@ -111,7 +133,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b760m-ayw-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -126,6 +148,13 @@
         "source_product_id": "AC78622",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SICAJRMAD8481",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

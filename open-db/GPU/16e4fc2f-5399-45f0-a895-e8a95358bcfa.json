@@ -1,5 +1,6 @@
 {
   "opendb_id": "16e4fc2f-5399-45f0-a895-e8a95358bcfa",
+  "weight": 882,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti SUPER",
   "core_count": 8448,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2625,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 242,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "2 Fans",
   "power_connectors": {
@@ -31,6 +34,25 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "0e94ea1d-e478-4154-908e-3abe3e93b942",
+      "connector": "hdmi",
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "3ed36022-6557-4827-9a1d-3ceab260ba4e",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 Ti SUPER VENTUS 2X 16GB GDDR6X Silver / Black",
     "manufacturer": "MSI",
@@ -42,9 +64,12 @@
     ],
     "series": "VENTUS",
     "variant": "2X",
+    "releaseYear": 2024,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-VENTUS-2X/Specification"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

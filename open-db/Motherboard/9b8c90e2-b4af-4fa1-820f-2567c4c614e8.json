@@ -87,6 +87,29 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
   ],
+  "display_outputs": [
+    {
+      "id": "0f843ec0-9899-4e17-b94c-a339a08e0457",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "3f335b0e-f316-4f45-b5d3-01cc705692f9",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B650M-F",
     "manufacturer": "ASUS",
@@ -100,14 +123,34 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-f/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
+      {
+        "type": "mpn",
+        "value": "PBZPUCPBA",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "PRIME B650M-F",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0GXRWT91K",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC4CTKX35868",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

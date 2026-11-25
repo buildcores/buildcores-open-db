@@ -1,5 +1,6 @@
 {
   "opendb_id": "4f415ee2-cd4a-4143-9426-1ab49d50d7c8",
+  "weight": 1094,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti SUPER",
   "core_count": 8448,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2625,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 256,
   "tdp": 285,
-  "interface": "PCIe x16",
-  "color": ["GREEN", "ORANGE"],
-  "lighting": [],
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
+  "color": ["ORANGE", "BLACK"],
+  "lighting": ["ARGB"],
   "length": 307,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "a14f673a-1c9f-4e9f-8d20-68893c99b1b0",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "e3976f8e-e1bf-4d02-a728-2f96580ee062",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 Ti SUPER SLIM STALKER 2 EDITION 16GB GDDR6X Green / Orange",
     "manufacturer": "MSI",
@@ -45,9 +68,12 @@
     ],
     "series": "GAMING SLIM",
     "variant": "STALKER 2 EDITION",
+    "releaseYear": 2024,
     "manufacturer_color": "Black / Orange"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-GAMING-SLIM-STALKER-2-EDITION/Gallery"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

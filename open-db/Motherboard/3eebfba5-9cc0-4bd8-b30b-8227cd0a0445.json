@@ -95,6 +95,48 @@
     "1 x Realtek 2.5Gb Ethernet",
     "3 x Audio Jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "b054b7df-cedd-4fe3-b326-12de9a128336",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ae66cad6-7ee1-4d12-80f1-f27742a1a333",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "0b405e11-fe1b-423b-8ef4-30e5cce487a0",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ba160348-01f2-4062-88cb-ae236065e5da",
+          "resolution": {
+            "horizontalRes": 3,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS B760M-AYW PRO WIFI",
     "manufacturer": "ASUS",
@@ -105,10 +147,10 @@
     "manufacturer_color": "Black/Silver"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/in/supportonly/b760m-ayw%20pro%20wifi/helpdesk_manual/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/others/b760m-ayw-pro-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -116,6 +158,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6E1M4Z3323",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@
   "chipset": "GeForce RTX 4060",
   "core_count": 3072,
   "core_base_clock": 1830,
-  "core_boost_clock": 2490,
+  "core_boost_clock": 2505,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 2125,
@@ -13,7 +13,7 @@
   "tdp": 115,
   "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "length": 167,
   "case_expansion_slot_width": 2,
@@ -26,6 +26,36 @@
     "hdmi_2_1a": 1,
     "displayport_1_4a": 3
   },
+  "display_outputs": [
+    {
+      "id": "93956ef4-476e-4f73-bfc8-691047e0c243",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "9d020e78-1474-4376-842b-5fb99edc5dbc",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "d554c237-832b-4011-a642-b760910efa6c",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4060 AERO ITX 8G OC",
     "manufacturer": "MSI",
@@ -38,8 +68,14 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/Geforce-RTX-4060-AERO-ITX-8G-OC/"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711377144520",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

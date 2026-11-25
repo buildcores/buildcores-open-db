@@ -9,7 +9,7 @@
   "memory": 12,
   "memory_type": "GDDR6X",
   "effective_memory_clock": 1313,
-  "memory_bus": 0,
+  "memory_bus": 192,
   "tdp": 200,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
@@ -17,7 +17,7 @@
   "lighting": ["None"],
   "length": 267,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.56,
   "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -34,6 +34,23 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "f37fdc43-af1b-47d4-ba22-6845eec52e0f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native"
+    },
+    {
+      "id": "14b395c5-f309-45cd-b199-5ba6c6ade490",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport"
+    }
+  ],
   "metadata": {
     "name": "Asus DUAL GeForce RTX 4070 12 GB White",
     "manufacturer": "ASUS",

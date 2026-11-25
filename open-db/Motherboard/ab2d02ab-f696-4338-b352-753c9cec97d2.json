@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -84,6 +84,28 @@
     "1 x HDMI port",
     "1 x Realtek 1Gb Ethernet port",
     "3 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "a0998c2c-1527-4587-88d4-d1392f11b503",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0a6f848a-8a0f-4277-8c95-64dad6e9623a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS PRIME B760M-F-CSM",

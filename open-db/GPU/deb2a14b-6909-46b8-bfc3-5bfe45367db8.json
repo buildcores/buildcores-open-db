@@ -13,7 +13,7 @@
   "tdp": 200,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "length": 261,
   "case_expansion_slot_width": 2,
@@ -26,7 +26,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -39,7 +39,7 @@
       "id": "43730ab2-3483-446a-8d2a-d0907901dcdd",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
       "graphics_route": "switchable"
@@ -48,7 +48,7 @@
       "id": "beae353f-f2ea-4912-abc9-97060034fcd9",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -67,7 +67,7 @@
     "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N4070WF3OCV2-12GD/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -192,13 +192,6 @@
         "verified": true
       },
       {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6602885",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "GI4070W3O212",
@@ -216,13 +209,6 @@
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16814932737",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "12033718184",
         "pricing_enabled": true,
         "verified": false
       }

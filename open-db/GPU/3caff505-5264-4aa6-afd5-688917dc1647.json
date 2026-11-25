@@ -1,10 +1,11 @@
 {
   "opendb_id": "3caff505-5264-4aa6-afd5-688917dc1647",
+  "weight": 675,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 3060 8 GB",
   "core_count": 3584,
   "core_base_clock": 1320,
-  "core_boost_clock": 1807,
+  "core_boost_clock": 1777,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 1875,
@@ -12,7 +13,7 @@
   "tdp": 170,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "length": 235,
   "case_expansion_slot_width": 2,
@@ -25,6 +26,35 @@
     "hdmi_2_1": 1,
     "displayport_1_4a": 3
   },
+  "display_outputs": [
+    {
+      "id": "24d1894e-854c-4886-b8aa-921b3bfdd708",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "67c6fa1a-a2ba-4b18-a000-3dc5bb41d2cd",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c4c1ae4f-28fe-499b-8493-13ea98363629",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 3060 VENTUS 2X 8G",
     "manufacturer": "MSI",

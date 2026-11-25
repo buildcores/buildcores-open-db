@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -45,11 +45,10 @@
       "controller": "Realtek"
     }
   ],
-  "wireless_networking": "Wi-Fi 6 Bluetooth 5.2",
+  "wireless_networking": "Wi-Fi 6",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
@@ -99,12 +98,63 @@
     "1 x BIOS FlashBack button",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "9c5c811e-2f1f-4e93-9d27-fbe51dbf5035",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "54f0ccbc-448c-4e8b-a442-47c092fb72c8",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "08cffe85-7c18-49eb-8e2a-3cb20205ed9d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ffcd4ef9-23b8-419f-94b4-c0981bd4d0d7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "48d7f8c9-b684-47ba-8a9e-840eb2f2184d",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B650M-A WIFI II",
     "manufacturer": "ASUS",
     "part_numbers": ["PRIME B650M-A WIFI II", "90MB1EG0-M0EAY0", "PRIME B650M-A AX II"],
     "series": "PRIME",
     "variant": "B650M-A WIFI II",
+    "releaseYear": 2023,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-01-29T18:30:08.582Z"
   },
@@ -112,7 +162,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b650m-a-wifi-ii/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -120,9 +170,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711387034934",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "90MB1EG0-M0EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1EG0-M0EAY0",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -375,7 +435,7 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "N82E16813119631",
+        "source_product_id": "9SIC6E1M4H7169",
         "pricing_enabled": true,
         "verified": true
       },
@@ -446,13 +506,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "2880144",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "2356489889",
         "pricing_enabled": true,
         "verified": false
       }

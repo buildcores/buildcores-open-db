@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -94,6 +94,48 @@
     "1 x Wi-Fi Module",
     "1 x Intel 2.5Gb Ethernet",
     "5 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "c56475ac-dbe8-40ff-a89c-5b1b4c2218fe",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e1dfe24-a4f4-4abe-a6b4-7d8a84881091",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c7bd9827-c623-43f0-b400-5786796d88b7",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f4a86416-ef58-493d-b2c9-989a85ed1746",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS ROG STRIX B760-I GAMING WIFI LGA1700 DDR5 Mini-ITX",

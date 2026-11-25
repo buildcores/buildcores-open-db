@@ -1,10 +1,11 @@
 {
   "opendb_id": "b640d723-3e3d-4b63-a602-e3672d654228",
+  "weight": 627,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060",
   "core_count": 3072,
   "core_base_clock": 1830,
-  "core_boost_clock": 2610,
+  "core_boost_clock": 2475,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 2125,
@@ -12,7 +13,7 @@
   "tdp": 115,
   "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
-  "color": ["BLACK", "RED"],
+  "color": ["BLACK", "RED", "GREY"],
   "lighting": ["ARGB"],
   "length": 247,
   "case_expansion_slot_width": 2,
@@ -25,7 +26,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -33,6 +34,24 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "fa80cd64-2806-4cd3-819a-93b0f1a95ad5",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1a",
+      "video_signal": "displayport",
+      "transport": "native"
+    },
+    {
+      "id": "defc1f1e-9355-466b-9170-3742a275803e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4060 GAMING 8G MLG",
     "manufacturer": "MSI",
@@ -46,8 +65,14 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-GAMING-8G-MLG/Gallery"
   },
   "identifiers": {
-    "version": 1,
-    "identifiers": [],
+    "version": 2,
+    "identifiers": [
+      {
+        "type": "mpn",
+        "value": "GeForce RTX™ 4060 GAMING 8G MLG",
+        "region": "all"
+      }
+    ],
     "retailer_listings": []
   }
 }

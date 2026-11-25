@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -97,6 +97,29 @@
     "1 x Realtek 1Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "6b882ff1-3ef2-41c8-affb-5e273bf66b54",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "afe64d7a-2954-4866-a28d-8f26e63da797",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-F LGA1700 DDR5 Micro-ATX",
     "manufacturer": "ASUS",
@@ -111,7 +134,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-f/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -140,7 +163,7 @@
       {
         "source": "newegg",
         "channel": "us",
-        "source_product_id": "9SIC4RPKRT1946",
+        "source_product_id": "9SIBTK0KR91754",
         "pricing_enabled": true,
         "verified": true
       }

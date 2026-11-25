@@ -105,6 +105,48 @@
     "1 x Realtek 1Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "f76cddde-b12e-4e07-bb1a-06bf26b5c459",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "850cfdba-0d0d-4276-877d-77b6088695d7",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "8e3a5fb1-9c94-40f8-b605-6e7457ff62b3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d2f5702a-f6fa-4dfa-bb98-49f2e17ad874",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-A AX6 II",
     "manufacturer": "ASUS",
@@ -115,10 +157,10 @@
     "manufacturer_color": "Black"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-ax6-ii/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-ax6-ii/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -126,6 +168,21 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADFRKHB1432",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "00019710562485",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

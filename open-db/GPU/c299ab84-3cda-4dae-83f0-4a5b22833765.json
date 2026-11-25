@@ -1,5 +1,6 @@
 {
   "opendb_id": "c299ab84-3cda-4dae-83f0-4a5b22833765",
+  "weight": 838,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti SUPER",
   "core_count": 8448,
@@ -7,19 +8,21 @@
   "core_boost_clock": 2655,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 256,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 308,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "26569490-c009-492c-8b1a-7d398e055dc7",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "a4985df3-2b0b-4aa9-9815-addd22851671",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI SHADOW 3X OC GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black",
     "manufacturer": "MSI",
@@ -42,9 +65,12 @@
       "G407TS16S3C"
     ],
     "series": "SHADOW",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-SHADOW-3X-OC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

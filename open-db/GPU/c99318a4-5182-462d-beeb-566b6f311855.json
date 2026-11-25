@@ -1,10 +1,11 @@
 {
   "opendb_id": "c99318a4-5182-462d-beeb-566b6f311855",
+  "weight": 546,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060",
   "core_count": 3072,
   "core_base_clock": 1830,
-  "core_boost_clock": 2460,
+  "core_boost_clock": 2475,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 2125,
@@ -12,7 +13,7 @@
   "tdp": 115,
   "interface": "PCIe 4.0 x8",
   "frame_sync": "G-Sync",
-  "color": ["WHITE"],
+  "color": ["WHITE", "GREY"],
   "lighting": ["None"],
   "length": 199,
   "case_expansion_slot_width": 2,
@@ -25,6 +26,36 @@
     "hdmi_2_1a": 1,
     "displayport_1_4a": 3
   },
+  "display_outputs": [
+    {
+      "id": "c7a58dd6-7c56-4c5c-afa2-1fa8df0a2660",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "71edbe54-6698-442b-b6f2-c467c43a5455",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "e72fb3ac-03a6-4a9b-94f0-f37d355b11a7",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1a",
+      "video_signal": "displayport",
+      "transport": "native"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4060 VENTUS 2X WHITE 8G",
     "manufacturer": "MSI",
@@ -38,32 +69,9 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-VENTUS-2X-WHITE-8G/Gallery"
   },
   "identifiers": {
-    "version": 2,
-    "identifiers": [
-      {
-        "type": "ean",
-        "value": "0824142334942",
-        "region": "us"
-      },
-      {
-        "type": "mpn",
-        "value": "RTX 4060 VENTUS 2X WHITE 8G OC",
-        "region": "us"
-      },
-      {
-        "type": "upc",
-        "value": "824142334942",
-        "region": "us"
-      }
-    ],
+    "version": 3,
+    "identifiers": [],
     "retailer_listings": [
-      {
-        "source": "amazon",
-        "channel": "us",
-        "source_product_id": "B0CHC2LQF5",
-        "pricing_enabled": true,
-        "verified": true
-      },
       {
         "source": "newegg",
         "channel": "us",

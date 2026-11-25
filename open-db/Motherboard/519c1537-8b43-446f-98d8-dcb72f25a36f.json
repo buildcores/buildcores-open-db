@@ -105,6 +105,48 @@
     "1 x Realtek 1Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "258eba7a-55f7-4f33-981d-0de243c9ecae",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "57072ca1-b990-4221-a59d-8060f14a93ef",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "118541cf-5319-424c-b84f-0f658ebb8def",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6e8603db-036d-43b9-993a-bcf2f28ad9de",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-A AX6",
     "manufacturer": "ASUS",
@@ -118,7 +160,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-ax6/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -126,6 +168,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIADFRKGA3883",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

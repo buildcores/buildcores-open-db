@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY", "ORANGE"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -97,8 +97,50 @@
     "4 x USB 2.0 port(s) (4 x Type-A)",
     "1 x DisplayPort",
     "1 x HDMI port",
-    "1 x Realtek 2.5Gb Ethernet port ",
+    "1 x Realtek 2.5Gb Ethernet port",
     "5 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "e4a40422-c148-448e-bd7a-58fed61137da",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cac56b46-19d5-407f-afdd-e838f5b7b22b",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "30cb54ff-1d4d-4302-8b56-d2c1895ae083",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0528f5ba-bf84-42c3-a9d2-466eec3ccb64",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS TUF GAMING B650-PLUS",
@@ -113,7 +155,7 @@
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650-plus/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "mpn",
@@ -121,6 +163,14 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BHHY3M7L",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

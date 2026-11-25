@@ -13,11 +13,11 @@
   "tdp": 200,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["BLACK", "RED"],
+  "color": ["BLACK", "RED", "BLUE"],
   "lighting": ["ARGB"],
   "length": 339,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 4,
+  "total_slot_width": 3.12,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -38,7 +38,7 @@
     {
       "id": "245100bc-c182-40bb-9455-fcc02356b711",
       "connector": "hdmi",
-      "count": 1,
+      "count": 2,
       "version_label": "2.1",
       "video_signal": "hdmi",
       "transport": "native",
@@ -48,7 +48,7 @@
       "id": "f8deb1ec-2f1c-4d7c-a7f5-773b48d0993d",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -67,7 +67,7 @@
     "manufacturer_url": "https://rog.asus.com/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4070-o12g-gaming/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -205,6 +205,13 @@
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "ASRR4070O12G",
+        "pricing_enabled": true,
+        "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBTK0KE59390",
         "pricing_enabled": true,
         "verified": false
       },

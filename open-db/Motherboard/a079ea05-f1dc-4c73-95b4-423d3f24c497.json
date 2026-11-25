@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -105,6 +105,48 @@
     "1 x Wi-Fi Module",
     "1 x Wi-Fi Module",
     "1 x BIOS FlashBack button"
+  ],
+  "display_outputs": [
+    {
+      "id": "6fa17880-f9d7-4cdf-8b4d-6630dbae7771",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b6ba6cb5-e669-4884-b3bf-c79fd1504818",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "f075f3d6-ef09-4bda-9566-666c9e8ac6c2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c0c18bd4-4ee0-470c-b1a0-07a321d79867",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS PRIME B650EM-A WIFI-CSM AM5 DDR5 Micro-ATX",

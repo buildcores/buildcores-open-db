@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -85,6 +85,28 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks",
     "1 x BIOS FlashBack button"
+  ],
+  "display_outputs": [
+    {
+      "id": "5078b74d-6c47-4054-86a3-0accd32db8cd",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7c0732ea-df98-4161-a1cf-0c24b38c21b0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "ASUS PRIME B650M-R-CSM",

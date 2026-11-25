@@ -1,5 +1,6 @@
 {
   "opendb_id": "a5600ed7-61f8-434a-b889-b7a2298e1d0e",
+  "weight": 1595,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080",
   "core_count": 9728,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2550,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1400,
+  "memory_bus": 256,
   "tdp": 320,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 322,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,14 +34,38 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "fd6a6a31-ba74-4d9c-b1f4-e6699a2ca5c0",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "923d0971-f806-425c-83fa-2a17597f3116",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4080 VENTUS 3X E OC 16GB GDDR6X Silver / Black",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "VENTUS",
-    "variant": "3X E OC"
+    "variant": "3X E OC",
+    "releaseYear": 2023,
+    "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-16GB-VENTUS-3X-E-OC"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

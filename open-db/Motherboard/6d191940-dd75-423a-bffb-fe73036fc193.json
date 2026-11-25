@@ -100,6 +100,48 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "bb326fab-c6a2-4071-b262-1bb3aa699ffe",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c33d315d-d224-4da2-9817-4d6253bb046a",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "75c1585c-2a90-4afd-b5ef-4d3a7a31722c",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "5ba12f09-617f-49c3-976d-b73dee6ff886",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-A-CSM",
     "manufacturer": "ASUS",
@@ -113,14 +155,44 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-csm/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0197105140714",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "PRIME B760M-A-CSM",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B760M-A-CSM",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "197105140714",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0FH626TJ1",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "17729415291",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

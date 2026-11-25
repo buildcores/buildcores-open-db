@@ -12,7 +12,7 @@
   "memory_bus": 192,
   "tdp": 200,
   "interface": "PCIe 4.0 x16",
-  "frame_sync": null,
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
   "lighting": ["ARGB"],
   "length": 342,
@@ -26,7 +26,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -39,7 +39,7 @@
       "id": "87926300-2b78-47e8-84a6-95a9d2b1b84f",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
       "graphics_route": "switchable"
@@ -48,7 +48,7 @@
       "id": "0bd9df65-c273-4771-a181-38302438c4c2",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -67,7 +67,7 @@
     "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N4070AORUS-M-12GD"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -213,13 +213,6 @@
       {
         "source": "newegg",
         "channel": "ca",
-        "source_product_id": "N82E16814932612R",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "newegg",
-        "channel": "us",
         "source_product_id": "N82E16814932612R",
         "pricing_enabled": true,
         "verified": false

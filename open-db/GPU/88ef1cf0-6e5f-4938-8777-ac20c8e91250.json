@@ -1,10 +1,11 @@
 {
   "opendb_id": "88ef1cf0-6e5f-4938-8777-ac20c8e91250",
+  "weight": 706,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4060",
   "core_count": 3072,
   "core_base_clock": 1830,
-  "core_boost_clock": 2460,
+  "core_boost_clock": 2580,
   "memory": 8,
   "memory_type": "GDDR6",
   "effective_memory_clock": 2125,
@@ -25,8 +26,38 @@
     "hdmi_2_1a": 1,
     "displayport_1_4a": 3
   },
+  "display_outputs": [
+    {
+      "id": "fa8e151e-4608-4f3a-a3d3-56f19ee59bb9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "mode_claims": [
+        {
+          "id": "06a32c7d-3c82-4073-b978-66636c88c4b8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "supported",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "d113650f-0ae8-4912-90aa-55267a76d291",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native"
+    }
+  ],
   "metadata": {
-    "name": "MSI GeForce RTX™ 4060 VENTUS 3X OC 8G Black/Silver",
+    "name": "MSI GeForce RTX 4060 VENTUS 3X OC 8G Black/Silver",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "Ventus",
@@ -38,8 +69,16 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4060-VENTUS-3X-8G-OC/Gallery"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBP4YKTR8667",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

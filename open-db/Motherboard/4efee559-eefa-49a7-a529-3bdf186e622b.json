@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -106,6 +106,48 @@
     "3 x Audio jacks",
     "1 x BIOS FlashBack™ button"
   ],
+  "display_outputs": [
+    {
+      "id": "4af4af9e-a75c-48c6-9de7-e4f8749a624b",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7d5c4975-f34d-465d-868c-cc32a16a67f2",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "afd25d4a-e7d9-4de6-a6f4-8e782d29811e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a8e2f2e2-46db-42cc-97ba-3b97d28643ba",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B650E-E WIFI",
     "manufacturer": "ASUS",
@@ -120,7 +162,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b650e-e-wifi/techspec/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -128,14 +170,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0197105992498",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "TUF GAMING B650E-E WIFI",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "TUF GAMING B650E-E WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "197105992498",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "197105992498",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -340,7 +397,7 @@
         "channel": "us",
         "source_product_id": "16292764480",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

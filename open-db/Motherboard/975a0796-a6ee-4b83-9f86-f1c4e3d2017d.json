@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -112,6 +112,56 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "2151e951-5495-4fa9-a15e-1a412bfbe70e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ccbfd9cb-dc96-4d75-9185-f70b34f17f9d",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "38f41976-f115-4e4e-b65c-caa69aa13add",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d5c2ef09-aa58-48e0-bfdb-89f292141f17",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "0fd7c876-c86b-48f5-8749-f4d47fafe2a5",
+      "connector": "vga",
+      "count": 1,
+      "video_signal": "vga",
+      "transport": "native",
+      "graphics_route": "integrated"
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760-PLUS",
     "manufacturer": "ASUS",
@@ -122,7 +172,7 @@
     "manufacturer_color": "Black/Silver"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.asus.com/us/motherboards-components/motherboards/prime/prime-b760-plus/techspec/"
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760-plus/techspec/"
   },
   "identifiers": {
     "version": 1,

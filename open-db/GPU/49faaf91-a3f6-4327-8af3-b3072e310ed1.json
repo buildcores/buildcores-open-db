@@ -13,11 +13,11 @@
   "tdp": 200,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["ARGB"],
   "length": 261,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2.5,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -26,7 +26,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -39,7 +39,7 @@
       "id": "bae93cc5-4ac3-423b-83c6-fdb16cae51e7",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
       "graphics_route": "switchable"
@@ -48,7 +48,7 @@
       "id": "d7c1cebe-892c-4b48-88d8-d18965dc40a5",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -67,7 +67,7 @@
     "manufacturer_url": "https://www.gigabyte.com/in/Graphics-Card/GV-N4070EAGLE-OC-12GD"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -197,13 +197,6 @@
         "verified": true
       },
       {
-        "source": "bestbuy",
-        "channel": "us",
-        "source_product_id": "6539987",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
         "source": "cenowarka",
         "channel": "pl",
         "source_product_id": "3381558",
@@ -235,13 +228,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "3381558",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "2219344201",
         "pricing_enabled": true,
         "verified": false
       }

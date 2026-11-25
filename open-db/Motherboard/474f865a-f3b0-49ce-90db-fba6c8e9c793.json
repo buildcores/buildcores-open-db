@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -40,7 +40,7 @@
   "onboard_ethernet": [
     {
       "speed": "1 Gb/s",
-      "controller": " Realtek 1Gb Ethernet"
+      "controller": "Realtek"
     }
   ],
   "wireless_networking": "WiFi 6 Bluetooth 5.3",
@@ -88,6 +88,48 @@
     "1 x Realtek 1Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "3cc4d819-5e54-4286-af33-52f30482fea9",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6bf423a0-f1e1-4c69-acf4-20306aee610f",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "e04ec012-721a-40f2-a1df-f7c20f9d75a6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1f46366f-aae4-4e51-a71e-219576dccc6e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-F WIFI",
     "manufacturer": "ASUS",
@@ -101,7 +143,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-f-wifi/helpdesk_manual?model2Name=PRIME-B760M-F-WIFI"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -109,9 +151,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711636182232",
+        "region": "ca"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1N00-M0EAY0",
+        "region": "ca"
+      },
+      {
         "type": "mpn",
         "value": "prime-b760m-f-wifi",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "ZHANGJIN",
+        "region": "ca"
       },
       {
         "type": "upc",
@@ -119,6 +176,21 @@
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B09CMG1NG7",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "in",
+        "source_product_id": "B09CMFHMCS",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

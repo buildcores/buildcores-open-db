@@ -11,12 +11,13 @@
   "memory_bus": 192,
   "tdp": 200,
   "interface": "PCIe 4.0 x16",
-  "color": ["BLACK"],
+  "frame_sync": "G-Sync Compatible",
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "length": 269,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
-  "cooling": "1 Fan",
+  "cooling": "Blower",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 1,
@@ -24,7 +25,7 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -37,7 +38,7 @@
       "id": "383dc0ef-30c7-4d36-9f09-53bba1d28580",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
       "graphics_route": "switchable"
@@ -46,7 +47,7 @@
       "id": "d985af21-969d-41e6-9b1c-333c9959f069",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -64,7 +65,7 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/graphics-cards/turbo/turbo-rtx4070-12g/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -177,13 +178,6 @@
       {
         "source": "amazon",
         "channel": "uk",
-        "source_product_id": "B0CX5MHM3K",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "us",
         "source_product_id": "B0CX5MHM3K",
         "pricing_enabled": true,
         "verified": true

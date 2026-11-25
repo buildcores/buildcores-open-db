@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK", "RED", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -83,12 +83,55 @@
     "1 x Realtek 2.5Gb Ethernet port",
     "3 x Audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "6477c862-2f67-4b29-8614-7cb84b212da1",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e37c5b0-290a-4517-a851-80a7e80a68cf",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "261692fb-c755-4504-a6ce-1c755b1e7b4b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0ee5e806-2e99-44a5-95db-c28f0d3f8629",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS EX-B760M-V7 II",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "Expedition",
     "variant": "B760M-V7 II",
+    "releaseYear": 2025,
     "manufacturer_color": "Black/Red"
   },
   "general_product_information": {

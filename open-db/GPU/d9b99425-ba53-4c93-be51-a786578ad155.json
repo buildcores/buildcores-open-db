@@ -14,10 +14,10 @@
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
   "color": ["BLACK", "GREY"],
-  "lighting": ["RGB"],
+  "lighting": ["ARGB"],
   "length": 307,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 3,
+  "total_slot_width": 2,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -39,16 +39,27 @@
       "id": "68839b94-b1f6-4901-80c9-85f5d605e936",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "switchable"
+      "graphics_route": "switchable",
+      "mode_claims": [
+        {
+          "id": "6fa13c27-52d8-43e6-9340-6529f5bfd4e2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution"
+        }
+      ]
     },
     {
       "id": "a567433b-132e-4d4e-bd51-49a0c72eef03",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -67,7 +78,7 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-GAMING-X-SLIM-12G"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -238,13 +249,6 @@
         "source": "skinflint",
         "channel": "uk",
         "source_product_id": "3009824",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "2746201418",
         "pricing_enabled": true,
         "verified": false
       }

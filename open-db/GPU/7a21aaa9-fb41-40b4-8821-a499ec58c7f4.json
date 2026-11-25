@@ -1,5 +1,6 @@
 {
   "opendb_id": "7a21aaa9-fb41-40b4-8821-a499ec58c7f4",
+  "weight": 1601,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 Ti SUPER",
   "core_count": 8448,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2685,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 192,
   "tdp": 285,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["WHITE", "GREY"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 337,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "6ba309dc-a1d3-40ba-9349-b2c421fa49fc",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "92c57883-8dd6-4a91-bf36-62efccae6045",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4070 Ti SUPER GAMING X TRIO 16GB GDDR6X White / Silver",
     "manufacturer": "MSI",
@@ -39,9 +62,12 @@
     ],
     "series": "GAMING",
     "variant": "X TRIO",
+    "releaseYear": 2024,
     "manufacturer_color": "White / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-Ti-SUPER-16G-GAMING-X-TRIO-WHITE"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
