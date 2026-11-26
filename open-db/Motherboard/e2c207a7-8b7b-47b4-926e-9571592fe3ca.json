@@ -126,6 +126,71 @@
     "2 x Audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "663d8025-b0fa-4092-88bf-9530cb67efbb",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b7c0588d-9aeb-40b9-92ac-43b048792d62",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "d1d8be07-5ea9-41a5-ba0c-8f7aa008fd1e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1673949f-571f-4514-af25-1c6fac9d1601",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported"
+        }
+      ]
+    },
+    {
+      "id": "d538528c-62ad-4736-8a49-c2cde211ad77",
+      "connector": "usb_c",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ac41fe91-9c53-47ff-9a02-fd3530113990",
+          "resolution": {
+            "horizontalRes": 1920,
+            "verticalRes": 1080
+          },
+          "refresh_rate": 30,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU; USB 2.0 port with DisplayPort video output"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE X870E AORUS XTREME X3D AI TOP AM5 DDR5 E-ATX",
     "manufacturer": "Gigabyte",

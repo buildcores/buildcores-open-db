@@ -120,6 +120,52 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "5b6079d7-c0f8-49f7-9e57-369323bca4de",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7d661870-b01f-456a-899b-5c01fc842e3f",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "c445ab4c-0f0f-42f5-98b2-d0a52053e8a6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "834cc39f-2a2b-48a1-980f-700b6f5cb48a",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE X870E AORUS PRO X3D ICE AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",

@@ -108,8 +108,8 @@
   "back_panel_ports": [
     "1 x Q-Flash Plus button",
     "1 x Clear CMOS button",
-    "1 x HDMI port (Note)",
-    "2 x USB4® USB Type-C® ports (DisplayPorts (Note))",
+    "1 x HDMI port",
+    "2 x USB4® USB Type-C® ports (DisplayPorts)",
     "4 x USB 3.2 Gen 2 Type-A ports (red)",
     "4 x USB 3.2 Gen 1 ports",
     "2 x USB 2.0/1.1 ports",
@@ -117,6 +117,52 @@
     "2 x antenna connectors (2T2R)",
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "8e89586b-9690-462f-bbaa-1c3d7923118d",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "61185d20-05d3-4fe1-a01e-7066ab7ceda2",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "66f3153f-ad38-47fd-be1f-fae479696f11",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8b0ab66f-5ed9-47f2-85fc-c7a6e9130ebc",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated Radeon graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "Gigabyte X870E AORUS MASTER AM5 DDR5 ATX",
@@ -131,7 +177,7 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-AORUS-MASTER/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -139,14 +185,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0889523044803",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X870E AORUS MASTER",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AORUS MASTER",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523044803",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523044803",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -295,7 +356,7 @@
         "channel": "us",
         "source_product_id": "6635970",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

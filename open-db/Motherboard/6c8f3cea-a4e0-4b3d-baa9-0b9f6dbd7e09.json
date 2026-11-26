@@ -120,6 +120,52 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "3b6be84a-f72d-49a8-ae19-bf67b4cf7679",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e069b166-6e03-462d-bd06-7c74d7f26ada",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "84825cbc-9e06-40de-82a1-c7bc4a7406c2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b90dd33e-1bf1-471d-bfe8-08d02da1c58c",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE X870E AORUS PRO X3D AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
@@ -134,7 +180,7 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-AORUS-PRO-X3D/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -142,14 +188,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0889523056035",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X870E AORUS PRO X3D",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AORUS PRO X3D",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523056035",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523056035",
+        "region": "us"
       }
     ],
     "retailer_listings": [

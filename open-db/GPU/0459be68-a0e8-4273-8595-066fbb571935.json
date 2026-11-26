@@ -1,5 +1,6 @@
 {
   "opendb_id": "0459be68-a0e8-4273-8595-066fbb571935",
+  "weight": 1628,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080 SUPER",
   "core_count": 10240,
@@ -7,13 +8,15 @@
   "core_boost_clock": 2625,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1438,
+  "memory_bus": 256,
   "tdp": 320,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["RGB"],
   "length": 322,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "17a0624c-d2f5-4086-9d51-744801bdc2af",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "76ee93ab-40dc-4b51-9457-1e3315413322",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING X SLIM GeForce RTX 4080 SUPER 16GB GDDR6X White",
     "manufacturer": "MSI",
@@ -39,9 +62,12 @@
     ],
     "series": "GAMING",
     "variant": "X SLIM",
+    "releaseYear": 2024,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-SUPER-16G-GAMING-X-SLIM-WHITE"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

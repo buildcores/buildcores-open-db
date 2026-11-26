@@ -1,19 +1,20 @@
 {
   "opendb_id": "92d4d985-2929-4faa-81ef-86deae69822f",
+  "weight": 2353,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4090",
   "core_count": 16384,
   "core_base_clock": 2235,
-  "core_boost_clock": 2235,
+  "core_boost_clock": 2640,
   "memory": 24,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 21000,
-  "memory_bus": 0,
+  "effective_memory_clock": 1313,
+  "memory_bus": 384,
   "tdp": 450,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": [],
-  "lighting": [],
+  "color": ["GREY", "BLACK"],
+  "lighting": ["None"],
   "length": 280,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -21,7 +22,7 @@
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -33,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "709b7cb5-3be9-4e94-b7e3-d7a0254e33ce",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "ca2684d5-6a4b-48c4-9c6e-3694bf380ee5",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI SUPRIM LIQUID X GeForce RTX 4090 24 GB",
     "manufacturer": "MSI",
@@ -44,9 +65,12 @@
     ],
     "series": "SUPRIM",
     "variant": "LIQUID X",
+    "releaseYear": 2022,
     "manufacturer_color": "Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-SUPRIM-LIQUID-X-24G"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

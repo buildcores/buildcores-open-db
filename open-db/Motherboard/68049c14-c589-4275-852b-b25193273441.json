@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": ["RGB", "ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -124,6 +124,52 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "e4edeeaa-cd5d-4e23-ab0c-c4185787921c",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fe3afc3e-e3b5-402e-abf6-48b004d9082f",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "c3ef8040-f95a-422b-a32a-963ee97f296f",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0643cf44-5b5c-4189-a7e6-6a46a12e1f1c",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE X870E AERO X3D DARK WOOD AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
@@ -137,12 +183,17 @@
     "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/X870E-AERO-X3D-DARK-WOOD/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0889523058398",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0889523058398",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -155,9 +206,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AERO X3D DARK WOOD",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523058398",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523058398",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -1,5 +1,6 @@
 {
   "opendb_id": "c1bea78c-1400-4025-a3f1-51779537b4cf",
+  "weight": 2372,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4080 SUPER",
   "core_count": 10240,
@@ -7,19 +8,21 @@
   "core_boost_clock": 2655,
   "memory": 16,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 0,
-  "memory_bus": 0,
+  "effective_memory_clock": 1438,
+  "memory_bus": 256,
   "tdp": 320,
-  "interface": "PCIe x16",
+  "interface": "PCIe 4.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 336,
+  "case_expansion_slot_width": 3,
   "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "60d445fb-dc35-48bd-ada7-18e52919f6b9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "b93894ff-4085-4e38-be7a-03fe59d325a3",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI SUPRIM X GeForce RTX 4080 SUPER 16GB GDDR6X Silver / Black",
     "manufacturer": "MSI",
@@ -43,9 +66,12 @@
     ],
     "series": "SUPRIM",
     "variant": "X",
+    "releaseYear": 2024,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4080-SUPER-16G-SUPRIM-X"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

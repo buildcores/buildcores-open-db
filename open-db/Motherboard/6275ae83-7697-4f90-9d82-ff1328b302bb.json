@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["WHITE"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -129,6 +129,52 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "b946b1ba-bfb2-465e-b7cf-d807abb4cac7",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4aa90d87-8025-41a4-8796-3f7278900d81",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "8c779cf7-bc49-4f30-9950-fac25f54a298",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "49278fa4-d1c3-4cd5-89e0-c456694d83d2",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte X870E AORUS MASTER X3D ICE AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
@@ -143,12 +189,17 @@
     "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/X870E-AORUS-MASTER-X3D-ICE/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0889523053089",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0889523053089",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -166,9 +217,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AORUS MASTER X3D ICE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523053089",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523053089",
+        "region": "us"
       }
     ],
     "retailer_listings": [

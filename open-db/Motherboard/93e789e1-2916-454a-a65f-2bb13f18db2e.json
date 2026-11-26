@@ -111,6 +111,52 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "a3bfee86-7e03-4246-8b81-7bf9989a8f5e",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8544522a-6132-45b0-849e-31d39a8fd517",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "71263900-7cc9-4652-ad3f-bedca65643e3",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "831b38b6-ac04-43aa-b618-8ff012d2c1db",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte X870E AORUS ELITE WIFI7 DDR5 ATX",
     "manufacturer": "Gigabyte",
@@ -124,12 +170,17 @@
     "manufacturer_url": "gigabyte.com/Motherboard/X870E-AORUS-ELITE-WIFI7-rev-10-11"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0889523045237",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0889523045237",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -147,9 +198,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AORUS ELITE WIFI7",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523045237",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523045237",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -298,7 +359,7 @@
         "channel": "us",
         "source_product_id": "6635871",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

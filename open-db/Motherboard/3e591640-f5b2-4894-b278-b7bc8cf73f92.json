@@ -124,6 +124,52 @@
     "2 x audio jacks",
     "1 x optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "4bf7d942-aa9d-44ef-bc15-e2808787aa1f",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "14418a10-8a10-4666-8ae7-d4ea8160de2e",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "89ba8b76-0e82-4ea3-895e-d7985f3aa9cb",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7ff60f9e-b882-4ecf-8123-0eb623d3dbf8",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE X870E AERO X3D WOOD AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
@@ -138,7 +184,7 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-AERO-X3D-WOOD"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -146,14 +192,29 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0889523056059",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X870E AERO X3D WOOD",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AERO X3D WOOD",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523056059",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523056059",
+        "region": "us"
       }
     ],
     "retailer_listings": [

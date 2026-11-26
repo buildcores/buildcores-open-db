@@ -1,5 +1,6 @@
 {
   "opendb_id": "625688b6-7412-46a5-9d4f-7a89ad916dad",
+  "weight": 1675,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4090",
   "core_count": 16384,
@@ -7,16 +8,16 @@
   "core_boost_clock": 2565,
   "memory": 24,
   "memory_type": "GDDR6X",
-  "effective_memory_clock": 21,
+  "effective_memory_clock": 1313,
   "memory_bus": 384,
   "tdp": 450,
   "interface": "PCIe 4.0 x16",
-  "frame_sync": "None",
-  "color": [],
-  "lighting": [],
+  "frame_sync": "G-Sync",
+  "color": ["BLACK"],
+  "lighting": ["None"],
   "length": 337,
-  "case_expansion_slot_width": 0,
-  "total_slot_width": 0,
+  "case_expansion_slot_width": 3,
+  "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
@@ -32,6 +33,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "ee33bdbe-fb2c-4cd1-a16c-3a08842ca9e7",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1a",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "3add2f9b-1446-4969-a65e-84e9fbdeef0f",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 4090 VENTUS 3X E 24G OC",
     "manufacturer": "MSI",
@@ -41,7 +62,9 @@
     "releaseYear": 2024,
     "manufacturer_color": "Black / Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4090-VENTUS-3X-E-24G-OC/Gallery"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [
