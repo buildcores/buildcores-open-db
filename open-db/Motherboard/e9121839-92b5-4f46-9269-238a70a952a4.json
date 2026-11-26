@@ -111,6 +111,52 @@
     "2 x antenna connectors",
     "2 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "b33dcd3e-01c1-4f02-b1f7-ae3aa24a257f",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "eba290cf-c510-4a97-87c8-09cdaf50b258",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "98ab7f61-c7e4-4396-b55d-b6948c661a65",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e3228c6a-73ee-4951-b66e-85b76c108832",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "GIGABYTE X870E EAGLE WIFI7",
     "manufacturer": "Gigabyte",
@@ -124,7 +170,7 @@
     "manufacturer_url": "https://www.gigabyte.com/Motherboard/X870E-EAGLE-WIFI7/sp"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -132,9 +178,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0889523045312",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "X870 EAGLE WIFI7",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870 EAGLE WIFI7",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -145,6 +201,11 @@
         "type": "upc",
         "value": "889523045312",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523045312",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -265,7 +326,7 @@
         "channel": "us",
         "source_product_id": "6602648",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -307,7 +368,7 @@
         "channel": "us",
         "source_product_id": "N82E16813145521",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",

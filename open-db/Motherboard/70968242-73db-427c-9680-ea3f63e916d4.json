@@ -9,53 +9,48 @@
     "slots": 4
   },
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4/x2"
     },
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4/x2"
     },
     {
-      "size": "2280",
+      "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4/x2"
     },
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -65,6 +60,7 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wifi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 2,
@@ -72,37 +68,118 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x Q-Flash Plus button",
+    "4 x USB 2.0/1.1 ports",
+    "4 x USB 3.2 Gen 1 ports",
+    "1 x HDMI port",
+    "2 x USB4® USB Type-C® ports (DisplayPort (Note))",
+    "1 x RJ-45 port",
+    "2 x USB 3.2 Gen 2 Type-A ports (red)",
+    "2 x antenna connectors (2T2R)",
+    "2 x audio jacks",
+    "1 x optical S/PDIF Out connector"
+  ],
+  "display_outputs": [
+    {
+      "id": "318c5dd0-3840-44f5-b110-7908746917c4",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4191977a-7246-4e30-9abc-523259d26cf8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    },
+    {
+      "id": "ae9cb1ea-fa08-4518-8351-bbb5141a8857",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2a87fd43-4b82-4ef1-bd17-eee4c87cf03a",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon Graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte X870E AORUS ELITE WIFI7 ICE DDR5 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["X870E AORUS ELITE WIFI7 ICE", "X870E A ELITE WF7 ICE"],
     "series": "AORUS",
     "variant": "X870E ELITE WIFI7 ICE",
+    "releaseYear": 2024,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/X870E-AORUS-ELITE-WIFI7-ICE-rev-12/sp"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0889523049617",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0889523049617",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -115,9 +192,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870E AORUS ELITE WIFI7 ICE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "889523049617",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "889523049617",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -231,7 +318,7 @@
         "channel": "us",
         "source_product_id": "6635872",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -266,14 +353,14 @@
         "channel": "us",
         "source_product_id": "N82E16813145579",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "walmart",
         "channel": "us",
         "source_product_id": "17024020057",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
