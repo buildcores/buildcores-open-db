@@ -9,7 +9,7 @@
     "slots": 2
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -24,28 +24,18 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -55,6 +45,7 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "None",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -62,8 +53,25 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 3
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -76,25 +84,88 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "4 x USB 5Gbps ports (4 x Type-A)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x HDMI port",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "3 x Audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "0fb29cf5-ff3b-4e52-9398-0e690701c7cf",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "50434425-09fe-40a2-b3ea-053414ec805f",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-R D4",
     "manufacturer": "ASUS",
     "part_numbers": ["PRIME B760M-R D4"],
     "series": "PRIME",
     "variant": "B760M-R D4",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-r-d4/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711387423769",
+        "region": "uk"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1HA0-M0EAY0",
+        "region": "uk"
+      },
       {
         "type": "mpn",
         "value": "PRIME B760M-R D4",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "ae",
+        "source_product_id": "B0CS6TYB1L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0CS6TYB1L",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SICANDMAY7218",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

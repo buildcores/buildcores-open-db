@@ -9,53 +9,43 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
-      "gen": "4.0",
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
       "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -65,6 +55,7 @@
       "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 1,
     "usb_3_2_gen_1": 1,
@@ -72,21 +63,94 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["4-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Intel)"],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)",
+    "1 x USB 3.2 Gen 2 port (1 x Type-A)",
+    "3 x USB 3.2 Gen 1 ports (2 x Type-A, 1 x USB Type-C®)",
+    "4 x USB 2.0 ports (4 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI® port",
+    "1 x Wi-Fi Module",
+    "1 x Intel® 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x BIOS FlashBack™  button"
+  ],
+  "display_outputs": [
+    {
+      "id": "5701afb7-1b71-4812-885a-f1532c7eee4e",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f96dc9d0-9a4e-498d-b0dc-22b0abcb44a5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "2bded4b4-4164-4258-828b-ff42cbc5c5b4",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "7fd496eb-ece6-42e3-8159-f48b70495ce0",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B760-A GAMING WIFI D4",
     "manufacturer": "ASUS",
@@ -98,16 +162,24 @@
     ],
     "series": "ROG",
     "variant": "STRIX B760-A GAMING WIFI D4",
+    "releaseYear": 2023,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/ph/motherboards/rog-strix/rog-strix-b760-a-gaming-wifi-d4-model/spec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0195553995047",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0195553995047",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -130,9 +202,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "ROG STRIX B760-A GAMING WIFI D4",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "195553995047",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "195553995047",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -267,7 +349,7 @@
         "channel": "us",
         "source_product_id": "N82E16813119620",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "skinflint",
@@ -281,7 +363,7 @@
         "channel": "us",
         "source_product_id": "2262159171",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -19,6 +19,11 @@
     {
       "gen": "4.0",
       "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
       "lanes": 1
     }
   ],
@@ -47,9 +52,8 @@
   ],
   "wireless_networking": "None",
   "usb_headers": {
-    "usb_2_0": 2,
+    "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
@@ -95,6 +99,48 @@
     "3 x Audio jacks",
     "1 x PS/2 Keyboard/Mouse combo port"
   ],
+  "display_outputs": [
+    {
+      "id": "52e59592-cb4f-4ba5-b58f-73ca51476270",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "704f8f93-815b-4d87-a957-d3d8be4889ba",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "1cd387c5-25ab-4b45-b343-94f25831206a",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fa6efa26-64b4-46e4-b786-2cda83aa4b87",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS PRIME B760M-A D4-CSM",
     "manufacturer": "ASUS",
@@ -108,14 +154,44 @@
     "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-b760m-a-d4-csm/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "0195553984065",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "PRIME B760M-A D4-CSM",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRIME B760M-A D4-CSM",
+        "region": "us"
+      },
+      {
+        "type": "upc",
+        "value": "195553984065",
+        "region": "us"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0C7SPXV5R",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIVRR1KZC6630",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

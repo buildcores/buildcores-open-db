@@ -9,12 +9,17 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -24,17 +29,12 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -50,6 +50,7 @@
       "controller": "Intel"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -57,39 +58,146 @@
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1,
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "ROG SupremeFX 7.1-Channel High Definition Audio CODEC S1220A",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s (Intel)"],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port(s) (1 x USB Type-C®)",
+    "1 x USB 3.2 Gen 2 port(s) (1 x Type-A)",
+    "3x USB 3.2 Gen 1 port(s) (2 x Type-A, 1 x USB Type-C®)",
+    "4 x USB 2.0 port(s) (4 x Type-A)",
+    "1 x HDMI® port",
+    "1 x DisplayPort",
+    "1 x Wi-Fi Module",
+    "1 x Intel® 2.5Gb Ethernet",
+    "5 x Audio jacks",
+    "1 x BIOS FlashBack™  button"
+  ],
+  "display_outputs": [
+    {
+      "id": "d5d27af6-8de3-49e5-b5fc-57f17159f886",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "03e42e09-77dc-4d8a-9a7a-c92777eb5f18",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "c9702e26-d958-4689-9f63-f38e61ce166c",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cd746c5e-5a95-40e9-b029-ee5980036e1c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS ROG STRIX B760-G GAMING WIFI D4",
     "manufacturer": "ASUS",
     "part_numbers": ["ROG STRIX B760-G GAMING WIFI D490MB1DE0-M0EAY090MB1DE0-M1EAY0"],
     "series": "ROG",
     "variant": "STRIX B760-G GAMING WIFI D4",
+    "releaseYear": 2023,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b760-g-gaming-wifi-d4-model/spec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711387002896",
+        "region": "uk"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1DE0-M0EAY0",
+        "region": "uk"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1DE0-M1EAY0",
+        "region": "uk"
+      },
       {
         "type": "mpn",
         "value": "ROG STRIX B760-G GAMING WIFI D490MB1DE0-M0EAY090MB1DE0-M1EAY0",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "uk",
+        "source_product_id": "B0BP8DSNRL",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SICANDMAY7859",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

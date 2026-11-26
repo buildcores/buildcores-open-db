@@ -9,32 +9,32 @@
     "slots": 4
   },
   "color": ["BLACK", "ORANGE"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 1
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -50,15 +50,35 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "None",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 3,
+    "pump": 1,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "thunderbolt": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -71,25 +91,106 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s (Realtek)"],
+  "back_panel_ports": [
+    "1 x USB 3.2 Gen 2x2 port (1 x USB Type-C®)",
+    "4 x USB 3.2 Gen 2 ports (4 x Type-A)",
+    "1 x USB 3.2 Gen 1 port (1 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI® port",
+    "1 x Wi-Fi Module",
+    "1 x Realtek 2.5Gb Ethernet port",
+    "5 x Audio jacks",
+    "1 x Optical S/PDIF out port"
+  ],
+  "display_outputs": [
+    {
+      "id": "5485b116-72df-4fe7-bb73-379864b27411",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "129e5680-bb94-4216-9144-45dbe38ad0b1",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "db23c9be-a771-4ccf-95ce-e43585e835af",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "cb9be4e2-d08d-4a46-9be7-6b017b5a4bb8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B760M-PLUS D4",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B760M-PLUS D490MB1DI0-M0EAY0"],
     "series": "TUF GAMING",
-    "variant": " B760M-PLUS D4",
+    "variant": "B760M-PLUS D4",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b760m-plus-d4/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "mpn",
+        "value": "90MB1DI0-M0EAY0",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1DI0-M1EAY0",
+        "region": "us"
+      },
       {
         "type": "mpn",
         "value": "TUF GAMING B760M-PLUS D490MB1DI0-M0EAY0",
         "region": "all"
       }
     ],
-    "retailer_listings": []
+    "retailer_listings": [
+      {
+        "source": "amazon",
+        "channel": "us",
+        "source_product_id": "B0BNQCP9P8",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIAGBAK7G1058",
+        "pricing_enabled": true,
+        "verified": true
+      }
+    ]
   }
 }

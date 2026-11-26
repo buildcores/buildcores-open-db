@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "ORANGE"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "4.0",
@@ -24,33 +24,18 @@
   ],
   "m2_slots": [
     {
-      "size": "2242-2260",
+      "size": "2242/2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2242/2260/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2242-2260",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -63,12 +48,30 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 2,
+    "cpu_opt": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "com_port": 1
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -81,19 +84,79 @@
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "2 x USB 3.2 Gen 2 (10G) ports (2 x Type-A)",
+    "2 x USB 3.2 Gen 1 (5G) ports (2 x Type-A)",
+    "2 x USB 2.0 ports (2 x Type-A)",
+    "1 x DisplayPort",
+    "1 x HDMI port",
+    "1 x Realtek2.5Gb Ethernet port",
+    "3 x Audio jacks",
+    "1 x Vertical M.2 slot (Key E)",
+    "1 x PS/2 Keyboard/Mouse combo port"
+  ],
+  "display_outputs": [
+    {
+      "id": "5acd08a7-2621-481f-953d-b91539498c98",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "fe85700c-d5c2-4b81-96bf-153d678e82d3",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    },
+    {
+      "id": "51c3c339-1ab1-4010-9111-2c753bb7bcff",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a95619ec-c6f5-475c-9648-2a5c337d1d79",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASUS TUF GAMING B760M-E D4",
     "manufacturer": "ASUS",
     "part_numbers": ["TUF GAMING B760M-E D4", "90MB1E90-M0EAY0", "90MB1E90-M1EAY0"],
     "series": "TUF GAMING",
     "variant": "B760M-E D4",
+    "releaseYear": 2023,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asus.com/ph/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b760m-e-d4/techspec/"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
+      {
+        "type": "ean",
+        "value": "4711387131404",
+        "region": "ca"
+      },
       {
         "type": "mpn",
         "value": "90MB1E90-M0EAY0",
@@ -101,8 +164,18 @@
       },
       {
         "type": "mpn",
+        "value": "90MB1E90-M0EAY0",
+        "region": "ca"
+      },
+      {
+        "type": "mpn",
         "value": "90MB1E90-M1EAY0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "90MB1E90-M1EAY0",
+        "region": "ca"
       },
       {
         "type": "mpn",
@@ -112,11 +185,25 @@
     ],
     "retailer_listings": [
       {
+        "source": "amazon",
+        "channel": "ca",
+        "source_product_id": "B0BSF3J1DC",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "gigantec",
         "channel": "es",
         "source_product_id": "26328",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIC6E1M4N2474",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }
