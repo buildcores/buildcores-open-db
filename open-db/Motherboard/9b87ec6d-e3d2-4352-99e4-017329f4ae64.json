@@ -49,13 +49,12 @@
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
   "fan_headers": {
     "cpu_fan": 1,
-    "case_fan": 1,
+    "case_fan": 2,
     "pump": 2
   },
   "rgb_headers": {
@@ -67,9 +66,6 @@
     "reset_button": true,
     "power_led": true,
     "hdd_led": true
-  },
-  "other_headers": {
-    "temperature_sensor": 1
   },
   "power_connectors": {
     "main_power": "24-pin",
@@ -99,6 +95,51 @@
     "2 x antenna connectors",
     "3 x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "e0800278-f7bf-476e-b9b5-552317b3390e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f42bafbc-c366-43ea-88dc-c40dd81c740f",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "f10eafda-9b0c-4d28-af45-19ca5813f20c",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0256900c-932a-47a6-8ed7-2895669ffa0c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte B850M EAGLE WIFI6E ICE DDR5 Micro ATX",
     "manufacturer": "Gigabyte",
@@ -109,7 +150,7 @@
     "manufacturer_color": "White"
   },
   "general_product_information": {
-    "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/B850M-EAGLE-WIFI6E-ICE-rev-10"
+    "manufacturer_url": "https://www.gigabyte.com/in/Motherboard/B850M-EAGLE-WIFI6E-ICE-rev-10/sp"
   },
   "identifiers": {
     "version": 1,

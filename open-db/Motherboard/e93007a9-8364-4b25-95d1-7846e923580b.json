@@ -9,33 +9,33 @@
     "slots": 4
   },
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2280",
+      "size": "2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4/x2"
     },
     {
-      "size": "2280-22110",
+      "size": "22110/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -47,35 +47,108 @@
   ],
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 1,
+    "pump": 2
+  },
+  "rgb_headers": {
+    "argb_5v": 2,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 1 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x HDMI port",
+    "2 x DisplayPorts",
+    "1 x PS/2 keyboard/mouse port",
+    "1 x Q-Flash Plus button",
+    "1 x USB Type-C® port, with USB 3.2 Gen 1 support",
+    "3 x USB 3.2 Gen 1 ports",
+    "2 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "3 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "9f72c29a-43c0-49ff-8abd-bd552e8b6b44",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "4b3ebfac-0f74-4624-8897-81487b7d1431",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "3dc7571a-20ff-4918-bcb6-b69dc647da57",
+      "connector": "displayport",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "c7d63fd0-a538-44f4-aa04-653b5e6c3ffd",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 144,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte B850M D3HP AM5 DDR5 Micro ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["B850M D3HP"],
     "series": "Ultra Durable",
     "variant": "B850M D3HP",
+    "releaseYear": 2025,
     "manufacturer_color": "Black/Silver"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/B850M-D3HP-rev-10/sp"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

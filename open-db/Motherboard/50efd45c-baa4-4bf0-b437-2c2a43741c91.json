@@ -9,58 +9,43 @@
     "slots": 4
   },
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     }
   ],
   "m2_slots": [
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
+      "key": "M",
+      "interface": "PCIe 5.0/4.0 x4"
+    },
+    {
+      "size": "22110/2280",
+      "key": "M",
+      "interface": "PCIe 5.0/4.0 x4"
+    },
+    {
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 2,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -70,6 +55,7 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wifi 7",
   "usb_headers": {
     "usb_2_0": 2,
     "usb_3_2_gen_1": 1,
@@ -77,32 +63,88 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 3
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 2
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC1220",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x HDMI port",
+    "2 x antenna connectors (2T2R)",
+    "1 x USB Type-C® header, with USB 3.2 Gen 2 support",
+    "2 x USB 3.2 Gen 2 Type-A ports (red)",
+    "4 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "1 x optical S/PDIF Out connector",
+    "2 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "e6ad9f24-61db-44e8-a344-de570035f1e2",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f3ddf0da-c6ad-46f1-8648-5a54dd40bb9c",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte B850 AORUS STEALTH ICE AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["B850 A STEALTH ICE", "B850 AORUS STEALTH ICE"],
     "series": "AORUS",
     "variant": "B850 AORUS STEALTH ICE",
+    "releaseYear": 2025,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/B850-AORUS-STEALTH-ICE-rev-10/sp"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -276,7 +318,7 @@
         "channel": "us",
         "source_product_id": "6637468",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -346,14 +388,14 @@
         "channel": "ca",
         "source_product_id": "N82E16813145581",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16813145581",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -430,7 +472,7 @@
         "channel": "us",
         "source_product_id": "17004019828",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }
