@@ -138,6 +138,29 @@
     "USB 10Gbps (Type-A)",
     "Optical S/PDIF-Out"
   ],
+  "display_outputs": [
+    {
+      "id": "0d08c5ea-156f-4a15-a457-fb2b36646624",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "19da9ef6-86c2-40b3-aaf8-92e65ff3d527",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MEG X870E GODLIKE AM5 DDR5 EATX",
     "manufacturer": "MSI",
@@ -158,12 +181,17 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MEG-X870E-GODLIKE/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142388747",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142388747",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -192,6 +220,11 @@
       },
       {
         "type": "mpn",
+        "value": "Meg X870E GODLIKE",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "MEG X870E GODLIKE",
         "region": "all"
       },
@@ -201,9 +234,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "X870EGODLIKE",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142388747",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142388747",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -350,9 +393,9 @@
       {
         "source": "bestbuy",
         "channel": "us",
-        "source_product_id": "6629643",
+        "source_product_id": "11013044",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

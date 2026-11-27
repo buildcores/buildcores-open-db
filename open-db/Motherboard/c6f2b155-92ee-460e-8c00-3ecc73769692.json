@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["BLACK", "GOLD"],
-  "lighting": ["ARGB"],
+  "lighting": ["ARGB", "RGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -129,6 +129,50 @@
     "USB 10Gbps (Type-A)",
     "Optical S/PDIF-Out"
   ],
+  "display_outputs": [
+    {
+      "id": "978f3dd1-1894-4468-87c1-f89afc9ff5dc",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "b0a41639-950b-48af-a991-e17564197375",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "76ab14f3-35dc-4857-b051-bd10c9677502",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8c91d192-3bbd-4d38-904f-ddeb50123b38",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MEG X870E ACE MAX",
     "manufacturer": "MSI",
@@ -143,7 +187,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MEG-X870E-ACE-MAX/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -151,14 +195,34 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142451182",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MEG X870E ACE MAX",
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MEG X870E ACE MAX",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "X870EACEMAX",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142451182",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142451182",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -264,6 +328,13 @@
         "source": "amazon",
         "channel": "us",
         "source_product_id": "B0G4P65W1J",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12944299",
         "pricing_enabled": true,
         "verified": true
       },

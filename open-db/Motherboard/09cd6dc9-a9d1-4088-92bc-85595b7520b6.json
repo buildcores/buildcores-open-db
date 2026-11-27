@@ -8,8 +8,8 @@
     "ram_type": "DDR5",
     "slots": 4
   },
-  "color": ["RGB", "BLACK"],
-  "lighting": ["RGB"],
+  "color": ["BLACK"],
+  "lighting": ["RGB", "ARGB"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -115,6 +115,51 @@
     "2x audio jacks",
     "1x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "26eee53b-a390-4356-8b2e-11dbc5c3c73e",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a0408a97-cba1-4dbd-b3b2-83209a122dae",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "20343859-b29d-4027-aa33-06ad04307df7",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "8094fb05-df29-4537-93e4-953043b863ae",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG X870E CARBON MAX WIFI",
     "manufacturer": "MSI",
@@ -132,12 +177,22 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-MAX-WIFI/Gallery"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142451267",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142451267",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MPG X870E Carbon MAX WiFi",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -155,9 +210,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MPGX870ECARBONMAX",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142382219",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142451267",
+        "region": "us"
       }
     ],
     "retailer_listings": [

@@ -9,12 +9,17 @@
     "slots": 2
   },
   "color": ["BLACK", "WHITE"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 2,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
     },
     {
       "gen": "4.0",
@@ -26,26 +31,21 @@
     {
       "size": "2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
+      "size": "2230",
       "key": "E",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe WiFi/BT"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -55,28 +55,103 @@
       "controller": "Realtek Dragon RTL8125BG"
     }
   ],
+  "wireless_networking": "Wifi 6E",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 1,
-    "usb_3_2_gen_2": 1,
+    "usb_3_2_gen_1": 2,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
-  "power_connectors": {
-    "cpu_power": []
+  "fan_headers": {
+    "cpu_fan": 2,
+    "case_fan": 3,
+    "pump": 1
   },
-  "ecc_support": false,
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
+  "other_headers": {
+    "temperature_sensor": 1
+  },
+  "power_connectors": {
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin"]
+  },
+  "ecc_support": true,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek Dragon RTL8125BG)"],
+  "back_panel_ports": [
+    "2 x Antenna Ports",
+    "1 x HDMI Port",
+    "1 x DisplayPort 1.4",
+    "1 x USB 3.2 Gen1 Type-C Port",
+    "3 x USB 3.2 Gen1 Type-A Ports",
+    "2 x USB 2.0 Ports",
+    "1 x RJ-45 LAN Port",
+    "1 x BIOS Flashback Button",
+    "HD Audio Jacks: Line in / Front Speaker / Microphone"
+  ],
+  "display_outputs": [
+    {
+      "id": "5961bc68-b2c6-4610-8114-e87a1fdcdcf4",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1b053d2d-6e9a-47fa-bfd2-77f32692a6d5",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "923dc909-7a56-43f4-b662-f243e6f4b532",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "22479c18-c46a-481d-9248-35cb032b7780",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "dsc": "required",
+          "conditions": "Requires compatible processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "ASRock B850 M-X WiFi R2.0 DDR5 Micro ATX",
     "manufacturer": "ASRock",
@@ -85,14 +160,21 @@
     "variant": "B850M-X WIFI R2.0",
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.asrock.com/MB/AMD/B850M-X%20WiFi%20R2.0/index.asp#Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "4711581490765",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711581490765",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -106,8 +188,18 @@
       },
       {
         "type": "mpn",
+        "value": "B850M-X WiFi R2.0",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "B850M-X WIFI R2.0",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "B850M-X WIFI R2.0",
+        "region": "us"
       },
       {
         "type": "upc",
@@ -310,14 +402,14 @@
         "channel": "ca",
         "source_product_id": "N82E16813162225",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "newegg",
         "channel": "us",
         "source_product_id": "N82E16813162225",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -394,7 +486,7 @@
         "channel": "us",
         "source_product_id": "16802516229",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

@@ -138,6 +138,29 @@
     "USB 10Gbps (Type-A)",
     "Optical S/PDIF-Out"
   ],
+  "display_outputs": [
+    {
+      "id": "10051149-67f2-4ea9-888a-bc44fba8b103",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "f4f047d3-fe94-4af2-9d9b-2341f5440b67",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MEG X870E GODLIKE X EDITION",
     "manufacturer": "MSI",
@@ -152,7 +175,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MEG-X870E-GODLIKE-X-EDITION/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -160,9 +183,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142447239",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MEG X870E GODLIKE X",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MEG X870E GODLIKE X",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -173,6 +206,11 @@
         "type": "upc",
         "value": "824142447239",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142447239",
+        "region": "us"
       }
     ],
     "retailer_listings": [

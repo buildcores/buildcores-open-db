@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "WHITE"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -17,29 +17,29 @@
       "lanes": 16
     },
     {
-      "gen": "3.0",
-      "quantity": 2,
-      "lanes": 1
-    },
-    {
       "gen": "4.0",
       "quantity": 1,
       "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2280/2260",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2280/2260",
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "22110/2280",
+      "size": "2280/22110",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -56,8 +56,7 @@
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 3,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1
+    "usb_3_2_gen_1": 2
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -78,6 +77,8 @@
     "main_power": "24-pin",
     "cpu_power": ["8-pin", "8-pin"]
   },
+  "ecc_support": false,
+  "raid_support": true,
   "bios_features": {
     "flashback": true,
     "clear_cmos": true
@@ -87,17 +88,62 @@
     "channels": "7.1"
   },
   "back_panel_ports": [
-    "1 x Clear CMOS button",
-    "1 x Flash BIOS button",
-    "1 x HDMI 2.1 port",
-    "1 x USB 40Gbps Type-C port",
-    "1 x USB 20Gbps Type-C port",
-    "2 x USB 10Gbps Type-A ports",
-    "2 x USB 5Gbps Type-A ports",
-    "4 x USB 2.0 Type-A ports",
-    "1 x 5Gbps LAN (RJ45) port",
-    "2 x Wi-Fi antenna connectors",
-    "3 x Audio jacks"
+    "● 1x Clear CMOS button",
+    "● 1x Flash BIOS button",
+    "● 1x HDMI™ port",
+    "● 1x USB 5Gbps Type-A port (From CPU)",
+    "● 1x USB 40Gbps Type-C port (From ASM4242)",
+    "● 2x USB 10Gbps Type-A ports (From CPU)",
+    "● 4x USB 2.0 ports (From X870E chipset)",
+    "● 1x 5G LAN (RJ45) jack",
+    "● 1x USB 5Gbps Type-A port (From X870E chipset)",
+    "● 1x USB 20Gbps Type-C port (From X870E chipset)",
+    "● 2x Wi-Fi Antenna connectors",
+    "● 3x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "308fec10-3a37-43f0-b0d6-89ec312ba95f",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a2ee4494-ec9c-4e53-aea0-b2ee406d82aa",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "7f03bc2b-e5cb-418e-9280-5e15be22734d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e22fb5da-8210-45a2-86ea-007291cdf830",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
   ],
   "metadata": {
     "name": "MSI MAG X870E GAMING PLUS MAX WIFI",
@@ -105,7 +151,7 @@
     "part_numbers": [],
     "series": "Default",
     "variant": "X870E GAMING PLUS MAX WIFI",
-    "releaseYear": 2024,
+    "releaseYear": 2025,
     "manufacturer_color": "White",
     "last_manually_spec_verified_at": "2026-04-27T14:43:08.000Z"
   },
@@ -113,12 +159,17 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X870E-GAMING-PLUS-MAX-WIFI/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142448571",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142448571",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -132,13 +183,28 @@
       },
       {
         "type": "mpn",
+        "value": "MAGX870EGPMW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
         "value": "X870E GAMING PLUS MAX WIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "X870E GAMING PLUS MAX WIFI",
+        "region": "us"
       },
       {
         "type": "upc",
         "value": "824142448571",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142448571",
+        "region": "us"
       }
     ],
     "retailer_listings": [

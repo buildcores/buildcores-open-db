@@ -29,22 +29,22 @@
   ],
   "m2_slots": [
     {
-      "size": "2280/ 22110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260/ 2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260/ 2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2260/ 2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -61,7 +61,7 @@
   "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
   "usb_headers": {
     "usb_2_0": 2,
-    "usb_3_2_gen_1": 2,
+    "usb_3_2_gen_1": 1,
     "usb_3_2_gen_2x2": 1
   },
   "fan_headers": {
@@ -84,7 +84,7 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": ["8-pin"]
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -112,8 +112,52 @@
     "2x audio jacks",
     "1x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "2a35b902-3f87-447d-aff2-e8d80b048b92",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "be2d05a7-16ff-40fc-9296-937da15c4035",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "ae7cb3db-743d-42c4-a5b4-2611df22a2a8",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1e05e0d1-d649-48a6-9577-7beeff0c1a84",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
-    "name": "MSI MAG X870E TOMAHAWK MAX WiFi",
+    "name": "MSI MAG X870E TOMAHAWK MAX WIFI",
     "manufacturer": "MSI",
     "part_numbers": ["MAG X870E TOMAHAWK MAX WIFI", "MAG X870E TOMAHAWK WIFI", "911-7E59-06S"],
     "series": "MAG",
@@ -121,9 +165,11 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-MAX-WIFI/Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
@@ -136,122 +182,12 @@
         "region": "all"
       },
       {
-        "type": "mpn",
-        "value": "MAG X870E TOMAHAWK WIFI",
-        "region": "all"
-      },
-      {
         "type": "upc",
         "value": "824142395660",
         "region": "all"
       }
     ],
     "retailer_listings": [
-      {
-        "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "us",
-        "source_product_id": "B0DT55ZJM7",
-        "pricing_enabled": true,
-        "verified": true
-      },
       {
         "source": "bestbuy",
         "channel": "us",

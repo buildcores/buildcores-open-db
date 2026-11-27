@@ -9,7 +9,7 @@
     "slots": 4
   },
   "color": ["GREY", "WHITE"],
-  "lighting": ["ARGB"],
+  "lighting": ["None"],
   "pcie_slots": [
     {
       "gen": "5.0",
@@ -120,6 +120,50 @@
     "USB 10Gbps Type-A",
     "Optical S/PDIF Out"
   ],
+  "display_outputs": [
+    {
+      "id": "d4b7dc22-9ed2-46d2-b7a0-c64daa889029",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "32c055ad-59bf-4c38-b177-32d54a7b603d",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "e6eba883-8b17-4ba3-84e1-b3563401c60a",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "ad8b8353-e794-40a3-8243-4d0c8837872d",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MAG X870E TOMAHAWK MAX WIFI PZ",
     "manufacturer": "MSI",
@@ -134,7 +178,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X870E-TOMAHAWK-MAX-WIFI-PZ/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -142,9 +186,24 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "0824142443835",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "MAG X870E Tomahawk MAX WiFi PZ",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "MAG X870E TOMAHAWK MAX WIFI PZ",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "MAG X870E TOMAHAWK MAX WIFI PZ",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -155,6 +214,11 @@
         "type": "upc",
         "value": "824142443835",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142443835",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -297,6 +361,13 @@
         "source_product_id": "56463436251518",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12895411",
+        "pricing_enabled": true,
+        "verified": true
       },
       {
         "source": "bhphoto",

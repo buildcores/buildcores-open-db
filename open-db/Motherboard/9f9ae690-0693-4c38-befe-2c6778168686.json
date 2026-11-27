@@ -106,6 +106,50 @@
     "2x Wi-Fi Antenna connectors",
     "3x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "3c6539f7-fcfa-4e7b-a447-b353f202d488",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "bd468afd-14fd-42ef-9e59-9e6f45337625",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "18938a15-dc68-42af-92cb-3947b4026b80",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "e4198c72-84aa-4597-9f83-5c792487fdea",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI PRO X870E-S EVO WIFI",
     "manufacturer": "MSI",

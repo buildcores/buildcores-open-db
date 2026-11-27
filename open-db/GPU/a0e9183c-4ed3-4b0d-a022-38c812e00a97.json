@@ -1,11 +1,11 @@
 {
   "opendb_id": "a0e9183c-4ed3-4b0d-a022-38c812e00a97",
-  "weight": 998,
+  "weight": 680,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 SUPER",
   "core_count": 7168,
   "core_base_clock": 1980,
-  "core_boost_clock": 2520,
+  "core_boost_clock": 2490,
   "memory": 12,
   "memory_type": "GDDR6X",
   "effective_memory_clock": 1313,
@@ -13,7 +13,7 @@
   "tdp": 220,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["WHITE"],
+  "color": ["WHITE", "GREY"],
   "lighting": ["None"],
   "length": 242,
   "case_expansion_slot_width": 2,
@@ -26,7 +26,8 @@
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
     "displayport_2_1": 0,
     "displayport_2_1a": 0,
@@ -39,7 +40,7 @@
       "id": "b1d17f71-45fc-4158-b704-d8a36fa74d21",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
       "graphics_route": "switchable"
@@ -48,7 +49,7 @@
       "id": "e72316f8-3a7d-4fd4-845a-6ce01bee5b37",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
@@ -67,173 +68,14 @@
     "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-4070-SUPER-12G-VENTUS-2X-WHITE/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
-      {
-        "type": "ean",
-        "value": "0824142346990",
-        "region": "all"
-      },
-      {
-        "type": "ean",
-        "value": "4711377171304",
-        "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "G4070S12V2WC",
-        "region": "all"
-      },
       {
         "type": "mpn",
         "value": "GeForce RTX 4070 SUPER 12G VENTUS 2X",
         "region": "all"
-      },
-      {
-        "type": "mpn",
-        "value": "RTX 4070 SUPER 12G VENTUS 2X WHITE OCGeForce RTX 4070 SUPER 12G VENTUS 2X WHITE OC912-V513-659V513-642R",
-        "region": "all"
-      },
-      {
-        "type": "upc",
-        "value": "824142346990",
-        "region": "all"
       }
     ],
-    "retailer_listings": [
-      {
-        "source": "amazon",
-        "channel": "au",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "be",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ca",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "de",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "es",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "fr",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "ie",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "it",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "jp",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "nl",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "pl",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "se",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "sg",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "uk",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "amazon",
-        "channel": "us",
-        "source_product_id": "B0CS77KMC2",
-        "pricing_enabled": true,
-        "verified": true
-      },
-      {
-        "source": "cenowarka",
-        "channel": "pl",
-        "source_product_id": "3101003",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "geizhals",
-        "channel": "de",
-        "source_product_id": "3101003",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "skinflint",
-        "channel": "uk",
-        "source_product_id": "3101003",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "walmart",
-        "channel": "us",
-        "source_product_id": "5358059897",
-        "pricing_enabled": true,
-        "verified": false
-      }
-    ]
+    "retailer_listings": []
   }
 }

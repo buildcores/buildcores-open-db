@@ -121,6 +121,50 @@
     "Wi-Fi / Bluetooth",
     "Optical S/PDIF Out"
   ],
+  "display_outputs": [
+    {
+      "id": "a9cab870-a0b0-4be8-8573-85073e8c7310",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2ab86075-09cc-472a-a2c9-aacbebaf305c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "90613dae-9d88-4ba8-a2a1-7247c5e3ac08",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "1a6335fd-8a49-4c9e-8614-26758c7865d6",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MPG X870E CARBON WIFI",
     "manufacturer": "MSI",
@@ -134,12 +178,17 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870E-CARBON-WIFI/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142382219",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142382219",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -162,9 +211,19 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MPG X870E CARBON WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142382219",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142382219",
+        "region": "us"
       }
     ],
     "retailer_listings": [
@@ -313,7 +372,7 @@
         "channel": "us",
         "source_product_id": "6604429",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

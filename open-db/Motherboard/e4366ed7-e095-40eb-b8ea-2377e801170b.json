@@ -120,6 +120,50 @@
     "2x audio jacks",
     "1 x Optical S/PDIF Out connector"
   ],
+  "display_outputs": [
+    {
+      "id": "d13cc9c4-962c-4965-a51f-8909fcc03d84",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "d42d2e22-359e-499d-b32c-9eaa51ec610c",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "0b1907aa-5237-403f-9a50-669b4a2b1992",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "2a033ef9-a310-4e0b-8e3e-c9d43086dbb4",
+          "resolution": {
+            "horizontalRes": 7680,
+            "verticalRes": 4320
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI X870E MPG EDGE TI WIFI AM5 DDR5 ATX",
     "manufacturer": "MSI",
@@ -133,7 +177,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/MPG-X870E-EDGE-TI-WIFI/Specification"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -144,6 +188,16 @@
         "type": "ean",
         "value": "4711377290630",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "4711377290630",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "7E59-002R",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -307,7 +361,7 @@
         "channel": "us",
         "source_product_id": "6629575",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",

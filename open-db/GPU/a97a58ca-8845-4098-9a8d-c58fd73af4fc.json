@@ -4,8 +4,8 @@
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 4070 SUPER",
   "core_count": 7168,
-  "core_base_clock": 2520,
-  "core_boost_clock": 2550,
+  "core_base_clock": 1980,
+  "core_boost_clock": 2595,
   "memory": 12,
   "memory_type": "GDDR6X",
   "effective_memory_clock": 1313,
@@ -13,24 +13,24 @@
   "tdp": 225,
   "interface": "PCIe 4.0 x16",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["ARGB"],
-  "length": 227,
+  "length": 301,
   "case_expansion_slot_width": 2,
-  "total_slot_width": 2.5,
+  "total_slot_width": 3,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
-    "pcie_8_pin": 1,
-    "pcie_12VHPWR": 0,
+    "pcie_8_pin": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
-    "hdmi_2_1": 1,
+    "hdmi_2_1": 0,
+    "hdmi_2_1a": 1,
     "hdmi_2_0": 0,
-    "displayport_2_1": 3,
     "displayport_2_1a": 0,
-    "displayport_1_4a": 0,
+    "displayport_1_4a": 3,
     "dvi_d": 0,
     "vga": 0
   },
@@ -39,7 +39,7 @@
       "id": "f561aa07-d5c8-45aa-a778-bb03cc700158",
       "connector": "hdmi",
       "count": 1,
-      "version_label": "2.1",
+      "version_label": "2.1a",
       "video_signal": "hdmi",
       "transport": "native",
       "graphics_route": "switchable"
@@ -48,14 +48,14 @@
       "id": "d8ab1773-6bab-4fd8-baff-fa450df43517",
       "connector": "displayport",
       "count": 3,
-      "version_label": "1.4",
+      "version_label": "1.4a",
       "video_signal": "displayport",
       "transport": "native",
       "graphics_route": "switchable"
     }
   ],
   "metadata": {
-    "name": "ASUS TUF Gaming GeForce RTX™ 4070 SUPER 12GB GDDR6X OC Edition",
+    "name": "ASUS TUF Gaming GeForce RTX 4070 SUPER 12GB GDDR6X OC Edition",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "TUF Gaming",
@@ -67,62 +67,43 @@
     "manufacturer_url": "https://www.asus.com/in/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4070s-o12g-gaming/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 3,
     "identifiers": [
       {
         "type": "ean",
-        "value": "0197105134799",
-        "region": "all"
-      },
-      {
-        "type": "ean",
-        "value": "4711387128176",
-        "region": "all"
+        "value": "0197105450899",
+        "region": "us"
       },
       {
         "type": "mpn",
-        "value": "DUAL-RTX4070S-O12G-EVO-WHITE",
-        "region": "all"
+        "value": "90YV0K80-M0AA00",
+        "region": "us"
       },
       {
         "type": "mpn",
-        "value": "TUF-RTX4070-O12G-GAMING",
-        "region": "all"
+        "value": "TUF-RTX4070S-O12G-GAMING",
+        "region": "us"
       },
       {
         "type": "upc",
-        "value": "197105134799",
-        "region": "all"
+        "value": "197105450899",
+        "region": "us"
       }
     ],
     "retailer_listings": [
       {
-        "source": "bhphoto",
+        "source": "amazon",
         "channel": "us",
-        "source_product_id": "ASTR4070012G",
+        "source_product_id": "B0CQPZ1V9N",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
-        "source": "cenowarka",
-        "channel": "pl",
-        "source_product_id": "2930753",
+        "source": "newegg",
+        "channel": "us",
+        "source_product_id": "9SIBP4YKF34736",
         "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "geizhals",
-        "channel": "de",
-        "source_product_id": "2930753",
-        "pricing_enabled": true,
-        "verified": false
-      },
-      {
-        "source": "skinflint",
-        "channel": "uk",
-        "source_product_id": "2930753",
-        "pricing_enabled": true,
-        "verified": false
+        "verified": true
       }
     ]
   }

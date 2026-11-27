@@ -115,7 +115,7 @@
       "version_label": "2.1",
       "video_signal": "hdmi",
       "transport": "native",
-      "graphics_route": "discrete",
+      "graphics_route": "integrated",
       "mode_claims": [
         {
           "id": "44f74c47-272f-4856-9f9a-c785455a55b6",
@@ -132,9 +132,9 @@
       "id": "26f65066-3834-4244-874a-e80254e89b2c",
       "connector": "usb_c",
       "count": 1,
-      "version_label": "USB4",
+      "version_label": "1.4",
       "video_signal": "displayport",
-      "transport": "dp_alt_mode",
+      "transport": "usb4",
       "graphics_route": "integrated",
       "mode_claims": [
         {
@@ -143,7 +143,7 @@
             "horizontalRes": 3840,
             "verticalRes": 2160
           },
-          "refresh_rate": 120,
+          "refresh_rate": 60,
           "claim": "maximum_at_resolution"
         }
       ]
@@ -162,7 +162,7 @@
     "manufacturer_url": "https://www.msi.com/Motherboard/PRO-X870E-P-WIFI/"
   },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -175,6 +175,16 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711377347600",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "7E70-003R",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "911-7E70-002",
         "region": "all"
@@ -183,6 +193,11 @@
         "type": "mpn",
         "value": "PRO X870E-P WIFI",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "PRO X870E-P WIFI",
+        "region": "us"
       },
       {
         "type": "upc",

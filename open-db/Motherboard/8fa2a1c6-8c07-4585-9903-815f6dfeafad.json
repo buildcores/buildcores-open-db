@@ -9,58 +9,43 @@
     "slots": 4
   },
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
     },
     {
       "gen": "4.0",
       "quantity": 1,
+      "lanes": 4
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
       "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2260-2280",
+      "size": "2260/2280",
+      "key": "M",
+      "interface": "PCIe 5.0 x4"
+    },
+    {
+      "size": "2260/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280",
+      "size": "2280/22110",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2260-2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280-22110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "E",
       "interface": "PCIe 4.0 x4"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -70,39 +55,115 @@
       "controller": "Realtek 8126VB"
     }
   ],
+  "wireless_networking": "Wifi 7",
   "usb_headers": {
     "usb_2_0": 3,
     "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1,
     "usb_3_2_gen_2x2": 0,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 6,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
-    "clear_cmos": false
+    "flashback": true,
+    "clear_cmos": true
   },
   "audio": {
-    "chipset": "Realtek",
+    "chipset": "Realtek ALC897",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 5 Gb/s Ports (Realtek 8126VB)"],
+  "back_panel_ports": [
+    "● 1x Clear CMOS button",
+    "● 1x Flash BIOS button",
+    "● 1x HDMI™ port",
+    "● 1x USB 5Gbps Type-A port (From CPU)",
+    "● 1x USB 40Gbps Type-C port (From ASM4242)",
+    "● 2x USB 10Gbps Type-A ports (From CPU)",
+    "● 4x USB 2.0 ports (From X870E chipset)",
+    "● 1x 5G LAN (RJ45) jack",
+    "● 1x USB 5Gbps Type-A port (From X870E chipset)",
+    "● 1x USB 20Gbps Type-C port (From X870E chipset)",
+    "● 2x Wi-Fi Antenna connectors",
+    "● 3x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "d73992ab-ccdd-4b38-a2b3-7f03a103c44e",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "acbbe79b-d85f-4c78-a8c2-93644b3eb213",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "eb3ec8b5-1359-4582-84fe-6851884bcb09",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "0967d6af-6681-4af4-a0fc-a3e3260106ca",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI X870E GAMING PLUS WIFI DDR5 ATX",
     "manufacturer": "MSI",
     "part_numbers": ["X870E GAMING PLUS WIFI"],
     "series": "Default",
     "variant": "X870E GAMING PLUS WIFI",
+    "releaseYear": 2024,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/X870E-GAMING-PLUS-WIFI/Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -125,9 +186,19 @@
         "region": "all"
       },
       {
+        "type": "ean",
+        "value": "4711377347594",
+        "region": "us"
+      },
+      {
         "type": "mpn",
         "value": "10876985",
         "region": "all"
+      },
+      {
+        "type": "mpn",
+        "value": "10876985",
+        "region": "us"
       },
       {
         "type": "mpn",
@@ -306,7 +377,7 @@
         "channel": "us",
         "source_product_id": "6636989",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "bhphoto",
@@ -425,7 +496,7 @@
         "channel": "us",
         "source_product_id": "N82E16813144708",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
@@ -503,6 +574,13 @@
         "source_product_id": "3501756",
         "pricing_enabled": true,
         "verified": false
+      },
+      {
+        "source": "walmart",
+        "channel": "us",
+        "source_product_id": "16765100867",
+        "pricing_enabled": true,
+        "verified": true
       }
     ]
   }

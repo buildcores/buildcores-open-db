@@ -22,6 +22,11 @@
       "lanes": 8
     },
     {
+      "gen": "4.0",
+      "quantity": 1,
+      "lanes": 4
+    },
+    {
       "gen": "3.0",
       "quantity": 2,
       "lanes": 1
@@ -29,17 +34,17 @@
   ],
   "m2_slots": [
     {
-      "size": "2260/ 2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 5.0 x4"
     },
     {
-      "size": "2260/ 2280",
+      "size": "2280/2260",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     },
     {
-      "size": "2280/ 22110",
+      "size": "22110/2280",
       "key": "M",
       "interface": "PCIe 4.0 x4"
     }
@@ -50,14 +55,13 @@
   "onboard_ethernet": [
     {
       "speed": "5 Gb/s",
-      "controller": "Realtek"
+      "controller": "Realtek 8126"
     }
   ],
-  "wireless_networking": "Wi-Fi 7 Bluetooth 5.4",
+  "wireless_networking": "Wi-Fi 7",
   "usb_headers": {
     "usb_2_0": 3,
-    "usb_3_2_gen_1": 2,
-    "usb_3_2_gen_2": 1
+    "usb_3_2_gen_1": 2
   },
   "fan_headers": {
     "cpu_fan": 1,
@@ -76,7 +80,7 @@
   },
   "power_connectors": {
     "main_power": "24-pin",
-    "cpu_power": ["8-pin"]
+    "cpu_power": ["8-pin", "8-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
@@ -103,6 +107,50 @@
     "2x Wi-Fi Antenna connectors",
     "3x audio jacks"
   ],
+  "display_outputs": [
+    {
+      "id": "0c2282fd-9106-4f4c-b501-c0e8372112ca",
+      "connector": "usb_c",
+      "count": 1,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a5ad7ec2-5190-41c8-bd2b-150e44729413",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 120,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    },
+    {
+      "id": "88ed10b7-a56a-4fc2-9875-41cffd5d0987",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "54139458-de65-4ff6-804e-3eb15d8b5043",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "conditions": "Requires processor with integrated graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "MSI MAG X870E GAMING PLUS MAX WIFI",
     "manufacturer": "MSI",
@@ -112,14 +160,21 @@
     "releaseYear": 2025,
     "manufacturer_color": "White"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Motherboard/MAG-X870E-GAMING-PLUS-MAX-WIFI/Specification"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
         "value": "0824142448571",
         "region": "all"
+      },
+      {
+        "type": "ean",
+        "value": "0824142448571",
+        "region": "us"
       },
       {
         "type": "ean",
@@ -137,9 +192,24 @@
         "region": "all"
       },
       {
+        "type": "mpn",
+        "value": "MAGX870EGPMW",
+        "region": "us"
+      },
+      {
+        "type": "mpn",
+        "value": "X870E GAMING PLUS MAX WIFI",
+        "region": "us"
+      },
+      {
         "type": "upc",
         "value": "824142448571",
         "region": "all"
+      },
+      {
+        "type": "upc",
+        "value": "824142448571",
+        "region": "us"
       }
     ],
     "retailer_listings": [
