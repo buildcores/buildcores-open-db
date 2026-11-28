@@ -9,21 +9,87 @@
   "panel_type": "QD-OLED",
   "response_time": 0.03,
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "21:9",
-  "connectors": "2 x HDMI 2.1                                                    1 x DisplayPort 1.4a                                                    1 x USB Type-C",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1,
+    "usb_c": 1
+  },
+  "connectors": "2 x HDMI 2.1                                                       1 x DisplayPort 1.4a                                                    1 x USB Type-C",
+  "display_inputs": [
+    {
+      "id": "4d7d7f9a-674e-4533-84e0-5b6af9ae0892",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "04e7566a-741a-4480-b802-e365b8fca2e5",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "b8437d3e-2ca2-4ddd-ac31-161df2d45312",
+      "connector": "usb_c",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "3d188bd9-60cd-4d92-bcea-7011c5cac6bb",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.67,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 812,
+    "height": 427,
+    "depth": 318
+  },
+  "dimensions_without_stand_mm": {
+    "width": 812,
+    "height": 427,
+    "depth": 130
+  },
+  "weight": {
+    "with_stand_kg": 8.8,
+    "without_stand_kg": 6.67
+  },
+  "power_consumption": {
+    "typical_w": 50,
+    "manufacturer_max_w": 90
+  },
   "max_brightness": 1000,
-  "hdr": "",
+  "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "FreeSync",
   "metadata": {
     "name": "MSI MAG 341CQP 34\" 3440x1440 175Hz QD-OLED Curved Monitor",
     "manufacturer": "MSI",
     "part_numbers": ["MAG 341CQP QD-OLED", "341CQP", "9S6-3DD04T-001"],
     "series": "",
-    "variant": "Black / Silver"
+    "variant": "Black / Silver",
+    "releaseYear": 2024,
+    "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Monitor/MAG-341CQP-QD-OLED"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

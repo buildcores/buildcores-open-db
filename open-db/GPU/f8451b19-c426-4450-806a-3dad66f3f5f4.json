@@ -4,18 +4,19 @@
   "chipset": "GeForce RTX 5060 Ti",
   "core_count": 4608,
   "core_base_clock": 2407,
-  "core_boost_clock": 2572,
+  "core_boost_clock": 2662,
   "memory": 8,
   "memory_type": "GDDR7",
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 3500,
   "memory_bus": 128,
   "tdp": 180,
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
-  "color": [],
-  "lighting": [],
+  "color": ["BLACK"],
+  "lighting": ["None"],
   "length": 291.9,
   "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_8_pin": 1
@@ -31,6 +32,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "424f4839-cb3d-4576-93ac-4ddc7f9d1708",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "3d4a3913-d03c-4c7a-a21f-96a70f88bed8",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Palit GeForce RTX™ 5060 Ti Infinity 3 16GB",
     "manufacturer": "Palit",
@@ -39,7 +60,9 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.palit.com/palit/vgapro.php?id=5495&lang=en"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

@@ -1,19 +1,22 @@
 {
   "opendb_id": "d0f7952a-f30a-4e74-b0a8-22b8d677aace",
+  "weight": 880,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "core_count": 4608,
   "core_base_clock": 2407,
-  "core_boost_clock": 2572,
+  "core_boost_clock": 2692,
   "memory": 8,
   "memory_type": "GDDR7",
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 1750,
   "memory_bus": 128,
   "tdp": 180,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x8",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 297,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "3 Fans",
   "power_connectors": {
@@ -31,14 +34,37 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "716f0a1e-6f85-45bf-aa3c-ad22f0b90077",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "05c951da-edbe-4de5-a290-1d37dd6273a4",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "PNY EPIC-X RGB GeForce RTX 5060 Ti 8GB GDDR7 Black",
     "manufacturer": "PNY",
     "part_numbers": [],
     "series": "EPIC-X RGB",
+    "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.pny.com/geforce-rtx-5060-ti-8gb-models"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

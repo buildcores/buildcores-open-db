@@ -11,6 +11,7 @@
   "memory_bus": 128,
   "tdp": 180,
   "interface": "PCIe 5.0 x8",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
   "lighting": ["None"],
   "length": 281,
@@ -39,6 +40,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "3cd13b12-6952-4f36-b06b-2948e47a1d49",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "cf35bdf3-2175-4217-816f-b3bb6afb392b",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Gigabyte GeForce RTX 5060 Ti GAMING OC V2 8G GDDR7",
     "manufacturer": "Gigabyte",

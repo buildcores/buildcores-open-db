@@ -1,5 +1,6 @@
 {
   "opendb_id": "7e7864d8-1fde-40a8-a9a1-1c4a6bb4d1c6",
+  "weight": 839,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "core_count": 4608,
@@ -13,7 +14,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 300,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -34,6 +35,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "9e8f0643-9269-4265-8c9b-def1f3f6fe22",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "f94fef6b-1038-4141-8f68-8fcd6d108bf9",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 5060 Ti 8G GAMING TRIO Black",
     "manufacturer": "MSI",

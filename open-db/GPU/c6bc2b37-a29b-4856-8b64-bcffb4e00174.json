@@ -13,8 +13,9 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["GREY", "BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 197,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 2,
   "cooling": "2 Fans",
   "power_connectors": {
@@ -33,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "45cef053-ec88-4469-86e2-ef4ea1a62d04",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d722e2d1-6050-43a1-9d78-e9c7f7fe2bf3",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI VENTUS 2X GeForce RTX 5050 8GB GDDR6 Silver / Black",
     "manufacturer": "MSI",

@@ -1,5 +1,6 @@
 {
   "opendb_id": "766971f1-2ab0-4982-8632-da2c1aaf1556",
+  "weight": 844,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti 16 GB",
   "core_count": 4608,
@@ -7,19 +8,21 @@
   "core_boost_clock": 2587,
   "memory": 16,
   "memory_type": "GDDR7",
-  "effective_memory_clock": 28000,
+  "effective_memory_clock": 2662,
   "memory_bus": 128,
   "tdp": 180,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 300,
-  "total_slot_width": 3,
+  "case_expansion_slot_width": 2,
+  "total_slot_width": 2,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,14 +34,37 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "ce5f90f8-fcc8-4415-a71f-55583c9f1767",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "a32a40be-62f2-437a-a840-60554afa8fe2",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING TRIO GeForce RTX 5060 Ti 16GB GDDR7 Black",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "GAMING TRIO",
+    "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-16G-GAMING-TRIO/Overview"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

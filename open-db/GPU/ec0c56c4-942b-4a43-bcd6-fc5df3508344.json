@@ -1,5 +1,6 @@
 {
   "opendb_id": "ec0c56c4-942b-4a43-bcd6-fc5df3508344",
+  "weight": 653,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "core_count": 3840,
@@ -25,6 +26,26 @@
     "hdmi_2_1b": 1,
     "displayport_2_1_b": 3
   },
+  "display_outputs": [
+    {
+      "id": "5612c2c3-7585-49da-9898-a6dc78d2b3aa",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "1c9ce6d9-529d-4d3a-9d5a-f85c85c859a8",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 5060 8G GAMING OC V1",
     "manufacturer": "MSI",

@@ -1,5 +1,6 @@
 {
   "opendb_id": "415ae416-282e-4abc-a15e-e0580e1ccc94",
+  "weight": 797,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "core_count": 3840,
@@ -13,7 +14,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 300,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -34,12 +35,33 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "e875db18-8cec-43b1-b4ca-3cc5d5c2af9d",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "0e8e2c8a-d7ea-4877-a83e-987b9d7892a2",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING TRIO GeForce RTX 5060 8GB GDDR7 Black",
     "manufacturer": "MSI",
     "part_numbers": ["G5060-8GT"],
     "series": "GAMING",
     "variant": "TRIO",
+    "releaseYear": 2025,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-02-10T23:05:32.802Z"
   },

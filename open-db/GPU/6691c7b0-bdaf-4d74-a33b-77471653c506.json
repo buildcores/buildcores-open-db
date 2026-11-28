@@ -13,7 +13,7 @@
   "tdp": 145,
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
-  "color": ["BLACK"],
+  "color": ["BLACK", "GREY"],
   "lighting": ["None"],
   "length": 228,
   "case_expansion_slot_width": 3,
@@ -26,6 +26,26 @@
     "hdmi_2_1b": 1,
     "displayport_2_1_b": 3
   },
+  "display_outputs": [
+    {
+      "id": "8970a3a5-a416-4771-8a77-ab3ef2171290",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d4344a06-c29b-47be-bec2-190cc735d82b",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "ASUS Dual GeForce RTX 5060 8GB GDDR7 OC Edition Advanced",
     "manufacturer": "ASUS",

@@ -13,7 +13,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 262,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -25,6 +25,26 @@
     "hdmi_2_1": 1,
     "displayport_2_1_b": 3
   },
+  "display_outputs": [
+    {
+      "id": "11bcb65d-b8c0-475b-84c6-f26712dfd871",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "d26e63d7-34ee-4b8c-98e9-6a05f64d163c",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Palit GeForce RTX 5060 White OC",
     "manufacturer": "Palit",

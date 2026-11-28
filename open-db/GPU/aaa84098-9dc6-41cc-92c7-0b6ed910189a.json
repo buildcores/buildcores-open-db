@@ -1,25 +1,28 @@
 {
   "opendb_id": "aaa84098-9dc6-41cc-92c7-0b6ed910189a",
+  "weight": 781,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti 16 GB",
   "core_count": 4608,
   "core_base_clock": 2410,
-  "core_boost_clock": 2410,
+  "core_boost_clock": 2572,
   "memory": 16,
   "memory_type": "GDDR7",
   "effective_memory_clock": 2587,
   "memory_bus": 128,
   "tdp": 180,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 247,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 3,
   "cooling": "2 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,14 +34,37 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "aa65c622-dcec-48ca-a2c4-6b52618aaba9",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "fe330a26-3c2f-4e9c-ace6-3d5ad36ad2cf",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING GeForce RTX 5060 Ti 16GB GDDR7 Black",
     "manufacturer": "MSI",
     "part_numbers": [],
     "series": "GAMING",
+    "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://in.msi.com/Graphics-Card/GeForce-RTX-5060-Ti-16G-GAMING"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

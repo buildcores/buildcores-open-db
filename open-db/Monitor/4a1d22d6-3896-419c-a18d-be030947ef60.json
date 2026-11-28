@@ -7,19 +7,83 @@
   },
   "refresh_rate": 280,
   "panel_type": "QD-OLED",
-  "color": [],
-  "lighting": [],
+  "response_time": 0.03,
+  "color": ["BLACK"],
+  "lighting": ["None"],
   "viewing_angle": "178° H x 178° V",
   "aspect_ratio": "16:9",
+  "video_outputs": {
+    "hdmi_2_1": 2,
+    "displayport_1_4a": 1,
+    "usb_c": 1
+  },
+  "display_inputs": [
+    {
+      "id": "f1a84ee8-7e84-471b-b252-9e99e46d2091",
+      "connector": "hdmi",
+      "count": 2,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "66c5a047-c424-4ce6-8bf0-d5ac81f0a5fb",
+      "connector": "displayport",
+      "count": 1,
+      "version_label": "1.4a",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "75d3d995-93a4-438a-b90b-69f40e7297a7",
+      "connector": "usb_c",
+      "count": 1,
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "switchable"
+    }
+  ],
+  "vesa_mounting": {
+    "support": "yes",
+    "options": [
+      {
+        "id": "9cbcee17-0645-497f-ac02-c01bc7a2c378",
+        "pattern": "100x100",
+        "mounted_weight_kg": 6.8,
+        "installation": "included_manufacturer_attachment"
+      }
+    ]
+  },
+  "dimensions_with_stand_mm": {
+    "width": 611.1,
+    "height": 532.84,
+    "depth": 241.9
+  },
+  "dimensions_without_stand_mm": {
+    "width": 611.1,
+    "height": 532.84,
+    "depth": 69.3
+  },
+  "weight": {
+    "with_stand_kg": 6.8,
+    "without_stand_kg": 6.8
+  },
+  "power_consumption": {
+    "typical_w": 26
+  },
   "max_brightness": 250,
-  "hdr": null,
+  "hdr": "VESA DisplayHDR True Black 400",
   "adaptive_sync": "VESA Adaptive-Sync",
   "metadata": {
     "name": "MSI MAG 272QPW QD-OLED X28 26.5\" WQHD 280Hz",
     "manufacturer": "MSI",
     "part_numbers": ["MAG 272QPW QD-OLED X28"],
     "series": "MAG",
-    "variant": "272QPW"
+    "variant": "272QPW",
+    "releaseYear": 2025,
+    "manufacturer_color": "Black"
   },
   "general_product_information": {
     "manufacturer_url": "https://www.msi.com/Monitor/MAG-272QPW-QD-OLED-X28/Specification"

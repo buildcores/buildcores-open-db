@@ -1,5 +1,6 @@
 {
   "opendb_id": "086b8706-da34-4f34-a624-d095da12e6c6",
+  "weight": 451,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060",
   "core_count": 3840,
@@ -25,6 +26,26 @@
     "hdmi_2_1b": 1,
     "displayport_2_1_b": 3
   },
+  "display_outputs": [
+    {
+      "id": "eccb8188-3650-4071-bb35-4b76e3d2315e",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "dcd89197-2940-4715-a4e5-1b25a64e1733",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 5060 8G CYCLONE OC",
     "manufacturer": "MSI",

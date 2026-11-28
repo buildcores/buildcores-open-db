@@ -13,7 +13,7 @@
   "interface": "PCIe 5.0 x16",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 292,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -34,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "06b0f703-03b8-4451-bf7e-25dbbaea8214",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "2c51e332-28aa-420f-8044-42268ab195e0",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Palit Infinity 3 GeForce RTX 5060 8GB GDDR7",
     "manufacturer": "Palit",

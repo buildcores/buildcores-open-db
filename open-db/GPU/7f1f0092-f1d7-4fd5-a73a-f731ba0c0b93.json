@@ -7,19 +7,21 @@
   "core_boost_clock": 2602,
   "memory": 8,
   "memory_type": "GDDR7",
-  "effective_memory_clock": 0,
+  "effective_memory_clock": 3500,
   "memory_bus": 128,
   "tdp": 180,
-  "interface": "PCIe x16",
+  "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 302,
+  "case_expansion_slot_width": 2,
   "total_slot_width": 4,
   "cooling": "3 Fans",
   "power_connectors": {
     "pcie_6_pin": 0,
     "pcie_8_pin": 0,
-    "pcie_12VHPWR": 0,
+    "pcie_12VHPWR": 1,
     "pcie_12V_2x6": 0
   },
   "video_outputs": {
@@ -31,11 +33,32 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "1d478f1f-a17d-4624-b242-c33c12eb018b",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "58ad789c-7b61-418c-a09f-98c8bf66c423",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Asus TUF GAMING GeForce RTX 5060 Ti 8GB GDDR7 Black / Silver",
     "manufacturer": "ASUS",
     "part_numbers": [],
     "series": "TUF Gaming",
+    "releaseYear": 2025,
     "manufacturer_color": "Black / Silver"
   },
   "general_product_information": {

@@ -1,5 +1,6 @@
 {
   "opendb_id": "2be4f5eb-d74f-44d1-9807-cab35298be73",
+  "weight": 922,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5070",
   "core_count": 6144,
@@ -11,6 +12,7 @@
   "memory_bus": 192,
   "tdp": 250,
   "interface": "PCIe 5.0 x16",
+  "frame_sync": "G-Sync",
   "color": ["BLACK"],
   "lighting": ["None"],
   "length": 325,
@@ -24,6 +26,26 @@
     "hdmi_2_1b": 1,
     "displayport_2_1_b": 3
   },
+  "display_outputs": [
+    {
+      "id": "5a5848f3-df0b-4742-801e-9c20664c9aaf",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1b",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "8234dab7-190b-491a-abe7-2e71f525b9f8",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GeForce RTX 5070 12G GAMING DUKE 3X",
     "manufacturer": "MSI",
@@ -33,7 +55,9 @@
     "releaseYear": 2025,
     "manufacturer_color": "Black"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5070-12G-GAMING-DUKE-3X/Specification"
+  },
   "identifiers": {
     "version": 1,
     "identifiers": [

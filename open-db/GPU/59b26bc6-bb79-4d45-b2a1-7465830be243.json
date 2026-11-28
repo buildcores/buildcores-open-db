@@ -1,5 +1,6 @@
 {
   "opendb_id": "59b26bc6-bb79-4d45-b2a1-7465830be243",
+  "weight": 768,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "core_count": 4608,
@@ -13,7 +14,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 247,
   "case_expansion_slot_width": 2,
   "total_slot_width": 3,
@@ -34,11 +35,32 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "3e711554-6ecf-4736-8a5b-234ff39f86e6",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "40ba523d-f4ef-4161-b9bc-adb3733eb07c",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "MSI GAMING GeForce RTX 5060 Ti 8GB GDDR7 Black",
     "manufacturer": "MSI",
     "part_numbers": ["RTX 5060 Ti 8G GAMING", "G506T-8G"],
     "series": "GAMING",
+    "releaseYear": 2025,
     "manufacturer_color": "Black",
     "last_manually_spec_verified_at": "2026-02-21T09:14:18.384Z"
   },

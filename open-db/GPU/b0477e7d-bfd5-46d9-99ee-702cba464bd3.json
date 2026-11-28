@@ -13,7 +13,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 220,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -34,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "1ac80448-6480-439b-a043-def1776a5a26",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "357be412-0a68-4b3b-a2d2-548036dc37ac",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Zotac GAMING Twin Edge GeForce RTX 5050 8GB GDDR6 Black",
     "manufacturer": "Zotac",

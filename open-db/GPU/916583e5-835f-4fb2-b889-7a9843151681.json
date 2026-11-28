@@ -13,7 +13,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["BLACK"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 292,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -34,6 +34,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "6b2415b4-287f-42e0-b4fb-e9bb5c68bbb5",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "bdcf330d-3858-435b-8b44-93af36307083",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "dp_alt_mode",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Palit Infinity 3 OC GeForce RTX 5060 Ti 8GB GDDR7 Black",
     "manufacturer": "Palit",

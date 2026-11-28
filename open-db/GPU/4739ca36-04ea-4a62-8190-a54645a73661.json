@@ -13,7 +13,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["None"],
   "length": 262.1,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -32,6 +32,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "63ac5670-15d6-46ae-9a2e-46907bdf9895",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "074e833e-f61d-40c6-b424-f756004c5f43",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Palit GeForce RTX 5060 Ti White OC 16GB",
     "manufacturer": "Palit",

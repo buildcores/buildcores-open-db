@@ -1,5 +1,6 @@
 {
   "opendb_id": "853a5e8f-a284-4ac8-be3e-23d791c8cdee",
+  "weight": 880,
   "chipset_manufacturer": "NVIDIA",
   "chipset": "GeForce RTX 5060 Ti",
   "core_count": 4608,
@@ -13,7 +14,7 @@
   "interface": "PCIe 5.0 x8",
   "frame_sync": "G-Sync",
   "color": ["WHITE"],
-  "lighting": [],
+  "lighting": ["ARGB"],
   "length": 262.1,
   "case_expansion_slot_width": 2,
   "total_slot_width": 2,
@@ -32,6 +33,26 @@
     "dvi_d": 0,
     "vga": 0
   },
+  "display_outputs": [
+    {
+      "id": "36daccc0-809c-4ffd-a17c-464b8eb5accd",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "switchable"
+    },
+    {
+      "id": "77515346-6b8b-4dac-a315-6cc26fc87016",
+      "connector": "displayport",
+      "count": 3,
+      "version_label": "2.1b",
+      "video_signal": "displayport",
+      "transport": "native",
+      "graphics_route": "switchable"
+    }
+  ],
   "metadata": {
     "name": "Palit GeForce RTX 5060 Ti White OC 8GB",
     "manufacturer": "Palit",
