@@ -9,48 +9,38 @@
     "slots": 4
   },
   "color": ["BLACK", "GREY"],
-  "lighting": [],
+  "lighting": ["None"],
   "pcie_slots": [
     {
-      "gen": "4.0",
-      "quantity": 3,
+      "gen": "5.0",
+      "quantity": 1,
       "lanes": 16
+    },
+    {
+      "gen": "3.0",
+      "quantity": 2,
+      "lanes": 1
     }
   ],
   "m2_slots": [
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 5.0 x4/x2"
     },
     {
-      "size": "2280",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x2"
     },
     {
-      "size": "2580-25110",
+      "size": "25110/22110/2580/2280",
       "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2580-25110",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
-    },
-    {
-      "size": "2280",
-      "key": "M",
-      "interface": "PCIe 4.0 x4"
+      "interface": "PCIe 4.0 x4/x2"
     }
   ],
   "storage_devices": {
-    "sata_6_gb_s": 0,
+    "sata_6_gb_s": 4,
     "sata_3_gb_s": 0,
     "u2": 0
   },
@@ -60,6 +50,7 @@
       "controller": "Realtek"
     }
   ],
+  "wireless_networking": "Wifi 6",
   "usb_headers": {
     "usb_2_0": 4,
     "usb_3_2_gen_1": 1,
@@ -67,32 +58,107 @@
     "usb_3_2_gen_2x2": 1,
     "usb_4": 0
   },
+  "fan_headers": {
+    "cpu_fan": 1,
+    "case_fan": 4,
+    "pump": 1
+  },
+  "rgb_headers": {
+    "argb_5v": 3,
+    "rgb_12v": 1
+  },
+  "front_panel_headers": {
+    "power_button": true,
+    "reset_button": true,
+    "power_led": true,
+    "hdd_led": true
+  },
   "power_connectors": {
-    "cpu_power": []
+    "main_power": "24-pin",
+    "cpu_power": ["8-pin", "4-pin"]
   },
   "ecc_support": false,
   "raid_support": true,
   "back_connect_connectors": false,
   "bios_features": {
-    "flashback": false,
+    "flashback": true,
     "clear_cmos": false
   },
   "audio": {
     "chipset": "Realtek",
     "channels": "7.1"
   },
-  "back_panel_ports": ["1 x 2.5 Gb/s Ports (Realtek)"],
+  "back_panel_ports": [
+    "1 x Q-Flash Plus button",
+    "2 x SMA antenna connectors (2T2R)",
+    "1 x HDMI port",
+    "2 x USB4® USB Type-C® ports (DisplayPort)",
+    "1 x USB 3.2 Gen 2 Type-A port (red)",
+    "3 x USB 3.2 Gen 1 ports",
+    "4 x USB 2.0/1.1 ports",
+    "1 x RJ-45 port",
+    "3 x audio jacks"
+  ],
+  "display_outputs": [
+    {
+      "id": "1a637f9a-4186-47af-b83a-28b4e5bcfd9c",
+      "connector": "usb_c",
+      "count": 2,
+      "version_label": "1.4",
+      "video_signal": "displayport",
+      "transport": "usb4",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "6a227fdf-90de-4b94-a91b-6e7eb549c5d8",
+          "resolution": {
+            "horizontalRes": 3840,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 240,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    },
+    {
+      "id": "11c18870-fd66-4abc-933a-4a5b16319103",
+      "connector": "hdmi",
+      "count": 1,
+      "version_label": "2.1",
+      "video_signal": "hdmi",
+      "transport": "native",
+      "graphics_route": "integrated",
+      "mode_claims": [
+        {
+          "id": "a85c19e1-035b-4b90-8b0e-62564ebfbeb6",
+          "resolution": {
+            "horizontalRes": 4096,
+            "verticalRes": 2160
+          },
+          "refresh_rate": 60,
+          "claim": "maximum_at_resolution",
+          "hdr": "supported",
+          "conditions": "Requires compatible CPU with integrated AMD Radeon graphics"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "name": "Gigabyte X870 GAMING WIFI6 AM5 DDR5 ATX",
     "manufacturer": "Gigabyte",
     "part_numbers": ["X870 GAMING WIFI6", "X870 GAMING WF6", "X870GAMINGWIFI6", "9MX87GW-00-10"],
     "series": "GAMING",
     "variant": "X870 WIFI6",
+    "releaseYear": 2024,
     "manufacturer_color": "Black/Grey"
   },
-  "general_product_information": {},
+  "general_product_information": {
+    "manufacturer_url": "https://www.gigabyte.com/ph/Motherboard/X870-GAMING-WIFI6-rev-1x/sp"
+  },
   "identifiers": {
-    "version": 1,
+    "version": 2,
     "identifiers": [
       {
         "type": "ean",
@@ -279,6 +345,13 @@
         "verified": false
       },
       {
+        "source": "bestbuy",
+        "channel": "us",
+        "source_product_id": "12249103",
+        "pricing_enabled": true,
+        "verified": true
+      },
+      {
         "source": "bhphoto",
         "channel": "us",
         "source_product_id": "GIX870GMPLWF",
@@ -381,7 +454,7 @@
         "channel": "us",
         "source_product_id": "N82E16813145522",
         "pricing_enabled": true,
-        "verified": false
+        "verified": true
       },
       {
         "source": "overclockers",
